@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Main authors: Darick Tong, Kat Momoi (revisions)
+     Contributors: Markus Scherer, Mark Davis, Yasuo Kida
+
+This data file contains suggested names for Emoji characters and notes.
+Both of them are the work of the people listed above. -->
+<emoji4unicode>
+<category name="1. Nature">
+<subcategory name="Weather">
+<e docomo="E63E" google="FE000" id="000" kddi="E488" name="BLACK SUN WITH RAYS" softbank="E04A" unicode="2600">
+<desc>
+clear weather for Japanese mobile carriers, usually in red color
+</desc>
+</e>
+<e docomo="E63F" google="FE001" id="001" kddi="E48D" name="CLOUD" softbank="E049" unicode="2601"/>
+<e docomo="E640" google="FE002" id="002" kddi="E48C" name="UMBRELLA WITH RAIN DROPS" softbank="E04B" unicode="2614"/>
+<e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN" softbank="E048" unicode="26C4"/>
+<e docomo="E642" google="FE004" id="004" img_from="docomo" kddi="E487" name="LIGHTNING SYMBOL" softbank="E13D">
+<desc>
+tentatively disunified from &#x26A1; U+26A1 HIGH VOLTAGE SIGN (= ARIB-9385) and &#x2607; U+2607 LIGHTNING
+</desc>
+</e>
+<e docomo="E643" google="FE005" id="005" img_from="docomo" kddi="E469" name="CYCLONE" softbank="E443">
+<desc>
+typhoon, hurricane
+</desc>
+</e>
+<e docomo="E644" google="FE006" id="006" img_from="docomo" kddi="E598" name="FOG" text_fallback="[霧]"/>
+<e docomo="E645" google="FE007" id="007" img_from="docomo" kddi="EAE8" name="CLOSED UMBRELLA" softbank="E43C"/>
+<e docomo="E6B3" google="FE008" id="008" img_from="kddi" kddi="EAF1" name="NIGHT WITH STARS" softbank="E44B"/>
+<e docomo="&gt;E63E" google="FE009" id="009" img_from="softbank" kddi="&gt;EAF4" name="SUNRISE OVER MOUNTAINS" softbank="E04D">
+<desc>
+Softbank sunrise 1
+</desc>
+</e>
+<e docomo="&gt;E63E" google="FE00A" id="00A" img_from="softbank" kddi="EAF4" name="SUNRISE" softbank="E449">
+<desc>
+Sunrise over horizon (Softbank sunrise 2)
+</desc>
+</e>
+<e google="FE00B" id="00B" img_from="kddi" kddi="E5DA" name="CITYSCAPE AT DUSK" softbank="E146" text_fallback="[夕焼け]"/>
+<e docomo="&gt;E63E" google="FE00C" id="00C" img_from="softbank" kddi="&gt;E5DA" name="SUNSET OVER BUILDINGS" softbank="E44A"/>
+<e google="FE00D" id="00D" img_from="kddi" kddi="EAF2" name="RAINBOW" softbank="E44C" text_fallback="[虹]"/>
+<e google="FE00E" id="00E" kddi="E48A" name="SNOWFLAKE" text_fallback="[雪結晶]" unicode="2744"/>
+<e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="PARTLY CLOUDY" softbank="&gt;E04A+E049" unicode="26C5"/>
+<e docomo="&gt;E6B3" google="FE010" id="010" img_from="kddi" kddi="E4BF" name="BRIDGE AT NIGHT" softbank="&gt;E44B"/>
+</subcategory>
+<subcategory name="Moon">
+<e docomo="E69C" google="FE011" id="011" img_from="docomo" kddi="E5A8" name="NEW MOON" text_fallback="●"/>
+<e docomo="E69D" google="FE012" id="012" img_from="docomo" kddi="E5A9" name="WAXING MOON" softbank="&gt;E04C"/>
+<e docomo="E69E" google="FE013" id="013" img_from="docomo" kddi="E5AA" name="HALF MOON" softbank="&gt;E04C"/>
+<e docomo="E69F" google="FE014" id="014" img_from="kddi" kddi="E486" name="CRESCENT MOON" softbank="E04C">
+<desc>
+Not unified with &#x263D; U+263D or &#x263E; U+263E. (Japanese carriers don't pay attention which quarter moon their symbols refer to.)
+</desc>
+</e>
+<e docomo="E6A0" google="FE015" id="015" img_from="docomo" name="FULL MOON" text_fallback="○"/>
+<e docomo="&gt;E69E" google="FE016" id="016" img_from="kddi" kddi="E489" name="HALF MOON WITH FACE" softbank="&gt;E04C">
+<desc>
+(KDDI's with face)
+</desc>
+</e>
+<e google="FE017" id="017" img_from="kddi" kddi="EAEF" name="MOON VIEWING CEREMONY" softbank="E446" text_fallback="[お月見]">
+<desc>
+Moon viewing (お月見)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Time">
+<e docomo="E6B7" google="FE018" id="018" img_from="docomo" name="SOON WITH RIGHT ARROW ABOVE" text_fallback="[SOON]">
+<desc>
+soon
+</desc>
+</e>
+<e docomo="E6B8" google="FE019" id="019" img_from="docomo" name="ON WITH DOUBLE POINTING ARROW ABOVE" text_fallback="[ON]"/>
+<e docomo="E6B9" google="FE01A" id="01A" img_from="docomo" name="END WITH LEFT ARROW ABOVE" text_fallback="[end]"/>
+<e docomo="E71C" google="FE01B" id="01B" kddi="E47C" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B">
+<desc>
+Sometimes animated as by KDDI/AU
+</desc>
+</e>
+<e docomo="&gt;E71C" google="FE01C" id="01C" img_from="kddi" kddi="E57B" name="HOURGLASS 2" text_fallback="[砂時計]"/>
+<e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
+<e docomo="&gt;E6BA" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="1 OCLOCK" softbank="E024"/>
+<e docomo="&gt;E6BA" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="2 OCLOCK" softbank="E025"/>
+<e docomo="&gt;E6BA" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="3 OCLOCK" softbank="E026"/>
+<e docomo="&gt;E6BA" google="FE021" id="021" img_from="softbank" kddi="&gt;E594" name="4 OCLOCK" softbank="E027"/>
+<e docomo="&gt;E6BA" google="FE022" id="022" img_from="softbank" kddi="&gt;E594" name="5 OCLOCK" softbank="E028"/>
+<e docomo="&gt;E6BA" google="FE023" id="023" img_from="softbank" kddi="&gt;E594" name="6 OCLOCK" softbank="E029"/>
+<e docomo="&gt;E6BA" google="FE024" id="024" img_from="softbank" kddi="&gt;E594" name="7 OCLOCK" softbank="E02A"/>
+<e docomo="&gt;E6BA" google="FE025" id="025" img_from="softbank" kddi="&gt;E594" name="8 OCLOCK" softbank="E02B"/>
+<e docomo="&gt;E6BA" google="FE026" id="026" img_from="softbank" kddi="&gt;E594" name="9 OCLOCK" softbank="E02C"/>
+<e docomo="&gt;E6BA" google="FE027" id="027" img_from="softbank" kddi="&gt;E594" name="10 OCLOCK" softbank="E02D"/>
+<e docomo="&gt;E6BA" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="11 OCLOCK" softbank="E02E"/>
+<e docomo="&gt;E6BA" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="12 OCLOCK" softbank="E02F"/>
+<e docomo="E6BA" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="CLOCK SYMBOL" softbank="&gt;E02D">
+<desc>
+a general clock symbol
+</desc>
+</e>
+</subcategory>
+<subcategory name="Zodiacal Symbols">
+<e docomo="E646" google="FE02B" id="02B" kddi="E48F" name="ARIES" softbank="E23F" unicode="2648"/>
+<e docomo="E647" google="FE02C" id="02C" kddi="E490" name="TAURUS" softbank="E240" unicode="2649"/>
+<e docomo="E648" google="FE02D" id="02D" kddi="E491" name="GEMINI" softbank="E241" unicode="264A"/>
+<e docomo="E649" google="FE02E" id="02E" kddi="E492" name="CANCER" softbank="E242" unicode="264B"/>
+<e docomo="E64A" google="FE02F" id="02F" kddi="E493" name="LEO" softbank="E243" unicode="264C"/>
+<e docomo="E64B" google="FE030" id="030" kddi="E494" name="VIRGO" softbank="E244" unicode="264D"/>
+<e docomo="E64C" google="FE031" id="031" kddi="E495" name="LIBRA" softbank="E245" unicode="264E"/>
+<e docomo="E64D" google="FE032" id="032" kddi="E496" name="SCORPIUS" softbank="E246" unicode="264F"/>
+<e docomo="E64E" google="FE033" id="033" kddi="E497" name="SAGITTARIUS" softbank="E247" unicode="2650"/>
+<e docomo="E64F" google="FE034" id="034" kddi="E498" name="CAPRICORN" softbank="E248" unicode="2651"/>
+<e docomo="E650" google="FE035" id="035" kddi="E499" name="AQUARIUS" softbank="E249" unicode="2652"/>
+<e docomo="E651" google="FE036" id="036" kddi="E49A" name="PISCES" softbank="E24A" unicode="2653"/>
+<e google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCUS" softbank="E24B" text_fallback="[蛇使座]">
+<desc>
+letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Places in Nature">
+<e docomo="E73F" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E"/>
+<e google="FE039" id="039" img_from="kddi" kddi="E5B3" name="GREEN EARTH" text_fallback="[地球]"/>
+<e google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]"/>
+<e docomo="&gt;E6B3" google="FE03B" id="03B" img_from="kddi" kddi="EB5F" name="MILKY WAY" softbank="&gt;E44B"/>
+</subcategory>
+<subcategory name="Plants">
+<e docomo="E741" google="FE03C" id="03C" img_from="docomo" kddi="E513" name="FOUR LEAFED CLOVER" softbank="E110">
+<desc>
+Disunified from &#x2618; U+2618 SHAMROCK
+</desc>
+</e>
+<e docomo="E743" google="FE03D" id="03D" img_from="softbank" kddi="E4E4" name="TULIP" softbank="E304"/>
+<e docomo="E746" google="FE03E" id="03E" img_from="kddi" kddi="EB7D" name="SEEDLING" softbank="&gt;E110"/>
+<e docomo="E747" google="FE03F" id="03F" img_from="kddi" kddi="E4CE" name="MAPLE LEAF" softbank="E118"/>
+<e docomo="E748" google="FE040" id="040" img_from="docomo" kddi="E4CA" name="CHERRY BLOSSOM" softbank="E030">
+<desc>
+SAKURA
+</desc>
+</e>
+<e google="FE041" id="041" img_from="kddi" kddi="E5BA" name="ROSE" softbank="E032" text_fallback="[バラ]"/>
+<e docomo="&gt;E747" google="FE042" id="042" img_from="kddi" kddi="E5CD" name="FALLEN LEAF" softbank="E119">
+<desc>
+autumn leaf
+</desc>
+</e>
+<e google="FE043" id="043" img_from="softbank" kddi="&gt;E5CD" name="LEAF FLUTTERING IN WIND" softbank="E447">
+<desc>
+animated Softbank symbol
+</desc>
+</e>
+<e google="FE044" id="044" img_from="kddi" kddi="E480" name="YOUNG GREEN LEAF" softbank="E209" text_fallback="[若葉マーク]">
+<desc>
+(In Japan) a marker for newly licensed drivers to be placed on vehicles
+</desc>
+</e>
+<e google="FE045" id="045" img_from="kddi" kddi="EA94" name="HIBISCUS" softbank="E303" text_fallback="[ハイビスカス]"/>
+<e google="FE046" id="046" img_from="softbank" kddi="E4E3" name="SUNFLOWER" softbank="E305" text_fallback="[ひまわり]"/>
+<e google="FE047" id="047" img_from="softbank" kddi="E4E2" name="PALM TREE" softbank="E307" text_fallback="[ビーチ]"/>
+<e google="FE048" id="048" img_from="kddi" kddi="EA96" name="CACTUS" softbank="E308" text_fallback="[サボテン]"/>
+<e google="FE049" id="049" img_from="softbank" name="EAR OF RICE" softbank="E444"/>
+<e google="FE04A" id="04A" img_from="kddi" kddi="EB36" name="CORN" text_fallback="[とうもろこし]"/>
+<e google="FE04B" id="04B" img_from="kddi" kddi="EB37" name="MUSHROOM" text_fallback="[キノコ]"/>
+<e google="FE04C" id="04C" img_from="kddi" kddi="EB38" name="CHESTNUT" text_fallback="[栗]"/>
+<e google="FE04D" id="04D" img_from="kddi" kddi="EB49" name="BLOSSOM" softbank="&gt;E305" text_fallback="[花]"/>
+<e docomo="&gt;E741" google="FE04E" id="04E" img_from="kddi" kddi="EB82" name="HERB" softbank="&gt;E110"/>
+</subcategory>
+<subcategory name="Fruits">
+<e docomo="E742" google="FE04F" id="04F" img_from="kddi" kddi="E4D2" name="CHERRIES" text_fallback="[さくらんぼ]"/>
+<e docomo="E744" google="FE050" id="050" img_from="kddi" kddi="EB35" name="BANANA" text_fallback="[バナナ]"/>
+<e docomo="E745" google="FE051" id="051" img_from="kddi" kddi="EAB9" name="WHITE APPLE" softbank="E345">
+<desc>
+Usually in red color
+</desc>
+</e>
+<e google="FE052" id="052" img_from="kddi" kddi="EABA" name="TANGERINE" softbank="E346" text_fallback="[みかん]">
+<desc>
+Mikan, Orange
+</desc>
+</e>
+<e google="FE053" id="053" img_from="kddi" kddi="E4D4" name="STRAWBERRY" softbank="E347" text_fallback="[イチゴ]"/>
+<e google="FE054" id="054" img_from="kddi" kddi="E4CD" name="WATERMELON" softbank="E348" text_fallback="[スイカ]"/>
+<e google="FE055" id="055" img_from="kddi" kddi="EABB" name="TOMATO" softbank="E349" text_fallback="[トマト]"/>
+<e google="FE056" id="056" img_from="kddi" kddi="EABC" name="EGGPLANT" softbank="E34A" text_fallback="[ナス]"/>
+<e google="FE057" id="057" img_from="kddi" kddi="EB32" name="MELON" text_fallback="[メロン]">
+<desc>
+also honeydew melon
+</desc>
+</e>
+<e google="FE058" id="058" img_from="kddi" kddi="EB33" name="PINEAPPLE" text_fallback="[パイナップル]"/>
+<e google="FE059" id="059" img_from="kddi" kddi="EB34" name="GRAPES" text_fallback="[ブドウ]"/>
+<e google="FE05A" id="05A" img_from="kddi" kddi="EB39" name="PEACH" text_fallback="[モモ]"/>
+<e docomo="&gt;E745" google="FE05B" id="05B" img_from="kddi" kddi="EB5A" name="BLACK APPLE" softbank="&gt;E345">
+<desc>
+Usually in green color
+</desc>
+</e>
+</subcategory>
+</category>
+<category name="2. Human/Living Things">
+<subcategory name="Facial Parts">
+<e docomo="E691" google="FE190" id="190" img_from="kddi" kddi="E5A4" name="EYES" softbank="E419"/>
+<e docomo="E692" google="FE191" id="191" img_from="kddi" kddi="E5A5" name="EAR" softbank="E41B"/>
+<e google="FE192" id="192" img_from="kddi" kddi="EAD0" name="NOSE" softbank="E41A" text_fallback="[鼻]"/>
+<e docomo="&gt;E6F9" google="FE193" id="193" img_from="kddi" kddi="EAD1" name="MOUTH" softbank="E41C"/>
+<e docomo="&gt;E728" google="FE194" id="194" img_from="kddi" kddi="EB47" name="TONGUE" softbank="&gt;E409"/>
+</subcategory>
+<subcategory name="Personal Care">
+<e docomo="E710" google="FE195" id="195" img_from="kddi" kddi="E509" name="LIPSTICK" softbank="E31C"/>
+<e google="FE196" id="196" img_from="kddi" kddi="EAA0" name="NAIL POLISH" softbank="E31D" text_fallback="[マニキュア]"/>
+<e google="FE197" id="197" img_from="kddi" kddi="E50B" name="FACE MASSAGE" softbank="E31E" text_fallback="[エステ]"/>
+<e docomo="&gt;E675" google="FE198" id="198" img_from="kddi" kddi="EAA1" name="HAIR NEEDING A CUT" softbank="E31F"/>
+<e google="FE199" id="199" img_from="kddi" kddi="EAA2" name="BARBER POLE" softbank="E320" text_fallback="[床屋]"/>
+</subcategory>
+<subcategory name="People / Personalities">
+<e docomo="E6B1" google="FE19A" id="19A" img_from="docomo" name="SILHOUETTE OF BUST"/>
+<e docomo="&gt;E6F0" google="FE19B" id="19B" img_from="softbank" kddi="E4FC" name="BOYS HEAD" softbank="E001">
+<desc>
+? Need to examine cross mapping
+</desc>
+</e>
+<e docomo="&gt;E6F0" google="FE19C" id="19C" img_from="softbank" kddi="E4FA" name="GIRLS HEAD" softbank="E002"/>
+<e docomo="&gt;E6F0" google="FE19D" id="19D" img_from="softbank" kddi="&gt;E4FC" name="MANS HEAD" softbank="E004"/>
+<e docomo="&gt;E6F0" google="FE19E" id="19E" img_from="softbank" kddi="&gt;E4FA" name="WOMANS HEAD" softbank="E005"/>
+<e google="FE19F" id="19F" img_from="kddi" kddi="E501" name="FAMILY" text_fallback="[家族]"/>
+<e google="FE1A0" id="1A0" img_from="softbank" name="CHILDREN" softbank="E428">
+<desc>
+kids
+</desc>
+</e>
+<e google="FE1A1" id="1A1" img_from="kddi" kddi="E5DD" name="POLICE" softbank="E152" text_fallback="[警官]">
+<desc>
+represents the police (Note: there is also just a police cap icon by Softbank.)
+</desc>
+</e>
+<e google="FE1A2" id="1A2" img_from="kddi" kddi="EADB" name="WOMAN WITH BUNNY EARS" softbank="E429" text_fallback="[バニー]">
+<desc>
+a showgirl?
+</desc>
+</e>
+<e google="FE1A3" id="1A3" img_from="kddi" kddi="EAE9" name="BRIDE WITH VEIL" text_fallback="[花嫁]"/>
+<e google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="BLOND PERSON" softbank="E515" text_fallback="[白人]">
+<desc>
+both male and female icons exist
+</desc>
+</e>
+<e google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH LONG MOUSTACHE" softbank="E516" text_fallback="[中国人]"/>
+<e google="FE1A6" id="1A6" img_from="kddi" kddi="EB15" name="MAN WITH TURBAN" softbank="E517" text_fallback="[インド]"/>
+<e google="FE1A7" id="1A7" img_from="kddi" kddi="EB16" name="OLDER MAN" softbank="E518" text_fallback="[おじいさん]"/>
+<e google="FE1A8" id="1A8" img_from="kddi" kddi="EB17" name="OLDER WOMAN" softbank="E519" text_fallback="[おばあさん]"/>
+<e google="FE1A9" id="1A9" img_from="kddi" kddi="EB18" name="BABY" softbank="E51A" text_fallback="[赤ちゃん]"/>
+<e google="FE1AA" id="1AA" img_from="kddi" kddi="EB19" name="CONSTRUCTION WORKER" softbank="E51B" text_fallback="[工事現場の人]">
+<desc>
+here this is male
+</desc>
+</e>
+<e google="FE1AB" id="1AB" img_from="kddi" kddi="EB1A" name="PRINCESS" softbank="E51C" text_fallback="[お姫様]"/>
+<e google="FE1AC" id="1AC" img_from="kddi" kddi="EB44" name="RED FACED OGRE" text_fallback="[なまはげ]">
+<desc>
+Oni (red faced demon)
+</desc>
+</e>
+<e google="FE1AD" id="1AD" img_from="kddi" kddi="EB45" name="LONG NOSED GOBLIN" text_fallback="[天狗]">
+<desc>
+天狗 (long-nosed goblin, braggart)
+</desc>
+</e>
+<e google="FE1AE" id="1AE" img_from="kddi" kddi="E4CB" name="GHOST" softbank="E11B" text_fallback="[お化け]">
+<desc>
+Ghost (cute)
+</desc>
+</e>
+<e google="FE1AF" id="1AF" img_from="softbank" kddi="E5BF" name="ANGEL" softbank="E04E" text_fallback="[天使]"/>
+<e google="FE1B0" id="1B0" img_from="kddi" kddi="E50E" name="EXTRATERRESTRIAL ALIEN" softbank="E10C" text_fallback="[UFO]">
+<desc>
+Alien (big eyed type), or UFO
+</desc>
+</e>
+<e google="FE1B1" id="1B1" img_from="kddi" kddi="E4EC" name="ALIEN MONSTER" softbank="E12B" text_fallback="[宇宙人]">
+<desc>
+Alien (monster type)
+</desc>
+</e>
+<e google="FE1B2" id="1B2" img_from="kddi" kddi="E4EF" name="DEVIL" softbank="E11A" text_fallback="[アクマ]">
+<desc>
+Devil (cute)
+</desc>
+</e>
+<e google="FE1B3" id="1B3" img_from="softbank" kddi="E4F8" name="SKULL" softbank="E11C" text_fallback="[ドクロ]"/>
+<e google="FE1B4" id="1B4" img_from="softbank" name="NEWSCASTER" softbank="E253"/>
+<e google="FE1B5" id="1B5" img_from="softbank" name="YEOMAN OF THE GUARD" softbank="E51E">
+<desc>
+Beefeater, British
+</desc>
+</e>
+<e google="FE1B6" id="1B6" img_from="kddi" kddi="EB1C" name="DANCER" softbank="E51F" text_fallback="[ダンス]">
+<desc>
+Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Animals">
+<e docomo="E6A1" google="FE1B7" id="1B7" img_from="kddi" kddi="E4E1" name="DOG" softbank="E052"/>
+<e docomo="E6A2" google="FE1B8" id="1B8" img_from="kddi" kddi="E4DB" name="CAT" softbank="E04F"/>
+<e docomo="E74E" google="FE1B9" id="1B9" img_from="kddi" kddi="EB7E" name="SNAIL" text_fallback="[カタツムリ]"/>
+<e docomo="E74F" google="FE1BA" id="1BA" img_from="kddi" kddi="E4E0" name="BABY CHICK" softbank="E523"/>
+<e docomo="&gt;E74F" google="FE1BB" id="1BB" img_from="kddi" kddi="EB76" name="BABY CHICK 2" softbank="&gt;E523">
+<desc>
+chick facing you
+</desc>
+</e>
+<e docomo="E750" google="FE1BC" id="1BC" img_from="kddi" kddi="E4DC" name="PENGUIN" softbank="E055"/>
+<e docomo="E751" google="FE1BD" id="1BD" img_from="docomo" kddi="&gt;E49A" name="FISH" softbank="E019"/>
+<e docomo="E754" google="FE1BE" id="1BE" img_from="kddi" kddi="E4D8" name="HORSE" softbank="E01A"/>
+<e docomo="E755" google="FE1BF" id="1BF" img_from="softbank" kddi="E4DE" name="PIG" softbank="E10B"/>
+<e google="FE1C0" id="1C0" img_from="kddi" kddi="E5C0" name="TIGER" softbank="E050" text_fallback="[トラ]"/>
+<e google="FE1C1" id="1C1" img_from="kddi" kddi="E5C1" name="BEAR" softbank="E051" text_fallback="[クマ]"/>
+<e google="FE1C2" id="1C2" img_from="softbank" kddi="E5C2" name="MOUSE" softbank="E053" text_fallback="[ネズミ]"/>
+<e google="FE1C3" id="1C3" img_from="softbank" kddi="E470" name="WHALE" softbank="E054" text_fallback="[クジラ]"/>
+<e google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109"/>
+<e google="FE1C5" id="1C5" img_from="kddi" kddi="E5C7" name="OCTOPUS" softbank="E10A" text_fallback="[タコ]"/>
+<e google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]">
+<desc>
+snail also?
+</desc>
+</e>
+<e google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]"/>
+<e docomo="&gt;E74F" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521">
+<desc>
+eagle? (original suggestion)
+</desc>
+</e>
+<e docomo="&gt;E751" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522"/>
+<e google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER" softbank="E524">
+<desc>
+Perhaps Guinea Pig
+</desc>
+</e>
+<e google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="CENTIPEDE" softbank="E525" text_fallback="[ゲジゲジ]"/>
+<e google="FE1CC" id="1CC" img_from="kddi" kddi="EB1F" name="ELEPHANT" softbank="E526" text_fallback="[ゾウ]"/>
+<e google="FE1CD" id="1CD" img_from="kddi" kddi="EB20" name="KOALA" softbank="E527" text_fallback="[コアラ]"/>
+<e google="FE1CE" id="1CE" img_from="softbank" kddi="&gt;E4D9" name="MONKEY" softbank="E528" text_fallback="[サル]"/>
+<e google="FE1CF" id="1CF" img_from="softbank" kddi="&gt;E48F" name="SHEEP" softbank="E529" text_fallback="[ヒツジ]">
+<desc>
+Note Aries (sheep) by KDDI. Zodiac
+</desc>
+</e>
+<e docomo="&gt;E6A1" google="FE1D0" id="1D0" img_from="softbank" kddi="&gt;E4E1" name="FOX" softbank="E52A"/>
+<e google="FE1D1" id="1D1" img_from="kddi" kddi="EB21" name="COW" softbank="E52B" text_fallback="[牛]"/>
+<e google="FE1D2" id="1D2" img_from="kddi" kddi="E4D7" name="RABBIT" softbank="E52C" text_fallback="[ウサギ]"/>
+<e google="FE1D3" id="1D3" img_from="softbank" kddi="EB22" name="SNAKE" softbank="E52D" text_fallback="[ヘビ]"/>
+<e google="FE1D4" id="1D4" img_from="kddi" kddi="EB23" name="CHICKEN" softbank="E52E" text_fallback="[ニワトリ]"/>
+<e google="FE1D5" id="1D5" img_from="kddi" kddi="EB24" name="BOAR" softbank="E52F" text_fallback="[イノシシ]"/>
+<e google="FE1D6" id="1D6" img_from="kddi" kddi="EB25" name="CAMEL" softbank="E530" text_fallback="[ラクダ]"/>
+<e google="FE1D7" id="1D7" img_from="kddi" kddi="E4DA" name="FROG" softbank="E531" text_fallback="[カエル]"/>
+<e docomo="&gt;E6A1" google="FE1D8" id="1D8" img_from="kddi" kddi="E4DF" name="POODLE" softbank="&gt;E052"/>
+<e docomo="&gt;E751" google="FE1D9" id="1D9" img_from="kddi" kddi="E4D3" name="BLOWFISH" softbank="&gt;E019"/>
+<e google="FE1DA" id="1DA" img_from="kddi" kddi="E4DD" name="ANT" text_fallback="[アリ]"/>
+<e docomo="&gt;E698" google="FE1DB" id="1DB" img_from="kddi" kddi="E4EE" name="DOG PRINTS" softbank="&gt;E536"/>
+<e google="FE1DC" id="1DC" img_from="kddi" kddi="E5D4" name="TURTLE" text_fallback="[カメ]"/>
+<e docomo="&gt;E74F" google="FE1DD" id="1DD" img_from="kddi" kddi="E5DB" name="HATCHING CHICK" softbank="&gt;E523">
+<desc>
+animated by KDDI
+</desc>
+</e>
+<e google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="CHINESE ZODIAC DRAGON" text_fallback="[辰]"/>
+<e google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA" text_fallback="[パンダ]"/>
+<e docomo="&gt;E755" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIGS NOSE" softbank="&gt;E10B"/>
+<e google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEY BEE" text_fallback="[ミツバチ]"/>
+<e google="FE1E2" id="1E2" img_from="kddi" kddi="EB58" name="LADYBUG" text_fallback="[てんとう虫]"/>
+<e google="FE1E3" id="1E3" img_from="google" kddi="&gt;E492" name="CRAB" text_fallback="[カニ]"/>
+</subcategory>
+</category>
+<category name="3. Faces and Smiley's">
+<subcategory name="Faces">
+<e docomo="E6F1" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059"/>
+<e docomo="&gt;E6F3" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403"/>
+<e docomo="&gt;E6F4" google="FE322" id="322" img_from="softbank" kddi="EACA" name="ASTONISHED FACE" softbank="E410">
+<desc>
+Surprise, astonishment
+</desc>
+</e>
+<e docomo="E6F2" google="FE323" id="323" img_from="softbank" kddi="&gt;EAC0" name="DISAPPOINTED FACE" softbank="E058"/>
+<e docomo="E6F4" google="FE324" id="324" img_from="kddi" kddi="E5AE" name="DIZZY FACE" softbank="&gt;E406"/>
+<e docomo="&gt;E723" google="FE325" id="325" img_from="softbank" kddi="EACB" name="EXASPERATED FACE" softbank="E40F">
+<desc>
+Exasperated, frustrated, impatient (sweating)
+</desc>
+</e>
+<e docomo="E725" google="FE326" id="326" img_from="docomo" kddi="EAC9" name="EXPRESSIONLESS FACE" softbank="E40E">
+<desc>
+KDDI has side-look animation
+</desc>
+</e>
+<e docomo="E726" google="FE327" id="327" img_from="docomo" kddi="E5C4" name="FACE WITH HEART SHAPED EYES" softbank="E106">
+<desc>
+used to indicate the state of being in love
+</desc>
+</e>
+<e docomo="&gt;E753" google="FE328" id="328" img_from="softbank" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="E404"/>
+<e docomo="E728" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="FACE WINKING WITH STUCK OUT TONGUE" softbank="E105"/>
+<e docomo="&gt;E728" google="FE32A" id="32A" img_from="softbank" kddi="&gt;E4E7" name="FACE WITH STUCK OUT TONGUE" softbank="E409">
+<desc>
+with eyelids pulled down for additional effect
+</desc>
+</e>
+<e docomo="E752" google="FE32B" id="32B" img_from="docomo" kddi="&gt;EACD" name="FACE WITH YUMMY LOOK" softbank="&gt;E056">
+<desc>
+tastes delicious
+</desc>
+</e>
+<e docomo="&gt;E726" google="FE32C" id="32C" img_from="softbank" kddi="EACF" name="FACE WITH PUCKERED LIPS" softbank="E418">
+<desc>
+kiss
+</desc>
+</e>
+<e docomo="&gt;E726" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="FACE WITH PUCKERED LIPS 2" softbank="E417">
+<desc>
+Puckered lips 2 (more forceful kiss, eyes squinting)
+</desc>
+</e>
+<e google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH A MASK" softbank="E40C" text_fallback="[風邪ひき]">
+<desc>
+Under the weather (wearing a breathing mask)
+</desc>
+</e>
+<e docomo="&gt;E72A" google="FE32F" id="32F" img_from="softbank" kddi="EAC8" name="FEVERISH FACE" softbank="E40D">
+<desc>
+red tinge around eyes
+</desc>
+</e>
+<e docomo="E6F0" google="FE330" id="330" img_from="softbank" kddi="E471" name="HAPPY FACE WITH OPEN MOUTH" softbank="E057">
+<desc>
+May unify with &#x263A; U+263A WHITE SMILING FACE
+</desc>
+</e>
+<e docomo="E722" google="FE331" id="331" img_from="docomo" kddi="&gt;E471+E5B1" name="HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT" softbank="&gt;E415+E331">
+<desc>
+with cold sweat (made it!)
+</desc>
+</e>
+<e docomo="E72A" google="FE332" id="332" img_from="docomo" kddi="&gt;EAC5" name="HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES" softbank="&gt;E40A">
+<desc>
+Happy face 3 for DoCoMo
+</desc>
+</e>
+<e docomo="E753" google="FE333" id="333" img_from="docomo" kddi="EB80" name="HAPPY FACE WITH GRIN" softbank="&gt;E404">
+<desc>
+loudly laughing face with bare teeth
+</desc>
+</e>
+<e docomo="&gt;E72A" google="FE334" id="334" img_from="kddi" kddi="EB64" name="HAPPY AND SAD FACE" softbank="E412">
+<desc>
+with tears of joy
+</desc>
+</e>
+<e docomo="&gt;E6F0" google="FE335" id="335" img_from="kddi" kddi="EACD" name="HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS" softbank="E056">
+<desc>
+smiling face
+</desc>
+</e>
+<e docomo="&gt;E6F0" google="FE336" id="336" img_from="kddi" kddi="E4FB" name="HAPPY FACE WITH WIDE MOUTH" softbank="&gt;E056">
+<desc>
+generic smiley. Possibly unify with U+263A WHITE SMILING FACE.
+</desc>
+</e>
+<e docomo="&gt;E6F0" google="FE337" id="337" img_from="softbank" kddi="&gt;EACD" name="HAPPY FACE" softbank="E414">
+<desc>
+Possibly unify with U+263A WHITE SMILING FACE
+</desc>
+</e>
+<e docomo="&gt;E6F0" google="FE338" id="338" img_from="softbank" kddi="&gt;E471" name="HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS" softbank="E415">
+<desc>
+with open mouth
+</desc>
+</e>
+<e docomo="E72E" google="FE339" id="339" img_from="docomo" kddi="EB69" name="LITTLE CRYING FACE" softbank="E413">
+<desc>
+1 or 2 tear drops
+</desc>
+</e>
+<e docomo="E72D" google="FE33A" id="33A" img_from="docomo" kddi="E473" name="LOUDLY CRYING FACE" softbank="E411">
+<desc>
+lots of tears
+</desc>
+</e>
+<e docomo="&gt;E757" google="FE33B" id="33B" img_from="softbank" kddi="EAC6" name="PALE FACE" softbank="E40B">
+<desc>
+Pale in fear
+</desc>
+</e>
+<e docomo="E72B" google="FE33C" id="33C" img_from="docomo" kddi="EAC2" name="PERSEVERING FACE" softbank="E406">
+<desc>
+failure, disappointment
+</desc>
+</e>
+<e docomo="E724" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416"/>
+<e docomo="E721" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A"/>
+<e docomo="E6F3" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="SAD FACE" softbank="E407">
+<desc>
+May unify with &#x2639; U+2639 WHITE FROWNING FACE
+</desc>
+</e>
+<e docomo="E720" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="SAD FACE 2" softbank="E403"/>
+<e docomo="E757" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="SHOCKED FACE WITH SCREAM" softbank="E107">
+<desc>
+Shocking (like Edvard Munch's &quot;The Scream&quot;)
+</desc>
+</e>
+<e docomo="&gt;E701" google="FE342" id="342" img_from="softbank" kddi="EAC4" name="SLEEPY FACE" softbank="E408"/>
+<e docomo="E72C" google="FE343" id="343" img_from="docomo" kddi="EABF" name="SMIRKY FACE" softbank="E402">
+<desc>
+half smile in some cases
+</desc>
+</e>
+<e docomo="E723" google="FE344" id="344" img_from="kddi" kddi="E5C6" name="TEARY FACE" softbank="E108">
+<desc>
+with troubled look
+</desc>
+</e>
+<e docomo="&gt;E723" google="FE345" id="345" img_from="softbank" kddi="&gt;E5C6" name="TEARY FACE 2" softbank="E401">
+<desc>
+with very troubled look
+</desc>
+</e>
+<e docomo="&gt;E72B" google="FE346" id="346" img_from="kddi" kddi="E474" name="TIRED FACE" softbank="&gt;E406">
+<desc>
+Enduring (exhausted) face
+</desc>
+</e>
+<e docomo="E729" google="FE347" id="347" img_from="docomo" kddi="E5C3" name="WINKING FACE" softbank="E405"/>
+</subcategory>
+<subcategory name="More faces (animals, persons, characters)">
+<e docomo="&gt;E6F0" google="FE348" id="348" img_from="kddi" kddi="EB61" name="CAT FACE WITH OPEN MOUTH" softbank="&gt;E057">
+<desc>
+Happy
+</desc>
+</e>
+<e docomo="&gt;E753" google="FE349" id="349" img_from="kddi" kddi="EB7F" name="CAT FACE WITH GRIN" softbank="&gt;E404">
+<desc>
+Hee hee hee
+</desc>
+</e>
+<e docomo="&gt;E72A" google="FE34A" id="34A" img_from="kddi" kddi="EB63" name="CAT FACE WITH SADNESS AND JOY" softbank="&gt;E412">
+<desc>
+Tears of joy
+</desc>
+</e>
+<e docomo="&gt;E726" google="FE34B" id="34B" img_from="kddi" kddi="EB60" name="CAT FACE WITH PUCKERED LIPS" softbank="&gt;E418">
+<desc>
+Kissing action.
+</desc>
+</e>
+<e docomo="&gt;E726" google="FE34C" id="34C" img_from="kddi" kddi="EB65" name="CAT FACE WITH HEART SHAPED EYES" softbank="&gt;E106">
+<desc>
+Heart shaped eyes (in love)
+</desc>
+</e>
+<e docomo="&gt;E72E" google="FE34D" id="34D" img_from="kddi" kddi="EB68" name="CAT FACE WITH TEAR DROP" softbank="&gt;E413">
+<desc>
+Crying (one or two tears)
+</desc>
+</e>
+<e docomo="&gt;E724" google="FE34E" id="34E" img_from="kddi" kddi="EB5E" name="CAT FACE WITH RAISED EYEBROWS AND POUTING MOUTH" softbank="&gt;E416">
+<desc>
+Pouting
+</desc>
+</e>
+<e docomo="&gt;E753" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH RAISED EYEBROWS AND PURSED LIPS" softbank="&gt;E404">
+<desc>
+Smart confidence
+</desc>
+</e>
+<e docomo="&gt;E6F3" google="FE350" id="350" img_from="kddi" kddi="EB66" name="CAT FACE WITH LOWERED EYEBROWS AND OPEN MOUTH" softbank="&gt;E403">
+<desc>
+Surprised
+</desc>
+</e>
+<e docomo="&gt;E72F" google="FE351" id="351" img_from="kddi" kddi="EAD7" name="FACE WITH NO GOOD GESTURE" softbank="E423">
+<desc>
+No good
+</desc>
+</e>
+<e docomo="&gt;E70B" google="FE352" id="352" img_from="softbank" kddi="EAD8" name="FACE WITH OK GESTURE" softbank="E424">
+<desc>
+OK (arms raised, making an &quot;O&quot;) . A person or a cat
+</desc>
+</e>
+<e google="FE353" id="353" img_from="softbank" kddi="EAD9" name="BOWING FACE" softbank="E426" text_fallback="m(_ _)m">
+<desc>
+Very truly sorry, a cat or person
+</desc>
+</e>
+<e google="FE354" id="354" img_from="kddi" kddi="EB50" name="SEE NO EVIL MONKEY" text_fallback="(/_＼)"/>
+<e google="FE355" id="355" img_from="kddi" kddi="EB51" name="SPEAK NO EVIL MONEY" text_fallback="(・×・)"/>
+<e google="FE356" id="356" img_from="kddi" kddi="EB52" name="HEAR NO EVIL MONKEY" text_fallback="|(・×・)|"/>
+<e google="FE357" id="357" img_from="kddi" kddi="EB85" name="PERSON RAISING ONE HAND" softbank="&gt;E012" text_fallback="(^-^)/">
+<desc>
+act of raising a hand
+</desc>
+</e>
+<e google="FE358" id="358" img_from="kddi" kddi="EB86" name="PERSON RAISING BOTH HANDS" softbank="E427" text_fallback="＼(^o^)／">
+<desc>
+banzai, raising both hands
+</desc>
+</e>
+<e docomo="&gt;E6F3" google="FE359" id="359" img_from="kddi" kddi="EB87" name="PERSON FROWNING" softbank="&gt;E403">
+<desc>
+dejected
+</desc>
+</e>
+<e docomo="&gt;E6F1" google="FE35A" id="35A" img_from="kddi" kddi="EB88" name="PERSON MAKING POUTING FACE" softbank="&gt;E416">
+<desc>
+cute pouting face
+</desc>
+</e>
+<e google="FE35B" id="35B" img_from="kddi" kddi="EAD2" name="PERSON WITH FOLDED HANDS" softbank="E41D" text_fallback="(&gt;人&lt;)">
+<desc>
+&quot;Sorry&quot; or &quot;Please&quot;
+</desc>
+</e>
+<e google="FE35C" id="35C" img_from="google" in_proposal="no" name="COOL FACE" text_fallback="B-)">
+<desc>
+&quot;smiley&quot; with sun glasses
+</desc>
+</e>
+<e google="FE35D" id="35D" img_from="google" in_proposal="no" name="HUG FACE" text_fallback="＼(^-^)／">
+<desc>
+give me a hug
+</desc>
+</e>
+<e google="FE35E" id="35E" img_from="google" in_proposal="no" name="GEEK" text_fallback="8-|">
+<desc>
+Geek/nerd with glasses
+</desc>
+</e>
+<e google="FE35F" id="35F" img_from="google" in_proposal="no" name="THINKING" text_fallback="[考え中]">
+<desc>
+Thinking, pondering, etc.
+</desc>
+</e>
+<e google="FE360" id="360" img_from="google" in_proposal="no" name="BOUNCING HAPPY" text_fallback="[やったー]">
+<desc>
+Happy and bouncing up and down.
+</desc>
+</e>
+<e google="FE361" id="361" img_from="google" in_proposal="no" name="FACE WITH ROLLING EYES" text_fallback="[クラクラ]">
+<desc>
+Face with rolling eyes
+</desc>
+</e>
+<e google="FE362" id="362" img_from="google" in_proposal="no" name="FACE WITH SLANTED MOUTH" text_fallback="[ムムム]">
+<desc>
+&quot;smiley&quot; with a slant mouth
+</desc>
+</e>
+<e google="FE363" id="363" img_from="google" in_proposal="no" name="FACE WITH UNBALANCED EYES" text_fallback="[エッ?]">
+<desc>
+Huh &quot;smiley&quot; with unbalanced eyes
+</desc>
+</e>
+<e google="FE364" id="364" img_from="google" in_proposal="no" name="UPSIDE DOWN FACE" text_fallback="[逆立ち]">
+<desc>
+&quot;smiley&quot; upsidedown
+</desc>
+</e>
+<e google="FE365" id="365" img_from="google" in_proposal="no" name="INJURED FACE" text_fallback="[怪我をした顔]"/>
+<e google="FE366" id="366" img_from="google" in_proposal="no" name="NERVOUS FACE" text_fallback="[心配した顔]"/>
+<e google="FE367" id="367" img_from="google" in_proposal="no" name="SYMPATHETIC FACE" text_fallback="[同情した顔]"/>
+<e google="FE368" id="368" img_from="google" in_proposal="no" name="THIN FACE" text_fallback="[細い顔]"/>
+<e google="FE369" id="369" img_from="google" in_proposal="no" name="ROBOT" text_fallback="[ロボット]"/>
+</subcategory>
+</category>
+<category name="4. Artifacts">
+<subcategory name="Buildings / Common Places">
+<e docomo="E663" google="FE4B0" id="4B0" img_from="docomo" kddi="E4AB" name="BLACK HOUSE" softbank="E036">
+<desc>
+similar to English &quot;house&quot; = &quot;building&quot;
+</desc>
+</e>
+<e docomo="&gt;E663" google="FE4B1" id="4B1" img_from="kddi" kddi="EB09" name="HOME" softbank="&gt;E036">
+<desc>
+similar to English &quot;home&quot; = &quot;where one belongs to&quot;
+</desc>
+</e>
+<e docomo="E664" google="FE4B2" id="4B2" img_from="softbank" kddi="E4AD" name="OFFICE BUILDING" softbank="E038"/>
+<e docomo="E665" google="FE4B3" id="4B3" img_from="docomo" kddi="E5DE" name="POST OFFICE" softbank="E153">
+  <ann>x (postal mark - 3012)</ann>
+  <ann>* 〒 U+3012 POSTAL MARK = ARIB-9108</ann>
+</e>
+<e docomo="E666" google="FE4B4" id="4B4" img_from="docomo" kddi="E5DF" name="HOSPITAL" softbank="E155" unicode="26E8">
+<desc>
+(Note: may be controversial in Islamic and Jewish cultures)
+</desc>
+</e>
+<e docomo="E667" google="FE4B5" id="4B5" img_from="softbank" kddi="E4AA" name="BANK" softbank="E14D">
+<desc>
+may contain &quot;BK&quot; or &quot;Bank&quot; letters; related to &#x26FB; U+26FB = ARIB-9144
+</desc>
+</e>
+<e docomo="E668" google="FE4B6" id="4B6" img_from="docomo" kddi="E4A3" name="ATM" softbank="E154"/>
+<e docomo="E669" google="FE4B7" id="4B7" img_from="docomo" kddi="EA81" name="HOTEL" softbank="E158">
+<desc>
+a building with &quot;H&quot;; related to U+1F157 = ARIB-9129
+</desc>
+</e>
+<e docomo="&gt;E669+E6EF" google="FE4B8" id="4B8" img_from="kddi" kddi="EAF3" name="LOVE HOTEL" softbank="E501">
+<desc>
+Note: usually Japanese love hotel
+</desc>
+</e>
+<e docomo="E66A" google="FE4B9" id="4B9" img_from="kddi" kddi="E4A4" name="CONVENIENCE STORE" softbank="E156">
+<desc>
+Convenience Store (stylized &quot;24&quot; to indicate 24 hours)
+</desc>
+</e>
+<e docomo="E73E" google="FE4BA" id="4BA" img_from="docomo" kddi="EA80" name="SCHOOL" softbank="E157">
+<desc>
+related to U+3246 = ARIB-9110
+</desc>
+</e>
+<e google="FE4BB" id="4BB" img_from="softbank" kddi="E5BB" name="CHAPEL" softbank="E037" text_fallback="[教会]"/>
+<e google="FE4BC" id="4BC" img_from="softbank" kddi="E5CF" name="FOUNTAIN" softbank="E121" text_fallback="[噴水]"/>
+<e google="FE4BD" id="4BD" img_from="kddi" kddi="EAF6" name="DEPARTMENT STORE" softbank="E504" text_fallback="[デパート]"/>
+<e google="FE4BE" id="4BE" img_from="kddi" kddi="EAF7" name="JAPANESE CASTLE" softbank="E505" text_fallback="[城]"/>
+<e google="FE4BF" id="4BF" img_from="kddi" kddi="EAF8" name="WESTERN CASTLE" softbank="E506" text_fallback="[城]"/>
+<e google="FE4C0" id="4C0" img_from="softbank" kddi="EAF9" name="FACTORY" softbank="E508" text_fallback="[工場]"/>
+<e docomo="&gt;E661" google="FE4C1" id="4C1" kddi="E4A9" name="ANCHOR" softbank="&gt;E202" unicode="2693">
+<desc>
+nautical term, harbor (on maps)
+</desc>
+</e>
+<e docomo="&gt;E74B" google="FE4C2" id="4C2" img_from="kddi" kddi="E4BD" name="RED LANTERN" softbank="&gt;E30B">
+<desc>
+Japanese izakaya restaurant for drinking, characteristic red lantern
+</desc>
+</e>
+</subcategory>
+<subcategory name="Landmarks / Famous Places">
+<e docomo="E740" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" softbank="E03B"/>
+<e google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" softbank="E509" text_fallback="[東京タワー]"/>
+<e google="FE4C5" id="4C5" img_from="softbank" name="BOUTIQUE 109" softbank="E50A">
+<desc>
+department store by Tokyu Group for young girls/women
+</desc>
+</e>
+<e google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D"/>
+<e google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="MAP OF JAPAN" text_fallback="[地図]"/>
+<e google="FE4C8" id="4C8" img_from="kddi" kddi="EB6C" name="MOYAI" text_fallback="[モアイ]">
+<desc>
+Japanese stone statue like Moai on Eastern Islands, famous one in Shibuya, Tokyo
+</desc>
+</e>
+</subcategory>
+<subcategory name="Tools">
+<e docomo="E718" google="FE4C9" id="4C9" img_from="docomo" kddi="E587" name="WRENCH" text_fallback="[レンチ]"/>
+<e google="FE4CA" id="4CA" img_from="kddi" kddi="E5CB" name="HAMMER" softbank="E116" text_fallback="[ハンマー]">
+<desc>
+mallet
+</desc>
+</e>
+<e google="FE4CB" id="4CB" img_from="kddi" kddi="E581" name="NUT AND BOLT" text_fallback="[ネジ]"/>
+</subcategory>
+<subcategory name="Clothing / Wearables">
+<e docomo="&gt;E699" google="FE4CC" id="4CC" img_from="kddi" kddi="E5B7" name="MENS SHOE" softbank="&gt;E007"/>
+<e docomo="E699" google="FE4CD" id="4CD" img_from="kddi" kddi="EB2B" name="SNEAKER" softbank="E007"/>
+<e docomo="E69A" google="FE4CE" id="4CE" img_from="docomo" kddi="E4FE" name="GLASSES" text_fallback="[メガネ]"/>
+<e docomo="E70E" google="FE4CF" id="4CF" img_from="docomo" kddi="E5B6" name="T-SHIRT" softbank="E006"/>
+<e docomo="E711" google="FE4D0" id="4D0" img_from="docomo" kddi="EB77" name="JEANS" text_fallback="[ジーンズ]"/>
+<e docomo="E71A" google="FE4D1" id="4D1" img_from="kddi" kddi="E5C9" name="CROWN" softbank="E10E">
+<desc>
+Not the same as &#x2655; U+2655 WHITE CHESS KING
+</desc>
+</e>
+<e docomo="&gt;E71A" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="EMBLEM" softbank="E031">
+<desc>
+a crown like symbol?
+</desc>
+</e>
+<e google="FE4D3" id="4D3" img_from="kddi" kddi="EA93" name="NECKTIE" softbank="E302" text_fallback="[ネクタイ]"/>
+<e google="FE4D4" id="4D4" img_from="kddi" kddi="EA9E" name="LADIES HAT" softbank="E318" text_fallback="[帽子]"/>
+<e google="FE4D5" id="4D5" img_from="kddi" kddi="EB6B" name="DRESS" softbank="E319" text_fallback="[ドレス]"/>
+<e docomo="E674" google="FE4D6" id="4D6" img_from="docomo" kddi="E51A" name="HIGH HEELED SHOE" softbank="E13E"/>
+<e docomo="&gt;E674" google="FE4D7" id="4D7" img_from="softbank" kddi="&gt;E51A" name="MULE" softbank="E31A">
+<desc>
+woman's sandal with open toe, slipper
+</desc>
+</e>
+<e google="FE4D8" id="4D8" img_from="kddi" kddi="EA9F" name="LONG BOOTS" softbank="E31B" text_fallback="[ブーツ]">
+<desc>
+usually woman's boots
+</desc>
+</e>
+<e google="FE4D9" id="4D9" img_from="kddi" kddi="EAA3" name="KIMONO" softbank="E321" text_fallback="[着物]"/>
+<e google="FE4DA" id="4DA" img_from="kddi" kddi="EAA4" name="BIKINI" softbank="E322" text_fallback="[ビキニ]"/>
+<e docomo="&gt;E70E" google="FE4DB" id="4DB" img_from="kddi" kddi="E50D" name="WOMANS CLOTHES" softbank="&gt;E006"/>
+</subcategory>
+<subcategory name="Money">
+<e docomo="E70F" google="FE4DC" id="4DC" img_from="docomo" kddi="E504" name="PURSE" text_fallback="[財布]"/>
+<e docomo="E715" google="FE4DD" id="4DD" img_from="kddi" kddi="E4C7" name="PRIZE BAG" softbank="E12F">
+<desc>
+a bag with a dollar or yen sign
+</desc>
+</e>
+<e google="FE4DE" id="4DE" img_from="softbank" name="CURRENCY EXCHANGE" softbank="E149" text_fallback="[$￥]">
+<desc>
+$ and ¥ signs, exchange rate
+</desc>
+</e>
+<e google="FE4DF" id="4DF" img_from="softbank" kddi="E5DC" name="STOCK MARKET" softbank="E14A" text_fallback="[株価]">
+<desc>
+stock market, stock prices
+</desc>
+</e>
+<e docomo="&gt;E715" google="FE4E0" id="4E0" img_from="kddi" kddi="E579" name="DOLLAR SYMBOL" softbank="&gt;E12F">
+<desc>
+disunified from $ U+0024 DOLLAR SIGN
+</desc>
+</e>
+<e google="FE4E1" id="4E1" img_from="kddi" kddi="E57C" name="CREDIT CARD" text_fallback="[カード]"/>
+<e docomo="E6D6" google="FE4E2" id="4E2" img_from="kddi" kddi="E57D" name="BILL WITH YEN SIGN" text_fallback="￥">
+<desc>
+a check, a sign indicating &quot;not free&quot;
+</desc>
+</e>
+<e docomo="&gt;E715" google="FE4E3" id="4E3" img_from="kddi" kddi="E585" name="DOLLAR BILL" softbank="&gt;E12F"/>
+<e google="FE4E4" id="4E4" img_from="kddi" kddi="EB5B" name="MONEY WITH WINGS" text_fallback="[飛んでいくお金]"/>
+</subcategory>
+<subcategory name="Flags">
+<e google="FE4E5" id="4E5" img_from="kddi" kddi="E4CC" name="FLAG OF JAPAN" softbank="E50B" text_fallback="[日の丸]">
+<desc>
+Japan, also a national holiday (in red)
+</desc>
+</e>
+<e google="FE4E6" id="4E6" img_from="kddi" kddi="E573" name="FLAG OF THE USA" softbank="E50C" text_fallback="[USA]">
+<desc>
+U.S.A.
+</desc>
+</e>
+<e google="FE4E7" id="4E7" img_from="kddi" kddi="EAFA" name="FLAG OF FRANCE" softbank="E50D" text_fallback="[フランス]">
+<desc>
+France
+</desc>
+</e>
+<e google="FE4E8" id="4E8" img_from="kddi" kddi="EB0E" name="FLAG OF GERMANY" softbank="E50E" text_fallback="[ドイツ]">
+<desc>
+Germany
+</desc>
+</e>
+<e google="FE4E9" id="4E9" img_from="kddi" kddi="EB0F" name="FLAG OF ITALY" softbank="E50F" text_fallback="[イタリア]">
+<desc>
+Italy
+</desc>
+</e>
+<e google="FE4EA" id="4EA" img_from="kddi" kddi="EB10" name="FLAG OF UNITED KINGDOM" softbank="E510" text_fallback="[イギリス]">
+<desc>
+U.K.
+</desc>
+</e>
+<e google="FE4EB" id="4EB" img_from="kddi" kddi="E5D5" name="FLAG OF SPAIN" softbank="E511" text_fallback="[スペイン]">
+<desc>
+Spain
+</desc>
+</e>
+<e google="FE4EC" id="4EC" img_from="kddi" kddi="E5D6" name="FLAG OF RUSSIA" softbank="E512" text_fallback="[ロシア]">
+<desc>
+Russia
+</desc>
+</e>
+<e google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="FLAG OF CHINA" softbank="E513" text_fallback="[中国]">
+<desc>
+China
+</desc>
+</e>
+<e google="FE4EE" id="4EE" img_from="kddi" kddi="EB12" name="FLAG OF SOUTH KOREA" softbank="E514" text_fallback="[韓国]">
+<desc>
+South Korea
+</desc>
+</e>
+</subcategory>
+<subcategory name="Miscellaneous Things">
+<e docomo="E681" google="FE4EF" id="4EF" img_from="docomo" kddi="E515" name="CAMERA" softbank="E008"/>
+<e docomo="E682" google="FE4F0" id="4F0" img_from="docomo" kddi="E49C" name="HANDBAG" softbank="E323"/>
+<e docomo="E6AD" google="FE4F1" id="4F1" img_from="docomo" name="POUCH" text_fallback="[ふくろ]"/>
+<e docomo="E713" google="FE4F2" id="4F2" img_from="docomo" kddi="E512" name="BELL" softbank="E325"/>
+<e docomo="E714" google="FE4F3" id="4F3" img_from="docomo" name="DOOR" text_fallback="[ドア]"/>
+<e google="FE4F4" id="4F4" img_from="kddi" kddi="E4F5" name="POOP" softbank="E05A" text_fallback="[ウンチ]"/>
+<e google="FE4F5" id="4F5" img_from="kddi" kddi="E50A" name="PISTOL" softbank="E113" text_fallback="[ピストル]">
+<desc>
+action genre
+</desc>
+</e>
+<e google="FE4F6" id="4F6" img_from="kddi" kddi="E47B" name="FIRE" softbank="E11D" text_fallback="[炎]"/>
+<e google="FE4F7" id="4F7" img_from="kddi" kddi="EA8F" name="FORTUNE TELLING" softbank="&gt;E23E" text_fallback="[占い]">
+<desc>
+crystal ball, zodiacs
+</desc>
+</e>
+<e google="FE4F8" id="4F8" img_from="softbank" kddi="&gt;EA8F" name="CONSTELLATION" softbank="E23E" text_fallback="[占い]">
+<desc>
+zodiacs, fortune telling
+</desc>
+</e>
+<e docomo="&gt;E677" google="FE4F9" id="4F9" img_from="kddi" kddi="E57E" name="VIDEO CAMERA" softbank="&gt;E03D">
+<desc>
+handycam, videocam
+</desc>
+</e>
+<e google="FE4FA" id="4FA" img_from="kddi" kddi="E57F" name="KNIFE" text_fallback="[包丁]">
+<desc>
+chef's knife, cooking knife
+</desc>
+</e>
+<e docomo="&gt;E6FB" google="FE4FB" id="4FB" img_from="kddi" kddi="E583" name="FLASHLIGHT" text_fallback="[懐中電灯]"/>
+<e google="FE4FC" id="4FC" img_from="kddi" kddi="E584" name="BATTERY" text_fallback="[電池]"/>
+<e docomo="&gt;E70A" google="FE4FD" id="4FD" img_from="kddi" kddi="E55F" name="SCROLL" text_fallback="[スクロール]">
+<desc>
+scroll a window on a computer
+</desc>
+</e>
+<e google="FE4FE" id="4FE" img_from="kddi" kddi="E589" name="ELECTRIC PLUG" text_fallback="[コンセント]">
+<desc>
+wall outlet
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE4FF" id="4FF" img_from="kddi" kddi="E565" name="BOOK WITH HORIZONTAL FILL" softbank="&gt;E148">
+<desc>
+green colored book (closed)
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE500" id="500" img_from="kddi" kddi="E566" name="BLACK BOOK" softbank="&gt;E148">
+<desc>
+blue colored book (closed)
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE501" id="501" img_from="kddi" kddi="E567" name="WHITE BOOK" softbank="&gt;E148">
+<desc>
+orange colored book (closed)
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE502" id="502" img_from="kddi" kddi="E568" name="BOOK WITH VERICAL FILL" softbank="&gt;E148">
+<desc>
+vertical closed book
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE503" id="503" img_from="kddi" kddi="E56F" name="BOOKS" softbank="&gt;E148">
+<desc>
+multiple, a stack of books
+</desc>
+</e>
+<e google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME PLATE" text_fallback="[名札]"/>
+</subcategory>
+<subcategory name="Bath / Bathroom">
+<e docomo="&gt;E6F7" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F">
+<desc>
+a person taking a bath
+</desc>
+</e>
+<e docomo="E66E" google="FE506" id="506" img_from="docomo" kddi="E4A5" name="RESTROOM" softbank="E151"/>
+<e docomo="&gt;E66E" google="FE507" id="507" img_from="softbank" kddi="&gt;E4A5" name="TOILET" softbank="E140"/>
+<e docomo="&gt;E66E" google="FE508" id="508" img_from="softbank" kddi="&gt;E4A5" name="WATER CLOSET" softbank="E309"/>
+</subcategory>
+<subcategory name="Medical">
+<e google="FE509" id="509" img_from="kddi" kddi="E510" name="SYRINGE" softbank="E13B" text_fallback="[注射]">
+<desc>
+with blood
+</desc>
+</e>
+<e google="FE50A" id="50A" img_from="kddi" kddi="EA9A" name="CAPSULE PILL" softbank="E30F" text_fallback="[薬]">
+<desc>
+medicine, cold medicine
+</desc>
+</e>
+<e google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="BLOOD TYPE A" softbank="E532" text_fallback="[A]"/>
+<e google="FE50C" id="50C" img_from="kddi" kddi="EB27" name="BLOOD TYPE B" softbank="E533" text_fallback="[B]"/>
+<e google="FE50D" id="50D" img_from="kddi" kddi="EB29" name="BLOOD TYPE AB" softbank="E534" text_fallback="[AB]"/>
+<e google="FE50E" id="50E" img_from="kddi" kddi="EB28" name="BLOOD TYPE O" softbank="E535" text_fallback="[O]"/>
+</subcategory>
+<subcategory name="Celebration / Holidays">
+<e docomo="E684" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314"/>
+<e docomo="E685" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="PRESENT" softbank="E112"/>
+<e docomo="E686" google="FE511" id="511" img_from="kddi" kddi="E5A0" name="BIRTHDAY CAKE" softbank="E34B">
+<desc>
+birthday
+</desc>
+</e>
+<e docomo="E6A4" google="FE512" id="512" img_from="kddi" kddi="E4C9" name="CHRISTMAS TREE" softbank="E033"/>
+<e google="FE513" id="513" img_from="kddi" kddi="EAF0" name="SANTA CLAUS" softbank="E448" text_fallback="[サンタ]"/>
+<e google="FE514" id="514" img_from="kddi" kddi="E5D9" name="TWO JAPANESE FLAGS" softbank="E143" text_fallback="[祝日]">
+<desc>
+national holiday in Japan
+</desc>
+</e>
+<e google="FE515" id="515" img_from="kddi" kddi="E5CC" name="FIREWORKS" softbank="E117" text_fallback="[花火]"/>
+<e google="FE516" id="516" img_from="kddi" kddi="EA9B" name="BALLOON" softbank="E310" text_fallback="[風船]"/>
+<e google="FE517" id="517" img_from="kddi" kddi="EA9C" name="PARTY POPPER" softbank="E312" text_fallback="[クラッカー]"/>
+<e google="FE518" id="518" img_from="kddi" kddi="EAE3" name="PINE DECORATION" softbank="E436" text_fallback="[門松]">
+<desc>
+Japanese New Year's Door Decoration (門松)
+</desc>
+</e>
+<e google="FE519" id="519" img_from="kddi" kddi="EAE4" name="GIRLS DOLLS FESTIVAL" softbank="E438" text_fallback="[ひな祭り]">
+<desc>
+雛祭り: Japanese Hinamatsuri
+</desc>
+</e>
+<e google="FE51A" id="51A" img_from="kddi" kddi="EAE5" name="GRADUATION CAP" softbank="E439" text_fallback="[卒業式]">
+<desc>
+graduation ceremony
+</desc>
+</e>
+<e google="FE51B" id="51B" img_from="kddi" kddi="EAE6" name="SCHOOL SATCHEL" softbank="E43A" text_fallback="[ランドセル]">
+<desc>
+school entrance ceremony,
+</desc>
+</e>
+<e google="FE51C" id="51C" img_from="kddi" kddi="EAE7" name="CARP STREAMER" softbank="E43B" text_fallback="[こいのぼり]"/>
+<e google="FE51D" id="51D" img_from="kddi" kddi="EAEB" name="JAPANESE SPARKLER" softbank="E440" text_fallback="[線香花火]">
+<desc>
+firecracker
+</desc>
+</e>
+<e google="FE51E" id="51E" img_from="kddi" kddi="EAED" name="WIND CHIME" softbank="E442" text_fallback="[風鈴]">
+<desc>
+Wind chime, wind bell (風鈴)
+</desc>
+</e>
+<e google="FE51F" id="51F" img_from="kddi" kddi="EAEE" name="JACK O LANTERN" softbank="E445" text_fallback="[ハロウィン]">
+<desc>
+Halloween
+</desc>
+</e>
+<e google="FE520" id="520" img_from="kddi" kddi="E46F" name="DECORATIVE CONFETTI BALL" text_fallback="[オメデトウ]">
+<desc>
+Ornamental bag or decorative ball that opens up
+</desc>
+</e>
+<e google="FE521" id="521" img_from="kddi" kddi="EB3D" name="TANABATA TREE" text_fallback="[七夕]">
+<desc>
+Tanabata tree with wishing papers (七夕笹飾り)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Communication">
+<e docomo="E65A" google="FE522" id="522" img_from="docomo" kddi="E59B" name="PAGER" text_fallback="[ポケベル]"/>
+<e docomo="E687" google="FE523" id="523" img_from="docomo" kddi="E596" name="TELEPHONE" softbank="E009">
+<desc>
+May unify with &#x260E; U+260E BLACK TELEPHONE (= ARIB-9391)
+</desc>
+</e>
+<e docomo="&gt;E687" google="FE524" id="524" img_from="kddi" kddi="E51E" name="TELEPHONE 2" softbank="&gt;E009"/>
+<e docomo="E688" google="FE525" id="525" img_from="docomo" kddi="E588" name="MOBILE PHONE" softbank="E00A"/>
+<e docomo="E6CE" google="FE526" id="526" img_from="docomo" kddi="EB08" name="PHONE WITH ARROW" softbank="E104">
+<desc>
+making a phone call
+</desc>
+</e>
+<e docomo="E689" google="FE527" id="527" img_from="docomo" kddi="EA92" name="MEMO" softbank="E301"/>
+<e docomo="E6D0" google="FE528" id="528" img_from="kddi" kddi="E520" name="FAX" softbank="E00B"/>
+<e docomo="E6D3" google="FE529" id="529" kddi="E521" name="ENVELOPE" softbank="&gt;E103" unicode="2709">
+<desc>
+mail
+</desc>
+</e>
+<e docomo="&gt;E6CF" google="FE52A" id="52A" img_from="kddi" kddi="E591" name="ENVELOPE 2" softbank="&gt;E103">
+<desc>
+Mail (with cartoon movement marks)
+</desc>
+</e>
+<e docomo="E6CF" google="FE52B" id="52B" img_from="docomo" kddi="EB62" name="ENVELOPE WITH ARROW" softbank="E103">
+<desc>
+sending mail
+</desc>
+</e>
+<e docomo="&gt;E665" google="FE52C" id="52C" img_from="softbank" kddi="E51B" name="MAILBOX" softbank="E101">
+<desc>
+a letter box, mail reception
+</desc>
+</e>
+<e docomo="&gt;E665" google="FE52D" id="52D" img_from="kddi" kddi="EB0A" name="MAILBOX 2" softbank="&gt;E101"/>
+<e docomo="&gt;E665" google="FE52E" id="52E" img_from="softbank" kddi="&gt;E51B" name="POSTBOX" softbank="E102">
+<desc>
+mailbox for sending mail
+</desc>
+</e>
+<e google="FE52F" id="52F" img_from="softbank" kddi="&gt;E511" name="MEGAPHONE" softbank="E142" text_fallback="[スピーカ]">
+<desc>
+also used for sound volume, notification
+</desc>
+</e>
+<e google="FE530" id="530" img_from="softbank" kddi="E511" name="LOUD SPEAKER" softbank="E317" text_fallback="[スピーカ]">
+<desc>
+also used as a megaphone
+</desc>
+</e>
+<e google="FE531" id="531" img_from="kddi" kddi="E4A8" name="SATELLITE ANTENNA" softbank="E14B" text_fallback="[アンテナ]">
+<desc>
+position indicator, news
+</desc>
+</e>
+<e google="FE532" id="532" img_from="kddi" kddi="E4FD" name="DIALOG BUBBLE" text_fallback="[フキダシ]">
+<desc>
+comic book conversation bubble
+</desc>
+</e>
+<e google="FE533" id="533" img_from="kddi" kddi="E592" name="OUTBOX TRAY" text_fallback="[送信BOX]"/>
+<e google="FE534" id="534" img_from="kddi" kddi="E593" name="INBOX TRAY" text_fallback="[受信BOX]"/>
+<e docomo="&gt;E685" google="FE535" id="535" img_from="kddi" kddi="E51F" name="PACKAGE" softbank="&gt;E112"/>
+</subcategory>
+<subcategory name="Office">
+<e docomo="E6AE" google="FE536" id="536" kddi="EB03" name="BLACK NIB" text_fallback="[ペン]" unicode="2712">
+<desc>
+editing, Docomo has WHITE NIB. Tentatively unified with BLACK NIB
+</desc>
+</e>
+<e docomo="E6B2" google="FE537" id="537" img_from="docomo" name="CHAIR" softbank="E11F" text_fallback="[いす]"/>
+<e docomo="E716" google="FE538" id="538" img_from="docomo" kddi="E5B8" name="PC" softbank="E00C"/>
+<e docomo="E719" google="FE539" id="539" kddi="E4A1" name="PENCIL" softbank="&gt;E301" unicode="270F">
+<desc>
+Note: pencil directions are varied among Japanese carriers, could be solid or white
+</desc>
+</e>
+<e docomo="E730" google="FE53A" id="53A" img_from="docomo" kddi="E4A0" name="PAPERCLIP" text_fallback="[クリップ]"/>
+<e docomo="&gt;E682" google="FE53B" id="53B" img_from="kddi" kddi="E5CE" name="BRIEFCASE" softbank="E11E"/>
+<e google="FE53C" id="53C" img_from="kddi" kddi="E582" name="FLOPPY DISK" softbank="E316" text_fallback="[フロッピー]">
+<desc>
+also MD mini disc
+</desc>
+</e>
+<e google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK 2" softbank="&gt;E316" text_fallback="[フロッピー]"/>
+<e docomo="E675" google="FE53E" id="53E" kddi="E516" name="BLACK SCISSORS" softbank="E313" unicode="2702"/>
+<e google="FE53F" id="53F" img_from="kddi" kddi="E560" name="PUSHPIN" text_fallback="φ"/>
+<e docomo="&gt;E689" google="FE540" id="540" img_from="kddi" kddi="E561" name="DOCUMENT" softbank="&gt;E301"/>
+<e docomo="&gt;E689" google="FE541" id="541" img_from="kddi" kddi="E569" name="DOCUMENT 2" softbank="&gt;E301"/>
+<e google="FE542" id="542" img_from="kddi" kddi="E563" name="CALENDAR" text_fallback="[カレンダー]"/>
+<e google="FE543" id="543" img_from="kddi" kddi="E58F" name="FILE FOLDER" text_fallback="[フォルダ]">
+<desc>
+closed folder
+</desc>
+</e>
+<e google="FE544" id="544" img_from="kddi" kddi="E590" name="FILE FOLDER 2" text_fallback="[フォルダ]">
+<desc>
+open folder
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE545" id="545" img_from="kddi" kddi="E56B" name="NOTEBOOK" softbank="&gt;E148"/>
+<e docomo="E683" google="FE546" id="546" img_from="kddi" kddi="E49F" name="NOTEBOOK 2" softbank="E148">
+<desc>
+open book, open notebook
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE547" id="547" img_from="kddi" kddi="E49D" name="NOTEBOOK 3" softbank="&gt;E148"/>
+<e docomo="&gt;E689" google="FE548" id="548" img_from="kddi" kddi="E564" name="CLIPBOARD" softbank="&gt;E301"/>
+<e google="FE549" id="549" img_from="kddi" kddi="E56A" name="TEAR OFF CALENDAR" text_fallback="[カレンダー]"/>
+<e google="FE54A" id="54A" img_from="kddi" kddi="E574" name="CHART" softbank="&gt;E14A" text_fallback="[グラフ]">
+<desc>
+bar graph
+</desc>
+</e>
+<e google="FE54B" id="54B" img_from="kddi" kddi="E575" name="LINE GRAPH CHART 1" softbank="&gt;E14A" text_fallback="[グラフ]">
+<desc>
+ascending chart
+</desc>
+</e>
+<e google="FE54C" id="54C" img_from="kddi" kddi="E576" name="LINE GRAPH CHART 2" text_fallback="[グラフ]">
+<desc>
+descending chart
+</desc>
+</e>
+<e docomo="&gt;E683" google="FE54D" id="54D" img_from="kddi" kddi="E56C" name="ROLODEX" softbank="&gt;E148"/>
+<e google="FE54E" id="54E" img_from="kddi" kddi="E56D" name="THUMBTACK" text_fallback="[画びょう]"/>
+<e docomo="&gt;E683" google="FE54F" id="54F" img_from="kddi" kddi="E56E" name="LEDGER" softbank="&gt;E148">
+<desc>
+real estate original record book, financial books,
+</desc>
+</e>
+<e google="FE550" id="550" img_from="kddi" kddi="E570" name="RULER 1" text_fallback="[定規]">
+<desc>
+straight line ruler
+</desc>
+</e>
+<e google="FE551" id="551" img_from="kddi" kddi="E4A2" name="RULER 2" text_fallback="[三角定規]">
+<desc>
+triangular ruler
+</desc>
+</e>
+<e docomo="&gt;E689" google="FE552" id="552" img_from="kddi" kddi="EB0B" name="BOOKMARK TABS" softbank="&gt;E301"/>
+</subcategory>
+<subcategory name="Relic">
+<e docomo="E698" google="FE553" id="553" img_from="docomo" kddi="EB2A" name="FOOT PRINTS" softbank="E536">
+<desc>
+single or multiple foot prints
+</desc>
+</e>
+</subcategory>
+</category>
+<category name="5. Activities/Work/Entertainment">
+<subcategory name="Sports">
+<e docomo="E652" google="FE7D0" id="7D0" img_from="docomo" name="RUNNING SHIRT WITH SASH">
+<desc>
+any sports; a sash across a running shirt to identify runner's number and team
+</desc>
+</e>
+<e docomo="E653" google="FE7D1" id="7D1" img_from="docomo" kddi="E4BA" name="BASEBALL" softbank="E016" unicode="26BE"/>
+<e docomo="E654" google="FE7D2" id="7D2" img_from="kddi" kddi="E599" name="GOLF" softbank="E014">
+<desc>
+Golf (DoCoMo is golf club, others are the green and flag); related to U+26F3 = ARIB-9126
+</desc>
+</e>
+<e docomo="E655" google="FE7D3" id="7D3" img_from="docomo" kddi="E4B7" name="TENNIS" softbank="E015">
+<desc>
+racket and ball, or player
+</desc>
+</e>
+<e docomo="E656" google="FE7D4" id="7D4" img_from="docomo" kddi="E4B6" name="SOCCER BALL" softbank="E018" unicode="26BD">
+<desc>
+soccer ball, or player
+</desc>
+</e>
+<e docomo="E657" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKI" softbank="E013" unicode="26F7">
+<desc>
+ski and boots, or ski and poles
+</desc>
+</e>
+<e docomo="E658" google="FE7D6" id="7D6" img_from="docomo" kddi="E59A" name="BASKETBALL" softbank="E42A">
+<desc>
+ball and hoop
+</desc>
+</e>
+<e docomo="E659" google="FE7D7" id="7D7" img_from="kddi" kddi="E4B9" name="CHECKERED FLAG" softbank="E132">
+<desc>
+motor sports, goal
+</desc>
+</e>
+<e docomo="E712" google="FE7D8" id="7D8" img_from="docomo" kddi="E4B8" name="SNOWBOARDER" text_fallback="[スノボ]">
+<desc>
+snow boarding
+</desc>
+</e>
+<e docomo="E733" google="FE7D9" id="7D9" img_from="kddi" kddi="E46B" name="RUNNER" softbank="E115">
+<desc>
+running, marathon. track and fields
+</desc>
+</e>
+<e docomo="&gt;E712" google="FE7DA" id="7DA" img_from="kddi" kddi="EB41" name="SURFER" softbank="E017">
+<desc>
+surfing
+</desc>
+</e>
+<e google="FE7DB" id="7DB" img_from="kddi" kddi="E5D3" name="TROPHY" softbank="E131" text_fallback="[トロフィー]">
+<desc>
+a gold cup
+</desc>
+</e>
+<e docomo="&gt;E754" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE RACING" softbank="E134"/>
+<e google="FE7DD" id="7DD" img_from="kddi" kddi="E4BB" name="FOOTBALL" softbank="E42B" text_fallback="[フットボール]"/>
+<e google="FE7DE" id="7DE" img_from="kddi" kddi="EADE" name="SWIMMER" softbank="E42D" text_fallback="[水泳]">
+<desc>
+swimming
+</desc>
+</e>
+</subcategory>
+<subcategory name="Transportation">
+<e docomo="E65B" google="FE7DF" id="7DF" img_from="docomo" kddi="E4B5" name="TRAIN" softbank="E01E"/>
+<e docomo="&gt;E65C" google="FE7E0" id="7E0" img_from="kddi" kddi="E5BC" name="SUBWAY" softbank="E434">
+<desc>
+(DoCoMo's is an &quot;M&quot; for metro)
+</desc>
+</e>
+<e docomo="E65C" google="FE7E1" id="7E1" img_from="docomo" kddi="&gt;E5BC" name="METRO SIGN" softbank="&gt;E434">
+<desc>
+tentatively disunified from SUBWAY SYMBOLS FROM KDDI and Softbank
+</desc>
+</e>
+<e docomo="E65D" google="FE7E2" id="7E2" img_from="docomo" kddi="&gt;E4B0" name="BULLET TRAIN" softbank="E435"/>
+<e docomo="&gt;E65D" google="FE7E3" id="7E3" img_from="softbank" kddi="E4B0" name="BULLET TRAIN 2" softbank="E01F">
+<desc>
+front facing for SoftBank, used in different phone sets
+</desc>
+</e>
+<e docomo="E65E" google="FE7E4" id="7E4" img_from="docomo" kddi="E4B1" name="CAR" softbank="E01B">
+<desc>
+sedan
+</desc>
+</e>
+<e docomo="E65F" google="FE7E5" id="7E5" img_from="softbank" kddi="&gt;E4B1" name="CAR 2" softbank="E42E">
+<desc>
+wagon
+</desc>
+</e>
+<e docomo="E660" google="FE7E6" id="7E6" img_from="docomo" kddi="E4AF" name="BUS" softbank="E159"/>
+<e google="FE7E7" id="7E7" img_from="kddi" kddi="E4A7" name="BUS STOP" softbank="E150" text_fallback="[バス停]"/>
+<e docomo="E661" google="FE7E8" id="7E8" img_from="docomo" kddi="EA82" name="SHIP" softbank="E202"/>
+<e docomo="E662" google="FE7E9" id="7E9" kddi="E4B3" name="AIRPLANE" softbank="E01D" unicode="2708"/>
+<e docomo="E6A3" google="FE7EA" id="7EA" img_from="docomo" kddi="E4B4" name="SAILBOAT" softbank="E01C" unicode="26F5"/>
+<e docomo="E71D" google="FE7EB" id="7EB" img_from="docomo" kddi="E4AE" name="BICYCLE" softbank="E136"/>
+<e google="FE7EC" id="7EC" img_from="kddi" kddi="EB6D" name="STATION" softbank="E039" text_fallback="[駅]">
+<desc>
+train, subway station
+</desc>
+</e>
+<e google="FE7ED" id="7ED" img_from="kddi" kddi="E5C8" name="ROCKET" softbank="E10D" text_fallback="[ロケット]"/>
+<e docomo="&gt;E6A3" google="FE7EE" id="7EE" img_from="softbank" kddi="&gt;E4B4" name="SPEEDBOAT" softbank="E135">
+<desc>
+motorboat racing
+</desc>
+</e>
+<e docomo="&gt;E65E" google="FE7EF" id="7EF" img_from="softbank" kddi="&gt;E4B1" name="TAXI" softbank="E15A">
+<desc>
+a car with light sign on the roof
+</desc>
+</e>
+<e docomo="&gt;E733" google="FE7F0" id="7F0" img_from="kddi" kddi="EB72" name="WALKER" softbank="E201">
+<desc>
+walking
+</desc>
+</e>
+<e google="FE7F1" id="7F1" img_from="kddi" kddi="E4B2" name="TRUCK" softbank="E42F" text_fallback="[トラック]"/>
+<e google="FE7F2" id="7F2" img_from="kddi" kddi="EADF" name="FIRE ENGINE" softbank="E430" text_fallback="[消防車]"/>
+<e google="FE7F3" id="7F3" img_from="kddi" kddi="EAE0" name="AMBULANCE" softbank="E431" text_fallback="[救急車]"/>
+<e google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="PATROL CAR" softbank="E432" text_fallback="[パトカー]"/>
+</subcategory>
+<subcategory name="Driving">
+<e docomo="E66B" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="GAS STATION" softbank="E03A">
+  <desc>related to U+26FD = ARIB-9146</desc>
+</e>
+<e docomo="E66C" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="PARKING" softbank="E14F">
+<desc>
+&quot;P&quot; sign
+</desc>
+</e>
+<e docomo="E66D" google="FE7F7" id="7F7" img_from="docomo" kddi="E46A" name="TRAFFIC LIGHT" softbank="E14E"/>
+<e google="FE7F8" id="7F8" img_from="kddi" kddi="E5D7" name="CONSTRUCTION" softbank="E137" text_fallback="[工事中]"/>
+<e google="FE7F9" id="7F9" img_from="kddi" kddi="EB73" name="PATROL CARS REVOLVING LIGHT" softbank="&gt;E432" text_fallback="[パトカー]"/>
+</subcategory>
+<subcategory name="Recreation">
+<e docomo="E6F7" google="FE7FA" id="7FA" kddi="E4BC" name="HOT SPRINGS" softbank="E123" unicode="2668">
+<desc>
+onsen
+</desc>
+</e>
+<e google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="CAMP" softbank="E122" text_fallback="[キャンプ]"/>
+<e docomo="E679" google="FE7FC" id="7FC" img_from="docomo" name="AMUSEMENT PARK">
+<desc>
+(Rocking horse)
+</desc>
+</e>
+<e google="FE7FD" id="7FD" img_from="kddi" kddi="E46D" name="AMUSEMENT PARK 2" softbank="E124" text_fallback="[観覧車]">
+<desc>
+Ferris wheel
+</desc>
+</e>
+<e google="FE7FE" id="7FE" img_from="kddi" kddi="EAE2" name="ROLLER COASTER" softbank="E433" text_fallback="[ジェットコースター]"/>
+<e docomo="&gt;E751" google="FE7FF" id="7FF" img_from="kddi" kddi="EB42" name="FISHING" softbank="&gt;E019">
+<desc>
+fishing pole and fish
+</desc>
+</e>
+</subcategory>
+<subcategory name="Entertainment">
+<e docomo="E676" google="FE800" id="800" img_from="docomo" kddi="E503" name="MICROPHONE" softbank="E03C">
+<desc>
+karaoke, microphone
+</desc>
+</e>
+<e docomo="E677" google="FE801" id="801" img_from="docomo" kddi="E517" name="MOVIES" softbank="E03D">
+<desc>
+movie projector, video camera
+</desc>
+</e>
+<e docomo="&gt;E677" google="FE802" id="802" img_from="softbank" kddi="&gt;E517" name="MOVIE THEATER" softbank="E507">
+<desc>
+movie projector
+</desc>
+</e>
+<e docomo="E67A" google="FE803" id="803" img_from="docomo" kddi="E508" name="HEADPHONE" softbank="E30A">
+<desc>
+music
+</desc>
+</e>
+<e docomo="E67B" google="FE804" id="804" img_from="kddi" kddi="E59C" name="ART" softbank="E502">
+<desc>
+painter's pallet
+</desc>
+</e>
+<e docomo="E67C" google="FE805" id="805" img_from="docomo" kddi="EAF5" name="BLACK SILK HAT" softbank="E503">
+<desc>
+drama, performing arts, theater
+</desc>
+</e>
+<e docomo="E67D" google="FE806" id="806" img_from="docomo" kddi="E59E" name="EVENT" text_fallback="[イベント]">
+<desc>
+a circus tent
+</desc>
+</e>
+<e docomo="E67E" google="FE807" id="807" img_from="docomo" kddi="E49E" name="TICKET" softbank="E125">
+<desc>
+used to indicate an event
+</desc>
+</e>
+<e docomo="E6AC" google="FE808" id="808" img_from="kddi" kddi="E4BE" name="MOVIE SHOOTING CLAPBOARD" softbank="E324"/>
+<e google="FE809" id="809" img_from="kddi" kddi="E59D" name="PERFORMING ARTS" softbank="&gt;E503" text_fallback="[演劇]"/>
+</subcategory>
+<subcategory name="Games">
+<e docomo="E68B" google="FE80A" id="80A" img_from="docomo" kddi="E4C6" name="VIDEO GAME" text_fallback="[ゲーム]">
+<desc>
+video game controller
+</desc>
+</e>
+<e google="FE80B" id="80B" img_from="kddi" kddi="E5D1" name="MAHJONG" softbank="E12D" text_fallback="[麻雀]"/>
+<e google="FE80C" id="80C" img_from="kddi" kddi="E4C5" name="BULLS EYE" softbank="E130" text_fallback="[的中]">
+<desc>
+archery, hitting the target
+</desc>
+</e>
+<e google="FE80D" id="80D" img_from="kddi" kddi="E46E" name="SLOT MACHINE" softbank="E133" text_fallback="[777]">
+<desc>
+777
+</desc>
+</e>
+<e google="FE80E" id="80E" img_from="kddi" kddi="EADD" name="BILLIARDS" softbank="E42C" text_fallback="[ビリヤード]"/>
+<e google="FE80F" id="80F" img_from="kddi" kddi="E4C8" name="A DIE" text_fallback="[サイコロ]"/>
+<e google="FE810" id="810" img_from="kddi" kddi="EB43" name="BOWLING" text_fallback="[ボーリング]"/>
+<e google="FE811" id="811" img_from="kddi" kddi="EB6E" name="JAPANESE FLOWER PLAYING CARDS" text_fallback="[花札]">
+<desc>
+flower cards (花札)
+</desc>
+</e>
+<e google="FE812" id="812" img_from="kddi" kddi="EB6F" name="JOKER CARD" text_fallback="[ジョーカー]"/>
+</subcategory>
+<subcategory name="Music">
+<e docomo="E6F6" google="FE813" id="813" img_from="kddi" kddi="E5BE" name="MUSICAL NOTE" softbank="E03E">
+<desc>
+music, being in good mood. disunified from U+266A due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e docomo="E6FF" google="FE814" id="814" img_from="docomo" kddi="E505" name="MULTIPLE MUSICAL NOTES" softbank="E326">
+<desc>
+dancing notes, mood, melody. (tentatively disunified from &#x266B; U+266B)
+</desc>
+</e>
+<e google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040"/>
+<e google="FE816" id="816" img_from="kddi" kddi="E506" name="GUITAR" softbank="E041" text_fallback="[ギター]"/>
+<e google="FE817" id="817" img_from="kddi" kddi="EB40" name="PIANO" text_fallback="[ピアノ]"/>
+<e google="FE818" id="818" img_from="kddi" kddi="EADC" name="TRUMPET" softbank="E042" text_fallback="[トランペット]"/>
+<e google="FE819" id="819" img_from="kddi" kddi="E507" name="VIOLIN" text_fallback="[バイオリン]"/>
+<e docomo="&gt;E6FF" google="FE81A" id="81A" img_from="kddi" kddi="EACC" name="MUSICAL SCORE" softbank="&gt;E326">
+<desc>
+tentatively disunified from U+1D11E
+</desc>
+</e>
+<e google="FE81B" id="81B" img_from="softbank" name="START SINGING SYMBOL" softbank="E12C" text_fallback="[グラフ]">
+<desc>
+indicator for the 1st vocal part of a song
+</desc>
+</e>
+</subcategory>
+<subcategory name="Media">
+<e docomo="E68A" google="FE81C" id="81C" img_from="docomo" kddi="E502" name="TV" softbank="E12A"/>
+<e docomo="E68C" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="CD" softbank="E126"/>
+<e docomo="&gt;E68C" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127"/>
+<e google="FE81F" id="81F" img_from="kddi" kddi="E5B9" name="RADIO" softbank="E128" text_fallback="[ラジオ]"/>
+<e google="FE820" id="820" img_from="kddi" kddi="E580" name="VIDEO TAPE" softbank="E129" text_fallback="[ビデオ]"/>
+<e google="FE821" id="821" img_from="softbank" kddi="&gt;E511" name="SPEAKER" softbank="E141" text_fallback="[スピーカ]">
+<desc>
+sound
+</desc>
+</e>
+<e google="FE822" id="822" img_from="kddi" kddi="E58B" name="NEWSPAPER" text_fallback="[新聞]"/>
+</subcategory>
+<subcategory name="Romance">
+<e docomo="E6F9" google="FE823" id="823" img_from="docomo" kddi="E4EB" name="KISS MARK" softbank="E003">
+<desc>
+lips
+</desc>
+</e>
+<e docomo="E717" google="FE824" id="824" img_from="docomo" kddi="EB78" name="LOVE LETTER" softbank="&gt;E103+E328"/>
+<e docomo="E71B" google="FE825" id="825" img_from="docomo" kddi="E514" name="RING" softbank="E034">
+<desc>
+jewelry
+</desc>
+</e>
+<e docomo="&gt;E71B" google="FE826" id="826" img_from="softbank" kddi="&gt;E514" name="GEM STONE" softbank="E035"/>
+<e docomo="&gt;E6F9" google="FE827" id="827" img_from="softbank" kddi="E5CA" name="KISS" softbank="E111">
+<desc>
+two people kissing
+</desc>
+</e>
+<e google="FE828" id="828" img_from="kddi" kddi="EA95" name="BOUQUET" softbank="E306" text_fallback="[花束]"/>
+<e docomo="&gt;E6ED" google="FE829" id="829" img_from="kddi" kddi="EADA" name="COUPLE" softbank="E425"/>
+<e google="FE82A" id="82A" img_from="softbank" kddi="&gt;E5BB" name="WEDDING" softbank="E43D">
+<desc>
+wedding chapel
+</desc>
+</e>
+</subcategory>
+<subcategory name="Phone Specific">
+<e docomo="E6DF" google="FE82B" id="82B" img_from="docomo" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]">
+<desc>
+two loops
+</desc>
+</e>
+<e docomo="E6E0" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210">
+<desc>
+pound key, number sign
+</desc>
+</e>
+<e docomo="E6E1" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="MOBILE Q" text_fallback="[Q]">
+<desc>
+Q mark
+</desc>
+</e>
+<e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYPAD 1" softbank="E21C" unicode="0031+20E3">
+<desc>
+Unify with ASCII 1 (U+0031) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E3" google="FE82F" id="82F" img_from="docomo" kddi="E523" name="KEYPAD 2" softbank="E21D" unicode="0032+20E3">
+<desc>
+Unify with ASCII 2 (U+0032) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E4" google="FE830" id="830" img_from="docomo" kddi="E524" name="KEYPAD 3" softbank="E21E" unicode="0033+20E3">
+<desc>
+Unify with ASCII 3 (U+0033) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E5" google="FE831" id="831" img_from="docomo" kddi="E525" name="KEYPAD 4" softbank="E21F" unicode="0034+20E3">
+<desc>
+Unify with ASCII 4 (U+0034) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E6" google="FE832" id="832" img_from="docomo" kddi="E526" name="KEYPAD 5" softbank="E220" unicode="0035+20E3">
+<desc>
+Unify with ASCII 5 (U+0035) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E7" google="FE833" id="833" img_from="docomo" kddi="E527" name="KEYPAD 6" softbank="E221" unicode="0036+20E3">
+<desc>
+Unify with ASCII 6 (U+0036) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E8" google="FE834" id="834" img_from="docomo" kddi="E528" name="KEYPAD 7" softbank="E222" unicode="0037+20E3">
+<desc>
+Unify with ASCII 7 (U+0037) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6E9" google="FE835" id="835" img_from="docomo" kddi="E529" name="KEYPAD 8" softbank="E223" unicode="0038+20E3">
+<desc>
+Unify with ASCII 8 (U+0038) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6EA" google="FE836" id="836" img_from="docomo" kddi="E52A" name="KEYPAD 9" softbank="E224" unicode="0039+20E3">
+<desc>
+Unify with ASCII 9 (U+0039) + (U+20E3)
+</desc>
+</e>
+<e docomo="E6EB" google="FE837" id="837" img_from="docomo" kddi="E5AC" name="KEYPAD 0" softbank="E225" unicode="0030+20E3">
+<desc>
+Unify with ASCII 0 (U+0030) + (U+20E3)
+</desc>
+</e>
+<e google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">
+<desc>
+Cellular reception (good reception)
+</desc>
+</e>
+<e google="FE839" id="839" img_from="kddi" kddi="EA90" name="VIBRATION MODE" softbank="E250" text_fallback="[マナーモード]">
+<desc>
+manner mode (in Japan)
+</desc>
+</e>
+<e google="FE83A" id="83A" img_from="kddi" kddi="EA91" name="PHONE OFF" softbank="E251" text_fallback="[ケータイOFF]"/>
+<e google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD 10" text_fallback="[10]"/>
+<e google="FE83C" id="83C" img_from="kddi" kddi="E586" name="PDC" text_fallback="[PDC]">
+<desc>
+Personal Digital Cellular Symbol/Logo. ?
+</desc>
+</e>
+</subcategory>
+</category>
+<category name="6. Foods">
+<subcategory name="Prepared Food">
+<e docomo="E673" google="FE960" id="960" img_from="docomo" kddi="E4D6" name="HAMBURGER" softbank="E120">
+<desc>
+Fast food place
+</desc>
+</e>
+<e docomo="E749" google="FE961" id="961" img_from="docomo" kddi="E4D5" name="RICE BALL" softbank="E342">
+<desc>
+onigiri
+</desc>
+</e>
+<e docomo="E74A" google="FE962" id="962" img_from="docomo" kddi="E4D0" name="SHORTCAKE" softbank="E046"/>
+<e docomo="E74C" google="FE963" id="963" img_from="docomo" kddi="E5B4" name="STEAMING BOWL" softbank="E340">
+<desc>
+ramen noodles, rice donburi
+</desc>
+</e>
+<e docomo="E74D" google="FE964" id="964" img_from="docomo" kddi="EAAF" name="BREAD" softbank="E339"/>
+<e google="FE965" id="965" img_from="kddi" kddi="E4D1" name="COOKING" softbank="E147" text_fallback="[フライパン]">
+<desc>
+frying pan, cooking utensil
+</desc>
+</e>
+<e google="FE966" id="966" img_from="kddi" kddi="EAB0" name="SOFT ICE CREAM" softbank="E33A" text_fallback="[ソフトクリーム]"/>
+<e google="FE967" id="967" img_from="kddi" kddi="EAB1" name="FRENCH FRIES" softbank="E33B" text_fallback="[ポテト]"/>
+<e google="FE968" id="968" img_from="kddi" kddi="EAB2" name="DUMPLING" softbank="E33C" text_fallback="[だんご]">
+<desc>
+mochi balls on a stick
+</desc>
+</e>
+<e google="FE969" id="969" img_from="kddi" kddi="EAB3" name="RICE CRACKER" softbank="E33D" text_fallback="[せんべい]">
+<desc>
+Japanese rice cracker (senbei)
+</desc>
+</e>
+<e docomo="&gt;E74C" google="FE96A" id="96A" img_from="kddi" kddi="EAB4" name="COOKED RICE" softbank="E33E">
+<desc>
+a bowl of rice
+</desc>
+</e>
+<e google="FE96B" id="96B" img_from="kddi" kddi="EAB5" name="SPAGHETTI" softbank="E33F" text_fallback="[パスタ]"/>
+<e google="FE96C" id="96C" img_from="kddi" kddi="EAB6" name="CURRY AND RICE" softbank="E341" text_fallback="[カレー]">
+<desc>
+Japanese style curry
+</desc>
+</e>
+<e google="FE96D" id="96D" img_from="kddi" kddi="EAB7" name="SEAFOOD CASSEROLE" softbank="E343" text_fallback="[おでん]">
+<desc>
+seafood hotchpotch, oden
+</desc>
+</e>
+<e google="FE96E" id="96E" img_from="kddi" kddi="EAB8" name="SUSHI" softbank="E344" text_fallback="[すし]">
+<desc>
+nigiri sushi
+</desc>
+</e>
+<e google="FE96F" id="96F" img_from="kddi" kddi="EABD" name="LUNCHBOX" softbank="E34C" text_fallback="[弁当]">
+<desc>
+obento
+</desc>
+</e>
+<e google="FE970" id="970" img_from="kddi" kddi="EABE" name="POT OF FOOD" softbank="E34D" text_fallback="[鍋]">
+<desc>
+hot pot, nabe
+</desc>
+</e>
+<e google="FE971" id="971" img_from="kddi" kddi="EAEA" name="SHAVED ICE" softbank="E43F" text_fallback="[カキ氷]"/>
+<e google="FE972" id="972" img_from="kddi" kddi="E4C4" name="MEAT ON A BONE" text_fallback="[肉]">
+<desc>
+food
+</desc>
+</e>
+<e docomo="&gt;E643" google="FE973" id="973" img_from="kddi" kddi="E4ED" name="FISH CAKE WITH SWIRL DESIGN" text_fallback="[なると]">
+<desc>
+topping for ramen noodles
+</desc>
+</e>
+<e google="FE974" id="974" img_from="kddi" kddi="EB3A" name="ROASTED SWEET POTATO" text_fallback="[やきいも]">
+<desc>
+焼き芋: Japanese yakiimo
+</desc>
+</e>
+<e google="FE975" id="975" img_from="kddi" kddi="EB3B" name="PIZZA" text_fallback="[ピザ]"/>
+<e google="FE976" id="976" img_from="kddi" kddi="EB3C" name="TURKEY LEG" text_fallback="[チキン]"/>
+<e google="FE977" id="977" img_from="kddi" kddi="EB4A" name="ICE CREAM" text_fallback="[アイスクリーム]"/>
+<e google="FE978" id="978" img_from="kddi" kddi="EB4B" name="DONUT" text_fallback="[ドーナツ]"/>
+<e google="FE979" id="979" img_from="kddi" kddi="EB4C" name="COOKIE" text_fallback="[クッキー]"/>
+<e google="FE97A" id="97A" img_from="kddi" kddi="EB4D" name="CHOCOLATE BAR" text_fallback="[チョコ]"/>
+<e google="FE97B" id="97B" img_from="kddi" kddi="EB4E" name="CANDY" text_fallback="[キャンディ]"/>
+<e google="FE97C" id="97C" img_from="kddi" kddi="EB4F" name="LOLLYPOP" text_fallback="[キャンディ]"/>
+<e google="FE97D" id="97D" img_from="kddi" kddi="EB56" name="CUSTARD" text_fallback="[プリン]"/>
+<e google="FE97E" id="97E" img_from="kddi" kddi="EB59" name="HONEY POT" text_fallback="[ハチミツ]"/>
+<e google="FE97F" id="97F" img_from="kddi" kddi="EB70" name="FRIED SHRIMP" text_fallback="[エビフライ]"/>
+<e docomo="E66F" google="FE980" id="980" img_from="kddi" kddi="E4AC" name="FORK AND KNIFE" softbank="E043">
+<desc>
+restaurant, meal
+</desc>
+</e>
+</subcategory>
+<subcategory name="Drink">
+<e docomo="E670" google="FE981" id="981" kddi="E597" name="HOT BEVERAGE" softbank="E045" unicode="2615">
+<desc>
+café, coffee
+</desc>
+</e>
+<e docomo="E671" google="FE982" id="982" img_from="docomo" kddi="E4C2" name="COCKTAIL GLASS" softbank="E044">
+<desc>
+martini, bar
+</desc>
+</e>
+<e docomo="E672" google="FE983" id="983" img_from="docomo" kddi="E4C3" name="BEER" softbank="E047"/>
+<e docomo="E71E" google="FE984" id="984" img_from="docomo" kddi="EAAE" name="TEA CUP" softbank="E338"/>
+<e docomo="E74B" google="FE985" id="985" img_from="docomo" kddi="EA97" name="SAKE BOTTLE AND CUP" softbank="E30B">
+<desc>
+sake
+</desc>
+</e>
+<e docomo="E756" google="FE986" id="986" img_from="docomo" kddi="E4C1" name="WINE GLASS" softbank="&gt;E044">
+<desc>
+wine
+</desc>
+</e>
+<e docomo="&gt;E672" google="FE987" id="987" img_from="kddi" kddi="EA98" name="CLINKING BEER MUGS" softbank="E30C">
+<desc>
+cheers
+</desc>
+</e>
+<e docomo="&gt;E671" google="FE988" id="988" img_from="kddi" kddi="EB3E" name="TROPICAL DRINK" softbank="&gt;E044"/>
+</subcategory>
+</category>
+<category name="7. Abstract Concepts">
+<subcategory name="Arrows">
+<e docomo="E678" google="FEAF0" id="AF0" kddi="E555" name="NORTH EAST ARROW" softbank="E236" unicode="2197"/>
+<e docomo="E696" google="FEAF1" id="AF1" kddi="E54D" name="SOUTH EAST ARROW" softbank="E238" unicode="2198"/>
+<e docomo="E697" google="FEAF2" id="AF2" kddi="E54C" name="NORTH WEST ARROW" softbank="E237" unicode="2196"/>
+<e docomo="E6A5" google="FEAF3" id="AF3" kddi="E556" name="SOUTH WEST ARROW" softbank="E239" unicode="2199"/>
+<e docomo="E6F5" google="FEAF4" id="AF4" kddi="EB2D" name="ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS" softbank="&gt;E236" unicode="2934">
+<desc>
+From the left curving upward (&quot;Good&quot;)
+</desc>
+</e>
+<e docomo="E700" google="FEAF5" id="AF5" kddi="EB2E" name="ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS" softbank="&gt;E238" unicode="2935">
+<desc>
+tentatively disunified from &#x21B7; U+21B7. From the left curving downward (&quot;Bad&quot;)
+</desc>
+</e>
+<e docomo="E73C" google="FEAF6" id="AF6" kddi="EB7A" name="LEFT RIGHT ARROW" text_fallback="⇔" unicode="2194"/>
+<e docomo="E73D" google="FEAF7" id="AF7" kddi="EB7B" name="UP DOWN ARROW" text_fallback="↑↓" unicode="2195"/>
+<e google="FEAF8" id="AF8" kddi="E53F" name="UPWARDS ARROW" softbank="E232" text_fallback="[↑]" unicode="2191"/>
+<e google="FEAF9" id="AF9" kddi="E540" name="DOWNWARDS ARROW" softbank="E233" text_fallback="[↓]" unicode="2193"/>
+<e google="FEAFA" id="AFA" kddi="E552" name="RIGHTWARDS ARROW" softbank="E234" text_fallback="[→]" unicode="2192"/>
+<e google="FEAFB" id="AFB" kddi="E553" name="LEFTWARDS ARROW" softbank="E235" text_fallback="[←]" unicode="2190"/>
+<e google="FEAFC" id="AFC" kddi="E52E" name="BLACK RIGHT-POINTING TRIANGLE" softbank="E23A" text_fallback="[&gt;]" unicode="25B6">
+<desc>
+Play
+</desc>
+</e>
+<e google="FEAFD" id="AFD" kddi="E52D" name="BLACK LEFT-POINTING TRIANGLE" softbank="E23B" text_fallback="[&lt;]" unicode="25C0">
+<desc>
+Reverse
+</desc>
+</e>
+<e google="FEAFE" id="AFE" img_from="kddi" kddi="E530" name="BLACK RIGHT-POINTING DOUBLE TRIANGLE" softbank="E23C" text_fallback="[&gt;&gt;]">
+<desc>
+Fast forward
+</desc>
+</e>
+<e google="FEAFF" id="AFF" img_from="kddi" kddi="E52F" name="BLACK LEFT-POINTING DOUBLE TRIANGLE" softbank="E23D" text_fallback="[&lt;&lt;]">
+<desc>
+Fast rewind
+</desc>
+</e>
+<e google="FEB00" id="B00" img_from="kddi" kddi="E542" name="CHECKERED DOWN-POINTING SMALL TRIANGLE" text_fallback="▼">
+<desc>
+Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB01" id="B01" img_from="kddi" kddi="E543" name="CHECKERED UP-POINTING SMALL TRIANGLE" text_fallback="▲">
+<desc>
+Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB02" id="B02" img_from="kddi" kddi="E544" name="BLACK DOWN-POINTING DOUBLE TRIANGLE" text_fallback="▼">
+<desc>
+Fast forward (down)
+</desc>
+</e>
+<e google="FEB03" id="B03" img_from="kddi" kddi="E545" name="BLACK UP-POINTING DOUBLE TRIANGLE" text_fallback="▲">
+<desc>
+Fast forward (up)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Punctuation">
+<e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK ORNAMENT" softbank="E021" unicode="2762"/>
+<e docomo="E703" google="FEB05" id="B05" kddi="EB2F" name="EXCLAMATION QUESTION MARK" text_fallback="！？" unicode="2049"/>
+<e docomo="E704" google="FEB06" id="B06" kddi="EB30" name="DOUBLE EXCLAMATION MARK" text_fallback="！！" unicode="203C"/>
+<e docomo="E709" google="FEB07" id="B07" img_from="docomo" name="WAVY LENGTH MARK">
+<desc>
+a wavy line
+</desc>
+</e>
+<e docomo="E70A" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="LOOPED LENGTH MARK" text_fallback="～">
+<desc>
+a line with a loop
+</desc>
+</e>
+<e google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK" softbank="E020" text_fallback="[？]">
+<desc>
+stationery question mark
+</desc>
+</e>
+<e google="FEB0A" id="B0A" img_from="softbank" kddi="&gt;E483" name="WHITE QUESTION MARK" softbank="E336" text_fallback="[？]">
+<desc>
+moving question mark
+</desc>
+</e>
+<e docomo="&gt;E702" google="FEB0B" id="B0B" img_from="softbank" kddi="&gt;E482" name="WHITE EXCLAMATION MARK" softbank="E337">
+<desc>
+moving exclamation mark
+</desc>
+</e>
+</subcategory>
+<subcategory name="Hearts">
+<e docomo="E6EC" google="FEB0C" id="B0C" kddi="E595" name="HEAVY BLACK HEART" softbank="E022" unicode="2764"/>
+<e docomo="E6ED" google="FEB0D" id="B0D" img_from="kddi" kddi="EB75" name="HEART 2" softbank="E327">
+<desc>
+pulsating heart
+</desc>
+</e>
+<e docomo="E6EE" google="FEB0E" id="B0E" img_from="docomo" kddi="E477" name="HEART 3" softbank="E023">
+<desc>
+breaking or broken heart
+</desc>
+</e>
+<e docomo="E6EF" google="FEB0F" id="B0F" img_from="docomo" kddi="E478" name="HEART 4" softbank="&gt;E327">
+<desc>
+two hearts
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB10" id="B10" img_from="kddi" kddi="EAA6" name="HEART 5" softbank="&gt;E327">
+<desc>
+sparkling heart
+</desc>
+</e>
+<e docomo="&gt;E6ED" google="FEB11" id="B11" img_from="softbank" kddi="&gt;EB75" name="HEART 6" softbank="E328">
+<desc>
+heart growing bigger
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB12" id="B12" img_from="kddi" kddi="E4EA" name="HEART 7" softbank="E329">
+<desc>
+heart with an arrow through it
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB13" id="B13" img_from="kddi" kddi="EAA7" name="BLACK HEART" softbank="E32A">
+<desc>
+Heart with blue color
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB14" id="B14" img_from="kddi" kddi="EAA8" name="CHECKERED HEART" softbank="E32B">
+<desc>
+Heart with green color
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB15" id="B15" img_from="kddi" kddi="EAA9" name="WHITE HEART" softbank="E32C">
+<desc>
+Heart with yellow color
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB16" id="B16" img_from="kddi" kddi="EAAA" name="STRIPED HEART" softbank="E32D">
+<desc>
+Heart with purple color
+</desc>
+</e>
+<e docomo="&gt;E6EC" google="FEB17" id="B17" img_from="kddi" kddi="EB54" name="HEART WITH RIBBON" softbank="E437">
+<desc>
+Valentine's (heart with ribbon, or candy with heart)
+</desc>
+</e>
+<e docomo="&gt;E6ED" google="FEB18" id="B18" img_from="kddi" kddi="E5AF" name="REVOLVING HEARTS" softbank="&gt;E327">
+<desc>
+cute
+</desc>
+</e>
+<e docomo="&gt;E6F8" google="FEB19" id="B19" img_from="softbank" kddi="&gt;E595" name="DECORATIVE DESIGN 1" softbank="E204">
+<desc>
+Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers
+</desc>
+</e>
+</subcategory>
+<subcategory name="Cards">
+<e docomo="E68D" google="FEB1A" id="B1A" kddi="EAA5" name="BLACK HEART SUIT" softbank="E20C" unicode="2665"/>
+<e docomo="E68E" google="FEB1B" id="B1B" kddi="E5A1" name="BLACK SPADE SUIT" softbank="E20E" unicode="2660"/>
+<e docomo="E68F" google="FEB1C" id="B1C" kddi="E5A2" name="BLACK DIAMOND SUIT" softbank="E20D" unicode="2666"/>
+<e docomo="E690" google="FEB1D" id="B1D" kddi="E5A3" name="BLACK CLUB SUIT" softbank="E20F" unicode="2663"/>
+</subcategory>
+<subcategory name="Letter Signs and other Signs">
+<e docomo="E67F" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
+<e docomo="E680" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
+<e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
+<e docomo="E6D7" google="FEB21" id="B21" img_from="docomo" kddi="E578" name="FREE SIGN" text_fallback="[FREE]">
+<desc>
+a letter sign Free of Charge
+</desc>
+</e>
+<e docomo="E6DE" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]">
+<desc>
+Location information, a flag
+</desc>
+</e>
+<e docomo="E737" google="FEB23" id="B23" img_from="kddi" kddi="E481" name="EXCLAMATION MARK IN TRIANGLE" softbank="E252">
+<desc>
+Danger / Caution / Warning
+</desc>
+</e>
+<e google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]">
+<desc>
+KATAKANA LETTERS KOKO; destination, here
+</desc>
+</e>
+<e google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="ADULTS ONLY SIGN" softbank="E207" text_fallback="[18禁]">
+<desc>
+under 18 not permitted
+</desc>
+</e>
+<e docomo="&gt;E72F" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRANCE SIGN" softbank="&gt;E137">
+<desc>
+No entrance, no trespassing
+</desc>
+</e>
+<e docomo="E70B" google="FEB27" id="B27" img_from="docomo" kddi="E5AD" name="OK SIGN" softbank="E24D">
+<desc>
+a stamp, seal, button for approval
+</desc>
+</e>
+<e docomo="E72F" google="FEB28" id="B28" img_from="docomo" name="NO GOOD SIGN" text_fallback="[NG]">
+<desc>
+no good, NG
+</desc>
+</e>
+<e docomo="E731" google="FEB29" id="B29" kddi="E558" name="COPYRIGHT SIGN" softbank="E24E" unicode="00A9"/>
+<e docomo="E732" google="FEB2A" id="B2A" kddi="E54E" name="TRADE MARK SIGN" softbank="E537" unicode="2122"/>
+<e docomo="E734" google="FEB2B" id="B2B" img_from="docomo" kddi="E4F1" name="CIRCLED IDEOGRAPH SECRET" softbank="E315" unicode="3299">
+<desc>
+秘: IDEOGRAPH SECRET (TOP SECRET SIGN)
+</desc>
+</e>
+<e docomo="E735" google="FEB2C" id="B2C" kddi="EB79" name="BLACK UNIVERSAL RECYCLING SYMBOL" text_fallback="↑↓" unicode="267B"/>
+<e docomo="E736" google="FEB2D" id="B2D" kddi="E559" name="REGISTERED SIGN" softbank="E24F" unicode="00AE"/>
+<e docomo="E738" google="FEB2E" id="B2E" img_from="docomo" name="PROHIBITED SIGN" text_fallback="[禁]">
+<desc>
+禁: IDEOGRAPH PROHIBITION
+</desc>
+</e>
+<e docomo="E739" google="FEB2F" id="B2F" img_from="docomo" kddi="EA8A" name="EMPTY SIGN" softbank="E22B">
+<desc>
+空: IDEOGRAPH EMPTY; Vacant, seats available
+</desc>
+</e>
+<e docomo="E73A" google="FEB30" id="B30" img_from="docomo" name="PASSED SIGN" text_fallback="[合]">
+<desc>
+合: IDEOGRAPH MATCH; approved, passed as in an examination
+</desc>
+</e>
+<e docomo="E73B" google="FEB31" id="B31" img_from="docomo" kddi="EA89" name="FULL SIGN" softbank="E22A">
+<desc>
+満: IDEOGRAPH FULL; fully occupied, full tank, etc.
+</desc>
+</e>
+<e google="FEB32" id="B32" img_from="kddi" kddi="E5D2" name="VS SIGN" softbank="E12E" text_fallback="[VS]">
+<desc>
+versus
+</desc>
+</e>
+<e google="FEB33" id="B33" img_from="softbank" name="MENS SYMBOL" softbank="E138" text_fallback="[♂]">
+<desc>
+men's restroom
+</desc>
+</e>
+<e google="FEB34" id="B34" img_from="softbank" name="WOMENS SYMBOL" softbank="E139" text_fallback="[♀]">
+<desc>
+woman's restroom symbol
+</desc>
+</e>
+<e google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY 2" softbank="E13A" text_fallback="[赤ちゃん]">
+<desc>
+used as a sign for a baby; Crawling Baby
+</desc>
+</e>
+<e docomo="E6DD" google="FEB36" id="B36" img_from="docomo" kddi="E5B5" name="NEW SIGN" softbank="E212">
+<desc>
+a stamp, seal, sign
+</desc>
+</e>
+<e google="FEB37" id="B37" img_from="kddi" kddi="E50F" name="UP SIGN" softbank="E213" text_fallback="[UP!]">
+<desc>
+site renewed, updated, new information
+</desc>
+</e>
+<e google="FEB38" id="B38" img_from="kddi" kddi="EA85" name="COOL SIGN" softbank="E214" text_fallback="[COOL]">
+<desc>
+cool!; hip
+</desc>
+</e>
+<e google="FEB39" id="B39" img_from="softbank" name="EXISTENCE SIGN" softbank="E215" text_fallback="[有]">
+<desc>
+有: IDEOGRAPH EXISTENCE; available, in stock; charges apply
+</desc>
+</e>
+<e google="FEB3A" id="B3A" img_from="softbank" name="NON-EXISTENCE SIGN" softbank="E216" text_fallback="[無]">
+<desc>
+無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free
+</desc>
+</e>
+<e google="FEB3B" id="B3B" img_from="softbank" name="MONTHLY SIGN" softbank="E217" text_fallback="[月]">
+<desc>
+月: IDEOGRAPH MOON; monthly charge, monthly rate; month
+</desc>
+</e>
+<e google="FEB3C" id="B3C" img_from="softbank" name="APPLICATION SIGN" softbank="E218" text_fallback="[申]">
+<desc>
+申: IDEOGRAPH SAYING &quot;application needed, apply here&quot;
+</desc>
+</e>
+<e google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="ADVANTAGE SIGN" softbank="E226" text_fallback="[得]">
+<desc>
+得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds
+</desc>
+</e>
+<e google="FEB3E" id="B3E" img_from="kddi" kddi="EA86" name="DISCOUNT SIGN" softbank="E227" text_fallback="[割]">
+<desc>
+割: IDEOGRAPH DIVIDE;
+</desc>
+</e>
+<e google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SERVICE SIGN" softbank="E228" text_fallback="[サービス]">
+<desc>
+サ: KATAKANA LETTER SA; service charge; for free, on the house;
+</desc>
+</e>
+<e google="FEB40" id="B40" img_from="softbank" kddi="EA8B" name="RESERVED SIGN" softbank="E22C" text_fallback="[指]">
+<desc>
+指: IDEOGRAPH POINTING; reserved, designated 指定
+</desc>
+</e>
+<e google="FEB41" id="B41" img_from="kddi" kddi="EA8C" name="IN BUSINESS SIGN" softbank="E22D" text_fallback="[営]">
+<desc>
+営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所
+</desc>
+</e>
+<e google="FEB42" id="B42" img_from="softbank" name="TOP WITH UPWARD SIGN" softbank="E24C" text_fallback="[TOP]">
+<desc>
+Top of page
+</desc>
+</e>
+<e google="FEB43" id="B43" img_from="kddi" kddi="EA99" name="CELEBRATION SIGN" softbank="E30D" text_fallback="[祝]">
+<desc>
+祝: IDEOGRAPH CELEBRATION; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
+</desc>
+</e>
+<e docomo="&gt;E6A0" google="FEB44" id="B44" img_from="kddi" kddi="EAAD" name="BLACK CIRCLE MARK" softbank="E332">
+<desc>
+good; OK, approved; O in tic tac toe
+</desc>
+</e>
+<e google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
+<desc>
+bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
+</desc>
+</e>
+<e google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK 2" softbank="&gt;E333" text_fallback="[×]">
+<desc>
+Another X (orange background)
+</desc>
+</e>
+<e google="FEB47" id="B47" kddi="E533" name="INFORMATION SOURCE" text_fallback="[ｉ]" unicode="2139">
+<desc>
+&quot;i&quot; = information
+</desc>
+</e>
+<e docomo="&gt;E738" google="FEB48" id="B48" img_from="kddi" kddi="E541" name="NO ENTRY SIGN" text_fallback="[禁止]">
+<desc>
+Prohibited (circle with diagonal slash); Do not enter
+</desc>
+</e>
+<e google="FEB49" id="B49" kddi="E557" name="HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="2714">
+<desc>
+Check mark (blue)
+</desc>
+</e>
+<e google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]">
+<desc>
+Check mark (red); not unified with &#x2713; U+2713
+</desc>
+</e>
+<e google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]">
+<desc>
+Disunified from &#x267E; U+267E PERMANENT PAPER SIGN; Link with a twist
+</desc>
+</e>
+<e google="FEB4C" id="B4C" kddi="E58C" name="EM SPACE" unicode="2003">
+<desc>
+Note: KDDI's Full blank (mapped to EM SPACE)
+</desc>
+</e>
+<e google="FEB4D" id="B4D" kddi="E58D" name="EN SPACE" unicode="2002">
+<desc>
+Note: KDDI's Half blank (mapped to EN SPACE)
+</desc>
+</e>
+<e google="FEB4E" id="B4E" kddi="E58E" name="FOUR-PER-EM SPACE" unicode="2005">
+<desc>
+Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)
+</desc>
+</e>
+<e google="FEB4F" id="B4F" img_from="kddi" kddi="E4E8" name="SOS SIGN" text_fallback="[SOS]">
+<desc>
+search, hunt for the missing
+</desc>
+</e>
+<e google="FEB50" id="B50" img_from="kddi" kddi="EB01" name="ACCEPT SIGN" text_fallback="[可]">
+<desc>
+Han character 可; accepted, acceptable
+</desc>
+</e>
+</subcategory>
+<subcategory name="Arithmetic Operators">
+<e google="FEB51" id="B51" img_from="kddi" kddi="E53C" name="HEAVY PLUS" text_fallback="[＋]">
+<desc>
+Not unified with CIRCLED PLUS
+</desc>
+</e>
+<e google="FEB52" id="B52" img_from="kddi" kddi="E53D" name="HEAVY MINUS" text_fallback="[－]">
+<desc>
+Not unified with CIRCLED MINUS
+</desc>
+</e>
+<e google="FEB53" id="B53" img_from="kddi" kddi="E54F" name="HEAVY TIMES" softbank="&gt;E333" text_fallback="[×]">
+<desc>
+tentatively disunified from &#x00D7; U+00D7
+</desc>
+</e>
+<e google="FEB54" id="B54" img_from="kddi" kddi="E554" name="HEAVY DIVISION" text_fallback="[÷]">
+<desc>
+tentatively disunified from &#x00F7; U+00F7
+</desc>
+</e>
+</subcategory>
+<subcategory name="Emotion Symbols">
+<e docomo="E6F8" google="FEB55" id="B55" img_from="docomo" name="DIAMOND SHAPE WITH A DOT INSIDE">
+<desc>
+Cute (pink diamond shaped thing)
+</desc>
+</e>
+<e docomo="E6FB" google="FEB56" id="B56" img_from="docomo" kddi="E476" name="ELECTRIC LIGHT BULB" softbank="E10F">
+<desc>
+Idea (light bulb)
+</desc>
+</e>
+<e docomo="E6FC" google="FEB57" id="B57" img_from="docomo" kddi="E4E5" name="ANGER SIGN" softbank="E334">
+<desc>
+Angry (comic book style symbol where a punch lands)
+</desc>
+</e>
+<e docomo="E6FE" google="FEB58" id="B58" img_from="docomo" kddi="E47A" name="BOMB" softbank="E311">
+<desc>
+Bomb (about to blow up)
+</desc>
+</e>
+<e docomo="E701" google="FEB59" id="B59" img_from="docomo" kddi="E475" name="SLEEPING SIGN" softbank="E13C">
+<desc>
+Sleepy (&quot;zzz&quot;)
+</desc>
+</e>
+<e docomo="E705" google="FEB5A" id="B5A" img_from="kddi" kddi="E5B0" name="COLLISION SYMBOL" text_fallback="[ドンッ]">
+<desc>
+Bump (collision)
+</desc>
+</e>
+<e docomo="E706" google="FEB5B" id="B5B" img_from="docomo" kddi="E5B1" name="SPLASHING SWEAT" softbank="E331">
+<desc>
+Sweat
+</desc>
+</e>
+<e docomo="E707" google="FEB5C" id="B5C" img_from="docomo" kddi="E4E6" name="DRIP" softbank="&gt;E331">
+<desc>
+sweat drip; tear drop
+</desc>
+</e>
+<e docomo="E708" google="FEB5D" id="B5D" img_from="docomo" kddi="E4F4" name="DASH SYMBOL" softbank="E330">
+<desc>
+Dash (running dash … the cloud of dust left behind)
+</desc>
+</e>
+<e google="FEB5E" id="B5E" img_from="kddi" kddi="E4E9" name="FLEXED BICEP" softbank="E14C" text_fallback="[力こぶ]">
+<desc>
+strong, muscled
+</desc>
+</e>
+<e google="FEB5F" id="B5F" img_from="kddi" kddi="EB5C" name="DIZZY SYMBOL" softbank="&gt;E407" text_fallback="[クラクラ]">
+<desc>
+circling stars
+</desc>
+</e>
+</subcategory>
+<subcategory name="Shapes / Sparkles">
+<e docomo="E6FA" google="FEB60" id="B60" img_from="docomo" kddi="EAAB" name="SPARKLES" softbank="E32E">
+<desc>
+sparkling new
+</desc>
+</e>
+<e docomo="&gt;E6F8" google="FEB61" id="B61" kddi="E479" name="EIGHT POINTED BLACK STAR" softbank="E205" unicode="2734">
+<desc>
+Yellow glitter, spark
+</desc>
+</e>
+<e docomo="&gt;E6F8" google="FEB62" id="B62" kddi="E53E" name="EIGHT SPOKED ASTERISK" softbank="E206" unicode="2733">
+<desc>
+Green/blue glitter, star
+</desc>
+</e>
+<e docomo="&gt;E69C" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="LARGE WHITE BULLET" softbank="E219">
+<desc>
+Large circle (red). disunified from U+25CB due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e docomo="&gt;E69C" google="FEB64" id="B64" img_from="kddi" kddi="E54B" name="LARGE BLACK BULLET" softbank="E21A">
+<desc>
+Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e docomo="&gt;E69C" google="FEB65" id="B65" kddi="E53A" name="MEDIUM WHITE CIRCLE" softbank="&gt;E219" unicode="26AA">
+<desc>
+Small circle (red)
+</desc>
+</e>
+<e docomo="&gt;E69C" google="FEB66" id="B66" kddi="E53B" name="MEDIUM BLACK CIRCLE" softbank="&gt;E219" unicode="26AB">
+<desc>
+Small circle (blue)
+</desc>
+</e>
+<e docomo="&gt;E69C" google="FEB67" id="B67" img_from="softbank" kddi="&gt;E54B" name="LARGE CHECKERED BULLET" softbank="E21B"/>
+<e google="FEB68" id="B68" img_from="kddi" kddi="E48B" name="BLACK STAR MARK" softbank="E32F" text_fallback="[☆]"/>
+<desc>
+disunified from U+2605 due to source separation rule (Shift_JIS).a
+</desc>
+<e google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="WHITE GLOWING STAR" softbank="E335" text_fallback="[☆]">
+<desc>
+Animated pulsating star in orange color
+</desc>
+</e>
+<e google="FEB6A" id="B6A" img_from="kddi" kddi="E468" name="BLACK GLOWING STAR" text_fallback="☆彡">
+<desc>
+Animated glowing star in blue color
+</desc>
+</e>
+<e google="FEB6B" id="B6B" img_from="kddi" kddi="E548" name="WHITE SQUARE BUTTON" softbank="&gt;E21B" text_fallback="■">
+<desc>
+Extra large square (orange). disunified from U+25A1 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB6C" id="B6C" img_from="kddi" kddi="E549" name="BLACK SQUARE BUTTON" softbank="&gt;E21A" text_fallback="■">
+<desc>
+Extra large square (green). disunified from U+25A0 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB6D" id="B6D" kddi="E531" name="WHITE SMALL SQUARE" softbank="&gt;E21B" text_fallback="■" unicode="25AB">
+<desc>
+Small square (orange)
+</desc>
+</e>
+<e google="FEB6E" id="B6E" kddi="E532" name="BLACK SMALL SQUARE" softbank="&gt;E21A" text_fallback="■" unicode="25AA">
+<desc>
+Small square (green)
+</desc>
+</e>
+<e google="FEB6F" id="B6F" kddi="E534" name="WHITE MEDIUM SMALL SQUARE" softbank="&gt;E21B" text_fallback="■" unicode="25FD">
+<desc>
+Medium square (orange)
+</desc>
+</e>
+<e google="FEB70" id="B70" kddi="E535" name="BLACK MEDIUM SMALL SQUARE" softbank="&gt;E21A" text_fallback="■" unicode="25FE">
+<desc>
+Medium square (green)
+</desc>
+</e>
+<e google="FEB71" id="B71" kddi="E538" name="WHITE MEDIUM SQUARE" softbank="&gt;E21B" text_fallback="■" unicode="25FB">
+<desc>
+Large square (orange)
+</desc>
+</e>
+<e google="FEB72" id="B72" kddi="E539" name="BLACK MEDIUM SQUARE" softbank="&gt;E21A" text_fallback="■" unicode="25FC">
+<desc>
+Large square (green)
+</desc>
+</e>
+<e google="FEB73" id="B73" img_from="kddi" kddi="E546" name="CHECKERED DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<desc>
+Large diamond (orange). disunified from U+25C7 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB74" id="B74" img_from="kddi" kddi="E547" name="STRIPED DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<desc>
+Large diamond (blue). disunified from U+25C6 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB75" id="B75" img_from="kddi" kddi="E536" name="WHITE SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<desc>
+Small diamond (orange). Review colors relative to WHITE DIAMOND and BLACK DIAMOND
+</desc>
+</e>
+<e google="FEB76" id="B76" img_from="kddi" kddi="E537" name="CHECKERED SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<desc>
+Small diamond (blue). Review colors relative to WHITE DIAMOND and BLACK DIAMOND
+</desc>
+</e>
+<e docomo="&gt;E6FA" google="FEB77" id="B77" kddi="E46C" name="SPARKLE" softbank="&gt;E32E" unicode="2747">
+<desc>
+Spark
+</desc>
+</e>
+<e google="FEB78" id="B78" img_from="kddi" kddi="E55A" name="CHECKERED UP-POINTING TRIANGLE" text_fallback="▲">
+<desc>
+Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEB79" id="B79" img_from="kddi" kddi="E55B" name="CHECKERED DOWN-POINTING TRIANGLE" text_fallback="▼">
+<desc>
+Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).
+</desc>
+</e>
+</subcategory>
+<subcategory name="School">
+<e google="FEB7A" id="B7A" img_from="kddi" kddi="E4F0" name="WHITE FLOWER" text_fallback="[花丸]">
+<desc>
+❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for &quot;brilliant!&quot; (花丸)
+</desc>
+</e>
+<e google="FEB7B" id="B7B" img_from="kddi" kddi="E4F2" name="HUNDRED POINTS SYMBOL" text_fallback="[100点]">
+<desc>
+100 (perfect score), e.g. school exam
+</desc>
+</e>
+<e google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]">
+<desc>
+Letters (ABCD, uppercase)
+</desc>
+</e>
+<e google="FEB7D" id="B7D" img_from="kddi" kddi="EAFE" name="LATIN SMALL LETTERS SYMBOL" text_fallback="[abcd]">
+<desc>
+Letters (abcd, lowercase)
+</desc>
+</e>
+<e google="FEB7E" id="B7E" img_from="kddi" kddi="EAFF" name="NUMBERS SYMBOL" text_fallback="[1234]">
+<desc>
+Numbers (1234)
+</desc>
+</e>
+<e google="FEB7F" id="B7F" img_from="kddi" kddi="EB00" name="SYMBOLS SIGN" text_fallback="[記号]">
+<desc>
+Symbols (〒, ♪, @, %)
+</desc>
+</e>
+<e google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="ENGLISH LANGUAGE SYMBOL" text_fallback="[ABC]">
+<desc>
+English (ABC)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Internet Specific">
+<e docomo="E6D8" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="ID" softbank="E229">
+<desc>
+ID (&quot;ID&quot; stamp)
+</desc>
+</e>
+<e docomo="E6D9" google="FEB82" id="B82" img_from="docomo" kddi="E519" name="KEY" softbank="E03F">
+<desc>
+Password (key)
+</desc>
+</e>
+<e docomo="E6DA" google="FEB83" id="B83" kddi="E55D" name="LEFTWARDS ARROW WITH HOOK" text_fallback="←┘" unicode="21A9">
+<desc>
+Continue (the [enter] key arrow)
+</desc>
+</e>
+<e docomo="E6DB" google="FEB84" id="B84" img_from="docomo" kddi="E5AB" name="CLEAR SIGN" text_fallback="[CL]">
+<desc>
+Clear (&quot;CL&quot; stamp)
+</desc>
+</e>
+<e docomo="E6DC" google="FEB85" id="B85" img_from="docomo" kddi="E518" name="MAGNIFYING GLASS" softbank="E114">
+<desc>
+Search
+</desc>
+</e>
+<e docomo="&gt;E6D9" google="FEB86" id="B86" img_from="softbank" kddi="E51C" name="LOCK" softbank="E144">
+<desc>
+Lock (closed padlock)
+</desc>
+</e>
+<e docomo="&gt;E6D9" google="FEB87" id="B87" img_from="softbank" kddi="&gt;E51C" name="LOCK 2" softbank="E145">
+<desc>
+Lock (open padlock)
+</desc>
+</e>
+<e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
+<desc>
+Enter arrow (backwards)
+</desc>
+</e>
+<e google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="OPENWAVE" text_fallback="[オープンウェブ]">
+<desc>
+Openwave
+</desc>
+</e>
+<e docomo="&gt;E6D9" google="FEB8A" id="B8A" img_from="kddi" kddi="EAFC" name="CLOSED LOCK WITH KEY" softbank="&gt;E144">
+<desc>
+Secure (lock with certificate)
+</desc>
+</e>
+<e google="FEB8B" id="B8B" kddi="EB02" name="BALLOT BOX WITH CHECK" text_fallback="[チェックマーク]" unicode="2611">
+<desc>
+Checked checkbox
+</desc>
+</e>
+<e google="FEB8C" id="B8C" img_from="kddi" kddi="EB04" name="RADIO BUTTON" text_fallback="[ラジオボタン]">
+<desc>
+Selected radio button
+</desc>
+</e>
+<e docomo="&gt;E6DC" google="FEB8D" id="B8D" img_from="kddi" kddi="EB05" name="MAGNIFYING GLASS 2" softbank="&gt;E114">
+<desc>
+Search (magnifying glass)
+</desc>
+</e>
+<e google="FEB8E" id="B8E" img_from="kddi" kddi="EB06" name="LEFTWARDS ARROW WITH LETTER BACK" softbank="&gt;E235" text_fallback="[←BACK]">
+<desc>
+Back (left arrow with &quot;BACK&quot;)
+</desc>
+</e>
+<e google="FEB8F" id="B8F" img_from="kddi" kddi="EB07" name="BOOKMARK" text_fallback="[ブックマーク]">
+<desc>
+Bookmark list (&quot;お気に入り&quot;)
+</desc>
+</e>
+<e docomo="&gt;E6D9" google="FEB90" id="B90" img_from="kddi" kddi="EB0C" name="LOCK WITH INK PEN" softbank="&gt;E144">
+<desc>
+Privacy (padlock with ink pen)
+</desc>
+</e>
+<e docomo="&gt;E735" google="FEB91" id="B91" img_from="kddi" kddi="EB0D" name="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" text_fallback="↑↓">
+<desc>
+Reload
+</desc>
+</e>
+<e docomo="&gt;E6D3" google="FEB92" id="B92" img_from="kddi" kddi="EB71" name="EMAIL SIGN" softbank="&gt;E103">
+<desc>
+Email (Envelope with &quot;E&quot;)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Hand Signals">
+<e docomo="E693" google="FEB93" id="B93" img_from="kddi" kddi="EB83" name="ROCK IN HAND GAME" softbank="E010">
+<desc>
+Rock in Rock, Paper, Scissors game
+</desc>
+</e>
+<e docomo="E694" google="FEB94" id="B94" img_from="kddi" kddi="E5A6" name="SCISSOR IN HAND GAME" softbank="E011">
+<desc>
+Scissors in Rock, Paper, Scissors game; disunified from &#x270C; U+270C
+</desc>
+</e>
+<e docomo="E695" google="FEB95" id="B95" img_from="kddi" kddi="E5A7" name="PAPER IN HAND GAME" softbank="E012">
+<desc>
+Paper in Rock, Paper, Scissors game
+</desc>
+</e>
+<e docomo="E6FD" google="FEB96" id="B96" img_from="docomo" kddi="E4F3" name="FISTED HAND" softbank="E00D">
+<desc>
+Punch
+</desc>
+</e>
+<e docomo="E727" google="FEB97" id="B97" img_from="kddi" kddi="E4F9" name="THUMBS UP SIGN" softbank="E00E"/>
+<e google="FEB98" id="B98" img_from="kddi" kddi="E4F6" name="INDEX FINGER POINTING UPWARDS" softbank="E00F" text_fallback="[人差し指]">
+<desc>
+No. 1
+</desc>
+</e>
+<e google="FEB99" id="B99" kddi="EA8D" name="WHITE UP POINTING INDEX" softbank="E22E" text_fallback="[↑]" unicode="261D">
+<desc>
+Up
+</desc>
+</e>
+<e google="FEB9A" id="B9A" kddi="EA8E" name="WHITE DOWN POINTING INDEX" softbank="E22F" text_fallback="[↓]" unicode="261F">
+<desc>
+Down
+</desc>
+</e>
+<e google="FEB9B" id="B9B" kddi="E4FF" name="WHITE LEFT POINTING INDEX" softbank="E230" text_fallback="[←]" unicode="261C">
+<desc>
+Left
+</desc>
+</e>
+<e google="FEB9C" id="B9C" kddi="E500" name="WHITE RIGHT POINTING INDEX" softbank="E231" text_fallback="[→]" unicode="261E">
+<desc>
+Right
+</desc>
+</e>
+<e docomo="&gt;E695" google="FEB9D" id="B9D" img_from="kddi" kddi="EAD6" name="WAVING HAND" softbank="E41E">
+<desc>
+Waving hello
+</desc>
+</e>
+<e google="FEB9E" id="B9E" img_from="kddi" kddi="EAD3" name="CLAPPING HANDS" softbank="E41F" text_fallback="[拍手]">
+<desc>
+Clapping
+</desc>
+</e>
+<e docomo="&gt;E70B" google="FEB9F" id="B9F" img_from="kddi" kddi="EAD4" name="OK HAND SIGN" softbank="E420">
+<desc>
+OK sign
+</desc>
+</e>
+<e docomo="&gt;E700" google="FEBA0" id="BA0" img_from="kddi" kddi="EAD5" name="THUMBS DOWN SIGN" softbank="E421">
+<desc>
+Thumbs down
+</desc>
+</e>
+<e docomo="&gt;E695" google="FEBA1" id="BA1" img_from="softbank" kddi="&gt;EAD6" name="OPEN HANDS" softbank="E422">
+<desc>
+Ohhaa! Good morning gesture. Open hands with the money sign
+</desc>
+</e>
+<e google="FEBA2" id="BA2" img_from="google" in_proposal="no" name="ROCK ON" text_fallback="[ロックオン]"/>
+</subcategory>
+</category>
+<category name="8. Business logos/symbols" in_proposal="no">
+<subcategory name="DoCoMo specific">
+<e docomo="E6D1" google="FEE10" id="E10" img_from="docomo" name="I-MODE" text_fallback="[iモード]"/>
+<e docomo="E6D2" google="FEE11" id="E11" img_from="docomo" name="I-MODE WITH FRAME" text_fallback="[iモード]"/>
+<e docomo="E6D4" google="FEE12" id="E12" img_from="docomo" name="PROVIDED BY DOCOMO" text_fallback="[ドコモ]"/>
+<e docomo="E6D5" google="FEE13" id="E13" img_from="docomo" name="DOCOMO POINT" text_fallback="[ドコモポイント]"/>
+<e docomo="E70C" google="FEE14" id="E14" img_from="docomo" name="I-APPLI" text_fallback="[iアプリ]"/>
+<e docomo="E70D" google="FEE15" id="E15" img_from="docomo" name="I-APPLI WITH BORDER" text_fallback="[iアプリ]"/>
+<e docomo="E6A6" google="FEE16" id="E16" img_from="docomo" name="PIAS PI" text_fallback="[ぴ]"/>
+<e docomo="E6A7" google="FEE17" id="E17" img_from="docomo" name="PIAS A" text_fallback="[あ]"/>
+<e docomo="E6A8" google="FEE18" id="E18" img_from="docomo" name="INVERSE TICKET" text_fallback="[チケット]"/>
+<e docomo="E6A9" google="FEE19" id="E19" img_from="docomo" name="KATAKANA ABBREVIATION FOR TICKET" text_fallback="[チケット]"/>
+<e docomo="E6AA" google="FEE1A" id="E1A" img_from="docomo" name="RESERVE BY PHONE" text_fallback="[電話先行]"/>
+<e docomo="E6AB" google="FEE1B" id="E1B" img_from="docomo" name="P CODE" text_fallback="[Pコード]"/>
+<e docomo="E6AF" google="FEE1C" id="E1C" img_from="docomo" kddi="&gt;E517" name="MOVIES 2" softbank="&gt;E03D">
+<desc>
+movie projector, video camera
+</desc>
+</e>
+<e docomo="E6B0" google="FEE1D" id="E1D" img_from="docomo" name="PIAS PI INVERSE" text_fallback="[ぴ]"/>
+<e docomo="E6B4" google="FEE1E" id="E1E" img_from="docomo" name="PIAS PI CIRCLE" text_fallback="(ぴ)"/>
+<e docomo="E6B5" google="FEE1F" id="E1F" img_from="docomo" name="PIAS PI SQUARE" text_fallback="[ぴ]"/>
+<e docomo="E6B6" google="FEE20" id="E20" img_from="docomo" name="CHECK" text_fallback="[チェック]"/>
+<e docomo="E6BB" google="FEE21" id="E21" img_from="docomo" name="F" text_fallback="[F]"/>
+<e docomo="E6BC" google="FEE22" id="E22" img_from="docomo" name="D" text_fallback="[D]"/>
+<e docomo="E6BD" google="FEE23" id="E23" img_from="docomo" name="S" text_fallback="[S]"/>
+<e docomo="E6BE" google="FEE24" id="E24" img_from="docomo" name="C" text_fallback="[C]"/>
+<e docomo="E6BF" google="FEE25" id="E25" img_from="docomo" name="R" text_fallback="[R]"/>
+<e docomo="E6C0" google="FEE26" id="E26" img_from="docomo" name="BLACK AND WHITE SQUARE" text_fallback="■"/>
+<e docomo="E6C1" google="FEE27" id="E27" img_from="docomo" name="BLACK SQUARE 3" text_fallback="■"/>
+<e docomo="E6C2" google="FEE28" id="E28" img_from="docomo" name="DOWNWARD TRIANGLE" text_fallback="▼"/>
+<e docomo="E6C3" google="FEE29" id="E29" img_from="docomo" name="FOUR DAGGERS" text_fallback="††††"/>
+<e docomo="E6C4" google="FEE2A" id="E2A" img_from="docomo" name="THREE DAGGERS" text_fallback="†††"/>
+<e docomo="E6C5" google="FEE2B" id="E2B" img_from="docomo" name="TWO DAGGERS" text_fallback="††"/>
+<e docomo="E6C6" google="FEE2C" id="E2C" img_from="docomo" name="SINGLE DAGGER" text_fallback="†"/>
+<e docomo="E6C7" google="FEE2D" id="E2D" img_from="docomo" name="I" text_fallback="[I]">
+<desc>
+&quot;I&quot; indicates &quot;inexpensive&quot;
+</desc>
+</e>
+<e docomo="E6C8" google="FEE2E" id="E2E" img_from="docomo" name="M" text_fallback="[M]">
+<desc>
+&quot;M&quot; indicates &quot;moderate price&quot;
+</desc>
+</e>
+<e docomo="E6C9" google="FEE2F" id="E2F" img_from="docomo" name="E" text_fallback="[E]">
+<desc>
+&quot;E&quot; indicates &quot;expensive&quot;
+</desc>
+</e>
+<e docomo="E6CA" google="FEE30" id="E30" img_from="docomo" name="VE" text_fallback="[VE]">
+<desc>
+&quot;VE&quot; indicates &quot;very expensive&quot;
+</desc>
+</e>
+<e docomo="E6CB" google="FEE31" id="E31" img_from="docomo" name="SPHERE" text_fallback="●"/>
+<e docomo="E6CC" google="FEE32" id="E32" img_from="docomo" name="CREDIT CARDS NOT ACCEPTED" text_fallback="[カード使用不可]"/>
+<e docomo="E6CD" google="FEE33" id="E33" img_from="docomo" kddi="&gt;EB02" name="CHECKBOX" text_fallback="[チェックボックス]"/>
+</subcategory>
+<subcategory name="KDDI specific">
+<e google="FEE40" id="E40" img_from="kddi" kddi="E577" name="EZ WEB" text_fallback="[EZ]"/>
+<e google="FEE41" id="E41" img_from="kddi" kddi="E5B2" name="EZ PLUS" text_fallback="[ezplus]"/>
+<e google="FEE42" id="E42" img_from="kddi" kddi="EA9D" name="EZ NAVIGATION" text_fallback="[EZナビ]"/>
+<e google="FEE43" id="E43" img_from="kddi" kddi="EB74" name="EZ MOVIE" text_fallback="[EZムービー]"/>
+<e google="FEE44" id="E44" img_from="kddi" kddi="EB81" name="CMAIL" text_fallback="[Cメール]">
+<desc>
+Cmail (Envelope with &quot;C&quot;)
+</desc>
+</e>
+<e google="FEE45" id="E45" img_from="kddi" kddi="EB89" name="JAVA" text_fallback="[Java]">
+<desc>
+JAVA (TM)
+</desc>
+</e>
+<e google="FEE46" id="E46" img_from="kddi" kddi="EB8A" name="BREW" text_fallback="[BREW]">
+<desc>
+BREW (R)
+</desc>
+</e>
+<e google="FEE47" id="E47" img_from="kddi" kddi="EB8B" name="EZ RING MUSIC" text_fallback="[EZ着うた]"/>
+<e google="FEE48" id="E48" img_from="kddi" kddi="EB8C" name="EZ NAVI" text_fallback="[EZナビ]"/>
+<e google="FEE49" id="E49" img_from="kddi" kddi="EB8D" name="WIN" text_fallback="[WIN]"/>
+<e google="FEE4A" id="E4A" img_from="kddi" kddi="EB8E" name="PREMIUM SIGN" text_fallback="[プレミアム]"/>
+</subcategory>
+<subcategory name="SoftBank specific">
+<e google="FEE70" id="E70" name="J-SKY1" softbank="E538" text_repr="J-Sky1"/>
+<e google="FEE71" id="E71" name="J-SKY2" softbank="E539" text_repr="J-Sky2"/>
+<e google="FEE72" id="E72" name="VODAFONE1" softbank="E53A" text_repr="vodafone1"/>
+<e google="FEE73" id="E73" name="VODAFONE2" softbank="E53B" text_repr="vodafone2"/>
+<e google="FEE74" id="E74" name="VODAFONE3" softbank="E53C" text_fallback="[v" text_repr="vodafone3"/>
+<e google="FEE75" id="E75" name="VODAFONE4" softbank="E53D" text_fallback="oda" text_repr="vodafone4"/>
+<e google="FEE76" id="E76" name="VODAFONE5" softbank="E53E" text_fallback="fone]" text_repr="vodafone5"/>
+<e google="FEE77" id="E77" name="J-PHONE SHOP" softbank="E254" text_repr="J-PHONE SHOP"/>
+<e google="FEE78" id="E78" name="SKY WEB" softbank="E255" text_repr="SKY WEB"/>
+<e google="FEE79" id="E79" name="SKY WALKER" softbank="E256" text_repr="SKY WALKER"/>
+<e google="FEE7A" id="E7A" name="SKY MELODY" softbank="E257" text_repr="SKY MELODY"/>
+<e google="FEE7B" id="E7B" name="J-PHONE 1" softbank="E258" text_repr="J-PHONE 1"/>
+<e google="FEE7C" id="E7C" name="J-PHONE 2" softbank="E259" text_repr="J-PHONE 2"/>
+<e google="FEE7D" id="E7D" name="J-PHONE 3" softbank="E25A" text_repr="J-PHONE 3"/>
+</subcategory>
+<subcategory name="Google specific">
+<e google="FEEA0" id="EA0" name="GOOGLE" text_fallback="[Google]" text_repr="Google">
+<desc>
+Google logo
+</desc>
+</e>
+</subcategory>
+</category>
+</emoji4unicode>

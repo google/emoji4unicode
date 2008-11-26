@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_data>
+<e jis="7541" name_en="Fine" name_ja="晴れ" unicode="E63E"/>
+<e jis="7546" name_en="Cloudy" name_ja="曇り" unicode="E63F"/>
+<e jis="7545" name_en="Rain" name_ja="雨" unicode="E640"/>
+<e jis="753E" name_en="Snow" name_ja="雪" unicode="E641"/>
+<e jis="7540" name_en="Thunder" name_ja="雷" unicode="E642"/>
+<e jis="7522" name_en="Typhoon" name_ja="台風" unicode="E643"/>
+<e jis="7837" name_en="Fog" name_ja="霧" unicode="E644"/>
+<e jis="7A3E" name_en="Drizzle" name_ja="小雨" unicode="E645"/>
+<e jis="7548" name_en="Aries" name_ja="牡羊座" unicode="E646"/>
+<e jis="7549" name_en="Taurus" name_ja="牡牛座" unicode="E647"/>
+<e jis="754A" name_en="Gemini" name_ja="双子座" unicode="E648"/>
+<e jis="754B" name_en="Cancer" name_ja="蟹座" unicode="E649"/>
+<e jis="754C" name_en="Leo" name_ja="獅子座" unicode="E64A"/>
+<e jis="754D" name_en="Virgo" name_ja="乙女座" unicode="E64B"/>
+<e jis="754E" name_en="Libra" name_ja="天秤座" unicode="E64C"/>
+<e jis="754F" name_en="Scorpio" name_ja="蠍座" unicode="E64D"/>
+<e jis="7550" name_en="Sagittarius" name_ja="射手座" unicode="E64E"/>
+<e jis="7551" name_en="Capricorn" name_ja="山羊座" unicode="E64F"/>
+<e jis="7552" name_en="Aquarius" name_ja="水瓶座" unicode="E650"/>
+<e jis="7553" name_en="Pisces" name_ja="魚座" unicode="E651"/>
+<e jis="7E21" name_en="Sports" name_ja="スポーツ" unicode="E652"/>
+<e jis="7573" name_en="Baseball" name_ja="野球" unicode="E653"/>
+<e jis="7838" name_en="Golf" name_ja="ゴルフ" unicode="E654"/>
+<e jis="7570" name_en="Tennis" name_ja="テニス" unicode="E655"/>
+<e jis="756F" name_en="Soccer" name_ja="サッカー" unicode="E656"/>
+<e jis="7960" name_en="Ski" name_ja="スキー" unicode="E657"/>
+<e jis="7839" name_en="Basketball" name_ja="バスケットボール" unicode="E658"/>
+<e jis="7572" name_en="Motor sports" name_ja="モータースポーツ" unicode="E659"/>
+<e jis="783A" name_en="Pager" name_ja="ポケットベル" unicode="E65A"/>
+<e jis="756E" name_en="Train" name_ja="電車" unicode="E65B"/>
+<e jis="786E" name_en="Subway" name_ja="地下鉄" unicode="E65C"/>
+<e jis="7569" name_en="Bullet train" name_ja="新幹線" unicode="E65D"/>
+<e jis="756A" name_en="Car (sedan)" name_ja="車（セダン）" unicode="E65E"/>
+<e jis="7E22" name_en="Car (RV)" name_ja="車（ＲＶ）" unicode="E65F"/>
+<e jis="7568" name_en="Bus" name_ja="バス" unicode="E660"/>
+<e jis="7936" name_en="Ship" name_ja="船" unicode="E661"/>
+<e jis="756C" name_en="Airplane" name_ja="飛行機" unicode="E662"/>
+<e jis="7564" name_en="House" name_ja="家" unicode="E663"/>
+<e jis="7566" name_en="Building" name_ja="ビル" unicode="E664"/>
+<e jis="7932" name_en="Post office" name_ja="郵便局" unicode="E665"/>
+<e jis="7933" name_en="Hospital" name_ja="病院" unicode="E666"/>
+<e jis="7563" name_en="Bank" name_ja="銀行" unicode="E667"/>
+<e jis="755C" name_en="ATM" name_ja="ＡＴＭ" unicode="E668"/>
+<e jis="7935" name_en="Hotel" name_ja="ホテル" unicode="E669"/>
+<e jis="755D" name_en="Convenience store" name_ja="コンビニ" unicode="E66A"/>
+<e jis="776E" name_en="Gas station" name_ja="ガソリンスタンド" unicode="E66B"/>
+<e jis="755F" name_en="Parking" name_ja="駐車場" unicode="E66C"/>
+<e jis="7523" name_en="Traffic signal" name_ja="信号" unicode="E66D"/>
+<e jis="755E" name_en="Toilet" name_ja="トイレ" unicode="E66E"/>
+<e jis="7565" name_en="Restaurant" name_ja="レストラン" unicode="E66F"/>
+<e jis="7836" name_en="Café" name_ja="喫茶店" unicode="E670"/>
+<e jis="757B" name_en="Bar" name_ja="バー" unicode="E671"/>
+<e jis="757C" name_en="Beer" name_ja="ビール" unicode="E672"/>
+<e jis="7631" name_en="Fast food" name_ja="ファーストフード" unicode="E673"/>
+<e jis="7675" name_en="Boutique" name_ja="ブティック" unicode="E674"/>
+<e jis="7671" name_en="Hairdresser" name_ja="美容院" unicode="E675"/>
+<e jis="765E" name_en="Karaoke" name_ja="カラオケ" unicode="E676"/>
+<e jis="7672" name_en="Movie" name_ja="映画" unicode="E677"/>
+<e jis="7752" name_en="Diagonally upward toward right" name_ja="右斜め上" unicode="E678"/>
+<e jis="7E23" name_en="Amusement park" name_ja="遊園地" unicode="E679"/>
+<e jis="7663" name_en="Music" name_ja="音楽" unicode="E67A"/>
+<e jis="783B" name_en="Art" name_ja="アート" unicode="E67B"/>
+<e jis="7A4B" name_en="Drama" name_ja="演劇" unicode="E67C"/>
+<e jis="783D" name_en="Event" name_ja="イベント" unicode="E67D"/>
+<e jis="7557" name_en="Ticket" name_ja="チケット" unicode="E67E"/>
+<e jis="7536" name_en="Smoking" name_ja="喫煙" unicode="E67F"/>
+<e jis="7537" name_en="Non-smoking" name_ja="禁煙" unicode="E680"/>
+<e jis="7670" name_en="Camera" name_ja="カメラ" unicode="E681"/>
+<e jis="7555" name_en="Bag" name_ja="カバン" unicode="E682"/>
+<e jis="7558" name_en="Book" name_ja="本" unicode="E683"/>
+<e jis="783E" name_en="Ribbon" name_ja="リボン" unicode="E684"/>
+<e jis="762A" name_en="Present" name_ja="プレゼント" unicode="E685"/>
+<e jis="783F" name_en="Birthday" name_ja="バースデー" unicode="E686"/>
+<e jis="7835" name_en="Phone" name_ja="電話" unicode="E687"/>
+<e jis="7827" name_en="Mobile phone" name_ja="携帯電話" unicode="E688"/>
+<e jis="7946" name_en="Memo" name_ja="メモ" unicode="E689"/>
+<e jis="765D" name_en="TV" name_ja="ＴＶ" unicode="E68A"/>
+<e jis="7621" name_en="Game" name_ja="ゲーム" unicode="E68B"/>
+<e jis="7667" name_en="CD" name_ja="ＣＤ" unicode="E68C"/>
+<e jis="7959" name_en="Heart" name_ja="ハート" unicode="E68D"/>
+<e jis="7840" name_en="Spade" name_ja="スペード" unicode="E68E"/>
+<e jis="7841" name_en="Diamond" name_ja="ダイヤ" unicode="E68F"/>
+<e jis="7842" name_en="Club" name_ja="クラブ" unicode="E690"/>
+<e jis="7843" name_en="Eyes" name_ja="目" unicode="E691"/>
+<e jis="7844" name_en="Ear" name_ja="耳" unicode="E692"/>
+<e jis="7B68" name_en="Hand (rock)" name_ja="手（グー）" unicode="E693"/>
+<e jis="7845" name_en="Hand (scissors)" name_ja="手（チョキ）" unicode="E694"/>
+<e jis="7846" name_en="Hand (paper)" name_ja="手（パー）" unicode="E695"/>
+<e jis="774A" name_en="Diagonally downward toward right" name_ja="右斜め下" unicode="E696"/>
+<e jis="7749" name_en="Diagonally upward toward left" name_ja="左斜め上" unicode="E697"/>
+<e jis="7A6D" name_en="Foot" name_ja="足" unicode="E698"/>
+<e jis="7A6E" name_en="Shoe" name_ja="くつ" unicode="E699"/>
+<e jis="7659" name_en="Eyeglasses" name_ja="眼鏡" unicode="E69A"/>
+<e jis="7538" name_en="Wheelchair" name_ja="車椅子" unicode="E69B"/>
+<e jis="7847" name_en="New moon" name_ja="新月" unicode="E69C"/>
+<e jis="7848" name_en="Waning moon" name_ja="やや欠け月" unicode="E69D"/>
+<e jis="7849" name_en="Half moon" name_ja="半月" unicode="E69E"/>
+<e jis="753F" name_en="Crescent moon" name_ja="三日月" unicode="E69F"/>
+<e jis="7E24" name_en="Full moon" name_ja="満月" unicode="E6A0"/>
+<e jis="763C" name_en="Dog" name_ja="犬" unicode="E6A1"/>
+<e jis="7636" name_en="Cat" name_ja="猫" unicode="E6A2"/>
+<e jis="756D" name_en="Resort" name_ja="リゾート" unicode="E6A3"/>
+<e jis="7624" name_en="Christmas" name_ja="クリスマス" unicode="E6A4"/>
+<e jis="7753" name_en="Diagonally downward toward left" name_ja="左斜め下" unicode="E6A5"/>
+<e jis="222E" unicode="E6A6"/>
+<e jis="222E" unicode="E6A7"/>
+<e jis="222E" unicode="E6A8"/>
+<e jis="222E" unicode="E6A9"/>
+<e jis="222E" unicode="E6AA"/>
+<e jis="222E" unicode="E6AB"/>
+<e jis="7577" name_en="Clapboard" name_ja="カチンコ" unicode="E6AC"/>
+<e jis="7E2B" name_en="Pouch" name_ja="ふくろ" unicode="E6AD"/>
+<e jis="785C" name_en="Pen" name_ja="ペン" unicode="E6AE"/>
+<e jis="222E" unicode="E6AF"/>
+<e jis="222E" unicode="E6B0"/>
+<e jis="7E2C" name_en="Silhouette" name_ja="人影" unicode="E6B1"/>
+<e jis="7D57" name_en="Chair" name_ja="いす" unicode="E6B2"/>
+<e jis="7A47" name_en="Night" name_ja="夜" unicode="E6B3"/>
+<e jis="222E" unicode="E6B4"/>
+<e jis="222E" unicode="E6B5"/>
+<e jis="222E" unicode="E6B6"/>
+<e jis="7E2D" name_en="Soon" name_ja="soon" unicode="E6B7"/>
+<e jis="7E2E" name_en="on" name_ja="on" unicode="E6B8"/>
+<e jis="7E2F" name_en="end" name_ja="end" unicode="E6B9"/>
+<e jis="7833" name_en="Clock" name_ja="時計" unicode="E6BA"/>
+<e jis="222E" unicode="E6BB"/>
+<e jis="222E" unicode="E6BC"/>
+<e jis="222E" unicode="E6BD"/>
+<e jis="222E" unicode="E6BE"/>
+<e jis="222E" unicode="E6BF"/>
+<e jis="222E" unicode="E6C0"/>
+<e jis="222E" unicode="E6C1"/>
+<e jis="222E" unicode="E6C2"/>
+<e jis="222E" unicode="E6C3"/>
+<e jis="222E" unicode="E6C4"/>
+<e jis="222E" unicode="E6C5"/>
+<e jis="222E" unicode="E6C6"/>
+<e jis="222E" unicode="E6C7"/>
+<e jis="222E" unicode="E6C8"/>
+<e jis="222E" unicode="E6C9"/>
+<e jis="222E" unicode="E6CA"/>
+<e jis="222E" unicode="E6CB"/>
+<e jis="222E" unicode="E6CC"/>
+<e jis="222E" unicode="E6CD"/>
+<e jis="7861" name_en="Phone to" name_ja="phone to" unicode="E6CE"/>
+<e jis="7B47" name_en="mail to" name_ja="mail to" unicode="E6CF"/>
+<e jis="767B" name_en="fax to" name_ja="fax to" unicode="E6D0"/>
+<e jis="7E25" name_en="i-mode" name_ja="iモード" unicode="E6D1"/>
+<e jis="7E26" name_en="i-mode with frame" name_ja="iモード（枠付き）" unicode="E6D2"/>
+<e jis="767C" name_en="Mail" name_ja="メール" unicode="E6D3"/>
+<e jis="7E27" name_en="Provided by DOCOMO" name_ja="ドコモ提供" unicode="E6D4"/>
+<e jis="7E28" name_en="docomo Point" name_ja="ドコモポイント" unicode="E6D5"/>
+<e jis="777A" name_en="Fee charging" name_ja="有料" unicode="E6D6"/>
+<e jis="7775" name_en="Free of charge" name_ja="無料" unicode="E6D7"/>
+<e jis="793C" name_en="ID" name_ja="ID" unicode="E6D8"/>
+<e jis="7674" name_en="Password" name_ja="パスワード" unicode="E6D9"/>
+<e jis="775A" name_en="Continuing" name_ja="次項有" unicode="E6DA"/>
+<e jis="784A" name_en="Clear" name_ja="クリア" unicode="E6DB"/>
+<e jis="7673" name_en="Search" name_ja="サーチ（調べる）" unicode="E6DC"/>
+<e jis="7867" name_en="New" name_ja="ＮＥＷ" unicode="E6DD"/>
+<e jis="7A6F" name_en="Location information" name_ja="位置情報" unicode="E6DE"/>
+<e jis="7D5D" name_en="Free dial" name_ja="フリーダイヤル" unicode="E6DF"/>
+<e jis="7B69" name_en="Sharp dial" name_ja="シャープダイヤル" unicode="E6E0"/>
+<e jis="7729" name_en="MobileQ" name_ja="モバＱ" unicode="E6E1"/>
+<e jis="767D" name_en="1" name_ja="1" unicode="E6E2"/>
+<e jis="767E" name_en="2" name_ja="2" unicode="E6E3"/>
+<e jis="7721" name_en="3" name_ja="3" unicode="E6E4"/>
+<e jis="7722" name_en="4" name_ja="4" unicode="E6E5"/>
+<e jis="7723" name_en="5" name_ja="5" unicode="E6E6"/>
+<e jis="7724" name_en="6" name_ja="6" unicode="E6E7"/>
+<e jis="7725" name_en="7" name_ja="7" unicode="E6E8"/>
+<e jis="7726" name_en="8" name_ja="8" unicode="E6E9"/>
+<e jis="7727" name_en="9" name_ja="9" unicode="E6EA"/>
+<e jis="784B" name_en="" name_ja="" unicode="E6EB"/>
+<e jis="7834" name_en="Black heart" name_ja="黒ハート" unicode="E6EC"/>
+<e jis="7B5A" name_en="Fluttering heart" name_ja="揺れるハート" unicode="E6ED"/>
+<e jis="7530" name_en="Heartbreak" name_ja="失恋" unicode="E6EE"/>
+<e jis="7531" name_en="Hearts" name_ja="ハートたち（複数ハート）" unicode="E6EF"/>
+<e jis="752A" name_en="Happy face" name_ja="わーい（嬉しい顔）" unicode="E6F0"/>
+<e jis="752B" name_en="Angry face" name_ja="ちっ（怒った顔）" unicode="E6F1"/>
+<e jis="7974" name_en="Disappointed face" name_ja="がく～（落胆した顔）" unicode="E6F2"/>
+<e jis="7977" name_en="Sad face" name_ja="もうやだ～（悲しい顔）" unicode="E6F3"/>
+<e jis="784D" name_en="Dizzy" name_ja="ふらふら" unicode="E6F4"/>
+<e jis="7A70" name_en="Good (upward arrow)" name_ja="グッド（上向き矢印）" unicode="E6F5"/>
+<e jis="7870" name_en="Cheerful" name_ja="るんるん" unicode="E6F6"/>
+<e jis="7575" name_en="Comfort (hot spring)" name_ja="いい気分（温泉）" unicode="E6F7"/>
+<e jis="7E29" name_en="Cute" name_ja="かわいい" unicode="E6F8"/>
+<e jis="7646" name_en="Kiss" name_ja="キスマーク" unicode="E6F9"/>
+<e jis="795F" name_en="Shining new" name_ja="ぴかぴか（新しい）" unicode="E6FA"/>
+<e jis="752F" name_en="Good idea" name_ja="ひらめき" unicode="E6FB"/>
+<e jis="7640" name_en="Angry" name_ja="むかっ（怒り）" unicode="E6FC"/>
+<e jis="764E" name_en="Punch" name_ja="パンチ" unicode="E6FD"/>
+<e jis="7533" name_en="Bomb" name_ja="爆弾" unicode="E6FE"/>
+<e jis="7660" name_en="Mood" name_ja="ムード" unicode="E6FF"/>
+<e jis="7A71" name_en="Bad (downward arrow)" name_ja="バッド（下向き矢印）" unicode="E700"/>
+<e jis="752E" name_en="Sleepy (sleep)" name_ja="眠い(睡眠)" unicode="E701"/>
+<e jis="753B" name_en="Exclamation mark" name_ja="exclamation" unicode="E702"/>
+<e jis="7A72" name_en="exclamation&amp;question marks" name_ja="exclamation&amp;question" unicode="E703"/>
+<e jis="7A73" name_en="Two exclamation marks" name_ja="exclamation×2" unicode="E704"/>
+<e jis="784F" name_en="Bump (collision)" name_ja="どんっ（衝撃）" unicode="E705"/>
+<e jis="7850" name_en="Sweat" name_ja="あせあせ（飛び散る汗）" unicode="E706"/>
+<e jis="7641" name_en="Cold sweat" name_ja="たらーっ（汗）" unicode="E707"/>
+<e jis="764F" name_en="Dash (running dash)" name_ja="ダッシュ（走り出すさま）" unicode="E708"/>
+<e jis="7E2A" name_en="Macron 1" name_ja="ー（長音記号１）" unicode="E709"/>
+<e jis="7A74" name_en="Macron 2" name_ja="ー（長音記号２）" unicode="E70A"/>
+<e jis="784C" name_en="Accept" name_ja="決定" unicode="E70B"/>
+<e jis="7E30" name_en="i-αppli" name_ja="iアプリ" unicode="E70C"/>
+<e jis="7E31" name_en="i-αppli (with border)" name_ja="iアプリ（枠付き）" unicode="E70D"/>
+<e jis="7868" name_en="T-shirt (border)" name_ja="Tシャツ（ボーダー）" unicode="E70E"/>
+<e jis="765F" name_en="Purse" name_ja="がま口財布" unicode="E70F"/>
+<e jis="7664" name_en="Make-up" name_ja="化粧" unicode="E710"/>
+<e jis="7B5C" name_en="Jeans" name_ja="ジーンズ" unicode="E711"/>
+<e jis="7571" name_en="Snowboarding" name_ja="スノボ" unicode="E712"/>
+<e jis="766D" name_en="Chapel" name_ja="チャペル" unicode="E713"/>
+<e jis="7E32" name_en="Door" name_ja="ドア" unicode="E714"/>
+<e jis="7622" name_en="Money bag" name_ja="ドル袋" unicode="E715"/>
+<e jis="786A" name_en="Computer" name_ja="パソコン" unicode="E716"/>
+<e jis="7B5D" name_en="Love letter" name_ja="ラブレター" unicode="E717"/>
+<e jis="7826" name_en="Wrench" name_ja="レンチ" unicode="E718"/>
+<e jis="755A" name_en="Pencil" name_ja="鉛筆" unicode="E719"/>
+<e jis="787B" name_en="Crown" name_ja="王冠" unicode="E71A"/>
+<e jis="766F" name_en="Ring" name_ja="指輪" unicode="E71B"/>
+<e jis="7535" name_en="Sandglass" name_ja="砂時計" unicode="E71C"/>
+<e jis="7567" name_en="Bicycle" name_ja="自転車" unicode="E71D"/>
+<e jis="7962" name_en="Tea cup" name_ja="湯のみ" unicode="E71E"/>
+<e jis="7777" name_en="Wrist watch" name_ja="腕時計" unicode="E71F"/>
+<e jis="7E33" name_en="Thinking face" name_ja="考えてる顔" unicode="E720"/>
+<e jis="7979" name_en="Relief face" name_ja="ほっとした顔" unicode="E721"/>
+<e jis="7E34" name_en="Cold sweat" name_ja="冷や汗" unicode="E722"/>
+<e jis="7878" name_en="Cold sweat 2" name_ja="冷や汗2" unicode="E723"/>
+<e jis="7B42" name_en="Pouting face" name_ja="ぷっくっくな顔" unicode="E724"/>
+<e jis="797D" name_en="Expressionless face" name_ja="ボケーっとした顔" unicode="E725"/>
+<e jis="7876" name_en="Heart shaped eyes" name_ja="目がハート" unicode="E726"/>
+<e jis="7654" name_en="Thumbs up" name_ja="指でOK" unicode="E727"/>
+<e jis="7642" name_en="Sticking tongue out" name_ja="あっかんべー" unicode="E728"/>
+<e jis="7875" name_en="Wink" name_ja="ウィンク" unicode="E729"/>
+<e jis="7E35" name_en="Happy face" name_ja="うれしい顔" unicode="E72A"/>
+<e jis="7976" name_en="Enduring face" name_ja="がまん顔" unicode="E72B"/>
+<e jis="7973" name_en="Cat 2" name_ja="猫2" unicode="E72C"/>
+<e jis="752C" name_en="Crying" name_ja="泣き顔" unicode="E72D"/>
+<e jis="7B4E" name_en="Tear" name_ja="涙" unicode="E72E"/>
+<e jis="7E36" name_en="NG (No good)" name_ja="NG" unicode="E72F"/>
+<e jis="7559" name_en="Paper clip" name_ja="クリップ" unicode="E730"/>
+<e jis="7755" name_en="Copyright" name_ja="コピーライト" unicode="E731"/>
+<e jis="774B" name_en="Trademark" name_ja="トレードマーク" unicode="E732"/>
+<e jis="7524" name_en="Running man" name_ja="走る人" unicode="E733"/>
+<e jis="764C" name_en="Top secret" name_ja="マル秘" unicode="E734"/>
+<e jis="7B5E" name_en="Recycle" name_ja="リサイクル" unicode="E735"/>
+<e jis="7756" name_en="Registered trademark" name_ja="レジスタードトレードマーク" unicode="E736"/>
+<e jis="753A" name_en="Danger / Caution" name_ja="危険・警告" unicode="E737"/>
+<e jis="7E37" name_en="Prohibited" name_ja="禁止" unicode="E738"/>
+<e jis="793E" name_en="Vacant" name_ja="空室・空席・空車" unicode="E739"/>
+<e jis="7E38" name_en="Approved" name_ja="合格マーク" unicode="E73A"/>
+<e jis="793D" name_en="Full" name_ja="満室・満席・満車" unicode="E73B"/>
+<e jis="7B5F" name_en="Horizontal arrows" name_ja="矢印左右" unicode="E73C"/>
+<e jis="7B60" name_en="Vertical arrows" name_ja="矢印上下" unicode="E73D"/>
+<e jis="7934" name_en="School" name_ja="学校" unicode="E73E"/>
+<e jis="7B61" name_en="Wave" name_ja="波" unicode="E73F"/>
+<e jis="786F" name_en="Mount Fuji" name_ja="富士山" unicode="E740"/>
+<e jis="766E" name_en="4-leaf clover" name_ja="クローバー" unicode="E741"/>
+<e jis="762D" name_en="Cherries" name_ja="さくらんぼ" unicode="E742"/>
+<e jis="763F" name_en="Tulip" name_ja="チューリップ" unicode="E743"/>
+<e jis="7A78" name_en="Banana" name_ja="バナナ" unicode="E744"/>
+<e jis="796D" name_en="Apple" name_ja="りんご" unicode="E745"/>
+<e jis="7B62" name_en="Seedling" name_ja="芽" unicode="E746"/>
+<e jis="7629" name_en="Maple leaf" name_ja="もみじ" unicode="E747"/>
+<e jis="7625" name_en="Cherry blossom" name_ja="桜" unicode="E748"/>
+<e jis="7630" name_en="Rice ball" name_ja="おにぎり" unicode="E749"/>
+<e jis="762B" name_en="Short cake" name_ja="ショートケーキ" unicode="E74A"/>
+<e jis="794B" name_en="Sake bottle (sake cup)" name_ja="とっくり（おちょこ付き）" unicode="E74B"/>
+<e jis="7853" name_en="Bowl" name_ja="どんぶり" unicode="E74C"/>
+<e jis="7963" name_en="Bread" name_ja="パン" unicode="E74D"/>
+<e jis="7B63" name_en="Snail" name_ja="かたつむり" unicode="E74E"/>
+<e jis="763B" name_en="Baby chick" name_ja="ひよこ" unicode="E74F"/>
+<e jis="7637" name_en="Penguin" name_ja="ペンギン" unicode="E750"/>
+<e jis="7A60" name_en="Fish" name_ja="魚" unicode="E751"/>
+<e jis="7A23" name_en="Yumm!" name_ja="うまい！" unicode="E752"/>
+<e jis="7B65" name_en="He he he" name_ja="ウッシッシ" unicode="E753"/>
+<e jis="7633" name_en="Horse" name_ja="ウマ" unicode="E754"/>
+<e jis="7639" name_en="Pig" name_ja="ブタ" unicode="E755"/>
+<e jis="757A" name_en="Wine glass" name_ja="ワイングラス" unicode="E756"/>
+<e jis="7877" name_en="Very thin" name_ja="げっそり" unicode="E757"/>
+</carrier_data>
