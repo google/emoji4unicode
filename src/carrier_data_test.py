@@ -1,0 +1,93 @@
+#!/usr/bin/python2.4
+#
+# Copyright 2008 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+__author__ = "Markus Scherer"
+
+import unittest
+import carrier_data
+
+class DocomoDataTest(unittest.TestCase):
+  def setUp(self):
+    self.__data = carrier_data.GetDocomoData()
+
+  def testMappings(self):
+    symbol_e640 = self.__data.SymbolFromUnicode("E640")
+    self.assertEqual(symbol_e640.uni, "E640")
+    self.assertEqual(symbol_e640.number, 3)
+    self.assertEqual(symbol_e640.shift_jis, "F8A1")
+    self.assertEqual(symbol_e640.jis, "7545")
+    self.assertEqual(symbol_e640.GetEnglishName(), "Rain")
+    self.assertEqual(symbol_e640.GetJapaneseName(), u"\u96e8")
+
+
+class KddiDataTest(unittest.TestCase):
+  def setUp(self):
+    self.__data = carrier_data.GetKddiData()
+
+  def testMappings(self):
+    symbol_e481 = self.__data.SymbolFromUnicode("E481")
+    self.assertEqual(symbol_e481.uni, "E481")
+    self.assertEqual(symbol_e481.number, 1)
+    self.assertEqual(symbol_e481.shift_jis, "F659")
+    self.assertEqual(symbol_e481.jis, "753A")
+    self.assertEqual(symbol_e481.GetEnglishName(), "")
+    self.assertEqual(symbol_e481.GetJapaneseName(), u"\uff01")
+    self.assertEqual(symbol_e481.ImageHTML(),
+                     "<img src=http://www001.upp.so-net.ne.jp/hdml/emoji/e/"
+                     "1.gif>")
+
+    symbol_e513 = self.__data.SymbolFromUnicode("E513")
+    self.assertEqual(symbol_e513.uni, "E513")
+    self.assertEqual(symbol_e513.number, 53)
+    self.assertEqual(symbol_e513.shift_jis, "F6EC")
+    self.assertEqual(symbol_e513.jis, "766E")
+    self.assertEqual(symbol_e513.GetEnglishName(), "")
+    self.assertEqual(symbol_e513.GetJapaneseName(), u"\u56db\u3064\u8449")
+    self.assertEqual(symbol_e513.ImageHTML(),
+                     "<img src=http://www001.upp.so-net.ne.jp/hdml/emoji/e/"
+                     "53.gif>")
+
+
+class SoftbankDataTest(unittest.TestCase):
+  def setUp(self):
+    self.__data = carrier_data.GetSoftbankData()
+
+  def testMappings(self):
+    symbol_e53e = self.__data.SymbolFromUnicode("E53E")
+    self.assertEqual(symbol_e53e.uni, "E53E")
+    self.assertEqual(symbol_e53e.number, 485)
+    self.assertEqual(symbol_e53e.shift_jis, "FBDE")
+    self.assertEqual(symbol_e53e.jis, None)  # "7D77"
+    self.assertEqual(symbol_e53e.GetEnglishName(), "")
+    self.assertEqual(symbol_e53e.GetJapaneseName(), "vodafone5")
+
+
+class GoogleDataTest(unittest.TestCase):
+  def setUp(self):
+    self.__data = carrier_data.GetGoogleData()
+
+  def testMappings(self):
+    symbol_fe001 = self.__data.SymbolFromUnicode("FE001")
+    self.assertEqual(symbol_fe001.uni, "FE001")
+    self.assertEqual(symbol_fe001.number, None)
+    self.assertEqual(symbol_fe001.shift_jis, None)
+    self.assertEqual(symbol_fe001.jis, None)
+    self.assertEqual(symbol_fe001.GetEnglishName(), "")
+    self.assertEqual(symbol_fe001.GetJapaneseName(), "")
+
+
+if __name__ == "__main__":
+  unittest.main()

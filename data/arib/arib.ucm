@@ -1,0 +1,403 @@
+# Copyright 2008 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Author: Markus Scherer
+#
+# ARIB Broadcast Symbols Unicode conversion mapping table using ICU's .ucm
+# file format and representing ARIB codes in the Shift-JIS encoding scheme.
+# (See http://icu-project.org/userguide/conversion-data.html#ucmformat)
+#
+# This is a partial mapping table, without headers and without non-ARIB
+# Shift-JIS mappings.
+#
+# Sources:
+# - ARIB STD-B24 Table 7-10 "Additional Symbols"
+# - ARIB STD-B24 mappings to Unicode, tables 7-19 and 7-20
+# - Proposal document for encoding "Japanese TV Symbols" in Unicode
+#   (L2/08-077R3)
+# - PDAM 6.2 (L2/08-246)
+# - UTC #116 Consensus [116-C25]: Encode U+26BD SOCCER BALL,
+#   and move amendment 6 characters 26BD (ARIB 9316) and 26BE (ARIB 9071)
+#   down by one codepoint to 26BE, 26BF.
+#
+# Notes:
+# - This table maps to many Unicode code points for proposed,
+#   not-yet-encoded characters.
+#   Use this table only for standards work, not in production!
+# - The Unicode unifications in L2/08-077R3 are a superset of those in
+#   ARIB STD-B24 tables 7-19 and 7-20.
+# - ARIB 9058 and 9330 (squared ideographic two) are unified.
+#   In this mapping table, ARIB 9330 is round-tripped because it is in
+#   a one-two-three sequence.
+# - Some ARIB symbols are not directly encoded because they are glyph variants
+#   of Unicode characters (e.g., ARIB 9226..9231) or represent sequences of
+#   characters (e.g., 9256..9284).
+<U00B2> \xEE\xD3 |0  # ARIB-9253
+<U00B3> \xEE\xD4 |0  # ARIB-9254
+<U00BC> \xEF\x73 |0  # ARIB-9352
+<U00BD> \xEF\x6F |0  # ARIB-9348
+<U00BE> \xEF\x74 |0  # ARIB-9353
+<U0FD6> \xEE\x4C |0  # ARIB-9113
+<U203C> \xEF\x8E |0  # ARIB-9378
+<U2049> \xEF\x8F |0  # ARIB-9379
+<U2113> \xEF\x66 |0  # ARIB-9339
+<U2116> \xEF\x4C |0  # ARIB-9313
+<U2121> \xEF\x4D |0  # ARIB-9314
+<U213B> \xEE\xF9 |0  # ARIB-9291
+<U2150> \xEF\x7B |0  # ARIB-9360
+<U2151> \xEF\x7D |0  # ARIB-9362
+<U2152> \xEF\x7E |0  # ARIB-9363
+<U2153> \xEF\x71 |0  # ARIB-9350
+<U2154> \xEF\x72 |0  # ARIB-9351
+<U2155> \xEF\x75 |0  # ARIB-9354
+<U2156> \xEF\x76 |0  # ARIB-9355
+<U2157> \xEF\x77 |0  # ARIB-9356
+<U2158> \xEF\x78 |0  # ARIB-9357
+<U2159> \xEF\x79 |0  # ARIB-9358
+<U215A> \xEF\x7A |0  # ARIB-9359
+<U215B> \x82\x7C |0  # ARIB-0361
+<U2160> \xEF\x9F |0  # ARIB-9401
+<U2161> \xEF\xA0 |0  # ARIB-9402
+<U2162> \xEF\xA1 |0  # ARIB-9403
+<U2163> \xEF\xA2 |0  # ARIB-9404
+<U2164> \xEF\xA3 |0  # ARIB-9405
+<U2165> \xEF\xA4 |0  # ARIB-9406
+<U2166> \xEF\xA5 |0  # ARIB-9407
+<U2167> \xEF\xA6 |0  # ARIB-9408
+<U2168> \xEF\xA7 |0  # ARIB-9409
+<U2169> \xEF\xA8 |0  # ARIB-9410
+<U216A> \xEF\xA9 |0  # ARIB-9411
+<U216B> \xEF\xAA |0  # ARIB-9412
+<U2189> \xEF\x70 |0  # ARIB-9349
+<U2460> \xEF\xDF |0  # ARIB-9465
+<U2461> \xEF\xE0 |0  # ARIB-9466
+<U2462> \xEF\xE1 |0  # ARIB-9467
+<U2463> \xEF\xE2 |0  # ARIB-9468
+<U2464> \xEF\xE3 |0  # ARIB-9469
+<U2465> \xEF\xE4 |0  # ARIB-9470
+<U2466> \xEF\xE5 |0  # ARIB-9471
+<U2467> \xEF\xE6 |0  # ARIB-9472
+<U2468> \xEF\xE7 |0  # ARIB-9473
+<U2469> \xEF\xE8 |0  # ARIB-9474
+<U246A> \xEF\xE9 |0  # ARIB-9475
+<U246B> \xEF\xEA |0  # ARIB-9476
+<U246C> \xEF\xEB |0  # ARIB-9477
+<U246D> \xEF\xEC |0  # ARIB-9478
+<U246E> \xEF\xED |0  # ARIB-9479
+<U246F> \xEF\xEE |0  # ARIB-9480
+<U2470> \xEF\xAB |0  # ARIB-9413
+<U2471> \xEF\xAC |0  # ARIB-9414
+<U2472> \xEF\xAD |0  # ARIB-9415
+<U2473> \xEF\xAE |0  # ARIB-9416
+<U2474> \xEF\xAF |0  # ARIB-9417
+<U2475> \xEF\xB0 |0  # ARIB-9418
+<U2476> \xEF\xB1 |0  # ARIB-9419
+<U2477> \xEF\xB2 |0  # ARIB-9420
+<U2478> \xEF\xB3 |0  # ARIB-9421
+<U2479> \xEF\xB4 |0  # ARIB-9422
+<U247A> \xEF\xB5 |0  # ARIB-9423
+<U247B> \xEF\xB6 |0  # ARIB-9424
+<U247C> \xEF\xB7 |0  # ARIB-9425
+<U247D> \xEF\xB8 |0  # ARIB-9426
+<U247E> \xEF\xB9 |0  # ARIB-9427
+<U247F> \xEF\xBA |0  # ARIB-9428
+<U2488> \xEE\xAF |0  # ARIB-9217
+<U2489> \xEE\xB0 |0  # ARIB-9218
+<U248A> \xEE\xB1 |0  # ARIB-9219
+<U248B> \xEE\xB2 |0  # ARIB-9220
+<U248C> \xEE\xB3 |0  # ARIB-9221
+<U248D> \xEE\xB4 |0  # ARIB-9222
+<U248E> \xEE\xB5 |0  # ARIB-9223
+<U248F> \xEE\xB6 |0  # ARIB-9224
+<U2490> \xEE\xB7 |0  # ARIB-9225
+<U2491> \xED\xCB |0  # ARIB-9045
+<U2492> \xED\xCC |0  # ARIB-9046
+<U2493> \xED\xCD |0  # ARIB-9047
+<U24B9> \xEE\x5D |0  # ARIB-9130
+<U24C8> \xEE\x5E |0  # ARIB-9131
+<U24EB> \xEF\xF9 |0  # ARIB-9491
+<U24EC> \xEF\xFA |0  # ARIB-9492
+<U25B6> \xEE\xCE |0  # ARIB-9248
+<U25C0> \xEE\xCF |0  # ARIB-9249
+<U2600> \xEF\x80 |0  # ARIB-9364
+<U2601> \xEF\x81 |0  # ARIB-9365
+<U2602> \xEF\x82 |0  # ARIB-9366
+<U2603> \xEF\x93 |0  # ARIB-9383
+<U260E> \xEE\x6A |0  # ARIB-9143
+<U260E> \xEF\x9B |0  # ARIB-9391
+<U2613> \xEE\x45 |0  # ARIB-9106
+<U2614> \xEF\x91 |0  # ARIB-9381
+<U2616> \xEF\x84 |0  # ARIB-9368
+<U2617> \xEF\x85 |0  # ARIB-9369
+<U2660> \xEF\x8B |0  # ARIB-9375
+<U2663> \xEF\x8A |0  # ARIB-9374
+<U2665> \xEF\x89 |0  # ARIB-9373
+<U2666> \xEF\x88 |0  # ARIB-9372
+<U2668> \xEE\x50 |0  # ARIB-9117
+<U266C> \xEF\x9A |0  # ARIB-9390
+<U2693> \xEE\x54 |0  # ARIB-9121
+<U269E> \xEF\x98 |0  # ARIB-9388
+<U269F> \xEF\x99 |0  # ARIB-9389
+<U26A1> \xEF\x95 |0  # ARIB-9385
+<U26BE> \xEF\x4F |0  # ARIB-9316
+<U26BF> \xED\xE5 |0  # ARIB-9071
+<U26C4> \xEF\x83 |0  # ARIB-9367
+<U26C5> \xEF\x90 |0  # ARIB-9380
+<U26C6> \xEF\x92 |0  # ARIB-9382
+<U26C7> \xEF\x94 |0  # ARIB-9384
+<U26C8> \xEF\x96 |0  # ARIB-9386
+<U26C9> \xEF\x86 |0  # ARIB-9370
+<U26CA> \xEF\x87 |0  # ARIB-9371
+<U26CB> \xEF\x8C |0  # ARIB-9376
+<U26CC> \xED\x9F |0  # ARIB-9001
+<U26CD> \xED\xA0 |0  # ARIB-9002
+<U26CE> \xED\xA1 |0  # ARIB-9003
+<U26CF> \xED\xA2 |0  # ARIB-9004
+<U26D0> \xED\xA3 |0  # ARIB-9005
+<U26D1> \xED\xA4 |0  # ARIB-9006
+<U26D2> \xED\xA6 |0  # ARIB-9008
+<U26D3> \xED\xA8 |0  # ARIB-9010
+<U26D4> \xED\xA9 |0  # ARIB-9011
+<U26D5> \xED\xA7 |0  # ARIB-9009
+<U26D6> \xED\xB2 |0  # ARIB-9020
+<U26D7> \xED\xB3 |0  # ARIB-9021
+<U26D8> \xED\xB4 |0  # ARIB-9022
+<U26D9> \xED\xB5 |0  # ARIB-9023
+<U26DA> \xED\xB6 |0  # ARIB-9024
+<U26DB> \xED\xB7 |0  # ARIB-9025
+<U26DC> \xED\xB8 |0  # ARIB-9026
+<U26DD> \xED\xB9 |0  # ARIB-9027
+<U26DE> \xED\xBA |0  # ARIB-9028
+<U26DF> \xED\xBB |0  # ARIB-9029
+<U26E0> \xED\xBC |0  # ARIB-9030
+<U26E1> \xED\xBD |0  # ARIB-9031
+<U26E2> \xED\xBE |0  # ARIB-9032
+<U26E3> \xEE\x40 |0  # ARIB-9101
+<U26E4> \xEE\x41 |0  # ARIB-9102
+<U26E5> \xEE\x42 |0  # ARIB-9103
+<U26E6> \xEE\x43 |0  # ARIB-9104
+<U26E7> \xEE\x44 |0  # ARIB-9105
+<U26E8> \xEE\x48 |0  # ARIB-9109
+<U26E9> \xEE\x4B |0  # ARIB-9112
+<U26EA> \xEE\x4D |0  # ARIB-9114
+<U26EB> \xEE\x4E |0  # ARIB-9115
+<U26EC> \xEE\x4F |0  # ARIB-9116
+<U26ED> \xEE\x51 |0  # ARIB-9118
+<U26EE> \xEE\x52 |0  # ARIB-9119
+<U26EF> \xEE\x53 |0  # ARIB-9120
+<U26F0> \xEE\x56 |0  # ARIB-9123
+<U26F1> \xEE\x57 |0  # ARIB-9124
+<U26F2> \xEE\x58 |0  # ARIB-9125
+<U26F3> \xEE\x59 |0  # ARIB-9126
+<U26F4> \xEE\x64 |0  # ARIB-9137
+<U26F5> \xEE\x5B |0  # ARIB-9128
+<U26F6> \xEE\x5F |0  # ARIB-9132
+<U26F7> \xEE\x65 |0  # ARIB-9138
+<U26F8> \xEE\x66 |0  # ARIB-9139
+<U26F9> \xEE\x67 |0  # ARIB-9140
+<U26FA> \xEE\x68 |0  # ARIB-9141
+<U26FB> \xEE\x6B |0  # ARIB-9144
+<U26FC> \xEE\x6C |0  # ARIB-9145
+<U26FD> \xEE\x6D |0  # ARIB-9146
+<U26FE> \xEE\x6E |0  # ARIB-9147
+<U26FF> \xEE\x70 |0  # ARIB-9149
+<U2708> \xEE\x55 |0  # ARIB-9122
+<U2776> \xEF\xEF |0  # ARIB-9481
+<U2777> \xEF\xF0 |0  # ARIB-9482
+<U2778> \xEF\xF1 |0  # ARIB-9483
+<U2779> \xEF\xF2 |0  # ARIB-9484
+<U277A> \xEF\xF3 |0  # ARIB-9485
+<U277B> \xEF\xF4 |0  # ARIB-9486
+<U277C> \xEF\xF5 |0  # ARIB-9487
+<U277D> \xEF\xF6 |0  # ARIB-9488
+<U277E> \xEF\xF7 |0  # ARIB-9489
+<U277F> \xEF\xF8 |0  # ARIB-9490
+<U27A1> \xEE\x9F |0  # ARIB-9201
+<U27D0> \xEE\xD2 |0  # ARIB-9252
+<U2A00> \xEF\x8D |0  # ARIB-9377
+<U2B05> \xEE\xA0 |0  # ARIB-9202
+<U2B06> \xEE\xA1 |0  # ARIB-9203
+<U2B07> \xEE\xA2 |0  # ARIB-9204
+<U2B1B> \xED\xDE |0  # ARIB-9064
+<U2B24> \xED\xDF |0  # ARIB-9065
+<U2B2E> \xEE\xA4 |0  # ARIB-9206
+<U2B2F> \xEE\xA3 |0  # ARIB-9205
+<U3012> \xEE\x47 |0  # ARIB-9108
+<U3016> \xEE\xD0 |0  # ARIB-9250
+<U3017> \xEE\xD1 |0  # ARIB-9251
+<U3036> \xEF\x4E |0  # ARIB-9315
+<U322A> \xEF\x40 |0  # ARIB-9301
+<U322B> \xEF\x41 |0  # ARIB-9302
+<U322C> \xEF\x42 |0  # ARIB-9303
+<U322D> \xEF\x43 |0  # ARIB-9304
+<U322E> \xEF\x44 |0  # ARIB-9305
+<U322F> \xEF\x45 |0  # ARIB-9306
+<U3230> \xEF\x46 |0  # ARIB-9307
+<U3231> \xEE\xCB |0  # ARIB-9245
+<U3232> \xEE\xCA |0  # ARIB-9244
+<U3233> \xEE\xC8 |0  # ARIB-9242
+<U3236> \xEE\xC9 |0  # ARIB-9243
+<U3237> \xEF\x47 |0  # ARIB-9308
+<U3239> \xEE\xCC |0  # ARIB-9246
+<U3244> \xEE\xCD |0  # ARIB-9247
+<U3245> \xEE\x4A |0  # ARIB-9111
+<U3246> \xEE\x49 |0  # ARIB-9110
+<U3247> \xEE\xF6 |0  # ARIB-9288
+<U3248> \xED\xBF |0  # ARIB-9033
+<U3249> \xED\xC0 |0  # ARIB-9034
+<U324A> \xED\xC1 |0  # ARIB-9035
+<U324B> \xED\xC2 |0  # ARIB-9036
+<U324C> \xED\xC3 |0  # ARIB-9037
+<U324D> \xED\xC4 |0  # ARIB-9038
+<U324E> \xED\xC5 |0  # ARIB-9039
+<U324F> \xED\xC6 |0  # ARIB-9040
+<U3251> \xEF\xBB |0  # ARIB-9429
+<U3252> \xEF\xBC |0  # ARIB-9430
+<U3253> \xEF\xBD |0  # ARIB-9431
+<U3254> \xEF\xBE |0  # ARIB-9432
+<U3255> \xEF\xD9 |0  # ARIB-9459
+<U3256> \xEF\xDA |0  # ARIB-9460
+<U3257> \xEF\xDB |0  # ARIB-9461
+<U3258> \xEF\xDC |0  # ARIB-9462
+<U3259> \xEF\xDD |0  # ARIB-9463
+<U325A> \xEF\xDE |0  # ARIB-9464
+<U325B> \xEF\xFB |0  # ARIB-9493
+<U328B> \xEE\x46 |0  # ARIB-9107
+<U3299> \xED\xF1 |0  # ARIB-9083
+<U32FF> \xED\xD6 |0  # ARIB-9056
+<U3371> \xEF\x6C |0  # ARIB-9345
+<U337B> \xEF\x4B |0  # ARIB-9312
+<U337C> \xEF\x4A |0  # ARIB-9311
+<U337D> \xEF\x49 |0  # ARIB-9310
+<U337E> \xEF\x48 |0  # ARIB-9309
+<U338F> \xEF\x67 |0  # ARIB-9340
+<U3390> \xEF\x68 |0  # ARIB-9341
+<U339D> \xEE\xAB |0  # ARIB-9213
+<U339E> \xEF\x6A |0  # ARIB-9343
+<U33A0> \xEE\xAC |0  # ARIB-9214
+<U33A1> \xEE\xA9 |0  # ARIB-9211
+<U33A2> \xEF\x6B |0  # ARIB-9344
+<U33A4> \xEE\xAD |0  # ARIB-9215
+<U33A5> \xEE\xAA |0  # ARIB-9212
+<U33CA> \xEF\x69 |0  # ARIB-9342
+<U5186> \xEE\xA8 |0  # ARIB-9210
+<U5E74> \xEE\xA5 |0  # ARIB-9207
+<U65E5> \xEE\xA7 |0  # ARIB-9209
+<U6708> \xEE\xA6 |0  # ARIB-9208
+<U1F100> \xEE\xAE |0  # ARIB-9216
+<U1F101> \xEE\xBE |0  # ARIB-9232
+<U1F102> \xEE\xBF |0  # ARIB-9233
+<U1F103> \xEE\xC0 |0  # ARIB-9234
+<U1F104> \xEE\xC1 |0  # ARIB-9235
+<U1F105> \xEE\xC2 |0  # ARIB-9236
+<U1F106> \xEE\xC3 |0  # ARIB-9237
+<U1F107> \xEE\xC4 |0  # ARIB-9238
+<U1F108> \xEE\xC5 |0  # ARIB-9239
+<U1F109> \xEE\xC6 |0  # ARIB-9240
+<U1F10A> \xEE\xC7 |0  # ARIB-9241
+<U1F110> \xEF\xBF |0  # ARIB-9433
+<U1F111> \xEF\xC0 |0  # ARIB-9434
+<U1F112> \xEF\xC1 |0  # ARIB-9435
+<U1F113> \xEF\xC2 |0  # ARIB-9436
+<U1F114> \xEF\xC3 |0  # ARIB-9437
+<U1F115> \xEF\xC4 |0  # ARIB-9438
+<U1F116> \xEF\xC5 |0  # ARIB-9439
+<U1F117> \xEF\xC6 |0  # ARIB-9440
+<U1F118> \xEF\xC7 |0  # ARIB-9441
+<U1F119> \xEF\xC8 |0  # ARIB-9442
+<U1F11A> \xEF\xC9 |0  # ARIB-9443
+<U1F11B> \xEF\xCA |0  # ARIB-9444
+<U1F11C> \xEF\xCB |0  # ARIB-9445
+<U1F11D> \xEF\xCC |0  # ARIB-9446
+<U1F11E> \xEF\xCD |0  # ARIB-9447
+<U1F11F> \xEF\xCE |0  # ARIB-9448
+<U1F120> \xEF\xCF |0  # ARIB-9449
+<U1F121> \xEF\xD0 |0  # ARIB-9450
+<U1F122> \xEF\xD1 |0  # ARIB-9451
+<U1F123> \xEF\xD2 |0  # ARIB-9452
+<U1F124> \xEF\xD3 |0  # ARIB-9453
+<U1F125> \xEF\xD4 |0  # ARIB-9454
+<U1F126> \xEF\xD5 |0  # ARIB-9455
+<U1F127> \xEF\xD6 |0  # ARIB-9456
+<U1F128> \xEF\xD7 |0  # ARIB-9457
+<U1F129> \xEF\xD8 |0  # ARIB-9458
+<U1F12A> \xEF\x59 |0  # ARIB-9326
+<U1F12B> \xEE\xF5 |0  # ARIB-9287
+<U1F12C> \xEE\xF4 |0  # ARIB-9286
+<U1F12D> \xEE\xD5 |0  # ARIB-9255
+<U1F131> \xED\xDC |0  # ARIB-9062
+<U1F13D> \xED\xDD |0  # ARIB-9063
+<U1F13F> \xED\xD0 |0  # ARIB-9050
+<U1F142> \xED\xD7 |0  # ARIB-9057
+<U1F146> \xED\xD1 |0  # ARIB-9051
+<U1F14A> \xED\xCE |0  # ARIB-9048
+<U1F14B> \xED\xD2 |0  # ARIB-9052
+<U1F14C> \xED\xCF |0  # ARIB-9049
+<U1F14D> \xED\xDB |0  # ARIB-9061
+<U1F14E> \xED\xF0 |0  # ARIB-9082
+<U1F14F> \xEE\xF7 |0  # ARIB-9289
+<U1F157> \xEE\x5C |0  # ARIB-9129
+<U1F15F> \xEE\x60 |0  # ARIB-9133
+<U1F179> \xEE\x64 |0  # ARIB-9137
+<U1F17B> \xEE\x69 |0  # ARIB-9142
+<U1F17C> \xEE\x6F |0  # ARIB-9148
+<U1F17F> \xED\xAE |0  # ARIB-9016
+<U1F18A> \xED\xAF |0  # ARIB-9017
+<U1F18B> \xEE\x61 |0  # ARIB-9134
+<U1F18C> \xEE\x63 |0  # ARIB-9136
+<U1F18D> \xEE\x62 |0  # ARIB-9135
+<U1F200> \xED\xF2 |0  # ARIB-9084
+<U1F210> \xEF\x5C |0  # ARIB-9329
+<U1F211> \xEF\x5E |0  # ARIB-9331
+<U1F212> \xEF\x61 |0  # ARIB-9334
+<U1F213> \xED\xD8 |3  # ARIB-9058
+<U1F213> \xEF\x5D |0  # ARIB-9330
+<U1F214> \xED\xE1 |0  # ARIB-9067
+<U1F215> \xED\xE8 |0  # ARIB-9074
+<U1F216> \xED\xEA |0  # ARIB-9076
+<U1F217> \xED\xE6 |0  # ARIB-9072
+<U1F218> \xED\xD5 |0  # ARIB-9055
+<U1F219> \xEF\x62 |0  # ARIB-9335
+<U1F21A> \xED\xEF |0  # ARIB-9081
+<U1F21B> \xED\xEE |0  # ARIB-9080
+<U1F21C> \xED\xD9 |0  # ARIB-9059
+<U1F21D> \xED\xE0 |0  # ARIB-9066
+<U1F21E> \xED\xD4 |0  # ARIB-9054
+<U1F21F> \xEF\x60 |0  # ARIB-9333
+<U1F220> \xED\xE7 |0  # ARIB-9073
+<U1F221> \xED\xD3 |0  # ARIB-9053
+<U1F222> \xEF\x65 |0  # ARIB-9338
+<U1F223> \xEF\x5A |0  # ARIB-9327
+<U1F224> \xEF\x63 |0  # ARIB-9336
+<U1F225> \xEF\x5B |0  # ARIB-9328
+<U1F226> \xED\xE4 |0  # ARIB-9070
+<U1F227> \xED\xE9 |0  # ARIB-9075
+<U1F228> \xED\xE2 |0  # ARIB-9068
+<U1F229> \xEE\xF8 |0  # ARIB-9290
+<U1F22A> \xED\xE3 |0  # ARIB-9069
+<U1F22B> \xED\xEC |0  # ARIB-9078
+<U1F22C> \xED\xEB |0  # ARIB-9077
+<U1F22D> \xED\xDA |0  # ARIB-9060
+<U1F22E> \xED\xED |0  # ARIB-9079
+<U1F22F> \xEF\x64 |0  # ARIB-9337
+<U1F230> \xEF\x5F |0  # ARIB-9332
+<U1F240> \xEF\x51 |0  # ARIB-9318
+<U1F241> \xEF\x52 |0  # ARIB-9319
+<U1F242> \xEF\x57 |0  # ARIB-9324
+<U1F243> \xEF\x53 |0  # ARIB-9320
+<U1F244> \xEF\x55 |0  # ARIB-9322
+<U1F245> \xEF\x58 |0  # ARIB-9325
+<U1F246> \xEF\x50 |0  # ARIB-9317
+<U1F247> \xEF\x54 |0  # ARIB-9321
+<U1F248> \xEF\x56 |0  # ARIB-9323
