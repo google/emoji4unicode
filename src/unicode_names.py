@@ -26,7 +26,8 @@ and at worst data from several years ago, depending on the age of the Python
 distribution. (The online Python 2.5 documentation says it's Unicode 4.1,
 which is from March 2005.)
 
-For this project, we need to use the very latest data available, including characters that will go into future releases.
+For this project, we need to use the very latest data available, including
+characters that will go into future releases.
 
 Even the initial data used in this project only includes AMD 5 characters,
 and we need AMD 6 with recent modifications to include the
