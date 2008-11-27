@@ -65,6 +65,9 @@ body {
 .text_fallback {
   background:#CC99FF;
 }
+.report {
+  font-weight: bold;
+}
 </style>
 </head>
 <body>
@@ -85,9 +88,12 @@ body {
 </tr>
 """
 
-_FOOTER = """</table></body></html>"""
+_FOOTER = """</body></html>"""
 
 def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
+  number_symbols_in_chart = 0
+  number_symbols_unified = 0
+  number_symbols_new = 0
   writer.write(_HEADER)
   for category in emoji4unicode.GetCategories():
     category_string = category.name
@@ -109,6 +115,11 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
           continue  # Skip this symbol.
         else:
           writer.write("<tr class=not_in_proposal><td>e-%s</td>" % symbol.id)
+        number_symbols_in_chart += 1
+        if symbol.GetUnicode():
+          number_symbols_unified += 1
+        elif symbol.in_proposal:
+          number_symbols_new += 1
         writer.write("<td>%s</td>" % _RepresentationHTML(symbol))
         writer.write("<td>%s</td>" % _NameAnnotationHTML(symbol))
         for carrier in emoji4unicode.carriers:
@@ -131,6 +142,14 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
               cell = "<td>-</td>"
           writer.write(cell)
         writer.write("</tr>\n")
+  writer.write("</table>\n")
+  writer.write("<p class='report'>Number of symbols in this chart: %d</p>\n" %
+               number_symbols_in_chart)
+  writer.write("<p class='report'>Number of symbols unified with existing "
+               "Unicode characters: %d</p>\n" %
+               number_symbols_unified)
+  writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
+               number_symbols_new)
   writer.write(_FOOTER)
 
 
