@@ -19,6 +19,24 @@
 This module does not currently handle algorithmic names (for Han and Hangul
 characters) nor registered names of sequences.
 
+We do not use the Python unicodedata module because
+
+1. The unicodedata module uses at best data from the latest Unicode version,
+and at worst data from several years ago, depending on the age of the Python
+distribution. (The online Python 2.5 documentation says it's Unicode 4.1,
+which is from March 2005.)
+
+For this project, we need to use the very latest data available, including characters that will go into future releases.
+
+Even the initial data used in this project only includes AMD 5 characters,
+and we need AMD 6 with recent modifications to include the
+accepted ARIB symbols. ("AMD" means ISO 10646 Amendment.)
+
+2. The unicodedata module documentation is not clear. It says the lookup()
+function returns a "Unicode character". What does that mean for supplementary
+characters on a Python installation with default 16-bit Unicode strings, like
+on Windows and the Mac? Will it return a surrogate pair or throw an exception?
+
 Attributes:
   code_points_to_names: Map from code points to character names.
   names_to_code_points: Map from character names to code points.
