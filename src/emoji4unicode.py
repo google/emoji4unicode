@@ -38,7 +38,7 @@ all_carrier_data = {}
 def Load():
   """Parse emoji4unicode.xml and load related data."""
   # TODO(mscherer): Add argument for root data folder path.
-  global carriers, all_carrier_data, arib_ucm, _doc, _root
+  global carriers, all_carrier_data, arib_ucm, _kddi_to_google, _doc, _root
   if all_carrier_data: return  # Already loaded.
   carriers = ["docomo", "kddi", "softbank", "google"]
   all_carrier_data = {
@@ -53,6 +53,12 @@ def Load():
   e4u_filename = os.path.join(here, "..", "data", "emoji4unicode.xml")
   _doc = xml.dom.minidom.parse(e4u_filename)
   _root = _doc.documentElement
+  _kddi_to_google = {}
+  for symbol in GetSymbols():
+    kddi_uni = symbol.GetCarrierUnicode("kddi")
+    if kddi_uni and not kddi_uni.startswith(">"):
+      google_uni = symbol.GetCarrierUnicode("google")
+      if google_uni: _kddi_to_google[kddi_uni] = google_uni
 
 def GetCategories():
   """Generator of Category objects."""
@@ -157,7 +163,8 @@ class Symbol(object):
       global all_carrier_data
       from_carrier_data = all_carrier_data[img_from]
       carrier_uni = self.GetCarrierUnicode(img_from)
-      return from_carrier_data.SymbolFromUnicode(carrier_uni).ImageHTML()
+      return CarrierImageHTML(img_from,
+                              from_carrier_data.SymbolFromUnicode(carrier_uni))
     return ""
 
   def GetTextRepresentation(self):
@@ -266,3 +273,22 @@ def _InProposal(element, parent_in_proposal):
   else:
     in_proposal = parent_in_proposal
   return in_proposal
+
+def CarrierImageHTML(carrier, symbol):
+  """Get the carrier's image HTML for the symbol.
+
+  Args:
+    carrier: Name of a carrier.
+    symbol: The carrier_data.Symbol instance.
+
+  Returns:
+    An HTML string for the symbol's image, or an empty string if
+    there is none.
+  """
+  if carrier == "kddi":
+    # Use images hosted by Google rather than another non-KDDI site.
+    google_uni = _kddi_to_google[symbol.uni]
+    if google_uni and not google_uni.startswith(">"):
+      return ("<img src=http://mail.google.com/mail/e/ezweb_ne_jp/%s>" %
+              google_uni[-3:])
+  return symbol.ImageHTML()

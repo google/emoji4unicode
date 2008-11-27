@@ -204,7 +204,7 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
   japanese_string = ""
   for code in codes:
     symbol = one_carrier_data.SymbolFromUnicode(code)
-    img_html = symbol.ImageHTML()
+    img_html = emoji4unicode.CarrierImageHTML(carrier, symbol)
     if img_html: img_string += "+%s" % img_html
     uni_string += "+U+" + code
     if symbol.number:
