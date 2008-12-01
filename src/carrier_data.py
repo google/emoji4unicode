@@ -97,6 +97,10 @@ class CarrierData(object):
       jis = symbol._element.getAttribute("jis")
       if jis: symbol.jis = jis
 
+    if symbol._element:
+      new_number = symbol._element.getAttribute("new_number")
+      if new_number: symbol.new_number = int(new_number)
+
     return symbol
 
   def _ImageHTML(self, uni, number):
@@ -194,7 +198,8 @@ def _JisFromUnicode(ranges, uni):
 
 class Symbol(object):
   """Carrier data for one Emoji symbol."""
-  __slots__ = "uni", "number", "shift_jis", "jis", "_element", "_carrier_data"
+  __slots__ = ("uni", "number", "new_number",
+               "shift_jis", "jis", "_element", "_carrier_data")
 
   def __init__(self):
     """Carrier Emoji symbol data.
@@ -209,6 +214,7 @@ class Symbol(object):
     """
     self.uni = None
     self.number = None
+    self.new_number = None
     self.shift_jis = None
     self.jis = None
     self._element = None  # <e> XML element
