@@ -136,10 +136,8 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
                 code)
           else:
             text_fallback = symbol.GetTextFallback()
-            if text_fallback:
-              cell = "<td class='text_fallback'>%s</td>" % text_fallback
-            else:
-              cell = "<td>-</td>"
+            if not text_fallback: text_fallback = u"\u3013"  # geta mark
+            cell = "<td class='text_fallback'>%s</td>" % text_fallback
           writer.write(cell)
         writer.write("</tr>\n")
   writer.write("</table>\n")
