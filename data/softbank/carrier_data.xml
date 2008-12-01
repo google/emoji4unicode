@@ -1,268 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <carrier_data>
-<e name_ja="男の子" unicode="E001"/>
-<e name_ja="女の子" unicode="E002"/>
-<e name_ja="キスマーク" unicode="E003"/>
-<e name_ja="お父さん" unicode="E004"/>
-<e name_ja="お母さん" unicode="E005"/>
-<e name_ja="洋服" unicode="E006"/>
-<e name_ja="ブーツ" unicode="E007"/>
-<e name_ja="カメラ" unicode="E008"/>
-<e name_ja="電話" unicode="E009"/>
-<e name_ja="携帯電話" unicode="E00A"/>
-<e name_ja="FAX" unicode="E00B"/>
-<e name_ja="パソコン" unicode="E00C"/>
-<e name_ja="パンチ" unicode="E00D"/>
-<e name_ja="GOOD!" unicode="E00E"/>
-<e name_ja="No.1" unicode="E00F"/>
-<e name_ja="グー" unicode="E010"/>
-<e name_ja="チョキ" unicode="E011"/>
-<e name_ja="パー" unicode="E012"/>
-<e name_ja="スキー" unicode="E013"/>
-<e name_ja="ゴルフ" unicode="E014"/>
-<e name_ja="テニス" unicode="E015"/>
-<e name_ja="野球" unicode="E016"/>
-<e name_ja="サーフィン" unicode="E017"/>
-<e name_ja="サッカー" unicode="E018"/>
-<e name_ja="魚" unicode="E019"/>
-<e name_ja="うま" unicode="E01A"/>
-<e name_ja="車" unicode="E01B"/>
-<e name_ja="ヨット" unicode="E01C"/>
-<e name_ja="飛行機" unicode="E01D"/>
-<e name_ja="電車" unicode="E01E"/>
-<e name_ja="新幹線" unicode="E01F"/>
-<e name_ja="ハテナ" unicode="E020"/>
-<e name_ja="ビックリ" unicode="E021"/>
-<e name_ja="ハートマーク" unicode="E022"/>
-<e name_ja="ハートブレイク" unicode="E023"/>
-<e name_ja="1時" unicode="E024"/>
-<e name_ja="2時" unicode="E025"/>
-<e name_ja="時計" unicode="E026"/>
-<e name_ja="4時" unicode="E027"/>
-<e name_ja="5時" unicode="E028"/>
-<e name_ja="6時" unicode="E029"/>
-<e name_ja="7時" unicode="E02A"/>
-<e name_ja="8時" unicode="E02B"/>
-<e name_ja="9時" unicode="E02C"/>
-<e name_ja="10時" unicode="E02D"/>
-<e name_ja="11時" unicode="E02E"/>
-<e name_ja="12時" unicode="E02F"/>
-<e name_ja="お花見" unicode="E030"/>
-<e name_ja="エンブレム" unicode="E031"/>
-<e name_ja="バラ" unicode="E032"/>
-<e name_ja="クリスマス" unicode="E033"/>
-<e name_ja="指輪" unicode="E034"/>
-<e name_ja="宝石" unicode="E035"/>
-<e name_ja="家" unicode="E036"/>
-<e name_ja="教会" unicode="E037"/>
-<e name_ja="ビル" unicode="E038"/>
-<e name_ja="駅" unicode="E039"/>
-<e name_ja="ガソリンスタンド" unicode="E03A"/>
-<e name_ja="山" unicode="E03B"/>
-<e name_ja="マイク" unicode="E03C"/>
-<e name_ja="映画" unicode="E03D"/>
-<e name_ja="音楽" unicode="E03E"/>
-<e name_ja="カギ" unicode="E03F"/>
-<e name_ja="サックス" unicode="E040"/>
-<e name_ja="ギター" unicode="E041"/>
-<e name_ja="トランペット" unicode="E042"/>
-<e name_ja="レストラン" unicode="E043"/>
-<e name_ja="カクテル" unicode="E044"/>
-<e name_ja="コーヒー" unicode="E045"/>
-<e name_ja="ケーキ" unicode="E046"/>
-<e name_ja="ビール" unicode="E047"/>
-<e name_ja="雪" unicode="E048"/>
-<e name_ja="曇り" unicode="E049"/>
-<e name_ja="晴れ(昼)" unicode="E04A"/>
-<e name_ja="雨" unicode="E04B"/>
-<e name_ja="晴れ(夜)" unicode="E04C"/>
-<e name_ja="朝" unicode="E04D"/>
-<e name_ja="天使" unicode="E04E"/>
-<e name_ja="ねこ" unicode="E04F"/>
-<e name_ja="とら" unicode="E050"/>
-<e name_ja="くま" unicode="E051"/>
-<e name_ja="いぬ" unicode="E052"/>
-<e name_ja="ねずみ" unicode="E053"/>
-<e name_ja="クジラ" unicode="E054"/>
-<e name_ja="ペンギン" unicode="E055"/>
-<e name_ja="楽" unicode="E056"/>
-<e name_ja="喜" unicode="E057"/>
-<e name_ja="哀" unicode="E058"/>
-<e name_ja="怒" unicode="E059"/>
-<e name_ja="ウンチ" unicode="E05A"/>
-<e name_ja="メール受信" unicode="E101"/>
-<e name_ja="メール送信" unicode="E102"/>
-<e name_ja="メール宛先" unicode="E103"/>
-<e name_ja="電話番号" unicode="E104"/>
-<e name_ja="あっかんベー" unicode="E105"/>
-<e name_ja="ラブラブ" unicode="E106"/>
-<e name_ja="ガビーン" unicode="E107"/>
-<e name_ja="タラー" unicode="E108"/>
-<e name_ja="さる" unicode="E109"/>
-<e name_ja="たこ" unicode="E10A"/>
-<e name_ja="ぶた" unicode="E10B"/>
-<e name_ja="宇宙人" unicode="E10C"/>
-<e name_ja="ロケット" unicode="E10D"/>
-<e name_ja="王冠" unicode="E10E"/>
-<e name_ja="電球" unicode="E10F"/>
-<e name_ja="よつば" unicode="E110"/>
-<e name_ja="キス" unicode="E111"/>
-<e name_ja="バースデー" unicode="E112"/>
-<e name_ja="ピストル" unicode="E113"/>
-<e name_ja="虫眼鏡" unicode="E114"/>
-<e name_ja="陸上" unicode="E115"/>
-<e name_ja="オークション" unicode="E116"/>
-<e name_ja="花火" unicode="E117"/>
-<e name_ja="もみじ" unicode="E118"/>
-<e name_ja="落ち葉" unicode="E119"/>
-<e name_ja="悪魔" unicode="E11A"/>
-<e name_ja="おばけ" unicode="E11B"/>
-<e name_ja="ドクロ" unicode="E11C"/>
-<e name_ja="ファイヤー" unicode="E11D"/>
-<e name_ja="かばん" unicode="E11E"/>
-<e name_ja="座席" unicode="E11F"/>
-<e name_ja="ハンバーガ" unicode="E120"/>
-<e name_ja="公園" unicode="E121"/>
-<e name_ja="キャンプ場" unicode="E122"/>
-<e name_ja="温泉" unicode="E123"/>
-<e name_ja="遊園地" unicode="E124"/>
-<e name_ja="チケット" unicode="E125"/>
-<e name_ja="CD" unicode="E126"/>
-<e name_ja="DVD" unicode="E127"/>
-<e name_ja="ラジオ" unicode="E128"/>
-<e name_ja="ビデオ" unicode="E129"/>
-<e name_ja="テレビ" unicode="E12A"/>
-<e name_ja="ゲーム" unicode="E12B"/>
-<e name_ja="歌い出し" unicode="E12C"/>
-<e name_ja="マージャン" unicode="E12D"/>
-<e name_ja="対決" unicode="E12E"/>
-<e name_ja="賞金" unicode="E12F"/>
-<e name_ja="当り" unicode="E130"/>
-<e name_ja="トロフィー" unicode="E131"/>
-<e name_ja="ゴール" unicode="E132"/>
-<e name_ja="スロット" unicode="E133"/>
-<e name_ja="競馬" unicode="E134"/>
-<e name_ja="競艇" unicode="E135"/>
-<e name_ja="競輪" unicode="E136"/>
-<e name_ja="工事中" unicode="E137"/>
-<e name_ja="男性" unicode="E138"/>
-<e name_ja="女性" unicode="E139"/>
-<e name_ja="乳幼児" unicode="E13A"/>
-<e name_ja="注射器" unicode="E13B"/>
-<e name_ja="睡眠" unicode="E13C"/>
-<e name_ja="雷" unicode="E13D"/>
-<e name_ja="ハイヒール" unicode="E13E"/>
-<e name_ja="入浴" unicode="E13F"/>
-<e name_ja="トイレ" unicode="E140"/>
-<e name_ja="音声" unicode="E141"/>
-<e name_ja="お知らせ" unicode="E142"/>
-<e name_ja="祝日" unicode="E143"/>
-<e name_ja="ロックON" unicode="E144"/>
-<e name_ja="ロックOFF" unicode="E145"/>
-<e name_ja="街" unicode="E146"/>
-<e name_ja="料理" unicode="E147"/>
-<e name_ja="本" unicode="E148"/>
-<e name_ja="為替相場" unicode="E149"/>
-<e name_ja="株価" unicode="E14A"/>
-<e name_ja="ニュース" unicode="E14B"/>
-<e name_ja="元気" unicode="E14C"/>
-<e name_ja="銀行" unicode="E14D"/>
-<e name_ja="信号" unicode="E14E"/>
-<e name_ja="駐車場" unicode="E14F"/>
-<e name_ja="バス停" unicode="E150"/>
-<e name_ja="公衆トイレ" unicode="E151"/>
-<e name_ja="交番" unicode="E152"/>
-<e name_ja="郵便局" unicode="E153"/>
-<e name_ja="ATM" unicode="E154"/>
-<e name_ja="病院" unicode="E155"/>
-<e name_ja="コンビニ" unicode="E156"/>
-<e name_ja="学校" unicode="E157"/>
-<e name_ja="ホテル" unicode="E158"/>
-<e name_ja="バス" unicode="E159"/>
-<e name_ja="タクシー" unicode="E15A"/>
-<e name_ja="徒歩" unicode="E201"/>
-<e name_ja="船" unicode="E202"/>
-<e name_ja="目的地" unicode="E203"/>
-<e name_ja="飾罫1" unicode="E204"/>
-<e name_ja="飾罫2" unicode="E205"/>
-<e name_ja="飾罫3" unicode="E206"/>
-<e name_ja="18禁" unicode="E207"/>
-<e name_ja="禁煙" unicode="E208"/>
-<e name_ja="初心者" unicode="E209"/>
-<e name_ja="バリアフリー" unicode="E20A"/>
-<e name_ja="アンテナマーク" unicode="E20B"/>
-<e name_ja="ハート" unicode="E20C"/>
-<e name_ja="ダイヤ" unicode="E20D"/>
-<e name_ja="スペード" unicode="E20E"/>
-<e name_ja="クラブ" unicode="E20F"/>
-<e name_ja="シャープダイヤル" unicode="E210"/>
-<e name_ja="フリーダイヤル" unicode="E211"/>
-<e name_ja="新着" unicode="E212"/>
-<e name_ja="更新" unicode="E213"/>
-<e name_ja="おすすめ" unicode="E214"/>
-<e name_ja="有料" unicode="E215"/>
-<e name_ja="無料" unicode="E216"/>
-<e name_ja="月額" unicode="E217"/>
-<e name_ja="申し込み" unicode="E218"/>
-<e name_ja="見出しボタン1" unicode="E219"/>
-<e name_ja="見出しボタン2" unicode="E21A"/>
-<e name_ja="見出しボタン3" unicode="E21B"/>
-<e name_ja="1ボタン" unicode="E21C"/>
-<e name_ja="2ボタン" unicode="E21D"/>
-<e name_ja="3ボタン" unicode="E21E"/>
-<e name_ja="4ボタン" unicode="E21F"/>
-<e name_ja="5ボタン" unicode="E220"/>
-<e name_ja="6ボタン" unicode="E221"/>
-<e name_ja="7ボタン" unicode="E222"/>
-<e name_ja="8ボタン" unicode="E223"/>
-<e name_ja="9ボタン" unicode="E224"/>
-<e name_ja="ボタン" unicode="E225"/>
-<e name_ja="お得" unicode="E226"/>
-<e name_ja="割引" unicode="E227"/>
-<e name_ja="サービス料" unicode="E228"/>
-<e name_ja="ID" unicode="E229"/>
-<e name_ja="満席" unicode="E22A"/>
-<e name_ja="空席" unicode="E22B"/>
-<e name_ja="指定席" unicode="E22C"/>
-<e name_ja="営業時間" unicode="E22D"/>
-<e name_ja="上へ" unicode="E22E"/>
-<e name_ja="下へ" unicode="E22F"/>
-<e name_ja="左へ" unicode="E230"/>
-<e name_ja="右へ" unicode="E231"/>
-<e name_ja="上" unicode="E232"/>
-<e name_ja="下" unicode="E233"/>
-<e name_ja="右" unicode="E234"/>
-<e name_ja="左" unicode="E235"/>
-<e name_ja="右上" unicode="E236"/>
-<e name_ja="左上" unicode="E237"/>
-<e name_ja="右下" unicode="E238"/>
-<e name_ja="左下" unicode="E239"/>
-<e name_ja="次へ" unicode="E23A"/>
-<e name_ja="前へ" unicode="E23B"/>
-<e name_ja="早送り" unicode="E23C"/>
-<e name_ja="巻戻し" unicode="E23D"/>
-<e name_ja="星座" unicode="E23E"/>
-<e name_ja="おひつじ座" unicode="E23F"/>
-<e name_ja="おうし座" unicode="E240"/>
-<e name_ja="ふたご座" unicode="E241"/>
-<e name_ja="かに座" unicode="E242"/>
-<e name_ja="しし座" unicode="E243"/>
-<e name_ja="おとめ座" unicode="E244"/>
-<e name_ja="てんびん座" unicode="E245"/>
-<e name_ja="さそり座" unicode="E246"/>
-<e name_ja="いて座" unicode="E247"/>
-<e name_ja="やぎ座" unicode="E248"/>
-<e name_ja="みずがめ座" unicode="E249"/>
-<e name_ja="うお座" unicode="E24A"/>
-<e name_ja="へびつかい座" unicode="E24B"/>
-<e name_ja="TOPページ" unicode="E24C"/>
-<e name_ja="OKボタン" unicode="E24D"/>
-<e name_ja="著作権" unicode="E24E"/>
-<e name_ja="登録商標" unicode="E24F"/>
-<e name_ja="マナーモード" unicode="E250"/>
-<e name_ja="電源切" unicode="E251"/>
-<e name_ja="ご注意" unicode="E252"/>
-<e name_ja="ご案内" unicode="E253"/>
+<e name_ja="男の子" new_number="280" unicode="E001"/>
+<e name_ja="女の子" new_number="281" unicode="E002"/>
+<e name_ja="キスマーク" new_number="63" unicode="E003"/>
+<e name_ja="お父さん" new_number="282" unicode="E004"/>
+<e name_ja="お母さん" new_number="283" unicode="E005"/>
+<e name_ja="洋服" new_number="214" unicode="E006"/>
+<e name_ja="ブーツ" new_number="219" unicode="E007"/>
+<e name_ja="カメラ" new_number="247" unicode="E008"/>
+<e name_ja="電話" new_number="245" unicode="E009"/>
+<e name_ja="携帯電話" new_number="244" unicode="E00A"/>
+<e name_ja="FAX" new_number="246" unicode="E00B"/>
+<e name_ja="パソコン" new_number="241" unicode="E00C"/>
+<e name_ja="パンチ" new_number="55" unicode="E00D"/>
+<e name_ja="GOOD!" new_number="54" unicode="E00E"/>
+<e name_ja="No.1" new_number="56" unicode="E00F"/>
+<e name_ja="グー" new_number="51" unicode="E010"/>
+<e name_ja="チョキ" new_number="52" unicode="E011"/>
+<e name_ja="パー" new_number="53" unicode="E012"/>
+<e name_ja="スキー" new_number="157" unicode="E013"/>
+<e name_ja="ゴルフ" new_number="156" unicode="E014"/>
+<e name_ja="テニス" new_number="154" unicode="E015"/>
+<e name_ja="野球" new_number="153" unicode="E016"/>
+<e name_ja="サーフィン" new_number="161" unicode="E017"/>
+<e name_ja="サッカー" new_number="152" unicode="E018"/>
+<e name_ja="魚" new_number="130" unicode="E019"/>
+<e name_ja="うま" new_number="116" unicode="E01A"/>
+<e name_ja="車" new_number="197" unicode="E01B"/>
+<e name_ja="ヨット" new_number="211" unicode="E01C"/>
+<e name_ja="飛行機" new_number="212" unicode="E01D"/>
+<e name_ja="電車" new_number="205" unicode="E01E"/>
+<e name_ja="新幹線" new_number="208" unicode="E01F"/>
+<e name_ja="ハテナ" new_number="44" unicode="E020"/>
+<e name_ja="ビックリ" new_number="42" unicode="E021"/>
+<e name_ja="ハートマーク" new_number="33" unicode="E022"/>
+<e name_ja="ハートブレイク" new_number="34" unicode="E023"/>
+<e name_ja="1時" new_number="361" unicode="E024"/>
+<e name_ja="2時" new_number="362" unicode="E025"/>
+<e name_ja="時計" new_number="363" unicode="E026"/>
+<e name_ja="4時" new_number="364" unicode="E027"/>
+<e name_ja="5時" new_number="365" unicode="E028"/>
+<e name_ja="6時" new_number="366" unicode="E029"/>
+<e name_ja="7時" new_number="367" unicode="E02A"/>
+<e name_ja="8時" new_number="368" unicode="E02B"/>
+<e name_ja="9時" new_number="369" unicode="E02C"/>
+<e name_ja="10時" new_number="239" unicode="E02D"/>
+<e name_ja="11時" new_number="370" unicode="E02E"/>
+<e name_ja="12時" new_number="360" unicode="E02F"/>
+<e name_ja="お花見" new_number="91" unicode="E030"/>
+<e name_ja="エンブレム" new_number="457" unicode="E031"/>
+<e name_ja="バラ" new_number="95" unicode="E032"/>
+<e name_ja="クリスマス" new_number="320" unicode="E033"/>
+<e name_ja="指輪" new_number="229" unicode="E034"/>
+<e name_ja="宝石" new_number="230" unicode="E035"/>
+<e name_ja="家" new_number="321" unicode="E036"/>
+<e name_ja="教会" new_number="335" unicode="E037"/>
+<e name_ja="ビル" new_number="322" unicode="E038"/>
+<e name_ja="駅" new_number="207" unicode="E039"/>
+<e name_ja="ガソリンスタンド" new_number="346" unicode="E03A"/>
+<e name_ja="山" new_number="90" unicode="E03B"/>
+<e name_ja="マイク" new_number="251" unicode="E03C"/>
+<e name_ja="映画" new_number="260" unicode="E03D"/>
+<e name_ja="音楽" new_number="46" unicode="E03E"/>
+<e name_ja="カギ" new_number="232" unicode="E03F"/>
+<e name_ja="サックス" new_number="259" unicode="E040"/>
+<e name_ja="ギター" new_number="257" unicode="E041"/>
+<e name_ja="トランペット" new_number="258" unicode="E042"/>
+<e name_ja="レストラン" new_number="165" unicode="E043"/>
+<e name_ja="カクテル" new_number="168" unicode="E044"/>
+<e name_ja="コーヒー" new_number="171" unicode="E045"/>
+<e name_ja="ケーキ" new_number="172" unicode="E046"/>
+<e name_ja="ビール" new_number="166" unicode="E047"/>
+<e name_ja="雪" new_number="84" unicode="E048"/>
+<e name_ja="曇り" new_number="83" unicode="E049"/>
+<e name_ja="晴れ(昼)" new_number="81" unicode="E04A"/>
+<e name_ja="雨" new_number="82" unicode="E04B"/>
+<e name_ja="晴れ(夜)" new_number="85" unicode="E04C"/>
+<e name_ja="朝" new_number="303" unicode="E04D"/>
+<e name_ja="天使" new_number="296" unicode="E04E"/>
+<e name_ja="ねこ" new_number="104" unicode="E04F"/>
+<e name_ja="とら" new_number="108" unicode="E050"/>
+<e name_ja="くま" new_number="110" unicode="E051"/>
+<e name_ja="いぬ" new_number="105" unicode="E052"/>
+<e name_ja="ねずみ" new_number="107" unicode="E053"/>
+<e name_ja="クジラ" new_number="128" unicode="E054"/>
+<e name_ja="ペンギン" new_number="127" unicode="E055"/>
+<e name_ja="楽" new_number="2" unicode="E056"/>
+<e name_ja="喜" new_number="3" unicode="E057"/>
+<e name_ja="哀" new_number="18" unicode="E058"/>
+<e name_ja="怒" new_number="29" unicode="E059"/>
+<e name_ja="ウンチ" new_number="302" unicode="E05A"/>
+<e name_ja="メール受信" new_number="323" unicode="E101"/>
+<e name_ja="メール送信" new_number="324" unicode="E102"/>
+<e name_ja="メール宛先" new_number="242" unicode="E103"/>
+<e name_ja="電話番号" new_number="243" unicode="E104"/>
+<e name_ja="あっかんベー" new_number="12" unicode="E105"/>
+<e name_ja="ラブラブ" new_number="6" unicode="E106"/>
+<e name_ja="ガビーン" new_number="28" unicode="E107"/>
+<e name_ja="タラー" new_number="16" unicode="E108"/>
+<e name_ja="さる" new_number="109" unicode="E109"/>
+<e name_ja="たこ" new_number="132" unicode="E10A"/>
+<e name_ja="ぶた" new_number="106" unicode="E10B"/>
+<e name_ja="宇宙人" new_number="300" unicode="E10C"/>
+<e name_ja="ロケット" new_number="213" unicode="E10D"/>
+<e name_ja="王冠" new_number="140" unicode="E10E"/>
+<e name_ja="電球" new_number="144" unicode="E10F"/>
+<e name_ja="よつば" new_number="94" unicode="E110"/>
+<e name_ja="キス" new_number="277" unicode="E111"/>
+<e name_ja="バースデー" new_number="136" unicode="E112"/>
+<e name_ja="ピストル" new_number="146" unicode="E113"/>
+<e name_ja="虫眼鏡" new_number="143" unicode="E114"/>
+<e name_ja="陸上" new_number="75" unicode="E115"/>
+<e name_ja="オークション" new_number="147" unicode="E116"/>
+<e name_ja="花火" new_number="314" unicode="E117"/>
+<e name_ja="もみじ" new_number="93" unicode="E118"/>
+<e name_ja="落ち葉" new_number="103" unicode="E119"/>
+<e name_ja="悪魔" new_number="297" unicode="E11A"/>
+<e name_ja="おばけ" new_number="298" unicode="E11B"/>
+<e name_ja="ドクロ" new_number="299" unicode="E11C"/>
+<e name_ja="ファイヤー" new_number="148" unicode="E11D"/>
+<e name_ja="かばん" new_number="227" unicode="E11E"/>
+<e name_ja="座席" new_number="264" unicode="E11F"/>
+<e name_ja="ハンバーガ" new_number="180" unicode="E120"/>
+<e name_ja="公園" new_number="343" unicode="E121"/>
+<e name_ja="キャンプ場" new_number="344" unicode="E122"/>
+<e name_ja="温泉" new_number="345" unicode="E123"/>
+<e name_ja="遊園地" new_number="341" unicode="E124"/>
+<e name_ja="チケット" new_number="262" unicode="E125"/>
+<e name_ja="CD" new_number="253" unicode="E126"/>
+<e name_ja="DVD" new_number="254" unicode="E127"/>
+<e name_ja="ラジオ" new_number="248" unicode="E128"/>
+<e name_ja="ビデオ" new_number="255" unicode="E129"/>
+<e name_ja="テレビ" new_number="240" unicode="E12A"/>
+<e name_ja="ゲーム" new_number="301" unicode="E12B"/>
+<e name_ja="歌い出し" new_number="458" unicode="E12C"/>
+<e name_ja="マージャン" new_number="164" unicode="E12D"/>
+<e name_ja="対決" new_number="441" unicode="E12E"/>
+<e name_ja="賞金" new_number="235" unicode="E12F"/>
+<e name_ja="当り" new_number="141" unicode="E130"/>
+<e name_ja="トロフィー" new_number="139" unicode="E131"/>
+<e name_ja="ゴール" new_number="163" unicode="E132"/>
+<e name_ja="スロット" new_number="434" unicode="E133"/>
+<e name_ja="競馬" new_number="121" unicode="E134"/>
+<e name_ja="競艇" new_number="162" unicode="E135"/>
+<e name_ja="競輪" new_number="196" unicode="E136"/>
+<e name_ja="工事中" new_number="350" unicode="E137"/>
+<e name_ja="男性" new_number="357" unicode="E138"/>
+<e name_ja="女性" new_number="358" unicode="E139"/>
+<e name_ja="乳幼児" new_number="359" unicode="E13A"/>
+<e name_ja="注射器" new_number="268" unicode="E13B"/>
+<e name_ja="睡眠" new_number="78" unicode="E13C"/>
+<e name_ja="雷" new_number="86" unicode="E13D"/>
+<e name_ja="ハイヒール" new_number="220" unicode="E13E"/>
+<e name_ja="入浴" new_number="274" unicode="E13F"/>
+<e name_ja="トイレ" new_number="269" unicode="E140"/>
+<e name_ja="音声" new_number="250" unicode="E141"/>
+<e name_ja="お知らせ" new_number="150" unicode="E142"/>
+<e name_ja="祝日" new_number="80" unicode="E143"/>
+<e name_ja="ロックON" new_number="233" unicode="E144"/>
+<e name_ja="ロックOFF" new_number="234" unicode="E145"/>
+<e name_ja="街" new_number="306" unicode="E146"/>
+<e name_ja="料理" new_number="189" unicode="E147"/>
+<e name_ja="本" new_number="236" unicode="E148"/>
+<e name_ja="為替相場" new_number="433" unicode="E149"/>
+<e name_ja="株価" new_number="432" unicode="E14A"/>
+<e name_ja="ニュース" new_number="249" unicode="E14B"/>
+<e name_ja="元気" new_number="62" unicode="E14C"/>
+<e name_ja="銀行" new_number="326" unicode="E14D"/>
+<e name_ja="信号" new_number="348" unicode="E14E"/>
+<e name_ja="駐車場" new_number="352" unicode="E14F"/>
+<e name_ja="バス停" new_number="347" unicode="E150"/>
+<e name_ja="公衆トイレ" new_number="353" unicode="E151"/>
+<e name_ja="交番" new_number="288" unicode="E152"/>
+<e name_ja="郵便局" new_number="325" unicode="E153"/>
+<e name_ja="ATM" new_number="327" unicode="E154"/>
+<e name_ja="病院" new_number="328" unicode="E155"/>
+<e name_ja="コンビニ" new_number="329" unicode="E156"/>
+<e name_ja="学校" new_number="330" unicode="E157"/>
+<e name_ja="ホテル" new_number="331" unicode="E158"/>
+<e name_ja="バス" new_number="199" unicode="E159"/>
+<e name_ja="タクシー" new_number="204" unicode="E15A"/>
+<e name_ja="徒歩" new_number="74" unicode="E201"/>
+<e name_ja="船" new_number="210" unicode="E202"/>
+<e name_ja="目的地" new_number="440" unicode="E203"/>
+<e name_ja="飾罫1" new_number="460" unicode="E204"/>
+<e name_ja="飾罫2" new_number="461" unicode="E205"/>
+<e name_ja="飾罫3" new_number="462" unicode="E206"/>
+<e name_ja="18禁" new_number="456" unicode="E207"/>
+<e name_ja="禁煙" new_number="266" unicode="E208"/>
+<e name_ja="初心者" new_number="351" unicode="E209"/>
+<e name_ja="バリアフリー" new_number="355" unicode="E20A"/>
+<e name_ja="アンテナマーク" new_number="465" unicode="E20B"/>
+<e name_ja="ハート" new_number="373" unicode="E20C"/>
+<e name_ja="ダイヤ" new_number="374" unicode="E20D"/>
+<e name_ja="スペード" new_number="375" unicode="E20E"/>
+<e name_ja="クラブ" new_number="376" unicode="E20F"/>
+<e name_ja="シャープダイヤル" new_number="403" unicode="E210"/>
+<e name_ja="フリーダイヤル" new_number="468" unicode="E211"/>
+<e name_ja="新着" new_number="437" unicode="E212"/>
+<e name_ja="更新" new_number="438" unicode="E213"/>
+<e name_ja="おすすめ" new_number="439" unicode="E214"/>
+<e name_ja="有料" new_number="450" unicode="E215"/>
+<e name_ja="無料" new_number="451" unicode="E216"/>
+<e name_ja="月額" new_number="452" unicode="E217"/>
+<e name_ja="申し込み" new_number="453" unicode="E218"/>
+<e name_ja="見出しボタン1" new_number="459" unicode="E219"/>
+<e name_ja="見出しボタン2" new_number="463" unicode="E21A"/>
+<e name_ja="見出しボタン3" new_number="464" unicode="E21B"/>
+<e name_ja="1ボタン" new_number="393" unicode="E21C"/>
+<e name_ja="2ボタン" new_number="394" unicode="E21D"/>
+<e name_ja="3ボタン" new_number="395" unicode="E21E"/>
+<e name_ja="4ボタン" new_number="396" unicode="E21F"/>
+<e name_ja="5ボタン" new_number="397" unicode="E220"/>
+<e name_ja="6ボタン" new_number="398" unicode="E221"/>
+<e name_ja="7ボタン" new_number="399" unicode="E222"/>
+<e name_ja="8ボタン" new_number="400" unicode="E223"/>
+<e name_ja="9ボタン" new_number="401" unicode="E224"/>
+<e name_ja="ボタン" new_number="402" unicode="E225"/>
+<e name_ja="お得" new_number="444" unicode="E226"/>
+<e name_ja="割引" new_number="445" unicode="E227"/>
+<e name_ja="サービス料" new_number="446" unicode="E228"/>
+<e name_ja="ID" new_number="449" unicode="E229"/>
+<e name_ja="満席" new_number="442" unicode="E22A"/>
+<e name_ja="空席" new_number="443" unicode="E22B"/>
+<e name_ja="指定席" new_number="447" unicode="E22C"/>
+<e name_ja="営業時間" new_number="448" unicode="E22D"/>
+<e name_ja="上へ" new_number="389" unicode="E22E"/>
+<e name_ja="下へ" new_number="390" unicode="E22F"/>
+<e name_ja="左へ" new_number="391" unicode="E230"/>
+<e name_ja="右へ" new_number="392" unicode="E231"/>
+<e name_ja="上" new_number="381" unicode="E232"/>
+<e name_ja="下" new_number="382" unicode="E233"/>
+<e name_ja="右" new_number="383" unicode="E234"/>
+<e name_ja="左" new_number="384" unicode="E235"/>
+<e name_ja="右上" new_number="377" unicode="E236"/>
+<e name_ja="左上" new_number="378" unicode="E237"/>
+<e name_ja="右下" new_number="379" unicode="E238"/>
+<e name_ja="左下" new_number="380" unicode="E239"/>
+<e name_ja="次へ" new_number="385" unicode="E23A"/>
+<e name_ja="前へ" new_number="386" unicode="E23B"/>
+<e name_ja="早送り" new_number="387" unicode="E23C"/>
+<e name_ja="巻戻し" new_number="388" unicode="E23D"/>
+<e name_ja="星座" new_number="404" unicode="E23E"/>
+<e name_ja="おひつじ座" new_number="405" unicode="E23F"/>
+<e name_ja="おうし座" new_number="406" unicode="E240"/>
+<e name_ja="ふたご座" new_number="407" unicode="E241"/>
+<e name_ja="かに座" new_number="408" unicode="E242"/>
+<e name_ja="しし座" new_number="409" unicode="E243"/>
+<e name_ja="おとめ座" new_number="410" unicode="E244"/>
+<e name_ja="てんびん座" new_number="411" unicode="E245"/>
+<e name_ja="さそり座" new_number="412" unicode="E246"/>
+<e name_ja="いて座" new_number="413" unicode="E247"/>
+<e name_ja="やぎ座" new_number="414" unicode="E248"/>
+<e name_ja="みずがめ座" new_number="415" unicode="E249"/>
+<e name_ja="うお座" new_number="416" unicode="E24A"/>
+<e name_ja="へびつかい座" new_number="417" unicode="E24B"/>
+<e name_ja="TOPページ" new_number="436" unicode="E24C"/>
+<e name_ja="OKボタン" new_number="435" unicode="E24D"/>
+<e name_ja="著作権" new_number="469" unicode="E24E"/>
+<e name_ja="登録商標" new_number="470" unicode="E24F"/>
+<e name_ja="マナーモード" new_number="466" unicode="E250"/>
+<e name_ja="電源切" new_number="467" unicode="E251"/>
+<e name_ja="ご注意" new_number="349" unicode="E252"/>
+<e name_ja="ご案内" new_number="287" unicode="E253"/>
 <e name_ja="J-PHONショップ" unicode="E254"/>
 <e name_ja="スカイウェイブ" unicode="E255"/>
 <e name_ja="スカイウォーカー" unicode="E256"/>
@@ -270,214 +270,214 @@
 <e name_ja="J-PHONE" unicode="E258"/>
 <e name_ja="J-PHONE2" unicode="E259"/>
 <e name_ja="J-PHONE3" unicode="E25A"/>
-<e name_ja="メモ" unicode="E301"/>
-<e name_ja="ネクタイ" unicode="E302"/>
-<e name_ja="ハイビスカス" unicode="E303"/>
-<e name_ja="チューリップ" unicode="E304"/>
-<e name_ja="ひまわり" unicode="E305"/>
-<e name_ja="花束" unicode="E306"/>
-<e name_ja="やしの木" unicode="E307"/>
-<e name_ja="サボテン" unicode="E308"/>
-<e name_ja="トイレ" unicode="E309"/>
-<e name_ja="ヘッドフォン" unicode="E30A"/>
-<e name_ja="晩酌" unicode="E30B"/>
-<e name_ja="乾杯" unicode="E30C"/>
-<e name_ja="祝" unicode="E30D"/>
-<e name_ja="喫煙" unicode="E30E"/>
-<e name_ja="カプセル薬" unicode="E30F"/>
-<e name_ja="風船" unicode="E310"/>
-<e name_ja="爆弾" unicode="E311"/>
-<e name_ja="クラッカー" unicode="E312"/>
-<e name_ja="ハサミ" unicode="E313"/>
-<e name_ja="リボン" unicode="E314"/>
-<e name_ja="マル秘" unicode="E315"/>
-<e name_ja="MD" unicode="E316"/>
-<e name_ja="メガフォン" unicode="E317"/>
-<e name_ja="帽子" unicode="E318"/>
-<e name_ja="可愛いワンピース" unicode="E319"/>
-<e name_ja="ミュール" unicode="E31A"/>
-<e name_ja="ロングブーツ" unicode="E31B"/>
-<e name_ja="口紅" unicode="E31C"/>
-<e name_ja="マニュキア" unicode="E31D"/>
-<e name_ja="エステ" unicode="E31E"/>
-<e name_ja="美容院" unicode="E31F"/>
-<e name_ja="理容院" unicode="E320"/>
-<e name_ja="着物" unicode="E321"/>
-<e name_ja="ビキニ" unicode="E322"/>
-<e name_ja="ブランドバック" unicode="E323"/>
-<e name_ja="カチンコ" unicode="E324"/>
-<e name_ja="すず" unicode="E325"/>
-<e name_ja="踊る音符" unicode="E326"/>
-<e name_ja="ぴかぴかハート" unicode="E327"/>
-<e name_ja="どきどきハート" unicode="E328"/>
-<e name_ja="ハートを射とめて" unicode="E329"/>
-<e name_ja="ハート:青" unicode="E32A"/>
-<e name_ja="ハート:緑" unicode="E32B"/>
-<e name_ja="ハート:黄" unicode="E32C"/>
-<e name_ja="ハート:紫" unicode="E32D"/>
-<e name_ja="NEW" unicode="E32E"/>
-<e name_ja="☆" unicode="E32F"/>
-<e name_ja="ダッシュ" unicode="E330"/>
-<e name_ja="飛び散る汗" unicode="E331"/>
-<e name_ja="○" unicode="E332"/>
-<e name_ja="×" unicode="E333"/>
-<e name_ja="怒り" unicode="E334"/>
-<e name_ja="☆(点滅)" unicode="E335"/>
-<e name_ja="動く&quot;?&quot;" unicode="E336"/>
-<e name_ja="動く&quot;!&quot;" unicode="E337"/>
-<e name_ja="お茶" unicode="E338"/>
-<e name_ja="パン" unicode="E339"/>
-<e name_ja="ソフトクリーム" unicode="E33A"/>
-<e name_ja="フライドポテト" unicode="E33B"/>
-<e name_ja="串団子" unicode="E33C"/>
-<e name_ja="せんべい" unicode="E33D"/>
-<e name_ja="ご飯" unicode="E33E"/>
-<e name_ja="スパゲッティ" unicode="E33F"/>
-<e name_ja="ラーメン" unicode="E340"/>
-<e name_ja="カレーライス" unicode="E341"/>
-<e name_ja="おにぎり" unicode="E342"/>
-<e name_ja="おでん" unicode="E343"/>
-<e name_ja="寿司" unicode="E344"/>
-<e name_ja="りんご" unicode="E345"/>
-<e name_ja="みかん" unicode="E346"/>
-<e name_ja="いちご" unicode="E347"/>
-<e name_ja="すいか" unicode="E348"/>
-<e name_ja="トマト" unicode="E349"/>
-<e name_ja="なす" unicode="E34A"/>
-<e name_ja="バースデーケーキ" unicode="E34B"/>
-<e name_ja="駅弁" unicode="E34C"/>
-<e name_ja="ナベ" unicode="E34D"/>
-<e name_ja="あせり" unicode="E401"/>
-<e name_ja="ほくそえんでいる" unicode="E402"/>
-<e name_ja="ひたすらごめんなさい" unicode="E403"/>
-<e name_ja="えっへん" unicode="E404"/>
-<e name_ja="ウィンク" unicode="E405"/>
-<e name_ja="わさびがきいた" unicode="E406"/>
-<e name_ja="目がぐるぐる" unicode="E407"/>
-<e name_ja="鼻ちょうちん" unicode="E408"/>
-<e name_ja="あっかんべー" unicode="E409"/>
-<e name_ja="酔っぱらい" unicode="E40A"/>
-<e name_ja="ゲロゲロ" unicode="E40B"/>
-<e name_ja="マスクをつけた顔" unicode="E40C"/>
-<e name_ja="顔があかくなる" unicode="E40D"/>
-<e name_ja="しらけ顔" unicode="E40E"/>
-<e name_ja="冷や汗" unicode="E40F"/>
-<e name_ja="びっくり" unicode="E410"/>
-<e name_ja="泣き" unicode="E411"/>
-<e name_ja="泣いたり笑ったり" unicode="E412"/>
-<e name_ja="可愛く泣いている人" unicode="E413"/>
-<e name_ja="にこにこ" unicode="E414"/>
-<e name_ja="あははと笑う" unicode="E415"/>
-<e name_ja="めちゃめちゃ怒っている" unicode="E416"/>
-<e name_ja="KISS:動く口" unicode="E417"/>
-<e name_ja="投げKISS" unicode="E418"/>
-<e name_ja="目" unicode="E419"/>
-<e name_ja="鼻" unicode="E41A"/>
-<e name_ja="耳" unicode="E41B"/>
-<e name_ja="口" unicode="E41C"/>
-<e name_ja="ごめんなさい" unicode="E41D"/>
-<e name_ja="バイバイ" unicode="E41E"/>
-<e name_ja="拍手" unicode="E41F"/>
-<e name_ja="OK" unicode="E420"/>
-<e name_ja="Booing" unicode="E421"/>
-<e name_ja="おっは～" unicode="E422"/>
-<e name_ja="×" unicode="E423"/>
-<e name_ja="○" unicode="E424"/>
-<e name_ja="手をつないでいる" unicode="E425"/>
-<e name_ja="土下座" unicode="E426"/>
-<e name_ja="バンザイ" unicode="E427"/>
-<e name_ja="人と人が歩いている" unicode="E428"/>
-<e name_ja="ラインダンス" unicode="E429"/>
-<e name_ja="バスケットボール" unicode="E42A"/>
-<e name_ja="フットボール" unicode="E42B"/>
-<e name_ja="ビリヤード" unicode="E42C"/>
-<e name_ja="水泳" unicode="E42D"/>
-<e name_ja="RV" unicode="E42E"/>
-<e name_ja="トラック" unicode="E42F"/>
-<e name_ja="消防車" unicode="E430"/>
-<e name_ja="救急車" unicode="E431"/>
-<e name_ja="パトカー" unicode="E432"/>
-<e name_ja="ジェットコースター" unicode="E433"/>
-<e name_ja="地下鉄" unicode="E434"/>
-<e name_ja="新幹線(700系)" unicode="E435"/>
-<e name_ja="門松" unicode="E436"/>
-<e name_ja="チョコ" unicode="E437"/>
-<e name_ja="お雛様" unicode="E438"/>
-<e name_ja="卒業式" unicode="E439"/>
-<e name_ja="ランドセル" unicode="E43A"/>
-<e name_ja="鯉のぼり" unicode="E43B"/>
-<e name_ja="とじかさ" unicode="E43C"/>
-<e name_ja="結婚式" unicode="E43D"/>
-<e name_ja="波がザーン" unicode="E43E"/>
-<e name_ja="かき氷" unicode="E43F"/>
-<e name_ja="線香花火" unicode="E440"/>
-<e name_ja="貝" unicode="E441"/>
-<e name_ja="風鈴" unicode="E442"/>
-<e name_ja="台風" unicode="E443"/>
-<e name_ja="稲穂" unicode="E444"/>
-<e name_ja="ハロウィン" unicode="E445"/>
-<e name_ja="お月見" unicode="E446"/>
-<e name_ja="風がビュー" unicode="E447"/>
-<e name_ja="サンタクロース" unicode="E448"/>
-<e name_ja="朝日" unicode="E449"/>
-<e name_ja="夕日" unicode="E44A"/>
-<e name_ja="流れ星" unicode="E44B"/>
-<e name_ja="虹" unicode="E44C"/>
-<e name_ja="ラブホテル" unicode="E501"/>
-<e name_ja="アート" unicode="E502"/>
-<e name_ja="演劇" unicode="E503"/>
-<e name_ja="デパート" unicode="E504"/>
-<e name_ja="お城(和)" unicode="E505"/>
-<e name_ja="お城(洋)" unicode="E506"/>
-<e name_ja="映画館" unicode="E507"/>
-<e name_ja="工場" unicode="E508"/>
-<e name_ja="東京タワー" unicode="E509"/>
-<e name_ja="109" unicode="E50A"/>
-<e name_ja="日本" unicode="E50B"/>
-<e name_ja="アメリカ" unicode="E50C"/>
-<e name_ja="フランス" unicode="E50D"/>
-<e name_ja="ドイツ" unicode="E50E"/>
-<e name_ja="イタリア" unicode="E50F"/>
-<e name_ja="イギリス" unicode="E510"/>
-<e name_ja="スペイン" unicode="E511"/>
-<e name_ja="ロシア" unicode="E512"/>
-<e name_ja="中国" unicode="E513"/>
-<e name_ja="韓国" unicode="E514"/>
-<e name_ja="白人" unicode="E515"/>
-<e name_ja="中国人" unicode="E516"/>
-<e name_ja="インド人" unicode="E517"/>
-<e name_ja="おじいちゃん" unicode="E518"/>
-<e name_ja="おばあちゃん" unicode="E519"/>
-<e name_ja="あかちゃん" unicode="E51A"/>
-<e name_ja="安全第一" unicode="E51B"/>
-<e name_ja="お姫さま" unicode="E51C"/>
-<e name_ja="自由の女神" unicode="E51D"/>
-<e name_ja="衛兵" unicode="E51E"/>
-<e name_ja="フラメンコ" unicode="E51F"/>
-<e name_ja="イルカ" unicode="E520"/>
-<e name_ja="とり" unicode="E521"/>
-<e name_ja="熱帯魚" unicode="E522"/>
-<e name_ja="ひよこ" unicode="E523"/>
-<e name_ja="ハムスター" unicode="E524"/>
-<e name_ja="けむし" unicode="E525"/>
-<e name_ja="ぞう" unicode="E526"/>
-<e name_ja="こあら" unicode="E527"/>
-<e name_ja="チンパジー" unicode="E528"/>
-<e name_ja="ひつじ" unicode="E529"/>
-<e name_ja="おおかみ" unicode="E52A"/>
-<e name_ja="うし" unicode="E52B"/>
-<e name_ja="うさぎ" unicode="E52C"/>
-<e name_ja="へび" unicode="E52D"/>
-<e name_ja="にわとり" unicode="E52E"/>
-<e name_ja="いのしし" unicode="E52F"/>
-<e name_ja="らくだ" unicode="E530"/>
-<e name_ja="かえる" unicode="E531"/>
-<e name_ja="A型" unicode="E532"/>
-<e name_ja="B型" unicode="E533"/>
-<e name_ja="AB型" unicode="E534"/>
-<e name_ja="O型" unicode="E535"/>
-<e name_ja="足あと" unicode="E536"/>
-<e name_ja="TM" unicode="E537"/>
+<e name_ja="メモ" new_number="237" unicode="E301"/>
+<e name_ja="ネクタイ" new_number="218" unicode="E302"/>
+<e name_ja="ハイビスカス" new_number="96" unicode="E303"/>
+<e name_ja="チューリップ" new_number="92" unicode="E304"/>
+<e name_ja="ひまわり" new_number="97" unicode="E305"/>
+<e name_ja="花束" new_number="98" unicode="E306"/>
+<e name_ja="やしの木" new_number="99" unicode="E307"/>
+<e name_ja="サボテン" new_number="100" unicode="E308"/>
+<e name_ja="トイレ" new_number="354" unicode="E309"/>
+<e name_ja="ヘッドフォン" new_number="252" unicode="E30A"/>
+<e name_ja="晩酌" new_number="169" unicode="E30B"/>
+<e name_ja="乾杯" new_number="167" unicode="E30C"/>
+<e name_ja="祝" new_number="454" unicode="E30D"/>
+<e name_ja="喫煙" new_number="265" unicode="E30E"/>
+<e name_ja="カプセル薬" new_number="267" unicode="E30F"/>
+<e name_ja="風船" new_number="145" unicode="E310"/>
+<e name_ja="爆弾" new_number="149" unicode="E311"/>
+<e name_ja="クラッカー" new_number="138" unicode="E312"/>
+<e name_ja="ハサミ" new_number="238" unicode="E313"/>
+<e name_ja="リボン" new_number="223" unicode="E314"/>
+<e name_ja="マル秘" new_number="455" unicode="E315"/>
+<e name_ja="MD" new_number="256" unicode="E316"/>
+<e name_ja="メガフォン" new_number="151" unicode="E317"/>
+<e name_ja="帽子" new_number="225" unicode="E318"/>
+<e name_ja="可愛いワンピース" new_number="215" unicode="E319"/>
+<e name_ja="ミュール" new_number="221" unicode="E31A"/>
+<e name_ja="ロングブーツ" new_number="222" unicode="E31B"/>
+<e name_ja="口紅" new_number="231" unicode="E31C"/>
+<e name_ja="マニュキア" new_number="272" unicode="E31D"/>
+<e name_ja="エステ" new_number="273" unicode="E31E"/>
+<e name_ja="美容院" new_number="271" unicode="E31F"/>
+<e name_ja="理容院" new_number="270" unicode="E320"/>
+<e name_ja="着物" new_number="216" unicode="E321"/>
+<e name_ja="ビキニ" new_number="217" unicode="E322"/>
+<e name_ja="ブランドバック" new_number="226" unicode="E323"/>
+<e name_ja="カチンコ" new_number="261" unicode="E324"/>
+<e name_ja="すず" new_number="142" unicode="E325"/>
+<e name_ja="踊る音符" new_number="47" unicode="E326"/>
+<e name_ja="ぴかぴかハート" new_number="35" unicode="E327"/>
+<e name_ja="どきどきハート" new_number="36" unicode="E328"/>
+<e name_ja="ハートを射とめて" new_number="37" unicode="E329"/>
+<e name_ja="ハート:青" new_number="38" unicode="E32A"/>
+<e name_ja="ハート:緑" new_number="39" unicode="E32B"/>
+<e name_ja="ハート:黄" new_number="40" unicode="E32C"/>
+<e name_ja="ハート:紫" new_number="41" unicode="E32D"/>
+<e name_ja="NEW" new_number="48" unicode="E32E"/>
+<e name_ja="☆" new_number="49" unicode="E32F"/>
+<e name_ja="ダッシュ" new_number="76" unicode="E330"/>
+<e name_ja="飛び散る汗" new_number="77" unicode="E331"/>
+<e name_ja="○" new_number="371" unicode="E332"/>
+<e name_ja="×" new_number="372" unicode="E333"/>
+<e name_ja="怒り" new_number="79" unicode="E334"/>
+<e name_ja="☆(点滅)" new_number="50" unicode="E335"/>
+<e name_ja="動く&quot;?&quot;" new_number="45" unicode="E336"/>
+<e name_ja="動く&quot;!&quot;" new_number="43" unicode="E337"/>
+<e name_ja="お茶" new_number="170" unicode="E338"/>
+<e name_ja="パン" new_number="179" unicode="E339"/>
+<e name_ja="ソフトクリーム" new_number="173" unicode="E33A"/>
+<e name_ja="フライドポテト" new_number="188" unicode="E33B"/>
+<e name_ja="串団子" new_number="174" unicode="E33C"/>
+<e name_ja="せんべい" new_number="175" unicode="E33D"/>
+<e name_ja="ご飯" new_number="178" unicode="E33E"/>
+<e name_ja="スパゲッティ" new_number="182" unicode="E33F"/>
+<e name_ja="ラーメン" new_number="183" unicode="E340"/>
+<e name_ja="カレーライス" new_number="181" unicode="E341"/>
+<e name_ja="おにぎり" new_number="177" unicode="E342"/>
+<e name_ja="おでん" new_number="187" unicode="E343"/>
+<e name_ja="寿司" new_number="184" unicode="E344"/>
+<e name_ja="りんご" new_number="190" unicode="E345"/>
+<e name_ja="みかん" new_number="192" unicode="E346"/>
+<e name_ja="いちご" new_number="191" unicode="E347"/>
+<e name_ja="すいか" new_number="193" unicode="E348"/>
+<e name_ja="トマト" new_number="194" unicode="E349"/>
+<e name_ja="なす" new_number="195" unicode="E34A"/>
+<e name_ja="バースデーケーキ" new_number="137" unicode="E34B"/>
+<e name_ja="駅弁" new_number="185" unicode="E34C"/>
+<e name_ja="ナベ" new_number="186" unicode="E34D"/>
+<e name_ja="あせり" new_number="20" unicode="E401"/>
+<e name_ja="ほくそえんでいる" new_number="15" unicode="E402"/>
+<e name_ja="ひたすらごめんなさい" new_number="17" unicode="E403"/>
+<e name_ja="えっへん" new_number="11" unicode="E404"/>
+<e name_ja="ウィンク" new_number="5" unicode="E405"/>
+<e name_ja="わさびがきいた" new_number="23" unicode="E406"/>
+<e name_ja="目がぐるぐる" new_number="19" unicode="E407"/>
+<e name_ja="鼻ちょうちん" new_number="32" unicode="E408"/>
+<e name_ja="あっかんべー" new_number="13" unicode="E409"/>
+<e name_ja="酔っぱらい" new_number="10" unicode="E40A"/>
+<e name_ja="ゲロゲロ" new_number="22" unicode="E40B"/>
+<e name_ja="マスクをつけた顔" new_number="31" unicode="E40C"/>
+<e name_ja="顔があかくなる" new_number="9" unicode="E40D"/>
+<e name_ja="しらけ顔" new_number="14" unicode="E40E"/>
+<e name_ja="冷や汗" new_number="21" unicode="E40F"/>
+<e name_ja="びっくり" new_number="27" unicode="E410"/>
+<e name_ja="泣き" new_number="25" unicode="E411"/>
+<e name_ja="泣いたり笑ったり" new_number="26" unicode="E412"/>
+<e name_ja="可愛く泣いている人" new_number="24" unicode="E413"/>
+<e name_ja="にこにこ" new_number="4" unicode="E414"/>
+<e name_ja="あははと笑う" new_number="1" unicode="E415"/>
+<e name_ja="めちゃめちゃ怒っている" new_number="30" unicode="E416"/>
+<e name_ja="KISS:動く口" new_number="8" unicode="E417"/>
+<e name_ja="投げKISS" new_number="7" unicode="E418"/>
+<e name_ja="目" new_number="65" unicode="E419"/>
+<e name_ja="鼻" new_number="67" unicode="E41A"/>
+<e name_ja="耳" new_number="66" unicode="E41B"/>
+<e name_ja="口" new_number="64" unicode="E41C"/>
+<e name_ja="ごめんなさい" new_number="59" unicode="E41D"/>
+<e name_ja="バイバイ" new_number="60" unicode="E41E"/>
+<e name_ja="拍手" new_number="61" unicode="E41F"/>
+<e name_ja="OK" new_number="57" unicode="E420"/>
+<e name_ja="Booing" new_number="58" unicode="E421"/>
+<e name_ja="おっは～" new_number="69" unicode="E422"/>
+<e name_ja="×" new_number="71" unicode="E423"/>
+<e name_ja="○" new_number="70" unicode="E424"/>
+<e name_ja="手をつないでいる" new_number="278" unicode="E425"/>
+<e name_ja="土下座" new_number="72" unicode="E426"/>
+<e name_ja="バンザイ" new_number="68" unicode="E427"/>
+<e name_ja="人と人が歩いている" new_number="279" unicode="E428"/>
+<e name_ja="ラインダンス" new_number="276" unicode="E429"/>
+<e name_ja="バスケットボール" new_number="155" unicode="E42A"/>
+<e name_ja="フットボール" new_number="158" unicode="E42B"/>
+<e name_ja="ビリヤード" new_number="159" unicode="E42C"/>
+<e name_ja="水泳" new_number="160" unicode="E42D"/>
+<e name_ja="RV" new_number="198" unicode="E42E"/>
+<e name_ja="トラック" new_number="200" unicode="E42F"/>
+<e name_ja="消防車" new_number="203" unicode="E430"/>
+<e name_ja="救急車" new_number="202" unicode="E431"/>
+<e name_ja="パトカー" new_number="201" unicode="E432"/>
+<e name_ja="ジェットコースター" new_number="342" unicode="E433"/>
+<e name_ja="地下鉄" new_number="206" unicode="E434"/>
+<e name_ja="新幹線(700系)" new_number="209" unicode="E435"/>
+<e name_ja="門松" new_number="308" unicode="E436"/>
+<e name_ja="チョコ" new_number="309" unicode="E437"/>
+<e name_ja="お雛様" new_number="310" unicode="E438"/>
+<e name_ja="卒業式" new_number="311" unicode="E439"/>
+<e name_ja="ランドセル" new_number="312" unicode="E43A"/>
+<e name_ja="鯉のぼり" new_number="313" unicode="E43B"/>
+<e name_ja="とじかさ" new_number="228" unicode="E43C"/>
+<e name_ja="結婚式" new_number="334" unicode="E43D"/>
+<e name_ja="波がザーン" new_number="88" unicode="E43E"/>
+<e name_ja="かき氷" new_number="176" unicode="E43F"/>
+<e name_ja="線香花火" new_number="315" unicode="E440"/>
+<e name_ja="貝" new_number="135" unicode="E441"/>
+<e name_ja="風鈴" new_number="316" unicode="E442"/>
+<e name_ja="台風" new_number="87" unicode="E443"/>
+<e name_ja="稲穂" new_number="102" unicode="E444"/>
+<e name_ja="ハロウィン" new_number="318" unicode="E445"/>
+<e name_ja="お月見" new_number="317" unicode="E446"/>
+<e name_ja="風がビュー" new_number="101" unicode="E447"/>
+<e name_ja="サンタクロース" new_number="319" unicode="E448"/>
+<e name_ja="朝日" new_number="304" unicode="E449"/>
+<e name_ja="夕日" new_number="305" unicode="E44A"/>
+<e name_ja="流れ星" new_number="307" unicode="E44B"/>
+<e name_ja="虹" new_number="89" unicode="E44C"/>
+<e name_ja="ラブホテル" new_number="332" unicode="E501"/>
+<e name_ja="アート" new_number="263" unicode="E502"/>
+<e name_ja="演劇" new_number="224" unicode="E503"/>
+<e name_ja="デパート" new_number="333" unicode="E504"/>
+<e name_ja="お城(和)" new_number="336" unicode="E505"/>
+<e name_ja="お城(洋)" new_number="337" unicode="E506"/>
+<e name_ja="映画館" new_number="356" unicode="E507"/>
+<e name_ja="工場" new_number="340" unicode="E508"/>
+<e name_ja="東京タワー" new_number="338" unicode="E509"/>
+<e name_ja="109" new_number="339" unicode="E50A"/>
+<e name_ja="日本" new_number="422" unicode="E50B"/>
+<e name_ja="アメリカ" new_number="423" unicode="E50C"/>
+<e name_ja="フランス" new_number="424" unicode="E50D"/>
+<e name_ja="ドイツ" new_number="425" unicode="E50E"/>
+<e name_ja="イタリア" new_number="426" unicode="E50F"/>
+<e name_ja="イギリス" new_number="427" unicode="E510"/>
+<e name_ja="スペイン" new_number="428" unicode="E511"/>
+<e name_ja="ロシア" new_number="429" unicode="E512"/>
+<e name_ja="中国" new_number="430" unicode="E513"/>
+<e name_ja="韓国" new_number="431" unicode="E514"/>
+<e name_ja="白人" new_number="290" unicode="E515"/>
+<e name_ja="中国人" new_number="291" unicode="E516"/>
+<e name_ja="インド人" new_number="292" unicode="E517"/>
+<e name_ja="おじいちゃん" new_number="284" unicode="E518"/>
+<e name_ja="おばあちゃん" new_number="285" unicode="E519"/>
+<e name_ja="あかちゃん" new_number="286" unicode="E51A"/>
+<e name_ja="安全第一" new_number="289" unicode="E51B"/>
+<e name_ja="お姫さま" new_number="295" unicode="E51C"/>
+<e name_ja="自由の女神" new_number="294" unicode="E51D"/>
+<e name_ja="衛兵" new_number="293" unicode="E51E"/>
+<e name_ja="フラメンコ" new_number="275" unicode="E51F"/>
+<e name_ja="イルカ" new_number="129" unicode="E520"/>
+<e name_ja="とり" new_number="126" unicode="E521"/>
+<e name_ja="熱帯魚" new_number="131" unicode="E522"/>
+<e name_ja="ひよこ" new_number="125" unicode="E523"/>
+<e name_ja="ハムスター" new_number="114" unicode="E524"/>
+<e name_ja="けむし" new_number="134" unicode="E525"/>
+<e name_ja="ぞう" new_number="122" unicode="E526"/>
+<e name_ja="こあら" new_number="113" unicode="E527"/>
+<e name_ja="チンパジー" new_number="120" unicode="E528"/>
+<e name_ja="ひつじ" new_number="123" unicode="E529"/>
+<e name_ja="おおかみ" new_number="117" unicode="E52A"/>
+<e name_ja="うし" new_number="112" unicode="E52B"/>
+<e name_ja="うさぎ" new_number="111" unicode="E52C"/>
+<e name_ja="へび" new_number="133" unicode="E52D"/>
+<e name_ja="にわとり" new_number="124" unicode="E52E"/>
+<e name_ja="いのしし" new_number="118" unicode="E52F"/>
+<e name_ja="らくだ" new_number="119" unicode="E530"/>
+<e name_ja="かえる" new_number="115" unicode="E531"/>
+<e name_ja="A型" new_number="418" unicode="E532"/>
+<e name_ja="B型" new_number="419" unicode="E533"/>
+<e name_ja="AB型" new_number="420" unicode="E534"/>
+<e name_ja="O型" new_number="421" unicode="E535"/>
+<e name_ja="足あと" new_number="73" unicode="E536"/>
+<e name_ja="TM" new_number="471" unicode="E537"/>
 <e name_ja="J-Sky1" unicode="E538"/>
 <e name_ja="J-Sky2" unicode="E539"/>
 <e name_ja="vodafone1" unicode="E53A"/>
