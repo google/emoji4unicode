@@ -196,6 +196,7 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
   img_string = ""
   uni_string = ""
   number_string = ""
+  old_number_string = ""
   new_number_string = ""
   shift_jis_string = ""
   jis_string = ""
@@ -216,6 +217,8 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
         number_string += "+#Exp." + str(symbol.number - 300)
       else:
         number_string += "+#" + str(symbol.number)
+    if symbol.old_number:
+      old_number_string += "+#old" + str(symbol.old_number)
     if symbol.new_number:
       new_number_string += "+#new" + str(symbol.new_number)
     if symbol.shift_jis: shift_jis_string += "+SJIS-" + symbol.shift_jis
@@ -227,7 +230,8 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
   result_pieces = []
   if len(codes) == 1:
     # Reduce the cell height by putting multiple data pieces on each line.
-    groups = [[img_string, number_string, new_number_string],
+    groups = [[img_string,
+               number_string, old_number_string, new_number_string],
               [english_string, japanese_string],
               [uni_string],
               [shift_jis_string, jis_string]]
@@ -238,7 +242,8 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
       if group_pieces: result_pieces.append(" ".join(group_pieces))
   else:
     # For code sequences, use a line per type of data.
-    for line in (img_string, number_string, new_number_string,
+    for line in (img_string,
+                 number_string, old_number_string, new_number_string,
                  english_string, japanese_string,
                  uni_string, shift_jis_string, jis_string):
       if line: result_pieces.append(line[1:])  # Remove leading separator.

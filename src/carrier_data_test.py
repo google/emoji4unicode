@@ -68,7 +68,8 @@ class SoftbankDataTest(unittest.TestCase):
   def testMappings(self):
     symbol_e53e = self.__data.SymbolFromUnicode("E53E")
     self.assertEqual(symbol_e53e.uni, "E53E")
-    self.assertEqual(symbol_e53e.number, 485)
+    self.assertEqual(symbol_e53e.number, None)
+    self.assertEqual(symbol_e53e.old_number, 485)
     self.assertEqual(symbol_e53e.new_number, None)
     self.assertEqual(symbol_e53e.shift_jis, "FBDE")
     self.assertEqual(symbol_e53e.jis, None)  # "7D77"
@@ -76,8 +77,9 @@ class SoftbankDataTest(unittest.TestCase):
     self.assertEqual(symbol_e53e.GetJapaneseName(), "vodafone5")
 
     symbol_e11c = self.__data.SymbolFromUnicode("E11C")
-    self.assertEqual(symbol_e11c.number, 118)
-    self.assertEqual(symbol_e11c.new_number, 299)
+    self.assertEqual(symbol_e11c.number, 299)
+    self.assertEqual(symbol_e11c.old_number, 118)
+    self.assertEqual(symbol_e11c.new_number, None)
 
 class GoogleDataTest(unittest.TestCase):
   def setUp(self):
