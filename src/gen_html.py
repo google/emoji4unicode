@@ -76,6 +76,9 @@ body {
   The images are only for comparison and may change.</p>
 <p>See the <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
+<p>Each symbol row has an anchor to allow direct linking by appending
+  <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
+  address bar.</p>
 <table border='1' cellspacing='0' width='100%'>
 <tr>
  <th>Symbol ID</th>
@@ -110,11 +113,13 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
                             "%s (%s)" % (subcategory.name, category.name))
       for symbol in subcategory.GetSymbols():
         if symbol.in_proposal:
-          writer.write("<tr><td>e-%s</td>" % symbol.id)
+          row_style = ""
         elif only_in_proposal:
           continue  # Skip this symbol.
         else:
-          writer.write("<tr class=not_in_proposal><td>e-%s</td>" % symbol.id)
+          row_style = " class=not_in_proposal"
+        writer.write("<tr id=e-%s%s><td>e-%s</td>" %
+                     (symbol.id, row_style, symbol.id))
         number_symbols_in_chart += 1
         if symbol.GetUnicode():
           number_symbols_unified += 1
