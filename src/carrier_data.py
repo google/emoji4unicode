@@ -198,7 +198,7 @@ def _JisFromUnicode(ranges, uni):
 
 class Symbol(object):
   """Carrier data for one Emoji symbol."""
-  __slots__ = ("uni", "number", "new_number",
+  __slots__ = ("uni", "number", "old_number", "new_number",
                "shift_jis", "jis", "_element", "_carrier_data")
 
   def __init__(self):
@@ -214,6 +214,7 @@ class Symbol(object):
     """
     self.uni = None
     self.number = None
+    self.old_number = None
     self.new_number = None
     self.shift_jis = None
     self.jis = None
@@ -345,6 +346,23 @@ class _SoftbankData(CarrierData):
                             "..", "data", "softbank", "carrier_data.xml")
     self._CheckRanges()
     self._ReadXML(filename)
+
+  def SymbolFromUnicode(self, uni):
+    """Get carrier data for one Emoji symbol.
+
+    Args:
+      uni: Carrier Unicode PUA code point, as a hex digit string.
+
+    Returns:
+      The Symbol instance corresponding to uni.
+    """
+    symbol = CarrierData.SymbolFromUnicode(self, uni)
+    # Shift the old and new numbers for consistent display with the
+    # new numbers showing as undecorated "#118".
+    symbol.old_number = symbol.number
+    symbol.number = symbol.new_number
+    symbol.new_number = None
+    return symbol
 
   def _ImageHTML(self, uni, number):
     """Get HTML for the symbol image, or an empty string.
