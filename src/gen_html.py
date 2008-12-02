@@ -118,8 +118,9 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
           continue  # Skip this symbol.
         else:
           row_style = " class=not_in_proposal"
-        writer.write("<tr id=e-%s%s><td>e-%s</td>" %
-                     (symbol.id, row_style, symbol.id))
+        e_id = "e-" + symbol.id
+        writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
+                     (e_id, row_style, e_id, e_id))
         number_symbols_in_chart += 1
         if symbol.GetUnicode():
           number_symbols_unified += 1
