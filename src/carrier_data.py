@@ -31,6 +31,7 @@ class CarrierData(object):
   # encoding scheme.
   # See _RangeFromUnicode(), _NumberFromUnicode(), etc.
   _uni_to_number_ranges = None
+  _uni_to_old_number_ranges = None
   _uni_to_shift_jis_ranges = None
   _uni_to_jis_ranges = None
   # Map from Unicode code point hex-digit strings to <e> DOM element nodes
@@ -42,6 +43,9 @@ class CarrierData(object):
     have the same length."""
     if self._uni_to_number_ranges:
       for range in self._uni_to_number_ranges:
+        assert (range[1] - range[0]) == (range[3] - range[2])
+    if self._uni_to_old_number_ranges:
+      for range in self._uni_to_old_number_ranges:
         assert (range[1] - range[0]) == (range[3] - range[2])
     if self._uni_to_shift_jis_ranges:
       for range in self._uni_to_shift_jis_ranges:
@@ -83,6 +87,13 @@ class CarrierData(object):
     elif symbol._element:
       number = symbol._element.getAttribute("number")
       if number: symbol.number = int(number)
+
+    if self._uni_to_old_number_ranges:
+      symbol.old_number = _NumberFromUnicode(self._uni_to_old_number_ranges,
+                                             uni)
+    elif symbol._element:
+      old_number = symbol._element.getAttribute("old_number")
+      if old_number: symbol.old_number = int(old_number)
 
     if self._uni_to_shift_jis_ranges:
       symbol.shift_jis = (
@@ -209,6 +220,8 @@ class Symbol(object):
     Attributes:
       uni: Unicode PUA code point, 4..6-hex-digit string
       number: Carrier-specific Emoji symbol number
+      old_number: Carrier-specific Emoji symbol number (old number system)
+      new_number: Carrier-specific Emoji symbol number (new number system)
       shift_jis: Shift-JIS code, 4-hex-digit string
       jis: JIS (ISO-2022-JP) code, 4-hex-digit string
     """
@@ -311,7 +324,7 @@ class _KddiData(CarrierData):
 
 class _SoftbankData(CarrierData):
   """DoCoMo Emoji symbols data."""
-  _uni_to_number_ranges = [
+  _uni_to_old_number_ranges = [
       (0xE001, 0xE05A, 1, 90),
       (0xE101, 0xE15A, 91, 180),
       (0xE201, 0xE25A, 181, 270),
@@ -346,23 +359,6 @@ class _SoftbankData(CarrierData):
                             "..", "data", "softbank", "carrier_data.xml")
     self._CheckRanges()
     self._ReadXML(filename)
-
-  def SymbolFromUnicode(self, uni):
-    """Get carrier data for one Emoji symbol.
-
-    Args:
-      uni: Carrier Unicode PUA code point, as a hex digit string.
-
-    Returns:
-      The Symbol instance corresponding to uni.
-    """
-    symbol = CarrierData.SymbolFromUnicode(self, uni)
-    # Shift the old and new numbers for consistent display with the
-    # new numbers showing as undecorated "#118".
-    symbol.old_number = symbol.number
-    symbol.number = symbol.new_number
-    symbol.new_number = None
-    return symbol
 
   def _ImageHTML(self, uni, number):
     """Get HTML for the symbol image, or an empty string.
