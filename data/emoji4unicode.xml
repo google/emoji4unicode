@@ -2390,11 +2390,6 @@ Lock (open padlock)
 Enter arrow (backwards)
 </desc>
 </e>
-<e google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="OPENWAVE" text_fallback="[オープンウェブ]">
-<desc>
-Openwave
-</desc>
-</e>
 <e docomo="&gt;E6D9" google="FEB8A" id="B8A" img_from="kddi" kddi="EAFC" name="CLOSED LOCK WITH KEY" softbank="&gt;E144">
 <desc>
 Secure (lock with certificate)
@@ -2599,6 +2594,11 @@ BREW (R)
 <e google="FEE48" id="E48" img_from="kddi" kddi="EB8C" name="EZ NAVI" text_fallback="[EZナビ]"/>
 <e google="FEE49" id="E49" img_from="kddi" kddi="EB8D" name="WIN" text_fallback="[WIN]"/>
 <e google="FEE4A" id="E4A" img_from="kddi" kddi="EB8E" name="PREMIUM SIGN" text_fallback="[プレミアム]"/>
+<e google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="OPENWAVE" text_fallback="[オープンウェブ]">
+<desc>
+Openwave
+</desc>
+</e>
 </subcategory>
 <subcategory name="SoftBank specific">
 <e google="FEE70" id="E70" name="J-SKY1" softbank="E538" text_repr="J-Sky1"/>
