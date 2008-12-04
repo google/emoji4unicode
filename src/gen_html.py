@@ -24,6 +24,10 @@ import sys
 import emoji4unicode
 import utf
 
+# Flags from command-line options.
+_only_in_proposal = False
+_no_codes = False
+
 _HEADER = """<html>
 <title>Table for Working Draft Proposal for Encoding Emoji Symbols</title>
 <head>
@@ -93,7 +97,7 @@ body {
 
 _FOOTER = """</body></html>"""
 
-def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
+def _WriteEmoji4UnicodeHTML(writer):
   number_symbols_in_chart = 0
   number_symbols_unified = 0
   number_symbols_new = 0
@@ -101,12 +105,12 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
   for category in emoji4unicode.GetCategories():
     category_string = category.name
     if not category.in_proposal:
-      if only_in_proposal: continue  # Skip this category.
+      if _only_in_proposal: continue  # Skip this category.
       category_string += (" (This section is for comparison only -- "
                           "not part of the Emoji proposal.)")
     _WriteSingleCelledRow(writer, "category", category_string)
     for subcategory in category.GetSubcategories():
-      if not subcategory.in_proposal and only_in_proposal:
+      if not subcategory.in_proposal and _only_in_proposal:
         continue  # Skip this subcategory.
       _WriteSingleCelledRow(writer,
                             "subcategory",
@@ -114,7 +118,7 @@ def _WriteEmoji4UnicodeHTML(only_in_proposal, writer):
       for symbol in subcategory.GetSymbols():
         if symbol.in_proposal:
           row_style = ""
-        elif only_in_proposal:
+        elif _only_in_proposal:
           continue  # Skip this symbol.
         else:
           row_style = " class=not_in_proposal"
@@ -200,19 +204,18 @@ def _NameAnnotationHTML(e4u_symbol):
 def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
   codes = code_string.split("+")
   img_string = ""
-  uni_string = ""
   number_string = ""
   old_number_string = ""
   new_number_string = ""
-  shift_jis_string = ""
-  jis_string = ""
   english_string = ""
   japanese_string = ""
+  uni_string = ""
+  shift_jis_string = ""
+  jis_string = ""
   for code in codes:
     symbol = one_carrier_data.SymbolFromUnicode(code)
     img_html = emoji4unicode.CarrierImageHTML(carrier, symbol)
     if img_html: img_string += "+%s" % img_html
-    uni_string += "+U+" + code
     if symbol.number:
       if carrier == "docomo" and symbol.number >= 300:
         # DoCoMo shows symbol numbers 1..176 for "Basic Pictograms" and
@@ -227,12 +230,14 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
       old_number_string += "+#old" + str(symbol.old_number)
     if symbol.new_number:
       new_number_string += "+#new" + str(symbol.new_number)
-    if symbol.shift_jis: shift_jis_string += "+SJIS-" + symbol.shift_jis
-    if symbol.jis: jis_string += "+JIS-" + symbol.jis
     name_en = symbol.GetEnglishName()
     if name_en: english_string += "+'%s'" % name_en
     name_ja = symbol.GetJapaneseName()
     if name_ja: japanese_string += "+" + name_ja
+    if not _no_codes:
+      uni_string += "+U+" + code
+      if symbol.shift_jis: shift_jis_string += "+SJIS-" + symbol.shift_jis
+      if symbol.jis: jis_string += "+JIS-" + symbol.jis
   result_pieces = []
   if len(codes) == 1:
     # Reduce the cell height by putting multiple data pieces on each line.
@@ -253,6 +258,10 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
                  english_string, japanese_string,
                  uni_string, shift_jis_string, jis_string):
       if line: result_pieces.append(line[1:])  # Remove leading separator.
+  if not result_pieces:
+    # Show *something* despite _no_codes.
+    for code in codes: uni_string += "+U+" + code
+    return uni_string[1:]
   return "<br>".join(result_pieces)
 
 
@@ -262,13 +271,12 @@ def _WriteSingleCelledRow(writer, style, contents):
 
 
 def main():
-  only_in_proposal = False
-  if len(sys.argv) >= 2:
-    if sys.argv[1] == "--only_in_proposal": only_in_proposal = True
+  global _only_in_proposal, _no_codes
+  for i in range(1, len(sys.argv)):
+    if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
+    if sys.argv[i] == "--no_codes": _no_codes = True
   emoji4unicode.Load()
-  _WriteEmoji4UnicodeHTML(
-      only_in_proposal,
-      codecs.getwriter("UTF-8")(sys.stdout))
+  _WriteEmoji4UnicodeHTML(codecs.getwriter("UTF-8")(sys.stdout))
 
 
 if __name__ == "__main__":
