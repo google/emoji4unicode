@@ -19,6 +19,7 @@
 __author__ = "Darick Tong"
 __author__ = "Markus Scherer"
 
+import cgi
 import codecs
 import sys
 import emoji4unicode
@@ -195,9 +196,9 @@ def _NameAnnotationHTML(e4u_symbol):
   lines = [e4u_symbol.GetName()]
   arib = e4u_symbol.GetARIB()
   if arib: lines.append("= ARIB-%s" % arib)
-  lines.extend(e4u_symbol.GetAnnotations())
+  for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
-  if desc: lines.append(u"\u2022 " + desc)
+  if desc: lines.append(u"\u2022 " + cgi.escape(desc))
   return "<br>".join(lines)
 
 
