@@ -875,7 +875,7 @@ Russia
 </desc>
 <design>Rectangular flag of Russia, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/</design>
 </e>
-<e google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="FLAG OF CHINA" softbank="E513" text_fallback="[中国]">
+<e google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="FLAG SYMBOL CN" softbank="E513" text_fallback="[中国]">
 <desc>
 China
 </desc>
@@ -1882,15 +1882,10 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 <e docomo="E68F" google="FEB1C" id="B1C" kddi="E5A2" name="BLACK DIAMOND SUIT" softbank="E20D" unicode="2666"/>
 <e docomo="E690" google="FEB1D" id="B1D" kddi="E5A3" name="BLACK CLUB SUIT" softbank="E20F" unicode="2663"/>
 </subcategory>
-<subcategory name="Letter Signs and other Signs">
+<subcategory name="Other Signs">
 <e docomo="E67F" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
 <e docomo="E680" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
-<e docomo="E6D7" google="FEB21" id="B21" img_from="docomo" kddi="E578" name="FREE SIGN" text_fallback="[FREE]">
-<desc>
-a letter sign Free of Charge
-</desc>
-</e>
 <e docomo="E6DE" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]">
 <desc>
 Location information, a flag
@@ -1901,19 +1896,87 @@ Location information, a flag
 Danger / Caution / Warning
 </desc>
 </e>
-<e google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]">
+<e docomo="&gt;E72F" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRANCE SIGN" softbank="&gt;E137">
 <desc>
-KATAKANA LETTERS KOKO; destination, here
+No entrance, no trespassing
+</desc>
+</e>
+<e docomo="E735" google="FEB2C" id="B2C" kddi="EB79" name="BLACK UNIVERSAL RECYCLING SYMBOL" text_fallback="↑↓" unicode="267B"/>
+<e google="FEB33" id="B33" img_from="softbank" name="MENS SYMBOL" softbank="E138" text_fallback="[♂]">
+<desc>
+men's restroom
+</desc>
+</e>
+<e google="FEB34" id="B34" img_from="softbank" name="WOMENS SYMBOL" softbank="E139" text_fallback="[♀]">
+<desc>
+woman's restroom symbol
+</desc>
+</e>
+<e google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY 2" softbank="E13A" text_fallback="[赤ちゃん]">
+<desc>
+used as a sign for a baby; Crawling Baby
+</desc>
+</e>
+<e docomo="&gt;E6A0" google="FEB44" id="B44" img_from="kddi" kddi="EAAD" name="BLACK CIRCLE MARK" softbank="E332">
+<desc>
+good; OK, approved; O in tic tac toe
+</desc>
+</e>
+<e google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
+<desc>
+bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
+</desc>
+</e>
+<e google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK 2" softbank="&gt;E333" text_fallback="[×]">
+<desc>
+Another X (orange background)
+</desc>
+</e>
+<e docomo="&gt;E738" google="FEB48" id="B48" img_from="kddi" kddi="E541" name="NO ENTRY SIGN" text_fallback="[禁止]">
+<desc>
+Prohibited (circle with diagonal slash); Do not enter
+</desc>
+</e>
+<e google="FEB49" id="B49" kddi="E557" name="HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="2714">
+<desc>
+Check mark (blue)
+</desc>
+</e>
+<e google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]">
+<desc>
+Check mark (red); not unified with &#x2713; U+2713
+</desc>
+</e>
+<e google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]">
+<desc>
+Disunified from &#x267E; U+267E PERMANENT PAPER SIGN; Link with a twist
+</desc>
+</e>
+<e google="FEB4C" id="B4C" kddi="E58C" name="EM SPACE" unicode="2003">
+<desc>
+Note: KDDI's Full blank (mapped to EM SPACE)
+</desc>
+</e>
+<e google="FEB4D" id="B4D" kddi="E58D" name="EN SPACE" unicode="2002">
+<desc>
+Note: KDDI's Half blank (mapped to EN SPACE)
+</desc>
+</e>
+<e google="FEB4E" id="B4E" kddi="E58E" name="FOUR-PER-EM SPACE" unicode="2005">
+<desc>
+Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)
+</desc>
+</e>
+</subcategory>
+<subcategory name="Other Symbols with Letters and Digits">
+<e docomo="E6D7" google="FEB21" id="B21" img_from="docomo" kddi="E578" name="FREE SIGN" text_fallback="[FREE]">
+<desc>
+a letter sign Free of Charge
 </desc>
 </e>
 <e google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="ADULTS ONLY SIGN" softbank="E207" text_fallback="[18禁]">
 <desc>
 under 18 not permitted
-</desc>
-</e>
-<e docomo="&gt;E72F" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRANCE SIGN" softbank="&gt;E137">
-<desc>
-No entrance, no trespassing
 </desc>
 </e>
 <e docomo="E70B" google="FEB27" id="B27" img_from="docomo" kddi="E5AD" name="OK SIGN" softbank="E24D">
@@ -1927,14 +1990,55 @@ no good, NG
 </desc>
 </e>
 <e docomo="E731" google="FEB29" id="B29" kddi="E558" name="COPYRIGHT SIGN" softbank="E24E" unicode="00A9"/>
+<e docomo="E736" google="FEB2D" id="B2D" kddi="E559" name="REGISTERED SIGN" softbank="E24F" unicode="00AE"/>
 <e docomo="E732" google="FEB2A" id="B2A" kddi="E54E" name="TRADE MARK SIGN" softbank="E537" unicode="2122"/>
+<e google="FEB32" id="B32" img_from="kddi" kddi="E5D2" name="VS SIGN" softbank="E12E" text_fallback="[VS]">
+<desc>
+versus
+</desc>
+</e>
+<e docomo="E6DD" google="FEB36" id="B36" img_from="docomo" kddi="E5B5" name="NEW SIGN" softbank="E212">
+<desc>
+a stamp, seal, sign
+</desc>
+</e>
+<e google="FEB37" id="B37" img_from="kddi" kddi="E50F" name="UP SIGN" softbank="E213" text_fallback="[UP!]">
+<desc>
+site renewed, updated, new information
+</desc>
+</e>
+<e google="FEB38" id="B38" img_from="kddi" kddi="EA85" name="COOL SIGN" softbank="E214" text_fallback="[COOL]">
+<desc>
+cool!; hip
+</desc>
+</e>
+<e google="FEB42" id="B42" img_from="softbank" name="TOP WITH UPWARD SIGN" softbank="E24C" text_fallback="[TOP]">
+<desc>
+Top of page
+</desc>
+</e>
+<e google="FEB47" id="B47" kddi="E533" name="INFORMATION SOURCE" text_fallback="[ｉ]" unicode="2139">
+<desc>
+&quot;i&quot; = information
+</desc>
+</e>
+<e google="FEB4F" id="B4F" img_from="kddi" kddi="E4E8" name="SOS SIGN" text_fallback="[SOS]">
+<desc>
+search, hunt for the missing
+</desc>
+</e>
+</subcategory>
+<subcategory name="Enclosed Ideographs and Kana">
+<e google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]">
+<desc>
+KATAKANA LETTERS KOKO; destination, here
+</desc>
+</e>
 <e docomo="E734" google="FEB2B" id="B2B" img_from="docomo" kddi="E4F1" name="CIRCLED IDEOGRAPH SECRET" softbank="E315" unicode="3299">
 <desc>
 秘: IDEOGRAPH SECRET (TOP SECRET SIGN)
 </desc>
 </e>
-<e docomo="E735" google="FEB2C" id="B2C" kddi="EB79" name="BLACK UNIVERSAL RECYCLING SYMBOL" text_fallback="↑↓" unicode="267B"/>
-<e docomo="E736" google="FEB2D" id="B2D" kddi="E559" name="REGISTERED SIGN" softbank="E24F" unicode="00AE"/>
 <e docomo="E738" google="FEB2E" id="B2E" img_from="docomo" name="PROHIBITED SIGN" text_fallback="[禁]">
 <desc>
 禁: IDEOGRAPH PROHIBITION
@@ -1953,41 +2057,6 @@ no good, NG
 <e docomo="E73B" google="FEB31" id="B31" img_from="docomo" kddi="EA89" name="FULL SIGN" softbank="E22A">
 <desc>
 満: IDEOGRAPH FULL; fully occupied, full tank, etc.
-</desc>
-</e>
-<e google="FEB32" id="B32" img_from="kddi" kddi="E5D2" name="VS SIGN" softbank="E12E" text_fallback="[VS]">
-<desc>
-versus
-</desc>
-</e>
-<e google="FEB33" id="B33" img_from="softbank" name="MENS SYMBOL" softbank="E138" text_fallback="[♂]">
-<desc>
-men's restroom
-</desc>
-</e>
-<e google="FEB34" id="B34" img_from="softbank" name="WOMENS SYMBOL" softbank="E139" text_fallback="[♀]">
-<desc>
-woman's restroom symbol
-</desc>
-</e>
-<e google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY 2" softbank="E13A" text_fallback="[赤ちゃん]">
-<desc>
-used as a sign for a baby; Crawling Baby
-</desc>
-</e>
-<e docomo="E6DD" google="FEB36" id="B36" img_from="docomo" kddi="E5B5" name="NEW SIGN" softbank="E212">
-<desc>
-a stamp, seal, sign
-</desc>
-</e>
-<e google="FEB37" id="B37" img_from="kddi" kddi="E50F" name="UP SIGN" softbank="E213" text_fallback="[UP!]">
-<desc>
-site renewed, updated, new information
-</desc>
-</e>
-<e google="FEB38" id="B38" img_from="kddi" kddi="EA85" name="COOL SIGN" softbank="E214" text_fallback="[COOL]">
-<desc>
-cool!; hip
 </desc>
 </e>
 <e google="FEB39" id="B39" img_from="softbank" name="EXISTENCE SIGN" softbank="E215" text_fallback="[有]">
@@ -2035,74 +2104,9 @@ cool!; hip
 営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所
 </desc>
 </e>
-<e google="FEB42" id="B42" img_from="softbank" name="TOP WITH UPWARD SIGN" softbank="E24C" text_fallback="[TOP]">
-<desc>
-Top of page
-</desc>
-</e>
 <e google="FEB43" id="B43" img_from="kddi" kddi="EA99" name="CELEBRATION SIGN" softbank="E30D" text_fallback="[祝]">
 <desc>
 祝: IDEOGRAPH CELEBRATION; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
-</desc>
-</e>
-<e docomo="&gt;E6A0" google="FEB44" id="B44" img_from="kddi" kddi="EAAD" name="BLACK CIRCLE MARK" softbank="E332">
-<desc>
-good; OK, approved; O in tic tac toe
-</desc>
-</e>
-<e google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
-<desc>
-bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
-</desc>
-</e>
-<e google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK 2" softbank="&gt;E333" text_fallback="[×]">
-<desc>
-Another X (orange background)
-</desc>
-</e>
-<e google="FEB47" id="B47" kddi="E533" name="INFORMATION SOURCE" text_fallback="[ｉ]" unicode="2139">
-<desc>
-&quot;i&quot; = information
-</desc>
-</e>
-<e docomo="&gt;E738" google="FEB48" id="B48" img_from="kddi" kddi="E541" name="NO ENTRY SIGN" text_fallback="[禁止]">
-<desc>
-Prohibited (circle with diagonal slash); Do not enter
-</desc>
-</e>
-<e google="FEB49" id="B49" kddi="E557" name="HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="2714">
-<desc>
-Check mark (blue)
-</desc>
-</e>
-<e google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]">
-<desc>
-Check mark (red); not unified with &#x2713; U+2713
-</desc>
-</e>
-<e google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]">
-<desc>
-Disunified from &#x267E; U+267E PERMANENT PAPER SIGN; Link with a twist
-</desc>
-</e>
-<e google="FEB4C" id="B4C" kddi="E58C" name="EM SPACE" unicode="2003">
-<desc>
-Note: KDDI's Full blank (mapped to EM SPACE)
-</desc>
-</e>
-<e google="FEB4D" id="B4D" kddi="E58D" name="EN SPACE" unicode="2002">
-<desc>
-Note: KDDI's Half blank (mapped to EN SPACE)
-</desc>
-</e>
-<e google="FEB4E" id="B4E" kddi="E58E" name="FOUR-PER-EM SPACE" unicode="2005">
-<desc>
-Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)
-</desc>
-</e>
-<e google="FEB4F" id="B4F" img_from="kddi" kddi="E4E8" name="SOS SIGN" text_fallback="[SOS]">
-<desc>
-search, hunt for the missing
 </desc>
 </e>
 <e google="FEB50" id="B50" img_from="kddi" kddi="EB01" name="ACCEPT SIGN" text_fallback="[可]">
