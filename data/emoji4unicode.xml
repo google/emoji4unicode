@@ -2437,20 +2437,21 @@ Email (Envelope with &quot;E&quot;)
 </e>
 </subcategory>
 <subcategory name="Hand Signals">
-<e docomo="E693" google="FEB93" id="B93" img_from="kddi" kddi="EB83" name="ROCK IN HAND GAME" softbank="E010">
-<desc>
-Rock in Rock, Paper, Scissors game
-</desc>
+<e docomo="E693" google="FEB93" id="B93" img_from="kddi" kddi="EB83" name="RAISED FIST" softbank="E010">
+<ann>* rock in Rock, Paper, Scissors game</ann>
+<ann>x (raised hand - xB95)</ann>
+<ann>x (victory hand - 270C)</ann>
 </e>
-<e docomo="E694" google="FEB94" id="B94" img_from="kddi" kddi="E5A6" name="SCISSOR IN HAND GAME" softbank="E011">
-<desc>
-Scissors in Rock, Paper, Scissors game; disunified from &#x270C; U+270C
-</desc>
+<e docomo="E695" google="FEB95" id="B95" img_from="kddi" kddi="E5A7" name="RAISED HAND" softbank="E012">
+<ann>* paper in Rock, Paper, Scissors game</ann>
+<ann>x (raised fist - xB93)</ann>
+<ann>x (victory hand - 270C)</ann>
 </e>
-<e docomo="E695" google="FEB95" id="B95" img_from="kddi" kddi="E5A7" name="PAPER IN HAND GAME" softbank="E012">
-<desc>
-Paper in Rock, Paper, Scissors game
-</desc>
+<e docomo="E694" google="FEB94" id="B94" kddi="E5A6" name="VICTORY HAND" softbank="E011" unicode="270C">
+<ann>* scissors in Rock, Paper, Scissors game</ann>
+<ann>* commonly used as "Victory" sign</ann>
+<ann>x (raised fist - xB93)</ann>
+<ann>x (raised hand - xB95)</ann>
 </e>
 <e docomo="E6FD" google="FEB96" id="B96" img_from="docomo" kddi="E4F3" name="FISTED HAND" softbank="E00D">
 <desc>
