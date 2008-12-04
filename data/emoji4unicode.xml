@@ -2459,27 +2459,27 @@ Punch
 </desc>
 </e>
 <e docomo="E727" google="FEB97" id="B97" img_from="kddi" kddi="E4F9" name="THUMBS UP SIGN" softbank="E00E"/>
-<e google="FEB98" id="B98" img_from="kddi" kddi="E4F6" name="INDEX FINGER POINTING UPWARDS" softbank="E00F" text_fallback="[人差し指]">
+<e google="FEB98" id="B98" kddi="E4F6" name="WHITE UP POINTING INDEX" softbank="E00F" text_fallback="[人差し指]" unicode="261D">
 <desc>
 No. 1
 </desc>
 </e>
-<e google="FEB99" id="B99" kddi="EA8D" name="WHITE UP POINTING INDEX" softbank="E22E" text_fallback="[↑]" unicode="261D">
+<e google="FEB99" id="B99" img_from="kddi" kddi="EA8D" name="WHITE UP POINTING BACKHAND INDEX" softbank="E22E" text_fallback="[↑]">
 <desc>
 Up
 </desc>
 </e>
-<e google="FEB9A" id="B9A" kddi="EA8E" name="WHITE DOWN POINTING INDEX" softbank="E22F" text_fallback="[↓]" unicode="261F">
+<e google="FEB9A" id="B9A" img_from="kddi" kddi="EA8E" name="WHITE DOWN POINTING BACKHAND INDEX" softbank="E22F" text_fallback="[↓]">
 <desc>
 Down
 </desc>
 </e>
-<e google="FEB9B" id="B9B" kddi="E4FF" name="WHITE LEFT POINTING INDEX" softbank="E230" text_fallback="[←]" unicode="261C">
+<e google="FEB9B" id="B9B" img_from="kddi" kddi="E4FF" name="WHITE LEFT POINTING BACKHAND INDEX" softbank="E230" text_fallback="[←]">
 <desc>
 Left
 </desc>
 </e>
-<e google="FEB9C" id="B9C" kddi="E500" name="WHITE RIGHT POINTING INDEX" softbank="E231" text_fallback="[→]" unicode="261E">
+<e google="FEB9C" id="B9C" img_from="kddi" kddi="E500" name="WHITE RIGHT POINTING BACKHAND INDEX" softbank="E231" text_fallback="[→]">
 <desc>
 Right
 </desc>
