@@ -1772,9 +1772,9 @@ Fast forward (up)
 <e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK ORNAMENT" softbank="E021" unicode="2762"/>
 <e docomo="E703" google="FEB05" id="B05" kddi="EB2F" name="EXCLAMATION QUESTION MARK" text_fallback="！？" unicode="2049"/>
 <e docomo="E704" google="FEB06" id="B06" kddi="EB30" name="DOUBLE EXCLAMATION MARK" text_fallback="！！" unicode="203C"/>
-<e docomo="E709" google="FEB07" id="B07" img_from="docomo" name="WAVY LENGTH MARK">
+<e docomo="E709" google="FEB07" id="B07" name="WAVY DASH" unicode="3030">
 <desc>
-a wavy line
+a wavy line, used as a wavy length mark
 </desc>
 </e>
 <e docomo="E70A" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="LOOPED LENGTH MARK" text_fallback="～">
