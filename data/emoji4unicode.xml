@@ -2357,7 +2357,7 @@ ID (&quot;ID&quot; stamp)
 </e>
 <e docomo="E6D9" google="FEB82" id="B82" img_from="docomo" kddi="E519" name="KEY" softbank="E03F">
 <desc>
-Password (key)
+Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.
 </desc>
 </e>
 <e docomo="E6DA" google="FEB83" id="B83" kddi="E55D" name="LEFTWARDS ARROW WITH HOOK" text_fallback="←┘" unicode="21A9">
