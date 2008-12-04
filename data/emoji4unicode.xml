@@ -2033,86 +2033,118 @@ search, hunt for the missing
 <desc>
 KATAKANA LETTERS KOKO; destination, here
 </desc>
+<ann># &lt;square&gt; 30B3 30B3</ann>
 </e>
 <e docomo="E734" google="FEB2B" id="B2B" img_from="docomo" kddi="E4F1" name="CIRCLED IDEOGRAPH SECRET" softbank="E315" unicode="3299">
 <desc>
 秘: IDEOGRAPH SECRET (TOP SECRET SIGN)
 </desc>
 </e>
-<e docomo="E738" google="FEB2E" id="B2E" img_from="docomo" name="PROHIBITED SIGN" text_fallback="[禁]">
+<e docomo="E738" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]">
 <desc>
 禁: IDEOGRAPH PROHIBITION
 </desc>
+<ann>= prohibited sign</ann>
+<ann># &lt;square&gt; 7981</ann>
 </e>
-<e docomo="E739" google="FEB2F" id="B2F" img_from="docomo" kddi="EA8A" name="EMPTY SIGN" softbank="E22B">
+<e docomo="E739" google="FEB2F" id="B2F" img_from="docomo" kddi="EA8A" name="SQUARED CJK UNIFIED IDEOGRAPH-7A7A" softbank="E22B">
 <desc>
 空: IDEOGRAPH EMPTY; Vacant, seats available
 </desc>
+<ann>= empty sign</ann>
+<ann># &lt;square&gt; 7A7A</ann>
 </e>
-<e docomo="E73A" google="FEB30" id="B30" img_from="docomo" name="PASSED SIGN" text_fallback="[合]">
+<e docomo="E73A" google="FEB30" id="B30" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-5408" text_fallback="[合]">
 <desc>
 合: IDEOGRAPH MATCH; approved, passed as in an examination
 </desc>
+<ann>= passed sign</ann>
+<ann># &lt;square&gt; 5408</ann>
 </e>
-<e docomo="E73B" google="FEB31" id="B31" img_from="docomo" kddi="EA89" name="FULL SIGN" softbank="E22A">
+<e docomo="E73B" google="FEB31" id="B31" img_from="docomo" kddi="EA89" name="SQUARED CJK UNIFIED IDEOGRAPH-6E80" softbank="E22A">
 <desc>
 満: IDEOGRAPH FULL; fully occupied, full tank, etc.
 </desc>
+<ann>= full sign</ann>
+<ann># &lt;square&gt; 6E80</ann>
 </e>
-<e google="FEB39" id="B39" img_from="softbank" name="EXISTENCE SIGN" softbank="E215" text_fallback="[有]">
+<e google="FEB39" id="B39" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-6709" softbank="E215" text_fallback="[有]">
 <desc>
 有: IDEOGRAPH EXISTENCE; available, in stock; charges apply
 </desc>
+<ann>= existence sign</ann>
+<ann>x (circled ideograph have - 3292)</ann>
+<ann># &lt;square&gt; 6709</ann>
 </e>
-<e google="FEB3A" id="B3A" img_from="softbank" name="NON-EXISTENCE SIGN" softbank="E216" text_fallback="[無]">
+<e google="FEB3A" id="B3A" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]">
 <desc>
 無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free
 </desc>
+<ann>= non-existence sign</ann>
+<ann># &lt;square&gt; 7121</ann>
 </e>
-<e google="FEB3B" id="B3B" img_from="softbank" name="MONTHLY SIGN" softbank="E217" text_fallback="[月]">
+<e google="FEB3B" id="B3B" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-6708" softbank="E217" text_fallback="[月]">
 <desc>
 月: IDEOGRAPH MOON; monthly charge, monthly rate; month
 </desc>
+<ann>= monthly sign</ann>
+<ann>x (circled ideograph moon - 328A)</ann>
+<ann># &lt;square&gt; 6708</ann>
 </e>
-<e google="FEB3C" id="B3C" img_from="softbank" name="APPLICATION SIGN" softbank="E218" text_fallback="[申]">
+<e google="FEB3C" id="B3C" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-7533" softbank="E218" text_fallback="[申]">
 <desc>
 申: IDEOGRAPH SAYING &quot;application needed, apply here&quot;
 </desc>
+<ann>= application sign</ann>
+<ann># &lt;square&gt; 7533</ann>
 </e>
-<e google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="ADVANTAGE SIGN" softbank="E226" text_fallback="[得]">
+<e google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="CIRCLED IDEOGRAPH ADVANTAGE" softbank="E226" text_fallback="[得]">
 <desc>
 得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds
 </desc>
+<ann>= advantage sign</ann>
+<ann># &lt;circle&gt; 5F97</ann>
 </e>
-<e google="FEB3E" id="B3E" img_from="kddi" kddi="EA86" name="DISCOUNT SIGN" softbank="E227" text_fallback="[割]">
+<e google="FEB3E" id="B3E" img_from="kddi" kddi="EA86" name="SQUARED CJK UNIFIED IDEOGRAPH-5272" softbank="E227" text_fallback="[割]">
 <desc>
 割: IDEOGRAPH DIVIDE;
 </desc>
+<ann>= discount sign</ann>
+<ann># &lt;square&gt; 5272</ann>
 </e>
-<e google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SERVICE SIGN" softbank="E228" text_fallback="[サービス]">
+<e google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SQUARED KATAKANA LETTER SA" softbank="E228" text_fallback="[サービス]">
 <desc>
 サ: KATAKANA LETTER SA; service charge; for free, on the house;
 </desc>
+<ann>= service sign</ann>
+<ann>x (circled katakana sa - 32DA)</ann>
+<ann># &lt;square&gt; 30B5</ann>
 </e>
-<e google="FEB40" id="B40" img_from="softbank" kddi="EA8B" name="RESERVED SIGN" softbank="E22C" text_fallback="[指]">
+<e google="FEB40" id="B40" img_from="softbank" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]">
 <desc>
 指: IDEOGRAPH POINTING; reserved, designated 指定
 </desc>
+<ann>= reserved sign</ann>
+<ann># &lt;square&gt; 6307</ann>
 </e>
-<e google="FEB41" id="B41" img_from="kddi" kddi="EA8C" name="IN BUSINESS SIGN" softbank="E22D" text_fallback="[営]">
+<e google="FEB41" id="B41" img_from="kddi" kddi="EA8C" name="SQUARED CJK UNIFIED IDEOGRAPH-55B6" softbank="E22D" text_fallback="[営]">
 <desc>
 営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所
 </desc>
+<ann>= in business sign</ann>
+<ann># &lt;square&gt; 55B6</ann>
 </e>
-<e google="FEB43" id="B43" img_from="kddi" kddi="EA99" name="CELEBRATION SIGN" softbank="E30D" text_fallback="[祝]">
+<e google="FEB43" id="B43" kddi="EA99" name="CIRCLED IDEOGRAPH CONGRATULATION" softbank="E30D" text_fallback="[祝]" unicode="3297">
 <desc>
-祝: IDEOGRAPH CELEBRATION; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
+祝: IDEOGRAPH CELEBRATION; celebration sign; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
 </desc>
 </e>
-<e google="FEB50" id="B50" img_from="kddi" kddi="EB01" name="ACCEPT SIGN" text_fallback="[可]">
+<e google="FEB50" id="B50" img_from="kddi" kddi="EB01" name="CIRCLED IDEOGRAPH ACCEPT" text_fallback="[可]">
 <desc>
 Han character 可; accepted, acceptable
 </desc>
+<ann>= accept sign</ann>
+<ann># &lt;circle&gt; 53EF</ann>
 </e>
 </subcategory>
 <subcategory name="Arithmetic Operators">
