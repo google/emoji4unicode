@@ -18,3 +18,4 @@
 mkdir -p ../generated
 ./gen_html.py > ../generated/full.html
 ./gen_html.py --only_in_proposal > ../generated/utc.html
+./gen_html.py --no_codes > ../generated/short.html
