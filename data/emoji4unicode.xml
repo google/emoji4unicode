@@ -2201,16 +2201,6 @@ Yellow glitter, spark
 Green/blue glitter, star
 </desc>
 </e>
-<e docomo="&gt;E69C" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="LARGE WHITE BULLET" softbank="E219">
-<desc>
-Large circle (red). disunified from U+25CB due to source separation rule (Shift_JIS).
-</desc>
-</e>
-<e docomo="&gt;E69C" google="FEB64" id="B64" img_from="kddi" kddi="E54B" name="LARGE BLACK BULLET" softbank="E21A">
-<desc>
-Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).
-</desc>
-</e>
 <e docomo="&gt;E69C" google="FEB65" id="B65" kddi="E53A" name="MEDIUM WHITE CIRCLE" softbank="&gt;E219" unicode="26AA">
 <desc>
 Small circle (red)
@@ -2221,11 +2211,26 @@ Small circle (red)
 Small circle (blue)
 </desc>
 </e>
-<e docomo="&gt;E69C" google="FEB67" id="B67" img_from="softbank" kddi="&gt;E54B" name="LARGE CHECKERED BULLET" softbank="E21B"/>
-<e google="FEB68" id="B68" img_from="kddi" kddi="E48B" name="BLACK STAR MARK" softbank="E32F" text_fallback="[☆]"/>
+<e docomo="&gt;E69C" google="FEB63" id="B63" img_from="softbank" kddi="E54A" name="LARGE WHITE BULLET" softbank="E219">
 <desc>
-disunified from U+2605 due to source separation rule (Shift_JIS).a
+Large circle (red). disunified from U+25CB due to source separation rule (Shift_JIS).
 </desc>
+<design>Same shapes for e-B63, e-B64 and e-B67.</design>
+</e>
+<e docomo="&gt;E69C" google="FEB64" id="B64" img_from="softbank" kddi="E54B" name="LARGE BLACK BULLET" softbank="E21A">
+<desc>
+Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).
+</desc>
+<design>Same shapes for e-B63, e-B64 and e-B67.</design>
+</e>
+<e docomo="&gt;E69C" google="FEB67" id="B67" img_from="softbank" kddi="&gt;E54B" name="LARGE CHECKERED BULLET" softbank="E21B">
+<design>Same shapes for e-B63, e-B64 and e-B67.</design>
+</e>
+<e google="FEB68" id="B68" img_from="kddi" kddi="E48B" name="BLACK STAR MARK" softbank="E32F" text_fallback="[☆]">
+<desc>
+disunified from U+2605 due to source separation rule (Shift_JIS).
+</desc>
+</e>
 <e google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="WHITE GLOWING STAR" softbank="E335" text_fallback="[☆]">
 <desc>
 Animated pulsating star in orange color
