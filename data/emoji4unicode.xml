@@ -1779,7 +1779,7 @@ a wavy line, used as a wavy length mark
 </e>
 <e docomo="E70A" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="LOOPED LENGTH MARK" text_fallback="～">
 <desc>
-a line with a loop
+a line with a loop; new compatibility character, see e-B07=U+3030
 </desc>
 </e>
 <e google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK" softbank="E020" text_fallback="[？]">
