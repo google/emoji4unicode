@@ -1572,11 +1572,6 @@ manner mode (in Japan)
 </e>
 <e google="FE83A" id="83A" img_from="kddi" kddi="EA91" name="PHONE OFF" softbank="E251" text_fallback="[ケータイOFF]"/>
 <e google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD 10" text_fallback="[10]"/>
-<e google="FE83C" id="83C" img_from="kddi" kddi="E586" name="PDC" text_fallback="[PDC]">
-<desc>
-Personal Digital Cellular Symbol/Logo. ?
-</desc>
-</e>
 </subcategory>
 </category>
 <category name="6. Foods">
@@ -2602,6 +2597,11 @@ BREW (R)
 <e google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="OPENWAVE" text_fallback="[オープンウェブ]">
 <desc>
 Openwave
+</desc>
+</e>
+<e google="FE83C" id="83C" img_from="kddi" kddi="E586" name="PDC" text_fallback="[PDC]">
+<desc>
+Personal Digital Cellular Symbol/Logo?
 </desc>
 </e>
 </subcategory>
