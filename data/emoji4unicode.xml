@@ -2035,11 +2035,6 @@ KATAKANA LETTERS KOKO; destination, here
 </desc>
 <ann># &lt;square&gt; 30B3 30B3</ann>
 </e>
-<e docomo="E734" google="FEB2B" id="B2B" img_from="docomo" kddi="E4F1" name="CIRCLED IDEOGRAPH SECRET" softbank="E315" unicode="3299">
-<desc>
-秘: IDEOGRAPH SECRET (TOP SECRET SIGN)
-</desc>
-</e>
 <e docomo="E738" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]">
 <desc>
 禁: IDEOGRAPH PROHIBITION
@@ -2098,13 +2093,6 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>= application sign</ann>
 <ann># &lt;square&gt; 7533</ann>
 </e>
-<e google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="CIRCLED IDEOGRAPH ADVANTAGE" softbank="E226" text_fallback="[得]">
-<desc>
-得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds
-</desc>
-<ann>= advantage sign</ann>
-<ann># &lt;circle&gt; 5F97</ann>
-</e>
 <e google="FEB3E" id="B3E" img_from="kddi" kddi="EA86" name="SQUARED CJK UNIFIED IDEOGRAPH-5272" softbank="E227" text_fallback="[割]">
 <desc>
 割: IDEOGRAPH DIVIDE;
@@ -2134,10 +2122,22 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>= in business sign</ann>
 <ann># &lt;square&gt; 55B6</ann>
 </e>
+<e docomo="E734" google="FEB2B" id="B2B" img_from="docomo" kddi="E4F1" name="CIRCLED IDEOGRAPH SECRET" softbank="E315" unicode="3299">
+<desc>
+秘: IDEOGRAPH SECRET (TOP SECRET SIGN)
+</desc>
+</e>
 <e google="FEB43" id="B43" kddi="EA99" name="CIRCLED IDEOGRAPH CONGRATULATION" softbank="E30D" text_fallback="[祝]" unicode="3297">
 <desc>
 祝: IDEOGRAPH CELEBRATION; celebration sign; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
 </desc>
+</e>
+<e google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="CIRCLED IDEOGRAPH ADVANTAGE" softbank="E226" text_fallback="[得]">
+<desc>
+得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds
+</desc>
+<ann>= advantage sign</ann>
+<ann># &lt;circle&gt; 5F97</ann>
 </e>
 <e google="FEB50" id="B50" img_from="kddi" kddi="EB01" name="CIRCLED IDEOGRAPH ACCEPT" text_fallback="[可]">
 <desc>
