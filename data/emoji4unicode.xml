@@ -368,7 +368,7 @@ animated by KDDI
 <e docomo="&gt;E755" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIGS NOSE" softbank="&gt;E10B"/>
 <e google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEY BEE" text_fallback="[ミツバチ]"/>
 <e google="FE1E2" id="1E2" img_from="kddi" kddi="EB58" name="LADYBUG" text_fallback="[てんとう虫]"/>
-<e google="FE1E3" id="1E3" img_from="google" kddi="&gt;E492" name="CRAB" text_fallback="[カニ]"/>
+<e google="FE1E3" id="1E3" img_from="google" kddi="&gt;E492" in_proposal="no" name="CRAB" text_fallback="[カニ]"/>
 </subcategory>
 </category>
 <category name="3. Faces and Smiley's">
