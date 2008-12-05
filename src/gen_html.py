@@ -27,7 +27,10 @@ import utf
 
 # Flags from command-line options.
 _only_in_proposal = False
+_no_unified = False
+_no_fallbacks = False
 _no_codes = False
+_no_symbol_numbers = False
 
 _HEADER = """<html>
 <title>Table for Working Draft Proposal for Encoding Emoji Symbols</title>
@@ -69,6 +72,8 @@ body {
 }
 .text_fallback {
   background:#CC99FF;
+}
+.no_mapping {
 }
 .report {
   font-weight: bold;
@@ -123,20 +128,24 @@ def _WriteEmoji4UnicodeHTML(writer):
           continue  # Skip this symbol.
         else:
           row_style = " class=not_in_proposal"
-        e_id = "e-" + symbol.id
-        writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
-                     (e_id, row_style, e_id, e_id))
-        number_symbols_in_chart += 1
         if symbol.GetUnicode():
+          if _no_unified: continue  # Skip this symbol.
           number_symbols_unified += 1
         elif symbol.in_proposal:
           number_symbols_new += 1
+        number_symbols_in_chart += 1
+        e_id = "e-" + symbol.id
+        writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
+                     (e_id, row_style, e_id, e_id))
         writer.write("<td>%s</td>" % _RepresentationHTML(symbol))
         writer.write("<td>%s</td>" % _NameAnnotationHTML(symbol))
         for carrier in emoji4unicode.carriers:
           code = symbol.GetCarrierUnicode(carrier)
           if code:
             if code.startswith(">"):
+              if _no_fallbacks:
+                writer.write("<td class='no_mapping'>-</td>")
+                continue
               template = "<td class='fallback'>%s</td>"
               code = code[1:]
             else:
@@ -145,6 +154,8 @@ def _WriteEmoji4UnicodeHTML(writer):
                 carrier,
                 emoji4unicode.all_carrier_data[carrier],
                 code)
+          elif _no_fallbacks:
+            cell = "<td class='no_mapping'>-</td>"
           else:
             text_fallback = symbol.GetTextFallback()
             if not text_fallback: text_fallback = u"\u3013"  # geta mark
@@ -154,9 +165,13 @@ def _WriteEmoji4UnicodeHTML(writer):
   writer.write("</table>\n")
   writer.write("<p class='report'>Number of symbols in this chart: %d</p>\n" %
                number_symbols_in_chart)
-  writer.write("<p class='report'>Number of symbols unified with existing "
-               "Unicode characters: %d</p>\n" %
-               number_symbols_unified)
+  if _no_unified:
+    writer.write("<p class='report'>Number of symbols unified with existing "
+                 "Unicode characters: None shown in this chart.</p>\n")
+  else:
+    writer.write("<p class='report'>Number of symbols unified with existing "
+                 "Unicode characters: %d</p>\n" %
+                 number_symbols_unified)
   writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
                number_symbols_new)
   writer.write(_FOOTER)
@@ -219,20 +234,21 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
     symbol = one_carrier_data.SymbolFromUnicode(code)
     img_html = emoji4unicode.CarrierImageHTML(carrier, symbol)
     if img_html: img_string += "+%s" % img_html
-    if symbol.number:
-      if carrier == "docomo" and symbol.number >= 300:
-        # DoCoMo shows symbol numbers 1..176 for "Basic Pictograms" and
-        # symbol numbers "Exp.1".."Exp.76" in the English publication of
-        # "Expansion Pictograms".
-        # Our data uses an offset of 300 for the integer numbers of
-        # Expansion Pictograms.
-        number_string += "+#Exp." + str(symbol.number - 300)
-      else:
-        number_string += "+#" + str(symbol.number)
-    if symbol.old_number:
-      old_number_string += "+#old" + str(symbol.old_number)
-    if symbol.new_number:
-      new_number_string += "+#new" + str(symbol.new_number)
+    if not _no_symbol_numbers:
+      if symbol.number:
+        if carrier == "docomo" and symbol.number >= 300:
+          # DoCoMo shows symbol numbers 1..176 for "Basic Pictograms" and
+          # symbol numbers "Exp.1".."Exp.76" in the English publication of
+          # "Expansion Pictograms".
+          # Our data uses an offset of 300 for the integer numbers of
+          # Expansion Pictograms.
+          number_string += "+#Exp." + str(symbol.number - 300)
+        else:
+          number_string += "+#" + str(symbol.number)
+      if symbol.old_number:
+        old_number_string += "+#old" + str(symbol.old_number)
+      if symbol.new_number:
+        new_number_string += "+#new" + str(symbol.new_number)
     name_en = symbol.GetEnglishName()
     if name_en: english_string += "+'%s'" % name_en
     name_ja = symbol.GetJapaneseName()
@@ -274,10 +290,17 @@ def _WriteSingleCelledRow(writer, style, contents):
 
 
 def main():
-  global _only_in_proposal, _no_codes
+  global _only_in_proposal, _no_unified, _no_fallbacks
+  global _no_codes, _no_symbol_numbers
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
     if sys.argv[i] == "--no_codes": _no_codes = True
+    if sys.argv[i] == "--design":
+      _only_in_proposal = True
+      _no_unified = True
+      _no_fallbacks = True
+      _no_codes = True
+      _no_symbol_numbers = True
   emoji4unicode.Load()
   _WriteEmoji4UnicodeHTML(codecs.getwriter("UTF-8")(sys.stdout))
 
