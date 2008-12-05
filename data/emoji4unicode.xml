@@ -1116,6 +1116,31 @@ comic book conversation bubble
 <e google="FE533" id="533" img_from="kddi" kddi="E592" name="OUTBOX TRAY" text_fallback="[送信BOX]"/>
 <e google="FE534" id="534" img_from="kddi" kddi="E593" name="INBOX TRAY" text_fallback="[受信BOX]"/>
 <e docomo="&gt;E685" google="FE535" id="535" img_from="kddi" kddi="E51F" name="PACKAGE" softbank="&gt;E112"/>
+<e google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]">
+<desc>
+Letters (ABCD, uppercase)
+</desc>
+</e>
+<e google="FEB7D" id="B7D" img_from="kddi" kddi="EAFE" name="LATIN SMALL LETTERS SYMBOL" text_fallback="[abcd]">
+<desc>
+Letters (abcd, lowercase)
+</desc>
+</e>
+<e google="FEB7E" id="B7E" img_from="kddi" kddi="EAFF" name="NUMBERS SYMBOL" text_fallback="[1234]">
+<desc>
+Numbers (1234)
+</desc>
+</e>
+<e google="FEB7F" id="B7F" img_from="kddi" kddi="EB00" name="SYMBOLS SIGN" text_fallback="[記号]">
+<desc>
+Symbols (〒, ♪, @, %)
+</desc>
+</e>
+<e google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="ENGLISH LANGUAGE SYMBOL" text_fallback="[ABC]">
+<desc>
+English (ABC)
+</desc>
+</e>
 </subcategory>
 <subcategory name="Office">
 <e docomo="E6AE" google="FE536" id="536" kddi="EB03" name="BLACK NIB" text_fallback="[ペン]" unicode="2712">
@@ -2367,31 +2392,6 @@ Triangle (pointing down). disunified from U+25BC due to source separation rule (
 <e google="FEB7B" id="B7B" img_from="kddi" kddi="E4F2" name="HUNDRED POINTS SYMBOL" text_fallback="[100点]">
 <desc>
 100 (perfect score), e.g. school exam
-</desc>
-</e>
-<e google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]">
-<desc>
-Letters (ABCD, uppercase)
-</desc>
-</e>
-<e google="FEB7D" id="B7D" img_from="kddi" kddi="EAFE" name="LATIN SMALL LETTERS SYMBOL" text_fallback="[abcd]">
-<desc>
-Letters (abcd, lowercase)
-</desc>
-</e>
-<e google="FEB7E" id="B7E" img_from="kddi" kddi="EAFF" name="NUMBERS SYMBOL" text_fallback="[1234]">
-<desc>
-Numbers (1234)
-</desc>
-</e>
-<e google="FEB7F" id="B7F" img_from="kddi" kddi="EB00" name="SYMBOLS SIGN" text_fallback="[記号]">
-<desc>
-Symbols (〒, ♪, @, %)
-</desc>
-</e>
-<e google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="ENGLISH LANGUAGE SYMBOL" text_fallback="[ABC]">
-<desc>
-English (ABC)
 </desc>
 </e>
 </subcategory>
