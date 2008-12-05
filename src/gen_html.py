@@ -199,6 +199,8 @@ def _NameAnnotationHTML(e4u_symbol):
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
   if desc: lines.append(u"\u2022 " + cgi.escape(desc))
+  design = e4u_symbol.GetDesign()
+  if design: lines.append(u"Design: " + cgi.escape(design))
   return "<br>".join(lines)
 
 

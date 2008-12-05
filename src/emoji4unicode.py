@@ -198,6 +198,14 @@ class Symbol(object):
       return desc[0].firstChild.nodeValue.strip()
     return ""
 
+  def GetDesign(self):
+    """Get the font design instructions text (may be empty)."""
+    design = self.__element.getElementsByTagName("design")
+    if design:
+      # We expect at most a single <design> element with a text node.
+      return design[0].firstChild.nodeValue.strip()
+    return ""
+
   def GetUnicode(self):
     """Get the Unicode code point or sequence with which this symbol is unified.
 
