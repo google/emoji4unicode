@@ -16,6 +16,11 @@
 # Author: Markus Scherer
 
 mkdir -p ../generated
+# The full chart with all information.
 ./gen_html.py > ../generated/full.html
+# All information, but only with the symbols that are in the proposal.
 ./gen_html.py --only_in_proposal > ../generated/utc.html
+# All symbols, but shorter format. Omits carrier character codes.
 ./gen_html.py --no_codes > ../generated/short.html
+# Special chart for the font and glyph design.
+./gen_html.py --design > ../generated/design.html
