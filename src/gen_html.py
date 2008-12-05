@@ -279,8 +279,7 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
       if line: result_pieces.append(line[1:])  # Remove leading separator.
   if not result_pieces:
     # Show *something* despite _no_codes.
-    for code in codes: uni_string += "+U+" + code
-    return uni_string[1:]
+    return u"-"
   return "<br>".join(result_pieces)
 
 

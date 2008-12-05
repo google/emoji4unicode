@@ -167,6 +167,14 @@ class Symbol(object):
                               from_carrier_data.SymbolFromUnicode(carrier_uni))
     return ""
 
+  def ImageFromWhichCarrier(self):
+    """Get the carrier name for the symbol's representative image HTML.
+
+    Returns:
+      "docomo", "kddi", "softbank", "google" or an empty string.
+    """
+    return self.__element.getAttribute("img_from")
+
   def GetTextRepresentation(self):
     """Get this symbol's text representation.
 
