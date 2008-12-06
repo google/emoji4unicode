@@ -1773,7 +1773,7 @@ disunified from U+2193 due to source separation rule (Shift_JIS).
 disunified from U+2192 due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e google="FEAFB" id="AFB" kimg_from="kddi" kddi="E553" name="LEFTWARDS BLACK ARROW" softbank="E235" text_fallback="[←]">
+<e google="FEAFB" id="AFB" img_from="kddi" kddi="E553" name="LEFTWARDS BLACK ARROW" softbank="E235" text_fallback="[←]">
 <desc>
 disunified from U+2190 due to source separation rule (Shift_JIS).
 </desc>
