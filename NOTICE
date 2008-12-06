@@ -2,3 +2,5 @@ Attribution notices:
 
 * Unicode is a trademark of Unicode, Inc.
 For data/unicode/* files see the COPYING_UNICODE license file.
+
+For data/icu/* files see the COPYING_ICU license file.
