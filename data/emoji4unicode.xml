@@ -1758,10 +1758,26 @@ tentatively disunified from &#x21B7; U+21B7. From the left curving downward (&qu
 </e>
 <e docomo="E73C" google="FEAF6" id="AF6" kddi="EB7A" name="LEFT RIGHT ARROW" text_fallback="⇔" unicode="2194"/>
 <e docomo="E73D" google="FEAF7" id="AF7" kddi="EB7B" name="UP DOWN ARROW" text_fallback="↑↓" unicode="2195"/>
-<e google="FEAF8" id="AF8" kddi="E53F" name="UPWARDS ARROW" softbank="E232" text_fallback="[↑]" unicode="2191"/>
-<e google="FEAF9" id="AF9" kddi="E540" name="DOWNWARDS ARROW" softbank="E233" text_fallback="[↓]" unicode="2193"/>
-<e google="FEAFA" id="AFA" kddi="E552" name="RIGHTWARDS ARROW" softbank="E234" text_fallback="[→]" unicode="2192"/>
-<e google="FEAFB" id="AFB" kddi="E553" name="LEFTWARDS ARROW" softbank="E235" text_fallback="[←]" unicode="2190"/>
+<e google="FEAF8" id="AF8" img_from="kddi" kddi="E53F" name="UPWARDS BLACK ARROW" softbank="E232" text_fallback="[↑]">
+<desc>
+disunified from U+2191 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEAF9" id="AF9" img_from="kddi" kddi="E540" name="DOWNWARDS BLACK ARROW" softbank="E233" text_fallback="[↓]">
+<desc>
+disunified from U+2193 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEAFA" id="AFA" img_from="kddi" kddi="E552" name="RIGHTWARDS BLACK ARROW" softbank="E234" text_fallback="[→]">
+<desc>
+disunified from U+2192 due to source separation rule (Shift_JIS).
+</desc>
+</e>
+<e google="FEAFB" id="AFB" kimg_from="kddi" kddi="E553" name="LEFTWARDS BLACK ARROW" softbank="E235" text_fallback="[←]">
+<desc>
+disunified from U+2190 due to source separation rule (Shift_JIS).
+</desc>
+</e>
 <e google="FEAFC" id="AFC" kddi="E52E" name="BLACK RIGHT-POINTING TRIANGLE" softbank="E23A" text_fallback="[&gt;]" unicode="25B6">
 <desc>
 Play
