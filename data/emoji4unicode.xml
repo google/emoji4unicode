@@ -90,7 +90,9 @@ Sometimes animated as by KDDI/AU
 <e docomo="&gt;E6BA" google="FE024" id="024" img_from="softbank" kddi="&gt;E594" name="7 OCLOCK" softbank="E02A"/>
 <e docomo="&gt;E6BA" google="FE025" id="025" img_from="softbank" kddi="&gt;E594" name="8 OCLOCK" softbank="E02B"/>
 <e docomo="&gt;E6BA" google="FE026" id="026" img_from="softbank" kddi="&gt;E594" name="9 OCLOCK" softbank="E02C"/>
-<e docomo="&gt;E6BA" google="FE027" id="027" img_from="softbank" kddi="&gt;E594" name="10 OCLOCK" softbank="E02D"/>
+<e docomo="&gt;E6BA" google="FE027" id="027" img_from="softbank" kddi="&gt;E594" name="10 OCLOCK" softbank="E02D">
+<design>For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.</design>
+</e>
 <e docomo="&gt;E6BA" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="11 OCLOCK" softbank="E02E"/>
 <e docomo="&gt;E6BA" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="12 OCLOCK" softbank="E02F"/>
 <e docomo="E6BA" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="CLOCK SYMBOL" softbank="&gt;E02D">
