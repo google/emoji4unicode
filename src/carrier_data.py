@@ -23,7 +23,13 @@ import xml.dom.minidom
 import row_cell
 
 class CarrierData(object):
-  """One carrier's Emoji symbols data."""
+  """One carrier's Emoji symbols data.
+
+  Attributes:
+    all_uni: All Unicode code points, for all of this carrier's symbols.
+  """
+  all_uni = frozenset()
+
   # Each _ranges attribute is a list of range tuples for mapping between
   # linear ranges of Unicode code points and corresponding linear, same-length
   # ranges of target values.
@@ -37,6 +43,14 @@ class CarrierData(object):
   # Map from Unicode code point hex-digit strings to <e> DOM element nodes
   # with symbol data.
   _uni_to_elements = {}
+
+  def _AllUnicodesFromRanges(self, ranges):
+    """Build the all_uni set from a list of range tuples."""
+    all_uni = set()
+    for one_range in ranges:
+      for uni in range(one_range[0], one_range[1] + 1):
+        all_uni.add("%04X" % uni)
+    self.all_uni = frozenset(all_uni)
 
   def _CheckRanges(self):
     """Verify that in each range tuple the source and target ranges
@@ -275,6 +289,7 @@ class _DocomoData(CarrierData):
     filename = os.path.join(os.path.dirname(__file__),
                             "..", "data", "docomo", "carrier_data.xml")
     self._CheckRanges()
+    self._AllUnicodesFromRanges(self._uni_to_shift_jis_ranges)
     self._ReadXML(filename)
 
   def _ImageHTML(self, uni, number):
@@ -312,6 +327,7 @@ class _KddiData(CarrierData):
     filename = os.path.join(os.path.dirname(__file__),
                             "..", "data", "kddi", "carrier_data.xml")
     self._CheckRanges()
+    self._AllUnicodesFromRanges(self._uni_to_shift_jis_ranges)
     self._ReadXML(filename)
 
   def _ImageHTML(self, uni, number):
@@ -358,6 +374,7 @@ class _SoftbankData(CarrierData):
     filename = os.path.join(os.path.dirname(__file__),
                             "..", "data", "softbank", "carrier_data.xml")
     self._CheckRanges()
+    self._AllUnicodesFromRanges(self._uni_to_shift_jis_ranges)
     self._ReadXML(filename)
 
   def _ImageHTML(self, uni, number):
