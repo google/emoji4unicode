@@ -32,6 +32,15 @@ class DocomoDataTest(unittest.TestCase):
     self.assertEqual(symbol_e640.GetEnglishName(), "Rain")
     self.assertEqual(symbol_e640.GetJapaneseName(), u"\u96e8")
 
+  def testAllUni(self):
+    all_uni = self.__data.all_uni
+    self.assertEqual(len(all_uni), 282)
+    self.failIf("E63D" in all_uni)
+    self.assert_("E63E" in all_uni)
+    self.assert_("E6FE" in all_uni)
+    self.assert_("E757" in all_uni)
+    self.failIf("E758" in all_uni)
+
 
 class KddiDataTest(unittest.TestCase):
   def setUp(self):
@@ -60,6 +69,14 @@ class KddiDataTest(unittest.TestCase):
                      "<img src=http://www001.upp.so-net.ne.jp/hdml/emoji/e/"
                      "53.gif>")
 
+  def testAllUni(self):
+    all_uni = self.__data.all_uni
+    self.assertEqual(len(all_uni), 647)
+    self.assert_("E468" in all_uni)
+    self.failIf("EA7F" in all_uni)
+    self.assert_("EA88" in all_uni)
+    self.assert_("EB8E" in all_uni)
+
 
 class SoftbankDataTest(unittest.TestCase):
   def setUp(self):
@@ -80,6 +97,15 @@ class SoftbankDataTest(unittest.TestCase):
     self.assertEqual(symbol_e11c.number, 299)
     self.assertEqual(symbol_e11c.old_number, 118)
     self.assertEqual(symbol_e11c.new_number, None)
+
+  def testAllUni(self):
+    all_uni = self.__data.all_uni
+    self.assertEqual(len(all_uni), 485)
+    self.assert_("E001" in all_uni)
+    self.assert_("E15A" in all_uni)
+    self.failIf("E15B" in all_uni)
+    self.assert_("E53E" in all_uni)
+
 
 class GoogleDataTest(unittest.TestCase):
   def setUp(self):
