@@ -741,7 +741,7 @@ Japanese izakaya restaurant for drinking, characteristic red lantern
 <subcategory name="Landmarks / Famous Places">
 <e docomo="E740" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" softbank="E03B"/>
 <e google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" softbank="E509" text_fallback="[東京タワー]"/>
-<e google="FE4C5" id="4C5" img_from="softbank" name="BOUTIQUE 109" softbank="E50A">
+<e google="FE4C5" id="4C5" img_from="softbank" in_proposal="no" name="SHIBUYA" softbank="E50A">
 <desc>
 department store by Tokyu Group for young girls/women
 </desc>
