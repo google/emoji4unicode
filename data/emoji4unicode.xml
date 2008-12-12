@@ -1962,10 +1962,12 @@ woman's restroom symbol
 used as a sign for a baby; Crawling Baby
 </desc>
 </e>
-<e docomo="&gt;E6A0" google="FEB44" id="B44" img_from="kddi" kddi="EAAD" name="BLACK CIRCLE MARK" softbank="E332">
+<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="26E2">
 <desc>
-good; OK, approved; O in tic tac toe
+good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation
 </desc>
+<ann>x (white circle - 25CB)</ann>
+<ann>x (heavy circle - 26E6)</ann>
 </e>
 <e google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
 <desc>
