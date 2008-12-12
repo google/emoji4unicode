@@ -2118,7 +2118,7 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>x (circled ideograph have - 3292)</ann>
 <ann># &lt;square&gt; 6709</ann>
 </e>
-<e google="FEB3A" id="B3A" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]">
+<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="1F22A">
 <desc>
 無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free
 </desc>
@@ -2155,7 +2155,7 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>x (circled katakana sa - 32DA)</ann>
 <ann># &lt;square&gt; 30B5</ann>
 </e>
-<e google="FEB40" id="B40" img_from="softbank" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]">
+<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="1F224">
 <desc>
 指: IDEOGRAPH POINTING; reserved, designated 指定
 </desc>
