@@ -2329,12 +2329,12 @@ Animated pulsating star in orange color
 Animated glowing star in blue color
 </desc>
 </e>
-<e google="FEB6B" id="B6B" img_from="kddi" kddi="E548" name="WHITE SQUARE BUTTON" softbank="&gt;E21B" text_fallback="■">
+<e google="FEB6B" id="B6B" kddi="E548" name="WHITE LARGE SQUARE" softbank="&gt;E21B" text_fallback="■" unicode="2B1C">
 <desc>
 Extra large square (orange). disunified from U+25A1 due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e google="FEB6C" id="B6C" img_from="kddi" kddi="E549" name="BLACK SQUARE BUTTON" softbank="&gt;E21A" text_fallback="■">
+<e google="FEB6C" id="B6C" kddi="E549" name="BLACK LARGE SQUARE" softbank="&gt;E21A" text_fallback="■" unicode="2B1B">
 <desc>
 Extra large square (green). disunified from U+25A0 due to source separation rule (Shift_JIS).
 </desc>
