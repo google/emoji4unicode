@@ -1058,11 +1058,7 @@ Tanabata tree with wishing papers (七夕笹飾り)
 </subcategory>
 <subcategory name="Communication">
 <e docomo="E65A" google="FE522" id="522" img_from="docomo" kddi="E59B" name="PAGER" text_fallback="[ポケベル]"/>
-<e docomo="E687" google="FE523" id="523" img_from="docomo" kddi="E596" name="TELEPHONE" softbank="E009">
-<desc>
-May unify with &#x260E; U+260E BLACK TELEPHONE (= ARIB-9391)
-</desc>
-</e>
+<e docomo="E687" google="FE523" id="523" kddi="E596" name="BLACK TELEPHONE" softbank="E009" unicode="260E"/>
 <e docomo="&gt;E687" google="FE524" id="524" img_from="kddi" kddi="E51E" name="TELEPHONE 2" softbank="&gt;E009"/>
 <e docomo="E688" google="FE525" id="525" img_from="docomo" kddi="E588" name="MOBILE PHONE" softbank="E00A"/>
 <e docomo="E6CE" google="FE526" id="526" img_from="docomo" kddi="EB08" name="PHONE WITH ARROW" softbank="E104">
