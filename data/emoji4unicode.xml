@@ -464,12 +464,12 @@ with tears of joy
 smiling face
 </desc>
 </e>
-<e docomo="&gt;E6F0" google="FE336" id="336" img_from="kddi" kddi="E4FB" name="HAPPY FACE WITH WIDE MOUTH" softbank="&gt;E056">
+<e docomo="&gt;E6F0" google="FE336" id="336" kddi="E4FB" name="WHITE SMILING FACE" softbank="E414" unicode="263A">
 <desc>
-generic smiley. Possibly unify with U+263A WHITE SMILING FACE.
+generic smiley
 </desc>
 </e>
-<e docomo="&gt;E6F0" google="FE337" id="337" img_from="softbank" kddi="&gt;EACD" name="HAPPY FACE" softbank="E414">
+<e docomo="&gt;E6F0" google="FE337" id="337" in_proposal="no" kddi="&gt;EACD" name="HAPPY FACE" softbank="&gt;E056" text_repr="&#x263A;">
 <desc>
 Possibly unify with U+263A WHITE SMILING FACE
 </desc>
