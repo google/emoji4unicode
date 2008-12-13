@@ -84,6 +84,10 @@ body {
 <h1>Table for Working Draft Proposal for Encoding Emoji Symbols</h1>
 <p>The images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
+<p>If the proposal font is available, then the Symbol column shows the proposal
+  font glyphs for symbols that are proposed for addition to the Unicode
+  Standard. If the proposal font is not available, then unrelated glyphs from
+  other installed fonts will be visible in the Symbol column.</p>
 <p>See the <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
 <p>Each symbol row has an anchor to allow direct linking by appending
@@ -182,6 +186,13 @@ def _RepresentationHTML(e4u_symbol):
   uni = e4u_symbol.GetUnicode()
   if uni: return _UnicodeHTML(uni)
   img = e4u_symbol.ImageHTML()
+  if e4u_symbol.in_proposal:
+    glyph_id = e4u_symbol.GetGlyphRefID()
+    font_uni = e4u_symbol.GetFontUnicode()
+    font_str = utf.UTF.CodePointString(int(font_uni, 16))
+    repr = u"<span class='efont'>%s</span><sub>glyph%d</sub>" % (font_str, glyph_id)
+    if img: repr += u" \u2248" + img
+    return repr
   if img: return img
   text_repr = e4u_symbol.GetTextRepresentation()
   if text_repr: return text_repr

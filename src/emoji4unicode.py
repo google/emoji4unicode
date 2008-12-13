@@ -214,6 +214,26 @@ class Symbol(object):
       return design[0].firstChild.nodeValue.strip()
     return ""
 
+  def GetGlyphRefID(self):
+    """Get the font glyphRefID for this Emoji symbol.
+
+    Returns:
+      The font glyphRefID integer, or 0 if there is none.
+    """
+    glyphRefID = self.__element.getAttribute("glyphRefID")
+    if glyphRefID:
+      return int(glyphRefID)
+    else:
+      return 0
+
+  def GetFontUnicode(self):
+    """Get the font Unicode code point for this Emoji symbol.
+
+    Returns:
+      The font Unicode code point hex-digit string.
+    """
+    return "E" + self.id
+
   def GetUnicode(self):
     """Get the Unicode code point or sequence with which this symbol is unified.
 
