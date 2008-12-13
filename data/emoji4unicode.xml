@@ -2373,24 +2373,25 @@ Large square (orange)
 Large square (green)
 </desc>
 </e>
-<e google="FEB73" id="B73" img_from="kddi" kddi="E546" name="CHECKERED DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<e google="FEB73" id="B73" img_from="kddi" kddi="E546" name="WHITE LARGE DIAMOND" softbank="&gt;E21B" text_fallback="◆">
 <desc>
-Large diamond (orange). disunified from U+25C7 due to source separation rule (Shift_JIS).
+Large diamond (orange). disunified from &#x25C7; U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e google="FEB74" id="B74" img_from="kddi" kddi="E547" name="STRIPED DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<e google="FEB74" id="B74" img_from="kddi" kddi="E547" name="BLACK LARGE DIAMOND" softbank="&gt;E21B" text_fallback="◆">
 <desc>
-Large diamond (blue). disunified from U+25C6 due to source separation rule (Shift_JIS).
+Large diamond (blue). disunified from &#x25C6; U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).
 </desc>
 </e>
 <e google="FEB75" id="B75" img_from="kddi" kddi="E536" name="WHITE SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆">
 <desc>
-Small diamond (orange). Review colors relative to WHITE DIAMOND and BLACK DIAMOND
+Small diamond (orange).
 </desc>
+<design>Same basic shape as &#x2B29; U+2B29 BLACK SMALL DIAMOND</design>
 </e>
-<e google="FEB76" id="B76" img_from="kddi" kddi="E537" name="CHECKERED SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<e google="FEB76" id="B76" kddi="E537" name="BLACK SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆" unicode="2B29">
 <desc>
-Small diamond (blue). Review colors relative to WHITE DIAMOND and BLACK DIAMOND
+Small diamond (blue).
 </desc>
 </e>
 <e docomo="&gt;E6FA" google="FEB77" id="B77" kddi="E46C" name="SPARKLE" softbank="&gt;E32E" unicode="2747">
