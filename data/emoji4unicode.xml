@@ -1443,7 +1443,7 @@ used to indicate an event
 video game controller
 </desc>
 </e>
-<e google="FE80B" id="80B" img_from="kddi" kddi="E5D1" name="MAHJONG" softbank="E12D" text_fallback="[麻雀]"/>
+<e google="FE80B" id="80B" kddi="E5D1" name="MAHJONG TILE RED DRAGON" softbank="E12D" text_fallback="[麻雀]" unicode="1F004"/>
 <e google="FE80C" id="80C" img_from="kddi" kddi="E4C5" name="BULLS EYE" softbank="E130" text_fallback="[的中]">
 <desc>
 archery, hitting the target
