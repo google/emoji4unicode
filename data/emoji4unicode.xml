@@ -15,10 +15,13 @@ clear weather for Japanese mobile carriers, usually in red color
 <e docomo="E63F" google="FE001" id="001" kddi="E48D" name="CLOUD" softbank="E049" unicode="2601"/>
 <e docomo="E640" google="FE002" id="002" kddi="E48C" name="UMBRELLA WITH RAIN DROPS" softbank="E04B" unicode="2614"/>
 <e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN" softbank="E048" unicode="26C4"/>
-<e docomo="E642" google="FE004" id="004" img_from="docomo" kddi="E487" name="LIGHTNING SYMBOL" softbank="E13D">
+<e docomo="E642" google="FE004" id="004" kddi="E487" name="HIGH VOLTAGE SIGN" softbank="E13D" unicode="26A1">
 <desc>
-tentatively disunified from &#x26A1; U+26A1 HIGH VOLTAGE SIGN (= ARIB-9385) and &#x2607; U+2607 LIGHTNING
+Unified with ARIB-9385=&#x26A1; U+26A1 HIGH VOLTAGE SIGN following the pattern established by ARIB-9385
+where the proposal says "different meaning but similar glyph"; see also &#x2607; U+2607 LIGHTNING.
 </desc>
+<ann>= lightning symbol</ann>
+<ann>= thunder</ann>
 </e>
 <e docomo="E643" google="FE005" id="005" img_from="docomo" kddi="E469" name="CYCLONE" softbank="E443">
 <desc>
