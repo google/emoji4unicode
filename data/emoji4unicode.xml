@@ -77,12 +77,12 @@ soon
 </e>
 <e docomo="E6B8" google="FE019" id="019" img_from="docomo" name="ON WITH DOUBLE POINTING ARROW ABOVE" text_fallback="[ON]"/>
 <e docomo="E6B9" google="FE01A" id="01A" img_from="docomo" name="END WITH LEFT ARROW ABOVE" text_fallback="[end]"/>
-<e docomo="E71C" google="FE01B" id="01B" kddi="E47C" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B">
+<e docomo="E71C" google="FE01B" id="01B" img_from="kddi" kddi="E47C" name="HOURGLASS WITH FLOWING SAND" text_fallback="[砂時計]">
 <desc>
 Sometimes animated as by KDDI/AU
 </desc>
 </e>
-<e docomo="&gt;E71C" google="FE01C" id="01C" img_from="kddi" kddi="E57B" name="HOURGLASS 2" text_fallback="[砂時計]"/>
+<e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
 <e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
 <e docomo="&gt;E6BA" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="1 OCLOCK" softbank="E024"/>
 <e docomo="&gt;E6BA" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="2 OCLOCK" softbank="E025"/>
@@ -309,7 +309,7 @@ Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)
 <e docomo="E6A2" google="FE1B8" id="1B8" img_from="kddi" kddi="E4DB" name="CAT" softbank="E04F"/>
 <e docomo="E74E" google="FE1B9" id="1B9" img_from="kddi" kddi="EB7E" name="SNAIL" text_fallback="[カタツムリ]"/>
 <e docomo="E74F" google="FE1BA" id="1BA" img_from="kddi" kddi="E4E0" name="BABY CHICK" softbank="E523"/>
-<e docomo="&gt;E74F" google="FE1BB" id="1BB" img_from="kddi" kddi="EB76" name="BABY CHICK 2" softbank="&gt;E523">
+<e docomo="&gt;E74F" google="FE1BB" id="1BB" img_from="kddi" kddi="EB76" name="FRONT-FACING BABY CHICK" softbank="&gt;E523">
 <desc>
 chick facing you
 </desc>
@@ -414,12 +414,12 @@ with eyelids pulled down for additional effect
 tastes delicious
 </desc>
 </e>
-<e docomo="&gt;E726" google="FE32C" id="32C" img_from="softbank" kddi="EACF" name="FACE WITH PUCKERED LIPS" softbank="E418">
+<e docomo="&gt;E726" google="FE32C" id="32C" img_from="softbank" kddi="EACF" name="FACE THROWING A KISS" softbank="E418">
 <desc>
 kiss
 </desc>
 </e>
-<e docomo="&gt;E726" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="FACE WITH PUCKERED LIPS 2" softbank="E417">
+<e docomo="&gt;E726" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="FACE KISSING" softbank="E417">
 <desc>
 Puckered lips 2 (more forceful kiss, eyes squinting)
 </desc>
@@ -501,12 +501,8 @@ failure, disappointment
 </e>
 <e docomo="E724" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416"/>
 <e docomo="E721" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A"/>
-<e docomo="E6F3" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="SAD FACE" softbank="E407">
-<desc>
-May unify with &#x2639; U+2639 WHITE FROWNING FACE
-</desc>
-</e>
-<e docomo="E720" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="SAD FACE 2" softbank="E403"/>
+<e docomo="E6F3" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="CONFOUNDED FACE" softbank="E407"/>
+<e docomo="E720" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="PENSIVE FACE" softbank="E403"/>
 <e docomo="E757" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="SHOCKED FACE WITH SCREAM" softbank="E107">
 <desc>
 Shocking (like Edvard Munch's &quot;The Scream&quot;)
@@ -518,16 +514,12 @@ Shocking (like Edvard Munch's &quot;The Scream&quot;)
 half smile in some cases
 </desc>
 </e>
-<e docomo="E723" google="FE344" id="344" img_from="kddi" kddi="E5C6" name="TEARY FACE" softbank="E108">
+<e docomo="E723" google="FE344" id="344" img_from="kddi" kddi="E5C6" name="FACE WITH COLD SWEAT" softbank="E108">
 <desc>
 with troubled look
 </desc>
 </e>
-<e docomo="&gt;E723" google="FE345" id="345" img_from="softbank" kddi="&gt;E5C6" name="TEARY FACE 2" softbank="E401">
-<desc>
-with very troubled look
-</desc>
-</e>
+<e docomo="&gt;E723" google="FE345" id="345" img_from="softbank" kddi="&gt;E5C6" name="DISAPPOINTED BUT RELIEVED FACE" softbank="E401"/>
 <e docomo="&gt;E72B" google="FE346" id="346" img_from="kddi" kddi="E474" name="TIRED FACE" softbank="&gt;E406">
 <desc>
 Enduring (exhausted) face
@@ -1059,7 +1051,7 @@ Tanabata tree with wishing papers (七夕笹飾り)
 <subcategory name="Communication">
 <e docomo="E65A" google="FE522" id="522" img_from="docomo" kddi="E59B" name="PAGER" text_fallback="[ポケベル]"/>
 <e docomo="E687" google="FE523" id="523" kddi="E596" name="BLACK TELEPHONE" softbank="E009" unicode="260E"/>
-<e docomo="&gt;E687" google="FE524" id="524" img_from="kddi" kddi="E51E" name="TELEPHONE 2" softbank="&gt;E009"/>
+<e docomo="&gt;E687" google="FE524" id="524" img_from="kddi" kddi="E51E" name="TELEPHONE RECEIVER" softbank="&gt;E009"/>
 <e docomo="E688" google="FE525" id="525" img_from="docomo" kddi="E588" name="MOBILE PHONE" softbank="E00A"/>
 <e docomo="E6CE" google="FE526" id="526" img_from="docomo" kddi="EB08" name="PHONE WITH ARROW" softbank="E104">
 <desc>
@@ -1073,7 +1065,7 @@ making a phone call
 mail
 </desc>
 </e>
-<e docomo="&gt;E6CF" google="FE52A" id="52A" img_from="kddi" kddi="E591" name="ENVELOPE 2" softbank="&gt;E103">
+<e docomo="&gt;E6CF" google="FE52A" id="52A" img_from="kddi" kddi="E591" name="INCOMING ENVELOPE" softbank="&gt;E103">
 <desc>
 Mail (with cartoon movement marks)
 </desc>
@@ -1088,7 +1080,7 @@ sending mail
 a letter box, mail reception
 </desc>
 </e>
-<e docomo="&gt;E665" google="FE52D" id="52D" img_from="kddi" kddi="EB0A" name="MAILBOX 2" softbank="&gt;E101"/>
+<e docomo="&gt;E665" google="FE52D" id="52D" img_from="kddi" kddi="EB0A" name="MAILBOX WITH RAISED FLAG" softbank="&gt;E101"/>
 <e docomo="&gt;E665" google="FE52E" id="52E" img_from="softbank" kddi="&gt;E51B" name="POSTBOX" softbank="E102">
 <desc>
 mailbox for sending mail
@@ -1158,29 +1150,29 @@ Note: pencil directions are varied among Japanese carriers, could be solid or wh
 </e>
 <e docomo="E730" google="FE53A" id="53A" img_from="docomo" kddi="E4A0" name="PAPERCLIP" text_fallback="[クリップ]"/>
 <e docomo="&gt;E682" google="FE53B" id="53B" img_from="kddi" kddi="E5CE" name="BRIEFCASE" softbank="E11E"/>
-<e google="FE53C" id="53C" img_from="kddi" kddi="E582" name="FLOPPY DISK" softbank="E316" text_fallback="[フロッピー]">
+<e google="FE53C" id="53C" img_from="kddi" kddi="E582" name="MINI DISC" softbank="E316" text_fallback="[フロッピー]">
 <desc>
-also MD mini disc
+MD mini disc
 </desc>
 </e>
-<e google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK 2" softbank="&gt;E316" text_fallback="[フロッピー]"/>
+<e google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK" softbank="&gt;E316" text_fallback="[フロッピー]"/>
 <e docomo="E675" google="FE53E" id="53E" kddi="E516" name="BLACK SCISSORS" softbank="E313" unicode="2702"/>
 <e google="FE53F" id="53F" img_from="kddi" kddi="E560" name="PUSHPIN" text_fallback="φ"/>
-<e docomo="&gt;E689" google="FE540" id="540" img_from="kddi" kddi="E561" name="DOCUMENT" softbank="&gt;E301"/>
-<e docomo="&gt;E689" google="FE541" id="541" img_from="kddi" kddi="E569" name="DOCUMENT 2" softbank="&gt;E301"/>
+<e docomo="&gt;E689" google="FE540" id="540" img_from="kddi" kddi="E561" name="PAGE WITH CURL" softbank="&gt;E301"/>
+<e docomo="&gt;E689" google="FE541" id="541" img_from="kddi" kddi="E569" name="PAGE FACING UP" softbank="&gt;E301"/>
 <e google="FE542" id="542" img_from="kddi" kddi="E563" name="CALENDAR" text_fallback="[カレンダー]"/>
 <e google="FE543" id="543" img_from="kddi" kddi="E58F" name="FILE FOLDER" text_fallback="[フォルダ]">
 <desc>
 closed folder
 </desc>
 </e>
-<e google="FE544" id="544" img_from="kddi" kddi="E590" name="FILE FOLDER 2" text_fallback="[フォルダ]">
+<e google="FE544" id="544" img_from="kddi" kddi="E590" name="OPEN FILE FOLDER" text_fallback="[フォルダ]">
 <desc>
 open folder
 </desc>
 </e>
 <e docomo="&gt;E683" google="FE545" id="545" img_from="kddi" kddi="E56B" name="NOTEBOOK" softbank="&gt;E148"/>
-<e docomo="E683" google="FE546" id="546" img_from="kddi" kddi="E49F" name="NOTEBOOK 2" softbank="E148">
+<e docomo="E683" google="FE546" id="546" img_from="kddi" kddi="E49F" name="OPEN BOOK" softbank="E148">
 <desc>
 open book, open notebook
 </desc>
@@ -1188,21 +1180,13 @@ open book, open notebook
 <e docomo="&gt;E683" google="FE547" id="547" img_from="kddi" kddi="E49D" name="NOTEBOOK 3" softbank="&gt;E148"/>
 <e docomo="&gt;E689" google="FE548" id="548" img_from="kddi" kddi="E564" name="CLIPBOARD" softbank="&gt;E301"/>
 <e google="FE549" id="549" img_from="kddi" kddi="E56A" name="TEAR OFF CALENDAR" text_fallback="[カレンダー]"/>
-<e google="FE54A" id="54A" img_from="kddi" kddi="E574" name="CHART" softbank="&gt;E14A" text_fallback="[グラフ]">
+<e google="FE54A" id="54A" img_from="kddi" kddi="E574" name="BAR CHART" softbank="&gt;E14A" text_fallback="[グラフ]">
 <desc>
 bar graph
 </desc>
 </e>
-<e google="FE54B" id="54B" img_from="kddi" kddi="E575" name="LINE GRAPH CHART 1" softbank="&gt;E14A" text_fallback="[グラフ]">
-<desc>
-ascending chart
-</desc>
-</e>
-<e google="FE54C" id="54C" img_from="kddi" kddi="E576" name="LINE GRAPH CHART 2" text_fallback="[グラフ]">
-<desc>
-descending chart
-</desc>
-</e>
+<e google="FE54B" id="54B" img_from="kddi" kddi="E575" name="CHART WITH UPWARDS TREND" softbank="&gt;E14A" text_fallback="[グラフ]"/>
+<e google="FE54C" id="54C" img_from="kddi" kddi="E576" name="CHART WITH DOWNWARDS TREND" text_fallback="[グラフ]"/>
 <e docomo="&gt;E683" google="FE54D" id="54D" img_from="kddi" kddi="E56C" name="ROLODEX" softbank="&gt;E148"/>
 <e google="FE54E" id="54E" img_from="kddi" kddi="E56D" name="THUMBTACK" text_fallback="[画びょう]"/>
 <e docomo="&gt;E683" google="FE54F" id="54F" img_from="kddi" kddi="E56E" name="LEDGER" softbank="&gt;E148">
@@ -1210,16 +1194,8 @@ descending chart
 real estate original record book, financial books,
 </desc>
 </e>
-<e google="FE550" id="550" img_from="kddi" kddi="E570" name="RULER 1" text_fallback="[定規]">
-<desc>
-straight line ruler
-</desc>
-</e>
-<e google="FE551" id="551" img_from="kddi" kddi="E4A2" name="RULER 2" text_fallback="[三角定規]">
-<desc>
-triangular ruler
-</desc>
-</e>
+<e google="FE550" id="550" img_from="kddi" kddi="E570" name="STRAIGHT RULER" text_fallback="[定規]"/>
+<e google="FE551" id="551" img_from="kddi" kddi="E4A2" name="TRIANGULAR RULER" text_fallback="[三角定規]"/>
 <e docomo="&gt;E689" google="FE552" id="552" img_from="kddi" kddi="EB0B" name="BOOKMARK TABS" softbank="&gt;E301"/>
 </subcategory>
 <subcategory name="Relic">
@@ -1308,10 +1284,10 @@ swimming
 tentatively disunified from SUBWAY SYMBOLS FROM KDDI and Softbank
 </desc>
 </e>
-<e docomo="E65D" google="FE7E2" id="7E2" img_from="docomo" kddi="&gt;E4B0" name="BULLET TRAIN" softbank="E435"/>
-<e docomo="&gt;E65D" google="FE7E3" id="7E3" img_from="softbank" kddi="E4B0" name="BULLET TRAIN 2" softbank="E01F">
+<e docomo="E65D" google="FE7E2" id="7E2" img_from="docomo" kddi="&gt;E4B0" name="HIGH-SPEED TRAIN" softbank="E435"/>
+<e docomo="&gt;E65D" google="FE7E3" id="7E3" img_from="softbank" kddi="E4B0" name="HIGH-SPEED TRAIN WITH BULLET NOSE" softbank="E01F">
 <desc>
-front facing for SoftBank, used in different phone sets
+front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: &quot;The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008.&quot;
 </desc>
 </e>
 <e docomo="E65E" google="FE7E4" id="7E4" img_from="docomo" kddi="E4B1" name="CAR" softbank="E01B">
@@ -1319,7 +1295,7 @@ front facing for SoftBank, used in different phone sets
 sedan
 </desc>
 </e>
-<e docomo="E65F" google="FE7E5" id="7E5" img_from="softbank" kddi="&gt;E4B1" name="CAR 2" softbank="E42E">
+<e docomo="E65F" google="FE7E5" id="7E5" img_from="softbank" kddi="&gt;E4B1" name="RECREATIONAL VEHICLE" softbank="E42E">
 <desc>
 wagon
 </desc>
@@ -1376,15 +1352,11 @@ onsen
 </desc>
 </e>
 <e google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="CAMP" softbank="E122" text_fallback="[キャンプ]"/>
-<e docomo="E679" google="FE7FC" id="7FC" img_from="docomo" name="AMUSEMENT PARK">
-<desc>
-(Rocking horse)
-</desc>
+<e docomo="E679" google="FE7FC" id="7FC" img_from="docomo" name="CAROUSEL HORSE">
+<ann>* amusement park</ann>
 </e>
-<e google="FE7FD" id="7FD" img_from="kddi" kddi="E46D" name="AMUSEMENT PARK 2" softbank="E124" text_fallback="[観覧車]">
-<desc>
-Ferris wheel
-</desc>
+<e google="FE7FD" id="7FD" img_from="kddi" kddi="E46D" name="FERRIS WHEEL" softbank="E124" text_fallback="[観覧車]">
+<ann>* amusement park</ann>
 </e>
 <e google="FE7FE" id="7FE" img_from="kddi" kddi="EAE2" name="ROLLER COASTER" softbank="E433" text_fallback="[ジェットコースター]"/>
 <e docomo="&gt;E751" google="FE7FF" id="7FF" img_from="kddi" kddi="EB42" name="FISHING" softbank="&gt;E019">
@@ -1854,32 +1826,32 @@ moving exclamation mark
 </subcategory>
 <subcategory name="Hearts">
 <e docomo="E6EC" google="FEB0C" id="B0C" kddi="E595" name="HEAVY BLACK HEART" softbank="E022" unicode="2764"/>
-<e docomo="E6ED" google="FEB0D" id="B0D" img_from="kddi" kddi="EB75" name="HEART 2" softbank="E327">
+<e docomo="E6ED" google="FEB0D" id="B0D" img_from="kddi" kddi="EB75" name="BEATING HEART" softbank="E327">
 <desc>
 pulsating heart
 </desc>
 </e>
-<e docomo="E6EE" google="FEB0E" id="B0E" img_from="docomo" kddi="E477" name="HEART 3" softbank="E023">
+<e docomo="E6EE" google="FEB0E" id="B0E" img_from="docomo" kddi="E477" name="BROKEN HEART" softbank="E023">
 <desc>
 breaking or broken heart
 </desc>
 </e>
-<e docomo="E6EF" google="FEB0F" id="B0F" img_from="docomo" kddi="E478" name="HEART 4" softbank="&gt;E327">
+<e docomo="E6EF" google="FEB0F" id="B0F" img_from="docomo" kddi="E478" name="TWO HEARTS" softbank="&gt;E327">
 <desc>
 two hearts
 </desc>
 </e>
-<e docomo="&gt;E6EC" google="FEB10" id="B10" img_from="kddi" kddi="EAA6" name="HEART 5" softbank="&gt;E327">
+<e docomo="&gt;E6EC" google="FEB10" id="B10" img_from="kddi" kddi="EAA6" name="SPARKLING HEART" softbank="&gt;E327">
 <desc>
 sparkling heart
 </desc>
 </e>
-<e docomo="&gt;E6ED" google="FEB11" id="B11" img_from="softbank" kddi="&gt;EB75" name="HEART 6" softbank="E328">
+<e docomo="&gt;E6ED" google="FEB11" id="B11" img_from="softbank" kddi="&gt;EB75" name="GROWING HEART" softbank="E328">
 <desc>
 heart growing bigger
 </desc>
 </e>
-<e docomo="&gt;E6EC" google="FEB12" id="B12" img_from="kddi" kddi="E4EA" name="HEART 7" softbank="E329">
+<e docomo="&gt;E6EC" google="FEB12" id="B12" img_from="kddi" kddi="E4EA" name="HEART WITH ARROW" softbank="E329">
 <desc>
 heart with an arrow through it
 </desc>
@@ -1914,7 +1886,7 @@ Valentine's (heart with ribbon, or candy with heart)
 cute
 </desc>
 </e>
-<e docomo="&gt;E6F8" google="FEB19" id="B19" img_from="softbank" kddi="&gt;E595" name="DECORATIVE DESIGN 1" softbank="E204">
+<e docomo="&gt;E6F8" google="FEB19" id="B19" img_from="softbank" kddi="&gt;E595" name="HEART DECORATION" softbank="E204">
 <desc>
 Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers
 </desc>
@@ -1956,10 +1928,12 @@ men's restroom
 woman's restroom symbol
 </desc>
 </e>
-<e google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY 2" softbank="E13A" text_fallback="[赤ちゃん]">
+<e google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY SYMBOL" softbank="E13A" text_fallback="[赤ちゃん]">
 <desc>
 used as a sign for a baby; Crawling Baby
 </desc>
+<ann>* baby on board</ann>
+<ann>* baby changing station</ann>
 </e>
 <e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="26E2">
 <desc>
@@ -1973,7 +1947,7 @@ good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRC
 bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
 </desc>
 </e>
-<e google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK 2" softbank="&gt;E333" text_fallback="[×]">
+<e google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK ON BACKGROUND" softbank="&gt;E333" text_fallback="[×]">
 <desc>
 Another X (orange background)
 </desc>
@@ -2443,28 +2417,30 @@ Clear (&quot;CL&quot; stamp)
 </desc>
 </e>
 <e docomo="E6DC" google="FEB85" id="B85" img_from="docomo" kddi="E518" name="MAGNIFYING GLASS" softbank="E114">
-<desc>
-Search
-</desc>
+<ann>* search</ann>
 </e>
-<e docomo="&gt;E6D9" google="FEB86" id="B86" img_from="softbank" kddi="E51C" name="LOCK" softbank="E144">
+<e docomo="&gt;E6DC" google="FEB8D" id="B8D" img_from="kddi" kddi="EB05" name="RIGHT-POINTING MAGNIFYING GLASS" softbank="&gt;E114">
+<ann>* get more details</ann>
+</e>
+<e docomo="&gt;E6D9" google="FEB86" id="B86" img_from="softbank" kddi="E51C" name="PADLOCK" softbank="E144">
 <desc>
 Lock (closed padlock)
 </desc>
+<ann>* padlock in locked position</ann>
 </e>
-<e docomo="&gt;E6D9" google="FEB87" id="B87" img_from="softbank" kddi="&gt;E51C" name="LOCK 2" softbank="E145">
+<e docomo="&gt;E6D9" google="FEB87" id="B87" img_from="softbank" kddi="&gt;E51C" name="OPEN PADLOCK" softbank="E145">
 <desc>
 Lock (open padlock)
-</desc>
-</e>
-<e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
-<desc>
-Enter arrow (backwards)
 </desc>
 </e>
 <e docomo="&gt;E6D9" google="FEB8A" id="B8A" img_from="kddi" kddi="EAFC" name="CLOSED LOCK WITH KEY" softbank="&gt;E144">
 <desc>
 Secure (lock with certificate)
+</desc>
+</e>
+<e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
+<desc>
+Enter arrow (backwards)
 </desc>
 </e>
 <e google="FEB8B" id="B8B" kddi="EB02" name="BALLOT BOX WITH CHECK" text_fallback="[チェックマーク]" unicode="2611">
@@ -2475,11 +2451,6 @@ Checked checkbox
 <e google="FEB8C" id="B8C" img_from="kddi" kddi="EB04" name="RADIO BUTTON" text_fallback="[ラジオボタン]">
 <desc>
 Selected radio button
-</desc>
-</e>
-<e docomo="&gt;E6DC" google="FEB8D" id="B8D" img_from="kddi" kddi="EB05" name="MAGNIFYING GLASS 2" softbank="&gt;E114">
-<desc>
-Search (magnifying glass)
 </desc>
 </e>
 <e google="FEB8E" id="B8E" img_from="kddi" kddi="EB06" name="LEFTWARDS ARROW WITH LETTER BACK" softbank="&gt;E235" text_fallback="[←BACK]">
