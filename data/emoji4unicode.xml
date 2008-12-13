@@ -2318,17 +2318,17 @@ Large circle (blue). disunified from U+25CF due to source separation rule (Shift
 <e docomo="&gt;E69C" google="FEB67" id="B67" img_from="softbank" kddi="&gt;E54B" name="WHITE ROUNDED SQUARE" softbank="E21B">
 <design>Same shapes for e-BA3 and e-B67.</design>
 </e>
-<e google="FEB68" id="B68" img_from="kddi" kddi="E48B" name="BLACK STAR MARK" softbank="E32F" text_fallback="[☆]">
+<e google="FEB68" id="B68" kddi="E48B" name="WHITE MEDIUM STAR" softbank="E32F" text_fallback="[☆]" unicode="2B50">
 <desc>
-disunified from U+2605 due to source separation rule (Shift_JIS).
+disunified from &#x2605; U+2605 BLACK STAR and &#x2606; U+2606 WHITE STAR due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="WHITE GLOWING STAR" softbank="E335" text_fallback="[☆]">
+<e google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="GLOWING STAR" softbank="E335" text_fallback="[☆]">
 <desc>
 Animated pulsating star in orange color
 </desc>
 </e>
-<e google="FEB6A" id="B6A" img_from="kddi" kddi="E468" name="BLACK GLOWING STAR" text_fallback="☆彡">
+<e google="FEB6A" id="B6A" img_from="kddi" kddi="E468" name="SHOOTING STAR" text_fallback="☆彡">
 <desc>
 Animated glowing star in blue color
 </desc>
