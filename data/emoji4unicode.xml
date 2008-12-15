@@ -14,7 +14,7 @@ clear weather for Japanese mobile carriers, usually in red color
 </e>
 <e docomo="E63F" google="FE001" id="001" kddi="E48D" name="CLOUD" softbank="E049" unicode="2601"/>
 <e docomo="E640" google="FE002" id="002" kddi="E48C" name="UMBRELLA WITH RAIN DROPS" softbank="E04B" unicode="2614"/>
-<e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN" softbank="E048" unicode="26C4"/>
+<e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN WITHOUT SNOW" softbank="E048" unicode="26C4"/>
 <e docomo="E642" google="FE004" id="004" kddi="E487" name="HIGH VOLTAGE SIGN" softbank="E13D" unicode="26A1">
 <desc>
 Unified with ARIB-9385=&#x26A1; U+26A1 HIGH VOLTAGE SIGN following the pattern established by ARIB-9385
@@ -45,7 +45,7 @@ Sunrise over horizon (Softbank sunrise 2)
 <e docomo="&gt;E63E" glyphRefID="11" google="FE00C" id="00C" img_from="softbank" kddi="&gt;E5DA" name="SUNSET OVER BUILDINGS" softbank="E44A"/>
 <e glyphRefID="12" google="FE00D" id="00D" img_from="kddi" kddi="EAF2" name="RAINBOW" softbank="E44C" text_fallback="[虹]"/>
 <e google="FE00E" id="00E" kddi="E48A" name="SNOWFLAKE" text_fallback="[雪結晶]" unicode="2744"/>
-<e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="PARTLY CLOUDY" softbank="&gt;E04A+E049" unicode="26C5"/>
+<e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="SUN BEHIND CLOUD" softbank="&gt;E04A+E049" unicode="26C5"/>
 <e docomo="&gt;E6B3" glyphRefID="13" google="FE010" id="010" img_from="kddi" kddi="E4BF" name="BRIDGE AT NIGHT" softbank="&gt;E44B"/>
 </subcategory>
 <subcategory name="Moon">
@@ -685,7 +685,7 @@ similar to English &quot;home&quot; = &quot;where one belongs to&quot;
   <ann>x (postal mark - 3012)</ann>
   <ann>* 〒 U+3012 POSTAL MARK = ARIB-9108</ann>
 </e>
-<e docomo="E666" google="FE4B4" id="4B4" img_from="docomo" kddi="E5DF" name="HOSPITAL" softbank="E155" unicode="26E8">
+<e docomo="E666" google="FE4B4" id="4B4" img_from="docomo" kddi="E5DF" name="BLACK CROSS ON SHIELD" softbank="E155" unicode="26E8">
 <desc>
 (Note: may be controversial in Islamic and Jewish cultures)
 </desc>
@@ -1229,7 +1229,7 @@ racket and ball, or player
 soccer ball, or player
 </desc>
 </e>
-<e docomo="E657" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKI" softbank="E013" unicode="26F7">
+<e docomo="E657" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKIER" softbank="E013" unicode="26F7">
 <desc>
 ski and boots, or ski and poles
 </desc>
