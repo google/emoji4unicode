@@ -31,6 +31,7 @@ _no_unified = False
 _no_fallbacks = False
 _no_codes = False
 _no_symbol_numbers = False
+_show_font_chars = False
 
 _HEADER = """<html>
 <title>Table for Working Draft Proposal for Encoding Emoji Symbols</title>
@@ -188,10 +189,13 @@ def _RepresentationHTML(e4u_symbol):
   img = e4u_symbol.ImageHTML()
   if e4u_symbol.in_proposal:
     glyph_id = e4u_symbol.GetGlyphRefID()
-    font_uni = e4u_symbol.GetFontUnicode()
-    font_str = utf.UTF.CodePointString(int(font_uni, 16))
-    repr = u"<span class='efont'>%s</span><sub>glyph%d</sub>" % (font_str, glyph_id)
-    if img: repr += u" \u2248" + img
+    if _show_font_chars:
+      font_uni = e4u_symbol.GetFontUnicode()
+      font_str = utf.UTF.CodePointString(int(font_uni, 16))
+      repr = u"<span class='efont'>%s</span><sub>glyph%d</sub>" % (font_str, glyph_id)
+    else:
+      repr = u"glyph%d" % glyph_id
+    if img: repr += u"\u2248" + img
     return repr
   if img: return img
   text_repr = e4u_symbol.GetTextRepresentation()
@@ -311,6 +315,7 @@ def main():
       _no_fallbacks = True
       _no_codes = True
       _no_symbol_numbers = True
+      _show_font_chars = True
   emoji4unicode.Load()
   _WriteEmoji4UnicodeHTML(codecs.getwriter("UTF-8")(sys.stdout))
 
