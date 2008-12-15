@@ -1941,6 +1941,7 @@ used as a sign for a baby; Crawling Baby
 <desc>
 good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation
 </desc>
+<ann>* also used to mean good, correct or approved</ann>
 <ann>x (white circle - 25CB)</ann>
 <ann>x (heavy circle - 26E6)</ann>
 </e>
@@ -2136,6 +2137,7 @@ KATAKANA LETTERS KOKO; destination, here
 指: IDEOGRAPH POINTING; reserved, designated 指定
 </desc>
 <ann>= reserved sign</ann>
+<ann>"reserved" in trains, theaters, etc.</ann>
 <ann># &lt;square&gt; 6307</ann>
 </e>
 <e glyphRefID="564" google="FEB41" id="B41" img_from="kddi" kddi="EA8C" name="SQUARED CJK UNIFIED IDEOGRAPH-55B6" softbank="E22D" text_fallback="[営]">
