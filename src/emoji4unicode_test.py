@@ -17,18 +17,19 @@
 __author__ = "Markus Scherer"
 
 import os.path
+import re
 import unittest
 import emoji4unicode
 import ucm
 
-class SourceSeparationTest(unittest.TestCase):
+class Emoji4UnicodeTest(unittest.TestCase):
   def setUp(self):
     emoji4unicode.Load()
     here = os.path.dirname(__file__)
     filename = os.path.join(here, "..", "data", "icu", "windows-932-2000.ucm")
     self.__shift_jis_ucm = ucm.UCMFile(filename)
 
-  def testShiftJis(self):
+  def testShiftJisSourceSeparation(self):
     """Check for source separation with standard Shift-JIS.
 
     No Unicode unification must be with a character from the JIS X 0208 part of
@@ -80,6 +81,35 @@ class SourceSeparationTest(unittest.TestCase):
                        "Missing from emoji4unicode.xml: %s\n"
                        "Missing from CarrierData: %s" %
                        (carrier, cd_set - e4u_set, e4u_set - cd_set))
+
+  def testSymbolIDs(self):
+    """Verify that symbol IDs are unique and well-formed."""
+    id_re = re.compile(r"^[0-9A-F]{3,3}$")
+    symbol_ids = set()
+    for symbol in emoji4unicode.GetSymbols():
+      self.assert_(id_re.match(symbol.id), "Bad symbol ID %s" % symbol.id)
+      self.failIf(symbol.id in symbol_ids, "Duplicate symbol ID %s" % symbol.id)
+      symbol_ids.add(symbol.id)
+
+  def testGlyphIDs(self):
+    """Verify that glyph IDs are unique, sufficient and contiguous."""
+    glyph_ids = set()
+    for symbol in emoji4unicode.GetSymbols():
+      glyph_id = symbol.GetGlyphRefID()
+      if not glyph_id:
+        # Not every symbol has a glyph ID.
+        self.assert_(not symbol.in_proposal or symbol.GetUnicode(),
+                     "Missing glyph ID for symbol e-%s "
+                     "proposed for new encoding" % symbol.id)
+        continue
+      self.assert_(glyph_id >= 4, "Glyph ID %d less than 4" % glyph_id)
+      self.failIf(glyph_id in glyph_ids, "Duplicate glyph ID %d" % glyph_id)
+      glyph_ids.add(glyph_id)
+    min_glyph_id = min(glyph_ids)
+    max_glyph_id = max(glyph_ids)
+    full_set = set(range(min_glyph_id, max_glyph_id + 1))
+    self.assert_(glyph_ids == full_set,
+                 "Missing glyph IDs: %s" % (full_set - glyph_ids))
 
 
 if __name__ == "__main__":
