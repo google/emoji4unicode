@@ -305,7 +305,7 @@ def _WriteSingleCelledRow(writer, style, contents):
 
 def main():
   global _only_in_proposal, _no_unified, _no_fallbacks
-  global _no_codes, _no_symbol_numbers
+  global _no_codes, _no_symbol_numbers, _show_font_chars
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
     if sys.argv[i] == "--no_codes": _no_codes = True
