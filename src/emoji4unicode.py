@@ -203,7 +203,7 @@ class Symbol(object):
     desc = self.__element.getElementsByTagName("desc")
     if desc:
       # We expect at most a single <desc> element with a text node.
-      return desc[0].firstChild.nodeValue.strip()
+      return _ReduceWhitespace(desc[0].firstChild.nodeValue)
     return ""
 
   def GetDesign(self):
@@ -211,7 +211,7 @@ class Symbol(object):
     design = self.__element.getElementsByTagName("design")
     if design:
       # We expect at most a single <design> element with a text node.
-      return design[0].firstChild.nodeValue.strip()
+      return _ReduceWhitespace(design[0].firstChild.nodeValue)
     return ""
 
   def GetGlyphRefID(self):
@@ -309,6 +309,13 @@ def _InProposal(element, parent_in_proposal):
   else:
     in_proposal = parent_in_proposal
   return in_proposal
+
+
+def _ReduceWhitespace(s):
+  """Make whitespace horizontal and minimal."""
+  s = s.strip().replace("\r", " ").replace("\n", " ")
+  return s.replace("   ", " ").replace("  ", " ")
+
 
 def CarrierImageHTML(carrier, symbol):
   """Get the carrier's image HTML for the symbol.
