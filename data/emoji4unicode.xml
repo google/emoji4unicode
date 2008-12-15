@@ -2427,13 +2427,13 @@ Enter arrow (backwards)
 <e docomo="&gt;E6DC" glyphRefID="598" google="FEB8D" id="B8D" img_from="kddi" kddi="EB05" name="RIGHT-POINTING MAGNIFYING GLASS" softbank="&gt;E114">
 <ann>* get more details</ann>
 </e>
-<e docomo="&gt;E6D9" glyphRefID="599" google="FEB86" id="B86" img_from="softbank" kddi="E51C" name="PADLOCK" softbank="E144">
+<e docomo="&gt;E6D9" glyphRefID="599" google="FEB86" id="B86" img_from="softbank" kddi="E51C" name="LOCK" softbank="E144">
 <desc>
 Lock (closed padlock)
 </desc>
 <ann>* padlock in locked position</ann>
 </e>
-<e docomo="&gt;E6D9" glyphRefID="600" google="FEB87" id="B87" img_from="softbank" kddi="&gt;E51C" name="OPEN PADLOCK" softbank="E145">
+<e docomo="&gt;E6D9" glyphRefID="600" google="FEB87" id="B87" img_from="softbank" kddi="&gt;E51C" name="OPEN LOCK" softbank="E145">
 <desc>
 Lock (open padlock)
 </desc>

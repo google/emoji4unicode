@@ -628,8 +628,8 @@
   <PostScriptName glyphRefID="596" NameString="uniEB84.clear_sign" />
   <PostScriptName glyphRefID="597" NameString="uniEB85.magnifying_glass" />
   <PostScriptName glyphRefID="598" NameString="uniEB8D.right_pointing_magnifying_glass" />
-  <PostScriptName glyphRefID="599" NameString="uniEB86.padlock" />
-  <PostScriptName glyphRefID="600" NameString="uniEB87.open_padlock" />
+  <PostScriptName glyphRefID="599" NameString="uniEB86.lock" />
+  <PostScriptName glyphRefID="600" NameString="uniEB87.open_lock" />
   <PostScriptName glyphRefID="601" NameString="uniEB8A.closed_lock_with_key" />
   <PostScriptName glyphRefID="602" NameString="uniEB8C.radio_button" />
   <PostScriptName glyphRefID="603" NameString="uniEB8E.leftwards_arrow_with_letter_back" />

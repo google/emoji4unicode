@@ -592,8 +592,8 @@
 596	EB84	7	Abstract Concepts	Internet Specific	CLEAR SIGN	Clear ("CL" stamp)	
 597	EB85	7	Abstract Concepts	Internet Specific	MAGNIFYING GLASS		
 598	EB8D	7	Abstract Concepts	Internet Specific	RIGHT-POINTING MAGNIFYING GLASS		
-599	EB86	7	Abstract Concepts	Internet Specific	PADLOCK	Lock (closed padlock)	
-600	EB87	7	Abstract Concepts	Internet Specific	OPEN PADLOCK	Lock (open padlock)	
+599	EB86	7	Abstract Concepts	Internet Specific	LOCK	Lock (closed padlock)	
+600	EB87	7	Abstract Concepts	Internet Specific	OPEN LOCK	Lock (open padlock)	
 605	EB90	7	Abstract Concepts	Internet Specific	LOCK WITH INK PEN	Privacy (padlock with ink pen)	
 601	EB8A	7	Abstract Concepts	Internet Specific	CLOSED LOCK WITH KEY	Secure (lock with certificate)	
 595	EB82	7	Abstract Concepts	Internet Specific	KEY	Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.	
