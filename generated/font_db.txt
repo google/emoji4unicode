@@ -358,7 +358,7 @@
 361	E544	4	Artifacts	Office	OPEN FILE FOLDER	open folder	
 362	E545	4	Artifacts	Office	NOTEBOOK		
 363	E546	4	Artifacts	Office	OPEN BOOK	open book, open notebook	
-364	E547	4	Artifacts	Office	NOTEBOOK 3		
+364	E547	4	Artifacts	Office	NOTEBOOK WITH DECORATIVE COVER		
 365	E548	4	Artifacts	Office	CLIPBOARD		
 366	E549	4	Artifacts	Office	TEAR OFF CALENDAR		
 367	E54A	4	Artifacts	Office	BAR CHART	bar graph	

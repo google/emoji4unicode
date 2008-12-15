@@ -1177,7 +1177,7 @@ open folder
 open book, open notebook
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="364" google="FE547" id="547" img_from="kddi" kddi="E49D" name="NOTEBOOK 3" softbank="&gt;E148"/>
+<e docomo="&gt;E683" glyphRefID="364" google="FE547" id="547" img_from="kddi" kddi="E49D" name="NOTEBOOK WITH DECORATIVE COVER" softbank="&gt;E148"/>
 <e docomo="&gt;E689" glyphRefID="365" google="FE548" id="548" img_from="kddi" kddi="E564" name="CLIPBOARD" softbank="&gt;E301"/>
 <e glyphRefID="366" google="FE549" id="549" img_from="kddi" kddi="E56A" name="TEAR OFF CALENDAR" text_fallback="[カレンダー]"/>
 <e glyphRefID="367" google="FE54A" id="54A" img_from="kddi" kddi="E574" name="BAR CHART" softbank="&gt;E14A" text_fallback="[グラフ]">
