@@ -1568,6 +1568,9 @@ Unify with ASCII 9 (U+0039) + (U+20E3)
 Unify with ASCII 0 (U+0030) + (U+20E3)
 </desc>
 </e>
+<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD 10" text_fallback="[10]">
+<design>Should look like digits 10 enclosed by a keycap like &#xA0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
+</e>
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">
 <desc>
 Cellular reception (good reception)
@@ -1579,7 +1582,6 @@ manner mode (in Japan)
 </desc>
 </e>
 <e glyphRefID="466" google="FE83A" id="83A" img_from="kddi" kddi="EA91" name="PHONE OFF" softbank="E251" text_fallback="[ケータイOFF]"/>
-<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD 10" text_fallback="[10]"/>
 </subcategory>
 </category>
 <category name="6. Foods">
@@ -1966,6 +1968,7 @@ Check mark (blue)
 <desc>
 Check mark (red); not unified with &#x2713; U+2713
 </desc>
+<design>Should look like a hollow version (that is, without fill) of &#x2714; U+2714 HEAVY CHECK MARK.</design>
 </e>
 <e glyphRefID="543" google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]">
 <desc>
@@ -2401,9 +2404,9 @@ Triangle (pointing down). disunified from U+25BC due to source separation rule (
 ID (&quot;ID&quot; stamp)
 </desc>
 </e>
-<e docomo="E6D9" glyphRefID="595" google="FEB82" id="B82" img_from="docomo" kddi="E519" name="KEY" softbank="E03F">
+<e docomo="E6DB" glyphRefID="596" google="FEB84" id="B84" img_from="docomo" kddi="E5AB" name="CLEAR SIGN" text_fallback="[CL]">
 <desc>
-Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.
+Clear (&quot;CL&quot; stamp)
 </desc>
 </e>
 <e docomo="E6DA" google="FEB83" id="B83" kddi="E55D" name="LEFTWARDS ARROW WITH HOOK" text_fallback="←┘" unicode="21A9">
@@ -2411,9 +2414,9 @@ Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier
 Continue (the [enter] key arrow)
 </desc>
 </e>
-<e docomo="E6DB" glyphRefID="596" google="FEB84" id="B84" img_from="docomo" kddi="E5AB" name="CLEAR SIGN" text_fallback="[CL]">
+<e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
 <desc>
-Clear (&quot;CL&quot; stamp)
+Enter arrow (backwards)
 </desc>
 </e>
 <e docomo="E6DC" glyphRefID="597" google="FEB85" id="B85" img_from="docomo" kddi="E518" name="MAGNIFYING GLASS" softbank="E114">
@@ -2433,14 +2436,19 @@ Lock (closed padlock)
 Lock (open padlock)
 </desc>
 </e>
+<e docomo="&gt;E6D9" glyphRefID="605" google="FEB90" id="B90" img_from="kddi" kddi="EB0C" name="LOCK WITH INK PEN" softbank="&gt;E144">
+<desc>
+Privacy (padlock with ink pen)
+</desc>
+</e>
 <e docomo="&gt;E6D9" glyphRefID="601" google="FEB8A" id="B8A" img_from="kddi" kddi="EAFC" name="CLOSED LOCK WITH KEY" softbank="&gt;E144">
 <desc>
 Secure (lock with certificate)
 </desc>
 </e>
-<e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
+<e docomo="E6D9" glyphRefID="595" google="FEB82" id="B82" img_from="docomo" kddi="E519" name="KEY" softbank="E03F">
 <desc>
-Enter arrow (backwards)
+Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.
 </desc>
 </e>
 <e google="FEB8B" id="B8B" kddi="EB02" name="BALLOT BOX WITH CHECK" text_fallback="[チェックマーク]" unicode="2611">
@@ -2461,11 +2469,6 @@ Back (left arrow with &quot;BACK&quot;)
 <e glyphRefID="604" google="FEB8F" id="B8F" img_from="kddi" kddi="EB07" name="BOOKMARK" text_fallback="[ブックマーク]">
 <desc>
 Bookmark list (&quot;お気に入り&quot;)
-</desc>
-</e>
-<e docomo="&gt;E6D9" glyphRefID="605" google="FEB90" id="B90" img_from="kddi" kddi="EB0C" name="LOCK WITH INK PEN" softbank="&gt;E144">
-<desc>
-Privacy (padlock with ink pen)
 </desc>
 </e>
 <e docomo="&gt;E735" glyphRefID="606" google="FEB91" id="B91" img_from="kddi" kddi="EB0D" name="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" text_fallback="↑↓">
@@ -2511,21 +2514,25 @@ No. 1
 <desc>
 Up
 </desc>
+<design>Similar to &#x261D; U+261D WHITE UP POINTING INDEX but showing the back of the hand instead of the palm side.</design>
 </e>
 <e glyphRefID="613" google="FEB9A" id="B9A" img_from="kddi" kddi="EA8E" name="WHITE DOWN POINTING BACKHAND INDEX" softbank="E22F" text_fallback="[↓]">
 <desc>
 Down
 </desc>
+<design>Similar to &#x261F; U+261F WHITE DOWN POINTING INDEX but showing the back of the hand instead of the palm side.</design>
 </e>
 <e glyphRefID="614" google="FEB9B" id="B9B" img_from="kddi" kddi="E4FF" name="WHITE LEFT POINTING BACKHAND INDEX" softbank="E230" text_fallback="[←]">
 <desc>
 Left
 </desc>
+<design>Similar to &#x261C; U+261C WHITE LEFT POINTING INDEX but showing the back of the hand instead of the palm side.</design>
 </e>
 <e glyphRefID="615" google="FEB9C" id="B9C" img_from="kddi" kddi="E500" name="WHITE RIGHT POINTING BACKHAND INDEX" softbank="E231" text_fallback="[→]">
 <desc>
 Right
 </desc>
+<design>Similar to &#x261E; U+261E WHITE RIGHT POINTING INDEX but showing the back of the hand instead of the palm side.</design>
 </e>
 <e docomo="&gt;E695" glyphRefID="616" google="FEB9D" id="B9D" img_from="kddi" kddi="EAD6" name="WAVING HAND" softbank="E41E">
 <desc>
