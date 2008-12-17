@@ -242,7 +242,20 @@ class Symbol(object):
       or an empty string if this symbol has not been unified with an existing
       character.
     """
-    return self.__element.getAttribute("unicode")
+    uni = self.__element.getAttribute("unicode")
+    if uni.startswith("*"): uni = uni[1:]
+    return uni
+
+  def IsUnifiedWithUpcomingCharacter(self):
+    """Is this symbol unified with an upcoming character?
+
+    Upcoming means it is a preliminary code point for a
+    Unicode 5.2/AMD6 character.
+
+    Returns:
+      True if the unified code point is for an upcoming character.
+    """
+    return self.__element.getAttribute("unicode").startswith("*")
 
   def GetARIB(self):
     """Get the code of the ARIB symbol corresponding to this Emoji symbol.

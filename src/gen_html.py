@@ -185,7 +185,13 @@ def _WriteEmoji4UnicodeHTML(writer):
 def _RepresentationHTML(e4u_symbol):
   """Return HTML with the symbol representation."""
   uni = e4u_symbol.GetUnicode()
-  if uni: return _UnicodeHTML(uni)
+  if uni:
+    if e4u_symbol.IsUnifiedWithUpcomingCharacter():
+      # Print only code points, not also characters,
+      # because no one will have a font for these.
+      return u"U+" + uni.replace("+", " U+")
+    else:
+      return _UnicodeHTML(uni)
   img = e4u_symbol.ImageHTML()
   if e4u_symbol.in_proposal:
     glyph_id = e4u_symbol.GetGlyphRefID()
@@ -226,6 +232,9 @@ def _NameAnnotationHTML(e4u_symbol):
   lines = [e4u_symbol.GetName()]
   arib = e4u_symbol.GetARIB()
   if arib: lines.append("= ARIB-%s" % arib)
+  if e4u_symbol.IsUnifiedWithUpcomingCharacter():
+    lines.append("Unified with an upcoming Unicode 5.2/AMD6 character; "
+                 "code point and name are preliminary.")
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
   if desc: lines.append(u"\u2022 " + cgi.escape(desc))
