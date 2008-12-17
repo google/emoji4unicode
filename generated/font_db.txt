@@ -214,6 +214,7 @@
 217	E4B1	4	Artifacts	Buildings / Common Places	HOME	similar to English "home" = "where one belongs to"	
 218	E4B2	4	Artifacts	Buildings / Common Places	OFFICE BUILDING		
 219	E4B3	4	Artifacts	Buildings / Common Places	POST OFFICE		
+621	E4B4	4	Artifacts	Buildings / Common Places	HOSPITAL	disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers have a cross on a building while ARIB-9109 is a cross on a shield. (Note: may be controversial in Islamic and Jewish cultures)	
 220	E4B5	4	Artifacts	Buildings / Common Places	BANK	may contain "BK" or "Bank" letters; related to ⛻ U+26FB = ARIB-9144	
 221	E4B6	4	Artifacts	Buildings / Common Places	ATM		
 222	E4B7	4	Artifacts	Buildings / Common Places	HOTEL	a building with "H"; related to U+1F157 = ARIB-9129	
@@ -374,6 +375,7 @@
 377	E7D0	5	Activities/Work/Entertainment	Sports	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
 378	E7D2	5	Activities/Work/Entertainment	Sports	GOLF	Golf (DoCoMo is golf club, others are the green and flag); related to U+26F3 = ARIB-9126	
 379	E7D3	5	Activities/Work/Entertainment	Sports	TENNIS	racket and ball, or player	
+622	E7D5	5	Activities/Work/Entertainment	Sports	SKI	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
 380	E7D6	5	Activities/Work/Entertainment	Sports	BASKETBALL	ball and hoop	
 381	E7D7	5	Activities/Work/Entertainment	Sports	CHECKERED FLAG	motor sports, goal	
 382	E7D8	5	Activities/Work/Entertainment	Sports	SNOWBOARDER	snow boarding	
