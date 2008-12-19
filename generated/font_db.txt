@@ -32,7 +32,7 @@
 35	E028	1	Nature	Time	11 OCLOCK		
 36	E029	1	Nature	Time	12 OCLOCK		
 37	E02A	1	Nature	Time	CLOCK SYMBOL	a general clock symbol	
-38	E037	1	Nature	Zodiacal Symbols	OPHIUCUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
+38	E037	1	Nature	Zodiacal Symbols	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
 39	E038	1	Nature	Places in Nature	WATER WAVE		
 40	E039	1	Nature	Places in Nature	GREEN EARTH		
 41	E03A	1	Nature	Places in Nature	VOLCANO		

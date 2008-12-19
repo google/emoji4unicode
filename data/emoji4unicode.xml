@@ -117,7 +117,7 @@ a general clock symbol
 <e docomo="E64F" google="FE034" id="034" kddi="E498" name="CAPRICORN" softbank="E248" unicode="2651"/>
 <e docomo="E650" google="FE035" id="035" kddi="E499" name="AQUARIUS" softbank="E249" unicode="2652"/>
 <e docomo="E651" google="FE036" id="036" kddi="E49A" name="PISCES" softbank="E24A" unicode="2653"/>
-<e glyphRefID="38" google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCUS" softbank="E24B" text_fallback="[蛇使座]">
+<e glyphRefID="38" google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCHUS" softbank="E24B" text_fallback="[蛇使座]">
 <desc>
 letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)
 </desc>
