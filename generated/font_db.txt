@@ -37,7 +37,7 @@
 40	E039	1	Nature	Places in Nature	GREEN EARTH		
 41	E03A	1	Nature	Places in Nature	VOLCANO		
 42	E03B	1	Nature	Places in Nature	MILKY WAY		
-43	E03C	1	Nature	Plants	FOUR LEAFED CLOVER	Disunified from ☘ U+2618 SHAMROCK	
+43	E03C	1	Nature	Plants	FOUR LEAF CLOVER	Disunified from ☘ U+2618 SHAMROCK	
 44	E03D	1	Nature	Plants	TULIP		
 45	E03E	1	Nature	Plants	SEEDLING		
 46	E03F	1	Nature	Plants	MAPLE LEAF		
