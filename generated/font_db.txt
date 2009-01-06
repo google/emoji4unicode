@@ -106,7 +106,7 @@
 109	E1B2	2	Human/Living Things	People / Personalities	DEVIL	Devil (cute)	
 110	E1B3	2	Human/Living Things	People / Personalities	SKULL		
 111	E1B4	2	Human/Living Things	People / Personalities	NEWSCASTER		
-112	E1B5	2	Human/Living Things	People / Personalities	YEOMAN OF THE GUARD	Beefeater, British	
+112	E1B5	2	Human/Living Things	People / Personalities	GUARDSMAN		
 113	E1B6	2	Human/Living Things	People / Personalities	DANCER	Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)	
 114	E1B7	2	Human/Living Things	Animals	DOG		
 115	E1B8	2	Human/Living Things	Animals	CAT		

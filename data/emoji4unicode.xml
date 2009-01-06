@@ -293,11 +293,7 @@ Devil (cute)
 </e>
 <e glyphRefID="110" google="FE1B3" id="1B3" img_from="softbank" kddi="E4F8" name="SKULL" softbank="E11C" text_fallback="[ドクロ]"/>
 <e glyphRefID="111" google="FE1B4" id="1B4" img_from="softbank" name="NEWSCASTER" softbank="E253"/>
-<e glyphRefID="112" google="FE1B5" id="1B5" img_from="softbank" name="YEOMAN OF THE GUARD" softbank="E51E">
-<desc>
-Beefeater, British
-</desc>
-</e>
+<e glyphRefID="112" google="FE1B5" id="1B5" img_from="softbank" name="GUARDSMAN" softbank="E51E" />
 <e glyphRefID="113" google="FE1B6" id="1B6" img_from="kddi" kddi="EB1C" name="DANCER" softbank="E51F" text_fallback="[ダンス]">
 <desc>
 Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)
