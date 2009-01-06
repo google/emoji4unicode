@@ -589,7 +589,7 @@ Very truly sorry, a cat or person
 </desc>
 </e>
 <e glyphRefID="208" google="FE354" id="354" img_from="kddi" kddi="EB50" name="SEE NO EVIL MONKEY" text_fallback="(/_＼)"/>
-<e glyphRefID="209" google="FE355" id="355" img_from="kddi" kddi="EB51" name="SPEAK NO EVIL MONEY" text_fallback="(・×・)"/>
+<e glyphRefID="209" google="FE355" id="355" img_from="kddi" kddi="EB51" name="SPEAK NO EVIL MONKEY" text_fallback="(・×・)"/>
 <e glyphRefID="210" google="FE356" id="356" img_from="kddi" kddi="EB52" name="HEAR NO EVIL MONKEY" text_fallback="|(・×・)|"/>
 <e glyphRefID="211" google="FE357" id="357" img_from="kddi" kddi="EB85" name="PERSON RAISING ONE HAND" softbank="&gt;E012" text_fallback="(^-^)/">
 <desc>
@@ -946,7 +946,7 @@ blue colored book (closed)
 orange colored book (closed)
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="BOOK WITH VERICAL FILL" softbank="&gt;E148">
+<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="BOOK WITH VERTICAL FILL" softbank="&gt;E148">
 <desc>
 vertical closed book
 </desc>

@@ -203,7 +203,7 @@
 206	E352	3	Faces and Smiley's	More faces (animals, persons, characters)	FACE WITH OK GESTURE	OK (arms raised, making an "O") . A person or a cat	
 207	E353	3	Faces and Smiley's	More faces (animals, persons, characters)	BOWING FACE	Very truly sorry, a cat or person	
 208	E354	3	Faces and Smiley's	More faces (animals, persons, characters)	SEE NO EVIL MONKEY		
-209	E355	3	Faces and Smiley's	More faces (animals, persons, characters)	SPEAK NO EVIL MONEY		
+209	E355	3	Faces and Smiley's	More faces (animals, persons, characters)	SPEAK NO EVIL MONKEY		
 210	E356	3	Faces and Smiley's	More faces (animals, persons, characters)	HEAR NO EVIL MONKEY		
 211	E357	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING ONE HAND	act of raising a hand	
 212	E358	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING BOTH HANDS	banzai, raising both hands	
@@ -290,7 +290,7 @@
 292	E4FF	4	Artifacts	Miscellaneous Things	BOOK WITH HORIZONTAL FILL	green colored book (closed)	
 293	E500	4	Artifacts	Miscellaneous Things	BLACK BOOK	blue colored book (closed)	
 294	E501	4	Artifacts	Miscellaneous Things	WHITE BOOK	orange colored book (closed)	
-295	E502	4	Artifacts	Miscellaneous Things	BOOK WITH VERICAL FILL	vertical closed book	
+295	E502	4	Artifacts	Miscellaneous Things	BOOK WITH VERTICAL FILL	vertical closed book	
 296	E503	4	Artifacts	Miscellaneous Things	BOOKS	multiple, a stack of books	
 297	E504	4	Artifacts	Miscellaneous Things	NAME PLATE		
 298	E505	4	Artifacts	Bath / Bathroom	BATH	a person taking a bath	
