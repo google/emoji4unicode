@@ -89,8 +89,8 @@
 92	E1A1	2	Human/Living Things	People / Personalities	POLICE	represents the police (Note: there is also just a police cap icon by Softbank.)	
 93	E1A2	2	Human/Living Things	People / Personalities	WOMAN WITH BUNNY EARS	a showgirl?	
 94	E1A3	2	Human/Living Things	People / Personalities	BRIDE WITH VEIL		
-95	E1A4	2	Human/Living Things	People / Personalities	BLOND PERSON	both male and female icons exist	
-96	E1A5	2	Human/Living Things	People / Personalities	MAN WITH LONG MOUSTACHE		
+95	E1A4	2	Human/Living Things	People / Personalities	WESTERN PERSON	both male and female icons exist	
+96	E1A5	2	Human/Living Things	People / Personalities	MAN WITH GUA PI MAO		The glyph should show a skullcap
 97	E1A6	2	Human/Living Things	People / Personalities	MAN WITH TURBAN		
 98	E1A7	2	Human/Living Things	People / Personalities	OLDER MAN		
 99	E1A8	2	Human/Living Things	People / Personalities	OLDER WOMAN		

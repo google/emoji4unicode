@@ -244,12 +244,14 @@ a showgirl?
 </desc>
 </e>
 <e glyphRefID="94" google="FE1A3" id="1A3" img_from="kddi" kddi="EAE9" name="BRIDE WITH VEIL" text_fallback="[花嫁]"/>
-<e glyphRefID="95" google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="BLOND PERSON" softbank="E515" text_fallback="[白人]">
+<e glyphRefID="95" google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="WESTERN PERSON" softbank="E515" text_fallback="[白人]">
 <desc>
 both male and female icons exist
 </desc>
 </e>
-<e glyphRefID="96" google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH LONG MOUSTACHE" softbank="E516" text_fallback="[中国人]"/>
+<e glyphRefID="96" google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH GUA PI MAO" softbank="E516" text_fallback="[中国人]">
+<design>The glyph should show a skullcap</design>
+</e>
 <e glyphRefID="97" google="FE1A6" id="1A6" img_from="kddi" kddi="EB15" name="MAN WITH TURBAN" softbank="E517" text_fallback="[インド]"/>
 <e glyphRefID="98" google="FE1A7" id="1A7" img_from="kddi" kddi="EB16" name="OLDER MAN" softbank="E518" text_fallback="[おじいさん]"/>
 <e glyphRefID="99" google="FE1A8" id="1A8" img_from="kddi" kddi="EB17" name="OLDER WOMAN" softbank="E519" text_fallback="[おばあさん]"/>
