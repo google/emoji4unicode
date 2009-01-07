@@ -264,7 +264,7 @@ class Symbol(object):
       The ARIB code as a 4-decimal-digit string,
       or None if there is no corresponding ARIB symbol.
     """
-    uni = self.__element.getAttribute("unicode")
+    uni = self.GetUnicode()
     if uni:
       global arib_ucm
       arib = arib_ucm.from_unicode.get(uni)
