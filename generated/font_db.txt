@@ -34,7 +34,7 @@
 37	E02A	1	Nature	Time	CLOCK SYMBOL	a general clock symbol	
 38	E037	1	Nature	Zodiacal Symbols	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
 39	E038	1	Nature	Places in Nature	WATER WAVE		
-40	E039	1	Nature	Places in Nature	GREEN EARTH		
+40	E039	1	Nature	Places in Nature	EARTH GLOBE		
 41	E03A	1	Nature	Places in Nature	VOLCANO		
 42	E03B	1	Nature	Places in Nature	MILKY WAY		
 43	E03C	1	Nature	Plants	FOUR LEAF CLOVER	Disunified from ☘ U+2618 SHAMROCK	
@@ -45,7 +45,7 @@
 48	E041	1	Nature	Plants	ROSE		
 49	E042	1	Nature	Plants	FALLEN LEAF	autumn leaf	
 50	E043	1	Nature	Plants	LEAF FLUTTERING IN WIND	animated Softbank symbol	
-51	E044	1	Nature	Plants	YOUNG GREEN LEAF	(In Japan) a marker for newly licensed drivers to be placed on vehicles	
+51	E044	1	Nature	Plants	NEW LEAF	(In Japan) Originally referred to a newly licensed driver. Now it refers to any neophyte.	
 52	E045	1	Nature	Plants	HIBISCUS		
 53	E046	1	Nature	Plants	SUNFLOWER		
 54	E047	1	Nature	Plants	PALM TREE		
@@ -125,7 +125,7 @@
 128	E1C5	2	Human/Living Things	Animals	OCTOPUS		
 129	E1C6	2	Human/Living Things	Animals	SPIRAL SHELL	snail also?	
 130	E1C7	2	Human/Living Things	Animals	DOLPHIN		
-131	E1C8	2	Human/Living Things	Animals	BIRD	eagle? (original suggestion)	
+131	E1C8	2	Human/Living Things	Animals	BIRD		
 132	E1C9	2	Human/Living Things	Animals	TROPICAL FISH		
 133	E1CA	2	Human/Living Things	Animals	HAMSTER	Perhaps Guinea Pig	
 134	E1CB	2	Human/Living Things	Animals	CENTIPEDE		
@@ -149,7 +149,7 @@
 152	E1DD	2	Human/Living Things	Animals	HATCHING CHICK	animated by KDDI	
 153	E1DE	2	Human/Living Things	Animals	CHINESE ZODIAC DRAGON		
 154	E1DF	2	Human/Living Things	Animals	PANDA		
-155	E1E0	2	Human/Living Things	Animals	PIGS NOSE		
+155	E1E0	2	Human/Living Things	Animals	PIG NOSE		
 156	E1E1	2	Human/Living Things	Animals	HONEY BEE		
 157	E1E2	2	Human/Living Things	Animals	LADYBUG		
 158	E320	3	Faces and Smiley's	Faces	ANGRY FACE		
@@ -253,7 +253,7 @@
 255	E4DA	4	Artifacts	Clothing / Wearables	BIKINI		
 256	E4DB	4	Artifacts	Clothing / Wearables	WOMANS CLOTHES		
 257	E4DC	4	Artifacts	Money	PURSE		
-258	E4DD	4	Artifacts	Money	PRIZE BAG	a bag with a dollar or yen sign	
+258	E4DD	4	Artifacts	Money	MONEY BAG	a bag with a dollar or yen sign	
 259	E4DE	4	Artifacts	Money	CURRENCY EXCHANGE	$ and ¥ signs, exchange rate	
 260	E4DF	4	Artifacts	Money	STOCK MARKET	stock market, stock prices	
 261	E4E0	4	Artifacts	Money	HEAVY DOLLAR SIGN	disunified from $ U+0024 DOLLAR SIGN	
@@ -276,13 +276,13 @@
 278	E4F1	4	Artifacts	Miscellaneous Things	POUCH		
 279	E4F2	4	Artifacts	Miscellaneous Things	BELL		
 280	E4F3	4	Artifacts	Miscellaneous Things	DOOR		
-281	E4F4	4	Artifacts	Miscellaneous Things	POOP		
+281	E4F4	4	Artifacts	Miscellaneous Things	DUNG		
 282	E4F5	4	Artifacts	Miscellaneous Things	PISTOL	action genre	
 283	E4F6	4	Artifacts	Miscellaneous Things	FIRE		
 284	E4F7	4	Artifacts	Miscellaneous Things	FORTUNE TELLING	crystal ball, zodiacs	
-285	E4F8	4	Artifacts	Miscellaneous Things	CONSTELLATION	zodiacs, fortune telling	
+285	E4F8	4	Artifacts	Miscellaneous Things	SIX POINTED STAR WITH MIDDLE DOT	zodiacs, fortune telling	
 286	E4F9	4	Artifacts	Miscellaneous Things	VIDEO CAMERA	handycam, videocam	
-287	E4FA	4	Artifacts	Miscellaneous Things	KNIFE	chef's knife, cooking knife	
+287	E4FA	4	Artifacts	Miscellaneous Things	KNIFE		
 288	E4FB	4	Artifacts	Miscellaneous Things	FLASHLIGHT		
 289	E4FC	4	Artifacts	Miscellaneous Things	BATTERY		
 290	E4FD	4	Artifacts	Miscellaneous Things	SCROLL	scroll a window on a computer	
@@ -292,7 +292,7 @@
 294	E501	4	Artifacts	Miscellaneous Things	WHITE BOOK	orange colored book (closed)	
 295	E502	4	Artifacts	Miscellaneous Things	BOOK WITH VERTICAL FILL	vertical closed book	
 296	E503	4	Artifacts	Miscellaneous Things	BOOKS	multiple, a stack of books	
-297	E504	4	Artifacts	Miscellaneous Things	NAME PLATE		
+297	E504	4	Artifacts	Miscellaneous Things	NAME BADGE		
 298	E505	4	Artifacts	Bath / Bathroom	BATH	a person taking a bath	
 299	E506	4	Artifacts	Bath / Bathroom	RESTROOM		
 300	E507	4	Artifacts	Bath / Bathroom	TOILET		
@@ -346,7 +346,7 @@
 348	EB7F	4	Artifacts	Communication	SYMBOLS SIGN	Symbols (〒, ♪, @, %)	
 349	EB80	4	Artifacts	Communication	ENGLISH LANGUAGE SYMBOL	English (ABC)	
 350	E537	4	Artifacts	Office	CHAIR		
-351	E538	4	Artifacts	Office	PC		
+351	E538	4	Artifacts	Office	COMPUTER		
 352	E53A	4	Artifacts	Office	PAPERCLIP		
 353	E53B	4	Artifacts	Office	BRIEFCASE		
 354	E53C	4	Artifacts	Office	MINI DISC	MD mini disc	
@@ -365,7 +365,7 @@
 367	E54A	4	Artifacts	Office	BAR CHART	bar graph	
 368	E54B	4	Artifacts	Office	CHART WITH UPWARDS TREND		
 369	E54C	4	Artifacts	Office	CHART WITH DOWNWARDS TREND		
-370	E54D	4	Artifacts	Office	ROLODEX		
+370	E54D	4	Artifacts	Office	CARD INDEX		
 371	E54E	4	Artifacts	Office	THUMBTACK		
 372	E54F	4	Artifacts	Office	LEDGER	real estate original record book, financial books,	
 373	E550	4	Artifacts	Office	STRAIGHT RULER		
@@ -375,7 +375,7 @@
 377	E7D0	5	Activities/Work/Entertainment	Sports	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
 378	E7D2	5	Activities/Work/Entertainment	Sports	GOLF	Golf (DoCoMo is golf club, others are the green and flag); related to U+26F3 = ARIB-9126	
 379	E7D3	5	Activities/Work/Entertainment	Sports	TENNIS	racket and ball, or player	
-622	E7D5	5	Activities/Work/Entertainment	Sports	SKI	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
+622	E7D5	5	Activities/Work/Entertainment	Sports	SKIING	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
 380	E7D6	5	Activities/Work/Entertainment	Sports	BASKETBALL	ball and hoop	
 381	E7D7	5	Activities/Work/Entertainment	Sports	CHECKERED FLAG	motor sports, goal	
 382	E7D8	5	Activities/Work/Entertainment	Sports	SNOWBOARDER	snow boarding	
@@ -383,7 +383,7 @@
 384	E7DA	5	Activities/Work/Entertainment	Sports	SURFER	surfing	
 385	E7DB	5	Activities/Work/Entertainment	Sports	TROPHY	a gold cup	
 386	E7DC	5	Activities/Work/Entertainment	Sports	HORSE RACING		
-387	E7DD	5	Activities/Work/Entertainment	Sports	FOOTBALL		
+387	E7DD	5	Activities/Work/Entertainment	Sports	AMERICAN FOOTBALL		
 388	E7DE	5	Activities/Work/Entertainment	Sports	SWIMMER	swimming	
 389	E7DF	5	Activities/Work/Entertainment	Transportation	TRAIN		
 390	E7E0	5	Activities/Work/Entertainment	Transportation	SUBWAY	(DoCoMo's is an "M" for metro)	
@@ -404,12 +404,12 @@
 405	E7F1	5	Activities/Work/Entertainment	Transportation	TRUCK		
 406	E7F2	5	Activities/Work/Entertainment	Transportation	FIRE ENGINE		
 407	E7F3	5	Activities/Work/Entertainment	Transportation	AMBULANCE		
-408	E7F4	5	Activities/Work/Entertainment	Transportation	PATROL CAR		
+408	E7F4	5	Activities/Work/Entertainment	Transportation	POLICE CAR		
 409	E7F5	5	Activities/Work/Entertainment	Driving	GAS STATION	related to U+26FD = ARIB-9146	
 410	E7F6	5	Activities/Work/Entertainment	Driving	PARKING	"P" sign	
 411	E7F7	5	Activities/Work/Entertainment	Driving	TRAFFIC LIGHT		
 412	E7F8	5	Activities/Work/Entertainment	Driving	CONSTRUCTION		
-413	E7F9	5	Activities/Work/Entertainment	Driving	PATROL CARS REVOLVING LIGHT		
+413	E7F9	5	Activities/Work/Entertainment	Driving	POLICE CARS REVOLVING LIGHT		
 414	E7FB	5	Activities/Work/Entertainment	Recreation	CAMP		
 415	E7FC	5	Activities/Work/Entertainment	Recreation	CAROUSEL HORSE		
 416	E7FD	5	Activities/Work/Entertainment	Recreation	FERRIS WHEEL		

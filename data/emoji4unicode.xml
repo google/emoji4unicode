@@ -125,7 +125,7 @@ letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological s
 </subcategory>
 <subcategory name="Places in Nature">
 <e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E"/>
-<e glyphRefID="40" google="FE039" id="039" img_from="kddi" kddi="E5B3" name="GREEN EARTH" text_fallback="[地球]"/>
+<e glyphRefID="40" google="FE039" id="039" img_from="kddi" kddi="E5B3" name="EARTH GLOBE" text_fallback="[地球]"/>
 <e glyphRefID="41" google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]"/>
 <e docomo="&gt;E6B3" glyphRefID="42" google="FE03B" id="03B" img_from="kddi" kddi="EB5F" name="MILKY WAY" softbank="&gt;E44B"/>
 </subcategory>
@@ -154,9 +154,9 @@ autumn leaf
 animated Softbank symbol
 </desc>
 </e>
-<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="YOUNG GREEN LEAF" softbank="E209" text_fallback="[若葉マーク]">
+<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="NEW LEAF" softbank="E209" text_fallback="[若葉マーク]">
 <desc>
-(In Japan) a marker for newly licensed drivers to be placed on vehicles
+(In Japan) Originally referred to a newly licensed driver. Now it refers to any neophyte.
 </desc>
 </e>
 <e glyphRefID="52" google="FE045" id="045" img_from="kddi" kddi="EA94" name="HIBISCUS" softbank="E303" text_fallback="[ハイビスカス]"/>
@@ -328,11 +328,7 @@ snail also?
 </desc>
 </e>
 <e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]"/>
-<e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521">
-<desc>
-eagle? (original suggestion)
-</desc>
-</e>
+<e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521"/>
 <e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522"/>
 <e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER" softbank="E524">
 <desc>
@@ -368,7 +364,7 @@ animated by KDDI
 </e>
 <e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="CHINESE ZODIAC DRAGON" text_fallback="[辰]"/>
 <e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA" text_fallback="[パンダ]"/>
-<e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIGS NOSE" softbank="&gt;E10B"/>
+<e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B"/>
 <e glyphRefID="156" google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEY BEE" text_fallback="[ミツバチ]"/>
 <e glyphRefID="157" google="FE1E2" id="1E2" img_from="kddi" kddi="EB58" name="LADYBUG" text_fallback="[てんとう虫]"/>
 <e google="FE1E3" id="1E3" img_from="google" kddi="&gt;E492" in_proposal="no" name="CRAB" text_fallback="[カニ]"/>
@@ -793,7 +789,7 @@ usually woman's boots
 </subcategory>
 <subcategory name="Money">
 <e docomo="E70F" glyphRefID="257" google="FE4DC" id="4DC" img_from="docomo" kddi="E504" name="PURSE" text_fallback="[財布]"/>
-<e docomo="E715" glyphRefID="258" google="FE4DD" id="4DD" img_from="kddi" kddi="E4C7" name="PRIZE BAG" softbank="E12F">
+<e docomo="E715" glyphRefID="258" google="FE4DD" id="4DD" img_from="kddi" kddi="E4C7" name="MONEY BAG" softbank="E12F">
 <desc>
 a bag with a dollar or yen sign
 </desc>
@@ -890,7 +886,7 @@ South Korea
 <e docomo="E6AD" glyphRefID="278" google="FE4F1" id="4F1" img_from="docomo" name="POUCH" text_fallback="[ふくろ]"/>
 <e docomo="E713" glyphRefID="279" google="FE4F2" id="4F2" img_from="docomo" kddi="E512" name="BELL" softbank="E325"/>
 <e docomo="E714" glyphRefID="280" google="FE4F3" id="4F3" img_from="docomo" name="DOOR" text_fallback="[ドア]"/>
-<e glyphRefID="281" google="FE4F4" id="4F4" img_from="kddi" kddi="E4F5" name="POOP" softbank="E05A" text_fallback="[ウンチ]"/>
+<e glyphRefID="281" google="FE4F4" id="4F4" img_from="kddi" kddi="E4F5" name="DUNG" softbank="E05A" text_fallback="[ウンチ]"/>
 <e glyphRefID="282" google="FE4F5" id="4F5" img_from="kddi" kddi="E50A" name="PISTOL" softbank="E113" text_fallback="[ピストル]">
 <desc>
 action genre
@@ -902,7 +898,7 @@ action genre
 crystal ball, zodiacs
 </desc>
 </e>
-<e glyphRefID="285" google="FE4F8" id="4F8" img_from="softbank" kddi="&gt;EA8F" name="CONSTELLATION" softbank="E23E" text_fallback="[占い]">
+<e glyphRefID="285" google="FE4F8" id="4F8" img_from="softbank" kddi="&gt;EA8F" name="SIX POINTED STAR WITH MIDDLE DOT" softbank="E23E" text_fallback="[占い]">
 <desc>
 zodiacs, fortune telling
 </desc>
@@ -912,11 +908,7 @@ zodiacs, fortune telling
 handycam, videocam
 </desc>
 </e>
-<e glyphRefID="287" google="FE4FA" id="4FA" img_from="kddi" kddi="E57F" name="KNIFE" text_fallback="[包丁]">
-<desc>
-chef's knife, cooking knife
-</desc>
-</e>
+<e glyphRefID="287" google="FE4FA" id="4FA" img_from="kddi" kddi="E57F" name="KNIFE" text_fallback="[包丁]"/>
 <e docomo="&gt;E6FB" glyphRefID="288" google="FE4FB" id="4FB" img_from="kddi" kddi="E583" name="FLASHLIGHT" text_fallback="[懐中電灯]"/>
 <e glyphRefID="289" google="FE4FC" id="4FC" img_from="kddi" kddi="E584" name="BATTERY" text_fallback="[電池]"/>
 <e docomo="&gt;E70A" glyphRefID="290" google="FE4FD" id="4FD" img_from="kddi" kddi="E55F" name="SCROLL" text_fallback="[スクロール]">
@@ -954,7 +946,7 @@ vertical closed book
 multiple, a stack of books
 </desc>
 </e>
-<e glyphRefID="297" google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME PLATE" text_fallback="[名札]"/>
+<e glyphRefID="297" google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME BADGE" text_fallback="[名札]"/>
 </subcategory>
 <subcategory name="Bath / Bathroom">
 <e docomo="&gt;E6F7" glyphRefID="298" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F">
@@ -1141,7 +1133,7 @@ editing, Docomo has WHITE NIB. Tentatively unified with BLACK NIB
 </desc>
 </e>
 <e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="CHAIR" softbank="E11F" text_fallback="[いす]"/>
-<e docomo="E716" glyphRefID="351" google="FE538" id="538" img_from="docomo" kddi="E5B8" name="PC" softbank="E00C"/>
+<e docomo="E716" glyphRefID="351" google="FE538" id="538" img_from="docomo" kddi="E5B8" name="COMPUTER" softbank="E00C"/>
 <e docomo="E719" google="FE539" id="539" kddi="E4A1" name="PENCIL" softbank="&gt;E301" unicode="270F">
 <desc>
 Note: pencil directions are varied among Japanese carriers, could be solid or white
@@ -1186,7 +1178,7 @@ bar graph
 </e>
 <e glyphRefID="368" google="FE54B" id="54B" img_from="kddi" kddi="E575" name="CHART WITH UPWARDS TREND" softbank="&gt;E14A" text_fallback="[グラフ]"/>
 <e glyphRefID="369" google="FE54C" id="54C" img_from="kddi" kddi="E576" name="CHART WITH DOWNWARDS TREND" text_fallback="[グラフ]"/>
-<e docomo="&gt;E683" glyphRefID="370" google="FE54D" id="54D" img_from="kddi" kddi="E56C" name="ROLODEX" softbank="&gt;E148"/>
+<e docomo="&gt;E683" glyphRefID="370" google="FE54D" id="54D" img_from="kddi" kddi="E56C" name="CARD INDEX" softbank="&gt;E148"/>
 <e glyphRefID="371" google="FE54E" id="54E" img_from="kddi" kddi="E56D" name="THUMBTACK" text_fallback="[画びょう]"/>
 <e docomo="&gt;E683" glyphRefID="372" google="FE54F" id="54F" img_from="kddi" kddi="E56E" name="LEDGER" softbank="&gt;E148">
 <desc>
@@ -1228,7 +1220,7 @@ racket and ball, or player
 soccer ball, or player
 </desc>
 </e>
-<e docomo="E657" glyphRefID="622" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKI" softbank="E013">
+<e docomo="E657" glyphRefID="622" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKIING" softbank="E013">
 <desc>
 ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.
 </desc>
@@ -1264,7 +1256,7 @@ a gold cup
 </desc>
 </e>
 <e docomo="&gt;E754" glyphRefID="386" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE RACING" softbank="E134"/>
-<e glyphRefID="387" google="FE7DD" id="7DD" img_from="kddi" kddi="E4BB" name="FOOTBALL" softbank="E42B" text_fallback="[フットボール]"/>
+<e glyphRefID="387" google="FE7DD" id="7DD" img_from="kddi" kddi="E4BB" name="AMERICAN FOOTBALL" softbank="E42B" text_fallback="[フットボール]"/>
 <e glyphRefID="388" google="FE7DE" id="7DE" img_from="kddi" kddi="EADE" name="SWIMMER" softbank="E42D" text_fallback="[水泳]">
 <desc>
 swimming
@@ -1329,7 +1321,7 @@ walking
 <e glyphRefID="405" google="FE7F1" id="7F1" img_from="kddi" kddi="E4B2" name="TRUCK" softbank="E42F" text_fallback="[トラック]"/>
 <e glyphRefID="406" google="FE7F2" id="7F2" img_from="kddi" kddi="EADF" name="FIRE ENGINE" softbank="E430" text_fallback="[消防車]"/>
 <e glyphRefID="407" google="FE7F3" id="7F3" img_from="kddi" kddi="EAE0" name="AMBULANCE" softbank="E431" text_fallback="[救急車]"/>
-<e glyphRefID="408" google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="PATROL CAR" softbank="E432" text_fallback="[パトカー]"/>
+<e glyphRefID="408" google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="POLICE CAR" softbank="E432" text_fallback="[パトカー]"/>
 </subcategory>
 <subcategory name="Driving">
 <e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="GAS STATION" softbank="E03A">
@@ -1342,7 +1334,7 @@ walking
 </e>
 <e docomo="E66D" glyphRefID="411" google="FE7F7" id="7F7" img_from="docomo" kddi="E46A" name="TRAFFIC LIGHT" softbank="E14E"/>
 <e glyphRefID="412" google="FE7F8" id="7F8" img_from="kddi" kddi="E5D7" name="CONSTRUCTION" softbank="E137" text_fallback="[工事中]"/>
-<e glyphRefID="413" google="FE7F9" id="7F9" img_from="kddi" kddi="EB73" name="PATROL CARS REVOLVING LIGHT" softbank="&gt;E432" text_fallback="[パトカー]"/>
+<e glyphRefID="413" google="FE7F9" id="7F9" img_from="kddi" kddi="EB73" name="POLICE CARS REVOLVING LIGHT" softbank="&gt;E432" text_fallback="[パトカー]"/>
 </subcategory>
 <subcategory name="Recreation">
 <e docomo="E6F7" google="FE7FA" id="7FA" kddi="E4BC" name="HOT SPRINGS" softbank="E123" unicode="2668">
