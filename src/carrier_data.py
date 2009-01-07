@@ -339,7 +339,7 @@ class _KddiData(CarrierData):
 
 
 class _SoftbankData(CarrierData):
-  """DoCoMo Emoji symbols data."""
+  """SoftBank Emoji symbols data."""
   _uni_to_old_number_ranges = [
       (0xE001, 0xE05A, 1, 90),
       (0xE101, 0xE15A, 91, 180),

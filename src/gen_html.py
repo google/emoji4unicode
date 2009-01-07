@@ -54,9 +54,31 @@ body {
   text-decoration: line-through;
 }
 .rep {
+  text-align: center;
+}
+.unified {
+  font-size: 36pt;
+}
+.upcoming {
+  font-size: 24pt;
+  font-stretch: ultra-condensed;
+  font-style: italic;
+}
+.proposed_cp {
+  color: red
+}
+.fontimg {
+  height: 40;
+  width: 40;
+}
+.efont {
+  font-family: Apple Emoji;
 }
 .desc {
   font-size: 80%;
+}
+.desctext {
+  color: gray;
 }
 .pua, .imgs, .translit {
   text-align: center;
@@ -142,7 +164,7 @@ def _WriteEmoji4UnicodeHTML(writer):
         e_id = "e-" + symbol.id
         writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
                      (e_id, row_style, e_id, e_id))
-        writer.write("<td>%s</td>" % _RepresentationHTML(symbol))
+        writer.write("<td class='rep'>%s</td>" % _RepresentationHTML(symbol))
         writer.write("<td>%s</td>" % _NameAnnotationHTML(symbol))
         for carrier in emoji4unicode.carriers:
           code = symbol.GetCarrierUnicode(carrier)
@@ -189,20 +211,24 @@ def _RepresentationHTML(e4u_symbol):
     if e4u_symbol.IsUnifiedWithUpcomingCharacter():
       # Print only code points, not also characters,
       # because no one will have a font for these.
-      return u"U+" + uni.replace("+", " U+")
+      return (u"<span class='upcoming'>U5.2</span><br>"
+               "U+" + uni.replace("+", " U+"))
     else:
       return _UnicodeHTML(uni)
   img = e4u_symbol.ImageHTML()
+  font_uni = e4u_symbol.GetFontUnicode()
+  font_img = u"<img src='../fontimg/AEmoji_%s.png' class='fontimg'>" % font_uni
   if e4u_symbol.in_proposal:
     glyph_id = e4u_symbol.GetGlyphRefID()
     if _show_font_chars:
-      font_uni = e4u_symbol.GetFontUnicode()
       font_str = utf.UTF.CodePointString(int(font_uni, 16))
-      repr = u"<span class='efont'>%s</span><sub>glyph%d</sub>" % (font_str, glyph_id)
+      repr = (u"<span class='efont'>%s</span><sub>glyph%d</sub>=%s" %
+              (font_str, glyph_id, font_img))
+      if img: repr += u"\u2248" + img
     else:
-      repr = u"glyph%d" % glyph_id
-    if img: repr += u"\u2248" + img
-    return repr
+      # repr = u"glyph%d" % glyph_id
+      repr = font_img
+    return repr + u"<br><span class='proposed_cp'>U+xxxxx</span>"
   if img: return img
   text_repr = e4u_symbol.GetTextRepresentation()
   if text_repr: return text_repr
@@ -224,7 +250,8 @@ def _UnicodeHTML(uni):
   for code in uni.split("+"):
     chars += utf.UTF.CodePointString(int(code, 16))
     code_points += " U+" + code
-  return chars + code_points
+  return (u"<span class='unified'>" + chars + u"</span>" + u"<br>" +
+          code_points[1:])
 
 
 def _NameAnnotationHTML(e4u_symbol):
@@ -233,11 +260,13 @@ def _NameAnnotationHTML(e4u_symbol):
   arib = e4u_symbol.GetARIB()
   if arib: lines.append("= ARIB-%s" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():
-    lines.append("Unified with an upcoming Unicode 5.2/AMD6 character; "
-                 "code point and name are preliminary.")
+    lines.append(u"<span class='desctext'>Temporary Note: "
+                  "Unified with an upcoming Unicode 5.2/AMD6 character; "
+                  "code point and name are preliminary.</span>")
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
-  if desc: lines.append(u"\u2022 " + cgi.escape(desc))
+  if desc: lines.append(u"<span class='desctext'>Temporary Notes: " + cgi.escape(desc) +
+                        u"</span>")
   design = e4u_symbol.GetDesign()
   if design: lines.append(u"Design: " + cgi.escape(design))
   return "<br>".join(lines)
