@@ -486,7 +486,7 @@
 487	E973	6	Foods	Prepared Food	FISH CAKE WITH SWIRL DESIGN	topping for ramen noodles	
 488	E974	6	Foods	Prepared Food	ROASTED SWEET POTATO	焼き芋: Japanese yakiimo	
 489	E975	6	Foods	Prepared Food	PIZZA		
-490	E976	6	Foods	Prepared Food	TURKEY LEG		
+490	E976	6	Foods	Prepared Food	POULTRY LEG		
 491	E977	6	Foods	Prepared Food	ICE CREAM		
 492	E978	6	Foods	Prepared Food	DONUT		
 493	E979	6	Foods	Prepared Food	COOKIE		
@@ -511,7 +511,7 @@
 512	EB02	7	Abstract Concepts	Arrows	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
 513	EB03	7	Abstract Concepts	Arrows	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
 514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
-515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK	stationery question mark	
+515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK	moving question mark	
 517	EB0B	7	Abstract Concepts	Punctuation	WHITE EXCLAMATION MARK	moving exclamation mark	
 518	EB0D	7	Abstract Concepts	Hearts	BEATING HEART	pulsating heart	

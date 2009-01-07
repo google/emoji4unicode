@@ -1659,7 +1659,7 @@ topping for ramen noodles
 </desc>
 </e>
 <e glyphRefID="489" google="FE975" id="975" img_from="kddi" kddi="EB3B" name="PIZZA" text_fallback="[ピザ]"/>
-<e glyphRefID="490" google="FE976" id="976" img_from="kddi" kddi="EB3C" name="TURKEY LEG" text_fallback="[チキン]"/>
+<e glyphRefID="490" google="FE976" id="976" img_from="kddi" kddi="EB3C" name="POULTRY LEG" text_fallback="[チキン]"/>
 <e glyphRefID="491" google="FE977" id="977" img_from="kddi" kddi="EB4A" name="ICE CREAM" text_fallback="[アイスクリーム]"/>
 <e glyphRefID="492" google="FE978" id="978" img_from="kddi" kddi="EB4B" name="DONUT" text_fallback="[ドーナツ]"/>
 <e glyphRefID="493" google="FE979" id="979" img_from="kddi" kddi="EB4C" name="COOKIE" text_fallback="[クッキー]"/>
@@ -1799,11 +1799,7 @@ a wavy line, used as a wavy length mark
 a line with a loop; new compatibility character, see e-B07=U+3030
 </desc>
 </e>
-<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK" softbank="E020" text_fallback="[？]">
-<desc>
-stationery question mark
-</desc>
-</e>
+<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK" softbank="E020" text_fallback="[？]"/>
 <e glyphRefID="516" google="FEB0A" id="B0A" img_from="softbank" kddi="&gt;E483" name="WHITE QUESTION MARK" softbank="E336" text_fallback="[？]">
 <desc>
 moving question mark
