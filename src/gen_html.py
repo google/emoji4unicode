@@ -74,10 +74,16 @@ body {
 .efont {
   font-family: Apple Emoji;
 }
-.desc {
+.name_anno {
   font-size: 80%;
 }
-.desctext {
+.arib {
+  color: gray;
+}
+.desc {
+  color: gray;
+}
+.design {
   color: gray;
 }
 .pua, .imgs, .translit {
@@ -165,7 +171,7 @@ def _WriteEmoji4UnicodeHTML(writer):
         writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
                      (e_id, row_style, e_id, e_id))
         writer.write("<td class='rep'>%s</td>" % _RepresentationHTML(symbol))
-        writer.write("<td>%s</td>" % _NameAnnotationHTML(symbol))
+        writer.write("<td class='name_anno'>%s</td>" % _NameAnnotationHTML(symbol))
         for carrier in emoji4unicode.carriers:
           code = symbol.GetCarrierUnicode(carrier)
           if code:
@@ -258,17 +264,18 @@ def _NameAnnotationHTML(e4u_symbol):
   """Return HTML with the symbol name, annotations, etc."""
   lines = [e4u_symbol.GetName()]
   arib = e4u_symbol.GetARIB()
-  if arib: lines.append("= ARIB-%s" % arib)
+  if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():
-    lines.append(u"<span class='desctext'>Temporary Note: "
+    lines.append(u"<span class='desc'>Temporary Note: "
                   "Unified with an upcoming Unicode 5.2/AMD6 character; "
                   "code point and name are preliminary.</span>")
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
-  if desc: lines.append(u"<span class='desctext'>Temporary Notes: " + cgi.escape(desc) +
-                        u"</span>")
+  if desc: lines.append(u"<span class='desc'>Temporary Notes: " +
+                        cgi.escape(desc) + u"</span>")
   design = e4u_symbol.GetDesign()
-  if design: lines.append(u"Design: " + cgi.escape(design))
+  if design: lines.append(u"<span class='desc'>Design Note: " +
+                          cgi.escape(design) + u"</span>")
   return "<br>".join(lines)
 
 
