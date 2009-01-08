@@ -38,7 +38,8 @@ all_carrier_data = {}
 def Load():
   """Parse emoji4unicode.xml and load related data."""
   # TODO(mscherer): Add argument for root data folder path.
-  global carriers, all_carrier_data, arib_ucm, _kddi_to_google, _doc, _root
+  global carriers, all_carrier_data, arib_ucm
+  global _kddi_to_google, _doc, _root, _id_to_proposed_uni
   if all_carrier_data: return  # Already loaded.
   carriers = ["docomo", "kddi", "softbank", "google"]
   all_carrier_data = {
@@ -53,8 +54,15 @@ def Load():
   e4u_filename = os.path.join(here, "..", "data", "emoji4unicode.xml")
   _doc = xml.dom.minidom.parse(e4u_filename)
   _root = _doc.documentElement
+  # Preprocess the full set of symbols.
+  proposed_uni = "1F2FF"  # By default, start proposed code points at U+1F300.
+  _id_to_proposed_uni = {}
   _kddi_to_google = {}
   for symbol in GetSymbols():
+    # Read or enumerate proposed Unicode code points.
+    if symbol.in_proposal:
+      proposed_uni = symbol._SetProposedUnicode(proposed_uni)
+    # Map from KDDI to Google for Google-hosted symbol.CarrierImageHTML().
     kddi_uni = symbol.GetCarrierUnicode("kddi")
     if kddi_uni and not kddi_uni.startswith(">"):
       google_uni = symbol.GetCarrierUnicode("google")
@@ -243,6 +251,7 @@ class Symbol(object):
       character.
     """
     uni = self.__element.getAttribute("unicode")
+    if uni.startswith("+"): return u""
     if uni.startswith("*"): uni = uni[1:]
     return uni
 
@@ -256,6 +265,33 @@ class Symbol(object):
       True if the unified code point is for an upcoming character.
     """
     return self.__element.getAttribute("unicode").startswith("*")
+
+  def GetProposedUnicode(self):
+    """Get the proposed Unicode code point or sequence for this new symbol.
+
+    Returns:
+      A string with one or more 4..6-hex-digit code points with "+" separators,
+      or an empty string if this symbol has no proposed code point or sequence.
+    """
+    uni = _id_to_proposed_uni.get(self.id)
+    if uni: return uni
+    return u""
+
+  def _SetProposedUnicode(self, prev_proposed_uni):
+    """Internal: Set the proposed Unicode code point or sequence."""
+    uni = self.__element.getAttribute("unicode")
+    if uni.startswith("+"):
+      proposed_uni = uni[1:]
+    elif uni:
+      # Unified with another character.
+      # Do not set a proposed code point.
+      return prev_proposed_uni
+    else:
+      # Increment the proposed Unicode code point.
+      # (Does not work for code point sequences.)
+      proposed_uni = "%04X" % (int(prev_proposed_uni, 16) + 1)
+    _id_to_proposed_uni[self.id] = proposed_uni
+    return proposed_uni
 
   def GetARIB(self):
     """Get the code of the ARIB symbol corresponding to this Emoji symbol.

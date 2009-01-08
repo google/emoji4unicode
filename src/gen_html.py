@@ -64,7 +64,7 @@ body {
   font-stretch: ultra-condensed;
   font-style: italic;
 }
-.proposed_cp {
+.proposed_uni {
   color: red
 }
 .fontimg {
@@ -234,7 +234,12 @@ def _RepresentationHTML(e4u_symbol):
     else:
       # repr = u"glyph%d" % glyph_id
       repr = font_img
-    return repr + u"<br><span class='proposed_cp'>U+xxxxx</span>"
+    proposed_uni = e4u_symbol.GetProposedUnicode()
+    if proposed_uni:
+      return (repr + u"<br><span class='proposed_uni'>U+" +
+              proposed_uni.replace("+", " U+"))
+    else:
+      return repr + u"<br><span class='proposed_uni'>U+xxxxx</span>"
   if img: return img
   text_repr = e4u_symbol.GetTextRepresentation()
   if text_repr: return text_repr

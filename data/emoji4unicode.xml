@@ -2028,13 +2028,21 @@ search, hunt for the missing
 </e>
 </subcategory>
 <subcategory name="Enclosed Ideographs and Kana">
-<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]">
+<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]" unicode="+1F201">
 <desc>
 KATAKANA LETTERS KOKO; destination, here
 </desc>
 <ann># &lt;square&gt; 30B3 30B3</ann>
 </e>
-<e docomo="E738" glyphRefID="555" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]">
+<e glyphRefID="563" google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SQUARED KATAKANA LETTER SA" softbank="E228" text_fallback="[サービス]">
+<desc>
+サ: KATAKANA LETTER SA; service charge; for free, on the house;
+</desc>
+<ann>= service sign</ann>
+<ann>x (circled katakana sa - 32DA)</ann>
+<ann># &lt;square&gt; 30B5</ann>
+</e>
+<e docomo="E738" glyphRefID="555" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]" unicode="+1F231">
 <desc>
 禁: IDEOGRAPH PROHIBITION
 </desc>
@@ -2099,14 +2107,6 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>= discount sign</ann>
 <ann># &lt;square&gt; 5272</ann>
 </e>
-<e glyphRefID="563" google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SQUARED KATAKANA LETTER SA" softbank="E228" text_fallback="[サービス]">
-<desc>
-サ: KATAKANA LETTER SA; service charge; for free, on the house;
-</desc>
-<ann>= service sign</ann>
-<ann>x (circled katakana sa - 32DA)</ann>
-<ann># &lt;square&gt; 30B5</ann>
-</e>
 <e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="*1F224">
 <desc>
 指: IDEOGRAPH POINTING; reserved, designated 指定
@@ -2132,7 +2132,7 @@ KATAKANA LETTERS KOKO; destination, here
 祝: IDEOGRAPH CELEBRATION; celebration sign; congratulations; related to &#x3237; U+3237 PARENTHESIZED IDEOGRAPH CONGRATULATION (= ARIB-9308)
 </desc>
 </e>
-<e glyphRefID="565" google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="CIRCLED IDEOGRAPH ADVANTAGE" softbank="E226" text_fallback="[得]">
+<e glyphRefID="565" google="FEB3D" id="B3D" img_from="kddi" kddi="E4F7" name="CIRCLED IDEOGRAPH ADVANTAGE" softbank="E226" text_fallback="[得]" unicode="+1F250">
 <desc>
 得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds
 </desc>
@@ -2148,7 +2148,7 @@ Han character 可; accepted, acceptable
 </e>
 </subcategory>
 <subcategory name="Arithmetic Operators">
-<e glyphRefID="567" google="FEB51" id="B51" img_from="kddi" kddi="E53C" name="HEAVY PLUS SIGN" text_fallback="[＋]">
+<e glyphRefID="567" google="FEB51" id="B51" img_from="kddi" kddi="E53C" name="HEAVY PLUS SIGN" text_fallback="[＋]" unicode="+1F524">
 <desc>
 Not unified with CIRCLED PLUS
 </desc>

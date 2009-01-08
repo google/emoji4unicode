@@ -72,6 +72,21 @@ class UnicodeNamesTest(unittest.TestCase):
       self.failIf(name in new_names, "duplicate name: %s" % name)
       new_names.add(name)
 
+  def testProposedCodePoints(self):
+    """Verify that proposed code points are unique."""
+    cp2n = unicode_names.code_points_to_names
+    all_proposed_uni = set()
+    for symbol in emoji4unicode.GetSymbols():
+      proposed_uni = symbol.GetProposedUnicode()
+      if not proposed_uni: continue
+      self.failIf(proposed_uni in cp2n,
+                  "e-%s proposed U+%s already taken" %
+                  (symbol.id, proposed_uni))
+      self.failIf(proposed_uni in all_proposed_uni,
+                  "e-%s proposed U+%s duplicate" %
+                  (symbol.id, proposed_uni))
+      all_proposed_uni.add(proposed_uni)
+
 
 if __name__ == "__main__":
   unittest.main()
