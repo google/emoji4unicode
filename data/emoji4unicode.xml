@@ -1487,14 +1487,14 @@ wedding chapel
 two loops
 </desc>
 </e>
-<e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210">
+<e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210" unicode="0023+20E3">
 <desc>
-pound key, number sign
+pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="MOBILE Q" text_fallback="[Q]">
+<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" in_proposal="no" name="MOBILE Q" text_fallback="[Q]">
 <desc>
-Q mark
+Mobile Q service
 </desc>
 </e>
 <e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYPAD 1" softbank="E21C" unicode="0031+20E3">
