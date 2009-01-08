@@ -312,6 +312,11 @@ Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)
 chick facing you
 </desc>
 </e>
+<e docomo="&gt;E74F" glyphRefID="152" google="FE1DD" id="1DD" img_from="kddi" kddi="E5DB" name="HATCHING CHICK" softbank="&gt;E523">
+<desc>
+animated by KDDI
+</desc>
+</e>
 <e docomo="E750" glyphRefID="119" google="FE1BC" id="1BC" img_from="kddi" kddi="E4DC" name="PENGUIN" softbank="E055"/>
 <e docomo="E751" glyphRefID="120" google="FE1BD" id="1BD" img_from="docomo" kddi="&gt;E49A" name="FISH" softbank="E019"/>
 <e docomo="E754" glyphRefID="121" google="FE1BE" id="1BE" img_from="kddi" kddi="E4D8" name="HORSE" softbank="E01A"/>
@@ -349,11 +354,6 @@ Note Aries (sheep) by KDDI. Zodiac
 <e glyphRefID="149" google="FE1DA" id="1DA" img_from="kddi" kddi="E4DD" name="ANT" text_fallback="[アリ]"/>
 <e docomo="&gt;E698" glyphRefID="150" google="FE1DB" id="1DB" img_from="kddi" kddi="E4EE" name="DOG PRINTS" softbank="&gt;E536"/>
 <e glyphRefID="151" google="FE1DC" id="1DC" img_from="kddi" kddi="E5D4" name="TURTLE" text_fallback="[カメ]"/>
-<e docomo="&gt;E74F" glyphRefID="152" google="FE1DD" id="1DD" img_from="kddi" kddi="E5DB" name="HATCHING CHICK" softbank="&gt;E523">
-<desc>
-animated by KDDI
-</desc>
-</e>
 <e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="DRAGON" text_fallback="[辰]"/>
 <e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA" text_fallback="[パンダ]"/>
 <e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B"/>
