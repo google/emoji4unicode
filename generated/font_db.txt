@@ -123,7 +123,7 @@
 126	E1C3	2	Human/Living Things	Animals	WHALE		
 127	E1C4	2	Human/Living Things	Animals	MONKEY FACE		
 128	E1C5	2	Human/Living Things	Animals	OCTOPUS		
-129	E1C6	2	Human/Living Things	Animals	SPIRAL SHELL	snail also?	
+129	E1C6	2	Human/Living Things	Animals	SPIRAL SHELL		
 130	E1C7	2	Human/Living Things	Animals	DOLPHIN		
 131	E1C8	2	Human/Living Things	Animals	BIRD		
 132	E1C9	2	Human/Living Things	Animals	TROPICAL FISH		
@@ -293,7 +293,7 @@
 295	E502	4	Artifacts	Miscellaneous Things	BOOK WITH VERTICAL FILL	vertical closed book	
 296	E503	4	Artifacts	Miscellaneous Things	BOOKS	multiple, a stack of books	
 297	E504	4	Artifacts	Miscellaneous Things	NAME BADGE		
-298	E505	4	Artifacts	Bath / Bathroom	BATH	a person taking a bath	
+298	E505	4	Artifacts	Bath / Bathroom	BATH		
 299	E506	4	Artifacts	Bath / Bathroom	RESTROOM		
 300	E507	4	Artifacts	Bath / Bathroom	TOILET		
 301	E508	4	Artifacts	Bath / Bathroom	WATER CLOSET		
@@ -530,7 +530,7 @@
 531	EB1E	7	Abstract Concepts	Other Signs	SMOKING SIGN		
 532	EB1F	7	Abstract Concepts	Other Signs	NO SMOKING SIGN		
 533	EB22	7	Abstract Concepts	Other Signs	TRIANGULAR FLAG ON POST	Location information, a flag	
-534	EB23	7	Abstract Concepts	Other Signs	EXCLAMATION MARK IN TRIANGLE	Danger / Caution / Warning	
+534	EB23	7	Abstract Concepts	Other Signs	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
 535	EB26	7	Abstract Concepts	Other Signs	NO ENTRANCE SIGN	No entrance, no trespassing	
 536	EB33	7	Abstract Concepts	Other Signs	MENS SYMBOL	men's restroom	
 537	EB34	7	Abstract Concepts	Other Signs	WOMENS SYMBOL	woman's restroom symbol	

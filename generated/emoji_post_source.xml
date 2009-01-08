@@ -563,7 +563,7 @@
   <PostScriptName glyphRefID="531" NameString="uniEB1E.smoking_sign" />
   <PostScriptName glyphRefID="532" NameString="uniEB1F.no_smoking_sign" />
   <PostScriptName glyphRefID="533" NameString="uniEB22.triangular_flag_on_post" />
-  <PostScriptName glyphRefID="534" NameString="uniEB23.exclamation_mark_in_triangle" />
+  <PostScriptName glyphRefID="534" NameString=".notdef" />
   <PostScriptName glyphRefID="535" NameString="uniEB26.no_entrance_sign" />
   <PostScriptName glyphRefID="536" NameString="uniEB33.mens_symbol" />
   <PostScriptName glyphRefID="537" NameString="uniEB34.womens_symbol" />

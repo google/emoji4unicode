@@ -322,11 +322,7 @@ chick facing you
 <e glyphRefID="126" google="FE1C3" id="1C3" img_from="softbank" kddi="E470" name="WHALE" softbank="E054" text_fallback="[クジラ]"/>
 <e glyphRefID="127" google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109"/>
 <e glyphRefID="128" google="FE1C5" id="1C5" img_from="kddi" kddi="E5C7" name="OCTOPUS" softbank="E10A" text_fallback="[タコ]"/>
-<e glyphRefID="129" google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]">
-<desc>
-snail also?
-</desc>
-</e>
+<e glyphRefID="129" google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]"/>
 <e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]"/>
 <e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521"/>
 <e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522"/>
@@ -945,11 +941,7 @@ multiple, a stack of books
 <e glyphRefID="297" google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME BADGE" text_fallback="[名札]"/>
 </subcategory>
 <subcategory name="Bath / Bathroom">
-<e docomo="&gt;E6F7" glyphRefID="298" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F">
-<desc>
-a person taking a bath
-</desc>
-</e>
+<e docomo="&gt;E6F7" glyphRefID="298" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F"/>
 <e docomo="E66E" glyphRefID="299" google="FE506" id="506" img_from="docomo" kddi="E4A5" name="RESTROOM" softbank="E151"/>
 <e docomo="&gt;E66E" glyphRefID="300" google="FE507" id="507" img_from="softbank" kddi="&gt;E4A5" name="TOILET" softbank="E140"/>
 <e docomo="&gt;E66E" glyphRefID="301" google="FE508" id="508" img_from="softbank" kddi="&gt;E4A5" name="WATER CLOSET" softbank="E309"/>
@@ -1892,9 +1884,9 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 Location information, a flag
 </desc>
 </e>
-<e docomo="E737" glyphRefID="534" google="FEB23" id="B23" img_from="kddi" kddi="E481" name="EXCLAMATION MARK IN TRIANGLE" softbank="E252">
+<e docomo="E737" glyphRefID="534" google="FEB23" id="B23" img_from="kddi" kddi="E481" name="WARNING SIGN" softbank="E252" unicode="26A0">
 <desc>
-Danger / Caution / Warning
+Unified with U+26A0. Danger / Caution / Warning
 </desc>
 </e>
 <e docomo="&gt;E72F" glyphRefID="535" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRANCE SIGN" softbank="&gt;E137">
