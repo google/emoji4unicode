@@ -358,7 +358,7 @@ Note Aries (sheep) by KDDI. Zodiac
 animated by KDDI
 </desc>
 </e>
-<e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="CHINESE ZODIAC DRAGON" text_fallback="[辰]"/>
+<e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="DRAGON" text_fallback="[辰]"/>
 <e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA" text_fallback="[パンダ]"/>
 <e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B"/>
 <e glyphRefID="156" google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEY BEE" text_fallback="[ミツバチ]"/>

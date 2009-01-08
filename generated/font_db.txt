@@ -147,7 +147,7 @@
 150	E1DB	2	Human/Living Things	Animals	DOG PRINTS		
 151	E1DC	2	Human/Living Things	Animals	TURTLE		
 152	E1DD	2	Human/Living Things	Animals	HATCHING CHICK	animated by KDDI	
-153	E1DE	2	Human/Living Things	Animals	CHINESE ZODIAC DRAGON		
+153	E1DE	2	Human/Living Things	Animals	DRAGON		
 154	E1DF	2	Human/Living Things	Animals	PANDA		
 155	E1E0	2	Human/Living Things	Animals	PIG NOSE		
 156	E1E1	2	Human/Living Things	Animals	HONEY BEE		
