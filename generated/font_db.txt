@@ -127,7 +127,7 @@
 130	E1C7	2	Human/Living Things	Animals	DOLPHIN		
 131	E1C8	2	Human/Living Things	Animals	BIRD		
 132	E1C9	2	Human/Living Things	Animals	TROPICAL FISH		
-133	E1CA	2	Human/Living Things	Animals	HAMSTER	Perhaps Guinea Pig	
+133	E1CA	2	Human/Living Things	Animals	HAMSTER		
 134	E1CB	2	Human/Living Things	Animals	CENTIPEDE		
 135	E1CC	2	Human/Living Things	Animals	ELEPHANT		
 136	E1CD	2	Human/Living Things	Animals	KOALA		

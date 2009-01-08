@@ -330,11 +330,7 @@ snail also?
 <e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]"/>
 <e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521"/>
 <e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522"/>
-<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER" softbank="E524">
-<desc>
-Perhaps Guinea Pig
-</desc>
-</e>
+<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER" softbank="E524"/>
 <e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="CENTIPEDE" softbank="E525" text_fallback="[ゲジゲジ]"/>
 <e glyphRefID="135" google="FE1CC" id="1CC" img_from="kddi" kddi="EB1F" name="ELEPHANT" softbank="E526" text_fallback="[ゾウ]"/>
 <e glyphRefID="136" google="FE1CD" id="1CD" img_from="kddi" kddi="EB20" name="KOALA" softbank="E527" text_fallback="[コアラ]"/>
