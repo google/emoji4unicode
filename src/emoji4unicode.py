@@ -33,6 +33,8 @@ import carrier_data
 import row_cell
 import ucm
 
+_HIGH_UNI = 0x1F300
+
 all_carrier_data = {}
 
 def Load():
@@ -55,13 +57,15 @@ def Load():
   _doc = xml.dom.minidom.parse(e4u_filename)
   _root = _doc.documentElement
   # Preprocess the full set of symbols.
-  proposed_uni = "1F2FF"  # By default, start proposed code points at U+1F300.
+  high_uni = "%04X" % (_HIGH_UNI - 1)
+  proposed_uni = high_uni
   _id_to_proposed_uni = {}
   _kddi_to_google = {}
   for symbol in GetSymbols():
     # Read or enumerate proposed Unicode code points.
     if symbol.in_proposal:
-      proposed_uni = symbol._SetProposedUnicode(proposed_uni)
+      (proposed_uni, high_uni) = symbol._SetProposedUnicode(proposed_uni,
+                                                            high_uni)
     # Map from KDDI to Google for Google-hosted symbol.CarrierImageHTML().
     kddi_uni = symbol.GetCarrierUnicode("kddi")
     if kddi_uni and not kddi_uni.startswith(">"):
@@ -277,21 +281,27 @@ class Symbol(object):
     if uni: return uni
     return u""
 
-  def _SetProposedUnicode(self, prev_proposed_uni):
+  def _SetProposedUnicode(self, prev_proposed_uni, prev_high_uni):
     """Internal: Set the proposed Unicode code point or sequence."""
     uni = self.__element.getAttribute("unicode")
-    if uni.startswith("+"):
+    if uni == u"+":
+      # Continue after the previous high Unicode code point.
+      # (Does not work for code point sequences.)
+      proposed_uni = "%04X" % (int(prev_high_uni, 16) + 1)
+    elif uni.startswith(u"+"):
       proposed_uni = uni[1:]
     elif uni:
       # Unified with another character.
       # Do not set a proposed code point.
-      return prev_proposed_uni
+      return (prev_proposed_uni, prev_high_uni)
     else:
       # Increment the proposed Unicode code point.
       # (Does not work for code point sequences.)
       proposed_uni = "%04X" % (int(prev_proposed_uni, 16) + 1)
     _id_to_proposed_uni[self.id] = proposed_uni
-    return proposed_uni
+    if not u"+" in proposed_uni and int(proposed_uni, 16) >= _HIGH_UNI:
+      prev_high_uni = proposed_uni
+    return (proposed_uni, prev_high_uni)
 
   def GetARIB(self):
     """Get the code of the ARIB symbol corresponding to this Emoji symbol.
