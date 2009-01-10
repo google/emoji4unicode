@@ -73,6 +73,7 @@ body {
 }
 .efont {
   font-family: Apple Emoji;
+  font-size: 36pt;
 }
 .name_anno {
   font-size: 80%;
@@ -225,14 +226,11 @@ def _RepresentationHTML(e4u_symbol):
   font_uni = e4u_symbol.GetFontUnicode()
   font_img = u"<img src='../fontimg/AEmoji_%s.png' class='fontimg'>" % font_uni
   if e4u_symbol.in_proposal:
-    glyph_id = e4u_symbol.GetGlyphRefID()
     if _show_font_chars:
       font_str = utf.UTF.CodePointString(int(font_uni, 16))
-      repr = (u"<span class='efont'>%s</span><sub>glyph%d</sub>=%s" %
-              (font_str, glyph_id, font_img))
+      repr = u"<span class='efont'>%s</span>=%s" % (font_str, font_img)
       if img: repr += u"\u2248" + img
     else:
-      # repr = u"glyph%d" % glyph_id
       repr = font_img
     proposed_uni = e4u_symbol.GetProposedUnicode()
     if proposed_uni:
