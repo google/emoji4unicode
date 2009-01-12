@@ -18,7 +18,7 @@
 21	E018	1	Nature	Time	SOON WITH RIGHT ARROW ABOVE	soon	
 22	E019	1	Nature	Time	ON WITH DOUBLE POINTING ARROW ABOVE		
 23	E01A	1	Nature	Time	END WITH LEFT ARROW ABOVE		
-24	E01B	1	Nature	Time	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU	
+24	E01B	1	Nature	Time	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.	
 25	E01E	1	Nature	Time	CLOCK FACE ONE OCLOCK		
 26	E01F	1	Nature	Time	CLOCK FACE TWO OCLOCK		
 27	E020	1	Nature	Time	CLOCK FACE THREE OCLOCK		
@@ -327,8 +327,8 @@
 330	E526	4	Artifacts	Communication	PHONE WITH ARROW	making a phone call	
 331	E527	4	Artifacts	Communication	MEMO		
 332	E528	4	Artifacts	Communication	FAX		
-333	E52A	4	Artifacts	Communication	INCOMING ENVELOPE	Mail (with cartoon movement marks)	
-334	E52B	4	Artifacts	Communication	ENVELOPE WITH ARROW	sending mail	
+333	E52A	4	Artifacts	Communication	INCOMING ENVELOPE	Mail (with cartoon movement marks). Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
+334	E52B	4	Artifacts	Communication	ENVELOPE WITH ARROW	Sending mail. Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
 335	E52C	4	Artifacts	Communication	MAILBOX	a letter box, mail reception	
 336	E52D	4	Artifacts	Communication	MAILBOX WITH RAISED FLAG		
 337	E52E	4	Artifacts	Communication	POSTBOX	mailbox for sending mail	
