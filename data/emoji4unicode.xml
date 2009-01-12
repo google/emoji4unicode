@@ -1477,9 +1477,9 @@ wedding chapel
 </e>
 </subcategory>
 <subcategory name="Phone Specific">
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]">
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23F6">
 <desc>
-two loops
+Two loops. Occurs widely in print in Japan.
 </desc>
 </e>
 <e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210" unicode="0023+20E3">
@@ -1542,7 +1542,7 @@ Unify with ASCII 9 (U+0039) + (U+20E3)
 Unify with ASCII 0 (U+0030) + (U+20E3)
 </desc>
 </e>
-<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD TEN" text_fallback="[10]">
+<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD TEN" text_fallback="[10]" unicode="+">
 <design>Should look like digits 10 enclosed by a keycap like &#xA0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
 </e>
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">

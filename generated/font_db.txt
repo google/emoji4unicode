@@ -456,7 +456,7 @@
 458	E828	5	Activities/Work/Entertainment	Romance	BOUQUET		
 459	E829	5	Activities/Work/Entertainment	Romance	COUPLE		
 460	E82A	5	Activities/Work/Entertainment	Romance	WEDDING	wedding chapel	
-461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	two loops	
+461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	Two loops. Occurs widely in print in Japan.	
 462	E82C	5	Activities/Work/Entertainment	Phone Specific	HASH KEY	pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)	**Symbol no longer proposed for new encoding**
 463	E82D	5	Activities/Work/Entertainment	Phone Specific	MOBILE Q	Mobile Q service	**Symbol no longer proposed for new encoding**
 467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYPAD TEN		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
