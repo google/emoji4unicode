@@ -947,9 +947,9 @@ multiple, a stack of books
 with blood
 </desc>
 </e>
-<e glyphRefID="303" google="FE50A" id="50A" img_from="kddi" kddi="EA9A" name="CAPSULE PILL" softbank="E30F" text_fallback="[薬]">
+<e glyphRefID="303" google="FE50A" id="50A" img_from="kddi" kddi="EA9A" name="PILL" softbank="E30F" text_fallback="[薬]">
 <desc>
-medicine, cold medicine
+The carrier Emoji shows a capsule but the name is simply "medicine". So a more generic name is given.  Also used for cold medicine.
 </desc>
 </e>
 <e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="BLOOD TYPE A" softbank="E532" text_fallback="[A]" unicode="+1F190"/>
@@ -959,7 +959,7 @@ medicine, cold medicine
 </subcategory>
 <subcategory name="Celebration / Holidays">
 <e docomo="E684" glyphRefID="308" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314" unicode="+"/>
-<e docomo="E685" glyphRefID="309" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="PRESENT" softbank="E112"/>
+<e docomo="E685" glyphRefID="309" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="WRAPPED PRSENT" softbank="E112"/>
 <e docomo="E686" glyphRefID="310" google="FE511" id="511" img_from="kddi" kddi="E5A0" name="BIRTHDAY CAKE" softbank="E34B">
 <desc>
 birthday
@@ -1131,7 +1131,7 @@ MD mini disc
 </e>
 <e glyphRefID="355" google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK" softbank="&gt;E316" text_fallback="[フロッピー]"/>
 <e docomo="E675" google="FE53E" id="53E" kddi="E516" name="BLACK SCISSORS" softbank="E313" unicode="2702"/>
-<e glyphRefID="356" google="FE53F" id="53F" img_from="kddi" kddi="E560" name="PUSHPIN" text_fallback="φ"/>
+<e glyphRefID="356" google="FE53F" id="53F" img_from="kddi" kddi="E560" name="ROUND PUSHPIN" text_fallback="φ"/>
 <e docomo="&gt;E689" glyphRefID="357" google="FE540" id="540" img_from="kddi" kddi="E561" name="PAGE WITH CURL" softbank="&gt;E301"/>
 <e docomo="&gt;E689" glyphRefID="358" google="FE541" id="541" img_from="kddi" kddi="E569" name="PAGE FACING UP" softbank="&gt;E301"/>
 <e glyphRefID="359" google="FE542" id="542" img_from="kddi" kddi="E563" name="CALENDAR" text_fallback="[カレンダー]"/>
@@ -1162,7 +1162,7 @@ bar graph
 <e glyphRefID="368" google="FE54B" id="54B" img_from="kddi" kddi="E575" name="CHART WITH UPWARDS TREND" softbank="&gt;E14A" text_fallback="[グラフ]"/>
 <e glyphRefID="369" google="FE54C" id="54C" img_from="kddi" kddi="E576" name="CHART WITH DOWNWARDS TREND" text_fallback="[グラフ]"/>
 <e docomo="&gt;E683" glyphRefID="370" google="FE54D" id="54D" img_from="kddi" kddi="E56C" name="CARD INDEX" softbank="&gt;E148"/>
-<e glyphRefID="371" google="FE54E" id="54E" img_from="kddi" kddi="E56D" name="THUMBTACK" text_fallback="[画びょう]"/>
+<e glyphRefID="371" google="FE54E" id="54E" img_from="kddi" kddi="E56D" name="PUSHPIN" text_fallback="[画びょう]"/>
 <e docomo="&gt;E683" glyphRefID="372" google="FE54F" id="54F" img_from="kddi" kddi="E56E" name="LEDGER" softbank="&gt;E148">
 <desc>
 real estate original record book, financial books,
@@ -1423,7 +1423,7 @@ dancing notes, mood, melody. (tentatively disunified from &#x266B; U+266B)
 </e>
 <e glyphRefID="439" google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040"/>
 <e glyphRefID="440" google="FE816" id="816" img_from="kddi" kddi="E506" name="GUITAR" softbank="E041" text_fallback="[ギター]"/>
-<e glyphRefID="441" google="FE817" id="817" img_from="kddi" kddi="EB40" name="PIANO" text_fallback="[ピアノ]"/>
+<e glyphRefID="441" google="FE817" id="817" img_from="kddi" kddi="EB40" name="MUSICAL KEYBOARD" text_fallback="[ピアノ]"/>
 <e glyphRefID="442" google="FE818" id="818" img_from="kddi" kddi="EADC" name="TRUMPET" softbank="E042" text_fallback="[トランペット]"/>
 <e glyphRefID="443" google="FE819" id="819" img_from="kddi" kddi="E507" name="VIOLIN" text_fallback="[バイオリン]"/>
 <e docomo="&gt;E6FF" glyphRefID="444" google="FE81A" id="81A" img_from="kddi" kddi="EACC" name="MUSICAL SCORE" softbank="&gt;E326">

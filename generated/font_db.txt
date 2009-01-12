@@ -297,13 +297,13 @@
 300	E507	4	Artifacts	Bath / Bathroom	TOILET		
 301	E508	4	Artifacts	Bath / Bathroom	WATER CLOSET		
 302	E509	4	Artifacts	Medical	SYRINGE	with blood	
-303	E50A	4	Artifacts	Medical	CAPSULE PILL	medicine, cold medicine	
+303	E50A	4	Artifacts	Medical	PILL	The carrier Emoji shows a capsule but the name is simply "medicine". So a more generic name is given. Also used for cold medicine.	
 304	E50B	4	Artifacts	Medical	BLOOD TYPE A		
 305	E50C	4	Artifacts	Medical	BLOOD TYPE B		
 306	E50D	4	Artifacts	Medical	BLOOD TYPE AB		
 307	E50E	4	Artifacts	Medical	BLOOD TYPE O		
 308	E50F	4	Artifacts	Celebration / Holidays	RIBBON		
-309	E510	4	Artifacts	Celebration / Holidays	PRESENT		
+309	E510	4	Artifacts	Celebration / Holidays	WRAPPED PRSENT		
 310	E511	4	Artifacts	Celebration / Holidays	BIRTHDAY CAKE	birthday	
 311	E512	4	Artifacts	Celebration / Holidays	CHRISTMAS TREE		
 312	E513	4	Artifacts	Celebration / Holidays	SANTA CLAUS		
@@ -350,7 +350,7 @@
 353	E53B	4	Artifacts	Office	BRIEFCASE		
 354	E53C	4	Artifacts	Office	MINI DISC	MD mini disc	
 355	E53D	4	Artifacts	Office	FLOPPY DISK		
-356	E53F	4	Artifacts	Office	PUSHPIN		
+356	E53F	4	Artifacts	Office	ROUND PUSHPIN		
 357	E540	4	Artifacts	Office	PAGE WITH CURL		
 358	E541	4	Artifacts	Office	PAGE FACING UP		
 359	E542	4	Artifacts	Office	CALENDAR		
@@ -365,7 +365,7 @@
 368	E54B	4	Artifacts	Office	CHART WITH UPWARDS TREND		
 369	E54C	4	Artifacts	Office	CHART WITH DOWNWARDS TREND		
 370	E54D	4	Artifacts	Office	CARD INDEX		
-371	E54E	4	Artifacts	Office	THUMBTACK		
+371	E54E	4	Artifacts	Office	PUSHPIN		
 372	E54F	4	Artifacts	Office	LEDGER	real estate original record book, financial books,	
 373	E550	4	Artifacts	Office	STRAIGHT RULER		
 374	E551	4	Artifacts	Office	TRIANGULAR RULER		
@@ -436,7 +436,7 @@
 438	E814	5	Activities/Work/Entertainment	Music	MULTIPLE MUSICAL NOTES	dancing notes, mood, melody. (tentatively disunified from ♫ U+266B)	
 439	E815	5	Activities/Work/Entertainment	Music	SAXOPHONE		
 440	E816	5	Activities/Work/Entertainment	Music	GUITAR		
-441	E817	5	Activities/Work/Entertainment	Music	PIANO		
+441	E817	5	Activities/Work/Entertainment	Music	MUSICAL KEYBOARD		
 442	E818	5	Activities/Work/Entertainment	Music	TRUMPET		
 443	E819	5	Activities/Work/Entertainment	Music	VIOLIN		
 444	E81A	5	Activities/Work/Entertainment	Music	MUSICAL SCORE	tentatively disunified from U+1D11E	

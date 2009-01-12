@@ -332,13 +332,13 @@
   <PostScriptName glyphRefID="300" NameString="uniE507.toilet" />
   <PostScriptName glyphRefID="301" NameString="uniE508.water_closet" />
   <PostScriptName glyphRefID="302" NameString="uniE509.syringe" />
-  <PostScriptName glyphRefID="303" NameString="uniE50A.capsule_pill" />
+  <PostScriptName glyphRefID="303" NameString="uniE50A.pill" />
   <PostScriptName glyphRefID="304" NameString="uniE50B.blood_type_a" />
   <PostScriptName glyphRefID="305" NameString="uniE50C.blood_type_b" />
   <PostScriptName glyphRefID="306" NameString="uniE50D.blood_type_ab" />
   <PostScriptName glyphRefID="307" NameString="uniE50E.blood_type_o" />
   <PostScriptName glyphRefID="308" NameString="uniE50F.ribbon" />
-  <PostScriptName glyphRefID="309" NameString="uniE510.present" />
+  <PostScriptName glyphRefID="309" NameString="uniE510.wrapped_prsent" />
   <PostScriptName glyphRefID="310" NameString="uniE511.birthday_cake" />
   <PostScriptName glyphRefID="311" NameString="uniE512.christmas_tree" />
   <PostScriptName glyphRefID="312" NameString="uniE513.santa_claus" />
@@ -385,7 +385,7 @@
   <PostScriptName glyphRefID="353" NameString="uniE53B.briefcase" />
   <PostScriptName glyphRefID="354" NameString="uniE53C.mini_disc" />
   <PostScriptName glyphRefID="355" NameString="uniE53D.floppy_disk" />
-  <PostScriptName glyphRefID="356" NameString="uniE53F.pushpin" />
+  <PostScriptName glyphRefID="356" NameString="uniE53F.round_pushpin" />
   <PostScriptName glyphRefID="357" NameString="uniE540.page_with_curl" />
   <PostScriptName glyphRefID="358" NameString="uniE541.page_facing_up" />
   <PostScriptName glyphRefID="359" NameString="uniE542.calendar" />
@@ -400,7 +400,7 @@
   <PostScriptName glyphRefID="368" NameString="uniE54B.chart_with_upwards_trend" />
   <PostScriptName glyphRefID="369" NameString="uniE54C.chart_with_downwards_trend" />
   <PostScriptName glyphRefID="370" NameString="uniE54D.card_index" />
-  <PostScriptName glyphRefID="371" NameString="uniE54E.thumbtack" />
+  <PostScriptName glyphRefID="371" NameString="uniE54E.pushpin" />
   <PostScriptName glyphRefID="372" NameString="uniE54F.ledger" />
   <PostScriptName glyphRefID="373" NameString="uniE550.straight_ruler" />
   <PostScriptName glyphRefID="374" NameString="uniE551.triangular_ruler" />
@@ -470,7 +470,7 @@
   <PostScriptName glyphRefID="438" NameString="uniE814.multiple_musical_notes" />
   <PostScriptName glyphRefID="439" NameString="uniE815.saxophone" />
   <PostScriptName glyphRefID="440" NameString="uniE816.guitar" />
-  <PostScriptName glyphRefID="441" NameString="uniE817.piano" />
+  <PostScriptName glyphRefID="441" NameString="uniE817.musical_keyboard" />
   <PostScriptName glyphRefID="442" NameString="uniE818.trumpet" />
   <PostScriptName glyphRefID="443" NameString="uniE819.violin" />
   <PostScriptName glyphRefID="444" NameString="uniE81A.musical_score" />
