@@ -77,14 +77,14 @@ soon
 </e>
 <e docomo="E6B8" glyphRefID="22" google="FE019" id="019" img_from="docomo" name="ON WITH DOUBLE POINTING ARROW ABOVE" text_fallback="[ON]"/>
 <e docomo="E6B9" glyphRefID="23" google="FE01A" id="01A" img_from="docomo" name="END WITH LEFT ARROW ABOVE" text_fallback="[end]"/>
-<e docomo="E71C" glyphRefID="24" google="FE01B" id="01B" img_from="kddi" kddi="E47C" name="HOURGLASS WITH FLOWING SAND" text_fallback="[砂時計]" unicode="+23E9">
+<e docomo="E71C" glyphRefID="24" google="FE01B" id="01B" img_from="kddi" kddi="E47C" name="HOURGLASS WITH FLOWING SAND" text_fallback="[砂時計]">
 <desc>
-Sometimes animated as by KDDI/AU
+Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.
 </desc>
 </e>
 <e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
 <e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
-<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024"/>
+<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024" unicode="+23E9"/>
 <e docomo="&gt;E6BA" glyphRefID="26" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWO OCLOCK" softbank="E025"/>
 <e docomo="&gt;E6BA" glyphRefID="27" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE THREE OCLOCK" softbank="E026"/>
 <e docomo="&gt;E6BA" glyphRefID="28" google="FE021" id="021" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE FOUR OCLOCK" softbank="E027"/>
@@ -952,13 +952,13 @@ with blood
 medicine, cold medicine
 </desc>
 </e>
-<e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="BLOOD TYPE A" softbank="E532" text_fallback="[A]"/>
+<e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="BLOOD TYPE A" softbank="E532" text_fallback="[A]" unicode="+1F190"/>
 <e glyphRefID="305" google="FE50C" id="50C" img_from="kddi" kddi="EB27" name="BLOOD TYPE B" softbank="E533" text_fallback="[B]"/>
 <e glyphRefID="306" google="FE50D" id="50D" img_from="kddi" kddi="EB29" name="BLOOD TYPE AB" softbank="E534" text_fallback="[AB]"/>
 <e glyphRefID="307" google="FE50E" id="50E" img_from="kddi" kddi="EB28" name="BLOOD TYPE O" softbank="E535" text_fallback="[O]"/>
 </subcategory>
 <subcategory name="Celebration / Holidays">
-<e docomo="E684" glyphRefID="308" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314"/>
+<e docomo="E684" glyphRefID="308" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314" unicode="+"/>
 <e docomo="E685" glyphRefID="309" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="PRESENT" softbank="E112"/>
 <e docomo="E686" glyphRefID="310" google="FE511" id="511" img_from="kddi" kddi="E5A0" name="BIRTHDAY CAKE" softbank="E34B">
 <desc>
@@ -1041,12 +1041,12 @@ mail
 </e>
 <e docomo="&gt;E6CF" glyphRefID="333" google="FE52A" id="52A" img_from="kddi" kddi="E591" name="INCOMING ENVELOPE" softbank="&gt;E103">
 <desc>
-Mail (with cartoon movement marks)
+Mail (with cartoon movement marks). Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.
 </desc>
 </e>
 <e docomo="E6CF" glyphRefID="334" google="FE52B" id="52B" img_from="docomo" kddi="EB62" name="ENVELOPE WITH ARROW" softbank="E103">
 <desc>
-sending mail
+Sending mail. Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.
 </desc>
 </e>
 <e docomo="&gt;E665" glyphRefID="335" google="FE52C" id="52C" img_from="softbank" kddi="E51B" name="MAILBOX" softbank="E101">
@@ -1083,7 +1083,7 @@ comic book conversation bubble
 <e glyphRefID="342" google="FE533" id="533" img_from="kddi" kddi="E592" name="OUTBOX TRAY" text_fallback="[送信BOX]"/>
 <e glyphRefID="343" google="FE534" id="534" img_from="kddi" kddi="E593" name="INBOX TRAY" text_fallback="[受信BOX]"/>
 <e docomo="&gt;E685" glyphRefID="344" google="FE535" id="535" img_from="kddi" kddi="E51F" name="PACKAGE" softbank="&gt;E112"/>
-<e glyphRefID="345" google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]">
+<e glyphRefID="345" google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]" unicode="+1F1A0">
 <desc>
 Letters (ABCD, uppercase)
 </desc>
@@ -1115,7 +1115,7 @@ English (ABC)
 editing, Docomo has WHITE NIB. Tentatively unified with BLACK NIB
 </desc>
 </e>
-<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="CHAIR" softbank="E11F" text_fallback="[いす]"/>
+<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="CHAIR" softbank="E11F" text_fallback="[いす]" unicode="+"/>
 <e docomo="E716" glyphRefID="351" google="FE538" id="538" img_from="docomo" kddi="E5B8" name="COMPUTER" softbank="E00C"/>
 <e docomo="E719" google="FE539" id="539" kddi="E4A1" name="PENCIL" softbank="&gt;E301" unicode="270F">
 <desc>
