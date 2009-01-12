@@ -24,9 +24,12 @@ Verify that
 
 __author__ = "Markus Scherer"
 
+import re
 import unittest
 import emoji4unicode
 import unicode_names
+
+_INITIAL_DIGIT_RE = re.compile("(^[0-9])|( [0-9])")
 
 class UnicodeNamesTest(unittest.TestCase):
   def setUp(self):
@@ -45,6 +48,7 @@ class UnicodeNamesTest(unittest.TestCase):
     differences = []
     collisions = []
     for symbol in emoji4unicode.GetSymbols():
+      if not symbol.in_proposal: continue
       name = symbol.GetName()
       uni = symbol.GetUnicode()
       if uni:
@@ -55,6 +59,9 @@ class UnicodeNamesTest(unittest.TestCase):
           print msg
           differences.append(msg)
       else:
+        self.failIf(_INITIAL_DIGIT_RE.search(name),
+                    "name %s of e-%s contains a word-initial digit" %
+                    (name, symbol.id))
         uni = n2cp.get(name)
         if uni:
           msg = "name of e-%s %s collides with U+%s" % (symbol.id, name, uni)

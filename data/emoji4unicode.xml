@@ -84,20 +84,20 @@ Sometimes animated as by KDDI/AU
 </e>
 <e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
 <e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
-<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="1 OCLOCK" softbank="E024"/>
-<e docomo="&gt;E6BA" glyphRefID="26" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="2 OCLOCK" softbank="E025"/>
-<e docomo="&gt;E6BA" glyphRefID="27" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="3 OCLOCK" softbank="E026"/>
-<e docomo="&gt;E6BA" glyphRefID="28" google="FE021" id="021" img_from="softbank" kddi="&gt;E594" name="4 OCLOCK" softbank="E027"/>
-<e docomo="&gt;E6BA" glyphRefID="29" google="FE022" id="022" img_from="softbank" kddi="&gt;E594" name="5 OCLOCK" softbank="E028"/>
-<e docomo="&gt;E6BA" glyphRefID="30" google="FE023" id="023" img_from="softbank" kddi="&gt;E594" name="6 OCLOCK" softbank="E029"/>
-<e docomo="&gt;E6BA" glyphRefID="31" google="FE024" id="024" img_from="softbank" kddi="&gt;E594" name="7 OCLOCK" softbank="E02A"/>
-<e docomo="&gt;E6BA" glyphRefID="32" google="FE025" id="025" img_from="softbank" kddi="&gt;E594" name="8 OCLOCK" softbank="E02B"/>
-<e docomo="&gt;E6BA" glyphRefID="33" google="FE026" id="026" img_from="softbank" kddi="&gt;E594" name="9 OCLOCK" softbank="E02C"/>
-<e docomo="&gt;E6BA" glyphRefID="34" google="FE027" id="027" img_from="softbank" kddi="&gt;E594" name="10 OCLOCK" softbank="E02D">
+<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024"/>
+<e docomo="&gt;E6BA" glyphRefID="26" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWO OCLOCK" softbank="E025"/>
+<e docomo="&gt;E6BA" glyphRefID="27" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE THREE OCLOCK" softbank="E026"/>
+<e docomo="&gt;E6BA" glyphRefID="28" google="FE021" id="021" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE FOUR OCLOCK" softbank="E027"/>
+<e docomo="&gt;E6BA" glyphRefID="29" google="FE022" id="022" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE FIVE OCLOCK" softbank="E028"/>
+<e docomo="&gt;E6BA" glyphRefID="30" google="FE023" id="023" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE SIX OCLOCK" softbank="E029"/>
+<e docomo="&gt;E6BA" glyphRefID="31" google="FE024" id="024" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE SEVEN OCLOCK" softbank="E02A"/>
+<e docomo="&gt;E6BA" glyphRefID="32" google="FE025" id="025" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE EIGHT OCLOCK" softbank="E02B"/>
+<e docomo="&gt;E6BA" glyphRefID="33" google="FE026" id="026" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE NINE OCLOCK" softbank="E02C"/>
+<e docomo="&gt;E6BA" glyphRefID="34" google="FE027" id="027" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TEN OCLOCK" softbank="E02D">
 <design>For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.</design>
 </e>
-<e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="11 OCLOCK" softbank="E02E"/>
-<e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="12 OCLOCK" softbank="E02F"/>
+<e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ELEVEN OCLOCK" softbank="E02E"/>
+<e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWELVE OCLOCK" softbank="E02F"/>
 <e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="CLOCK SYMBOL" softbank="&gt;E02D">
 <desc>
 a general clock symbol
@@ -1547,7 +1547,7 @@ Unify with ASCII 9 (U+0039) + (U+20E3)
 Unify with ASCII 0 (U+0030) + (U+20E3)
 </desc>
 </e>
-<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD 10" text_fallback="[10]">
+<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD TEN" text_fallback="[10]">
 <design>Should look like digits 10 enclosed by a keycap like &#xA0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
 </e>
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">
