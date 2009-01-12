@@ -218,8 +218,10 @@ def _RepresentationHTML(e4u_symbol):
     if e4u_symbol.IsUnifiedWithUpcomingCharacter():
       # Print only code points, not also characters,
       # because no one will have a font for these.
-      return (u"<span class='upcoming'>U5.2</span><br>"
-               "U+" + uni.replace("+", " U+"))
+      # return (u"<span class='upcoming'>U5.2</span><br>"
+      #          "U+" + uni.replace("+", " U+"))
+      font_img = u"<img src='../uni52img/U+%s.jpg' class='fontimg'>" % uni
+      return font_img + u"<br>U+" + uni.replace("+", " U+")
     else:
       return _UnicodeHTML(uni)
   img = e4u_symbol.ImageHTML()
