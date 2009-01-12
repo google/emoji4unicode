@@ -1431,9 +1431,9 @@ dancing notes, mood, melody. (tentatively disunified from &#x266B; U+266B)
 tentatively disunified from U+1D11E
 </desc>
 </e>
-<e glyphRefID="445" google="FE81B" id="81B" img_from="softbank" name="START SINGING SYMBOL" softbank="E12C" text_fallback="[グラフ]">
+<e glyphRefID="445" google="FE81B" id="81B" img_from="softbank" name="PART ALTERNATION MARK" softbank="E12C" text_fallback="[グラフ]" unicode="303D">
 <desc>
-indicator for the 1st vocal part of a song
+Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song
 </desc>
 </e>
 </subcategory>

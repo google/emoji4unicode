@@ -440,7 +440,7 @@
 442	E818	5	Activities/Work/Entertainment	Music	TRUMPET		
 443	E819	5	Activities/Work/Entertainment	Music	VIOLIN		
 444	E81A	5	Activities/Work/Entertainment	Music	MUSICAL SCORE	tentatively disunified from U+1D11E	
-445	E81B	5	Activities/Work/Entertainment	Music	START SINGING SYMBOL	indicator for the 1st vocal part of a song	
+445	E81B	5	Activities/Work/Entertainment	Music	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
 446	E81C	5	Activities/Work/Entertainment	Media	TV		
 447	E81D	5	Activities/Work/Entertainment	Media	CD		
 448	E81E	5	Activities/Work/Entertainment	Media	DVD		
