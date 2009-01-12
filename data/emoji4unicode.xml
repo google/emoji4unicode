@@ -2038,13 +2038,14 @@ search, hunt for the missing
 </e>
 </subcategory>
 <subcategory name="Enclosed Ideographs and Kana">
-<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="HERE SIGN" softbank="E203" text_fallback="[ｺｺ]" unicode="+1F201">
+<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="SQUARED KATAKANA KOKO" softbank="E203" text_fallback="[ｺｺ]" unicode="+1F201">
 <desc>
 KATAKANA LETTERS KOKO; destination, here
 </desc>
+<ann>= here sign</ann>
 <ann># &lt;square&gt; 30B3 30B3</ann>
 </e>
-<e glyphRefID="563" google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SQUARED KATAKANA LETTER SA" softbank="E228" text_fallback="[サービス]">
+<e glyphRefID="563" google="FEB3F" id="B3F" img_from="kddi" kddi="EA87" name="SQUARED KATAKANA SA" softbank="E228" text_fallback="[サービス]">
 <desc>
 サ: KATAKANA LETTER SA; service charge; for free, on the house;
 </desc>
