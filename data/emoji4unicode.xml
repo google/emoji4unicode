@@ -746,8 +746,19 @@ mallet
 <e glyphRefID="240" google="FE4CB" id="4CB" img_from="kddi" kddi="E581" name="NUT AND BOLT" text_fallback="[ネジ]"/>
 </subcategory>
 <subcategory name="Clothing / Wearables">
-<e docomo="&gt;E699" glyphRefID="241" google="FE4CC" id="4CC" img_from="kddi" kddi="E5B7" name="MENS SHOE" softbank="&gt;E007"/>
+<e docomo="&gt;E699" glyphRefID="241" google="FE4CC" id="4CC" img_from="kddi" kddi="E5B7" name="MANS SHOE" softbank="&gt;E007"/>
 <e docomo="E699" glyphRefID="242" google="FE4CD" id="4CD" img_from="kddi" kddi="EB2B" name="SNEAKER" softbank="E007"/>
+<e docomo="E674" glyphRefID="251" google="FE4D6" id="4D6" img_from="docomo" kddi="E51A" name="HIGH-HEELED SHOE" softbank="E13E"/>
+<e docomo="&gt;E674" glyphRefID="252" google="FE4D7" id="4D7" img_from="softbank" kddi="&gt;E51A" name="WOMANS SANDAL" softbank="E31A">
+<desc>
+woman's sandal with open toe, slipper
+</desc>
+</e>
+<e glyphRefID="253" google="FE4D8" id="4D8" img_from="kddi" kddi="EA9F" name="WOMANS BOOTS" softbank="E31B" text_fallback="[ブーツ]">
+<desc>
+usually woman's boots
+</desc>
+</e>
 <e docomo="E69A" glyphRefID="243" google="FE4CE" id="4CE" img_from="docomo" kddi="E4FE" name="GLASSES" text_fallback="[メガネ]"/>
 <e docomo="E70E" glyphRefID="244" google="FE4CF" id="4CF" img_from="docomo" kddi="E5B6" name="T-SHIRT" softbank="E006"/>
 <e docomo="E711" glyphRefID="245" google="FE4D0" id="4D0" img_from="docomo" kddi="EB77" name="JEANS" text_fallback="[ジーンズ]"/>
@@ -756,31 +767,15 @@ mallet
 Not the same as &#x2655; U+2655 WHITE CHESS KING
 </desc>
 </e>
-<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="EMBLEM" softbank="E031">
-<desc>
-a crown like symbol?
-</desc>
-</e>
 <e glyphRefID="248" google="FE4D3" id="4D3" img_from="kddi" kddi="EA93" name="NECKTIE" softbank="E302" text_fallback="[ネクタイ]"/>
-<e glyphRefID="249" google="FE4D4" id="4D4" img_from="kddi" kddi="EA9E" name="LADIES HAT" softbank="E318" text_fallback="[帽子]"/>
+<e glyphRefID="249" google="FE4D4" id="4D4" img_from="kddi" kddi="EA9E" name="WOMANS HAT" softbank="E318" text_fallback="[帽子]"/>
 <e glyphRefID="250" google="FE4D5" id="4D5" img_from="kddi" kddi="EB6B" name="DRESS" softbank="E319" text_fallback="[ドレス]"/>
-<e docomo="E674" glyphRefID="251" google="FE4D6" id="4D6" img_from="docomo" kddi="E51A" name="HIGH HEELED SHOE" softbank="E13E"/>
-<e docomo="&gt;E674" glyphRefID="252" google="FE4D7" id="4D7" img_from="softbank" kddi="&gt;E51A" name="MULE" softbank="E31A">
-<desc>
-woman's sandal with open toe, slipper
-</desc>
-</e>
-<e glyphRefID="253" google="FE4D8" id="4D8" img_from="kddi" kddi="EA9F" name="LONG BOOTS" softbank="E31B" text_fallback="[ブーツ]">
-<desc>
-usually woman's boots
-</desc>
-</e>
 <e glyphRefID="254" google="FE4D9" id="4D9" img_from="kddi" kddi="EAA3" name="KIMONO" softbank="E321" text_fallback="[着物]"/>
 <e glyphRefID="255" google="FE4DA" id="4DA" img_from="kddi" kddi="EAA4" name="BIKINI" softbank="E322" text_fallback="[ビキニ]"/>
 <e docomo="&gt;E70E" glyphRefID="256" google="FE4DB" id="4DB" img_from="kddi" kddi="E50D" name="WOMANS CLOTHES" softbank="&gt;E006"/>
+<e docomo="E70F" glyphRefID="257" google="FE4DC" id="4DC" img_from="docomo" kddi="E504" name="PURSE" text_fallback="[財布]"/>
 </subcategory>
 <subcategory name="Money">
-<e docomo="E70F" glyphRefID="257" google="FE4DC" id="4DC" img_from="docomo" kddi="E504" name="PURSE" text_fallback="[財布]"/>
 <e docomo="E715" glyphRefID="258" google="FE4DD" id="4DD" img_from="kddi" kddi="E4C7" name="MONEY BAG" softbank="E12F">
 <desc>
 a bag with a dollar or yen sign
@@ -1889,6 +1884,11 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 <e docomo="E67F" glyphRefID="531" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
 <e docomo="E680" glyphRefID="532" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
+<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="EMBLEM" softbank="E031">
+<desc>
+a crown like symbol?
+</desc>
+</e>
 <e docomo="E6DE" glyphRefID="533" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]">
 <desc>
 Location information, a flag

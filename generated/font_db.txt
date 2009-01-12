@@ -19,18 +19,18 @@
 22	E019	1	Nature	Time	ON WITH DOUBLE POINTING ARROW ABOVE		
 23	E01A	1	Nature	Time	END WITH LEFT ARROW ABOVE		
 24	E01B	1	Nature	Time	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU	
-25	E01E	1	Nature	Time	1 OCLOCK		
-26	E01F	1	Nature	Time	2 OCLOCK		
-27	E020	1	Nature	Time	3 OCLOCK		
-28	E021	1	Nature	Time	4 OCLOCK		
-29	E022	1	Nature	Time	5 OCLOCK		
-30	E023	1	Nature	Time	6 OCLOCK		
-31	E024	1	Nature	Time	7 OCLOCK		
-32	E025	1	Nature	Time	8 OCLOCK		
-33	E026	1	Nature	Time	9 OCLOCK		
-34	E027	1	Nature	Time	10 OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
-35	E028	1	Nature	Time	11 OCLOCK		
-36	E029	1	Nature	Time	12 OCLOCK		
+25	E01E	1	Nature	Time	CLOCK FACE ONE OCLOCK		
+26	E01F	1	Nature	Time	CLOCK FACE TWO OCLOCK		
+27	E020	1	Nature	Time	CLOCK FACE THREE OCLOCK		
+28	E021	1	Nature	Time	CLOCK FACE FOUR OCLOCK		
+29	E022	1	Nature	Time	CLOCK FACE FIVE OCLOCK		
+30	E023	1	Nature	Time	CLOCK FACE SIX OCLOCK		
+31	E024	1	Nature	Time	CLOCK FACE SEVEN OCLOCK		
+32	E025	1	Nature	Time	CLOCK FACE EIGHT OCLOCK		
+33	E026	1	Nature	Time	CLOCK FACE NINE OCLOCK		
+34	E027	1	Nature	Time	CLOCK FACE TEN OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
+35	E028	1	Nature	Time	CLOCK FACE ELEVEN OCLOCK		
+36	E029	1	Nature	Time	CLOCK FACE TWELVE OCLOCK		
 37	E02A	1	Nature	Time	CLOCK SYMBOL	a general clock symbol	
 38	E037	1	Nature	Zodiacal Symbols	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
 39	E038	1	Nature	Places in Nature	WATER WAVE		
@@ -236,23 +236,22 @@
 238	E4C9	4	Artifacts	Tools	WRENCH		
 239	E4CA	4	Artifacts	Tools	HAMMER	mallet	
 240	E4CB	4	Artifacts	Tools	NUT AND BOLT		
-241	E4CC	4	Artifacts	Clothing / Wearables	MENS SHOE		
+241	E4CC	4	Artifacts	Clothing / Wearables	MANS SHOE		
 242	E4CD	4	Artifacts	Clothing / Wearables	SNEAKER		
+251	E4D6	4	Artifacts	Clothing / Wearables	HIGH-HEELED SHOE		
+252	E4D7	4	Artifacts	Clothing / Wearables	WOMANS SANDAL	woman's sandal with open toe, slipper	
+253	E4D8	4	Artifacts	Clothing / Wearables	WOMANS BOOTS	usually woman's boots	
 243	E4CE	4	Artifacts	Clothing / Wearables	GLASSES		
 244	E4CF	4	Artifacts	Clothing / Wearables	T-SHIRT		
 245	E4D0	4	Artifacts	Clothing / Wearables	JEANS		
 246	E4D1	4	Artifacts	Clothing / Wearables	CROWN	Not the same as ♕ U+2655 WHITE CHESS KING	
-247	E4D2	4	Artifacts	Clothing / Wearables	EMBLEM	a crown like symbol?	
 248	E4D3	4	Artifacts	Clothing / Wearables	NECKTIE		
-249	E4D4	4	Artifacts	Clothing / Wearables	LADIES HAT		
+249	E4D4	4	Artifacts	Clothing / Wearables	WOMANS HAT		
 250	E4D5	4	Artifacts	Clothing / Wearables	DRESS		
-251	E4D6	4	Artifacts	Clothing / Wearables	HIGH HEELED SHOE		
-252	E4D7	4	Artifacts	Clothing / Wearables	MULE	woman's sandal with open toe, slipper	
-253	E4D8	4	Artifacts	Clothing / Wearables	LONG BOOTS	usually woman's boots	
 254	E4D9	4	Artifacts	Clothing / Wearables	KIMONO		
 255	E4DA	4	Artifacts	Clothing / Wearables	BIKINI		
 256	E4DB	4	Artifacts	Clothing / Wearables	WOMANS CLOTHES		
-257	E4DC	4	Artifacts	Money	PURSE		
+257	E4DC	4	Artifacts	Clothing / Wearables	PURSE		
 258	E4DD	4	Artifacts	Money	MONEY BAG	a bag with a dollar or yen sign	
 259	E4DE	4	Artifacts	Money	CURRENCY EXCHANGE	$ and ¥ signs, exchange rate	
 260	E4DF	4	Artifacts	Money	STOCK MARKET	stock market, stock prices	
@@ -460,7 +459,7 @@
 461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	two loops	
 462	E82C	5	Activities/Work/Entertainment	Phone Specific	HASH KEY	pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)	**Symbol no longer proposed for new encoding**
 463	E82D	5	Activities/Work/Entertainment	Phone Specific	MOBILE Q	Mobile Q service	**Symbol no longer proposed for new encoding**
-467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYPAD 10		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
+467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYPAD TEN		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
 464	E838	5	Activities/Work/Entertainment	Phone Specific	ANTENNA MARK	Cellular reception (good reception)	
 465	E839	5	Activities/Work/Entertainment	Phone Specific	VIBRATION MODE	manner mode (in Japan)	
 466	E83A	5	Activities/Work/Entertainment	Phone Specific	PHONE OFF		
@@ -506,10 +505,12 @@
 507	E988	6	Foods	Drink	TROPICAL DRINK		
 508	EAFE	7	Abstract Concepts	Arrows	BLACK RIGHT-POINTING DOUBLE TRIANGLE	Fast forward	
 509	EAFF	7	Abstract Concepts	Arrows	BLACK LEFT-POINTING DOUBLE TRIANGLE	Fast rewind	
-510	EB00	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING SMALL TRIANGLE	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
-511	EB01	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING SMALL TRIANGLE	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
-512	EB02	7	Abstract Concepts	Arrows	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
 513	EB03	7	Abstract Concepts	Arrows	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
+512	EB02	7	Abstract Concepts	Arrows	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
+590	EB78	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING TRIANGLE	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
+591	EB79	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING TRIANGLE	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
+511	EB01	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING SMALL TRIANGLE	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
+510	EB00	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING SMALL TRIANGLE	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
 514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
 515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK	moving question mark	
@@ -529,6 +530,7 @@
 530	EB19	7	Abstract Concepts	Hearts	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
 531	EB1E	7	Abstract Concepts	Other Signs	SMOKING SIGN		
 532	EB1F	7	Abstract Concepts	Other Signs	NO SMOKING SIGN		
+247	E4D2	7	Abstract Concepts	Other Signs	EMBLEM	a crown like symbol?	
 533	EB22	7	Abstract Concepts	Other Signs	TRIANGULAR FLAG ON POST	Location information, a flag	
 534	EB23	7	Abstract Concepts	Other Signs	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
 535	EB26	7	Abstract Concepts	Other Signs	NO ENTRANCE SIGN	No entrance, no trespassing	
@@ -550,7 +552,8 @@
 551	EB38	7	Abstract Concepts	Other Symbols with Letters and Digits	COOL SIGN	cool!; hip	
 552	EB42	7	Abstract Concepts	Other Symbols with Letters and Digits	TOP WITH UPWARD SIGN	Top of page	
 553	EB4F	7	Abstract Concepts	Other Symbols with Letters and Digits	SOS SIGN	search, hunt for the missing	
-554	EB24	7	Abstract Concepts	Enclosed Ideographs and Kana	HERE SIGN	KATAKANA LETTERS KOKO; destination, here	
+554	EB24	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
+563	EB3F	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
 555	EB2E	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
 556	EB2F	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-7A7A	空: IDEOGRAPH EMPTY; Vacant, seats available	
 557	EB30	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-5408	合: IDEOGRAPH MATCH; approved, passed as in an examination	
@@ -559,7 +562,6 @@
 560	EB3B	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-6708	月: IDEOGRAPH MOON; monthly charge, monthly rate; month	
 561	EB3C	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-7533	申: IDEOGRAPH SAYING "application needed, apply here"	
 562	EB3E	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-5272	割: IDEOGRAPH DIVIDE;	
-563	EB3F	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED KATAKANA LETTER SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
 564	EB41	7	Abstract Concepts	Enclosed Ideographs and Kana	SQUARED CJK UNIFIED IDEOGRAPH-55B6	営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所	
 565	EB3D	7	Abstract Concepts	Enclosed Ideographs and Kana	CIRCLED IDEOGRAPH ADVANTAGE	得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds	
 566	EB50	7	Abstract Concepts	Enclosed Ideographs and Kana	CIRCLED IDEOGRAPH ACCEPT	Han character 可; accepted, acceptable	
@@ -586,8 +588,6 @@
 587	EB73	7	Abstract Concepts	Shapes / Sparkles	WHITE LARGE DIAMOND	Large diamond (orange). disunified from ◇ U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).	
 588	EB74	7	Abstract Concepts	Shapes / Sparkles	BLACK LARGE DIAMOND	Large diamond (blue). disunified from ◆ U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).	
 589	EB75	7	Abstract Concepts	Shapes / Sparkles	WHITE SMALL DIAMOND	Small diamond (orange).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
-590	EB78	7	Abstract Concepts	Shapes / Sparkles	CHECKERED UP-POINTING TRIANGLE	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
-591	EB79	7	Abstract Concepts	Shapes / Sparkles	CHECKERED DOWN-POINTING TRIANGLE	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
 592	EB7A	7	Abstract Concepts	School	WHITE FLOWER	❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for "brilliant!" (花丸)	
 593	EB7B	7	Abstract Concepts	School	HUNDRED POINTS SYMBOL	100 (perfect score), e.g. school exam	
 594	EB81	7	Abstract Concepts	Internet Specific	ID	ID ("ID" stamp)	
