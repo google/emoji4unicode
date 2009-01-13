@@ -23,6 +23,7 @@ import cgi
 import codecs
 import sys
 import emoji4unicode
+import translit
 import utf
 
 # Flags from command-line options.
@@ -292,6 +293,7 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
   new_number_string = ""
   english_string = ""
   japanese_string = ""
+  xlit_string = u""
   uni_string = ""
   shift_jis_string = ""
   jis_string = ""
@@ -317,17 +319,26 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
     name_en = symbol.GetEnglishName()
     if name_en: english_string += "+'%s'" % name_en
     name_ja = symbol.GetJapaneseName()
-    if name_ja: japanese_string += "+" + name_ja
+    if name_ja:
+      name_ja = name_ja.replace(u"\uFF08", u"(").replace(u"\uFF09", u")")
+      japanese_string += "+" + name_ja
+      xlit = translit.Transliterate(name_ja)
+      xlit_string += u"+" + xlit
     if not _no_codes:
       uni_string += "+U+" + code
       if symbol.shift_jis: shift_jis_string += "+SJIS-" + symbol.shift_jis
       if symbol.jis: jis_string += "+JIS-" + symbol.jis
+  if xlit_string:
+    if xlit_string == japanese_string:
+      xlit_string = u""
+    else:
+      xlit_string = u"+\u300C" + xlit_string[1:].replace(u"+", u"\u300D+\u300C") + u"\u300D"
   result_pieces = []
   if len(codes) == 1:
     # Reduce the cell height by putting multiple data pieces on each line.
     groups = [[img_string,
                number_string, old_number_string, new_number_string],
-              [english_string, japanese_string],
+              [english_string, japanese_string, xlit_string],
               [uni_string],
               [shift_jis_string, jis_string]]
     for group in groups:
@@ -339,7 +350,7 @@ def _CarrierSymbolHTML(carrier, one_carrier_data, code_string):
     # For code sequences, use a line per type of data.
     for line in (img_string,
                  number_string, old_number_string, new_number_string,
-                 english_string, japanese_string,
+                 english_string, japanese_string, xlit_string,
                  uni_string, shift_jis_string, jis_string):
       if line: result_pieces.append(line[1:])  # Remove leading separator.
   if not result_pieces:
