@@ -959,7 +959,7 @@ The carrier Emoji shows a capsule but the name is simply "medicine". So a more g
 </subcategory>
 <subcategory name="Celebration / Holidays">
 <e docomo="E684" glyphRefID="308" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314" unicode="+"/>
-<e docomo="E685" glyphRefID="309" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="WRAPPED PRSENT" softbank="E112"/>
+<e docomo="E685" glyphRefID="309" google="FE510" id="510" img_from="docomo" kddi="E4CF" name="WRAPPED PRESENT" softbank="E112"/>
 <e docomo="E686" glyphRefID="310" google="FE511" id="511" img_from="kddi" kddi="E5A0" name="BIRTHDAY CAKE" softbank="E34B">
 <desc>
 birthday

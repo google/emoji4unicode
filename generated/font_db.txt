@@ -303,7 +303,7 @@
 306	E50D	4	Artifacts	Medical	BLOOD TYPE AB		
 307	E50E	4	Artifacts	Medical	BLOOD TYPE O		
 308	E50F	4	Artifacts	Celebration / Holidays	RIBBON		
-309	E510	4	Artifacts	Celebration / Holidays	WRAPPED PRSENT		
+309	E510	4	Artifacts	Celebration / Holidays	WRAPPED PRESENT		
 310	E511	4	Artifacts	Celebration / Holidays	BIRTHDAY CAKE	birthday	
 311	E512	4	Artifacts	Celebration / Holidays	CHRISTMAS TREE		
 312	E513	4	Artifacts	Celebration / Holidays	SANTA CLAUS		
