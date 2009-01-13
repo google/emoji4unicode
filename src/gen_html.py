@@ -33,11 +33,9 @@ _no_fallbacks = False
 _no_codes = False
 _no_symbol_numbers = False
 _show_font_chars = False
+_show_only_font_chars = False
 
-_HEADER = """<html>
-<title>Table for Working Draft Proposal for Encoding Emoji Symbols</title>
-<head>
-<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+_CSS = """
 <style>
 body {
   font-family: Arial, Helvetica, Sans-serif;
@@ -53,6 +51,12 @@ body {
 }
 .not_in_proposal {
   text-decoration: line-through;
+}
+.id {
+  text-align: center;
+}
+.code_point {
+  text-align: center;
 }
 .rep {
   text-align: center;
@@ -110,15 +114,21 @@ body {
   font-weight: bold;
 }
 </style>
+"""
+
+_HEADER = ("""<html>
+<title>Table for Proposal for Encoding Emoji Symbols</title>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+""" +
+_CSS +
+"""
 </head>
 <body>
-<h1>Table for Working Draft Proposal for Encoding Emoji Symbols</h1>
-<p>The images in this file point to images on other sites.
+<h1>Table for Proposal for Encoding Emoji Symbols</h1>
+<h2>Symbols Data</h2>
+<p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
-<p>If the proposal font is available, then the Symbol column shows the proposal
-  font glyphs for symbols that are proposed for addition to the Unicode
-  Standard. If the proposal font is not available, then unrelated glyphs from
-  other installed fonts will be visible in the Symbol column.</p>
 <p>See the <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
 <p>Each symbol row has an anchor to allow direct linking by appending
@@ -134,7 +144,7 @@ body {
  <th>SoftBank</th>
  <th>Google</th>
 </tr>
-"""
+""")
 
 _FOOTER = """</body></html>"""
 
@@ -170,7 +180,7 @@ def _WriteEmoji4UnicodeHTML(writer):
           number_symbols_new += 1
         number_symbols_in_chart += 1
         e_id = "e-" + symbol.id
-        writer.write("<tr id=%s%s><td><a href=#%s>%s</a></td>" %
+        writer.write("<tr id=%s%s><td class='id'><a href=#%s>%s</a></td>" %
                      (e_id, row_style, e_id, e_id))
         writer.write("<td class='rep'>%s</td>" % _RepresentationHTML(symbol))
         writer.write("<td class='name_anno'>%s</td>" % _NameAnnotationHTML(symbol))
@@ -212,11 +222,75 @@ def _WriteEmoji4UnicodeHTML(writer):
   writer.write(_FOOTER)
 
 
+_PROPOSED_EMOJI_HEADER = ("""<html>
+<title>Table for Proposal for Encoding Emoji Symbols</title>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+""" +
+_CSS +
+"""
+</head>
+<body>
+<h1>Table for Proposal for Encoding Emoji Symbols</h1>
+<h2>Symbols Proposed for New Encoding</h2>
+<p>Each symbol row has an anchor to allow direct linking by appending
+  <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
+  address bar.</p>
+""")
+
+_PROPOSED_EMOJI_TABLE_HEADER = """
+<table border='1' cellspacing='0' width='100%'>
+<tr>
+  <th width='10%'>Code Point</th>
+  <th width='10%'>Symbol</th>
+  <th>Name &amp; Annotations</th>
+  <th width='10%'>Symbol ID</th>
+</tr>
+"""
+
+_PROPOSED_EMOJI_FOOTER = """</body></html>"""
+
+def _WriteProposedEmojiHTML(writer):
+  proposed_symbols = []
+  for symbol in emoji4unicode.GetSymbols():
+    if symbol.in_proposal and not symbol.GetUnicode():
+      proposed_symbols.append((int(symbol.GetProposedUnicode(), 16), symbol))
+  proposed_symbols.sort()
+  writer.write(_PROPOSED_EMOJI_HEADER)
+  prev_subcategory_name = ""
+  for proposed_symbol in proposed_symbols:
+    symbol = proposed_symbol[1]
+    subcategory_name = symbol.subcategory.name
+    if prev_subcategory_name != subcategory_name:
+      if prev_subcategory_name:
+        writer.write("</table>\n")
+      writer.write("<h3>%s</h3>" % subcategory_name)
+      writer.write(_PROPOSED_EMOJI_TABLE_HEADER)
+      prev_subcategory_name = subcategory_name
+    e_id = "e-" + symbol.id
+    writer.write("<tr id=%s>" % e_id)
+    writer.write("<td class='code_point'>"
+                 "<span class='proposed_uni'>U+%s</span></td>" %
+                 symbol.GetProposedUnicode())
+    font_uni = symbol.GetFontUnicode()
+    font_str = utf.UTF.CodePointString(int(font_uni, 16))
+    writer.write("<td class='rep'><span class='efont'>%s</span></td>" %
+                 font_str)
+    writer.write("<td class='name_anno'>%s</td>" % _NameAnnotationHTML(symbol))
+    writer.write("<td class='id'><a href=#%s>%s</a></td>" %
+                  (e_id, e_id))
+    writer.write("</tr>\n")
+  writer.write("</table>\n")
+  writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
+               len(proposed_symbols))
+  writer.write(_PROPOSED_EMOJI_FOOTER)
+
+
 def _RepresentationHTML(e4u_symbol):
   """Return HTML with the symbol representation."""
   uni = e4u_symbol.GetUnicode()
   if uni:
-    if e4u_symbol.IsUnifiedWithUpcomingCharacter():
+    if e4u_symbol.IsUnifiedWithUpcomingCharacter() and not _show_font_chars:
       # Print only code points, not also characters,
       # because no one will have a font for these.
       # return (u"<span class='upcoming'>U5.2</span><br>"
@@ -231,8 +305,11 @@ def _RepresentationHTML(e4u_symbol):
   if e4u_symbol.in_proposal:
     if _show_font_chars:
       font_str = utf.UTF.CodePointString(int(font_uni, 16))
-      repr = u"<span class='efont'>%s</span>=%s" % (font_str, font_img)
-      if img: repr += u"\u2248" + img
+      if _show_only_font_chars:
+        repr = u"<span class='efont'>%s</span>" % font_str
+      else:
+        repr = u"<span class='efont'>%s</span>=%s" % (font_str, font_img)
+        if img: repr += u"\u2248" + img
     else:
       repr = font_img
     proposed_uni = e4u_symbol.GetProposedUnicode()
@@ -275,6 +352,8 @@ def _NameAnnotationHTML(e4u_symbol):
     lines.append(u"<span class='desc'>Temporary Note: "
                   "Unified with an upcoming Unicode 5.2/AMD6 character; "
                   "code point and name are preliminary.</span>")
+  prop = e4u_symbol.GetProposedProperties()
+  if prop: lines.append(u"Proposed Properties: " + prop)
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
   desc = e4u_symbol.GetDescription()
   if desc: lines.append(u"<span class='desc'>Temporary Notes: " +
@@ -366,10 +445,15 @@ def _WriteSingleCelledRow(writer, style, contents):
 
 def main():
   global _only_in_proposal, _no_unified, _no_fallbacks
-  global _no_codes, _no_symbol_numbers, _show_font_chars
+  global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
+  _proposed_by_unicode = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
     if sys.argv[i] == "--no_codes": _no_codes = True
+    if sys.argv[i] == "--proposed_by_unicode": _proposed_by_unicode = True
+    if sys.argv[i] == "--show_only_font_chars":
+      _show_font_chars = True
+      _show_only_font_chars = True
     if sys.argv[i] == "--design":
       _only_in_proposal = True
       _no_unified = True
@@ -378,8 +462,11 @@ def main():
       _no_symbol_numbers = True
       _show_font_chars = True
   emoji4unicode.Load()
-  _WriteEmoji4UnicodeHTML(codecs.getwriter("UTF-8")(sys.stdout))
-
+  writer = codecs.getwriter("UTF-8")(sys.stdout)
+  if _proposed_by_unicode:
+    _WriteProposedEmojiHTML(writer)
+  else:
+    _WriteEmoji4UnicodeHTML(writer)
 
 if __name__ == "__main__":
   main()

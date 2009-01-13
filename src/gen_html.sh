@@ -24,3 +24,9 @@ mkdir -p ../generated
 ./gen_html.py --no_codes > ../generated/short.html
 # Special chart for the font and glyph design.
 ./gen_html.py --design > ../generated/design.html
+# Special chart with only the symbols proposed for new encoding,
+# sorted by Unicode code points.
+./gen_html.py --proposed_by_unicode --show_only_font_chars > ../generated/proposed.html
+# All information, but only with the symbols that are in the proposal.
+# Same as utc.html but uses the fonts rather than the images.
+./gen_html.py --only_in_proposal --show_only_font_chars > ../generated/utc_pdf.html

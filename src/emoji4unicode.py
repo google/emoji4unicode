@@ -281,6 +281,15 @@ class Symbol(object):
     if uni: return uni
     return u""
 
+  def GetProposedProperties(self):
+    """Get the proposed Unicode character properties for this new symbol.
+
+    Returns:
+      A string with semicolon-separated prop=value pairs,
+      or an empty string if no special properties are proposed.
+    """
+    return self.__element.getAttribute("prop")
+
   def _SetProposedUnicode(self, prev_proposed_uni, prev_high_uni):
     """Internal: Set the proposed Unicode code point or sequence."""
     uni = self.__element.getAttribute("unicode")
