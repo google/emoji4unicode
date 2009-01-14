@@ -512,9 +512,9 @@
 511	EB01	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING SMALL TRIANGLE	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
 510	EB00	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING SMALL TRIANGLE	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
 514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
-515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK		
-516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK	moving question mark	
-517	EB0B	7	Abstract Concepts	Punctuation	WHITE EXCLAMATION MARK	moving exclamation mark	
+515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK ORNAMENT		
+516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK ORNAMENT	moving question mark	
+517	EB0B	7	Abstract Concepts	Punctuation	WHITE EXCLAMATION MARK ORNAMENT	moving exclamation mark	
 518	EB0D	7	Abstract Concepts	Hearts	BEATING HEART	pulsating heart	
 519	EB0E	7	Abstract Concepts	Hearts	BROKEN HEART	breaking or broken heart	
 520	EB0F	7	Abstract Concepts	Hearts	TWO HEARTS	two hearts	
@@ -604,8 +604,8 @@
 604	EB8F	7	Abstract Concepts	Internet Specific	BOOKMARK	Bookmark list ("お気に入り")	
 606	EB91	7	Abstract Concepts	Internet Specific	DOUBLE CLOCKWISE OPEN CIRCLE ARROWS	Reload	
 607	EB92	7	Abstract Concepts	Internet Specific	EMAIL SIGN	Email (Envelope with "E")	
-608	EB93	7	Abstract Concepts	Hand Signals	RAISED FIST		
-609	EB95	7	Abstract Concepts	Hand Signals	RAISED HAND		
+608	EB93	7	Abstract Concepts	Hand Signals	RAISED FIST		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
+609	EB95	7	Abstract Concepts	Hand Signals	RAISED HAND		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
 610	EB96	7	Abstract Concepts	Hand Signals	FISTED HAND	Punch	
 611	EB97	7	Abstract Concepts	Hand Signals	THUMBS UP SIGN		
 612	EB99	7	Abstract Concepts	Hand Signals	WHITE UP POINTING BACKHAND INDEX	Up	Similar to ☝ U+261D WHITE UP POINTING INDEX but showing the back of the hand instead of the palm side.

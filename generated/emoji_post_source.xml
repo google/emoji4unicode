@@ -544,9 +544,9 @@
   <PostScriptName glyphRefID="512" NameString="uniEB02.black_down_pointing_double_triangle" />
   <PostScriptName glyphRefID="513" NameString="uniEB03.black_up_pointing_double_triangle" />
   <PostScriptName glyphRefID="514" NameString="uniEB08.looped_length_mark" />
-  <PostScriptName glyphRefID="515" NameString="uniEB09.black_question_mark" />
-  <PostScriptName glyphRefID="516" NameString="uniEB0A.white_question_mark" />
-  <PostScriptName glyphRefID="517" NameString="uniEB0B.white_exclamation_mark" />
+  <PostScriptName glyphRefID="515" NameString="uniEB09.black_question_mark_ornament" />
+  <PostScriptName glyphRefID="516" NameString="uniEB0A.white_question_mark_ornament" />
+  <PostScriptName glyphRefID="517" NameString="uniEB0B.white_exclamation_mark_ornament" />
   <PostScriptName glyphRefID="518" NameString="uniEB0D.beating_heart" />
   <PostScriptName glyphRefID="519" NameString="uniEB0E.broken_heart" />
   <PostScriptName glyphRefID="520" NameString="uniEB0F.two_hearts" />
