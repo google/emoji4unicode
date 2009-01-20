@@ -120,7 +120,7 @@
   <PostScriptName glyphRefID="88" NameString="uniE19D.mans_head" />
   <PostScriptName glyphRefID="89" NameString="uniE19E.womans_head" />
   <PostScriptName glyphRefID="90" NameString="uniE19F.family" />
-  <PostScriptName glyphRefID="91" NameString="uniE1A0.children" />
+  <PostScriptName glyphRefID="91" NameString="uniE1A0.couple" />
   <PostScriptName glyphRefID="92" NameString="uniE1A1.police" />
   <PostScriptName glyphRefID="93" NameString="uniE1A2.woman_with_bunny_ears" />
   <PostScriptName glyphRefID="94" NameString="uniE1A3.bride_with_veil" />
@@ -488,7 +488,7 @@
   <PostScriptName glyphRefID="456" NameString="uniE826.gem_stone" />
   <PostScriptName glyphRefID="457" NameString="uniE827.kiss" />
   <PostScriptName glyphRefID="458" NameString="uniE828.bouquet" />
-  <PostScriptName glyphRefID="459" NameString="uniE829.couple" />
+  <PostScriptName glyphRefID="459" NameString="uniE829.couple_with_heart" />
   <PostScriptName glyphRefID="460" NameString="uniE82A.wedding" />
   <PostScriptName glyphRefID="461" NameString="uniE82B.free_dial" />
   <PostScriptName glyphRefID="462" NameString=".notdef" />

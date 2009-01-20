@@ -228,9 +228,9 @@ Usually in green color
 <e docomo="&gt;E6F0" glyphRefID="88" google="FE19D" id="19D" img_from="softbank" kddi="&gt;E4FC" name="MANS HEAD" softbank="E004"/>
 <e docomo="&gt;E6F0" glyphRefID="89" google="FE19E" id="19E" img_from="softbank" kddi="&gt;E4FA" name="WOMANS HEAD" softbank="E005"/>
 <e glyphRefID="90" google="FE19F" id="19F" img_from="kddi" kddi="E501" name="FAMILY" text_fallback="[家族]"/>
-<e glyphRefID="91" google="FE1A0" id="1A0" img_from="softbank" name="CHILDREN" softbank="E428">
+<e glyphRefID="91" google="FE1A0" id="1A0" img_from="softbank" name="COUPLE" softbank="E428">
 <desc>
-kids
+A couple holding hands
 </desc>
 </e>
 <e glyphRefID="92" google="FE1A1" id="1A1" img_from="kddi" kddi="E5DD" name="POLICE" softbank="E152" text_fallback="[警官]">
@@ -1469,7 +1469,7 @@ two people kissing
 </desc>
 </e>
 <e glyphRefID="458" google="FE828" id="828" img_from="kddi" kddi="EA95" name="BOUQUET" softbank="E306" text_fallback="[花束]"/>
-<e docomo="&gt;E6ED" glyphRefID="459" google="FE829" id="829" img_from="kddi" kddi="EADA" name="COUPLE" softbank="E425"/>
+<e docomo="&gt;E6ED" glyphRefID="459" google="FE829" id="829" img_from="kddi" kddi="EADA" name="COUPLE WITH HEART" softbank="E425"/>
 <e glyphRefID="460" google="FE82A" id="82A" img_from="softbank" kddi="&gt;E5BB" name="WEDDING" softbank="E43D">
 <desc>
 wedding chapel

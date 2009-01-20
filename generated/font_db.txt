@@ -85,7 +85,7 @@
 88	E19D	2	Human/Living Things	People / Personalities	MANS HEAD		
 89	E19E	2	Human/Living Things	People / Personalities	WOMANS HEAD		
 90	E19F	2	Human/Living Things	People / Personalities	FAMILY		
-91	E1A0	2	Human/Living Things	People / Personalities	CHILDREN	kids	
+91	E1A0	2	Human/Living Things	People / Personalities	COUPLE	A couple holding hands	
 92	E1A1	2	Human/Living Things	People / Personalities	POLICE	represents the police (Note: there is also just a police cap icon by Softbank.)	
 93	E1A2	2	Human/Living Things	People / Personalities	WOMAN WITH BUNNY EARS	a showgirl?	
 94	E1A3	2	Human/Living Things	People / Personalities	BRIDE WITH VEIL		
@@ -454,7 +454,7 @@
 456	E826	5	Activities/Work/Entertainment	Romance	GEM STONE		
 457	E827	5	Activities/Work/Entertainment	Romance	KISS	two people kissing	
 458	E828	5	Activities/Work/Entertainment	Romance	BOUQUET		
-459	E829	5	Activities/Work/Entertainment	Romance	COUPLE		
+459	E829	5	Activities/Work/Entertainment	Romance	COUPLE WITH HEART		
 460	E82A	5	Activities/Work/Entertainment	Romance	WEDDING	wedding chapel	
 461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	Two loops. Occurs widely in print in Japan.	
 462	E82C	5	Activities/Work/Entertainment	Phone Specific	HASH KEY	pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)	**Symbol no longer proposed for new encoding**
