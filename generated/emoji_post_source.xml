@@ -420,7 +420,7 @@
   <PostScriptName glyphRefID="388" NameString="uniE7DE.swimmer" />
   <PostScriptName glyphRefID="389" NameString="uniE7DF.train" />
   <PostScriptName glyphRefID="390" NameString="uniE7E0.subway" />
-  <PostScriptName glyphRefID="391" NameString="uniE7E1.metro_sign" />
+  <PostScriptName glyphRefID="391" NameString=".notdef" />
   <PostScriptName glyphRefID="392" NameString="uniE7E2.high_speed_train" />
   <PostScriptName glyphRefID="393" NameString="uniE7E3.high_speed_train_with_bullet_nose" />
   <PostScriptName glyphRefID="394" NameString="uniE7E4.car" />

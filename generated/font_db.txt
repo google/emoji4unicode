@@ -386,7 +386,7 @@
 388	E7DE	5	Activities/Work/Entertainment	Sports	SWIMMER	swimming	
 389	E7DF	5	Activities/Work/Entertainment	Transportation	TRAIN		
 390	E7E0	5	Activities/Work/Entertainment	Transportation	SUBWAY	(DoCoMo's is an "M" for metro)	
-391	E7E1	5	Activities/Work/Entertainment	Transportation	METRO SIGN	tentatively disunified from SUBWAY SYMBOLS FROM KDDI and Softbank	
+391	E7E1	5	Activities/Work/Entertainment	Transportation	CIRCLED LATIN CAPITAL LETTER M	Tentatively disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Transportation	HIGH-SPEED TRAIN		
 393	E7E3	5	Activities/Work/Entertainment	Transportation	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
 394	E7E4	5	Activities/Work/Entertainment	Transportation	CAR	sedan	

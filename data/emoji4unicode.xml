@@ -1253,9 +1253,13 @@ swimming
 (DoCoMo's is an &quot;M&quot; for metro)
 </desc>
 </e>
-<e docomo="E65C" glyphRefID="391" google="FE7E1" id="7E1" img_from="docomo" kddi="&gt;E5BC" name="METRO SIGN" softbank="&gt;E434">
+<e docomo="E65C" glyphRefID="391" google="FE7E1" id="7E1" img_from="docomo" kddi="&gt;E5BC" name="CIRCLED LATIN CAPITAL LETTER M" softbank="&gt;E434" unicode="24C2">
 <desc>
-tentatively disunified from SUBWAY SYMBOLS FROM KDDI and Softbank
+Tentatively disunified from SUBWAY symbols from KDDI and Softbank.
+Was originally proposed as a new "METRO SIGN" symbol but then
+unified with &#x24C2; U+24C2 CIRCLED LATIN CAPITAL LETTER M because
+several variants of a stylized "M" are found for different Metro systems, including a circled M.
+(Project issue 92.)
 </desc>
 </e>
 <e docomo="E65D" glyphRefID="392" google="FE7E2" id="7E2" img_from="docomo" kddi="&gt;E4B0" name="HIGH-SPEED TRAIN" softbank="E435"/>
