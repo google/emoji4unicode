@@ -367,8 +367,8 @@
   <PostScriptName glyphRefID="335" NameString="uniE52C.mailbox" />
   <PostScriptName glyphRefID="336" NameString="uniE52D.mailbox_with_raised_flag" />
   <PostScriptName glyphRefID="337" NameString="uniE52E.postbox" />
-  <PostScriptName glyphRefID="338" NameString="uniE52F.megaphone" />
-  <PostScriptName glyphRefID="339" NameString="uniE530.loud_speaker" />
+  <PostScriptName glyphRefID="338" NameString="uniE52F.public_address_loudspeaker" />
+  <PostScriptName glyphRefID="339" NameString="uniE530.cheering_megaphone" />
   <PostScriptName glyphRefID="340" NameString="uniE531.satellite_antenna" />
   <PostScriptName glyphRefID="341" NameString="uniE532.dialog_bubble" />
   <PostScriptName glyphRefID="342" NameString="uniE533.outbox_tray" />

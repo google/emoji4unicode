@@ -1060,14 +1060,14 @@ a letter box, mail reception
 mailbox for sending mail
 </desc>
 </e>
-<e glyphRefID="338" google="FE52F" id="52F" img_from="softbank" kddi="&gt;E511" name="MEGAPHONE" softbank="E142" text_fallback="[スピーカ]">
+<e glyphRefID="338" google="FE52F" id="52F" img_from="softbank" kddi="&gt;E511" name="PUBLIC ADDRESS LOUDSPEAKER" softbank="E142" text_fallback="[スピーカ]">
 <desc>
-also used for sound volume, notification
+used for sound volume, notification
 </desc>
 </e>
-<e glyphRefID="339" google="FE530" id="530" img_from="softbank" kddi="E511" name="LOUD SPEAKER" softbank="E317" text_fallback="[スピーカ]">
+<e glyphRefID="339" google="FE530" id="530" img_from="softbank" kddi="&gt;E511" name="CHEERING MEGAPHONE" softbank="E317" text_fallback="[スピーカ]">
 <desc>
-also used as a megaphone
+also used for a general megaphone
 </desc>
 </e>
 <e glyphRefID="340" google="FE531" id="531" img_from="kddi" kddi="E4A8" name="SATELLITE ANTENNA" softbank="E14B" text_fallback="[アンテナ]">
@@ -1443,7 +1443,7 @@ Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of
 <e docomo="&gt;E68C" glyphRefID="448" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127"/>
 <e glyphRefID="449" google="FE81F" id="81F" img_from="kddi" kddi="E5B9" name="RADIO" softbank="E128" text_fallback="[ラジオ]"/>
 <e glyphRefID="450" google="FE820" id="820" img_from="kddi" kddi="E580" name="VIDEO TAPE" softbank="E129" text_fallback="[ビデオ]"/>
-<e glyphRefID="451" google="FE821" id="821" img_from="softbank" kddi="&gt;E511" name="SPEAKER" softbank="E141" text_fallback="[スピーカ]">
+<e glyphRefID="451" google="FE821" id="821" img_from="softbank" kddi="E511" name="SPEAKER" softbank="E141" text_fallback="[スピーカ]">
 <desc>
 sound
 </desc>

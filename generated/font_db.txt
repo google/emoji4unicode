@@ -332,8 +332,8 @@
 335	E52C	4	Artifacts	Communication	MAILBOX	a letter box, mail reception	
 336	E52D	4	Artifacts	Communication	MAILBOX WITH RAISED FLAG		
 337	E52E	4	Artifacts	Communication	POSTBOX	mailbox for sending mail	
-338	E52F	4	Artifacts	Communication	MEGAPHONE	also used for sound volume, notification	
-339	E530	4	Artifacts	Communication	LOUD SPEAKER	also used as a megaphone	
+338	E52F	4	Artifacts	Communication	PUBLIC ADDRESS LOUDSPEAKER	used for sound volume, notification	
+339	E530	4	Artifacts	Communication	CHEERING MEGAPHONE	also used for a general megaphone	
 340	E531	4	Artifacts	Communication	SATELLITE ANTENNA	position indicator, news	
 341	E532	4	Artifacts	Communication	DIALOG BUBBLE	comic book conversation bubble	
 342	E533	4	Artifacts	Communication	OUTBOX TRAY		
