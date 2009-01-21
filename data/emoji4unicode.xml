@@ -1928,6 +1928,7 @@ good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRC
 </desc>
 <ann>* also used to mean good, correct or approved</ann>
 <ann>x (white circle - 25CB)</ann>
+<ann>x (large circle - 25EF)</ann>
 <ann>x (heavy circle - 26E6)</ann>
 </e>
 <e glyphRefID="539" google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
@@ -2263,18 +2264,22 @@ Small circle (red)
 Small circle (blue)
 </desc>
 </e>
-<e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="WHITE LARGE CIRCLE" softbank="E219" unicode="+2B55">
+<e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="CHECKERED LARGE CIRCLE" softbank="E219" unicode="+2B55">
 <desc>
-Large circle (red). disunified from U+25CB and U+25EF due to source separation rule (Shift_JIS).
-Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics,
-and to form a pair with the existing &#x2B24; U+2B24 BLACK LARGE CIRCLE, mapping to the pair of KDDI #40/#41.
+Large circle (red). Disunified from &#x25CB; U+25CB and &#x25EF; U+25EF due to source separation rule (Shift_JIS).
+Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics.
+Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE CIRCLE is &#x25EF; LARGE CIRCLE.
 </desc>
+<ann>x (large circle - 25EF)</ann>
+<ann>x (black large circle - 2B24)</ann>
 <design>Same basic shape as for &#x2B24; U+2B24 BLACK LARGE CIRCLE.</design>
 </e>
 <e docomo="&gt;E69C" google="FEB64" id="B64" kddi="E54B" name="BLACK LARGE CIRCLE" softbank="&gt;E21A" unicode="2B24">
 <desc>
 Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).
 </desc>
+<ann>x (large circle - 25EF)</ann>
+<ann>x (checkered large circle - 2B55)</ann>
 </e>
 <e docomo="&gt;E69C" glyphRefID="583" google="&gt;FEB64" id="BA3" img_from="softbank" kddi="&gt;E54B" name="BLACK ROUNDED SQUARE" softbank="E21A" unicode="+">
 <design>Same shapes for e-BA3 and e-B67.</design>

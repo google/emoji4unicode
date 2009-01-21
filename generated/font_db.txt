@@ -580,7 +580,7 @@
 579	EB5E	7	Abstract Concepts	Emotion Symbols	FLEXED BICEP	strong, muscled	
 580	EB5F	7	Abstract Concepts	Emotion Symbols	DIZZY SYMBOL	circling stars	
 581	EB60	7	Abstract Concepts	Shapes / Sparkles	SPARKLES	sparkling new	
-582	EB63	7	Abstract Concepts	Shapes / Sparkles	WHITE LARGE CIRCLE	Large circle (red). disunified from U+25CB and U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics, and to form a pair with the existing ⬤ U+2B24 BLACK LARGE CIRCLE, mapping to the pair of KDDI #40/#41.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+582	EB63	7	Abstract Concepts	Shapes / Sparkles	CHECKERED LARGE CIRCLE	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
 583	EBA3	7	Abstract Concepts	Shapes / Sparkles	BLACK ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
 584	EB67	7	Abstract Concepts	Shapes / Sparkles	WHITE ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
 585	EB69	7	Abstract Concepts	Shapes / Sparkles	GLOWING STAR	Animated pulsating star in orange color	
