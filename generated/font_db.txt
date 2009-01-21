@@ -77,7 +77,7 @@
 80	E195	2	Human/Living Things	Personal Care	LIPSTICK		
 81	E196	2	Human/Living Things	Personal Care	NAIL POLISH		
 82	E197	2	Human/Living Things	Personal Care	FACE MASSAGE		
-83	E198	2	Human/Living Things	Personal Care	HAIR NEEDING A CUT		
+83	E198	2	Human/Living Things	Personal Care	HAIRCUT		
 84	E199	2	Human/Living Things	Personal Care	BARBER POLE		
 85	E19A	2	Human/Living Things	People / Personalities	SILHOUETTE OF BUST		
 86	E19B	2	Human/Living Things	People / Personalities	BOYS HEAD	? Need to examine cross mapping	
