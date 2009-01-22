@@ -538,7 +538,7 @@
 537	EB34	7	Abstract Concepts	Other Signs	WOMENS SYMBOL	woman's restroom symbol	
 538	EB35	7	Abstract Concepts	Other Signs	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
 539	EB45	7	Abstract Concepts	Other Signs	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from ✕ U+2715	
-540	EB46	7	Abstract Concepts	Other Signs	CROSS MARK ON BACKGROUND	Another X (orange background)	
+540	EB46	7	Abstract Concepts	Other Signs	NEGATIVE CROSS MARK	Another X (orange background)	
 541	EB48	7	Abstract Concepts	Other Signs	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
 542	EB4A	7	Abstract Concepts	Other Signs	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
 543	EB4B	7	Abstract Concepts	Other Signs	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	

@@ -1940,7 +1940,7 @@ good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRC
 bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
 </desc>
 </e>
-<e glyphRefID="540" google="FEB46" id="B46" img_from="kddi" kddi="E551" name="CROSS MARK ON BACKGROUND" softbank="&gt;E333" text_fallback="[×]">
+<e glyphRefID="540" google="FEB46" id="B46" img_from="kddi" kddi="E551" name="NEGATIVE CROSS MARK" softbank="&gt;E333" text_fallback="[×]">
 <desc>
 Another X (orange background)
 </desc>
