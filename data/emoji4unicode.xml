@@ -1682,7 +1682,11 @@ martini, bar
 </desc>
 </e>
 <e docomo="E672" glyphRefID="502" google="FE983" id="983" img_from="docomo" kddi="E4C3" name="BEER" softbank="E047"/>
-<e docomo="E71E" glyphRefID="503" google="FE984" id="984" img_from="docomo" kddi="EAAE" name="TEA CUP" softbank="E338"/>
+<e docomo="E71E" glyphRefID="503" google="FE984" id="984" img_from="docomo" kddi="EAAE" name="TEACUP WITHOUT HANDLE" softbank="E338">
+<design>
+Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea
+</design>
+</e>
 <e docomo="E74B" glyphRefID="504" google="FE985" id="985" img_from="docomo" kddi="EA97" name="SAKE BOTTLE AND CUP" softbank="E30B">
 <desc>
 sake

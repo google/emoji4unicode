@@ -498,7 +498,7 @@
 500	E980	6	Foods	Prepared Food	FORK AND KNIFE	restaurant, meal	
 501	E982	6	Foods	Drink	COCKTAIL GLASS	martini, bar	
 502	E983	6	Foods	Drink	BEER		
-503	E984	6	Foods	Drink	TEA CUP		
+503	E984	6	Foods	Drink	TEACUP WITHOUT HANDLE		Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea
 504	E985	6	Foods	Drink	SAKE BOTTLE AND CUP	sake	
 505	E986	6	Foods	Drink	WINE GLASS	wine	
 506	E987	6	Foods	Drink	CLINKING BEER MUGS	cheers	
