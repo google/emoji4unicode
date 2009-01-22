@@ -1896,11 +1896,7 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 <e docomo="E67F" glyphRefID="531" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
 <e docomo="E680" glyphRefID="532" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
-<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="EMBLEM" softbank="E031">
-<desc>
-a crown like symbol?
-</desc>
-</e>
+<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="TRIDENT EMBLEM" softbank="E031"/>
 <e docomo="E6DE" glyphRefID="533" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]">
 <desc>
 Location information, a flag

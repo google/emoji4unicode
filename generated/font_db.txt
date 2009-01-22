@@ -530,7 +530,7 @@
 530	EB19	7	Abstract Concepts	Hearts	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
 531	EB1E	7	Abstract Concepts	Other Signs	SMOKING SIGN		
 532	EB1F	7	Abstract Concepts	Other Signs	NO SMOKING SIGN		
-247	E4D2	7	Abstract Concepts	Other Signs	EMBLEM	a crown like symbol?	
+247	E4D2	7	Abstract Concepts	Other Signs	TRIDENT EMBLEM		
 533	EB22	7	Abstract Concepts	Other Signs	TRIANGULAR FLAG ON POST	Location information, a flag	
 534	EB23	7	Abstract Concepts	Other Signs	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
 535	EB26	7	Abstract Concepts	Other Signs	NO ENTRY	No entrance, no trespassing	**Symbol no longer proposed for new encoding**
