@@ -952,10 +952,18 @@ with blood
 The carrier Emoji shows a capsule but the name is simply "medicine". So a more generic name is given.  Also used for cold medicine.
 </desc>
 </e>
-<e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="BLOOD TYPE A" softbank="E532" text_fallback="[A]" unicode="+1F190"/>
-<e glyphRefID="305" google="FE50C" id="50C" img_from="kddi" kddi="EB27" name="BLOOD TYPE B" softbank="E533" text_fallback="[B]"/>
-<e glyphRefID="306" google="FE50D" id="50D" img_from="kddi" kddi="EB29" name="BLOOD TYPE AB" softbank="E534" text_fallback="[AB]"/>
-<e glyphRefID="307" google="FE50E" id="50E" img_from="kddi" kddi="EB28" name="BLOOD TYPE O" softbank="E535" text_fallback="[O]"/>
+<e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="NEGATIVE SQUARED LATIN CAPITAL LETTER A" softbank="E532" text_fallback="[A]" unicode="+1F170">
+<ann>* blood type A</ann>
+</e>
+<e glyphRefID="305" google="FE50C" id="50C" img_from="kddi" kddi="EB27" name="NEGATIVE SQUARED LATIN CAPITAL LETTER B" softbank="E533" text_fallback="[B]" unicode="+1F171">
+<ann>* blood type B</ann>
+</e>
+<e glyphRefID="306" google="FE50D" id="50D" img_from="kddi" kddi="EB29" name="NEGATIVE SQUARED LATIN CAPITAL LETTER AB" softbank="E534" text_fallback="[AB]" unicode="+1F18E">
+<ann>* blood type AB</ann>
+</e>
+<e glyphRefID="307" google="FE50E" id="50E" img_from="kddi" kddi="EB28" name="NEGATIVE SQUARED LATIN CAPITAL LETTER O" softbank="E535" text_fallback="[O]" unicode="+1F17E">
+<ann>* blood type O</ann>
+</e>
 </subcategory>
 <subcategory name="Celebration / Holidays">
 <e docomo="E684" glyphRefID="308" google="FE50F" id="50F" img_from="docomo" kddi="E59F" name="RIBBON" softbank="E314" unicode="+"/>

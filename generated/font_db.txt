@@ -298,10 +298,10 @@
 301	E508	4	Artifacts	Bath / Bathroom	WATER CLOSET		
 302	E509	4	Artifacts	Medical	SYRINGE	with blood	
 303	E50A	4	Artifacts	Medical	PILL	The carrier Emoji shows a capsule but the name is simply "medicine". So a more generic name is given. Also used for cold medicine.	
-304	E50B	4	Artifacts	Medical	BLOOD TYPE A		
-305	E50C	4	Artifacts	Medical	BLOOD TYPE B		
-306	E50D	4	Artifacts	Medical	BLOOD TYPE AB		
-307	E50E	4	Artifacts	Medical	BLOOD TYPE O		
+304	E50B	4	Artifacts	Medical	NEGATIVE SQUARED LATIN CAPITAL LETTER A		
+305	E50C	4	Artifacts	Medical	NEGATIVE SQUARED LATIN CAPITAL LETTER B		
+306	E50D	4	Artifacts	Medical	NEGATIVE SQUARED LATIN CAPITAL LETTER AB		
+307	E50E	4	Artifacts	Medical	NEGATIVE SQUARED LATIN CAPITAL LETTER O		
 308	E50F	4	Artifacts	Celebration / Holidays	RIBBON		
 309	E510	4	Artifacts	Celebration / Holidays	WRAPPED PRESENT		
 310	E511	4	Artifacts	Celebration / Holidays	BIRTHDAY CAKE	birthday	
