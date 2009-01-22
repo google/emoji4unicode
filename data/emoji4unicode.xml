@@ -1988,7 +1988,7 @@ Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)
 a letter sign Free of Charge
 </desc>
 </e>
-<e glyphRefID="545" google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="ADULTS ONLY SIGN" softbank="E207" text_fallback="[18禁]">
+<e glyphRefID="545" google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="NO ONE UNDER EIGHTEEN SIGN" softbank="E207" text_fallback="[18禁]">
 <desc>
 under 18 not permitted
 </desc>

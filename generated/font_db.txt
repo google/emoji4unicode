@@ -543,7 +543,7 @@
 542	EB4A	7	Abstract Concepts	Other Signs	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
 543	EB4B	7	Abstract Concepts	Other Signs	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
 544	EB21	7	Abstract Concepts	Other Symbols with Letters and Digits	FREE SIGN	a letter sign Free of Charge	
-545	EB25	7	Abstract Concepts	Other Symbols with Letters and Digits	ADULTS ONLY SIGN	under 18 not permitted	
+545	EB25	7	Abstract Concepts	Other Symbols with Letters and Digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
 546	EB27	7	Abstract Concepts	Other Symbols with Letters and Digits	OK SIGN	a stamp, seal, button for approval	
 547	EB28	7	Abstract Concepts	Other Symbols with Letters and Digits	NO GOOD SIGN	no good, NG	
 548	EB32	7	Abstract Concepts	Other Symbols with Letters and Digits	VS SIGN	versus	
