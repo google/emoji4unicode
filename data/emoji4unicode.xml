@@ -1903,7 +1903,7 @@ Location information, a flag
 Unified with U+26A0. Danger / Caution / Warning
 </desc>
 </e>
-<e docomo="&gt;E72F" glyphRefID="535" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRANCE SIGN" softbank="&gt;E137">
+<e docomo="&gt;E72F" glyphRefID="535" google="FEB26" id="B26" img_from="kddi" kddi="E484" name="NO ENTRY" softbank="&gt;E137" unicode="26D4">
 <desc>
 No entrance, no trespassing
 </desc>
