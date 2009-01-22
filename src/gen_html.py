@@ -80,6 +80,9 @@ body {
   font-family: Apple Emoji;
   font-size: 36pt;
 }
+.status {
+  font-size: 60%;
+}
 .name_anno {
   font-size: 80%;
 }
@@ -296,9 +299,10 @@ def _RepresentationHTML(e4u_symbol):
       # return (u"<span class='upcoming'>U5.2</span><br>"
       #          "U+" + uni.replace("+", " U+"))
       font_img = u"<img src='../uni52img/U+%s.jpg' class='fontimg'>" % uni
-      return font_img + u"<br>U+" + uni.replace("+", " U+")
+      repr = font_img + u"<br>U+" + uni.replace("+", " U+")
     else:
-      return _UnicodeHTML(uni)
+      repr = _UnicodeHTML(uni)
+    return repr + u"<br><span class='status'>unified</span>"
   img = e4u_symbol.ImageHTML()
   font_uni = e4u_symbol.GetFontUnicode()
   font_img = u"<img src='../fontimg/AEmoji_%s.png' class='fontimg'>" % font_uni
@@ -314,10 +318,11 @@ def _RepresentationHTML(e4u_symbol):
       repr = font_img
     proposed_uni = e4u_symbol.GetProposedUnicode()
     if proposed_uni:
-      return (repr + u"<br><span class='proposed_uni'>U+" +
-              proposed_uni.replace("+", " U+"))
+      repr += (u"<br><span class='proposed_uni'>U+" +
+               proposed_uni.replace("+", " U+") + u"</span>")
     else:
-      return repr + u"<br><span class='proposed_uni'>U+xxxxx</span>"
+      repr += u"<br><span class='proposed_uni'>U+xxxxx</span>"
+    return repr + u"<br><span class='status'>proposed</span>"
   if img: return img
   text_repr = e4u_symbol.GetTextRepresentation()
   if text_repr: return text_repr
