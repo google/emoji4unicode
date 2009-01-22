@@ -145,7 +145,7 @@
 147	E1D8	2	Human/Living Things	Animals	POODLE		
 148	E1D9	2	Human/Living Things	Animals	BLOWFISH		
 149	E1DA	2	Human/Living Things	Animals	ANT		
-150	E1DB	2	Human/Living Things	Animals	DOG PRINTS		
+150	E1DB	2	Human/Living Things	Animals	PAW PRINTS		
 151	E1DC	2	Human/Living Things	Animals	TURTLE		
 153	E1DE	2	Human/Living Things	Animals	DRAGON		
 154	E1DF	2	Human/Living Things	Animals	PANDA		
