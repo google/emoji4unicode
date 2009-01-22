@@ -438,12 +438,12 @@
   <PostScriptName glyphRefID="406" NameString="uniE7F2.fire_engine" />
   <PostScriptName glyphRefID="407" NameString="uniE7F3.ambulance" />
   <PostScriptName glyphRefID="408" NameString="uniE7F4.police_car" />
-  <PostScriptName glyphRefID="409" NameString="uniE7F5.gas_station" />
-  <PostScriptName glyphRefID="410" NameString="uniE7F6.parking" />
+  <PostScriptName glyphRefID="409" NameString=".notdef" />
+  <PostScriptName glyphRefID="410" NameString=".notdef" />
   <PostScriptName glyphRefID="411" NameString="uniE7F7.traffic_light" />
   <PostScriptName glyphRefID="412" NameString="uniE7F8.construction" />
   <PostScriptName glyphRefID="413" NameString="uniE7F9.police_cars_revolving_light" />
-  <PostScriptName glyphRefID="414" NameString="uniE7FB.camp" />
+  <PostScriptName glyphRefID="414" NameString=".notdef" />
   <PostScriptName glyphRefID="415" NameString="uniE7FC.carousel_horse" />
   <PostScriptName glyphRefID="416" NameString="uniE7FD.ferris_wheel" />
   <PostScriptName glyphRefID="417" NameString="uniE7FE.roller_coaster" />

@@ -404,12 +404,12 @@
 406	E7F2	5	Activities/Work/Entertainment	Transportation	FIRE ENGINE		
 407	E7F3	5	Activities/Work/Entertainment	Transportation	AMBULANCE		
 408	E7F4	5	Activities/Work/Entertainment	Transportation	POLICE CAR		
-409	E7F5	5	Activities/Work/Entertainment	Driving	GAS STATION	related to U+26FD = ARIB-9146	
-410	E7F6	5	Activities/Work/Entertainment	Driving	PARKING	"P" sign	
+409	E7F5	5	Activities/Work/Entertainment	Driving	FUEL PUMP		**Symbol no longer proposed for new encoding**
+410	E7F6	5	Activities/Work/Entertainment	Driving	WHITE ON BLACK SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
 411	E7F7	5	Activities/Work/Entertainment	Driving	TRAFFIC LIGHT		
 412	E7F8	5	Activities/Work/Entertainment	Driving	CONSTRUCTION		
 413	E7F9	5	Activities/Work/Entertainment	Driving	POLICE CARS REVOLVING LIGHT		
-414	E7FB	5	Activities/Work/Entertainment	Recreation	CAMP		
+414	E7FB	5	Activities/Work/Entertainment	Recreation	TENT	camp	**Symbol no longer proposed for new encoding**
 415	E7FC	5	Activities/Work/Entertainment	Recreation	CAROUSEL HORSE		
 416	E7FD	5	Activities/Work/Entertainment	Recreation	FERRIS WHEEL		
 417	E7FE	5	Activities/Work/Entertainment	Recreation	ROLLER COASTER		

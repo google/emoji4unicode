@@ -1311,10 +1311,8 @@ walking
 <e glyphRefID="408" google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="POLICE CAR" softbank="E432" text_fallback="[パトカー]"/>
 </subcategory>
 <subcategory name="Driving">
-<e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="GAS STATION" softbank="E03A">
-  <desc>related to U+26FD = ARIB-9146</desc>
-</e>
-<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="PARKING" softbank="E14F">
+<e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="FUEL PUMP" softbank="E03A" unicode="26FD"/>
+<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="WHITE ON BLACK SQUARED LATIN CAPITAL LETTER P" softbank="E14F" unicode="1F17F">
 <desc>
 &quot;P&quot; sign
 </desc>
@@ -1329,7 +1327,9 @@ walking
 onsen
 </desc>
 </e>
-<e glyphRefID="414" google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="CAMP" softbank="E122" text_fallback="[キャンプ]"/>
+<e glyphRefID="414" google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="TENT" softbank="E122" text_fallback="[キャンプ]" unicode="26FA">
+<desc>camp</desc>
+</e>
 <e docomo="E679" glyphRefID="415" google="FE7FC" id="7FC" img_from="docomo" name="CAROUSEL HORSE">
 <ann>* amusement park</ann>
 </e>
