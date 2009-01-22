@@ -332,7 +332,11 @@ animated by KDDI
 <e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521"/>
 <e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522"/>
 <e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER" softbank="E524"/>
-<e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="CENTIPEDE" softbank="E525" text_fallback="[ゲジゲジ]"/>
+<e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="BUG" softbank="E525" text_fallback="[ゲジゲジ]">
+<desc>
+This Emoji may point to a centipede or hairy catepillar. It typically indicates something "distasteful".
+</desc>
+</e>
 <e glyphRefID="135" google="FE1CC" id="1CC" img_from="kddi" kddi="EB1F" name="ELEPHANT" softbank="E526" text_fallback="[ゾウ]"/>
 <e glyphRefID="136" google="FE1CD" id="1CD" img_from="kddi" kddi="EB20" name="KOALA" softbank="E527" text_fallback="[コアラ]"/>
 <e glyphRefID="137" google="FE1CE" id="1CE" img_from="softbank" kddi="&gt;E4D9" name="MONKEY" softbank="E528" text_fallback="[サル]"/>
@@ -415,7 +419,7 @@ Puckered lips 2 (more forceful kiss, eyes squinting)
 Under the weather (wearing a breathing mask)
 </desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="173" google="FE32F" id="32F" img_from="softbank" kddi="EAC8" name="FEVERISH FACE" softbank="E40D">
+<e docomo="&gt;E72A" glyphRefID="173" google="FE32F" id="32F" img_from="softbank" kddi="EAC8" name="FLUSHED FACE" softbank="E40D">
 <desc>
 red tinge around eyes
 </desc>
@@ -1123,7 +1127,11 @@ English (ABC)
 editing, Docomo has WHITE NIB. Tentatively unified with BLACK NIB
 </desc>
 </e>
-<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="CHAIR" softbank="E11F" text_fallback="[いす]" unicode="+"/>
+<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="SEAT" softbank="E11F" text_fallback="[いす]" unicode="+">
+<design>
+the glyph should look more like SoftBank #264 
+</design>
+</e>
 <e docomo="E716" glyphRefID="351" google="FE538" id="538" img_from="docomo" kddi="E5B8" name="COMPUTER" softbank="E00C"/>
 <e docomo="E719" google="FE539" id="539" kddi="E4A1" name="PENCIL" softbank="&gt;E301" unicode="270F">
 <desc>

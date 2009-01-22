@@ -129,7 +129,7 @@
 131	E1C8	2	Human/Living Things	Animals	BIRD		
 132	E1C9	2	Human/Living Things	Animals	TROPICAL FISH		
 133	E1CA	2	Human/Living Things	Animals	HAMSTER		
-134	E1CB	2	Human/Living Things	Animals	CENTIPEDE		
+134	E1CB	2	Human/Living Things	Animals	BUG	This Emoji may point to a centipede or hairy catepillar. It typically indicates something "distasteful".	
 135	E1CC	2	Human/Living Things	Animals	ELEPHANT		
 136	E1CD	2	Human/Living Things	Animals	KOALA		
 137	E1CE	2	Human/Living Things	Animals	MONKEY		
@@ -167,7 +167,7 @@
 170	E32C	3	Faces and Smiley's	Faces	FACE THROWING A KISS	kiss	
 171	E32D	3	Faces and Smiley's	Faces	FACE KISSING	Puckered lips 2 (more forceful kiss, eyes squinting)	
 172	E32E	3	Faces and Smiley's	Faces	FACE WITH A MASK	Under the weather (wearing a breathing mask)	
-173	E32F	3	Faces and Smiley's	Faces	FEVERISH FACE	red tinge around eyes	
+173	E32F	3	Faces and Smiley's	Faces	FLUSHED FACE	red tinge around eyes	
 174	E330	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH	May unify with ☺ U+263A WHITE SMILING FACE	
 175	E331	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT	with cold sweat (made it!)	
 176	E332	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES	Happy face 3 for DoCoMo	
@@ -344,7 +344,7 @@
 347	EB7E	4	Artifacts	Communication	NUMBERS SYMBOL	Numbers (1234)	
 348	EB7F	4	Artifacts	Communication	SYMBOLS SIGN	Symbols (〒, ♪, @, %)	
 349	EB80	4	Artifacts	Communication	ENGLISH LANGUAGE SYMBOL	English (ABC)	
-350	E537	4	Artifacts	Office	CHAIR		
+350	E537	4	Artifacts	Office	SEAT		the glyph should look more like SoftBank #264
 351	E538	4	Artifacts	Office	COMPUTER		
 352	E53A	4	Artifacts	Office	PAPERCLIP		
 353	E53B	4	Artifacts	Office	BRIEFCASE		
