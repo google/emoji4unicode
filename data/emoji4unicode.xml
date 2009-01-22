@@ -1496,57 +1496,57 @@ pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)
 Mobile Q service
 </desc>
 </e>
-<e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYPAD 1" softbank="E21C" unicode="0031+20E3">
+<e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYCAP 1" softbank="E21C" unicode="0031+20E3">
 <desc>
 Unify with ASCII 1 (U+0031) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E3" google="FE82F" id="82F" img_from="docomo" kddi="E523" name="KEYPAD 2" softbank="E21D" unicode="0032+20E3">
+<e docomo="E6E3" google="FE82F" id="82F" img_from="docomo" kddi="E523" name="KEYCAP 2" softbank="E21D" unicode="0032+20E3">
 <desc>
 Unify with ASCII 2 (U+0032) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E4" google="FE830" id="830" img_from="docomo" kddi="E524" name="KEYPAD 3" softbank="E21E" unicode="0033+20E3">
+<e docomo="E6E4" google="FE830" id="830" img_from="docomo" kddi="E524" name="KEYCAP 3" softbank="E21E" unicode="0033+20E3">
 <desc>
 Unify with ASCII 3 (U+0033) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E5" google="FE831" id="831" img_from="docomo" kddi="E525" name="KEYPAD 4" softbank="E21F" unicode="0034+20E3">
+<e docomo="E6E5" google="FE831" id="831" img_from="docomo" kddi="E525" name="KEYCAP 4" softbank="E21F" unicode="0034+20E3">
 <desc>
 Unify with ASCII 4 (U+0034) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E6" google="FE832" id="832" img_from="docomo" kddi="E526" name="KEYPAD 5" softbank="E220" unicode="0035+20E3">
+<e docomo="E6E6" google="FE832" id="832" img_from="docomo" kddi="E526" name="KEYCAP 5" softbank="E220" unicode="0035+20E3">
 <desc>
 Unify with ASCII 5 (U+0035) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E7" google="FE833" id="833" img_from="docomo" kddi="E527" name="KEYPAD 6" softbank="E221" unicode="0036+20E3">
+<e docomo="E6E7" google="FE833" id="833" img_from="docomo" kddi="E527" name="KEYCAP 6" softbank="E221" unicode="0036+20E3">
 <desc>
 Unify with ASCII 6 (U+0036) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E8" google="FE834" id="834" img_from="docomo" kddi="E528" name="KEYPAD 7" softbank="E222" unicode="0037+20E3">
+<e docomo="E6E8" google="FE834" id="834" img_from="docomo" kddi="E528" name="KEYCAP 7" softbank="E222" unicode="0037+20E3">
 <desc>
 Unify with ASCII 7 (U+0037) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E9" google="FE835" id="835" img_from="docomo" kddi="E529" name="KEYPAD 8" softbank="E223" unicode="0038+20E3">
+<e docomo="E6E9" google="FE835" id="835" img_from="docomo" kddi="E529" name="KEYCAP 8" softbank="E223" unicode="0038+20E3">
 <desc>
 Unify with ASCII 8 (U+0038) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6EA" google="FE836" id="836" img_from="docomo" kddi="E52A" name="KEYPAD 9" softbank="E224" unicode="0039+20E3">
+<e docomo="E6EA" google="FE836" id="836" img_from="docomo" kddi="E52A" name="KEYCAP 9" softbank="E224" unicode="0039+20E3">
 <desc>
 Unify with ASCII 9 (U+0039) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6EB" google="FE837" id="837" img_from="docomo" kddi="E5AC" name="KEYPAD 0" softbank="E225" unicode="0030+20E3">
+<e docomo="E6EB" google="FE837" id="837" img_from="docomo" kddi="E5AC" name="KEYCAP 0" softbank="E225" unicode="0030+20E3">
 <desc>
 Unify with ASCII 0 (U+0030) + (U+20E3)
 </desc>
 </e>
-<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYPAD TEN" text_fallback="[10]" unicode="+">
+<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYCAP TEN" text_fallback="[10]" unicode="+">
 <design>Should look like digits 10 enclosed by a keycap like &#xA0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
 </e>
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">

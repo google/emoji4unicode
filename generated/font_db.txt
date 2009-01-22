@@ -459,7 +459,7 @@
 461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	Two loops. Occurs widely in print in Japan.	
 462	E82C	5	Activities/Work/Entertainment	Phone Specific	HASH KEY	pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)	**Symbol no longer proposed for new encoding**
 463	E82D	5	Activities/Work/Entertainment	Phone Specific	MOBILE Q	Mobile Q service	**Symbol no longer proposed for new encoding**
-467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYPAD TEN		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
+467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYCAP TEN		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
 464	E838	5	Activities/Work/Entertainment	Phone Specific	ANTENNA MARK	Cellular reception (good reception)	
 465	E839	5	Activities/Work/Entertainment	Phone Specific	VIBRATION MODE	manner mode (in Japan)	
 466	E83A	5	Activities/Work/Entertainment	Phone Specific	PHONE OFF		
