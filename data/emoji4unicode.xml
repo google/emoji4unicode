@@ -154,9 +154,9 @@ autumn leaf
 animated Softbank symbol
 </desc>
 </e>
-<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="NEW LEAF" softbank="E209" text_fallback="[若葉マーク]">
+<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="JAPANESE SYMBOL FOR BEGINNER" softbank="E209" text_fallback="[若葉マーク]">
 <desc>
-(In Japan) Originally referred to a newly licensed driver. Now it refers to any neophyte.
+(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.
 </desc>
 </e>
 <e glyphRefID="52" google="FE045" id="045" img_from="kddi" kddi="EA94" name="HIBISCUS" softbank="E303" text_fallback="[ハイビスカス]"/>

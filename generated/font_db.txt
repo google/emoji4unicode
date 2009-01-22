@@ -45,7 +45,7 @@
 48	E041	1	Nature	Plants	ROSE		
 49	E042	1	Nature	Plants	FALLEN LEAF	autumn leaf	
 50	E043	1	Nature	Plants	LEAF FLUTTERING IN WIND	animated Softbank symbol	
-51	E044	1	Nature	Plants	NEW LEAF	(In Japan) Originally referred to a newly licensed driver. Now it refers to any neophyte.	
+51	E044	1	Nature	Plants	JAPANESE SYMBOL FOR BEGINNER	(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.	
 52	E045	1	Nature	Plants	HIBISCUS		
 53	E046	1	Nature	Plants	SUNFLOWER		
 54	E047	1	Nature	Plants	PALM TREE		
