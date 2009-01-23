@@ -154,11 +154,6 @@ autumn leaf
 animated Softbank symbol
 </desc>
 </e>
-<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="JAPANESE SYMBOL FOR BEGINNER" softbank="E209" text_fallback="[若葉マーク]">
-<desc>
-(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.
-</desc>
-</e>
 <e glyphRefID="52" google="FE045" id="045" img_from="kddi" kddi="EA94" name="HIBISCUS" softbank="E303" text_fallback="[ハイビスカス]"/>
 <e glyphRefID="53" google="FE046" id="046" img_from="softbank" kddi="E4E3" name="SUNFLOWER" softbank="E305" text_fallback="[ひまわり]"/>
 <e glyphRefID="54" google="FE047" id="047" img_from="softbank" kddi="E4E2" name="PALM TREE" softbank="E307" text_fallback="[ビーチ]"/>
@@ -1908,6 +1903,11 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 <e docomo="E67F" glyphRefID="531" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
 <e docomo="E680" glyphRefID="532" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
+<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="JAPANESE SYMBOL FOR BEGINNER" softbank="E209" text_fallback="[若葉マーク]">
+<desc>
+(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.
+</desc>
+</e>
 <e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="TRIDENT EMBLEM" softbank="E031"/>
 <e docomo="E6DE" glyphRefID="533" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]">
 <desc>
