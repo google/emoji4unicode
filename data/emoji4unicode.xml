@@ -98,10 +98,13 @@ Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous
 </e>
 <e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ELEVEN OCLOCK" softbank="E02E"/>
 <e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWELVE OCLOCK" softbank="E02F"/>
-<e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="CLOCK SYMBOL" softbank="&gt;E02D">
+<e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="ALARM CLOCK" softbank="&gt;E02D">
 <desc>
 a general clock symbol
 </desc>
+<design>
+Make the glyph look like an alarm clock.
+</design>
 </e>
 </subcategory>
 <subcategory name="Zodiacal Symbols">
@@ -209,7 +212,14 @@ Usually in green color
 <e docomo="E710" glyphRefID="80" google="FE195" id="195" img_from="kddi" kddi="E509" name="LIPSTICK" softbank="E31C"/>
 <e glyphRefID="81" google="FE196" id="196" img_from="kddi" kddi="EAA0" name="NAIL POLISH" softbank="E31D" text_fallback="[マニキュア]"/>
 <e glyphRefID="82" google="FE197" id="197" img_from="kddi" kddi="E50B" name="FACE MASSAGE" softbank="E31E" text_fallback="[エステ]"/>
-<e docomo="&gt;E675" glyphRefID="83" google="FE198" id="198" img_from="kddi" kddi="EAA1" name="HAIRCUT" softbank="E31F"/>
+<e docomo="&gt;E675" glyphRefID="83" google="FE198" id="198" img_from="kddi" kddi="EAA1" name="HAIRCUT" softbank="E31F">
+<desc>
+Ususally indicates a beauty parlor
+</desc>
+<design>
+The glyph needs to represent a female as this Emoji refers to a beauty parlor.
+</design>
+</e>
 <e glyphRefID="84" google="FE199" id="199" img_from="kddi" kddi="EAA2" name="BARBER POLE" softbank="E320" text_fallback="[床屋]"/>
 </subcategory>
 <subcategory name="People / Personalities">
@@ -257,14 +267,14 @@ here this is male
 </desc>
 </e>
 <e glyphRefID="102" google="FE1AB" id="1AB" img_from="kddi" kddi="EB1A" name="PRINCESS" softbank="E51C" text_fallback="[お姫様]"/>
-<e glyphRefID="103" google="FE1AC" id="1AC" img_from="kddi" kddi="EB44" name="RED FACED OGRE" text_fallback="[なまはげ]">
+<e glyphRefID="103" google="FE1AC" id="1AC" img_from="kddi" kddi="EB44" name="OGRE" text_fallback="[なまはげ]">
 <desc>
-Oni (red faced demon)
+In Japanese, "Oni" - could be a red or blue faced demon. Also refers to "Namahage" - a local year-end event in Akita.
 </desc>
 </e>
-<e glyphRefID="104" google="FE1AD" id="1AD" img_from="kddi" kddi="EB45" name="LONG NOSED GOBLIN" text_fallback="[天狗]">
+<e glyphRefID="104" google="FE1AD" id="1AD" img_from="kddi" kddi="EB45" name="GOBLIN" text_fallback="[天狗]">
 <desc>
-天狗 (long-nosed goblin, braggart)
+In Japanese "Tengu" [天狗] (long-nosed goblin, braggart)
 </desc>
 </e>
 <e glyphRefID="105" google="FE1AE" id="1AE" img_from="kddi" kddi="E4CB" name="GHOST" softbank="E11B" text_fallback="[お化け]">
@@ -356,7 +366,7 @@ Note Aries (sheep) by KDDI. Zodiac
 <e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="DRAGON" text_fallback="[辰]"/>
 <e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA" text_fallback="[パンダ]"/>
 <e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B"/>
-<e glyphRefID="156" google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEY BEE" text_fallback="[ミツバチ]"/>
+<e glyphRefID="156" google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEYBEE" text_fallback="[ミツバチ]"/>
 <e glyphRefID="157" google="FE1E2" id="1E2" img_from="kddi" kddi="EB58" name="LADYBUG" text_fallback="[てんとう虫]"/>
 <e google="FE1E3" id="1E3" img_from="google" kddi="&gt;E492" in_proposal="no" name="CRAB" text_fallback="[カニ]"/>
 </subcategory>
@@ -655,12 +665,12 @@ Huh &quot;smiley&quot; with unbalanced eyes
 </category>
 <category name="4. Artifacts">
 <subcategory name="Buildings / Common Places">
-<e docomo="E663" glyphRefID="216" google="FE4B0" id="4B0" img_from="docomo" kddi="E4AB" name="BLACK HOUSE" softbank="E036">
+<e docomo="E663" glyphRefID="216" google="FE4B0" id="4B0" img_from="docomo" kddi="E4AB" name="HOUSE BUILDING" softbank="E036">
 <desc>
 similar to English &quot;house&quot; = &quot;building&quot;
 </desc>
 </e>
-<e docomo="&gt;E663" glyphRefID="217" google="FE4B1" id="4B1" img_from="kddi" kddi="EB09" name="HOME" softbank="&gt;E036">
+<e docomo="&gt;E663" glyphRefID="217" google="FE4B1" id="4B1" img_from="kddi" kddi="EB09" name="HOUSE WITH YARD" softbank="&gt;E036">
 <desc>
 similar to English &quot;home&quot; = &quot;where one belongs to&quot;
 </desc>
@@ -974,7 +984,7 @@ birthday
 </e>
 <e docomo="E6A4" glyphRefID="311" google="FE512" id="512" img_from="kddi" kddi="E4C9" name="CHRISTMAS TREE" softbank="E033"/>
 <e glyphRefID="312" google="FE513" id="513" img_from="kddi" kddi="EAF0" name="SANTA CLAUS" softbank="E448" text_fallback="[サンタ]"/>
-<e glyphRefID="313" google="FE514" id="514" img_from="kddi" kddi="E5D9" name="TWO JAPANESE FLAGS" softbank="E143" text_fallback="[祝日]">
+<e glyphRefID="313" google="FE514" id="514" img_from="kddi" kddi="E5D9" name="CROSSED JAPANESE FLAGS" softbank="E143" text_fallback="[祝日]">
 <desc>
 national holiday in Japan
 </desc>
@@ -987,7 +997,7 @@ national holiday in Japan
 Japanese New Year's Door Decoration (門松)
 </desc>
 </e>
-<e glyphRefID="318" google="FE519" id="519" img_from="kddi" kddi="EAE4" name="GIRLS DOLLS FESTIVAL" softbank="E438" text_fallback="[ひな祭り]">
+<e glyphRefID="318" google="FE519" id="519" img_from="kddi" kddi="EAE4" name="GIRLS DOLL FESTIVAL" softbank="E438" text_fallback="[ひな祭り]">
 <desc>
 雛祭り: Japanese Hinamatsuri
 </desc>
@@ -1003,9 +1013,9 @@ school entrance ceremony,
 </desc>
 </e>
 <e glyphRefID="321" google="FE51C" id="51C" img_from="kddi" kddi="EAE7" name="CARP STREAMER" softbank="E43B" text_fallback="[こいのぼり]"/>
-<e glyphRefID="322" google="FE51D" id="51D" img_from="kddi" kddi="EAEB" name="JAPANESE SPARKLER" softbank="E440" text_fallback="[線香花火]">
+<e glyphRefID="322" google="FE51D" id="51D" img_from="kddi" kddi="EAEB" name="FIREWORK SPARKLER" softbank="E440" text_fallback="[線香花火]">
 <desc>
-firecracker
+A long stick like firework that looks like a burning incense stick. "Senkoo Hanabi" in Japanese.
 </desc>
 </e>
 <e glyphRefID="323" google="FE51E" id="51E" img_from="kddi" kddi="EAED" name="WIND CHIME" softbank="E442" text_fallback="[風鈴]">
@@ -1018,9 +1028,9 @@ Wind chime, wind bell (風鈴)
 Halloween
 </desc>
 </e>
-<e glyphRefID="325" google="FE520" id="520" img_from="kddi" kddi="E46F" name="DECORATIVE CONFETTI BALL" text_fallback="[オメデトウ]">
+<e glyphRefID="325" google="FE520" id="520" img_from="kddi" kddi="E46F" name="CONFETTI BALL" text_fallback="[オメデトウ]">
 <desc>
-Ornamental bag or decorative ball that opens up
+Ornamental bag or decorative ball that opens up. Sometimes used to express "Congratulations!"
 </desc>
 </e>
 <e glyphRefID="326" google="FE521" id="521" img_from="kddi" kddi="EB3D" name="TANABATA TREE" text_fallback="[七夕]">
@@ -1105,12 +1115,12 @@ Letters (abcd, lowercase)
 Numbers (1234)
 </desc>
 </e>
-<e glyphRefID="348" google="FEB7F" id="B7F" img_from="kddi" kddi="EB00" name="SYMBOLS SIGN" text_fallback="[記号]">
+<e glyphRefID="348" google="FEB7F" id="B7F" img_from="kddi" kddi="EB00" name="SYMBOLS INPUT SYMBOL" text_fallback="[記号]">
 <desc>
 Symbols (〒, ♪, @, %)
 </desc>
 </e>
-<e glyphRefID="349" google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="ENGLISH LANGUAGE SYMBOL" text_fallback="[ABC]">
+<e glyphRefID="349" google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="LATIN LETTERS SYMBOL" text_fallback="[ABC]">
 <desc>
 English (ABC)
 </desc>
@@ -1184,9 +1194,9 @@ real estate original record book, financial books,
 <e docomo="&gt;E689" glyphRefID="375" google="FE552" id="552" img_from="kddi" kddi="EB0B" name="BOOKMARK TABS" softbank="&gt;E301"/>
 </subcategory>
 <subcategory name="Relic">
-<e docomo="E698" glyphRefID="376" google="FE553" id="553" img_from="docomo" kddi="EB2A" name="FOOT PRINTS" softbank="E536">
+<e docomo="E698" glyphRefID="376" google="FE553" id="553" img_from="docomo" kddi="EB2A" name="FOOTPRINTS" softbank="E536">
 <desc>
-single or multiple foot prints
+single or multiple footprints
 </desc>
 </e>
 </subcategory>
@@ -1380,7 +1390,7 @@ music
 painter's pallet
 </desc>
 </e>
-<e docomo="E67C" glyphRefID="424" google="FE805" id="805" img_from="docomo" kddi="EAF5" name="BLACK SILK HAT" softbank="E503">
+<e docomo="E67C" glyphRefID="424" google="FE805" id="805" img_from="docomo" kddi="EAF5" name="TOP HAT" softbank="E503">
 <desc>
 drama, performing arts, theater
 </desc>
@@ -1416,7 +1426,7 @@ archery, hitting the target
 </desc>
 </e>
 <e glyphRefID="432" google="FE80E" id="80E" img_from="kddi" kddi="EADD" name="BILLIARDS" softbank="E42C" text_fallback="[ビリヤード]"/>
-<e glyphRefID="433" google="FE80F" id="80F" img_from="kddi" kddi="E4C8" name="A DIE" text_fallback="[サイコロ]"/>
+<e glyphRefID="433" google="FE80F" id="80F" img_from="kddi" kddi="E4C8" name="GAME DIE" text_fallback="[サイコロ]"/>
 <e glyphRefID="434" google="FE810" id="810" img_from="kddi" kddi="EB43" name="BOWLING" text_fallback="[ボーリング]"/>
 <e glyphRefID="435" google="FE811" id="811" img_from="kddi" kddi="EB6E" name="JAPANESE FLOWER PLAYING CARDS" text_fallback="[花札]">
 <desc>
@@ -1641,7 +1651,7 @@ hot pot, nabe
 </desc>
 </e>
 <e glyphRefID="485" google="FE971" id="971" img_from="kddi" kddi="EAEA" name="SHAVED ICE" softbank="E43F" text_fallback="[カキ氷]"/>
-<e glyphRefID="486" google="FE972" id="972" img_from="kddi" kddi="E4C4" name="MEAT ON A BONE" text_fallback="[肉]">
+<e glyphRefID="486" google="FE972" id="972" img_from="kddi" kddi="E4C4" name="MEAT ON BONE" text_fallback="[肉]">
 <desc>
 food
 </desc>
@@ -1663,7 +1673,7 @@ topping for ramen noodles
 <e glyphRefID="493" google="FE979" id="979" img_from="kddi" kddi="EB4C" name="COOKIE" text_fallback="[クッキー]"/>
 <e glyphRefID="494" google="FE97A" id="97A" img_from="kddi" kddi="EB4D" name="CHOCOLATE BAR" text_fallback="[チョコ]"/>
 <e glyphRefID="495" google="FE97B" id="97B" img_from="kddi" kddi="EB4E" name="CANDY" text_fallback="[キャンディ]"/>
-<e glyphRefID="496" google="FE97C" id="97C" img_from="kddi" kddi="EB4F" name="LOLLYPOP" text_fallback="[キャンディ]"/>
+<e glyphRefID="496" google="FE97C" id="97C" img_from="kddi" kddi="EB4F" name="LOLLIPOP" text_fallback="[キャンディ]"/>
 <e glyphRefID="497" google="FE97D" id="97D" img_from="kddi" kddi="EB56" name="CUSTARD" text_fallback="[プリン]"/>
 <e glyphRefID="498" google="FE97E" id="97E" img_from="kddi" kddi="EB59" name="HONEY POT" text_fallback="[ハチミツ]"/>
 <e glyphRefID="499" google="FE97F" id="97F" img_from="kddi" kddi="EB70" name="FRIED SHRIMP" text_fallback="[エビフライ]"/>

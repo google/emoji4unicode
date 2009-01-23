@@ -31,7 +31,7 @@
 34	E027	1	Nature	Time	CLOCK FACE TEN OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
 35	E028	1	Nature	Time	CLOCK FACE ELEVEN OCLOCK		
 36	E029	1	Nature	Time	CLOCK FACE TWELVE OCLOCK		
-37	E02A	1	Nature	Time	CLOCK SYMBOL	a general clock symbol	
+37	E02A	1	Nature	Time	ALARM CLOCK	a general clock symbol	Make the glyph look like an alarm clock.
 38	E037	1	Nature	Zodiacal Symbols	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
 39	E038	1	Nature	Places in Nature	WATER WAVE		
 40	E039	1	Nature	Places in Nature	EARTH GLOBE		
@@ -76,7 +76,7 @@
 80	E195	2	Human/Living Things	Personal Care	LIPSTICK		
 81	E196	2	Human/Living Things	Personal Care	NAIL POLISH		
 82	E197	2	Human/Living Things	Personal Care	FACE MASSAGE		
-83	E198	2	Human/Living Things	Personal Care	HAIRCUT		
+83	E198	2	Human/Living Things	Personal Care	HAIRCUT	Ususally indicates a beauty parlor	The glyph needs to represent a female as this Emoji refers to a beauty parlor.
 84	E199	2	Human/Living Things	Personal Care	BARBER POLE		
 85	E19A	2	Human/Living Things	People / Personalities	SILHOUETTE OF BUST		
 86	E19B	2	Human/Living Things	People / Personalities	BOYS HEAD	? Need to examine cross mapping	
@@ -96,8 +96,8 @@
 100	E1A9	2	Human/Living Things	People / Personalities	BABY		
 101	E1AA	2	Human/Living Things	People / Personalities	CONSTRUCTION WORKER	here this is male	
 102	E1AB	2	Human/Living Things	People / Personalities	PRINCESS		
-103	E1AC	2	Human/Living Things	People / Personalities	RED FACED OGRE	Oni (red faced demon)	
-104	E1AD	2	Human/Living Things	People / Personalities	LONG NOSED GOBLIN	天狗 (long-nosed goblin, braggart)	
+103	E1AC	2	Human/Living Things	People / Personalities	OGRE	In Japanese, "Oni" - could be a red or blue faced demon. Also refers to "Namahage" - a local year-end event in Akita.	
+104	E1AD	2	Human/Living Things	People / Personalities	GOBLIN	In Japanese "Tengu" [天狗] (long-nosed goblin, braggart)	
 105	E1AE	2	Human/Living Things	People / Personalities	GHOST	Ghost (cute)	
 106	E1AF	2	Human/Living Things	People / Personalities	ANGEL		
 107	E1B0	2	Human/Living Things	People / Personalities	EXTRATERRESTRIAL ALIEN	Alien (big eyed type), or UFO	
@@ -149,7 +149,7 @@
 153	E1DE	2	Human/Living Things	Animals	DRAGON		
 154	E1DF	2	Human/Living Things	Animals	PANDA		
 155	E1E0	2	Human/Living Things	Animals	PIG NOSE		
-156	E1E1	2	Human/Living Things	Animals	HONEY BEE		
+156	E1E1	2	Human/Living Things	Animals	HONEYBEE		
 157	E1E2	2	Human/Living Things	Animals	LADYBUG		
 158	E320	3	Faces and Smiley's	Faces	ANGRY FACE		
 159	E321	3	Faces and Smiley's	Faces	ANGUISHED FACE		
@@ -209,8 +209,8 @@
 213	E359	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON FROWNING	dejected	
 214	E35A	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON MAKING POUTING FACE	cute pouting face	
 215	E35B	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON WITH FOLDED HANDS	"Sorry" or "Please"	
-216	E4B0	4	Artifacts	Buildings / Common Places	BLACK HOUSE	similar to English "house" = "building"	
-217	E4B1	4	Artifacts	Buildings / Common Places	HOME	similar to English "home" = "where one belongs to"	
+216	E4B0	4	Artifacts	Buildings / Common Places	HOUSE BUILDING	similar to English "house" = "building"	
+217	E4B1	4	Artifacts	Buildings / Common Places	HOUSE WITH YARD	similar to English "home" = "where one belongs to"	
 218	E4B2	4	Artifacts	Buildings / Common Places	OFFICE BUILDING		
 219	E4B3	4	Artifacts	Buildings / Common Places	POST OFFICE		
 621	E4B4	4	Artifacts	Buildings / Common Places	HOSPITAL	disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers have a cross on a building while ARIB-9109 is a cross on a shield. (Note: may be controversial in Islamic and Jewish cultures)	
@@ -306,19 +306,19 @@
 310	E511	4	Artifacts	Celebration / Holidays	BIRTHDAY CAKE	birthday	
 311	E512	4	Artifacts	Celebration / Holidays	CHRISTMAS TREE		
 312	E513	4	Artifacts	Celebration / Holidays	SANTA CLAUS		
-313	E514	4	Artifacts	Celebration / Holidays	TWO JAPANESE FLAGS	national holiday in Japan	
+313	E514	4	Artifacts	Celebration / Holidays	CROSSED JAPANESE FLAGS	national holiday in Japan	
 314	E515	4	Artifacts	Celebration / Holidays	FIREWORKS		
 315	E516	4	Artifacts	Celebration / Holidays	BALLOON		
 316	E517	4	Artifacts	Celebration / Holidays	PARTY POPPER		
 317	E518	4	Artifacts	Celebration / Holidays	PINE DECORATION	Japanese New Year's Door Decoration (門松)	
-318	E519	4	Artifacts	Celebration / Holidays	GIRLS DOLLS FESTIVAL	雛祭り: Japanese Hinamatsuri	
+318	E519	4	Artifacts	Celebration / Holidays	GIRLS DOLL FESTIVAL	雛祭り: Japanese Hinamatsuri	
 319	E51A	4	Artifacts	Celebration / Holidays	GRADUATION CAP	graduation ceremony	
 320	E51B	4	Artifacts	Celebration / Holidays	SCHOOL SATCHEL	school entrance ceremony,	
 321	E51C	4	Artifacts	Celebration / Holidays	CARP STREAMER		
-322	E51D	4	Artifacts	Celebration / Holidays	JAPANESE SPARKLER	firecracker	
+322	E51D	4	Artifacts	Celebration / Holidays	FIREWORK SPARKLER	A long stick like firework that looks like a burning incense stick. "Senkoo Hanabi" in Japanese.	
 323	E51E	4	Artifacts	Celebration / Holidays	WIND CHIME	Wind chime, wind bell (風鈴)	
 324	E51F	4	Artifacts	Celebration / Holidays	JACK O LANTERN	Halloween	
-325	E520	4	Artifacts	Celebration / Holidays	DECORATIVE CONFETTI BALL	Ornamental bag or decorative ball that opens up	
+325	E520	4	Artifacts	Celebration / Holidays	CONFETTI BALL	Ornamental bag or decorative ball that opens up. Sometimes used to express "Congratulations!"	
 326	E521	4	Artifacts	Celebration / Holidays	TANABATA TREE	Tanabata tree with wishing papers (七夕笹飾り)	
 327	E522	4	Artifacts	Communication	PAGER		
 328	E524	4	Artifacts	Communication	TELEPHONE RECEIVER		
@@ -341,8 +341,8 @@
 345	EB7C	4	Artifacts	Communication	LATIN CAPITAL LETTERS SYMBOL	Letters (ABCD, uppercase)	
 346	EB7D	4	Artifacts	Communication	LATIN SMALL LETTERS SYMBOL	Letters (abcd, lowercase)	
 347	EB7E	4	Artifacts	Communication	NUMBERS SYMBOL	Numbers (1234)	
-348	EB7F	4	Artifacts	Communication	SYMBOLS SIGN	Symbols (〒, ♪, @, %)	
-349	EB80	4	Artifacts	Communication	ENGLISH LANGUAGE SYMBOL	English (ABC)	
+348	EB7F	4	Artifacts	Communication	SYMBOLS INPUT SYMBOL	Symbols (〒, ♪, @, %)	
+349	EB80	4	Artifacts	Communication	LATIN LETTERS SYMBOL	English (ABC)	
 350	E537	4	Artifacts	Office	SEAT		the glyph should look more like SoftBank #264
 351	E538	4	Artifacts	Office	COMPUTER		
 352	E53A	4	Artifacts	Office	PAPERCLIP		
@@ -369,7 +369,7 @@
 373	E550	4	Artifacts	Office	STRAIGHT RULER		
 374	E551	4	Artifacts	Office	TRIANGULAR RULER		
 375	E552	4	Artifacts	Office	BOOKMARK TABS		
-376	E553	4	Artifacts	Relic	FOOT PRINTS	single or multiple foot prints	
+376	E553	4	Artifacts	Relic	FOOTPRINTS	single or multiple footprints	
 377	E7D0	5	Activities/Work/Entertainment	Sports	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
 378	E7D2	5	Activities/Work/Entertainment	Sports	FLAG IN HOLE	Unified with U+26F3 = ARIB-9126; Amd 6 and Unicode 5.2. Golf (DoCoMo is golf club, others are the green and flag).	**Symbol no longer proposed for new encoding**
 379	E7D3	5	Activities/Work/Entertainment	Sports	TENNIS	racket and ball, or player	
@@ -418,7 +418,7 @@
 421	E802	5	Activities/Work/Entertainment	Entertainment	MOVIE THEATER	movie projector	
 422	E803	5	Activities/Work/Entertainment	Entertainment	HEADPHONE	music	
 423	E804	5	Activities/Work/Entertainment	Entertainment	ART	painter's pallet	
-424	E805	5	Activities/Work/Entertainment	Entertainment	BLACK SILK HAT	drama, performing arts, theater	
+424	E805	5	Activities/Work/Entertainment	Entertainment	TOP HAT	drama, performing arts, theater	
 425	E806	5	Activities/Work/Entertainment	Entertainment	EVENT	a circus tent	
 426	E807	5	Activities/Work/Entertainment	Entertainment	TICKET	used to indicate an event	
 427	E808	5	Activities/Work/Entertainment	Entertainment	MOVIE SHOOTING CLAPBOARD		
@@ -427,7 +427,7 @@
 430	E80C	5	Activities/Work/Entertainment	Games	BULLS EYE	archery, hitting the target	
 431	E80D	5	Activities/Work/Entertainment	Games	SLOT MACHINE	777	
 432	E80E	5	Activities/Work/Entertainment	Games	BILLIARDS		
-433	E80F	5	Activities/Work/Entertainment	Games	A DIE		
+433	E80F	5	Activities/Work/Entertainment	Games	GAME DIE		
 434	E810	5	Activities/Work/Entertainment	Games	BOWLING		
 435	E811	5	Activities/Work/Entertainment	Games	JAPANESE FLOWER PLAYING CARDS	flower cards (花札)	
 436	E812	5	Activities/Work/Entertainment	Games	JOKER CARD		
@@ -480,7 +480,7 @@
 483	E96F	6	Foods	Prepared Food	LUNCHBOX	obento	
 484	E970	6	Foods	Prepared Food	POT OF FOOD	hot pot, nabe	
 485	E971	6	Foods	Prepared Food	SHAVED ICE		
-486	E972	6	Foods	Prepared Food	MEAT ON A BONE	food	
+486	E972	6	Foods	Prepared Food	MEAT ON BONE	food	
 487	E973	6	Foods	Prepared Food	FISH CAKE WITH SWIRL DESIGN	topping for ramen noodles	
 488	E974	6	Foods	Prepared Food	ROASTED SWEET POTATO	焼き芋: Japanese yakiimo	
 489	E975	6	Foods	Prepared Food	PIZZA		
@@ -490,7 +490,7 @@
 493	E979	6	Foods	Prepared Food	COOKIE		
 494	E97A	6	Foods	Prepared Food	CHOCOLATE BAR		
 495	E97B	6	Foods	Prepared Food	CANDY		
-496	E97C	6	Foods	Prepared Food	LOLLYPOP		
+496	E97C	6	Foods	Prepared Food	LOLLIPOP		
 497	E97D	6	Foods	Prepared Food	CUSTARD		
 498	E97E	6	Foods	Prepared Food	HONEY POT		
 499	E97F	6	Foods	Prepared Food	FRIED SHRIMP		
