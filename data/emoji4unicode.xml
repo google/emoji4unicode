@@ -398,13 +398,13 @@ used to indicate the state of being in love
 </desc>
 </e>
 <e docomo="&gt;E753" glyphRefID="166" google="FE328" id="328" img_from="softbank" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="E404"/>
-<e docomo="E728" glyphRefID="167" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="FACE WINKING WITH STUCK OUT TONGUE" softbank="E105"/>
+<e docomo="E728" glyphRefID="167" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="WINKING FACE WITH STUCK OUT TONGUE" softbank="E105"/>
 <e docomo="&gt;E728" glyphRefID="168" google="FE32A" id="32A" img_from="softbank" kddi="&gt;E4E7" name="FACE WITH STUCK OUT TONGUE" softbank="E409">
 <desc>
 with eyelids pulled down for additional effect
 </desc>
 </e>
-<e docomo="E752" glyphRefID="169" google="FE32B" id="32B" img_from="docomo" kddi="&gt;EACD" name="FACE WITH YUMMY LOOK" softbank="&gt;E056">
+<e docomo="E752" glyphRefID="169" google="FE32B" id="32B" img_from="docomo" kddi="&gt;EACD" name="FACE SAVORING DELICIOUS FOOD" softbank="&gt;E056">
 <desc>
 tastes delicious
 </desc>
@@ -419,7 +419,7 @@ kiss
 Puckered lips 2 (more forceful kiss, eyes squinting)
 </desc>
 </e>
-<e glyphRefID="172" google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH A MASK" softbank="E40C" text_fallback="[風邪ひき]">
+<e glyphRefID="172" google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH MASK" softbank="E40C" text_fallback="[風邪ひき]">
 <desc>
 Under the weather (wearing a breathing mask)
 </desc>
@@ -474,7 +474,7 @@ Possibly unify with U+263A WHITE SMILING FACE
 with open mouth
 </desc>
 </e>
-<e docomo="E72E" glyphRefID="181" google="FE339" id="339" img_from="docomo" kddi="EB69" name="LITTLE CRYING FACE" softbank="E413">
+<e docomo="E72E" glyphRefID="181" google="FE339" id="339" img_from="docomo" kddi="EB69" name="CRYING FACE" softbank="E413">
 <desc>
 1 or 2 tear drops
 </desc>
@@ -484,7 +484,7 @@ with open mouth
 lots of tears
 </desc>
 </e>
-<e docomo="&gt;E757" glyphRefID="183" google="FE33B" id="33B" img_from="softbank" kddi="EAC6" name="PALE FACE" softbank="E40B">
+<e docomo="&gt;E757" glyphRefID="183" google="FE33B" id="33B" img_from="softbank" kddi="EAC6" name="FEARFUL FACE" softbank="E40B">
 <desc>
 Pale in fear
 </desc>
@@ -498,13 +498,13 @@ failure, disappointment
 <e docomo="E721" glyphRefID="186" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A"/>
 <e docomo="E6F3" glyphRefID="187" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="CONFOUNDED FACE" softbank="E407"/>
 <e docomo="E720" glyphRefID="188" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="PENSIVE FACE" softbank="E403"/>
-<e docomo="E757" glyphRefID="189" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="SHOCKED FACE WITH SCREAM" softbank="E107">
+<e docomo="E757" glyphRefID="189" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="FACE SCREAMING IN FEAR" softbank="E107">
 <desc>
 Shocking (like Edvard Munch's &quot;The Scream&quot;)
 </desc>
 </e>
 <e docomo="&gt;E701" glyphRefID="190" google="FE342" id="342" img_from="softbank" kddi="EAC4" name="SLEEPY FACE" softbank="E408"/>
-<e docomo="E72C" glyphRefID="191" google="FE343" id="343" img_from="docomo" kddi="EABF" name="SMIRKY FACE" softbank="E402">
+<e docomo="E72C" glyphRefID="191" google="FE343" id="343" img_from="docomo" kddi="EABF" name="SMIRKING FACE" softbank="E402">
 <desc>
 half smile in some cases
 </desc>
@@ -601,7 +601,7 @@ banzai, raising both hands
 dejected
 </desc>
 </e>
-<e docomo="&gt;E6F1" glyphRefID="214" google="FE35A" id="35A" img_from="kddi" kddi="EB88" name="PERSON MAKING POUTING FACE" softbank="&gt;E416">
+<e docomo="&gt;E6F1" glyphRefID="214" google="FE35A" id="35A" img_from="kddi" kddi="EB88" name="PERSON WITH POUTING FACE" softbank="&gt;E416">
 <desc>
 cute pouting face
 </desc>

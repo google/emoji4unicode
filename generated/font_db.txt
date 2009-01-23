@@ -160,12 +160,12 @@
 164	E326	3	Faces and Smiley's	Faces	EXPRESSIONLESS FACE	KDDI has side-look animation	
 165	E327	3	Faces and Smiley's	Faces	FACE WITH HEART SHAPED EYES	used to indicate the state of being in love	
 166	E328	3	Faces and Smiley's	Faces	FACE WITH LOOK OF TRIUMPH		
-167	E329	3	Faces and Smiley's	Faces	FACE WINKING WITH STUCK OUT TONGUE		
+167	E329	3	Faces and Smiley's	Faces	WINKING FACE WITH STUCK OUT TONGUE		
 168	E32A	3	Faces and Smiley's	Faces	FACE WITH STUCK OUT TONGUE	with eyelids pulled down for additional effect	
-169	E32B	3	Faces and Smiley's	Faces	FACE WITH YUMMY LOOK	tastes delicious	
+169	E32B	3	Faces and Smiley's	Faces	FACE SAVORING DELICIOUS FOOD	tastes delicious	
 170	E32C	3	Faces and Smiley's	Faces	FACE THROWING A KISS	kiss	
 171	E32D	3	Faces and Smiley's	Faces	FACE KISSING	Puckered lips 2 (more forceful kiss, eyes squinting)	
-172	E32E	3	Faces and Smiley's	Faces	FACE WITH A MASK	Under the weather (wearing a breathing mask)	
+172	E32E	3	Faces and Smiley's	Faces	FACE WITH MASK	Under the weather (wearing a breathing mask)	
 173	E32F	3	Faces and Smiley's	Faces	FLUSHED FACE	red tinge around eyes	
 174	E330	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH	May unify with ☺ U+263A WHITE SMILING FACE	
 175	E331	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT	with cold sweat (made it!)	
@@ -174,17 +174,17 @@
 178	E334	3	Faces and Smiley's	Faces	HAPPY AND SAD FACE	with tears of joy	
 179	E335	3	Faces and Smiley's	Faces	HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS	smiling face	
 180	E338	3	Faces and Smiley's	Faces	HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS	with open mouth	
-181	E339	3	Faces and Smiley's	Faces	LITTLE CRYING FACE	1 or 2 tear drops	
+181	E339	3	Faces and Smiley's	Faces	CRYING FACE	1 or 2 tear drops	
 182	E33A	3	Faces and Smiley's	Faces	LOUDLY CRYING FACE	lots of tears	
-183	E33B	3	Faces and Smiley's	Faces	PALE FACE	Pale in fear	
+183	E33B	3	Faces and Smiley's	Faces	FEARFUL FACE	Pale in fear	
 184	E33C	3	Faces and Smiley's	Faces	PERSEVERING FACE	failure, disappointment	
 185	E33D	3	Faces and Smiley's	Faces	POUTING FACE		
 186	E33E	3	Faces and Smiley's	Faces	RELIEVED FACE		
 187	E33F	3	Faces and Smiley's	Faces	CONFOUNDED FACE		
 188	E340	3	Faces and Smiley's	Faces	PENSIVE FACE		
-189	E341	3	Faces and Smiley's	Faces	SHOCKED FACE WITH SCREAM	Shocking (like Edvard Munch's "The Scream")	
+189	E341	3	Faces and Smiley's	Faces	FACE SCREAMING IN FEAR	Shocking (like Edvard Munch's "The Scream")	
 190	E342	3	Faces and Smiley's	Faces	SLEEPY FACE		
-191	E343	3	Faces and Smiley's	Faces	SMIRKY FACE	half smile in some cases	
+191	E343	3	Faces and Smiley's	Faces	SMIRKING FACE	half smile in some cases	
 192	E344	3	Faces and Smiley's	Faces	FACE WITH COLD SWEAT	with troubled look	
 193	E345	3	Faces and Smiley's	Faces	DISAPPOINTED BUT RELIEVED FACE		
 194	E346	3	Faces and Smiley's	Faces	TIRED FACE	Enduring (exhausted) face	
@@ -207,7 +207,7 @@
 211	E357	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING ONE HAND	act of raising a hand	
 212	E358	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING BOTH HANDS	banzai, raising both hands	
 213	E359	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON FROWNING	dejected	
-214	E35A	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON MAKING POUTING FACE	cute pouting face	
+214	E35A	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON WITH POUTING FACE	cute pouting face	
 215	E35B	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON WITH FOLDED HANDS	"Sorry" or "Please"	
 216	E4B0	4	Artifacts	Buildings / Common Places	HOUSE BUILDING	similar to English "house" = "building"	
 217	E4B1	4	Artifacts	Buildings / Common Places	HOUSE WITH YARD	similar to English "home" = "where one belongs to"	
