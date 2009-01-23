@@ -121,7 +121,7 @@
   <PostScriptName glyphRefID="89" NameString="uniE19E.womans_head" />
   <PostScriptName glyphRefID="90" NameString="uniE19F.family" />
   <PostScriptName glyphRefID="91" NameString="uniE1A0.couple" />
-  <PostScriptName glyphRefID="92" NameString="uniE1A1.police" />
+  <PostScriptName glyphRefID="92" NameString="uniE1A1.police_officer" />
   <PostScriptName glyphRefID="93" NameString="uniE1A2.woman_with_bunny_ears" />
   <PostScriptName glyphRefID="94" NameString="uniE1A3.bride_with_veil" />
   <PostScriptName glyphRefID="95" NameString="uniE1A4.western_person" />
@@ -261,7 +261,7 @@
   <PostScriptName glyphRefID="229" NameString="uniE4BE.japanese_castle" />
   <PostScriptName glyphRefID="230" NameString="uniE4BF.western_castle" />
   <PostScriptName glyphRefID="231" NameString="uniE4C0.factory" />
-  <PostScriptName glyphRefID="232" NameString="uniE4C2.red_lantern" />
+  <PostScriptName glyphRefID="232" NameString="uniE4C2.izakaya_lantern" />
   <PostScriptName glyphRefID="233" NameString="uniE4C3.mount_fuji" />
   <PostScriptName glyphRefID="234" NameString="uniE4C4.tokyo_tower" />
   <PostScriptName glyphRefID="235" NameString="uniE4C6.statue_of_liberty" />
@@ -289,7 +289,7 @@
   <PostScriptName glyphRefID="257" NameString="uniE4DC.purse" />
   <PostScriptName glyphRefID="258" NameString="uniE4DD.money_bag" />
   <PostScriptName glyphRefID="259" NameString="uniE4DE.currency_exchange" />
-  <PostScriptName glyphRefID="260" NameString="uniE4DF.stock_market" />
+  <PostScriptName glyphRefID="260" NameString="uniE4DF.chart_with_upwards_trend_and_yen_symbol" />
   <PostScriptName glyphRefID="261" NameString="uniE4E0.heavy_dollar_sign" />
   <PostScriptName glyphRefID="262" NameString="uniE4E1.credit_card" />
   <PostScriptName glyphRefID="263" NameString="uniE4E2.bill_with_yen_sign" />
@@ -313,7 +313,7 @@
   <PostScriptName glyphRefID="281" NameString="uniE4F4.dung" />
   <PostScriptName glyphRefID="282" NameString="uniE4F5.pistol" />
   <PostScriptName glyphRefID="283" NameString="uniE4F6.fire" />
-  <PostScriptName glyphRefID="284" NameString="uniE4F7.fortune_telling" />
+  <PostScriptName glyphRefID="284" NameString="uniE4F7.crystal_ball" />
   <PostScriptName glyphRefID="285" NameString="uniE4F8.six_pointed_star_with_middle_dot" />
   <PostScriptName glyphRefID="286" NameString="uniE4F9.video_camera" />
   <PostScriptName glyphRefID="287" NameString="uniE4FA.knife" />

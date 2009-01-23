@@ -85,7 +85,7 @@
 89	E19E	2	Human/Living Things	People / Personalities	WOMANS HEAD		
 90	E19F	2	Human/Living Things	People / Personalities	FAMILY		
 91	E1A0	2	Human/Living Things	People / Personalities	COUPLE	A couple holding hands	
-92	E1A1	2	Human/Living Things	People / Personalities	POLICE	represents the police (Note: there is also just a police cap icon by Softbank.)	
+92	E1A1	2	Human/Living Things	People / Personalities	POLICE OFFICER	represents the police (Note: there is also just a police cap icon by Softbank.)	
 93	E1A2	2	Human/Living Things	People / Personalities	WOMAN WITH BUNNY EARS	a showgirl?	
 94	E1A3	2	Human/Living Things	People / Personalities	BRIDE WITH VEIL		
 95	E1A4	2	Human/Living Things	People / Personalities	WESTERN PERSON	both male and female icons exist	
@@ -226,7 +226,7 @@
 229	E4BE	4	Artifacts	Buildings / Common Places	JAPANESE CASTLE		
 230	E4BF	4	Artifacts	Buildings / Common Places	WESTERN CASTLE		
 231	E4C0	4	Artifacts	Buildings / Common Places	FACTORY		
-232	E4C2	4	Artifacts	Buildings / Common Places	RED LANTERN	Japanese izakaya restaurant for drinking, characteristic red lantern	
+232	E4C2	4	Artifacts	Buildings / Common Places	IZAKAYA LANTERN	Japanese izakaya restaurant for drinking, characteristic red lantern	
 233	E4C3	4	Artifacts	Landmarks / Famous Places	MOUNT FUJI		
 234	E4C4	4	Artifacts	Landmarks / Famous Places	TOKYO TOWER		
 235	E4C6	4	Artifacts	Landmarks / Famous Places	STATUE OF LIBERTY		
@@ -253,7 +253,7 @@
 257	E4DC	4	Artifacts	Clothing / Wearables	PURSE		
 258	E4DD	4	Artifacts	Money	MONEY BAG	a bag with a dollar or yen sign	
 259	E4DE	4	Artifacts	Money	CURRENCY EXCHANGE	$ and ¥ signs, exchange rate	
-260	E4DF	4	Artifacts	Money	STOCK MARKET	stock market, stock prices	
+260	E4DF	4	Artifacts	Money	CHART WITH UPWARDS TREND AND YEN SYMBOL	stock market, stock prices	
 261	E4E0	4	Artifacts	Money	HEAVY DOLLAR SIGN	disunified from $ U+0024 DOLLAR SIGN	
 262	E4E1	4	Artifacts	Money	CREDIT CARD		
 263	E4E2	4	Artifacts	Money	BILL WITH YEN SIGN	a check, a sign indicating "not free"	
@@ -277,7 +277,7 @@
 281	E4F4	4	Artifacts	Miscellaneous Things	DUNG		
 282	E4F5	4	Artifacts	Miscellaneous Things	PISTOL	action genre	
 283	E4F6	4	Artifacts	Miscellaneous Things	FIRE		
-284	E4F7	4	Artifacts	Miscellaneous Things	FORTUNE TELLING	crystal ball, zodiacs	
+284	E4F7	4	Artifacts	Miscellaneous Things	CRYSTAL BALL	fortune telling, zodiacs	
 285	E4F8	4	Artifacts	Miscellaneous Things	SIX POINTED STAR WITH MIDDLE DOT	zodiacs, fortune telling	
 286	E4F9	4	Artifacts	Miscellaneous Things	VIDEO CAMERA	handycam, videocam	
 287	E4FA	4	Artifacts	Miscellaneous Things	KNIFE		

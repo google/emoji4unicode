@@ -228,7 +228,7 @@ Usually in green color
 A couple holding hands
 </desc>
 </e>
-<e glyphRefID="92" google="FE1A1" id="1A1" img_from="kddi" kddi="E5DD" name="POLICE" softbank="E152" text_fallback="[警官]">
+<e glyphRefID="92" google="FE1A1" id="1A1" img_from="kddi" kddi="E5DD" name="POLICE OFFICER" softbank="E152" text_fallback="[警官]">
 <desc>
 represents the police (Note: there is also just a police cap icon by Softbank.)
 </desc>
@@ -713,7 +713,7 @@ related to U+3246 = ARIB-9110
 nautical term, harbor (on maps)
 </desc>
 </e>
-<e docomo="&gt;E74B" glyphRefID="232" google="FE4C2" id="4C2" img_from="kddi" kddi="E4BD" name="RED LANTERN" softbank="&gt;E30B">
+<e docomo="&gt;E74B" glyphRefID="232" google="FE4C2" id="4C2" img_from="kddi" kddi="E4BD" name="IZAKAYA LANTERN" softbank="&gt;E30B">
 <desc>
 Japanese izakaya restaurant for drinking, characteristic red lantern
 </desc>
@@ -785,7 +785,7 @@ a bag with a dollar or yen sign
 $ and ¥ signs, exchange rate
 </desc>
 </e>
-<e glyphRefID="260" google="FE4DF" id="4DF" img_from="softbank" kddi="E5DC" name="STOCK MARKET" softbank="E14A" text_fallback="[株価]">
+<e glyphRefID="260" google="FE4DF" id="4DF" img_from="softbank" kddi="E5DC" name="CHART WITH UPWARDS TREND AND YEN SYMBOL" softbank="E14A" text_fallback="[株価]">
 <desc>
 stock market, stock prices
 </desc>
@@ -879,9 +879,9 @@ action genre
 </desc>
 </e>
 <e glyphRefID="283" google="FE4F6" id="4F6" img_from="kddi" kddi="E47B" name="FIRE" softbank="E11D" text_fallback="[炎]"/>
-<e glyphRefID="284" google="FE4F7" id="4F7" img_from="kddi" kddi="EA8F" name="FORTUNE TELLING" softbank="&gt;E23E" text_fallback="[占い]">
+<e glyphRefID="284" google="FE4F7" id="4F7" img_from="kddi" kddi="EA8F" name="CRYSTAL BALL" softbank="&gt;E23E" text_fallback="[占い]">
 <desc>
-crystal ball, zodiacs
+fortune telling, zodiacs
 </desc>
 </e>
 <e glyphRefID="285" google="FE4F8" id="4F8" img_from="softbank" kddi="&gt;EA8F" name="SIX POINTED STAR WITH MIDDLE DOT" softbank="E23E" text_fallback="[占い]">
