@@ -372,7 +372,7 @@
 375	E552	4	Artifacts	Office	BOOKMARK TABS		
 376	E553	4	Artifacts	Relic	FOOT PRINTS	single or multiple foot prints	
 377	E7D0	5	Activities/Work/Entertainment	Sports	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
-378	E7D2	5	Activities/Work/Entertainment	Sports	GOLF	Golf (DoCoMo is golf club, others are the green and flag); related to U+26F3 = ARIB-9126	
+378	E7D2	5	Activities/Work/Entertainment	Sports	FLAG IN HOLE	Unified with U+26F3 = ARIB-9126; Amd 6 and Unicode 5.2. Golf (DoCoMo is golf club, others are the green and flag).	**Symbol no longer proposed for new encoding**
 379	E7D3	5	Activities/Work/Entertainment	Sports	TENNIS	racket and ball, or player	
 622	E7D5	5	Activities/Work/Entertainment	Sports	SKIING	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
 380	E7D6	5	Activities/Work/Entertainment	Sports	BASKETBALL	ball and hoop	

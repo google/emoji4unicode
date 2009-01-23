@@ -1204,9 +1204,9 @@ any sports; a sash across a running shirt to identify runner's number and team
 </desc>
 </e>
 <e docomo="E653" google="FE7D1" id="7D1" img_from="docomo" kddi="E4BA" name="BASEBALL" softbank="E016" unicode="*26BE"/>
-<e docomo="E654" glyphRefID="378" google="FE7D2" id="7D2" img_from="kddi" kddi="E599" name="GOLF" softbank="E014">
+<e docomo="E654" glyphRefID="378" google="FE7D2" id="7D2" img_from="kddi" kddi="E599" name="FLAG IN HOLE" softbank="E014" unicode="*26F3">
 <desc>
-Golf (DoCoMo is golf club, others are the green and flag); related to U+26F3 = ARIB-9126
+Unified with U+26F3 = ARIB-9126; Amd 6 and Unicode 5.2. Golf (DoCoMo is golf club, others are the green and flag).
 </desc>
 </e>
 <e docomo="E655" glyphRefID="379" google="FE7D3" id="7D3" img_from="docomo" kddi="E4B7" name="TENNIS" softbank="E015">
