@@ -210,7 +210,7 @@ Usually in green color
 </subcategory>
 <subcategory name="Personal Care">
 <e docomo="E710" glyphRefID="80" google="FE195" id="195" img_from="kddi" kddi="E509" name="LIPSTICK" softbank="E31C"/>
-<e glyphRefID="81" google="FE196" id="196" img_from="kddi" kddi="EAA0" name="NAIL POLISH" softbank="E31D" text_fallback="[マニキュア]"/>
+<e glyphRefID="81" google="FE196" id="196" img_from="kddi" kddi="EAA0" name="NAIL CARE" softbank="E31D" text_fallback="[マニキュア]"/>
 <e glyphRefID="82" google="FE197" id="197" img_from="kddi" kddi="E50B" name="FACE MASSAGE" softbank="E31E" text_fallback="[エステ]"/>
 <e docomo="&gt;E675" glyphRefID="83" google="FE198" id="198" img_from="kddi" kddi="EAA1" name="HAIRCUT" softbank="E31F">
 <desc>

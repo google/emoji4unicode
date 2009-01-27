@@ -74,7 +74,7 @@
 78	E193	2	Human/Living Things	Facial Parts	MOUTH		
 79	E194	2	Human/Living Things	Facial Parts	TONGUE		
 80	E195	2	Human/Living Things	Personal Care	LIPSTICK		
-81	E196	2	Human/Living Things	Personal Care	NAIL POLISH		
+81	E196	2	Human/Living Things	Personal Care	NAIL CARE		
 82	E197	2	Human/Living Things	Personal Care	FACE MASSAGE		
 83	E198	2	Human/Living Things	Personal Care	HAIRCUT	Ususally indicates a beauty parlor	The glyph needs to represent a female as this Emoji refers to a beauty parlor.
 84	E199	2	Human/Living Things	Personal Care	BARBER POLE		
