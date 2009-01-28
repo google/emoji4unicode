@@ -120,7 +120,7 @@ body {
 """
 
 _HEADER = ("""<html>
-<title>Table for Proposal for Encoding Emoji Symbols</title>
+<title>Emoji Symbols: Background Data</title>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 """ +
@@ -128,18 +128,24 @@ _CSS +
 """
 </head>
 <body>
-<h1>Table for Proposal for Encoding Emoji Symbols</h1>
-<h2>Symbols Data</h2>
+<h1>Emoji Symbols: Background Data</h1>
+<h2>Background data for Proposal for Encoding Emoji Symbols</h2>
+<p align='right'>
+  <span style='font-size:x-large'>L2/09-027</span><br>
+  Date: 2009-Jan-27<br>
+  Authors: Markus Scherer, Mark Davis, Kat Momoi
+</p>
 <p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
 <p>See the <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
-<p>Each symbol row has an anchor to allow direct linking by appending
+<p>In the HTML version of this document,
+  each symbol row has an anchor to allow direct linking by appending
   <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
   address bar.</p>
 <table border='1' cellspacing='0' width='100%'>
 <tr>
- <th>Symbol ID</th>
+ <th>Internal ID</th>
  <th>Symbol</th>
  <th>Name &amp; Annotations</th>
  <th>DoCoMo</th>
@@ -226,7 +232,7 @@ def _WriteEmoji4UnicodeHTML(writer):
 
 
 _PROPOSED_EMOJI_HEADER = ("""<html>
-<title>Table for Proposal for Encoding Emoji Symbols</title>
+<title>Emoji Symbols Proposed for New Encoding</title>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 """ +
@@ -234,9 +240,15 @@ _CSS +
 """
 </head>
 <body>
-<h1>Table for Proposal for Encoding Emoji Symbols</h1>
-<h2>Symbols Proposed for New Encoding</h2>
-<p>Each symbol row has an anchor to allow direct linking by appending
+<h1>Emoji Symbols Proposed for New Encoding</h1>
+<h2>For the Proposal for Encoding Emoji Symbols</h2>
+<p align='right'>
+  <span style='font-size:x-large'>L2/09-026</span><br>
+  Date: 2009-Jan-27<br>
+  Authors: Markus Scherer, Mark Davis, Kat Momoi
+</p>
+<p>In the HTML version of this document,
+  each symbol row has an anchor to allow direct linking by appending
   <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
   address bar.</p>
 """)
@@ -247,7 +259,7 @@ _PROPOSED_EMOJI_TABLE_HEADER = """
   <th width='10%'>Code Point</th>
   <th width='10%'>Symbol</th>
   <th>Name &amp; Annotations</th>
-  <th width='10%'>Symbol ID</th>
+  <th width='10%'>Internal ID</th>
 </tr>
 """
 
