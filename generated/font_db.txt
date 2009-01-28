@@ -158,7 +158,7 @@
 162	E324	3	Faces and Smiley's	Faces	DIZZY FACE		
 163	E325	3	Faces and Smiley's	Faces	EXASPERATED FACE	Exasperated, frustrated, impatient (sweating)	
 164	E326	3	Faces and Smiley's	Faces	EXPRESSIONLESS FACE	KDDI has side-look animation	
-165	E327	3	Faces and Smiley's	Faces	FACE WITH HEART SHAPED EYES	used to indicate the state of being in love	
+165	E327	3	Faces and Smiley's	Faces	FACE WITH HEART SHAPED EYES	Forms a pair with e-34C. used to indicate the state of being in love	
 166	E328	3	Faces and Smiley's	Faces	FACE WITH LOOK OF TRIUMPH		
 167	E329	3	Faces and Smiley's	Faces	WINKING FACE WITH STUCK OUT TONGUE		
 168	E32A	3	Faces and Smiley's	Faces	FACE WITH STUCK OUT TONGUE	with eyelids pulled down for additional effect	
@@ -193,7 +193,7 @@
 197	E349	3	Faces and Smiley's	More faces (animals, persons, characters)	HAPPY CAT FACE WITH GRIN	Forms a pair with e-333. Hee hee hee	
 198	E34A	3	Faces and Smiley's	More faces (animals, persons, characters)	HAPPY AND CRYING CAT FACE	Forms a pair with e-334. Tears of joy	
 199	E34B	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE KISSING	Forms a pair with e-32D. Kissing action.	
-200	E34C	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH HEART SHAPED EYES	Heart shaped eyes (in love)	
+200	E34C	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH HEART SHAPED EYES	Forms a pair with e-327. Heart shaped eyes (in love)	
 201	E34D	3	Faces and Smiley's	More faces (animals, persons, characters)	CRYING CAT FACE	Forms a pair with e-339. Crying (one or two tears)	
 202	E34E	3	Faces and Smiley's	More faces (animals, persons, characters)	POUTING CAT FACE	Forms a pair with e-33D.	
 203	E34F	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH TIGHTLY CLOSED LIPS	Smart confidence	
