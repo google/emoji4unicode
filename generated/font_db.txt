@@ -205,7 +205,7 @@
 209	E355	3	Faces and Smiley's	More faces (animals, persons, characters)	SPEAK NO EVIL MONKEY		
 210	E356	3	Faces and Smiley's	More faces (animals, persons, characters)	HEAR NO EVIL MONKEY		
 211	E357	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING ONE HAND	act of raising a hand	
-212	E358	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING BOTH HANDS	banzai, raising both hands	
+212	E358	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON RAISING BOTH HANDS IN CHEERS	banzai, raising both hands	
 213	E359	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON FROWNING	dejected	
 214	E35A	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON WITH POUTING FACE	cute pouting face	
 215	E35B	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON WITH FOLDED HANDS	"Sorry" or "Please"	
