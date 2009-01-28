@@ -374,7 +374,11 @@ Note Aries (sheep) by KDDI. Zodiac
 <category name="3. Faces and Smiley's">
 <subcategory name="Faces">
 <e docomo="E6F1" glyphRefID="158" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059"/>
-<e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403"/>
+<e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403">
+<desc>
+Forms a pair with e-350.
+</desc>
+</e>
 <e docomo="&gt;E6F4" glyphRefID="160" google="FE322" id="322" img_from="softbank" kddi="EACA" name="ASTONISHED FACE" softbank="E410">
 <desc>
 Surprise, astonishment
@@ -416,7 +420,7 @@ kiss
 </e>
 <e docomo="&gt;E726" glyphRefID="171" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="FACE KISSING" softbank="E417">
 <desc>
-Puckered lips 2 (more forceful kiss, eyes squinting)
+Forms a pair with e-34B. Puckered lips 2 (more forceful kiss, eyes squinting)
 </desc>
 </e>
 <e glyphRefID="172" google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH MASK" softbank="E40C" text_fallback="[風邪ひき]">
@@ -446,12 +450,12 @@ Happy face 3 for DoCoMo
 </e>
 <e docomo="E753" glyphRefID="177" google="FE333" id="333" img_from="docomo" kddi="EB80" name="HAPPY FACE WITH GRIN" softbank="&gt;E404">
 <desc>
-loudly laughing face with bare teeth
+Forms a pair with e-349. loudly laughing face with bare teeth
 </desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="178" google="FE334" id="334" img_from="kddi" kddi="EB64" name="HAPPY AND SAD FACE" softbank="E412">
+<e docomo="&gt;E72A" glyphRefID="178" google="FE334" id="334" img_from="kddi" kddi="EB64" name="HAPPY AND CRYING FACE" softbank="E412">
 <desc>
-with tears of joy
+Forms a pair with e-34A. with tears of joy
 </desc>
 </e>
 <e docomo="&gt;E6F0" glyphRefID="179" google="FE335" id="335" img_from="kddi" kddi="EACD" name="HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS" softbank="E056">
@@ -476,7 +480,7 @@ with open mouth
 </e>
 <e docomo="E72E" glyphRefID="181" google="FE339" id="339" img_from="docomo" kddi="EB69" name="CRYING FACE" softbank="E413">
 <desc>
-1 or 2 tear drops
+Forms a pair with e-34D. 1 or 2 tear drops
 </desc>
 </e>
 <e docomo="E72D" glyphRefID="182" google="FE33A" id="33A" img_from="docomo" kddi="E473" name="LOUDLY CRYING FACE" softbank="E411">
@@ -494,7 +498,11 @@ Pale in fear
 failure, disappointment
 </desc>
 </e>
-<e docomo="E724" glyphRefID="185" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416"/>
+<e docomo="E724" glyphRefID="185" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416">
+<desc>
+Forms a pair with e-34E.
+</desc>
+</e>
 <e docomo="E721" glyphRefID="186" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A"/>
 <e docomo="E6F3" glyphRefID="187" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="CONFOUNDED FACE" softbank="E407"/>
 <e docomo="E720" glyphRefID="188" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="PENSIVE FACE" softbank="E403"/>
@@ -528,19 +536,19 @@ Enduring (exhausted) face
 Happy
 </desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="197" google="FE349" id="349" img_from="kddi" kddi="EB7F" name="CAT FACE WITH GRIN" softbank="&gt;E404">
+<e docomo="&gt;E753" glyphRefID="197" google="FE349" id="349" img_from="kddi" kddi="EB7F" name="HAPPY CAT FACE WITH GRIN" softbank="&gt;E404">
 <desc>
-Hee hee hee
+Forms a pair with e-333. Hee hee hee
 </desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="198" google="FE34A" id="34A" img_from="kddi" kddi="EB63" name="CAT FACE WITH SADNESS AND JOY" softbank="&gt;E412">
+<e docomo="&gt;E72A" glyphRefID="198" google="FE34A" id="34A" img_from="kddi" kddi="EB63" name="HAPPY AND CRYING CAT FACE" softbank="&gt;E412">
 <desc>
-Tears of joy
+Forms a pair with e-334. Tears of joy
 </desc>
 </e>
-<e docomo="&gt;E726" glyphRefID="199" google="FE34B" id="34B" img_from="kddi" kddi="EB60" name="CAT FACE WITH PUCKERED LIPS" softbank="&gt;E418">
+<e docomo="&gt;E726" glyphRefID="199" google="FE34B" id="34B" img_from="kddi" kddi="EB60" name="CAT FACE KISSING" softbank="&gt;E418">
 <desc>
-Kissing action.
+Forms a pair with e-32D. Kissing action.
 </desc>
 </e>
 <e docomo="&gt;E726" glyphRefID="200" google="FE34C" id="34C" img_from="kddi" kddi="EB65" name="CAT FACE WITH HEART SHAPED EYES" softbank="&gt;E106">
@@ -548,14 +556,14 @@ Kissing action.
 Heart shaped eyes (in love)
 </desc>
 </e>
-<e docomo="&gt;E72E" glyphRefID="201" google="FE34D" id="34D" img_from="kddi" kddi="EB68" name="CAT FACE WITH TEAR DROP" softbank="&gt;E413">
+<e docomo="&gt;E72E" glyphRefID="201" google="FE34D" id="34D" img_from="kddi" kddi="EB68" name="CRYING CAT FACE" softbank="&gt;E413">
 <desc>
-Crying (one or two tears)
+Forms a pair with e-339. Crying (one or two tears)
 </desc>
 </e>
-<e docomo="&gt;E724" glyphRefID="202" google="FE34E" id="34E" img_from="kddi" kddi="EB5E" name="CAT FACE WITH RAISED EYEBROWS AND POUTING MOUTH" softbank="&gt;E416">
+<e docomo="&gt;E724" glyphRefID="202" google="FE34E" id="34E" img_from="kddi" kddi="EB5E" name="POUTING CAT FACE" softbank="&gt;E416">
 <desc>
-Pouting
+Forms a pair with e-33D.
 </desc>
 </e>
 <e docomo="&gt;E753" glyphRefID="203" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH TIGHTLY CLOSED LIPS" softbank="&gt;E404">
@@ -563,9 +571,9 @@ Pouting
 Smart confidence
 </desc>
 </e>
-<e docomo="&gt;E6F3" glyphRefID="204" google="FE350" id="350" img_from="kddi" kddi="EB66" name="CAT FACE WITH LOWERED EYEBROWS AND OPEN MOUTH" softbank="&gt;E403">
+<e docomo="&gt;E6F3" glyphRefID="204" google="FE350" id="350" img_from="kddi" kddi="EB66" name="ANGUISHED CAT FACE" softbank="&gt;E403">
 <desc>
-Surprised
+Forms a pair with e-321.
 </desc>
 </e>
 <e docomo="&gt;E72F" glyphRefID="205" google="FE351" id="351" img_from="kddi" kddi="EAD7" name="FACE WITH NO GOOD GESTURE" softbank="E423">

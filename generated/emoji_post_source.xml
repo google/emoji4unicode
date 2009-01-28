@@ -207,7 +207,7 @@
   <PostScriptName glyphRefID="175" NameString="uniE331.happy_face_with_open_mouth_and_cold_sweat" />
   <PostScriptName glyphRefID="176" NameString="uniE332.happy_face_with_open_mouth_and_closed_eyes" />
   <PostScriptName glyphRefID="177" NameString="uniE333.happy_face_with_grin" />
-  <PostScriptName glyphRefID="178" NameString="uniE334.happy_and_sad_face" />
+  <PostScriptName glyphRefID="178" NameString="uniE334.happy_and_crying_face" />
   <PostScriptName glyphRefID="179" NameString="uniE335.happy_face_with_wide_mouth_and_raised_eyebrows" />
   <PostScriptName glyphRefID="180" NameString="uniE338.happy_face_with_open_mouth_and_raised_eyebrows" />
   <PostScriptName glyphRefID="181" NameString="uniE339.crying_face" />
@@ -226,14 +226,14 @@
   <PostScriptName glyphRefID="194" NameString="uniE346.tired_face" />
   <PostScriptName glyphRefID="195" NameString="uniE347.winking_face" />
   <PostScriptName glyphRefID="196" NameString="uniE348.cat_face_with_open_mouth" />
-  <PostScriptName glyphRefID="197" NameString="uniE349.cat_face_with_grin" />
-  <PostScriptName glyphRefID="198" NameString="uniE34A.cat_face_with_sadness_and_joy" />
-  <PostScriptName glyphRefID="199" NameString="uniE34B.cat_face_with_puckered_lips" />
+  <PostScriptName glyphRefID="197" NameString="uniE349.happy_cat_face_with_grin" />
+  <PostScriptName glyphRefID="198" NameString="uniE34A.happy_and_crying_cat_face" />
+  <PostScriptName glyphRefID="199" NameString="uniE34B.cat_face_kissing" />
   <PostScriptName glyphRefID="200" NameString="uniE34C.cat_face_with_heart_shaped_eyes" />
-  <PostScriptName glyphRefID="201" NameString="uniE34D.cat_face_with_tear_drop" />
-  <PostScriptName glyphRefID="202" NameString="uniE34E.cat_face_with_raised_eyebrows_and_pouting_mouth" />
+  <PostScriptName glyphRefID="201" NameString="uniE34D.crying_cat_face" />
+  <PostScriptName glyphRefID="202" NameString="uniE34E.pouting_cat_face" />
   <PostScriptName glyphRefID="203" NameString="uniE34F.cat_face_with_tightly_closed_lips" />
-  <PostScriptName glyphRefID="204" NameString="uniE350.cat_face_with_lowered_eyebrows_and_open_mouth" />
+  <PostScriptName glyphRefID="204" NameString="uniE350.anguished_cat_face" />
   <PostScriptName glyphRefID="205" NameString="uniE351.face_with_no_good_gesture" />
   <PostScriptName glyphRefID="206" NameString="uniE352.face_with_ok_gesture" />
   <PostScriptName glyphRefID="207" NameString="uniE353.person_bowing_deeply" />
