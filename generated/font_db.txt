@@ -104,7 +104,7 @@
 108	E1B1	2	Human/Living Things	People / Personalities	ALIEN MONSTER	Alien (monster type)	
 109	E1B2	2	Human/Living Things	People / Personalities	DEVIL	Devil (cute)	
 110	E1B3	2	Human/Living Things	People / Personalities	SKULL		
-111	E1B4	2	Human/Living Things	People / Personalities	NEWSCASTER		
+111	E1B4	2	Human/Living Things	People / Personalities	INFORMATION DESK PERSON		
 112	E1B5	2	Human/Living Things	People / Personalities	GUARDSMAN		
 113	E1B6	2	Human/Living Things	People / Personalities	DANCER	Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)	
 114	E1B7	2	Human/Living Things	Animals	DOG		
@@ -133,7 +133,7 @@
 136	E1CD	2	Human/Living Things	Animals	KOALA		
 137	E1CE	2	Human/Living Things	Animals	MONKEY		
 138	E1CF	2	Human/Living Things	Animals	SHEEP	Note Aries (sheep) by KDDI. Zodiac	
-139	E1D0	2	Human/Living Things	Animals	FOX		
+139	E1D0	2	Human/Living Things	Animals	WOLF		
 140	E1D1	2	Human/Living Things	Animals	COW		
 141	E1D2	2	Human/Living Things	Animals	RABBIT		
 142	E1D3	2	Human/Living Things	Animals	SNAKE		
@@ -196,11 +196,11 @@
 200	E34C	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH HEART SHAPED EYES	Heart shaped eyes (in love)	
 201	E34D	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH TEAR DROP	Crying (one or two tears)	
 202	E34E	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH RAISED EYEBROWS AND POUTING MOUTH	Pouting	
-203	E34F	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH RAISED EYEBROWS AND PURSED LIPS	Smart confidence	
+203	E34F	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH TIGHTLY CLOSED LIPS	Smart confidence	
 204	E350	3	Faces and Smiley's	More faces (animals, persons, characters)	CAT FACE WITH LOWERED EYEBROWS AND OPEN MOUTH	Surprised	
 205	E351	3	Faces and Smiley's	More faces (animals, persons, characters)	FACE WITH NO GOOD GESTURE	No good	
 206	E352	3	Faces and Smiley's	More faces (animals, persons, characters)	FACE WITH OK GESTURE	OK (arms raised, making an "O") . A person or a cat	
-207	E353	3	Faces and Smiley's	More faces (animals, persons, characters)	BOWING FACE	Very truly sorry, a cat or person	
+207	E353	3	Faces and Smiley's	More faces (animals, persons, characters)	PERSON BOWING DEEPLY	Very truly sorry, a cat or person	
 208	E354	3	Faces and Smiley's	More faces (animals, persons, characters)	SEE NO EVIL MONKEY		
 209	E355	3	Faces and Smiley's	More faces (animals, persons, characters)	SPEAK NO EVIL MONKEY		
 210	E356	3	Faces and Smiley's	More faces (animals, persons, characters)	HEAR NO EVIL MONKEY		

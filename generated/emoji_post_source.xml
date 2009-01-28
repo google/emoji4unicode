@@ -140,7 +140,7 @@
   <PostScriptName glyphRefID="108" NameString="uniE1B1.alien_monster" />
   <PostScriptName glyphRefID="109" NameString="uniE1B2.devil" />
   <PostScriptName glyphRefID="110" NameString="uniE1B3.skull" />
-  <PostScriptName glyphRefID="111" NameString="uniE1B4.newscaster" />
+  <PostScriptName glyphRefID="111" NameString="uniE1B4.information_desk_person" />
   <PostScriptName glyphRefID="112" NameString="uniE1B5.guardsman" />
   <PostScriptName glyphRefID="113" NameString="uniE1B6.dancer" />
   <PostScriptName glyphRefID="114" NameString="uniE1B7.dog" />
@@ -168,7 +168,7 @@
   <PostScriptName glyphRefID="136" NameString="uniE1CD.koala" />
   <PostScriptName glyphRefID="137" NameString="uniE1CE.monkey" />
   <PostScriptName glyphRefID="138" NameString="uniE1CF.sheep" />
-  <PostScriptName glyphRefID="139" NameString="uniE1D0.fox" />
+  <PostScriptName glyphRefID="139" NameString="uniE1D0.wolf" />
   <PostScriptName glyphRefID="140" NameString="uniE1D1.cow" />
   <PostScriptName glyphRefID="141" NameString="uniE1D2.rabbit" />
   <PostScriptName glyphRefID="142" NameString="uniE1D3.snake" />
@@ -232,11 +232,11 @@
   <PostScriptName glyphRefID="200" NameString="uniE34C.cat_face_with_heart_shaped_eyes" />
   <PostScriptName glyphRefID="201" NameString="uniE34D.cat_face_with_tear_drop" />
   <PostScriptName glyphRefID="202" NameString="uniE34E.cat_face_with_raised_eyebrows_and_pouting_mouth" />
-  <PostScriptName glyphRefID="203" NameString="uniE34F.cat_face_with_raised_eyebrows_and_pursed_lips" />
+  <PostScriptName glyphRefID="203" NameString="uniE34F.cat_face_with_tightly_closed_lips" />
   <PostScriptName glyphRefID="204" NameString="uniE350.cat_face_with_lowered_eyebrows_and_open_mouth" />
   <PostScriptName glyphRefID="205" NameString="uniE351.face_with_no_good_gesture" />
   <PostScriptName glyphRefID="206" NameString="uniE352.face_with_ok_gesture" />
-  <PostScriptName glyphRefID="207" NameString="uniE353.bowing_face" />
+  <PostScriptName glyphRefID="207" NameString="uniE353.person_bowing_deeply" />
   <PostScriptName glyphRefID="208" NameString="uniE354.see_no_evil_monkey" />
   <PostScriptName glyphRefID="209" NameString="uniE355.speak_no_evil_monkey" />
   <PostScriptName glyphRefID="210" NameString="uniE356.hear_no_evil_monkey" />

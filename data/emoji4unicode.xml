@@ -299,7 +299,7 @@ Devil (cute)
 </desc>
 </e>
 <e glyphRefID="110" google="FE1B3" id="1B3" img_from="softbank" kddi="E4F8" name="SKULL" softbank="E11C" text_fallback="[ドクロ]"/>
-<e glyphRefID="111" google="FE1B4" id="1B4" img_from="softbank" name="NEWSCASTER" softbank="E253"/>
+<e glyphRefID="111" google="FE1B4" id="1B4" img_from="softbank" name="INFORMATION DESK PERSON" softbank="E253"/>
 <e glyphRefID="112" google="FE1B5" id="1B5" img_from="softbank" name="GUARDSMAN" softbank="E51E" />
 <e glyphRefID="113" google="FE1B6" id="1B6" img_from="kddi" kddi="EB1C" name="DANCER" softbank="E51F" text_fallback="[ダンス]">
 <desc>
@@ -350,7 +350,7 @@ This Emoji may point to a centipede or hairy catepillar. It typically indicates 
 Note Aries (sheep) by KDDI. Zodiac
 </desc>
 </e>
-<e docomo="&gt;E6A1" glyphRefID="139" google="FE1D0" id="1D0" img_from="softbank" kddi="&gt;E4E1" name="FOX" softbank="E52A"/>
+<e docomo="&gt;E6A1" glyphRefID="139" google="FE1D0" id="1D0" img_from="softbank" kddi="&gt;E4E1" name="WOLF" softbank="E52A"/>
 <e glyphRefID="140" google="FE1D1" id="1D1" img_from="kddi" kddi="EB21" name="COW" softbank="E52B" text_fallback="[牛]"/>
 <e glyphRefID="141" google="FE1D2" id="1D2" img_from="kddi" kddi="E4D7" name="RABBIT" softbank="E52C" text_fallback="[ウサギ]"/>
 <e glyphRefID="142" google="FE1D3" id="1D3" img_from="softbank" kddi="EB22" name="SNAKE" softbank="E52D" text_fallback="[ヘビ]"/>
@@ -558,7 +558,7 @@ Crying (one or two tears)
 Pouting
 </desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="203" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH RAISED EYEBROWS AND PURSED LIPS" softbank="&gt;E404">
+<e docomo="&gt;E753" glyphRefID="203" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH TIGHTLY CLOSED LIPS" softbank="&gt;E404">
 <desc>
 Smart confidence
 </desc>
@@ -578,7 +578,7 @@ No good
 OK (arms raised, making an &quot;O&quot;) . A person or a cat
 </desc>
 </e>
-<e glyphRefID="207" google="FE353" id="353" img_from="softbank" kddi="EAD9" name="BOWING FACE" softbank="E426" text_fallback="m(_ _)m">
+<e glyphRefID="207" google="FE353" id="353" img_from="softbank" kddi="EAD9" name="PERSON BOWING DEEPLY" softbank="E426" text_fallback="m(_ _)m">
 <desc>
 Very truly sorry, a cat or person
 </desc>
