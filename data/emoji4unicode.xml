@@ -1510,7 +1510,7 @@ wedding chapel
 </e>
 </subcategory>
 <subcategory name="Phone Specific">
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23F6">
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="no" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23F6">
 <desc>
 Two loops. Occurs widely in print in Japan.
 </desc>
