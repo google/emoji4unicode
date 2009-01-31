@@ -1,4 +1,5 @@
 #!/usr/bin/python2.4
+# encoding: UTF-8
 #
 # Copyright 2008 Google Inc.
 #
@@ -21,6 +22,7 @@ __author__ = "Markus Scherer"
 
 import cgi
 import codecs
+import datetime
 import sys
 import emoji4unicode
 import translit
@@ -35,7 +37,13 @@ _no_symbol_numbers = False
 _show_font_chars = False
 _show_only_font_chars = False
 
-_CSS = """
+_date = datetime.date.today().strftime("%Y-%b-%d")
+
+_AUTHORS = u"""Authors:<br>
+Markus Scherer, Mark Davis, Kat Momoi, Darick Tong (Google Inc.)<br>
+Yasuo Kida, Peter Edberg (Apple Inc.)"""
+
+_CSS = u"""
 <style>
 body {
   font-family: Arial, Helvetica, Sans-serif;
@@ -119,25 +127,25 @@ body {
 </style>
 """
 
-_HEADER = ("""<html>
+_HEADER = (u"""<html>
 <title>Emoji Symbols: Background Data</title>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 """ +
 _CSS +
-"""
+u"""
 </head>
 <body>
 <h1>Emoji Symbols: Background Data</h1>
 <h2>Background data for Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
   <span style='font-size:x-large'>L2/09-027</span><br>
-  Date: 2009-Jan-27<br>
-  Authors: Markus Scherer, Mark Davis, Kat Momoi
-</p>
+  Date: """ + _date + u"<br>" +
+_AUTHORS +
+u"""</p>
 <p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
-<p>See the <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">chart legend</a>
+<p>See the <a href="#legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
 <p>In the HTML version of this document,
   each symbol row has an anchor to allow direct linking by appending
@@ -155,7 +163,59 @@ _CSS +
 </tr>
 """)
 
-_FOOTER = """</body></html>"""
+_FOOTER = u"""
+<h2 id='legend'>Chart Legend</h2>
+Columns:<br>
+<ol><li>Internal ID: A unique identifier used only in the Emoji symbols encoding proposal and discussion. The IDs mostly follow the order of the symbols in the chart, but only for historical reasons, and some symbols have been moved while preserving their IDs. This is so that the IDs can serve as permanent identifiers throughout the review and proposal process.<br>
+</li>
+<li>Symbol: The symbol glyph, the code point, and its status.</li>
+<ul><li>For a symbol proposed for new encoding, the proposed representative glyph is shown, the proposed code point is red, and the status text is "proposed".</li>
+<li>For a symbol unified with an existing Unicode character, the code point is black and the status text is "unified". The glyph may differ from the Unicode chart glyph. In some cases, a symbol is unified with a sequence of existing characters.<br>
+</li></ul>
+<li>Name &amp; Annotations: The proposed character name for new symbols, or the name of the
+existing or upcoming unified character. Optionally followed by further
+information, if applicable:</li>
+<ul><li>The ARIB code (4-decimal-digit row-cell code) of the corresponding <a href="http://sites.google.com/site/unicodesymbols/Home/japanese-tv-symbols">Japanese Broadcast Symbol</a>.</li>
+<li>Proposed Unicode character annotations.<br>
+</li>
+<li>Free-form description text.</li>
+<li>Font design instructions.<br>
+</li></ul>
+<li>DoCoMo/KDDI/SoftBank/Google: These columns show how each Emoji symbol maps to equivalent or similar symbols used by other companies.</li>
+<ul><li>The table cell shows some or all of the following about each carrier's symbol:<br>
+</li></ul>
+<ul>
+<ul><li>An image</li>
+<li>A catalog number prefixed with '#'</li>
+<ul><li>For SoftBank, these are the "new", post-June 2008 symbol numbers. "Old", pre-June 2008 symbol numbers are prefixed with '#old'.<br>
+</li>
+<li>For DoCoMo, numbers for "expansion" symbols are prefixed with '#Exp.'<br>
+</li></ul>
+<li>The English symbol name</li>
+<li>The Japanese symbol name</li>
+<li>A partial transliteration of the Japanese name if it contains Hiragana or Katakana<br>
+</li>
+<li>The Unicode Private Use Area (PUA) code point</li>
+<li>The Shift-JIS code<br>
+</li>
+<li>The ISO 2022-JP code (based on JIS X 0208)</li></ul>
+<li>If the carrier's symbol is not equivalent, the table cell may show a best-fit fallback mapping (one-way from proposal symbol ID to the carrier) to a carrier symbol or to a sequence of symbols.</li>
+<ul><li>In this case, the table cell has golden background and a dotted cell border.</li>
+<li>Sequences of codes are marked with + signs as separators.</li></ul>
+<li>If there is no equivalent nor similar symbol, the table cell may show fallback text.</li>
+<ul><li>In this case, the table cell has purple background, and there is no other information besides the fallback text. (In particular, no image.)</li>
+<li>Types of text fallbacks:</li>
+<ul><li>Fallback mappings to descriptive text rather than a symbol.</li>
+<li>Fallback text to "ASCII art" (Kao Moji). Such
+"ASCII art" may include fullwidth ASCII, Greek, Cyrillic and Han
+characters — essentially anything available elsewhere in the character
+set. For example: (&gt;人&lt;) for PERSON WITH FOLDED HANDS ("Sorry" or
+"Please", KDDI Emoji 459, Softbank 376).<br>
+</li>
+<li>Fallback to the Geta Mark '〓' (U+3013).</li></ul></ul></ul>
+</ol>
+The carrier symbol images point to images on other sites. The images are only for comparison and may change.<br>
+</body></html>"""
 
 def _WriteEmoji4UnicodeHTML(writer):
   number_symbols_in_chart = 0
@@ -231,29 +291,29 @@ def _WriteEmoji4UnicodeHTML(writer):
   writer.write(_FOOTER)
 
 
-_PROPOSED_EMOJI_HEADER = ("""<html>
+_PROPOSED_EMOJI_HEADER = (u"""<html>
 <title>Emoji Symbols Proposed for New Encoding</title>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 """ +
 _CSS +
-"""
+u"""
 </head>
 <body>
 <h1>Emoji Symbols Proposed for New Encoding</h1>
 <h2>For the Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
   <span style='font-size:x-large'>L2/09-026</span><br>
-  Date: 2009-Jan-27<br>
-  Authors: Markus Scherer, Mark Davis, Kat Momoi
-</p>
+  Date: """ + _date + "<br>" +
+_AUTHORS +
+u"""</p>
 <p>In the HTML version of this document,
   each symbol row has an anchor to allow direct linking by appending
   <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
   address bar.</p>
 """)
 
-_PROPOSED_EMOJI_TABLE_HEADER = """
+_PROPOSED_EMOJI_TABLE_HEADER = u"""
 <table border='1' cellspacing='0' width='100%'>
 <tr>
   <th width='10%'>Code Point</th>
@@ -263,7 +323,7 @@ _PROPOSED_EMOJI_TABLE_HEADER = """
 </tr>
 """
 
-_PROPOSED_EMOJI_FOOTER = """</body></html>"""
+_PROPOSED_EMOJI_FOOTER = u"""</body></html>"""
 
 def _WriteProposedEmojiHTML(writer):
   proposed_symbols = []
