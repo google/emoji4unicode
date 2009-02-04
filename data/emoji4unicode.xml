@@ -372,7 +372,7 @@ Note Aries (sheep) by KDDI. Zodiac
 </subcategory>
 </category>
 <category name="3. Faces and Smiley's">
-<subcategory name="Faces">
+<subcategory name="Faces used as Emoticons">
 <e docomo="E6F1" glyphRefID="158" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059"/>
 <e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403">
 <desc>
@@ -530,7 +530,7 @@ Enduring (exhausted) face
 </e>
 <e docomo="E729" glyphRefID="195" google="FE347" id="347" img_from="docomo" kddi="E5C3" name="WINKING FACE" softbank="E405"/>
 </subcategory>
-<subcategory name="More faces (animals, persons, characters)">
+<subcategory name="Cat Faces used as Emoticons">
 <e docomo="&gt;E6F0" glyphRefID="196" google="FE348" id="348" img_from="kddi" kddi="EB61" name="CAT FACE WITH OPEN MOUTH" softbank="&gt;E057">
 <desc>
 Happy
@@ -576,6 +576,8 @@ Smart confidence
 Forms a pair with e-321.
 </desc>
 </e>
+</subcategory>
+<subcategory name="Gesture Symbols">
 <e docomo="&gt;E72F" glyphRefID="205" google="FE351" id="351" img_from="kddi" kddi="EAD7" name="FACE WITH NO GOOD GESTURE" softbank="E423">
 <desc>
 No good
@@ -884,7 +886,7 @@ South Korea
 <design>Rectangular flag of South Korea, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/</design>
 </e>
 </subcategory>
-<subcategory name="Miscellaneous Things">
+<subcategory name="Miscellaneous Symbols">
 <e docomo="E681" glyphRefID="276" google="FE4EF" id="4EF" img_from="docomo" kddi="E515" name="CAMERA" softbank="E008"/>
 <e docomo="E682" glyphRefID="277" google="FE4F0" id="4F0" img_from="docomo" kddi="E49C" name="HANDBAG" softbank="E323"/>
 <e docomo="E6AD" glyphRefID="278" google="FE4F1" id="4F1" img_from="docomo" name="POUCH" text_fallback="[ふくろ]"/>
@@ -2221,7 +2223,7 @@ tentatively disunified from &#x00F7; U+00F7
 </desc>
 </e>
 </subcategory>
-<subcategory name="Emotion Symbols">
+<subcategory name="Comic-Style Symbols">
 <e docomo="E6F8" glyphRefID="570" google="FEB55" id="B55" img_from="docomo" name="DIAMOND SHAPE WITH A DOT INSIDE">
 <desc>
 Cute (pink diamond shaped thing)
