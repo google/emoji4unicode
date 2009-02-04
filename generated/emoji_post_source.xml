@@ -93,7 +93,7 @@
   <PostScriptName glyphRefID="61" NameString="uniE04E.herb" />
   <PostScriptName glyphRefID="62" NameString="uniE04F.cherries" />
   <PostScriptName glyphRefID="63" NameString="uniE050.banana" />
-  <PostScriptName glyphRefID="64" NameString="uniE051.white_apple" />
+  <PostScriptName glyphRefID="64" NameString="uniE051.apple_1" />
   <PostScriptName glyphRefID="65" NameString="uniE052.tangerine" />
   <PostScriptName glyphRefID="66" NameString="uniE053.strawberry" />
   <PostScriptName glyphRefID="67" NameString="uniE054.watermelon" />
@@ -103,7 +103,7 @@
   <PostScriptName glyphRefID="71" NameString="uniE058.pineapple" />
   <PostScriptName glyphRefID="72" NameString="uniE059.grapes" />
   <PostScriptName glyphRefID="73" NameString="uniE05A.peach" />
-  <PostScriptName glyphRefID="74" NameString="uniE05B.black_apple" />
+  <PostScriptName glyphRefID="74" NameString="uniE05B.apple_2" />
   <PostScriptName glyphRefID="75" NameString="uniE190.eyes" />
   <PostScriptName glyphRefID="76" NameString="uniE191.ear" />
   <PostScriptName glyphRefID="77" NameString="uniE192.nose" />
@@ -138,7 +138,7 @@
   <PostScriptName glyphRefID="106" NameString="uniE1AF.angel" />
   <PostScriptName glyphRefID="107" NameString="uniE1B0.extraterrestrial_alien" />
   <PostScriptName glyphRefID="108" NameString="uniE1B1.alien_monster" />
-  <PostScriptName glyphRefID="109" NameString="uniE1B2.devil" />
+  <PostScriptName glyphRefID="109" NameString="uniE1B2.imp" />
   <PostScriptName glyphRefID="110" NameString="uniE1B3.skull" />
   <PostScriptName glyphRefID="111" NameString="uniE1B4.information_desk_person" />
   <PostScriptName glyphRefID="112" NameString="uniE1B5.guardsman" />
@@ -255,7 +255,7 @@
   <PostScriptName glyphRefID="223" NameString="uniE4B8.love_hotel" />
   <PostScriptName glyphRefID="224" NameString="uniE4B9.convenience_store" />
   <PostScriptName glyphRefID="225" NameString="uniE4BA.school" />
-  <PostScriptName glyphRefID="226" NameString="uniE4BB.chapel" />
+  <PostScriptName glyphRefID="226" NameString=".notdef" />
   <PostScriptName glyphRefID="227" NameString=".notdef" />
   <PostScriptName glyphRefID="228" NameString="uniE4BD.department_store" />
   <PostScriptName glyphRefID="229" NameString="uniE4BE.japanese_castle" />
@@ -265,7 +265,7 @@
   <PostScriptName glyphRefID="233" NameString="uniE4C3.mount_fuji" />
   <PostScriptName glyphRefID="234" NameString="uniE4C4.tokyo_tower" />
   <PostScriptName glyphRefID="235" NameString="uniE4C6.statue_of_liberty" />
-  <PostScriptName glyphRefID="236" NameString="uniE4C7.map_of_japan" />
+  <PostScriptName glyphRefID="236" NameString="uniE4C7.sketch_of_japan" />
   <PostScriptName glyphRefID="237" NameString="uniE4C8.moyai" />
   <PostScriptName glyphRefID="238" NameString="uniE4C9.wrench" />
   <PostScriptName glyphRefID="239" NameString="uniE4CA.hammer" />
@@ -321,10 +321,10 @@
   <PostScriptName glyphRefID="289" NameString="uniE4FC.battery" />
   <PostScriptName glyphRefID="290" NameString="uniE4FD.scroll" />
   <PostScriptName glyphRefID="291" NameString="uniE4FE.electric_plug" />
-  <PostScriptName glyphRefID="292" NameString="uniE4FF.book_with_horizontal_fill" />
-  <PostScriptName glyphRefID="293" NameString="uniE500.black_book" />
-  <PostScriptName glyphRefID="294" NameString="uniE501.white_book" />
-  <PostScriptName glyphRefID="295" NameString="uniE502.book_with_vertical_fill" />
+  <PostScriptName glyphRefID="292" NameString="uniE4FF.book_1" />
+  <PostScriptName glyphRefID="293" NameString="uniE500.book_2" />
+  <PostScriptName glyphRefID="294" NameString="uniE501.book_3" />
+  <PostScriptName glyphRefID="295" NameString="uniE502.vertical_closed_book" />
   <PostScriptName glyphRefID="296" NameString="uniE503.books" />
   <PostScriptName glyphRefID="297" NameString="uniE504.name_badge" />
   <PostScriptName glyphRefID="298" NameString="uniE505.bath" />
@@ -342,7 +342,7 @@
   <PostScriptName glyphRefID="310" NameString="uniE511.birthday_cake" />
   <PostScriptName glyphRefID="311" NameString="uniE512.christmas_tree" />
   <PostScriptName glyphRefID="312" NameString="uniE513.santa_claus" />
-  <PostScriptName glyphRefID="313" NameString="uniE514.crossed_japanese_flags" />
+  <PostScriptName glyphRefID="313" NameString="uniE514.crossed_flags" />
   <PostScriptName glyphRefID="314" NameString="uniE515.fireworks" />
   <PostScriptName glyphRefID="315" NameString="uniE516.balloon" />
   <PostScriptName glyphRefID="316" NameString="uniE517.party_popper" />
@@ -464,8 +464,8 @@
   <PostScriptName glyphRefID="432" NameString="uniE80E.billiards" />
   <PostScriptName glyphRefID="433" NameString="uniE80F.game_die" />
   <PostScriptName glyphRefID="434" NameString="uniE810.bowling" />
-  <PostScriptName glyphRefID="435" NameString="uniE811.japanese_flower_playing_cards" />
-  <PostScriptName glyphRefID="436" NameString="uniE812.joker_card" />
+  <PostScriptName glyphRefID="435" NameString="uniE811.flower_playing_cards" />
+  <PostScriptName glyphRefID="436" NameString="uniE812.joker" />
   <PostScriptName glyphRefID="437" NameString="uniE813.musical_note" />
   <PostScriptName glyphRefID="438" NameString="uniE814.multiple_musical_notes" />
   <PostScriptName glyphRefID="439" NameString="uniE815.saxophone" />
@@ -476,7 +476,7 @@
   <PostScriptName glyphRefID="444" NameString="uniE81A.musical_score" />
   <PostScriptName glyphRefID="445" NameString=".notdef" />
   <PostScriptName glyphRefID="446" NameString="uniE81C.tv" />
-  <PostScriptName glyphRefID="447" NameString="uniE81D.cd" />
+  <PostScriptName glyphRefID="447" NameString="uniE81D.optical_disk" />
   <PostScriptName glyphRefID="448" NameString="uniE81E.dvd" />
   <PostScriptName glyphRefID="449" NameString="uniE81F.radio" />
   <PostScriptName glyphRefID="450" NameString="uniE820.video_tape" />
@@ -531,7 +531,7 @@
   <PostScriptName glyphRefID="499" NameString="uniE97F.fried_shrimp" />
   <PostScriptName glyphRefID="500" NameString="uniE980.fork_and_knife" />
   <PostScriptName glyphRefID="501" NameString="uniE982.cocktail_glass" />
-  <PostScriptName glyphRefID="502" NameString="uniE983.beer" />
+  <PostScriptName glyphRefID="502" NameString="uniE983.beer_mug" />
   <PostScriptName glyphRefID="503" NameString="uniE984.teacup_without_handle" />
   <PostScriptName glyphRefID="504" NameString="uniE985.sake_bottle_and_cup" />
   <PostScriptName glyphRefID="505" NameString="uniE986.wine_glass" />
@@ -539,8 +539,8 @@
   <PostScriptName glyphRefID="507" NameString="uniE988.tropical_drink" />
   <PostScriptName glyphRefID="508" NameString="uniEAFE.black_right_pointing_double_triangle" />
   <PostScriptName glyphRefID="509" NameString="uniEAFF.black_left_pointing_double_triangle" />
-  <PostScriptName glyphRefID="510" NameString="uniEB00.checkered_down_pointing_small_triangle" />
-  <PostScriptName glyphRefID="511" NameString="uniEB01.checkered_up_pointing_small_triangle" />
+  <PostScriptName glyphRefID="510" NameString="uniEB00.down_pointing_small_triangle_1" />
+  <PostScriptName glyphRefID="511" NameString="uniEB01.up_pointing_small_triangle_1" />
   <PostScriptName glyphRefID="512" NameString="uniEB02.black_down_pointing_double_triangle" />
   <PostScriptName glyphRefID="513" NameString="uniEB03.black_up_pointing_double_triangle" />
   <PostScriptName glyphRefID="514" NameString="uniEB08.looped_length_mark" />
@@ -553,10 +553,10 @@
   <PostScriptName glyphRefID="521" NameString="uniEB10.sparkling_heart" />
   <PostScriptName glyphRefID="522" NameString="uniEB11.growing_heart" />
   <PostScriptName glyphRefID="523" NameString="uniEB12.heart_with_arrow" />
-  <PostScriptName glyphRefID="524" NameString="uniEB13.black_heart" />
-  <PostScriptName glyphRefID="525" NameString="uniEB14.checkered_heart" />
-  <PostScriptName glyphRefID="526" NameString="uniEB15.white_heart" />
-  <PostScriptName glyphRefID="527" NameString="uniEB16.striped_heart" />
+  <PostScriptName glyphRefID="524" NameString="uniEB13.heart_1" />
+  <PostScriptName glyphRefID="525" NameString="uniEB14.heart_2" />
+  <PostScriptName glyphRefID="526" NameString="uniEB15.heart_3" />
+  <PostScriptName glyphRefID="527" NameString="uniEB16.heart_4" />
   <PostScriptName glyphRefID="528" NameString="uniEB17.heart_with_ribbon" />
   <PostScriptName glyphRefID="529" NameString="uniEB18.revolving_hearts" />
   <PostScriptName glyphRefID="530" NameString="uniEB19.heart_decoration" />
@@ -611,16 +611,16 @@
   <PostScriptName glyphRefID="579" NameString="uniEB5E.flexed_bicep" />
   <PostScriptName glyphRefID="580" NameString="uniEB5F.dizzy_symbol" />
   <PostScriptName glyphRefID="581" NameString="uniEB60.sparkles" />
-  <PostScriptName glyphRefID="582" NameString="uniEB63.checkered_large_circle" />
+  <PostScriptName glyphRefID="582" NameString="uniEB63.large_circle_1" />
   <PostScriptName glyphRefID="583" NameString="uniEBA3.black_rounded_square" />
   <PostScriptName glyphRefID="584" NameString="uniEB67.white_rounded_square" />
   <PostScriptName glyphRefID="585" NameString="uniEB69.glowing_star" />
   <PostScriptName glyphRefID="586" NameString="uniEB6A.shooting_star" />
-  <PostScriptName glyphRefID="587" NameString="uniEB73.white_large_diamond" />
-  <PostScriptName glyphRefID="588" NameString="uniEB74.black_large_diamond" />
-  <PostScriptName glyphRefID="589" NameString="uniEB75.white_small_diamond" />
-  <PostScriptName glyphRefID="590" NameString="uniEB78.checkered_up_pointing_triangle" />
-  <PostScriptName glyphRefID="591" NameString="uniEB79.checkered_down_pointing_triangle" />
+  <PostScriptName glyphRefID="587" NameString="uniEB73.large_diamond_1" />
+  <PostScriptName glyphRefID="588" NameString="uniEB74.large_diamond_2" />
+  <PostScriptName glyphRefID="589" NameString="uniEB75.small_diamond_1" />
+  <PostScriptName glyphRefID="590" NameString="uniEB78.up_pointing_triangle_1" />
+  <PostScriptName glyphRefID="591" NameString="uniEB79.down_pointing_triangle_1" />
   <PostScriptName glyphRefID="592" NameString="uniEB7A.white_flower" />
   <PostScriptName glyphRefID="593" NameString="uniEB7B.hundred_points_symbol" />
   <PostScriptName glyphRefID="594" NameString="uniEB81.id" />
@@ -652,4 +652,6 @@
   <PostScriptName glyphRefID="620" NameString="uniEBA1.open_hands" />
   <PostScriptName glyphRefID="621" NameString="uniE4B4.hospital" />
   <PostScriptName glyphRefID="622" NameString="uniE7D5.skiing" />
+  <PostScriptName glyphRefID="623" NameString="uniEB64.large_circle_2" />
+  <PostScriptName glyphRefID="624" NameString="uniEB76.small_diamond_2" />
 </postTable>

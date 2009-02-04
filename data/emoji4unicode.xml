@@ -171,7 +171,7 @@ animated Softbank symbol
 <subcategory name="Fruits">
 <e docomo="E742" glyphRefID="62" google="FE04F" id="04F" img_from="kddi" kddi="E4D2" name="CHERRIES" text_fallback="[さくらんぼ]"/>
 <e docomo="E744" glyphRefID="63" google="FE050" id="050" img_from="kddi" kddi="EB35" name="BANANA" text_fallback="[バナナ]"/>
-<e docomo="E745" glyphRefID="64" google="FE051" id="051" img_from="kddi" kddi="EAB9" name="WHITE APPLE" softbank="E345">
+<e docomo="E745" glyphRefID="64" google="FE051" id="051" img_from="kddi" kddi="EAB9" name="APPLE-1" softbank="E345">
 <desc>
 Usually in red color
 </desc>
@@ -193,7 +193,7 @@ also honeydew melon
 <e glyphRefID="71" google="FE058" id="058" img_from="kddi" kddi="EB33" name="PINEAPPLE" text_fallback="[パイナップル]"/>
 <e glyphRefID="72" google="FE059" id="059" img_from="kddi" kddi="EB34" name="GRAPES" text_fallback="[ブドウ]"/>
 <e glyphRefID="73" google="FE05A" id="05A" img_from="kddi" kddi="EB39" name="PEACH" text_fallback="[モモ]"/>
-<e docomo="&gt;E745" glyphRefID="74" google="FE05B" id="05B" img_from="kddi" kddi="EB5A" name="BLACK APPLE" softbank="&gt;E345">
+<e docomo="&gt;E745" glyphRefID="74" google="FE05B" id="05B" img_from="kddi" kddi="EB5A" name="APPLE-2" softbank="&gt;E345">
 <desc>
 Usually in green color
 </desc>
@@ -293,7 +293,7 @@ Alien (big eyed type), or UFO
 Alien (monster type)
 </desc>
 </e>
-<e glyphRefID="109" google="FE1B2" id="1B2" img_from="kddi" kddi="E4EF" name="DEVIL" softbank="E11A" text_fallback="[アクマ]">
+<e glyphRefID="109" google="FE1B2" id="1B2" img_from="kddi" kddi="E4EF" name="IMP" softbank="E11A" text_fallback="[アクマ]">
 <desc>
 Devil (cute)
 </desc>
@@ -722,7 +722,7 @@ Convenience Store (stylized &quot;24&quot; to indicate 24 hours)
 related to U+3246 = ARIB-9110
 </desc>
 </e>
-<e glyphRefID="226" google="FE4BB" id="4BB" img_from="softbank" kddi="E5BB" name="CHAPEL" softbank="E037" text_fallback="[教会]"/>
+<e glyphRefID="226" google="FE4BB" id="4BB" img_from="softbank" kddi="E5BB" name="CHURCH" softbank="E037" text_fallback="[教会]" unicode="*26EA"/>
 <e glyphRefID="227" google="FE4BC" id="4BC" kddi="E5CF" name="FOUNTAIN" softbank="E121" text_fallback="[噴水]" unicode="*26F2"/>
 <e glyphRefID="228" google="FE4BD" id="4BD" img_from="kddi" kddi="EAF6" name="DEPARTMENT STORE" softbank="E504" text_fallback="[デパート]"/>
 <e glyphRefID="229" google="FE4BE" id="4BE" img_from="kddi" kddi="EAF7" name="JAPANESE CASTLE" softbank="E505" text_fallback="[城]"/>
@@ -748,7 +748,7 @@ department store by Tokyu Group for young girls/women
 </desc>
 </e>
 <e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D"/>
-<e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="MAP OF JAPAN" text_fallback="[地図]"/>
+<e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="SKETCH OF JAPAN" text_fallback="[地図]"/>
 <e glyphRefID="237" google="FE4C8" id="4C8" img_from="kddi" kddi="EB6C" name="MOYAI" text_fallback="[モアイ]">
 <desc>
 Japanese stone statue like Moai on Eastern Islands, famous one in Shibuya, Tokyo
@@ -927,22 +927,22 @@ scroll a window on a computer
 wall outlet
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="292" google="FE4FF" id="4FF" img_from="kddi" kddi="E565" name="BOOK WITH HORIZONTAL FILL" softbank="&gt;E148">
+<e docomo="&gt;E683" glyphRefID="292" google="FE4FF" id="4FF" img_from="kddi" kddi="E565" name="BOOK-1" softbank="&gt;E148">
 <desc>
 green colored book (closed)
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="293" google="FE500" id="500" img_from="kddi" kddi="E566" name="BLACK BOOK" softbank="&gt;E148">
+<e docomo="&gt;E683" glyphRefID="293" google="FE500" id="500" img_from="kddi" kddi="E566" name="BOOK-2" softbank="&gt;E148">
 <desc>
 blue colored book (closed)
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="294" google="FE501" id="501" img_from="kddi" kddi="E567" name="WHITE BOOK" softbank="&gt;E148">
+<e docomo="&gt;E683" glyphRefID="294" google="FE501" id="501" img_from="kddi" kddi="E567" name="BOOK-3" softbank="&gt;E148">
 <desc>
 orange colored book (closed)
 </desc>
 </e>
-<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="BOOK WITH VERTICAL FILL" softbank="&gt;E148">
+<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="VERTICAL CLOSED BOOK" softbank="&gt;E148">
 <desc>
 vertical closed book
 </desc>
@@ -994,7 +994,7 @@ birthday
 </e>
 <e docomo="E6A4" glyphRefID="311" google="FE512" id="512" img_from="kddi" kddi="E4C9" name="CHRISTMAS TREE" softbank="E033"/>
 <e glyphRefID="312" google="FE513" id="513" img_from="kddi" kddi="EAF0" name="SANTA CLAUS" softbank="E448" text_fallback="[サンタ]"/>
-<e glyphRefID="313" google="FE514" id="514" img_from="kddi" kddi="E5D9" name="CROSSED JAPANESE FLAGS" softbank="E143" text_fallback="[祝日]">
+<e glyphRefID="313" google="FE514" id="514" img_from="kddi" kddi="E5D9" name="CROSSED FLAGS" softbank="E143" text_fallback="[祝日]">
 <desc>
 national holiday in Japan
 </desc>
@@ -1438,12 +1438,12 @@ archery, hitting the target
 <e glyphRefID="432" google="FE80E" id="80E" img_from="kddi" kddi="EADD" name="BILLIARDS" softbank="E42C" text_fallback="[ビリヤード]"/>
 <e glyphRefID="433" google="FE80F" id="80F" img_from="kddi" kddi="E4C8" name="GAME DIE" text_fallback="[サイコロ]"/>
 <e glyphRefID="434" google="FE810" id="810" img_from="kddi" kddi="EB43" name="BOWLING" text_fallback="[ボーリング]"/>
-<e glyphRefID="435" google="FE811" id="811" img_from="kddi" kddi="EB6E" name="JAPANESE FLOWER PLAYING CARDS" text_fallback="[花札]">
+<e glyphRefID="435" google="FE811" id="811" img_from="kddi" kddi="EB6E" name="FLOWER PLAYING CARDS" text_fallback="[花札]">
 <desc>
 flower cards (花札)
 </desc>
 </e>
-<e glyphRefID="436" google="FE812" id="812" img_from="kddi" kddi="EB6F" name="JOKER CARD" text_fallback="[ジョーカー]"/>
+<e glyphRefID="436" google="FE812" id="812" img_from="kddi" kddi="EB6F" name="JOKER" text_fallback="[ジョーカー]"/>
 </subcategory>
 <subcategory name="Music">
 <e docomo="E6F6" glyphRefID="437" google="FE813" id="813" img_from="kddi" kddi="E5BE" name="MUSICAL NOTE" softbank="E03E">
@@ -1474,7 +1474,7 @@ Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of
 </subcategory>
 <subcategory name="Media">
 <e docomo="E68A" glyphRefID="446" google="FE81C" id="81C" img_from="docomo" kddi="E502" name="TV" softbank="E12A"/>
-<e docomo="E68C" glyphRefID="447" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="CD" softbank="E126"/>
+<e docomo="E68C" glyphRefID="447" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="OPTICAL DISK" softbank="E126"/>
 <e docomo="&gt;E68C" glyphRefID="448" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127"/>
 <e glyphRefID="449" google="FE81F" id="81F" img_from="kddi" kddi="E5B9" name="RADIO" softbank="E128" text_fallback="[ラジオ]"/>
 <e glyphRefID="450" google="FE820" id="820" img_from="kddi" kddi="E580" name="VIDEO TAPE" softbank="E129" text_fallback="[ビデオ]"/>
@@ -1704,7 +1704,7 @@ café, coffee
 martini, bar
 </desc>
 </e>
-<e docomo="E672" glyphRefID="502" google="FE983" id="983" img_from="docomo" kddi="E4C3" name="BEER" softbank="E047"/>
+<e docomo="E672" glyphRefID="502" google="FE983" id="983" img_from="docomo" kddi="E4C3" name="BEER MUG" softbank="E047"/>
 <e docomo="E71E" glyphRefID="503" google="FE984" id="984" img_from="docomo" kddi="EAAE" name="TEACUP WITHOUT HANDLE" softbank="E338">
 <design>
 Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea
@@ -1796,22 +1796,22 @@ Fast forward (up)
 Fast forward (down)
 </desc>
 </e>
-<e glyphRefID="590" google="FEB78" id="B78" img_from="kddi" kddi="E55A" name="CHECKERED UP-POINTING TRIANGLE" text_fallback="▲">
+<e glyphRefID="590" google="FEB78" id="B78" img_from="kddi" kddi="E55A" name="UP-POINTING TRIANGLE-1" text_fallback="▲" unicode="+">
 <desc>
 Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e glyphRefID="591" google="FEB79" id="B79" img_from="kddi" kddi="E55B" name="CHECKERED DOWN-POINTING TRIANGLE" text_fallback="▼">
+<e glyphRefID="591" google="FEB79" id="B79" img_from="kddi" kddi="E55B" name="DOWN-POINTING TRIANGLE-1" text_fallback="▼">
 <desc>
 Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e glyphRefID="511" google="FEB01" id="B01" img_from="kddi" kddi="E543" name="CHECKERED UP-POINTING SMALL TRIANGLE" text_fallback="▲">
+<e glyphRefID="511" google="FEB01" id="B01" img_from="kddi" kddi="E543" name="UP-POINTING SMALL TRIANGLE-1" text_fallback="▲">
 <desc>
 Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e glyphRefID="510" google="FEB00" id="B00" img_from="kddi" kddi="E542" name="CHECKERED DOWN-POINTING SMALL TRIANGLE" text_fallback="▼">
+<e glyphRefID="510" google="FEB00" id="B00" img_from="kddi" kddi="E542" name="DOWN-POINTING SMALL TRIANGLE-1" text_fallback="▼">
 <desc>
 Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).
 </desc>
@@ -1877,22 +1877,22 @@ heart growing bigger
 heart with an arrow through it
 </desc>
 </e>
-<e docomo="&gt;E6EC" glyphRefID="524" google="FEB13" id="B13" img_from="kddi" kddi="EAA7" name="BLACK HEART" softbank="E32A">
+<e docomo="&gt;E6EC" glyphRefID="524" google="FEB13" id="B13" img_from="kddi" kddi="EAA7" name="HEART-1" softbank="E32A">
 <desc>
 Heart with blue color
 </desc>
 </e>
-<e docomo="&gt;E6EC" glyphRefID="525" google="FEB14" id="B14" img_from="kddi" kddi="EAA8" name="CHECKERED HEART" softbank="E32B">
+<e docomo="&gt;E6EC" glyphRefID="525" google="FEB14" id="B14" img_from="kddi" kddi="EAA8" name="HEART-2" softbank="E32B">
 <desc>
 Heart with green color
 </desc>
 </e>
-<e docomo="&gt;E6EC" glyphRefID="526" google="FEB15" id="B15" img_from="kddi" kddi="EAA9" name="WHITE HEART" softbank="E32C">
+<e docomo="&gt;E6EC" glyphRefID="526" google="FEB15" id="B15" img_from="kddi" kddi="EAA9" name="HEART-3" softbank="E32C">
 <desc>
 Heart with yellow color
 </desc>
 </e>
-<e docomo="&gt;E6EC" glyphRefID="527" google="FEB16" id="B16" img_from="kddi" kddi="EAAA" name="STRIPED HEART" softbank="E32D">
+<e docomo="&gt;E6EC" glyphRefID="527" google="FEB16" id="B16" img_from="kddi" kddi="EAAA" name="HEART-4" softbank="E32D">
 <desc>
 Heart with purple color
 </desc>
@@ -2306,7 +2306,7 @@ Small circle (red)
 Small circle (blue)
 </desc>
 </e>
-<e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="CHECKERED LARGE CIRCLE" softbank="E219" unicode="+2B55">
+<e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="LARGE CIRCLE-1" softbank="E219">
 <desc>
 Large circle (red). Disunified from &#x25CB; U+25CB and &#x25EF; U+25EF due to source separation rule (Shift_JIS).
 Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics.
@@ -2316,14 +2316,15 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <ann>x (black large circle - 2B24)</ann>
 <design>Same basic shape as for &#x2B24; U+2B24 BLACK LARGE CIRCLE.</design>
 </e>
-<e docomo="&gt;E69C" google="FEB64" id="B64" kddi="E54B" name="BLACK LARGE CIRCLE" softbank="&gt;E21A" unicode="2B24">
+<e docomo="&gt;E69C" glyphRefID="623" google="FEB64" id="B64" kddi="E54B" name="LARGE CIRCLE-2" softbank="&gt;E21A">
 <desc>
 Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).
 </desc>
 <ann>x (large circle - 25EF)</ann>
 <ann>x (checkered large circle - 2B55)</ann>
+<design>Same basic shape as for &#x2B24; U+2B24 BLACK LARGE CIRCLE.</design>
 </e>
-<e docomo="&gt;E69C" glyphRefID="583" google="&gt;FEB64" id="BA3" img_from="softbank" kddi="&gt;E54B" name="BLACK ROUNDED SQUARE" softbank="E21A" unicode="+">
+<e docomo="&gt;E69C" glyphRefID="583" google="&gt;FEB64" id="BA3" img_from="softbank" kddi="&gt;E54B" name="BLACK ROUNDED SQUARE" softbank="E21A">
 <design>Same shapes for e-BA3 and e-B67.</design>
 </e>
 <e docomo="&gt;E69C" glyphRefID="584" google="FEB67" id="B67" img_from="softbank" kddi="&gt;E54B" name="WHITE ROUNDED SQUARE" softbank="E21B">
@@ -2384,26 +2385,27 @@ Large square (orange)
 Large square (green)
 </desc>
 </e>
-<e glyphRefID="587" google="FEB73" id="B73" img_from="kddi" kddi="E546" name="WHITE LARGE DIAMOND" softbank="&gt;E21B" text_fallback="◆" unicode="+2B56">
+<e glyphRefID="587" google="FEB73" id="B73" img_from="kddi" kddi="E546" name="LARGE DIAMOND-1" softbank="&gt;E21B" text_fallback="◆">
 <desc>
 Large diamond (orange). disunified from &#x25C7; U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e glyphRefID="588" google="FEB74" id="B74" img_from="kddi" kddi="E547" name="BLACK LARGE DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<e glyphRefID="588" google="FEB74" id="B74" img_from="kddi" kddi="E547" name="LARGE DIAMOND-2" softbank="&gt;E21B" text_fallback="◆">
 <desc>
 Large diamond (blue). disunified from &#x25C6; U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).
 </desc>
 </e>
-<e glyphRefID="589" google="FEB75" id="B75" img_from="kddi" kddi="E536" name="WHITE SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆">
+<e glyphRefID="589" google="FEB75" id="B75" img_from="kddi" kddi="E536" name="SMALL DIAMOND-1" softbank="&gt;E21B" text_fallback="◆">
 <desc>
 Small diamond (orange).
 </desc>
 <design>Same basic shape as &#x2B29; U+2B29 BLACK SMALL DIAMOND</design>
 </e>
-<e google="FEB76" id="B76" kddi="E537" name="BLACK SMALL DIAMOND" softbank="&gt;E21B" text_fallback="◆" unicode="2B29">
+<e glyphRefID="624" google="FEB76" id="B76" kddi="E537" name="SMALL DIAMOND-2" softbank="&gt;E21B" text_fallback="◆">
 <desc>
 Small diamond (blue).
 </desc>
+<design>Same basic shape as &#x2B29; U+2B29 BLACK SMALL DIAMOND</design>
 </e>
 <e docomo="&gt;E6FA" google="FEB77" id="B77" kddi="E46C" name="SPARKLE" softbank="&gt;E32E" unicode="2747">
 <desc>
@@ -2412,7 +2414,7 @@ Spark
 </e>
 </subcategory>
 <subcategory name="School">
-<e glyphRefID="592" google="FEB7A" id="B7A" img_from="kddi" kddi="E4F0" name="WHITE FLOWER" text_fallback="[花丸]" unicode="+">
+<e glyphRefID="592" google="FEB7A" id="B7A" img_from="kddi" kddi="E4F0" name="WHITE FLOWER" text_fallback="[花丸]">
 <desc>
 ❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for &quot;brilliant!&quot; (花丸)
 </desc>

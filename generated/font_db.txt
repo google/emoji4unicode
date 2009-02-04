@@ -57,7 +57,7 @@
 61	E04E	1	Nature	Plants	HERB		
 62	E04F	1	Nature	Fruits	CHERRIES		
 63	E050	1	Nature	Fruits	BANANA		
-64	E051	1	Nature	Fruits	WHITE APPLE	Usually in red color	
+64	E051	1	Nature	Fruits	APPLE-1	Usually in red color	
 65	E052	1	Nature	Fruits	TANGERINE	Mikan, Orange	
 66	E053	1	Nature	Fruits	STRAWBERRY		
 67	E054	1	Nature	Fruits	WATERMELON		
@@ -67,7 +67,7 @@
 71	E058	1	Nature	Fruits	PINEAPPLE		
 72	E059	1	Nature	Fruits	GRAPES		
 73	E05A	1	Nature	Fruits	PEACH		
-74	E05B	1	Nature	Fruits	BLACK APPLE	Usually in green color	
+74	E05B	1	Nature	Fruits	APPLE-2	Usually in green color	
 75	E190	2	Human/Living Things	Facial Parts	EYES		
 76	E191	2	Human/Living Things	Facial Parts	EAR		
 77	E192	2	Human/Living Things	Facial Parts	NOSE		
@@ -102,7 +102,7 @@
 106	E1AF	2	Human/Living Things	People / Personalities	ANGEL		
 107	E1B0	2	Human/Living Things	People / Personalities	EXTRATERRESTRIAL ALIEN	Alien (big eyed type), or UFO	
 108	E1B1	2	Human/Living Things	People / Personalities	ALIEN MONSTER	Alien (monster type)	
-109	E1B2	2	Human/Living Things	People / Personalities	DEVIL	Devil (cute)	
+109	E1B2	2	Human/Living Things	People / Personalities	IMP	Devil (cute)	
 110	E1B3	2	Human/Living Things	People / Personalities	SKULL		
 111	E1B4	2	Human/Living Things	People / Personalities	INFORMATION DESK PERSON		
 112	E1B5	2	Human/Living Things	People / Personalities	GUARDSMAN		
@@ -220,7 +220,7 @@
 223	E4B8	4	Artifacts	Buildings / Common Places	LOVE HOTEL	Note: usually Japanese love hotel	
 224	E4B9	4	Artifacts	Buildings / Common Places	CONVENIENCE STORE	Convenience Store (stylized "24" to indicate 24 hours)	
 225	E4BA	4	Artifacts	Buildings / Common Places	SCHOOL	related to U+3246 = ARIB-9110	
-226	E4BB	4	Artifacts	Buildings / Common Places	CHAPEL		
+226	E4BB	4	Artifacts	Buildings / Common Places	CHURCH		**Symbol no longer proposed for new encoding**
 227	E4BC	4	Artifacts	Buildings / Common Places	FOUNTAIN		**Symbol no longer proposed for new encoding**
 228	E4BD	4	Artifacts	Buildings / Common Places	DEPARTMENT STORE		
 229	E4BE	4	Artifacts	Buildings / Common Places	JAPANESE CASTLE		
@@ -230,7 +230,7 @@
 233	E4C3	4	Artifacts	Landmarks / Famous Places	MOUNT FUJI		
 234	E4C4	4	Artifacts	Landmarks / Famous Places	TOKYO TOWER		
 235	E4C6	4	Artifacts	Landmarks / Famous Places	STATUE OF LIBERTY		
-236	E4C7	4	Artifacts	Landmarks / Famous Places	MAP OF JAPAN		
+236	E4C7	4	Artifacts	Landmarks / Famous Places	SKETCH OF JAPAN		
 237	E4C8	4	Artifacts	Landmarks / Famous Places	MOYAI	Japanese stone statue like Moai on Eastern Islands, famous one in Shibuya, Tokyo	
 238	E4C9	4	Artifacts	Tools	WRENCH		
 239	E4CA	4	Artifacts	Tools	HAMMER	mallet	
@@ -285,10 +285,10 @@
 289	E4FC	4	Artifacts	Miscellaneous Symbols	BATTERY		
 290	E4FD	4	Artifacts	Miscellaneous Symbols	SCROLL	scroll a window on a computer	
 291	E4FE	4	Artifacts	Miscellaneous Symbols	ELECTRIC PLUG	wall outlet	
-292	E4FF	4	Artifacts	Miscellaneous Symbols	BOOK WITH HORIZONTAL FILL	green colored book (closed)	
-293	E500	4	Artifacts	Miscellaneous Symbols	BLACK BOOK	blue colored book (closed)	
-294	E501	4	Artifacts	Miscellaneous Symbols	WHITE BOOK	orange colored book (closed)	
-295	E502	4	Artifacts	Miscellaneous Symbols	BOOK WITH VERTICAL FILL	vertical closed book	
+292	E4FF	4	Artifacts	Miscellaneous Symbols	BOOK-1	green colored book (closed)	
+293	E500	4	Artifacts	Miscellaneous Symbols	BOOK-2	blue colored book (closed)	
+294	E501	4	Artifacts	Miscellaneous Symbols	BOOK-3	orange colored book (closed)	
+295	E502	4	Artifacts	Miscellaneous Symbols	VERTICAL CLOSED BOOK	vertical closed book	
 296	E503	4	Artifacts	Miscellaneous Symbols	BOOKS	multiple, a stack of books	
 297	E504	4	Artifacts	Miscellaneous Symbols	NAME BADGE		
 298	E505	4	Artifacts	Bath / Bathroom	BATH		
@@ -306,7 +306,7 @@
 310	E511	4	Artifacts	Celebration / Holidays	BIRTHDAY CAKE	birthday	
 311	E512	4	Artifacts	Celebration / Holidays	CHRISTMAS TREE		
 312	E513	4	Artifacts	Celebration / Holidays	SANTA CLAUS		
-313	E514	4	Artifacts	Celebration / Holidays	CROSSED JAPANESE FLAGS	national holiday in Japan	
+313	E514	4	Artifacts	Celebration / Holidays	CROSSED FLAGS	national holiday in Japan	
 314	E515	4	Artifacts	Celebration / Holidays	FIREWORKS		
 315	E516	4	Artifacts	Celebration / Holidays	BALLOON		
 316	E517	4	Artifacts	Celebration / Holidays	PARTY POPPER		
@@ -429,8 +429,8 @@
 432	E80E	5	Activities/Work/Entertainment	Games	BILLIARDS		
 433	E80F	5	Activities/Work/Entertainment	Games	GAME DIE		
 434	E810	5	Activities/Work/Entertainment	Games	BOWLING		
-435	E811	5	Activities/Work/Entertainment	Games	JAPANESE FLOWER PLAYING CARDS	flower cards (花札)	
-436	E812	5	Activities/Work/Entertainment	Games	JOKER CARD		
+435	E811	5	Activities/Work/Entertainment	Games	FLOWER PLAYING CARDS	flower cards (花札)	
+436	E812	5	Activities/Work/Entertainment	Games	JOKER		
 437	E813	5	Activities/Work/Entertainment	Music	MUSICAL NOTE	music, being in good mood. disunified from U+266A due to source separation rule (Shift_JIS).	
 438	E814	5	Activities/Work/Entertainment	Music	MULTIPLE MUSICAL NOTES	dancing notes, mood, melody. (tentatively disunified from ♫ U+266B)	
 439	E815	5	Activities/Work/Entertainment	Music	SAXOPHONE		
@@ -441,7 +441,7 @@
 444	E81A	5	Activities/Work/Entertainment	Music	MUSICAL SCORE	tentatively disunified from U+1D11E	
 445	E81B	5	Activities/Work/Entertainment	Music	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
 446	E81C	5	Activities/Work/Entertainment	Media	TV		
-447	E81D	5	Activities/Work/Entertainment	Media	CD		
+447	E81D	5	Activities/Work/Entertainment	Media	OPTICAL DISK		
 448	E81E	5	Activities/Work/Entertainment	Media	DVD		
 449	E81F	5	Activities/Work/Entertainment	Media	RADIO		
 450	E820	5	Activities/Work/Entertainment	Media	VIDEO TAPE		
@@ -496,7 +496,7 @@
 499	E97F	6	Foods	Prepared Food	FRIED SHRIMP		
 500	E980	6	Foods	Prepared Food	FORK AND KNIFE	restaurant, meal	
 501	E982	6	Foods	Drink	COCKTAIL GLASS	martini, bar	
-502	E983	6	Foods	Drink	BEER		
+502	E983	6	Foods	Drink	BEER MUG		
 503	E984	6	Foods	Drink	TEACUP WITHOUT HANDLE		Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea
 504	E985	6	Foods	Drink	SAKE BOTTLE AND CUP	sake	
 505	E986	6	Foods	Drink	WINE GLASS	wine	
@@ -506,10 +506,10 @@
 509	EAFF	7	Abstract Concepts	Arrows	BLACK LEFT-POINTING DOUBLE TRIANGLE	Fast rewind	
 513	EB03	7	Abstract Concepts	Arrows	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
 512	EB02	7	Abstract Concepts	Arrows	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
-590	EB78	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING TRIANGLE	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
-591	EB79	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING TRIANGLE	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
-511	EB01	7	Abstract Concepts	Arrows	CHECKERED UP-POINTING SMALL TRIANGLE	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
-510	EB00	7	Abstract Concepts	Arrows	CHECKERED DOWN-POINTING SMALL TRIANGLE	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
+590	EB78	7	Abstract Concepts	Arrows	UP-POINTING TRIANGLE-1	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
+591	EB79	7	Abstract Concepts	Arrows	DOWN-POINTING TRIANGLE-1	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
+511	EB01	7	Abstract Concepts	Arrows	UP-POINTING SMALL TRIANGLE-1	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
+510	EB00	7	Abstract Concepts	Arrows	DOWN-POINTING SMALL TRIANGLE-1	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
 514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
 515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK ORNAMENT		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK ORNAMENT	moving question mark	
@@ -520,10 +520,10 @@
 521	EB10	7	Abstract Concepts	Hearts	SPARKLING HEART	sparkling heart	
 522	EB11	7	Abstract Concepts	Hearts	GROWING HEART	heart growing bigger	
 523	EB12	7	Abstract Concepts	Hearts	HEART WITH ARROW	heart with an arrow through it	
-524	EB13	7	Abstract Concepts	Hearts	BLACK HEART	Heart with blue color	
-525	EB14	7	Abstract Concepts	Hearts	CHECKERED HEART	Heart with green color	
-526	EB15	7	Abstract Concepts	Hearts	WHITE HEART	Heart with yellow color	
-527	EB16	7	Abstract Concepts	Hearts	STRIPED HEART	Heart with purple color	
+524	EB13	7	Abstract Concepts	Hearts	HEART-1	Heart with blue color	
+525	EB14	7	Abstract Concepts	Hearts	HEART-2	Heart with green color	
+526	EB15	7	Abstract Concepts	Hearts	HEART-3	Heart with yellow color	
+527	EB16	7	Abstract Concepts	Hearts	HEART-4	Heart with purple color	
 528	EB17	7	Abstract Concepts	Hearts	HEART WITH RIBBON	Valentine's (heart with ribbon, or candy with heart)	
 529	EB18	7	Abstract Concepts	Hearts	REVOLVING HEARTS	cute	
 530	EB19	7	Abstract Concepts	Hearts	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
@@ -580,14 +580,16 @@
 579	EB5E	7	Abstract Concepts	Comic-Style Symbols	FLEXED BICEP	strong, muscled	
 580	EB5F	7	Abstract Concepts	Comic-Style Symbols	DIZZY SYMBOL	circling stars	
 581	EB60	7	Abstract Concepts	Shapes / Sparkles	SPARKLES	sparkling new	
-582	EB63	7	Abstract Concepts	Shapes / Sparkles	CHECKERED LARGE CIRCLE	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+582	EB63	7	Abstract Concepts	Shapes / Sparkles	LARGE CIRCLE-1	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+623	EB64	7	Abstract Concepts	Shapes / Sparkles	LARGE CIRCLE-2	Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
 583	EBA3	7	Abstract Concepts	Shapes / Sparkles	BLACK ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
 584	EB67	7	Abstract Concepts	Shapes / Sparkles	WHITE ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
 585	EB69	7	Abstract Concepts	Shapes / Sparkles	GLOWING STAR	Animated pulsating star in orange color	
 586	EB6A	7	Abstract Concepts	Shapes / Sparkles	SHOOTING STAR	Animated glowing star in blue color	
-587	EB73	7	Abstract Concepts	Shapes / Sparkles	WHITE LARGE DIAMOND	Large diamond (orange). disunified from ◇ U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).	
-588	EB74	7	Abstract Concepts	Shapes / Sparkles	BLACK LARGE DIAMOND	Large diamond (blue). disunified from ◆ U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).	
-589	EB75	7	Abstract Concepts	Shapes / Sparkles	WHITE SMALL DIAMOND	Small diamond (orange).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
+587	EB73	7	Abstract Concepts	Shapes / Sparkles	LARGE DIAMOND-1	Large diamond (orange). disunified from ◇ U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).	
+588	EB74	7	Abstract Concepts	Shapes / Sparkles	LARGE DIAMOND-2	Large diamond (blue). disunified from ◆ U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).	
+589	EB75	7	Abstract Concepts	Shapes / Sparkles	SMALL DIAMOND-1	Small diamond (orange).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
+624	EB76	7	Abstract Concepts	Shapes / Sparkles	SMALL DIAMOND-2	Small diamond (blue).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
 592	EB7A	7	Abstract Concepts	School	WHITE FLOWER	❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for "brilliant!" (花丸)	
 593	EB7B	7	Abstract Concepts	School	HUNDRED POINTS SYMBOL	100 (perfect score), e.g. school exam	
 594	EB81	7	Abstract Concepts	Internet Specific	ID	ID ("ID" stamp)	

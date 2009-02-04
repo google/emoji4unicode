@@ -279,7 +279,6 @@
     <map charValue="0xE4B8" glyphRefID="223"/>
     <map charValue="0xE4B9" glyphRefID="224"/>
     <map charValue="0xE4BA" glyphRefID="225"/>
-    <map charValue="0xE4BB" glyphRefID="226"/>
     <map charValue="0xE4BD" glyphRefID="228"/>
     <map charValue="0xE4BE" glyphRefID="229"/>
     <map charValue="0xE4BF" glyphRefID="230"/>
@@ -620,12 +619,14 @@
     <map charValue="0xEB5F" glyphRefID="580"/>
     <map charValue="0xEB60" glyphRefID="581"/>
     <map charValue="0xEB63" glyphRefID="582"/>
+    <map charValue="0xEB64" glyphRefID="623"/>
     <map charValue="0xEB67" glyphRefID="584"/>
     <map charValue="0xEB69" glyphRefID="585"/>
     <map charValue="0xEB6A" glyphRefID="586"/>
     <map charValue="0xEB73" glyphRefID="587"/>
     <map charValue="0xEB74" glyphRefID="588"/>
     <map charValue="0xEB75" glyphRefID="589"/>
+    <map charValue="0xEB76" glyphRefID="624"/>
     <map charValue="0xEB78" glyphRefID="590"/>
     <map charValue="0xEB79" glyphRefID="591"/>
     <map charValue="0xEB7A" glyphRefID="592"/>
