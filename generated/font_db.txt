@@ -259,16 +259,16 @@
 263	E4E2	4	Artifacts	Money	BILL WITH YEN SIGN	a check, a sign indicating "not free"	
 264	E4E3	4	Artifacts	Money	DOLLAR BILL		
 265	E4E4	4	Artifacts	Money	MONEY WITH WINGS		
-266	E4E5	4	Artifacts	Flags	FLAG SYMBOL JP	Japan, also a national holiday (in red)	Rectangular flag of Japan, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-267	E4E6	4	Artifacts	Flags	FLAG SYMBOL US	U.S.A.	Rectangular flag of the USA, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-268	E4E7	4	Artifacts	Flags	FLAG SYMBOL FR	France	Rectangular flag of France, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-269	E4E8	4	Artifacts	Flags	FLAG SYMBOL DE	Germany	Rectangular flag of Germany, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-270	E4E9	4	Artifacts	Flags	FLAG SYMBOL IT	Italy	Rectangular flag of Italy, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-271	E4EA	4	Artifacts	Flags	FLAG SYMBOL GB	U.K.	Rectangular flag of the United Kingdom, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-272	E4EB	4	Artifacts	Flags	FLAG SYMBOL ES	Spain	Rectangular flag of Spain, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-273	E4EC	4	Artifacts	Flags	FLAG SYMBOL RU	Russia	Rectangular flag of Russia, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-274	E4ED	4	Artifacts	Flags	FLAG SYMBOL CN	China	Rectangular flag of China, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
-275	E4EE	4	Artifacts	Flags	FLAG SYMBOL KR	South Korea	Rectangular flag of South Korea, not wavy, no flagpole. Similar to flags on http://famfamfam.com/lab/icons/flags/
+274	E4ED	4	Artifacts	Flags	SYMBOL CN	China	"CN" in dashed box, similar to U+FFFC and U+1680
+269	E4E8	4	Artifacts	Flags	SYMBOL DE	Germany	"DE" in dashed box, similar to U+FFFC and U+1680
+272	E4EB	4	Artifacts	Flags	SYMBOL ES	Spain	"ES" in dashed box, similar to U+FFFC and U+1680
+268	E4E7	4	Artifacts	Flags	SYMBOL FR	France	"FR" in dashed box, similar to U+FFFC and U+1680
+271	E4EA	4	Artifacts	Flags	SYMBOL GB	U.K.	"GB" in dashed box, similar to U+FFFC and U+1680
+270	E4E9	4	Artifacts	Flags	SYMBOL IT	Italy	"IT" in dashed box, similar to U+FFFC and U+1680
+266	E4E5	4	Artifacts	Flags	SYMBOL JP	Japan, also a national holiday (in red)	"JP" in dashed box, similar to U+FFFC and U+1680
+275	E4EE	4	Artifacts	Flags	SYMBOL KR	South Korea	"KR" in dashed box, similar to U+FFFC and U+1680
+273	E4EC	4	Artifacts	Flags	SYMBOL RU	Russia	"RU" in dashed box, similar to U+FFFC and U+1680
+267	E4E6	4	Artifacts	Flags	SYMBOL US	U.S.A.	"US" in dashed box, similar to U+FFFC and U+1680
 276	E4EF	4	Artifacts	Miscellaneous Symbols	CAMERA		
 277	E4F0	4	Artifacts	Miscellaneous Symbols	HANDBAG		
 278	E4F1	4	Artifacts	Miscellaneous Symbols	POUCH		
