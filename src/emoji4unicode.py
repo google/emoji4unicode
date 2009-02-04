@@ -34,6 +34,7 @@ import row_cell
 import ucm
 
 _HIGH_UNI = 0x1F300
+_MAX_HIGH_UNI = 0x1F5FF
 
 all_carrier_data = {}
 
@@ -308,7 +309,8 @@ class Symbol(object):
       # (Does not work for code point sequences.)
       proposed_uni = "%04X" % (int(prev_proposed_uni, 16) + 1)
     _id_to_proposed_uni[self.id] = proposed_uni
-    if not u"+" in proposed_uni and int(proposed_uni, 16) >= _HIGH_UNI:
+    if (not u"+" in proposed_uni and
+        _HIGH_UNI <= int(proposed_uni, 16) <= _MAX_HIGH_UNI):
       prev_high_uni = proposed_uni
     return (proposed_uni, prev_high_uni)
 

@@ -742,12 +742,12 @@ Japanese izakaya restaurant for drinking, characteristic red lantern
 <subcategory name="Landmarks / Famous Places">
 <e docomo="E740" glyphRefID="233" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" softbank="E03B"/>
 <e glyphRefID="234" google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" softbank="E509" text_fallback="[東京タワー]"/>
-<e google="FE4C5" id="4C5" img_from="softbank" in_proposal="no" name="SHIBUYA" softbank="E50A">
+<e glyphRefID="625" google="FE4C5" id="4C5" img_from="softbank" name="EMOJI COMPATIBILITY SYMBOL-64" softbank="E50A" unicode="+1F63F">
 <desc>
-department store by Tokyu Group for young girls/women
+Original name: SHIBUYA; department store by Tokyu Group for young girls/women
 </desc>
 </e>
-<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D"/>
+<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D" unicode="+"/>
 <e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="SKETCH OF JAPAN" text_fallback="[地図]"/>
 <e glyphRefID="237" google="FE4C8" id="4C8" img_from="kddi" kddi="EB6C" name="MOYAI" text_fallback="[モアイ]">
 <desc>
@@ -1512,9 +1512,9 @@ wedding chapel
 </e>
 </subcategory>
 <subcategory name="Phone Specific">
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="no" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23EE">
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-65" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+1F640">
 <desc>
-Two loops. Occurs widely in print in Japan.
+Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.
 </desc>
 </e>
 <e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210" unicode="0023+20E3">
@@ -1522,9 +1522,9 @@ Two loops. Occurs widely in print in Japan.
 pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)
 </desc>
 </e>
-<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" in_proposal="no" name="MOBILE Q" text_fallback="[Q]">
+<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="EMOJI COMPATIBILITY SYMBOL-66" text_fallback="[Q]" unicode="+1F641">
 <desc>
-Mobile Q service
+Original name: MOBILE Q. Mobile Q service
 </desc>
 </e>
 <e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYCAP 1" softbank="E21C" unicode="0031+20E3">
@@ -2591,117 +2591,223 @@ Ohhaa! Good morning gesture. Open hands with the money sign
 <e google="FEBA2" id="BA2" img_from="google" in_proposal="no" name="ROCK ON" text_fallback="[ロックオン]"/>
 </subcategory>
 </category>
-<category name="8. Business logos/symbols" in_proposal="no">
+<category name="8. Business logos/symbols">
 <subcategory name="DoCoMo specific">
-<e docomo="E6D1" google="FEE10" id="E10" img_from="docomo" name="I-MODE" text_fallback="[iモード]"/>
-<e docomo="E6D2" google="FEE11" id="E11" img_from="docomo" name="I-MODE WITH FRAME" text_fallback="[iモード]"/>
-<e docomo="E6D4" google="FEE12" id="E12" img_from="docomo" name="PROVIDED BY DOCOMO" text_fallback="[ドコモ]"/>
-<e docomo="E6D5" google="FEE13" id="E13" img_from="docomo" name="DOCOMO POINT" text_fallback="[ドコモポイント]"/>
-<e docomo="E70C" google="FEE14" id="E14" img_from="docomo" name="I-APPLI" text_fallback="[iアプリ]"/>
-<e docomo="E70D" google="FEE15" id="E15" img_from="docomo" name="I-APPLI WITH BORDER" text_fallback="[iアプリ]"/>
-<e docomo="E6A6" google="FEE16" id="E16" img_from="docomo" name="PIAS PI" text_fallback="[ぴ]"/>
-<e docomo="E6A7" google="FEE17" id="E17" img_from="docomo" name="PIAS A" text_fallback="[あ]"/>
-<e docomo="E6A8" google="FEE18" id="E18" img_from="docomo" name="INVERSE TICKET" text_fallback="[チケット]"/>
-<e docomo="E6A9" google="FEE19" id="E19" img_from="docomo" name="KATAKANA ABBREVIATION FOR TICKET" text_fallback="[チケット]"/>
-<e docomo="E6AA" google="FEE1A" id="E1A" img_from="docomo" name="RESERVE BY PHONE" text_fallback="[電話先行]"/>
-<e docomo="E6AB" google="FEE1B" id="E1B" img_from="docomo" name="P CODE" text_fallback="[Pコード]"/>
-<e docomo="E6AF" google="FEE1C" id="E1C" img_from="docomo" kddi="&gt;E517" name="MOVIES 2" softbank="&gt;E03D">
+<e docomo="E6D1" glyphRefID="626" google="FEE10" id="E10" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-1" text_fallback="[iモード]" unicode="+1F600">
+<desc>Original name: I-MODE</desc>
+</e>
+<e docomo="E6D2" glyphRefID="627" google="FEE11" id="E11" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-2" text_fallback="[iモード]">
+<desc>Original name: I-MODE WITH FRAME</desc>
+</e>
+<e docomo="E6D4" glyphRefID="628" google="FEE12" id="E12" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-3" text_fallback="[ドコモ]">
+<desc>Original name: PROVIDED BY DOCOMO</desc>
+</e>
+<e docomo="E6D5" glyphRefID="629" google="FEE13" id="E13" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-4" text_fallback="[ドコモポイント]">
+<desc>Original name: DOCOMO POINT</desc>
+</e>
+<e docomo="E70C" glyphRefID="630" google="FEE14" id="E14" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-5" text_fallback="[iアプリ]">
+<desc>Original name: I-APPLI</desc>
+</e>
+<e docomo="E70D" glyphRefID="631" google="FEE15" id="E15" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-6" text_fallback="[iアプリ]">
+<desc>Original name: I-APPLI WITH BORDER</desc>
+</e>
+<e docomo="E6A6" glyphRefID="632" google="FEE16" id="E16" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-7" text_fallback="[ぴ]">
+<desc>Original name: PIAS PI</desc>
+</e>
+<e docomo="E6A7" glyphRefID="633" google="FEE17" id="E17" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-8" text_fallback="[あ]">
+<desc>Original name: PIAS A</desc>
+</e>
+<e docomo="E6A8" glyphRefID="634" google="FEE18" id="E18" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-9" text_fallback="[チケット]">
+<desc>Original name: INVERSE TICKET</desc>
+</e>
+<e docomo="E6A9" glyphRefID="635" google="FEE19" id="E19" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-10" text_fallback="[チケット]">
+<desc>Original name: KATAKANA ABBREVIATION FOR TICKET</desc>
+</e>
+<e docomo="E6AA" glyphRefID="636" google="FEE1A" id="E1A" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-11" text_fallback="[電話先行]">
+<desc>Original name: RESERVE BY PHONE</desc>
+</e>
+<e docomo="E6AB" glyphRefID="637" google="FEE1B" id="E1B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-12" text_fallback="[Pコード]">
+<desc>Original name: P CODE</desc>
+</e>
+<e docomo="E6AF" glyphRefID="638" google="FEE1C" id="E1C" img_from="docomo" kddi="&gt;E517" name="EMOJI COMPATIBILITY SYMBOL-13" softbank="&gt;E03D">
 <desc>
-movie projector, video camera
+Original name: MOVIES 2; movie projector, video camera
 </desc>
 </e>
-<e docomo="E6B0" google="FEE1D" id="E1D" img_from="docomo" name="PIAS PI INVERSE" text_fallback="[ぴ]"/>
-<e docomo="E6B4" google="FEE1E" id="E1E" img_from="docomo" name="PIAS PI CIRCLE" text_fallback="(ぴ)"/>
-<e docomo="E6B5" google="FEE1F" id="E1F" img_from="docomo" name="PIAS PI SQUARE" text_fallback="[ぴ]"/>
-<e docomo="E6B6" google="FEE20" id="E20" img_from="docomo" name="CHECK" text_fallback="[チェック]"/>
-<e docomo="E6BB" google="FEE21" id="E21" img_from="docomo" name="F" text_fallback="[F]"/>
-<e docomo="E6BC" google="FEE22" id="E22" img_from="docomo" name="D" text_fallback="[D]"/>
-<e docomo="E6BD" google="FEE23" id="E23" img_from="docomo" name="S" text_fallback="[S]"/>
-<e docomo="E6BE" google="FEE24" id="E24" img_from="docomo" name="C" text_fallback="[C]"/>
-<e docomo="E6BF" google="FEE25" id="E25" img_from="docomo" name="R" text_fallback="[R]"/>
-<e docomo="E6C0" google="FEE26" id="E26" img_from="docomo" name="BLACK AND WHITE SQUARE" text_fallback="■"/>
-<e docomo="E6C1" google="FEE27" id="E27" img_from="docomo" name="BLACK SQUARE 3" text_fallback="■"/>
-<e docomo="E6C2" google="FEE28" id="E28" img_from="docomo" name="DOWNWARD TRIANGLE" text_fallback="▼"/>
-<e docomo="E6C3" google="FEE29" id="E29" img_from="docomo" name="FOUR DAGGERS" text_fallback="††††"/>
-<e docomo="E6C4" google="FEE2A" id="E2A" img_from="docomo" name="THREE DAGGERS" text_fallback="†††"/>
-<e docomo="E6C5" google="FEE2B" id="E2B" img_from="docomo" name="TWO DAGGERS" text_fallback="††"/>
-<e docomo="E6C6" google="FEE2C" id="E2C" img_from="docomo" name="SINGLE DAGGER" text_fallback="†"/>
-<e docomo="E6C7" google="FEE2D" id="E2D" img_from="docomo" name="I" text_fallback="[I]">
+<e docomo="E6B0" glyphRefID="639" google="FEE1D" id="E1D" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-14" text_fallback="[ぴ]">
+<desc>Original name: PIAS PI INVERSE</desc>
+</e>
+<e docomo="E6B4" glyphRefID="640" google="FEE1E" id="E1E" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-15" text_fallback="(ぴ)">
+<desc>Original name: PIAS PI CIRCLE</desc>
+</e>
+<e docomo="E6B5" glyphRefID="641" google="FEE1F" id="E1F" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-16" text_fallback="[ぴ]">
+<desc>Original name: PIAS PI SQUARE</desc>
+</e>
+<e docomo="E6B6" glyphRefID="642" google="FEE20" id="E20" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-17" text_fallback="[チェック]">
+<desc>Original name: CHECK</desc>
+</e>
+<e docomo="E6BB" glyphRefID="643" google="FEE21" id="E21" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-18" text_fallback="[F]">
+<desc>Original name: F</desc>
+</e>
+<e docomo="E6BC" glyphRefID="644" google="FEE22" id="E22" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-19" text_fallback="[D]">
+<desc>Original name: D</desc>
+</e>
+<e docomo="E6BD" glyphRefID="645" google="FEE23" id="E23" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-20" text_fallback="[S]">
+<desc>Original name: S</desc>
+</e>
+<e docomo="E6BE" glyphRefID="646" google="FEE24" id="E24" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-21" text_fallback="[C]">
+<desc>Original name: C</desc>
+</e>
+<e docomo="E6BF" glyphRefID="647" google="FEE25" id="E25" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-22" text_fallback="[R]">
+<desc>Original name: R</desc>
+</e>
+<e docomo="E6C0" glyphRefID="648" google="FEE26" id="E26" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-23" text_fallback="■">
+<desc>Original name: BLACK AND WHITE SQUARE</desc>
+</e>
+<e docomo="E6C1" glyphRefID="649" google="FEE27" id="E27" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-24" text_fallback="■">
+<desc>Original name: BLACK SQUARE 3</desc>
+</e>
+<e docomo="E6C2" glyphRefID="650" google="FEE28" id="E28" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-25" text_fallback="▼">
+<desc>Original name: DOWNWARD TRIANGLE</desc>
+</e>
+<e docomo="E6C3" glyphRefID="651" google="FEE29" id="E29" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-26" text_fallback="††††">
+<desc>Original name: FOUR DAGGERS</desc>
+</e>
+<e docomo="E6C4" glyphRefID="652" google="FEE2A" id="E2A" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-27" text_fallback="†††">
+<desc>Original name: THREE DAGGERS</desc>
+</e>
+<e docomo="E6C5" glyphRefID="653" google="FEE2B" id="E2B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-28" text_fallback="††">
+<desc>Original name: TWO DAGGERS</desc>
+</e>
+<e docomo="E6C6" glyphRefID="654" google="FEE2C" id="E2C" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-29" text_fallback="†">
+<desc>Original name: SINGLE DAGGER</desc>
+</e>
+<e docomo="E6C7" glyphRefID="655" google="FEE2D" id="E2D" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-30" text_fallback="[I]">
 <desc>
-&quot;I&quot; indicates &quot;inexpensive&quot;
+Original name: I; &quot;I&quot; indicates &quot;inexpensive&quot;
 </desc>
 </e>
-<e docomo="E6C8" google="FEE2E" id="E2E" img_from="docomo" name="M" text_fallback="[M]">
+<e docomo="E6C8" glyphRefID="656" google="FEE2E" id="E2E" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-31" text_fallback="[M]">
 <desc>
-&quot;M&quot; indicates &quot;moderate price&quot;
+Original name: M; &quot;M&quot; indicates &quot;moderate price&quot;
 </desc>
 </e>
-<e docomo="E6C9" google="FEE2F" id="E2F" img_from="docomo" name="E" text_fallback="[E]">
+<e docomo="E6C9" glyphRefID="657" google="FEE2F" id="E2F" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-32" text_fallback="[E]">
 <desc>
-&quot;E&quot; indicates &quot;expensive&quot;
+Original name: E; &quot;E&quot; indicates &quot;expensive&quot;
 </desc>
 </e>
-<e docomo="E6CA" google="FEE30" id="E30" img_from="docomo" name="VE" text_fallback="[VE]">
+<e docomo="E6CA" glyphRefID="658" google="FEE30" id="E30" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-33" text_fallback="[VE]">
 <desc>
-&quot;VE&quot; indicates &quot;very expensive&quot;
+Original name: VE; &quot;VE&quot; indicates &quot;very expensive&quot;
 </desc>
 </e>
-<e docomo="E6CB" google="FEE31" id="E31" img_from="docomo" name="SPHERE" text_fallback="●"/>
-<e docomo="E6CC" google="FEE32" id="E32" img_from="docomo" name="CREDIT CARDS NOT ACCEPTED" text_fallback="[カード使用不可]"/>
-<e docomo="E6CD" google="FEE33" id="E33" img_from="docomo" kddi="&gt;EB02" name="CHECKBOX" text_fallback="[チェックボックス]"/>
+<e docomo="E6CB" glyphRefID="659" google="FEE31" id="E31" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-34" text_fallback="●">
+<desc>Original name: SPHERE</desc>
+</e>
+<e docomo="E6CC" glyphRefID="660" google="FEE32" id="E32" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-35" text_fallback="[カード使用不可]">
+<desc>Original name: CREDIT CARDS NOT ACCEPTED</desc>
+</e>
+<e docomo="E6CD" glyphRefID="661" google="FEE33" id="E33" img_from="docomo" kddi="&gt;EB02" name="EMOJI COMPATIBILITY SYMBOL-36" text_fallback="[チェックボックス]">
+<desc>Original name: CHECKBOX</desc>
+</e>
 </subcategory>
 <subcategory name="KDDI specific">
-<e google="FEE40" id="E40" img_from="kddi" kddi="E577" name="EZ WEB" text_fallback="[EZ]"/>
-<e google="FEE41" id="E41" img_from="kddi" kddi="E5B2" name="EZ PLUS" text_fallback="[ezplus]"/>
-<e google="FEE42" id="E42" img_from="kddi" kddi="EA9D" name="EZ NAVIGATION" text_fallback="[EZナビ]"/>
-<e google="FEE43" id="E43" img_from="kddi" kddi="EB74" name="EZ MOVIE" text_fallback="[EZムービー]"/>
-<e google="FEE44" id="E44" img_from="kddi" kddi="EB81" name="CMAIL" text_fallback="[Cメール]">
+<e glyphRefID="662" google="FEE40" id="E40" img_from="kddi" kddi="E577" name="EMOJI COMPATIBILITY SYMBOL-37" text_fallback="[EZ]">
+<desc>Original name: EZ WEB</desc>
+</e>
+<e glyphRefID="663" google="FEE41" id="E41" img_from="kddi" kddi="E5B2" name="EMOJI COMPATIBILITY SYMBOL-38" text_fallback="[ezplus]">
+<desc>Original name: EZ PLUS</desc>
+</e>
+<e glyphRefID="664" google="FEE42" id="E42" img_from="kddi" kddi="EA9D" name="EMOJI COMPATIBILITY SYMBOL-39" text_fallback="[EZナビ]">
+<desc>Original name: EZ NAVIGATION</desc>
+</e>
+<e glyphRefID="665" google="FEE43" id="E43" img_from="kddi" kddi="EB74" name="EMOJI COMPATIBILITY SYMBOL-40" text_fallback="[EZムービー]">
+<desc>Original name: EZ MOVIE</desc>
+</e>
+<e glyphRefID="666" google="FEE44" id="E44" img_from="kddi" kddi="EB81" name="EMOJI COMPATIBILITY SYMBOL-41" text_fallback="[Cメール]">
 <desc>
-Cmail (Envelope with &quot;C&quot;)
+Original name: CMAIL; Cmail (Envelope with &quot;C&quot;)
 </desc>
 </e>
-<e google="FEE45" id="E45" img_from="kddi" kddi="EB89" name="JAVA" text_fallback="[Java]">
+<e glyphRefID="667" google="FEE45" id="E45" img_from="kddi" kddi="EB89" name="EMOJI COMPATIBILITY SYMBOL-42" text_fallback="[Java]">
 <desc>
-JAVA (TM)
+Original name: JAVA; JAVA (TM)
 </desc>
 </e>
-<e google="FEE46" id="E46" img_from="kddi" kddi="EB8A" name="BREW" text_fallback="[BREW]">
+<e glyphRefID="668" google="FEE46" id="E46" img_from="kddi" kddi="EB8A" name="EMOJI COMPATIBILITY SYMBOL-43" text_fallback="[BREW]">
 <desc>
-BREW (R)
+Original name: BREW; BREW (R)
 </desc>
 </e>
-<e google="FEE47" id="E47" img_from="kddi" kddi="EB8B" name="EZ RING MUSIC" text_fallback="[EZ着うた]"/>
-<e google="FEE48" id="E48" img_from="kddi" kddi="EB8C" name="EZ NAVI" text_fallback="[EZナビ]"/>
-<e google="FEE49" id="E49" img_from="kddi" kddi="EB8D" name="WIN" text_fallback="[WIN]"/>
-<e google="FEE4A" id="E4A" img_from="kddi" kddi="EB8E" name="PREMIUM SIGN" text_fallback="[プレミアム]"/>
-<e google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="OPENWAVE" text_fallback="[オープンウェブ]">
+<e glyphRefID="669" google="FEE47" id="E47" img_from="kddi" kddi="EB8B" name="EMOJI COMPATIBILITY SYMBOL-44" text_fallback="[EZ着うた]">
+<desc>Original name: EZ RING MUSIC</desc>
+</e>
+<e glyphRefID="670" google="FEE48" id="E48" img_from="kddi" kddi="EB8C" name="EMOJI COMPATIBILITY SYMBOL-45" text_fallback="[EZナビ]">
+<desc>Original name: EZ NAVI</desc>
+</e>
+<e glyphRefID="671" google="FEE49" id="E49" img_from="kddi" kddi="EB8D" name="EMOJI COMPATIBILITY SYMBOL-46" text_fallback="[WIN]">
+<desc>Original name: WIN</desc>
+</e>
+<e glyphRefID="672" google="FEE4A" id="E4A" img_from="kddi" kddi="EB8E" name="EMOJI COMPATIBILITY SYMBOL-47" text_fallback="[プレミアム]">
+<desc>Original name: PREMIUM SIGN</desc>
+</e>
+<e glyphRefID="673" google="FEB89" id="B89" img_from="kddi" kddi="EAFB" name="EMOJI COMPATIBILITY SYMBOL-48" text_fallback="[オープンウェブ]">
 <desc>
-Openwave
+Original name: OPENWAVE; Openwave
 </desc>
 </e>
-<e google="FE83C" id="83C" img_from="kddi" kddi="E586" name="PDC" text_fallback="[PDC]">
+<e glyphRefID="674" google="FE83C" id="83C" img_from="kddi" kddi="E586" name="EMOJI COMPATIBILITY SYMBOL-49" text_fallback="[PDC]">
 <desc>
-Personal Digital Cellular Symbol/Logo?
+Original name: PDC; Personal Digital Cellular Symbol/Logo?
 </desc>
 </e>
 </subcategory>
 <subcategory name="SoftBank specific">
-<e google="FEE70" id="E70" name="J-SKY1" softbank="E538" text_repr="J-Sky1"/>
-<e google="FEE71" id="E71" name="J-SKY2" softbank="E539" text_repr="J-Sky2"/>
-<e google="FEE72" id="E72" name="VODAFONE1" softbank="E53A" text_repr="vodafone1"/>
-<e google="FEE73" id="E73" name="VODAFONE2" softbank="E53B" text_repr="vodafone2"/>
-<e google="FEE74" id="E74" name="VODAFONE3" softbank="E53C" text_fallback="[v" text_repr="vodafone3"/>
-<e google="FEE75" id="E75" name="VODAFONE4" softbank="E53D" text_fallback="oda" text_repr="vodafone4"/>
-<e google="FEE76" id="E76" name="VODAFONE5" softbank="E53E" text_fallback="fone]" text_repr="vodafone5"/>
-<e google="FEE77" id="E77" name="J-PHONE SHOP" softbank="E254" text_repr="J-PHONE SHOP"/>
-<e google="FEE78" id="E78" name="SKY WEB" softbank="E255" text_repr="SKY WEB"/>
-<e google="FEE79" id="E79" name="SKY WALKER" softbank="E256" text_repr="SKY WALKER"/>
-<e google="FEE7A" id="E7A" name="SKY MELODY" softbank="E257" text_repr="SKY MELODY"/>
-<e google="FEE7B" id="E7B" name="J-PHONE 1" softbank="E258" text_repr="J-PHONE 1"/>
-<e google="FEE7C" id="E7C" name="J-PHONE 2" softbank="E259" text_repr="J-PHONE 2"/>
-<e google="FEE7D" id="E7D" name="J-PHONE 3" softbank="E25A" text_repr="J-PHONE 3"/>
+<e glyphRefID="675" google="FEE70" id="E70" name="EMOJI COMPATIBILITY SYMBOL-50" softbank="E538" text_repr="J-Sky1">
+<desc>Original name: J-SKY1</desc>
+</e>
+<e glyphRefID="676" google="FEE71" id="E71" name="EMOJI COMPATIBILITY SYMBOL-51" softbank="E539" text_repr="J-Sky2">
+<desc>Original name: J-SKY2</desc>
+</e>
+<e glyphRefID="677" google="FEE72" id="E72" name="EMOJI COMPATIBILITY SYMBOL-52" softbank="E53A" text_repr="vodafone1">
+<desc>Original name: VODAFONE1</desc>
+</e>
+<e glyphRefID="678" google="FEE73" id="E73" name="EMOJI COMPATIBILITY SYMBOL-53" softbank="E53B" text_repr="vodafone2">
+<desc>Original name: VODAFONE2</desc>
+</e>
+<e glyphRefID="679" google="FEE74" id="E74" name="EMOJI COMPATIBILITY SYMBOL-54" softbank="E53C" text_fallback="[v" text_repr="vodafone3">
+<desc>Original name: VODAFONE3</desc>
+</e>
+<e glyphRefID="680" google="FEE75" id="E75" name="EMOJI COMPATIBILITY SYMBOL-55" softbank="E53D" text_fallback="oda" text_repr="vodafone4">
+<desc>Original name: VODAFONE4</desc>
+</e>
+<e glyphRefID="681" google="FEE76" id="E76" name="EMOJI COMPATIBILITY SYMBOL-56" softbank="E53E" text_fallback="fone]" text_repr="vodafone5">
+<desc>Original name: VODAFONE5</desc>
+</e>
+<e glyphRefID="682" google="FEE77" id="E77" name="EMOJI COMPATIBILITY SYMBOL-57" softbank="E254" text_repr="J-PHONE SHOP">
+<desc>Original name: J-PHONE SHOP</desc>
+</e>
+<e glyphRefID="683" google="FEE78" id="E78" name="EMOJI COMPATIBILITY SYMBOL-58" softbank="E255" text_repr="SKY WEB">
+<desc>Original name: SKY WEB</desc>
+</e>
+<e glyphRefID="684" google="FEE79" id="E79" name="EMOJI COMPATIBILITY SYMBOL-59" softbank="E256" text_repr="SKY WALKER">
+<desc>Original name: SKY WALKER</desc>
+</e>
+<e glyphRefID="685" google="FEE7A" id="E7A" name="EMOJI COMPATIBILITY SYMBOL-60" softbank="E257" text_repr="SKY MELODY">
+<desc>Original name: SKY MELODY</desc>
+</e>
+<e glyphRefID="686" google="FEE7B" id="E7B" name="EMOJI COMPATIBILITY SYMBOL-61" softbank="E258" text_repr="J-PHONE 1">
+<desc>Original name: J-PHONE 1</desc>
+</e>
+<e glyphRefID="687" google="FEE7C" id="E7C" name="EMOJI COMPATIBILITY SYMBOL-62" softbank="E259" text_repr="J-PHONE 2">
+<desc>Original name: J-PHONE 2</desc>
+</e>
+<e glyphRefID="688" google="FEE7D" id="E7D" name="EMOJI COMPATIBILITY SYMBOL-63" softbank="E25A" text_repr="J-PHONE 3">
+<desc>Original name: J-PHONE 3</desc>
+</e>
 </subcategory>
-<subcategory name="Google specific">
+<subcategory name="Google specific" in_proposal="no">
 <e google="FEEA0" id="EA0" name="GOOGLE" text_fallback="[Google]" text_repr="Google">
 <desc>
 Google logo

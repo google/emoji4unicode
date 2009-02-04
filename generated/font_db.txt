@@ -229,6 +229,7 @@
 232	E4C2	4	Artifacts	Buildings / Common Places	IZAKAYA LANTERN	Japanese izakaya restaurant for drinking, characteristic red lantern	
 233	E4C3	4	Artifacts	Landmarks / Famous Places	MOUNT FUJI		
 234	E4C4	4	Artifacts	Landmarks / Famous Places	TOKYO TOWER		
+625	E4C5	4	Artifacts	Landmarks / Famous Places	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	
 235	E4C6	4	Artifacts	Landmarks / Famous Places	STATUE OF LIBERTY		
 236	E4C7	4	Artifacts	Landmarks / Famous Places	SKETCH OF JAPAN		
 237	E4C8	4	Artifacts	Landmarks / Famous Places	MOYAI	Japanese stone statue like Moai on Eastern Islands, famous one in Shibuya, Tokyo	
@@ -455,9 +456,9 @@
 458	E828	5	Activities/Work/Entertainment	Romance	BOUQUET		
 459	E829	5	Activities/Work/Entertainment	Romance	COUPLE WITH HEART		
 460	E82A	5	Activities/Work/Entertainment	Romance	WEDDING	wedding chapel	
-461	E82B	5	Activities/Work/Entertainment	Phone Specific	FREE DIAL	Two loops. Occurs widely in print in Japan.	**Symbol no longer proposed for new encoding**
+461	E82B	5	Activities/Work/Entertainment	Phone Specific	EMOJI COMPATIBILITY SYMBOL-65	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
 462	E82C	5	Activities/Work/Entertainment	Phone Specific	HASH KEY	pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)	**Symbol no longer proposed for new encoding**
-463	E82D	5	Activities/Work/Entertainment	Phone Specific	MOBILE Q	Mobile Q service	**Symbol no longer proposed for new encoding**
+463	E82D	5	Activities/Work/Entertainment	Phone Specific	EMOJI COMPATIBILITY SYMBOL-66	Original name: MOBILE Q. Mobile Q service	
 467	E83B	5	Activities/Work/Entertainment	Phone Specific	KEYCAP TEN		Should look like digits 10 enclosed by a keycap like  ⃣ U+20E3 COMBINING ENCLOSING KEYCAP.
 464	E838	5	Activities/Work/Entertainment	Phone Specific	ANTENNA MARK	Cellular reception (good reception)	
 465	E839	5	Activities/Work/Entertainment	Phone Specific	VIBRATION MODE	manner mode (in Japan)	
@@ -619,3 +620,66 @@
 618	EB9F	7	Abstract Concepts	Hand Signals	OK HAND SIGN	OK sign	
 619	EBA0	7	Abstract Concepts	Hand Signals	THUMBS DOWN SIGN	Thumbs down	
 620	EBA1	7	Abstract Concepts	Hand Signals	OPEN HANDS	Ohhaa! Good morning gesture. Open hands with the money sign	
+626	EE10	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-1	Original name: I-MODE	
+627	EE11	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-2	Original name: I-MODE WITH FRAME	
+628	EE12	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-3	Original name: PROVIDED BY DOCOMO	
+629	EE13	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-4	Original name: DOCOMO POINT	
+630	EE14	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-5	Original name: I-APPLI	
+631	EE15	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-6	Original name: I-APPLI WITH BORDER	
+632	EE16	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-7	Original name: PIAS PI	
+633	EE17	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-8	Original name: PIAS A	
+634	EE18	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-9	Original name: INVERSE TICKET	
+635	EE19	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-10	Original name: KATAKANA ABBREVIATION FOR TICKET	
+636	EE1A	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-11	Original name: RESERVE BY PHONE	
+637	EE1B	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-12	Original name: P CODE	
+638	EE1C	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-13	Original name: MOVIES 2; movie projector, video camera	
+639	EE1D	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-14	Original name: PIAS PI INVERSE	
+640	EE1E	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-15	Original name: PIAS PI CIRCLE	
+641	EE1F	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-16	Original name: PIAS PI SQUARE	
+642	EE20	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-17	Original name: CHECK	
+643	EE21	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-18	Original name: F	
+644	EE22	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-19	Original name: D	
+645	EE23	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-20	Original name: S	
+646	EE24	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-21	Original name: C	
+647	EE25	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-22	Original name: R	
+648	EE26	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-23	Original name: BLACK AND WHITE SQUARE	
+649	EE27	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-24	Original name: BLACK SQUARE 3	
+650	EE28	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-25	Original name: DOWNWARD TRIANGLE	
+651	EE29	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-26	Original name: FOUR DAGGERS	
+652	EE2A	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-27	Original name: THREE DAGGERS	
+653	EE2B	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-28	Original name: TWO DAGGERS	
+654	EE2C	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-29	Original name: SINGLE DAGGER	
+655	EE2D	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-30	Original name: I; "I" indicates "inexpensive"	
+656	EE2E	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-31	Original name: M; "M" indicates "moderate price"	
+657	EE2F	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-32	Original name: E; "E" indicates "expensive"	
+658	EE30	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-33	Original name: VE; "VE" indicates "very expensive"	
+659	EE31	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-34	Original name: SPHERE	
+660	EE32	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-35	Original name: CREDIT CARDS NOT ACCEPTED	
+661	EE33	8	Business logos/symbols	DoCoMo specific	EMOJI COMPATIBILITY SYMBOL-36	Original name: CHECKBOX	
+662	EE40	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-37	Original name: EZ WEB	
+663	EE41	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-38	Original name: EZ PLUS	
+664	EE42	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-39	Original name: EZ NAVIGATION	
+665	EE43	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-40	Original name: EZ MOVIE	
+666	EE44	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-41	Original name: CMAIL; Cmail (Envelope with "C")	
+667	EE45	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-42	Original name: JAVA; JAVA (TM)	
+668	EE46	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-43	Original name: BREW; BREW (R)	
+669	EE47	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-44	Original name: EZ RING MUSIC	
+670	EE48	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-45	Original name: EZ NAVI	
+671	EE49	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-46	Original name: WIN	
+672	EE4A	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-47	Original name: PREMIUM SIGN	
+673	EB89	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-48	Original name: OPENWAVE; Openwave	
+674	E83C	8	Business logos/symbols	KDDI specific	EMOJI COMPATIBILITY SYMBOL-49	Original name: PDC; Personal Digital Cellular Symbol/Logo?	
+675	EE70	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-50	Original name: J-SKY1	
+676	EE71	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-51	Original name: J-SKY2	
+677	EE72	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-52	Original name: VODAFONE1	
+678	EE73	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-53	Original name: VODAFONE2	
+679	EE74	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-54	Original name: VODAFONE3	
+680	EE75	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-55	Original name: VODAFONE4	
+681	EE76	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-56	Original name: VODAFONE5	
+682	EE77	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-57	Original name: J-PHONE SHOP	
+683	EE78	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-58	Original name: SKY WEB	
+684	EE79	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-59	Original name: SKY WALKER	
+685	EE7A	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-60	Original name: SKY MELODY	
+686	EE7B	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-61	Original name: J-PHONE 1	
+687	EE7C	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-62	Original name: J-PHONE 2	
+688	EE7D	8	Business logos/symbols	SoftBank specific	EMOJI COMPATIBILITY SYMBOL-63	Original name: J-PHONE 3	
