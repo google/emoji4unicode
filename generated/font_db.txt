@@ -386,7 +386,7 @@
 388	E7DE	5	Activities/Work/Entertainment	Sports	SWIMMER	swimming	
 389	E7DF	5	Activities/Work/Entertainment	Transportation	TRAIN		
 390	E7E0	5	Activities/Work/Entertainment	Transportation	SUBWAY	(DoCoMo's is an "M" for metro)	
-391	E7E1	5	Activities/Work/Entertainment	Transportation	CIRCLED LATIN CAPITAL LETTER M	Tentatively disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
+391	E7E1	5	Activities/Work/Entertainment	Transportation	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Transportation	HIGH-SPEED TRAIN		
 393	E7E3	5	Activities/Work/Entertainment	Transportation	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
 394	E7E4	5	Activities/Work/Entertainment	Transportation	CAR	sedan	
@@ -433,13 +433,13 @@
 435	E811	5	Activities/Work/Entertainment	Games	FLOWER PLAYING CARDS	flower cards (花札)	
 436	E812	5	Activities/Work/Entertainment	Games	JOKER		
 437	E813	5	Activities/Work/Entertainment	Music	MUSICAL NOTE	music, being in good mood. disunified from U+266A due to source separation rule (Shift_JIS).	
-438	E814	5	Activities/Work/Entertainment	Music	MULTIPLE MUSICAL NOTES	dancing notes, mood, melody. (tentatively disunified from ♫ U+266B)	
+438	E814	5	Activities/Work/Entertainment	Music	MULTIPLE MUSICAL NOTES	dancing notes, mood, melody. (disunified from ♫ U+266B)	
 439	E815	5	Activities/Work/Entertainment	Music	SAXOPHONE		
 440	E816	5	Activities/Work/Entertainment	Music	GUITAR		
 441	E817	5	Activities/Work/Entertainment	Music	MUSICAL KEYBOARD		
 442	E818	5	Activities/Work/Entertainment	Music	TRUMPET		
 443	E819	5	Activities/Work/Entertainment	Music	VIOLIN		
-444	E81A	5	Activities/Work/Entertainment	Music	MUSICAL SCORE	tentatively disunified from U+1D11E	
+444	E81A	5	Activities/Work/Entertainment	Music	MUSICAL SCORE	disunified from U+1D11E	
 445	E81B	5	Activities/Work/Entertainment	Music	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
 446	E81C	5	Activities/Work/Entertainment	Media	TV		
 447	E81D	5	Activities/Work/Entertainment	Media	OPTICAL DISK		
@@ -538,7 +538,7 @@
 536	EB33	7	Abstract Concepts	Other Signs	MENS SYMBOL	men's restroom	
 537	EB34	7	Abstract Concepts	Other Signs	WOMENS SYMBOL	woman's restroom symbol	
 538	EB35	7	Abstract Concepts	Other Signs	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
-539	EB45	7	Abstract Concepts	Other Signs	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from ✕ U+2715	
+539	EB45	7	Abstract Concepts	Other Signs	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. disunified from ✕ U+2715	
 540	EB46	7	Abstract Concepts	Other Signs	NEGATIVE CROSS MARK	Another X (orange background)	
 541	EB48	7	Abstract Concepts	Other Signs	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
 542	EB4A	7	Abstract Concepts	Other Signs	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
@@ -568,7 +568,7 @@
 566	EB50	7	Abstract Concepts	Enclosed Ideographs and Kana	CIRCLED IDEOGRAPH ACCEPT	Han character 可; accepted, acceptable	
 567	EB51	7	Abstract Concepts	Arithmetic Operators	HEAVY PLUS SIGN	Not unified with CIRCLED PLUS	
 568	EB52	7	Abstract Concepts	Arithmetic Operators	HEAVY MINUS SIGN	Not unified with CIRCLED MINUS	
-569	EB54	7	Abstract Concepts	Arithmetic Operators	HEAVY DIVISION SIGN	tentatively disunified from ÷ U+00F7	
+569	EB54	7	Abstract Concepts	Arithmetic Operators	HEAVY DIVISION SIGN	disunified from ÷ U+00F7	
 570	EB55	7	Abstract Concepts	Comic-Style Symbols	DIAMOND SHAPE WITH A DOT INSIDE	Cute (pink diamond shaped thing)	
 571	EB56	7	Abstract Concepts	Comic-Style Symbols	ELECTRIC LIGHT BULB	Idea (light bulb)	
 572	EB57	7	Abstract Concepts	Comic-Style Symbols	ANGER SIGN	Angry (comic book style symbol where a punch lands)	

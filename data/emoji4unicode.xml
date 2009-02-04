@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Main authors: Darick Tong, Kat Momoi (revisions), Satoru Takabayashi (revisions)
-     Contributors: Markus Scherer, Mark Davis, Yasuo Kida
+     Contributors: Markus Scherer, Mark Davis, Yasuo Kida, Peter Edberg
 
 This data file contains suggested names for Emoji characters and notes.
 Both of them are the work of the people listed above. -->
@@ -1139,7 +1139,7 @@ English (ABC)
 <subcategory name="Office">
 <e docomo="E6AE" google="FE536" id="536" kddi="EB03" name="BLACK NIB" text_fallback="[ペン]" unicode="2712">
 <desc>
-editing, Docomo has WHITE NIB. Tentatively unified with BLACK NIB
+editing, Docomo has WHITE NIB.
 </desc>
 </e>
 <e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="SEAT" softbank="E11F" text_fallback="[いす]" unicode="+">
@@ -1286,7 +1286,7 @@ swimming
 </e>
 <e docomo="E65C" glyphRefID="391" google="FE7E1" id="7E1" img_from="docomo" kddi="&gt;E5BC" name="CIRCLED LATIN CAPITAL LETTER M" softbank="&gt;E434" unicode="24C2">
 <desc>
-Tentatively disunified from SUBWAY symbols from KDDI and Softbank.
+Disunified from SUBWAY symbols from KDDI and Softbank.
 Was originally proposed as a new "METRO SIGN" symbol but then
 unified with &#x24C2; U+24C2 CIRCLED LATIN CAPITAL LETTER M because
 several variants of a stylized "M" are found for different Metro systems, including a circled M.
@@ -1453,7 +1453,7 @@ music, being in good mood. disunified from U+266A due to source separation rule 
 </e>
 <e docomo="E6FF" glyphRefID="438" google="FE814" id="814" img_from="docomo" kddi="E505" name="MULTIPLE MUSICAL NOTES" softbank="E326">
 <desc>
-dancing notes, mood, melody. (tentatively disunified from &#x266B; U+266B)
+dancing notes, mood, melody. (disunified from &#x266B; U+266B)
 </desc>
 </e>
 <e glyphRefID="439" google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040"/>
@@ -1463,7 +1463,7 @@ dancing notes, mood, melody. (tentatively disunified from &#x266B; U+266B)
 <e glyphRefID="443" google="FE819" id="819" img_from="kddi" kddi="E507" name="VIOLIN" text_fallback="[バイオリン]"/>
 <e docomo="&gt;E6FF" glyphRefID="444" google="FE81A" id="81A" img_from="kddi" kddi="EACC" name="MUSICAL SCORE" softbank="&gt;E326">
 <desc>
-tentatively disunified from U+1D11E
+disunified from U+1D11E
 </desc>
 </e>
 <e glyphRefID="445" google="FE81B" id="81B" img_from="softbank" name="PART ALTERNATION MARK" softbank="E12C" text_fallback="[グラフ]" unicode="303D">
@@ -1741,7 +1741,7 @@ From the left curving upward (&quot;Good&quot;)
 </e>
 <e docomo="E700" google="FEAF5" id="AF5" kddi="EB2E" name="ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS" softbank="&gt;E238" unicode="2935">
 <desc>
-tentatively disunified from &#x21B7; U+21B7. From the left curving downward (&quot;Bad&quot;)
+disunified from &#x21B7; U+21B7. From the left curving downward (&quot;Bad&quot;)
 </desc>
 </e>
 <e docomo="E73C" google="FEAF6" id="AF6" kddi="EB7A" name="LEFT RIGHT ARROW" text_fallback="⇔" unicode="2194"/>
@@ -1974,7 +1974,7 @@ good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRC
 </e>
 <e glyphRefID="539" google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
 <desc>
-bad; NO GOOD, not approved; X in tic tac toe. Tentatively disunified from &#x2715; U+2715
+bad; NO GOOD, not approved; X in tic tac toe. disunified from &#x2715; U+2715
 </desc>
 <ann>* Forms a pair with HEAVY LARGE CIRCLE</ann>
 </e>
@@ -2219,7 +2219,7 @@ Unified with U+2716 in the Dingbats block
 </e>
 <e glyphRefID="569" google="FEB54" id="B54" img_from="kddi" kddi="E554" name="HEAVY DIVISION SIGN" text_fallback="[÷]">
 <desc>
-tentatively disunified from &#x00F7; U+00F7
+disunified from &#x00F7; U+00F7
 </desc>
 </e>
 </subcategory>
