@@ -84,7 +84,7 @@ Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous
 </e>
 <e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
 <e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
-<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024" unicode="+23E9"/>
+<e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024"/>
 <e docomo="&gt;E6BA" glyphRefID="26" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWO OCLOCK" softbank="E025"/>
 <e docomo="&gt;E6BA" glyphRefID="27" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE THREE OCLOCK" softbank="E026"/>
 <e docomo="&gt;E6BA" glyphRefID="28" google="FE021" id="021" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE FOUR OCLOCK" softbank="E027"/>
@@ -98,7 +98,7 @@ Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous
 </e>
 <e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ELEVEN OCLOCK" softbank="E02E"/>
 <e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWELVE OCLOCK" softbank="E02F"/>
-<e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="ALARM CLOCK" softbank="&gt;E02D">
+<e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="ALARM CLOCK" softbank="&gt;E02D" unicode="+23E9">
 <desc>
 a general clock symbol
 </desc>
@@ -120,14 +120,14 @@ Make the glyph look like an alarm clock.
 <e docomo="E64F" google="FE034" id="034" kddi="E498" name="CAPRICORN" softbank="E248" unicode="2651"/>
 <e docomo="E650" google="FE035" id="035" kddi="E499" name="AQUARIUS" softbank="E249" unicode="2652"/>
 <e docomo="E651" google="FE036" id="036" kddi="E49A" name="PISCES" softbank="E24A" unicode="2653"/>
-<e glyphRefID="38" google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCHUS" softbank="E24B" text_fallback="[蛇使座]" unicode="+2B61">
+<e glyphRefID="38" google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCHUS" softbank="E24B" text_fallback="[蛇使座]" unicode="+">
 <desc>
 letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)
 </desc>
 </e>
 </subcategory>
 <subcategory name="Places in Nature">
-<e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E" unicode="+"/>
+<e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E"/>
 <e glyphRefID="40" google="FE039" id="039" img_from="kddi" kddi="E5B3" name="EARTH GLOBE" text_fallback="[地球]"/>
 <e glyphRefID="41" google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]"/>
 <e docomo="&gt;E6B3" glyphRefID="42" google="FE03B" id="03B" img_from="kddi" kddi="EB5F" name="MILKY WAY" softbank="&gt;E44B"/>
@@ -1512,7 +1512,7 @@ wedding chapel
 </e>
 </subcategory>
 <subcategory name="Phone Specific">
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="no" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23F6">
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="no" name="FREE DIAL" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+23EE">
 <desc>
 Two loops. Occurs widely in print in Japan.
 </desc>
@@ -1776,7 +1776,7 @@ Play
 Reverse
 </desc>
 </e>
-<e glyphRefID="508" google="FEAFE" id="AFE" img_from="kddi" kddi="E530" name="BLACK RIGHT-POINTING DOUBLE TRIANGLE" softbank="E23C" text_fallback="[&gt;&gt;]" unicode="+2B59">
+<e glyphRefID="508" google="FEAFE" id="AFE" img_from="kddi" kddi="E530" name="BLACK RIGHT-POINTING DOUBLE TRIANGLE" softbank="E23C" text_fallback="[&gt;&gt;]" unicode="+23EA">
 <desc>
 Fast forward
 </desc>
@@ -1831,7 +1831,7 @@ a wavy line, used as a wavy length mark
 a line with a loop; new compatibility character, see e-B07=U+3030
 </desc>
 </e>
-<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK ORNAMENT" softbank="E020" text_fallback="[？]" unicode="+2753"/>
+<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK ORNAMENT" softbank="E020" text_fallback="[？]" unicode="+"/>
 <e glyphRefID="516" google="FEB0A" id="B0A" img_from="softbank" kddi="&gt;E483" name="WHITE QUESTION MARK ORNAMENT" softbank="E336" text_fallback="[？]">
 <desc>
 moving question mark
