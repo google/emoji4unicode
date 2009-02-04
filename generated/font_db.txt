@@ -232,7 +232,7 @@
 625	E4C5	4	Artifacts	Landmarks / Famous Places	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	
 235	E4C6	4	Artifacts	Landmarks / Famous Places	STATUE OF LIBERTY		
 236	E4C7	4	Artifacts	Landmarks / Famous Places	SKETCH OF JAPAN		
-237	E4C8	4	Artifacts	Landmarks / Famous Places	MOYAI	Japanese stone statue like Moai on Eastern Islands, famous one in Shibuya, Tokyo	
+237	E4C8	4	Artifacts	Landmarks / Famous Places	MOYAI	Japanese stone statue like Moai on Easter Island, famous one in Shibuya, Tokyo	
 238	E4C9	4	Artifacts	Tools	WRENCH		
 239	E4CA	4	Artifacts	Tools	HAMMER	mallet	
 240	E4CB	4	Artifacts	Tools	NUT AND BOLT		
