@@ -19,3 +19,4 @@ mkdir -p ../generated
 ./gen_font_data.py
 ./gen_html.sh
 ./gen_sources_file.py
+./gen_names_list.py
