@@ -63,11 +63,6 @@ Not unified with &#x263D; U+263D or &#x263E; U+263E. (Japanese carriers don't pa
 (KDDI's with face)
 </desc>
 </e>
-<e glyphRefID="20" google="FE017" id="017" img_from="kddi" kddi="EAEF" name="MOON VIEWING CEREMONY" softbank="E446" text_fallback="[お月見]">
-<desc>
-Moon viewing (お月見)
-</desc>
-</e>
 </subcategory>
 <subcategory name="Time">
 <e docomo="E6B7" glyphRefID="21" google="FE018" id="018" img_from="docomo" name="SOON WITH RIGHT ARROW ABOVE" text_fallback="[SOON]">
@@ -1048,6 +1043,11 @@ Ornamental bag or decorative ball that opens up. Sometimes used to express "Cong
 <e glyphRefID="326" google="FE521" id="521" img_from="kddi" kddi="EB3D" name="TANABATA TREE" text_fallback="[七夕]">
 <desc>
 Tanabata tree with wishing papers (七夕笹飾り)
+</desc>
+</e>
+<e glyphRefID="20" google="FE017" id="017" img_from="kddi" kddi="EAEF" name="MOON VIEWING CEREMONY" softbank="E446" text_fallback="[お月見]">
+<desc>
+Moon viewing (お月見)
 </desc>
 </e>
 </subcategory>

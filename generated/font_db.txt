@@ -14,7 +14,6 @@
 17	E014	1	Nature	Moon	CRESCENT MOON	Not unified with ☽ U+263D or ☾ U+263E. (Japanese carriers don't pay attention which quarter moon their symbols refer to.)	
 18	E015	1	Nature	Moon	FULL MOON		
 19	E016	1	Nature	Moon	HALF MOON WITH FACE	(KDDI's with face)	
-20	E017	1	Nature	Moon	MOON VIEWING CEREMONY	Moon viewing (お月見)	
 21	E018	1	Nature	Time	SOON WITH RIGHT ARROW ABOVE	soon	
 22	E019	1	Nature	Time	ON WITH DOUBLE POINTING ARROW ABOVE		
 23	E01A	1	Nature	Time	END WITH LEFT ARROW ABOVE		
@@ -321,6 +320,7 @@
 324	E51F	4	Artifacts	Celebration / Holidays	JACK O LANTERN	Halloween	
 325	E520	4	Artifacts	Celebration / Holidays	CONFETTI BALL	Ornamental bag or decorative ball that opens up. Sometimes used to express "Congratulations!"	
 326	E521	4	Artifacts	Celebration / Holidays	TANABATA TREE	Tanabata tree with wishing papers (七夕笹飾り)	
+20	E017	4	Artifacts	Celebration / Holidays	MOON VIEWING CEREMONY	Moon viewing (お月見)	
 327	E522	4	Artifacts	Communication	PAGER		
 328	E524	4	Artifacts	Communication	TELEPHONE RECEIVER		
 329	E525	4	Artifacts	Communication	MOBILE PHONE		
