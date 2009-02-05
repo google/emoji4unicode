@@ -86,6 +86,25 @@ def GetSymbols():
       for symbol in subcategory.GetSymbols():
         yield symbol
 
+def GetSymbolsInProposalSortedByUnicode():
+  """Return the symbols with in_proposal=True sorted by Unicode.
+
+  Returns:
+    A list of pairs where the first one is the list of code point integers
+    for the Unicode code point or sequence, and the second is the symbol object.
+  """
+  proposed_symbols = []
+  for symbol in GetSymbols():
+    if not symbol.in_proposal: continue
+    uni = symbol.GetUnicode()
+    if not uni: uni = symbol.GetProposedUnicode()
+    # Turn the sequence string into a list of integers.
+    code_points = uni.split("+")
+    for i in range(len(code_points)):
+      code_points[i] = int(code_points[i], 16)
+    proposed_symbols.append((code_points, symbol))
+  proposed_symbols.sort()
+  return proposed_symbols
 
 class Category(object):
   """A category of Emoji symbols.

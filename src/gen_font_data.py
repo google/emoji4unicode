@@ -145,6 +145,7 @@ def _WriteFontDB(writer):
                         category_number, category.name[3:], subcategory.name,
                         symbol.GetName(),
                         symbol.GetDescription(), design))
+  writer.close()
 
 
 def _WritePostXML(writer):
@@ -164,6 +165,7 @@ def _WritePostXML(writer):
     writer.write('  <PostScriptName glyphRefID="%d" NameString="%s" />\n' %
                   (psn[0], psn[1]))
   writer.write(POST_FOOTER)
+  writer.close()
 
 
 def _WriteCmapXML(writer):
@@ -178,6 +180,7 @@ def _WriteCmapXML(writer):
     writer.write('    <map charValue="0x%s" glyphRefID="%d"/>\n' %
                   (char_map[0], char_map[1]))
   writer.write(CMAP_FOOTER)
+  writer.close()
 
 
 def main():

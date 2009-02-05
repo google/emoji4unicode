@@ -326,15 +326,14 @@ _PROPOSED_EMOJI_TABLE_HEADER = u"""
 _PROPOSED_EMOJI_FOOTER = u"""</body></html>"""
 
 def _WriteProposedEmojiHTML(writer):
-  proposed_symbols = []
-  for symbol in emoji4unicode.GetSymbols():
-    if symbol.in_proposal and not symbol.GetUnicode():
-      proposed_symbols.append((int(symbol.GetProposedUnicode(), 16), symbol))
-  proposed_symbols.sort()
+  proposed_symbols = emoji4unicode.GetSymbolsInProposalSortedByUnicode()
+  number_symbols_new = 0
   writer.write(_PROPOSED_EMOJI_HEADER)
   prev_subcategory_name = ""
   for proposed_symbol in proposed_symbols:
     symbol = proposed_symbol[1]
+    if symbol.GetUnicode(): continue  # Filter out unified symbols.
+    number_symbols_new += 1
     subcategory_name = symbol.subcategory.name
     if prev_subcategory_name != subcategory_name:
       if prev_subcategory_name:
@@ -357,7 +356,7 @@ def _WriteProposedEmojiHTML(writer):
     writer.write("</tr>\n")
   writer.write("</table>\n")
   writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
-               len(proposed_symbols))
+               number_symbols_new)
   writer.write(_PROPOSED_EMOJI_FOOTER)
 
 
