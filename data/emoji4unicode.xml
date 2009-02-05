@@ -98,6 +98,8 @@ Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous
 </e>
 <e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ELEVEN OCLOCK" softbank="E02E"/>
 <e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWELVE OCLOCK" softbank="E02F"/>
+</subcategory>
+<subcategory name="Miscellaneous technical">
 <e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="ALARM CLOCK" softbank="&gt;E02D" unicode="+23E9">
 <desc>
 a general clock symbol
@@ -1766,6 +1768,8 @@ disunified from U+2192 due to source separation rule (Shift_JIS).
 disunified from U+2190 due to source separation rule (Shift_JIS).
 </desc>
 </e>
+</subcategory>
+<subcategory name="UI symbols">
 <e google="FEAFC" id="AFC" kddi="E52E" name="BLACK RIGHT-POINTING TRIANGLE" softbank="E23A" text_fallback="[&gt;]" unicode="25B6">
 <desc>
 Play
@@ -1919,7 +1923,7 @@ Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carrier
 <e docomo="E68F" google="FEB1C" id="B1C" kddi="E5A2" name="BLACK DIAMOND SUIT" softbank="E20D" unicode="2666"/>
 <e docomo="E690" google="FEB1D" id="B1D" kddi="E5A3" name="BLACK CLUB SUIT" softbank="E20F" unicode="2663"/>
 </subcategory>
-<subcategory name="Other Signs">
+<subcategory name="Miscellaneous">
 <e docomo="E67F" glyphRefID="531" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SIGN" softbank="E30E"/>
 <e docomo="E680" glyphRefID="532" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SIGN" softbank="E208"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>

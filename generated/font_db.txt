@@ -31,7 +31,7 @@
 34	E027	1	Nature	Time	CLOCK FACE TEN OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
 35	E028	1	Nature	Time	CLOCK FACE ELEVEN OCLOCK		
 36	E029	1	Nature	Time	CLOCK FACE TWELVE OCLOCK		
-37	E02A	1	Nature	Time	ALARM CLOCK	a general clock symbol	Make the glyph look like an alarm clock.
+37	E02A	1	Nature	Miscellaneous technical	ALARM CLOCK	a general clock symbol	Make the glyph look like an alarm clock.
 38	E037	1	Nature	Zodiacal Symbols	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
 39	E038	1	Nature	Places in Nature	WATER WAVE		
 40	E039	1	Nature	Places in Nature	EARTH GLOBE		
@@ -503,14 +503,14 @@
 505	E986	6	Foods	Drink	WINE GLASS	wine	
 506	E987	6	Foods	Drink	CLINKING BEER MUGS	cheers	
 507	E988	6	Foods	Drink	TROPICAL DRINK		
-508	EAFE	7	Abstract Concepts	Arrows	BLACK RIGHT-POINTING DOUBLE TRIANGLE	Fast forward	
-509	EAFF	7	Abstract Concepts	Arrows	BLACK LEFT-POINTING DOUBLE TRIANGLE	Fast rewind	
-513	EB03	7	Abstract Concepts	Arrows	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
-512	EB02	7	Abstract Concepts	Arrows	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
-590	EB78	7	Abstract Concepts	Arrows	UP-POINTING TRIANGLE-1	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
-591	EB79	7	Abstract Concepts	Arrows	DOWN-POINTING TRIANGLE-1	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
-511	EB01	7	Abstract Concepts	Arrows	UP-POINTING SMALL TRIANGLE-1	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
-510	EB00	7	Abstract Concepts	Arrows	DOWN-POINTING SMALL TRIANGLE-1	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
+508	EAFE	7	Abstract Concepts	UI symbols	BLACK RIGHT-POINTING DOUBLE TRIANGLE	Fast forward	
+509	EAFF	7	Abstract Concepts	UI symbols	BLACK LEFT-POINTING DOUBLE TRIANGLE	Fast rewind	
+513	EB03	7	Abstract Concepts	UI symbols	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
+512	EB02	7	Abstract Concepts	UI symbols	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
+590	EB78	7	Abstract Concepts	UI symbols	UP-POINTING TRIANGLE-1	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
+591	EB79	7	Abstract Concepts	UI symbols	DOWN-POINTING TRIANGLE-1	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
+511	EB01	7	Abstract Concepts	UI symbols	UP-POINTING SMALL TRIANGLE-1	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
+510	EB00	7	Abstract Concepts	UI symbols	DOWN-POINTING SMALL TRIANGLE-1	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
 514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
 515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK ORNAMENT		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK ORNAMENT	moving question mark	
@@ -528,21 +528,21 @@
 528	EB17	7	Abstract Concepts	Hearts	HEART WITH RIBBON	Valentine's (heart with ribbon, or candy with heart)	
 529	EB18	7	Abstract Concepts	Hearts	REVOLVING HEARTS	cute	
 530	EB19	7	Abstract Concepts	Hearts	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
-531	EB1E	7	Abstract Concepts	Other Signs	SMOKING SIGN		
-532	EB1F	7	Abstract Concepts	Other Signs	NO SMOKING SIGN		
-51	E044	7	Abstract Concepts	Other Signs	JAPANESE SYMBOL FOR BEGINNER	(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.	
-247	E4D2	7	Abstract Concepts	Other Signs	TRIDENT EMBLEM		
-533	EB22	7	Abstract Concepts	Other Signs	TRIANGULAR FLAG ON POST	Location information, a flag	
-534	EB23	7	Abstract Concepts	Other Signs	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
-535	EB26	7	Abstract Concepts	Other Signs	NO ENTRY	No entrance, no trespassing	**Symbol no longer proposed for new encoding**
-536	EB33	7	Abstract Concepts	Other Signs	MENS SYMBOL	men's restroom	
-537	EB34	7	Abstract Concepts	Other Signs	WOMENS SYMBOL	woman's restroom symbol	
-538	EB35	7	Abstract Concepts	Other Signs	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
-539	EB45	7	Abstract Concepts	Other Signs	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. disunified from ✕ U+2715	
-540	EB46	7	Abstract Concepts	Other Signs	NEGATIVE CROSS MARK	Another X (orange background)	
-541	EB48	7	Abstract Concepts	Other Signs	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
-542	EB4A	7	Abstract Concepts	Other Signs	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
-543	EB4B	7	Abstract Concepts	Other Signs	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
+531	EB1E	7	Abstract Concepts	Miscellaneous	SMOKING SIGN		
+532	EB1F	7	Abstract Concepts	Miscellaneous	NO SMOKING SIGN		
+51	E044	7	Abstract Concepts	Miscellaneous	JAPANESE SYMBOL FOR BEGINNER	(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.	
+247	E4D2	7	Abstract Concepts	Miscellaneous	TRIDENT EMBLEM		
+533	EB22	7	Abstract Concepts	Miscellaneous	TRIANGULAR FLAG ON POST	Location information, a flag	
+534	EB23	7	Abstract Concepts	Miscellaneous	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
+535	EB26	7	Abstract Concepts	Miscellaneous	NO ENTRY	No entrance, no trespassing	**Symbol no longer proposed for new encoding**
+536	EB33	7	Abstract Concepts	Miscellaneous	MENS SYMBOL	men's restroom	
+537	EB34	7	Abstract Concepts	Miscellaneous	WOMENS SYMBOL	woman's restroom symbol	
+538	EB35	7	Abstract Concepts	Miscellaneous	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
+539	EB45	7	Abstract Concepts	Miscellaneous	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. disunified from ✕ U+2715	
+540	EB46	7	Abstract Concepts	Miscellaneous	NEGATIVE CROSS MARK	Another X (orange background)	
+541	EB48	7	Abstract Concepts	Miscellaneous	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
+542	EB4A	7	Abstract Concepts	Miscellaneous	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
+543	EB4B	7	Abstract Concepts	Miscellaneous	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
 544	EB21	7	Abstract Concepts	Other Symbols with Letters and Digits	FREE SIGN	a letter sign Free of Charge	
 545	EB25	7	Abstract Concepts	Other Symbols with Letters and Digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
 546	EB27	7	Abstract Concepts	Other Symbols with Letters and Digits	OK SIGN	a stamp, seal, button for approval	

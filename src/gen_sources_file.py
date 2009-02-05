@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Generate data for the proposal font database."""
+"""Generate the Emoji sources data file."""
 
 __author__ = "Markus Scherer"
 
