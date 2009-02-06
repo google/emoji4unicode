@@ -81,7 +81,7 @@ _BLOCK_HEADINGS = {
 
 """,
   0x1F600: """
-@@\t1F600\tEmoji Compatibility Symbols\t1F67F
+@@\t1F600\tEmoji Compatibility Symbols\t1F64F
 ;; UTC: 2009-02-06
 ;; WG2: --
 ;; contact: Markus Scherer

@@ -1964,7 +1964,7 @@ Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)
 </desc>
 </e>
 </subcategory>
-<subcategory name="Other Symbols with Letters and Digits">
+<subcategory name="Other symbols with letters and digits">
 <e docomo="E6D7" glyphRefID="544" google="FEB21" id="B21" img_from="docomo" kddi="E578" name="FREE SIGN" text_fallback="[FREE]">
 <ann>= free postage</ann>
 <desc>
@@ -2366,7 +2366,7 @@ Spark
 </desc>
 </e>
 </subcategory>
-<subcategory name="UI Symbols">
+<subcategory name="UI symbols">
 <e docomo="E6D8" glyphRefID="594" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="IDENTIFICATION SIGN" softbank="E229">
 <desc>
 ID (&quot;ID&quot; stamp)

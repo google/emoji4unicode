@@ -540,16 +540,16 @@
 541	EB48	7	Abstract Concepts	Miscellaneous symbols	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
 542	EB4A	7	Abstract Concepts	Miscellaneous symbols	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
 543	EB4B	7	Abstract Concepts	Miscellaneous symbols	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
-544	EB21	7	Abstract Concepts	Other Symbols with Letters and Digits	FREE SIGN	a letter sign Free of Charge	
-545	EB25	7	Abstract Concepts	Other Symbols with Letters and Digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
-546	EB27	7	Abstract Concepts	Other Symbols with Letters and Digits	OK SIGN	a stamp, seal, button for approval	
-547	EB28	7	Abstract Concepts	Other Symbols with Letters and Digits	NO GOOD SIGN	no good, NG	
-548	EB32	7	Abstract Concepts	Other Symbols with Letters and Digits	VS SIGN		
-549	EB36	7	Abstract Concepts	Other Symbols with Letters and Digits	NEW SIGN	a stamp, seal, sign	
-550	EB37	7	Abstract Concepts	Other Symbols with Letters and Digits	UP SIGN	site renewed, updated, new information	
-551	EB38	7	Abstract Concepts	Other Symbols with Letters and Digits	COOL SIGN	cool!; hip	
-552	EB42	7	Abstract Concepts	Other Symbols with Letters and Digits	TOP WITH UPWARD SIGN		
-553	EB4F	7	Abstract Concepts	Other Symbols with Letters and Digits	SOS SIGN		
+544	EB21	7	Abstract Concepts	Other symbols with letters and digits	FREE SIGN	a letter sign Free of Charge	
+545	EB25	7	Abstract Concepts	Other symbols with letters and digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
+546	EB27	7	Abstract Concepts	Other symbols with letters and digits	OK SIGN	a stamp, seal, button for approval	
+547	EB28	7	Abstract Concepts	Other symbols with letters and digits	NO GOOD SIGN	no good, NG	
+548	EB32	7	Abstract Concepts	Other symbols with letters and digits	VS SIGN		
+549	EB36	7	Abstract Concepts	Other symbols with letters and digits	NEW SIGN	a stamp, seal, sign	
+550	EB37	7	Abstract Concepts	Other symbols with letters and digits	UP SIGN	site renewed, updated, new information	
+551	EB38	7	Abstract Concepts	Other symbols with letters and digits	COOL SIGN	cool!; hip	
+552	EB42	7	Abstract Concepts	Other symbols with letters and digits	TOP WITH UPWARD SIGN		
+553	EB4F	7	Abstract Concepts	Other symbols with letters and digits	SOS SIGN		
 554	EB24	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
 563	EB3F	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
 555	EB2E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
@@ -590,20 +590,20 @@
 624	EB76	7	Abstract Concepts	Miscellaneous symbols	SMALL DIAMOND-2	Small diamond (blue).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
 592	EB7A	7	Abstract Concepts	School grade symbols	WHITE FLOWER	❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for "brilliant!" (花丸)	
 593	EB7B	7	Abstract Concepts	School grade symbols	HUNDRED POINTS SYMBOL	100 (perfect score), e.g. school exam	
-594	EB81	7	Abstract Concepts	UI Symbols	IDENTIFICATION SIGN	ID ("ID" stamp)	
-596	EB84	7	Abstract Concepts	UI Symbols	CLEAR SIGN	Clear ("CL" stamp)	
-597	EB85	7	Abstract Concepts	UI Symbols	MAGNIFYING GLASS		
-598	EB8D	7	Abstract Concepts	UI Symbols	RIGHT-POINTING MAGNIFYING GLASS		
-599	EB86	7	Abstract Concepts	UI Symbols	LOCK	Lock (closed padlock)	
-600	EB87	7	Abstract Concepts	UI Symbols	OPEN LOCK	Lock (open padlock)	
-605	EB90	7	Abstract Concepts	UI Symbols	LOCK WITH INK PEN	(padlock with ink pen)	
-601	EB8A	7	Abstract Concepts	UI Symbols	CLOSED LOCK WITH KEY	(lock with certificate)	
-595	EB82	7	Abstract Concepts	UI Symbols	KEY	Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.	
-602	EB8C	7	Abstract Concepts	UI Symbols	RADIO BUTTON	Selected radio button	
-603	EB8E	7	Abstract Concepts	UI Symbols	LEFTWARDS ARROW WITH LETTER BACK	Back (left arrow with "BACK")	
-604	EB8F	7	Abstract Concepts	UI Symbols	BOOKMARK	Bookmark list ("お気に入り")	
-606	EB91	7	Abstract Concepts	UI Symbols	DOUBLE CLOCKWISE OPEN CIRCLE ARROWS		
-607	EB92	7	Abstract Concepts	UI Symbols	EMAIL SIGN	Email (Envelope with "E")	
+594	EB81	7	Abstract Concepts	UI symbols	IDENTIFICATION SIGN	ID ("ID" stamp)	
+596	EB84	7	Abstract Concepts	UI symbols	CLEAR SIGN	Clear ("CL" stamp)	
+597	EB85	7	Abstract Concepts	UI symbols	MAGNIFYING GLASS		
+598	EB8D	7	Abstract Concepts	UI symbols	RIGHT-POINTING MAGNIFYING GLASS		
+599	EB86	7	Abstract Concepts	UI symbols	LOCK	Lock (closed padlock)	
+600	EB87	7	Abstract Concepts	UI symbols	OPEN LOCK	Lock (open padlock)	
+605	EB90	7	Abstract Concepts	UI symbols	LOCK WITH INK PEN	(padlock with ink pen)	
+601	EB8A	7	Abstract Concepts	UI symbols	CLOSED LOCK WITH KEY	(lock with certificate)	
+595	EB82	7	Abstract Concepts	UI symbols	KEY	Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.	
+602	EB8C	7	Abstract Concepts	UI symbols	RADIO BUTTON	Selected radio button	
+603	EB8E	7	Abstract Concepts	UI symbols	LEFTWARDS ARROW WITH LETTER BACK	Back (left arrow with "BACK")	
+604	EB8F	7	Abstract Concepts	UI symbols	BOOKMARK	Bookmark list ("お気に入り")	
+606	EB91	7	Abstract Concepts	UI symbols	DOUBLE CLOCKWISE OPEN CIRCLE ARROWS		
+607	EB92	7	Abstract Concepts	UI symbols	EMAIL SIGN	Email (Envelope with "E")	
 608	EB93	7	Abstract Concepts	Miscellaneous symbols	RAISED FIST		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
 609	EB95	7	Abstract Concepts	Miscellaneous symbols	RAISED HAND		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
 610	EB96	7	Abstract Concepts	Hand signal symbols	FISTED HAND		
