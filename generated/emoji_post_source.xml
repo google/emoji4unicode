@@ -295,16 +295,16 @@
   <PostScriptName glyphRefID="263" NameString="uniE4E2.bill_with_yen_sign" />
   <PostScriptName glyphRefID="264" NameString="uniE4E3.dollar_bill" />
   <PostScriptName glyphRefID="265" NameString="uniE4E4.money_with_wings" />
-  <PostScriptName glyphRefID="266" NameString="uniE4E5.symbol_jp" />
-  <PostScriptName glyphRefID="267" NameString="uniE4E6.symbol_us" />
-  <PostScriptName glyphRefID="268" NameString="uniE4E7.symbol_fr" />
-  <PostScriptName glyphRefID="269" NameString="uniE4E8.symbol_de" />
-  <PostScriptName glyphRefID="270" NameString="uniE4E9.symbol_it" />
-  <PostScriptName glyphRefID="271" NameString="uniE4EA.symbol_gb" />
-  <PostScriptName glyphRefID="272" NameString="uniE4EB.symbol_es" />
-  <PostScriptName glyphRefID="273" NameString="uniE4EC.symbol_ru" />
-  <PostScriptName glyphRefID="274" NameString="uniE4ED.symbol_cn" />
-  <PostScriptName glyphRefID="275" NameString="uniE4EE.symbol_kr" />
+  <PostScriptName glyphRefID="266" NameString="uniE4E5.emoji_symbol_jp" />
+  <PostScriptName glyphRefID="267" NameString="uniE4E6.emoji_symbol_us" />
+  <PostScriptName glyphRefID="268" NameString="uniE4E7.emoji_symbol_fr" />
+  <PostScriptName glyphRefID="269" NameString="uniE4E8.emoji_symbol_de" />
+  <PostScriptName glyphRefID="270" NameString="uniE4E9.emoji_symbol_it" />
+  <PostScriptName glyphRefID="271" NameString="uniE4EA.emoji_symbol_gb" />
+  <PostScriptName glyphRefID="272" NameString="uniE4EB.emoji_symbol_es" />
+  <PostScriptName glyphRefID="273" NameString="uniE4EC.emoji_symbol_ru" />
+  <PostScriptName glyphRefID="274" NameString="uniE4ED.emoji_symbol_cn" />
+  <PostScriptName glyphRefID="275" NameString="uniE4EE.emoji_symbol_kr" />
   <PostScriptName glyphRefID="276" NameString="uniE4EF.camera" />
   <PostScriptName glyphRefID="277" NameString="uniE4F0.handbag" />
   <PostScriptName glyphRefID="278" NameString="uniE4F1.pouch" />

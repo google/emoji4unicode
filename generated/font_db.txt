@@ -259,16 +259,16 @@
 263	E4E2	4	Artifacts	Money	BILL WITH YEN SIGN	a check, a sign indicating "not free"	
 264	E4E3	4	Artifacts	Money	DOLLAR BILL		
 265	E4E4	4	Artifacts	Money	MONEY WITH WINGS		
-274	E4ED	4	Artifacts	Flags	SYMBOL CN	China	"CN" in dashed box, similar to U+FFFC and U+1680
-269	E4E8	4	Artifacts	Flags	SYMBOL DE	Germany	"DE" in dashed box, similar to U+FFFC and U+1680
-272	E4EB	4	Artifacts	Flags	SYMBOL ES	Spain	"ES" in dashed box, similar to U+FFFC and U+1680
-268	E4E7	4	Artifacts	Flags	SYMBOL FR	France	"FR" in dashed box, similar to U+FFFC and U+1680
-271	E4EA	4	Artifacts	Flags	SYMBOL GB	U.K.	"GB" in dashed box, similar to U+FFFC and U+1680
-270	E4E9	4	Artifacts	Flags	SYMBOL IT	Italy	"IT" in dashed box, similar to U+FFFC and U+1680
-266	E4E5	4	Artifacts	Flags	SYMBOL JP	Japan, also a national holiday (in red)	"JP" in dashed box, similar to U+FFFC and U+1680
-275	E4EE	4	Artifacts	Flags	SYMBOL KR	South Korea	"KR" in dashed box, similar to U+FFFC and U+1680
-273	E4EC	4	Artifacts	Flags	SYMBOL RU	Russia	"RU" in dashed box, similar to U+FFFC and U+1680
-267	E4E6	4	Artifacts	Flags	SYMBOL US	U.S.A.	"US" in dashed box, similar to U+FFFC and U+1680
+274	E4ED	4	Artifacts	Flags	EMOJI SYMBOL CN	China	"CN" in dashed box, similar to U+FFFC and U+1680
+269	E4E8	4	Artifacts	Flags	EMOJI SYMBOL DE	Germany	"DE" in dashed box, similar to U+FFFC and U+1680
+272	E4EB	4	Artifacts	Flags	EMOJI SYMBOL ES	Spain	"ES" in dashed box, similar to U+FFFC and U+1680
+268	E4E7	4	Artifacts	Flags	EMOJI SYMBOL FR	France	"FR" in dashed box, similar to U+FFFC and U+1680
+271	E4EA	4	Artifacts	Flags	EMOJI SYMBOL GB	U.K.	"GB" in dashed box, similar to U+FFFC and U+1680
+270	E4E9	4	Artifacts	Flags	EMOJI SYMBOL IT	Italy	"IT" in dashed box, similar to U+FFFC and U+1680
+266	E4E5	4	Artifacts	Flags	EMOJI SYMBOL JP	Japan, also a national holiday (in red)	"JP" in dashed box, similar to U+FFFC and U+1680
+275	E4EE	4	Artifacts	Flags	EMOJI SYMBOL KR	South Korea	"KR" in dashed box, similar to U+FFFC and U+1680
+273	E4EC	4	Artifacts	Flags	EMOJI SYMBOL RU	Russia	"RU" in dashed box, similar to U+FFFC and U+1680
+267	E4E6	4	Artifacts	Flags	EMOJI SYMBOL US	U.S.A.	"US" in dashed box, similar to U+FFFC and U+1680
 276	E4EF	4	Artifacts	Miscellaneous Symbols	CAMERA		
 277	E4F0	4	Artifacts	Miscellaneous Symbols	HANDBAG		
 278	E4F1	4	Artifacts	Miscellaneous Symbols	POUCH		
