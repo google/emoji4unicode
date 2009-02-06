@@ -739,12 +739,7 @@ Japanese izakaya restaurant for drinking, characteristic red lantern
 <subcategory name="Landmarks / Famous Places">
 <e docomo="E740" glyphRefID="233" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" softbank="E03B"/>
 <e glyphRefID="234" google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" softbank="E509" text_fallback="[東京タワー]"/>
-<e glyphRefID="625" google="FE4C5" id="4C5" img_from="softbank" name="EMOJI COMPATIBILITY SYMBOL-64" softbank="E50A" unicode="+1F63F">
-<desc>
-Original name: SHIBUYA; department store by Tokyu Group for young girls/women
-</desc>
-</e>
-<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D" unicode="+"/>
+<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" softbank="E51D"/>
 <e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="SKETCH OF JAPAN" text_fallback="[地図]"/>
 <e glyphRefID="237" google="FE4C8" id="4C8" img_from="kddi" kddi="EB6C" name="MOYAI" text_fallback="[モアイ]">
 <desc>
@@ -821,7 +816,7 @@ a check, a sign indicating &quot;not free&quot;
 <e docomo="&gt;E715" glyphRefID="264" google="FE4E3" id="4E3" img_from="kddi" kddi="E585" name="DOLLAR BILL" softbank="&gt;E12F"/>
 <e glyphRefID="265" google="FE4E4" id="4E4" img_from="kddi" kddi="EB5B" name="MONEY WITH WINGS" text_fallback="[飛んでいくお金]"/>
 </subcategory>
-<subcategory name="Flags">
+<subcategory name="Emoji regional indicator symbols">
 <e glyphRefID="274" google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="EMOJI SYMBOL CN" softbank="E513" text_fallback="[中国]">
 <desc>
 China
@@ -1112,17 +1107,19 @@ comic book conversation bubble
 <e glyphRefID="342" google="FE533" id="533" img_from="kddi" kddi="E592" name="OUTBOX TRAY" text_fallback="[送信BOX]"/>
 <e glyphRefID="343" google="FE534" id="534" img_from="kddi" kddi="E593" name="INBOX TRAY" text_fallback="[受信BOX]"/>
 <e docomo="&gt;E685" glyphRefID="344" google="FE535" id="535" img_from="kddi" kddi="E51F" name="PACKAGE" softbank="&gt;E112"/>
-<e glyphRefID="345" google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS SYMBOL" text_fallback="[ABCD]" unicode="+1F1A0">
+</subcategory>
+<subcategory name="UI input status symbols">
+<e glyphRefID="345" google="FEB7C" id="B7C" img_from="kddi" kddi="EAFD" name="LATIN CAPITAL LETTERS INPUT SYMBOL" text_fallback="[ABCD]" unicode="+1F541">
 <desc>
 Letters (ABCD, uppercase)
 </desc>
 </e>
-<e glyphRefID="346" google="FEB7D" id="B7D" img_from="kddi" kddi="EAFE" name="LATIN SMALL LETTERS SYMBOL" text_fallback="[abcd]">
+<e glyphRefID="346" google="FEB7D" id="B7D" img_from="kddi" kddi="EAFE" name="LATIN SMALL LETTERS INPUT SYMBOL" text_fallback="[abcd]">
 <desc>
 Letters (abcd, lowercase)
 </desc>
 </e>
-<e glyphRefID="347" google="FEB7E" id="B7E" img_from="kddi" kddi="EAFF" name="NUMBERS SYMBOL" text_fallback="[1234]">
+<e glyphRefID="347" google="FEB7E" id="B7E" img_from="kddi" kddi="EAFF" name="NUMBERS INPUT SYMBOL" text_fallback="[1234]">
 <desc>
 Numbers (1234)
 </desc>
@@ -1132,7 +1129,7 @@ Numbers (1234)
 Symbols (〒, ♪, @, %)
 </desc>
 </e>
-<e glyphRefID="349" google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="LATIN LETTERS SYMBOL" text_fallback="[ABC]">
+<e glyphRefID="349" google="FEB80" id="B80" img_from="kddi" kddi="EB55" name="LATIN LETTERS INPUT SYMBOL" text_fallback="[ABC]">
 <desc>
 English (ABC)
 </desc>
@@ -1144,7 +1141,7 @@ English (ABC)
 editing, Docomo has WHITE NIB.
 </desc>
 </e>
-<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="SEAT" softbank="E11F" text_fallback="[いす]" unicode="+">
+<e docomo="E6B2" glyphRefID="350" google="FE537" id="537" img_from="docomo" name="SEAT" softbank="E11F" text_fallback="[いす]" unicode="+1F44D">
 <design>
 the glyph should look more like SoftBank #264 
 </design>
@@ -1514,19 +1511,9 @@ wedding chapel
 </e>
 </subcategory>
 <subcategory name="Phone Specific">
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-65" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+1F640">
-<desc>
-Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.
-</desc>
-</e>
 <e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210" unicode="0023+20E3">
 <desc>
 pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)
-</desc>
-</e>
-<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="EMOJI COMPATIBILITY SYMBOL-66" text_fallback="[Q]" unicode="+1F641">
-<desc>
-Original name: MOBILE Q. Mobile Q service
 </desc>
 </e>
 <e docomo="E6E2" google="FE82E" id="82E" img_from="docomo" kddi="E522" name="KEYCAP 1" softbank="E21C" unicode="0031+20E3">
@@ -1579,7 +1566,7 @@ Unify with ASCII 9 (U+0039) + (U+20E3)
 Unify with ASCII 0 (U+0030) + (U+20E3)
 </desc>
 </e>
-<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYCAP TEN" text_fallback="[10]" unicode="+">
+<e glyphRefID="467" google="FE83B" id="83B" img_from="kddi" kddi="E52B" name="KEYCAP TEN" text_fallback="[10]">
 <design>Should look like digits 10 enclosed by a keycap like &#xA0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
 </e>
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA MARK" softbank="E20B" text_fallback="[バリ3]">
@@ -2430,7 +2417,7 @@ Spark
 </e>
 </subcategory>
 <subcategory name="Internet Specific">
-<e docomo="E6D8" glyphRefID="594" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="ID" softbank="E229">
+<e docomo="E6D8" glyphRefID="594" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="IDENTIFICATION SIGN" softbank="E229">
 <desc>
 ID (&quot;ID&quot; stamp)
 </desc>
@@ -2596,7 +2583,7 @@ Ohhaa! Good morning gesture. Open hands with the money sign
 </subcategory>
 </category>
 <category name="8. Business logos/symbols">
-<subcategory name="DoCoMo specific">
+<subcategory name="Emoji compatibility symbols">
 <e docomo="E6D1" glyphRefID="626" google="FEE10" id="E10" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-1" text_fallback="[iモード]" unicode="+1F600">
 <desc>Original name: I-MODE</desc>
 </e>
@@ -2715,8 +2702,6 @@ Original name: VE; &quot;VE&quot; indicates &quot;very expensive&quot;
 <e docomo="E6CD" glyphRefID="661" google="FEE33" id="E33" img_from="docomo" kddi="&gt;EB02" name="EMOJI COMPATIBILITY SYMBOL-36" text_fallback="[チェックボックス]">
 <desc>Original name: CHECKBOX</desc>
 </e>
-</subcategory>
-<subcategory name="KDDI specific">
 <e glyphRefID="662" google="FEE40" id="E40" img_from="kddi" kddi="E577" name="EMOJI COMPATIBILITY SYMBOL-37" text_fallback="[EZ]">
 <desc>Original name: EZ WEB</desc>
 </e>
@@ -2766,8 +2751,6 @@ Original name: OPENWAVE; Openwave
 Original name: PDC; Personal Digital Cellular Symbol/Logo?
 </desc>
 </e>
-</subcategory>
-<subcategory name="SoftBank specific">
 <e glyphRefID="675" google="FEE70" id="E70" name="EMOJI COMPATIBILITY SYMBOL-50" softbank="E538" text_repr="J-Sky1">
 <desc>Original name: J-SKY1</desc>
 </e>
@@ -2809,6 +2792,21 @@ Original name: PDC; Personal Digital Cellular Symbol/Logo?
 </e>
 <e glyphRefID="688" google="FEE7D" id="E7D" name="EMOJI COMPATIBILITY SYMBOL-63" softbank="E25A" text_repr="J-PHONE 3">
 <desc>Original name: J-PHONE 3</desc>
+</e>
+<e glyphRefID="625" google="FE4C5" id="4C5" img_from="softbank" name="EMOJI COMPATIBILITY SYMBOL-64" softbank="E50A">
+<desc>
+Original name: SHIBUYA; department store by Tokyu Group for young girls/women
+</desc>
+</e>
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-65" softbank="E211" text_fallback="[フリーダイヤル]">
+<desc>
+Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.
+</desc>
+</e>
+<e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="EMOJI COMPATIBILITY SYMBOL-66" text_fallback="[Q]">
+<desc>
+Original name: MOBILE Q. Mobile Q service
+</desc>
 </e>
 </subcategory>
 <subcategory name="Google specific" in_proposal="no">

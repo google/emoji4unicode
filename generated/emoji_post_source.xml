@@ -374,11 +374,11 @@
   <PostScriptName glyphRefID="342" NameString="uniE533.outbox_tray" />
   <PostScriptName glyphRefID="343" NameString="uniE534.inbox_tray" />
   <PostScriptName glyphRefID="344" NameString="uniE535.package" />
-  <PostScriptName glyphRefID="345" NameString="uniEB7C.latin_capital_letters_symbol" />
-  <PostScriptName glyphRefID="346" NameString="uniEB7D.latin_small_letters_symbol" />
-  <PostScriptName glyphRefID="347" NameString="uniEB7E.numbers_symbol" />
+  <PostScriptName glyphRefID="345" NameString="uniEB7C.latin_capital_letters_input_symbol" />
+  <PostScriptName glyphRefID="346" NameString="uniEB7D.latin_small_letters_input_symbol" />
+  <PostScriptName glyphRefID="347" NameString="uniEB7E.numbers_input_symbol" />
   <PostScriptName glyphRefID="348" NameString="uniEB7F.symbols_input_symbol" />
-  <PostScriptName glyphRefID="349" NameString="uniEB80.latin_letters_symbol" />
+  <PostScriptName glyphRefID="349" NameString="uniEB80.latin_letters_input_symbol" />
   <PostScriptName glyphRefID="350" NameString="uniE537.seat" />
   <PostScriptName glyphRefID="351" NameString="uniE538.computer" />
   <PostScriptName glyphRefID="352" NameString="uniE53A.paperclip" />
@@ -623,7 +623,7 @@
   <PostScriptName glyphRefID="591" NameString="uniEB79.down_pointing_triangle_1" />
   <PostScriptName glyphRefID="592" NameString="uniEB7A.white_flower" />
   <PostScriptName glyphRefID="593" NameString="uniEB7B.hundred_points_symbol" />
-  <PostScriptName glyphRefID="594" NameString="uniEB81.id" />
+  <PostScriptName glyphRefID="594" NameString="uniEB81.identification_sign" />
   <PostScriptName glyphRefID="595" NameString="uniEB82.key" />
   <PostScriptName glyphRefID="596" NameString="uniEB84.clear_sign" />
   <PostScriptName glyphRefID="597" NameString="uniEB85.magnifying_glass" />
