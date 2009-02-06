@@ -140,7 +140,7 @@ u"""
 <h1>Emoji Symbols: Background Data</h1>
 <h2>Background data for Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
-  <span style='font-size:x-large'>L2/09-027</span><br>
+  <span style='font-size:x-large'>L2/09-027R</span><br>
   Date: """ + _date + u"<br>" +
 _AUTHORS +
 u"""</p>
@@ -304,7 +304,7 @@ u"""
 <h1>Emoji Symbols Proposed for New Encoding</h1>
 <h2>For the Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
-  <span style='font-size:x-large'>L2/09-026</span><br>
+  <span style='font-size:x-large'>L2/09-026R</span><br>
   Date: """ + _date + "<br>" +
 _AUTHORS +
 u"""</p>
