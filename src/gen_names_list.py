@@ -43,7 +43,7 @@ def _WriteNamesList(writer):
       writer.write("@@\t1F600\tEmoji Compatibility Symbols\t1F67F\n")
     subcategory_name = symbol.subcategory.name
     if prev_subcategory_name != subcategory_name:
-      writer.write("@\t%s\n" % subcategory_name)
+      writer.write("@\t\t%s\n" % subcategory_name)
       prev_subcategory_name = subcategory_name
     uni = symbol.GetProposedUnicode()
     writer.write("%s\t%s\n" % (uni, symbol.GetName()))

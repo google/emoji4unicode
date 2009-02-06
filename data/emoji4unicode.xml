@@ -1768,14 +1768,10 @@ Reverse
 </desc>
 </e>
 <e glyphRefID="508" google="FEAFE" id="AFE" img_from="kddi" kddi="E530" name="BLACK RIGHT-POINTING DOUBLE TRIANGLE" softbank="E23C" text_fallback="[&gt;&gt;]" unicode="+23EA">
-<desc>
-Fast forward
-</desc>
+<ann>= fast forward</ann>
 </e>
 <e glyphRefID="509" google="FEAFF" id="AFF" img_from="kddi" kddi="E52F" name="BLACK LEFT-POINTING DOUBLE TRIANGLE" softbank="E23D" text_fallback="[&lt;&lt;]">
-<desc>
-Fast rewind
-</desc>
+<ann>= fast rewind</ann>
 </e>
 <e glyphRefID="513" google="FEB03" id="B03" img_from="kddi" kddi="E545" name="BLACK UP-POINTING DOUBLE TRIANGLE" text_fallback="▲">
 <desc>
@@ -1812,17 +1808,7 @@ Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS
 <e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK ORNAMENT" softbank="E021" unicode="2762"/>
 <e docomo="E703" google="FEB05" id="B05" kddi="EB2F" name="EXCLAMATION QUESTION MARK" text_fallback="！？" unicode="2049"/>
 <e docomo="E704" google="FEB06" id="B06" kddi="EB30" name="DOUBLE EXCLAMATION MARK" text_fallback="！！" unicode="203C"/>
-<e docomo="E709" google="FEB07" id="B07" name="WAVY DASH" unicode="3030">
-<desc>
-a wavy line, used as a wavy length mark
-</desc>
-</e>
-<e docomo="E70A" glyphRefID="514" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="LOOPED LENGTH MARK" prop="gc=Pd" text_fallback="～" unicode="+2E32">
-<desc>
-a line with a loop; new compatibility character, see e-B07=U+3030
-</desc>
-</e>
-<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK ORNAMENT" softbank="E020" text_fallback="[？]" unicode="+"/>
+<e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK ORNAMENT" softbank="E020" text_fallback="[？]"/>
 <e glyphRefID="516" google="FEB0A" id="B0A" img_from="softbank" kddi="&gt;E483" name="WHITE QUESTION MARK ORNAMENT" softbank="E336" text_fallback="[？]">
 <desc>
 moving question mark
@@ -1834,6 +1820,18 @@ moving exclamation mark
 </desc>
 <ann>x (heavy exclamation mark ornament - 2762)</ann>
 <ann>x (traffic warning - 26CE)</ann>
+</e>
+</subcategory>
+<subcategory name="Length mark">
+<e docomo="E709" google="FEB07" id="B07" name="WAVY DASH" unicode="3030">
+<desc>
+a wavy line, used as a wavy length mark
+</desc>
+</e>
+<e docomo="E70A" glyphRefID="514" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="LOOPED LENGTH MARK" prop="gc=Pd" text_fallback="～" unicode="+2E32">
+<desc>
+a line with a loop; new compatibility character, see e-B07=U+3030
+</desc>
 </e>
 </subcategory>
 <subcategory name="Hearts">
@@ -1985,6 +1983,7 @@ Check mark (blue)
 </desc>
 </e>
 <e glyphRefID="542" google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="+2705">
+<ann>x (heavy check mark - 2714)</ann>
 <desc>
 Check mark (red); not unified with &#x2713; U+2713
 </desc>
@@ -2500,25 +2499,27 @@ Email (Envelope with &quot;E&quot;)
 </desc>
 </e>
 </subcategory>
-<subcategory name="Hand Signals">
+<subcategory name="Miscellaneous">
 <e docomo="E693" glyphRefID="608" google="FEB93" id="B93" img_from="kddi" kddi="EB83" name="RAISED FIST" softbank="E010" unicode="+270A">
-<ann>* rock in Rock, Paper, Scissors game</ann>
-<ann>x (raised hand - xB95)</ann>
+<ann>= rock in Rock, Paper, Scissors game</ann>
+<ann>x (raised hand - 270B)</ann>
 <ann>x (victory hand - 270C)</ann>
 <design>Harmonize design with &#x270C; U+270C VICTORY HAND Dingbat.</design>
 </e>
 <e docomo="E695" glyphRefID="609" google="FEB95" id="B95" img_from="kddi" kddi="E5A7" name="RAISED HAND" softbank="E012">
-<ann>* paper in Rock, Paper, Scissors game</ann>
-<ann>x (raised fist - xB93)</ann>
+<ann>= paper in Rock, Paper, Scissors game</ann>
+<ann>x (raised fist - 270A)</ann>
 <ann>x (victory hand - 270C)</ann>
 <design>Harmonize design with &#x270C; U+270C VICTORY HAND Dingbat.</design>
 </e>
 <e docomo="E694" google="FEB94" id="B94" kddi="E5A6" name="VICTORY HAND" softbank="E011" unicode="270C">
-<ann>* scissors in Rock, Paper, Scissors game</ann>
+<ann>= scissors in Rock, Paper, Scissors game</ann>
 <ann>* commonly used as "Victory" sign</ann>
-<ann>x (raised fist - xB93)</ann>
-<ann>x (raised hand - xB95)</ann>
+<ann>x (raised fist - 270A)</ann>
+<ann>x (raised hand - 270B)</ann>
 </e>
+</subcategory>
+<subcategory name="Hand Signals">
 <e docomo="E6FD" glyphRefID="610" google="FEB96" id="B96" img_from="docomo" kddi="E4F3" name="FISTED HAND" softbank="E00D" unicode="+">
 <desc>
 Punch

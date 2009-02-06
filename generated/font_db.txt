@@ -500,18 +500,18 @@
 505	E986	6	Foods	Drink	WINE GLASS	wine	
 506	E987	6	Foods	Drink	CLINKING BEER MUGS	cheers	
 507	E988	6	Foods	Drink	TROPICAL DRINK		
-508	EAFE	7	Abstract Concepts	UI symbols	BLACK RIGHT-POINTING DOUBLE TRIANGLE	Fast forward	
-509	EAFF	7	Abstract Concepts	UI symbols	BLACK LEFT-POINTING DOUBLE TRIANGLE	Fast rewind	
+508	EAFE	7	Abstract Concepts	UI symbols	BLACK RIGHT-POINTING DOUBLE TRIANGLE		
+509	EAFF	7	Abstract Concepts	UI symbols	BLACK LEFT-POINTING DOUBLE TRIANGLE		
 513	EB03	7	Abstract Concepts	UI symbols	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
 512	EB02	7	Abstract Concepts	UI symbols	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
 590	EB78	7	Abstract Concepts	UI symbols	UP-POINTING TRIANGLE-1	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
 591	EB79	7	Abstract Concepts	UI symbols	DOWN-POINTING TRIANGLE-1	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
 511	EB01	7	Abstract Concepts	UI symbols	UP-POINTING SMALL TRIANGLE-1	Play arrow up. disunified from U+25B2 due to source separation rule (Shift_JIS).	
 510	EB00	7	Abstract Concepts	UI symbols	DOWN-POINTING SMALL TRIANGLE-1	Play arrow down. disunified from U+25BC due to source separation rule (Shift_JIS).	
-514	EB08	7	Abstract Concepts	Punctuation	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
 515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK ORNAMENT		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK ORNAMENT	moving question mark	
 517	EB0B	7	Abstract Concepts	Punctuation	WHITE EXCLAMATION MARK ORNAMENT	moving exclamation mark	
+514	EB08	7	Abstract Concepts	Length mark	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
 518	EB0D	7	Abstract Concepts	Hearts	BEATING HEART	pulsating heart	
 519	EB0E	7	Abstract Concepts	Hearts	BROKEN HEART	breaking or broken heart	
 520	EB0F	7	Abstract Concepts	Hearts	TWO HEARTS	two hearts	
