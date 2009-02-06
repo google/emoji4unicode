@@ -31,6 +31,7 @@ import utf
 # Flags from command-line options.
 _only_in_proposal = False
 _no_unified = False
+_no_temp_notes = False
 _no_fallbacks = False
 _no_codes = False
 _no_symbol_numbers = False
@@ -431,12 +432,13 @@ def _NameAnnotationHTML(e4u_symbol):
   prop = e4u_symbol.GetProposedProperties()
   if prop: lines.append(u"Proposed Properties: " + prop)
   for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
-  desc = e4u_symbol.GetDescription()
-  if desc: lines.append(u"<span class='desc'>Temporary Notes: " +
-                        cgi.escape(desc) + u"</span>")
-  design = e4u_symbol.GetDesign()
-  if design: lines.append(u"<span class='desc'>Design Note: " +
-                          cgi.escape(design) + u"</span>")
+  if not _no_temp_notes:
+    desc = e4u_symbol.GetDescription()
+    if desc: lines.append(u"<span class='desc'>Temporary Notes: " +
+                          cgi.escape(desc) + u"</span>")
+    design = e4u_symbol.GetDesign()
+    if design: lines.append(u"<span class='desc'>Design Note: " +
+                            cgi.escape(design) + u"</span>")
   return "<br>".join(lines)
 
 
@@ -520,13 +522,15 @@ def _WriteSingleCelledRow(writer, style, contents):
 
 
 def main():
-  global _only_in_proposal, _no_unified, _no_fallbacks
+  global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
   _proposed_by_unicode = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
     if sys.argv[i] == "--no_codes": _no_codes = True
-    if sys.argv[i] == "--proposed_by_unicode": _proposed_by_unicode = True
+    if sys.argv[i] == "--proposed_by_unicode":
+      _no_temp_notes = True
+      _proposed_by_unicode = True
     if sys.argv[i] == "--show_only_font_chars":
       _show_font_chars = True
       _show_only_font_chars = True
