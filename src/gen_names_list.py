@@ -29,6 +29,68 @@ _HEADER = """@@@\tEmoji Symbols
 @@@+\t""" + _date + """
 """
 
+_BLOCK_HEADINGS = {
+  0x23E9: """
+@@\t2300\tMiscellaneous Technical\t23FF
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer
+;; document: Nxxxx, L2/09-026
+;; font: --
+;; target: Amd7
+
+""",
+  0x2705: """
+@@\t2700\tDingbats\t27BF
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer, German NB
+;; document: Nxxxx, L2/09-021
+;; font: --
+;; target: Amd7
+
+""",
+  0x2E32: """
+@@\t2E00\tSupplemental Punctuation\t2E7F
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer
+;; document: Nxxxx, L2/09-026
+;; font: --
+;; target: Amd7
+
+""",
+  0x1F201: """
+@@\t1F200\tEnclosed Ideographic Supplement\t1F2FF
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: --
+;; target: Amd7
+
+""",
+  0x1F300: """
+@@\t1F300\tMiscellaneous Pictographic Symbols\t1F5FF
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: --
+;; target: Amd7
+
+""",
+  0x1F600: """
+@@\t1F600\tEmoji Compatibility Symbols\t1F67F
+;; UTC: 2009-02-06
+;; WG2: --
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: --
+;; target: Amd7
+
+"""}
+
 def _WriteNamesList(writer):
   writer.write(_HEADER)
   symbols = emoji4unicode.GetSymbolsInProposalSortedByUnicode()
@@ -37,10 +99,8 @@ def _WriteNamesList(writer):
     code_points = symbol[0]
     symbol = symbol[1]
     if symbol.GetUnicode(): continue
-    if code_points == [0x1F300]:
-      writer.write("@@\t1F300\tMiscellaneous Pictographic Symbols\t1F5FF\n")
-    elif code_points == [0x1F600]:
-      writer.write("@@\t1F600\tEmoji Compatibility Symbols\t1F67F\n")
+    block_heading = _BLOCK_HEADINGS.get(code_points[0])
+    if block_heading: writer.write(block_heading)
     subcategory_name = symbol.subcategory.name
     if prev_subcategory_name != subcategory_name:
       writer.write("@\t\t%s\n" % subcategory_name)
@@ -56,7 +116,7 @@ def main():
   emoji4unicode.Load()
   here = os.path.dirname(__file__)
   filename = os.path.join(here, "..", "generated", "NamesList.txt")
-  _WriteNamesList(codecs.open(filename, "w", "UTF-8"))
+  _WriteNamesList(codecs.open(filename, "w", "ISO-8859-1"))
 
 
 if __name__ == "__main__":
