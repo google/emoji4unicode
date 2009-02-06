@@ -26,7 +26,7 @@ import emoji4unicode
 _date = datetime.date.today().strftime("%Y-%m-%d")
 
 _HEADER = """# Emoji sources
-# L2/09-xxx
+# L2/09-078
 # Date: """ + _date + """
 # Author: Markus Scherer
 #
