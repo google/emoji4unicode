@@ -2021,7 +2021,7 @@ cool!; hip
 </e>
 </subcategory>
 <subcategory name="Square katakanas">
-<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="SQUARED KATAKANA KOKO" softbank="E203" text_fallback="[ｺｺ]" unicode="+1F201">
+<e glyphRefID="554" google="FEB24" id="B24" img_from="softbank" name="SQUARED KATAKANA KOKO" softbank="E203" text_fallback="[ココ]" unicode="+1F201">
 <desc>
 KATAKANA LETTERS KOKO; destination, here
 </desc>
