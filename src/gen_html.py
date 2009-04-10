@@ -23,6 +23,7 @@ __author__ = "Markus Scherer"
 import cgi
 import codecs
 import datetime
+import everson
 import sys
 import emoji4unicode
 import translit
@@ -37,8 +38,11 @@ _no_codes = False
 _no_symbol_numbers = False
 _show_font_chars = False
 _show_only_font_chars = False
+_with_everson = False
 
 _date = datetime.date.today().strftime("%Y-%b-%d")
+
+_everson_doc = "N3607"
 
 _AUTHORS = u"""Authors:<br>
 Markus Scherer, Mark Davis, Kat Momoi, Darick Tong (Google Inc.)<br>
@@ -81,6 +85,9 @@ body {
 .proposed_uni {
   color: red
 }
+.everson_uni {
+  color: magenta
+}
 .fontimg {
   height: 40;
   width: 40;
@@ -89,8 +96,15 @@ body {
   font-family: Apple Emoji;
   font-size: 36pt;
 }
+.everson_font {
+  font-family: Andreasmichael;
+  font-size: 36pt;
+}
 .status {
   font-size: 60%;
+}
+.everson_name_anno {
+  color: magenta
 }
 .name_anno {
   font-size: 80%;
@@ -140,7 +154,7 @@ u"""
 <h1>Emoji Symbols: Background Data</h1>
 <h2>Background data for Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
-  <span style='font-size:x-large'>L2/09-027R</span><br>
+  <span style='font-size:x-large'>L2/09-xxx</span><br>
   Date: """ + _date + u"<br>" +
 _AUTHORS +
 u"""</p>
@@ -304,7 +318,7 @@ u"""
 <h1>Emoji Symbols Proposed for New Encoding</h1>
 <h2>For the Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
-  <span style='font-size:x-large'>L2/09-026R</span><br>
+  <span style='font-size:x-large'>L2/09-xxx</span><br>
   Date: """ + _date + "<br>" +
 _AUTHORS +
 u"""</p>
@@ -392,6 +406,18 @@ def _RepresentationHTML(e4u_symbol):
     if proposed_uni:
       repr += (u"<br><span class='proposed_uni'>U+" +
                proposed_uni.replace("+", " U+") + u"</span>")
+      if _with_everson:
+        everson_uni = everson.GetUnicode(proposed_uni)
+        if not everson_uni:
+          sys.stderr.write("e-%s proposed U+%s missing Everson mapping\n" %
+                           (e4u_symbol.id, proposed_uni))
+        if _show_font_chars:
+          font_str = utf.UTF.CodePointString(int(everson_uni, 16))
+          repr += (u"<br>" + _everson_doc +
+                   " <span class='everson_font'>%s</span>") % font_str
+        if everson_uni != proposed_uni:
+          repr += (u"<br><span class='everson_uni'>" +
+                   _everson_doc + " U+" + everson_uni + u"</span>")
     else:
       repr += u"<br><span class='proposed_uni'>U+xxxxx</span>"
     return repr + u"<br><span class='status'>proposed</span>"
@@ -416,13 +442,23 @@ def _UnicodeHTML(uni):
   for code in uni.split("+"):
     chars += utf.UTF.CodePointString(int(code, 16))
     code_points += " U+" + code
-  return (u"<span class='unified'>" + chars + u"</span>" + u"<br>" +
-          code_points[1:])
+  return u"<span class='unified'>" + chars + u"</span><br>" + code_points[1:]
 
 
 def _NameAnnotationHTML(e4u_symbol):
   """Return HTML with the symbol name, annotations, etc."""
-  lines = [e4u_symbol.GetName()]
+  show_everson = False
+  if _with_everson and e4u_symbol.in_proposal:
+    proposed_uni = e4u_symbol.GetProposedUnicode()
+    if proposed_uni:
+      show_everson = True
+  name = e4u_symbol.GetName()
+  lines = [name]
+  if show_everson:
+    everson_name = everson.GetName(proposed_uni)
+    if everson_name != name:
+      lines.append(u"<span class='everson_name_anno'>" + _everson_doc +
+                  u" " + everson_name + "</span>")
   arib = e4u_symbol.GetARIB()
   if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():
@@ -431,7 +467,8 @@ def _NameAnnotationHTML(e4u_symbol):
                   "code point and name are preliminary.</span>")
   prop = e4u_symbol.GetProposedProperties()
   if prop: lines.append(u"Proposed Properties: " + prop)
-  for line in e4u_symbol.GetAnnotations(): lines.append(cgi.escape(line))
+  anno = e4u_symbol.GetAnnotations()
+  for line in anno: lines.append(cgi.escape(line))
   if not _no_temp_notes:
     desc = e4u_symbol.GetDescription()
     if desc: lines.append(u"<span class='desc'>Temporary Notes: " +
@@ -439,6 +476,11 @@ def _NameAnnotationHTML(e4u_symbol):
     design = e4u_symbol.GetDesign()
     if design: lines.append(u"<span class='desc'>Design Note: " +
                             cgi.escape(design) + u"</span>")
+  if show_everson:
+    for line in everson.GetAnnotations(proposed_uni):
+      if line not in anno:
+        lines.append(u"<span class='everson_name_anno'>" + _everson_doc +
+                    u" " + cgi.escape(line) + "</span>")
   return "<br>".join(lines)
 
 
@@ -524,6 +566,7 @@ def _WriteSingleCelledRow(writer, style, contents):
 def main():
   global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
+  global _with_everson
   _proposed_by_unicode = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
@@ -541,6 +584,9 @@ def main():
       _no_codes = True
       _no_symbol_numbers = True
       _show_font_chars = True
+    if sys.argv[i] == "--everson":
+      _with_everson = True
+      everson.Load()
   emoji4unicode.Load()
   writer = codecs.getwriter("UTF-8")(sys.stdout)
   if _proposed_by_unicode:

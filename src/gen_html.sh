@@ -30,3 +30,6 @@ mkdir -p ../generated
 # All information, but only with the symbols that are in the proposal.
 # Same as utc.html but uses the fonts rather than the images.
 ./gen_html.py --only_in_proposal --show_only_font_chars > ../generated/utc_pdf.html
+
+# Similar to the previous one, but with comparison to WG2 document N3607.
+./gen_html.py --only_in_proposal --show_only_font_chars --no_codes --everson > ../generated/n3607_all.html
