@@ -17,6 +17,7 @@
 """Parse and represent symbols data from Everson & Stoetzner.
 
 Attributes:
+  doc: WG2 document number string, e.g., "N3607".
   proposed_uni_to_everson: Maps UTC-proposed Unicode code points to ones
       proposed by Everson & Stoetzner.
   id_to_glyph_change: Maps Emoji symbol IDs to 1/0/-1/-2 for
@@ -31,6 +32,8 @@ import codecs
 import os.path
 import re
 
+doc = "N3607"
+
 proposed_uni_to_everson = {}
 
 id_to_glyph_change = {
@@ -44,21 +47,26 @@ id_to_glyph_change = {
     "345": 1, "346": 1, "347": 1, "348": 1, "349": 1, "34A": 1, "34B": 1,
     "34C": 1, "34D": 1, "34E": 1, "34F": 1, "350": 1,
     # sports
-    "7D8": 1, "7D9": 1, "7DA": 1, "7DC": 1, "7DE": 1,
+    "7DC": 1,
     # other symbols
-    "005": 1, "01B": 1, "038": 1, "19F": 1, "1A0": 1, "4B0": 1, "4B1": 1,
-    "4BF": 1, "4C0": 1,
-    "7E8": 1, "7EC": 1, "7EE": 1, "7EF": 1, "7F1": 1, "7F2": 1, "7F3": 1,
-    "809": 1,
+    "005": 1, "01B": 1, "038": 1,
+    "4B0": 1, "4B1": 1, "4BF": 1,
+    "7EE": 1,
     # *** neutral
-    "00D": 0, "016": 0, "1AE": 0, "1B1": 0,
+    # sports
+    "7D8": 0, "7D9": 0, "7DA": 0, "7DE": 0,
+    "7EB": 0, "7EC": 0, "7ED": 0, "7EF": 0,
+    # other symbols
+    "00D": 0, "016": 0, "190": 0, "19F": 0, "1A0": 0, "1AE": 0, "1B1": 0,
     "4B2": 0, "4B3": 0, "4B4": 0, "4B6": 0, "4B7": 0, "4B8": 0, "4B9": 0,
-    "4BA": 0, "4CA": 0, "4DD": 0, "4E3": 0, "4F2": 0,
-    "506": 0,
-    "7DF": 0, "7E0": 0, "7E4": 0, "7E6": 0,
-    "802": 0, "803": 0, "812": 0,
+    "4BA": 0, "4C0": 0, "4CA": 0,
+    "4D6": 0, "4D8": 0, "4DD": 0, "4E3": 0, "4F2": 0, "4F6": 0,
+    "506": 0, "509": 0, "550": 0,
+    "7DF": 0, "7E0": 0, "7E4": 0, "7E5": 0, "7E6": 0, "7E7": 0, "7E8": 0,
+    "7F1": 0, "7F2": 0, "7F3": 0,
+    "802": 0, "803": 0, "812": 0, "821": 0,
     "980": 0, "982": 0,
-    "B33": 0, "B34": 0,
+    "B33": 0, "B34": 0, "B5A": 0,
     "B82": 0, "B85": 0, "B86": 0, "B87": 0, "B8A": 0, "B8D": 0, "B8F": 0,
     "B90": 0
 }
@@ -87,6 +95,7 @@ def Load():
   _ParseMapping(data_path)
   _ParseNamesList(data_path)
 
+
 def GetUnicode(uni):
   """Get the Everson/Stoetzner code point.
 
@@ -97,6 +106,7 @@ def GetUnicode(uni):
     The Everson/Stoetzner code point.
   """
   return proposed_uni_to_everson.get(uni)
+
 
 def GetName(uni):
   """Get the Everson/Stoetzner character name.
@@ -110,6 +120,7 @@ def GetName(uni):
   everson_uni = proposed_uni_to_everson[uni]
   return _symbol_data[everson_uni][0]
 
+
 def GetAnnotations(uni):
   """Get the Everson/Stoetzner character annotations.
 
@@ -121,6 +132,44 @@ def GetAnnotations(uni):
   """
   everson_uni = proposed_uni_to_everson[uni]
   return _symbol_data[everson_uni][1]
+
+
+def GetGoodGlyphChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_glyph_change, lambda x: x > 0)
+
+
+def GetNeutralGlyphChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_glyph_change, lambda x: x == 0)
+
+
+def GetSomewhatBadGlyphChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_glyph_change, lambda x: x == -1)
+
+
+def GetBadGlyphChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_glyph_change, lambda x: x == -2)
+
+
+def GetGoodNameChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_name_change, lambda x: x > 0)
+
+
+def GetNeutralNameChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_name_change, lambda x: x == 0)
+
+
+def GetBadNameChanges(id_to_symbol):
+  return _FilterSymbols(id_to_symbol, id_to_name_change, lambda x: x < 0)
+
+
+def _FilterSymbols(id_to_symbol, id_to_change, filter_fn):
+  symbols = [(int(id_to_symbol[id].GetProposedUnicode(), 16), id_to_symbol[id])
+             for id in id_to_change.keys()
+             if filter_fn(id_to_change[id])]
+  symbols.sort()  # Sort by UTC-proposed Unicode code point.
+  symbols = [pair[1] for pair in symbols]  # Remove code points.
+  return symbols
+
 
 def _ParseMapping(data_path):
   global proposed_uni_to_everson
@@ -134,6 +183,7 @@ def _ParseMapping(data_path):
     if line.startswith("-"): continue  # Skip new characters.
     uni, everson_uni = line.split()
     proposed_uni_to_everson[uni] = everson_uni
+
 
 # TODO(markus): Create a reusable NamesList.txt parsing library.
 # See nameslist_to_unicodedata.py.
