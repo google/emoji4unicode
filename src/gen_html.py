@@ -39,6 +39,7 @@ _no_symbol_numbers = False
 _show_font_chars = False
 _show_only_font_chars = False
 _with_everson = False
+_eval_everson = False
 
 _date = datetime.date.today().strftime("%Y-%b-%d")
 
@@ -96,9 +97,13 @@ body {
   font-family: Apple Emoji;
   font-size: 36pt;
 }
+.everson_font_doc {
+  color: magenta
+}
 .everson_font {
   font-family: Andreasmichael;
   font-size: 36pt;
+  color: magenta
 }
 .status {
   font-size: 60%;
@@ -142,6 +147,19 @@ body {
 </style>
 """
 
+_FULL_TABLE_HEADER = u"""
+<table border='1' cellspacing='0' width='100%'>
+<tr>
+ <th>Internal ID</th>
+ <th>Symbol</th>
+ <th>Name &amp; Annotations</th>
+ <th>DoCoMo</th>
+ <th>KDDI</th>
+ <th>SoftBank</th>
+ <th>Google</th>
+</tr>
+"""
+
 _HEADER = (u"""<html>
 <title>Emoji Symbols: Background Data</title>
 <head>
@@ -166,17 +184,8 @@ u"""</p>
   each symbol row has an anchor to allow direct linking by appending
   <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
   address bar.</p>
-<table border='1' cellspacing='0' width='100%'>
-<tr>
- <th>Internal ID</th>
- <th>Symbol</th>
- <th>Name &amp; Annotations</th>
- <th>DoCoMo</th>
- <th>KDDI</th>
- <th>SoftBank</th>
- <th>Google</th>
-</tr>
-""")
+""" +
+_FULL_TABLE_HEADER)
 
 _FOOTER = u"""
 <h2 id='legend'>Chart Legend</h2>
@@ -250,47 +259,18 @@ def _WriteEmoji4UnicodeHTML(writer):
       _WriteSingleCelledRow(writer,
                             "subcategory",
                             "%s (%s)" % (subcategory.name, category.name))
+      symbols = []
       for symbol in subcategory.GetSymbols():
-        if symbol.in_proposal:
-          row_style = ""
-        elif _only_in_proposal:
+        if not symbol.in_proposal and _only_in_proposal:
           continue  # Skip this symbol.
-        else:
-          row_style = " class=not_in_proposal"
         if symbol.GetUnicode():
           if _no_unified: continue  # Skip this symbol.
           number_symbols_unified += 1
         elif symbol.in_proposal:
           number_symbols_new += 1
         number_symbols_in_chart += 1
-        e_id = "e-" + symbol.id
-        writer.write("<tr id=%s%s><td class='id'><a href=#%s>%s</a></td>" %
-                     (e_id, row_style, e_id, e_id))
-        writer.write("<td class='rep'>%s</td>" % _RepresentationHTML(symbol))
-        writer.write("<td class='name_anno'>%s</td>" % _NameAnnotationHTML(symbol))
-        for carrier in emoji4unicode.carriers:
-          code = symbol.GetCarrierUnicode(carrier)
-          if code:
-            if code.startswith(">"):
-              if _no_fallbacks:
-                writer.write("<td class='no_mapping'>-</td>")
-                continue
-              template = "<td class='fallback'>%s</td>"
-              code = code[1:]
-            else:
-              template = "<td class='round_trip'>%s</td>"
-            cell = template % _CarrierSymbolHTML(
-                carrier,
-                emoji4unicode.all_carrier_data[carrier],
-                code)
-          elif _no_fallbacks:
-            cell = "<td class='no_mapping'>-</td>"
-          else:
-            text_fallback = symbol.GetTextFallback()
-            if not text_fallback: text_fallback = u"\u3013"  # geta mark
-            cell = "<td class='text_fallback'>%s</td>" % text_fallback
-          writer.write(cell)
-        writer.write("</tr>\n")
+        symbols.append(symbol)
+      _WriteFullSymbolRowsHTML(writer, symbols)
   writer.write("</table>\n")
   writer.write("<p class='report'>Number of symbols in this chart: %d</p>\n" %
                number_symbols_in_chart)
@@ -304,6 +284,41 @@ def _WriteEmoji4UnicodeHTML(writer):
   writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
                number_symbols_new)
   writer.write(_FOOTER)
+
+def _WriteFullSymbolRowsHTML(writer, symbols):
+  for symbol in symbols:
+    if symbol.in_proposal:
+      row_style = ""
+    else:
+      row_style = " class=not_in_proposal"
+    e_id = "e-" + symbol.id
+    writer.write("<tr id=%s%s><td class='id'><a href=#%s>%s</a></td>" %
+                  (e_id, row_style, e_id, e_id))
+    writer.write("<td class='rep'>%s</td>" % _RepresentationHTML(symbol))
+    writer.write("<td class='name_anno'>%s</td>" % _NameAnnotationHTML(symbol))
+    for carrier in emoji4unicode.carriers:
+      code = symbol.GetCarrierUnicode(carrier)
+      if code:
+        if code.startswith(">"):
+          if _no_fallbacks:
+            writer.write("<td class='no_mapping'>-</td>")
+            continue
+          template = "<td class='fallback'>%s</td>"
+          code = code[1:]
+        else:
+          template = "<td class='round_trip'>%s</td>"
+        cell = template % _CarrierSymbolHTML(
+            carrier,
+            emoji4unicode.all_carrier_data[carrier],
+            code)
+      elif _no_fallbacks:
+        cell = "<td class='no_mapping'>-</td>"
+      else:
+        text_fallback = symbol.GetTextFallback()
+        if not text_fallback: text_fallback = u"\u3013"  # geta mark
+        cell = "<td class='text_fallback'>%s</td>" % text_fallback
+      writer.write(cell)
+    writer.write("</tr>\n")
 
 
 _PROPOSED_EMOJI_HEADER = (u"""<html>
@@ -375,6 +390,140 @@ def _WriteProposedEmojiHTML(writer):
   writer.write(_PROPOSED_EMOJI_FOOTER)
 
 
+_EVAL_EVERSON_HEADER = (u"""<html>
+<title>Comments on specific changes suggested by N3607</title>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+""" +
+_CSS +
+u"""
+</head>
+<body>
+<h1>Comments on specific changes suggested by N3607</h1>
+<p align='right'>
+  <span style='font-size:x-large'>N36xx</span><br>
+  <span style='font-size:x-large'>L2/09-xxx</span><br>
+  Date: """ + _date + u"""<br>
+  Authors:<br>
+  Markus Scherer, Mark Davis, Kat Momoi</p>
+<p>In the HTML version of this document,
+  each symbol row has an anchor to allow direct linking by appending
+  <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
+  address bar.</p>
+""")
+
+_EVAL_EVERSON_FOOTER = u"""
+<h2 id='legend'>Chart Legend</h2>
+<p>Changes in """ + _everson_doc + u""" compared with the US/UTC proposal
+  are prefixed with \"""" + _everson_doc + u""":\" and written in magenta.
+  Each proposed symbol is shown with two glyphs,
+  first the US/UTC (N3583) glyph,
+  second the IE/DE (""" + _everson_doc + u""") glyph.</p>
+<p>The overall chart legend is available in
+  <a href="http://www.unicode.org/L2/L2009/09026r-emoji-proposed.pdf">L2/09-026R</a>
+  Emoji Symbols Proposed for New Encoding
+  (=<a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3583.pdf">N3583</a>)
+  and in <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend</a>.</p>
+</body></html>"""
+
+def _WriteEvalEversonHTML(writer):
+  writer.write(_EVAL_EVERSON_HEADER)
+  # Glyph changes.
+  writer.write(u"""<h2>Glyph changes proposed in """ +
+_everson_doc + u"""</h2>
+<p>We have reviewed the substantive glyph changes proposed in """ +
+_everson_doc + u""" for the following characters and
+made a preliminary assessment.
+The glyph changes for other characters are more difficult to evaluate
+and are still being reviewed.</p>
+""")
+  # Good glyph changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_glyph_change,
+                           lambda x: x > 0)
+  if symbols:
+    writer.write(u"<h3>Good glyph changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Neutral glyph changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_glyph_change,
+                           lambda x: x == 0)
+  if symbols:
+    writer.write(u"<h3>Neutral glyph changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Somewhat bad glyph changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_glyph_change,
+                           lambda x: x == -1)
+  if symbols:
+    writer.write(u"<h3>Somewhat bad glyph changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Really bad glyph changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_glyph_change,
+                           lambda x: x == -2)
+  if symbols:
+    writer.write(u"<h3>Really bad glyph changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Name changes.
+  writer.write(u"""<h2>Name changes proposed in """ +
+_everson_doc + u"""</h2>
+<p>We have reviewed the name changes proposed in """ +
+_everson_doc + u""" for the following characters and
+made a preliminary assessment.
+The name changes for other characters are more difficult to evaluate
+and are still being reviewed.</p>
+""")
+  # Good name changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_name_change,
+                           lambda x: x > 0)
+  if symbols:
+    writer.write(u"<h3>Good name changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Neutral name changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_name_change,
+                           lambda x: x == 0)
+  if symbols:
+    writer.write(u"<h3>Neutral name changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Bad name changes.
+  symbols = _FilterSymbols(emoji4unicode.id_to_symbol,
+                           everson.id_to_name_change,
+                           lambda x: x < 0)
+  if symbols:
+    writer.write(u"<h3>Bad name changes</h3>\n")
+    _WriteFullSymbolTableHTML(writer, symbols)
+  # Done.
+  writer.write(_EVAL_EVERSON_FOOTER)
+
+
+def _FilterSymbols(id_to_symbol, id_to_change, filter_fn):
+  symbols = [(int(id_to_symbol[id].GetProposedUnicode(), 16), id_to_symbol[id])
+             for id in id_to_change.keys()
+             if filter_fn(id_to_change[id])]
+  symbols.sort()  # Sort by UTC-proposed Unicode code point.
+  symbols = [pair[1] for pair in symbols]  # Remove code points.
+  return symbols
+
+
+def _WriteFullSymbolTableHTML(writer, symbols):
+  writer.write(u"<p>Number of changes: %d</p>\n" % len(symbols))
+  writer.write(_FULL_TABLE_HEADER)
+  _WriteFullSymbolRowsHTML(writer, symbols)
+  writer.write("</table>\n")
+
+
+_change_string = { 1: "good", 0: "neutral", -1: "bad", -2: "v.bad" }
+
+def _EversonDocAndChangeString(change):
+  if change == None:
+    return _everson_doc
+  else:
+    return _everson_doc + u"(" + _change_string[change] + u")"
+
+
 def _RepresentationHTML(e4u_symbol):
   """Return HTML with the symbol representation."""
   uni = e4u_symbol.GetUnicode()
@@ -409,15 +558,17 @@ def _RepresentationHTML(e4u_symbol):
       if _with_everson:
         everson_uni = everson.GetUnicode(proposed_uni)
         if not everson_uni:
-          sys.stderr.write("e-%s proposed U+%s missing Everson mapping\n" %
+          sys.stderr.write(u"e-%s proposed U+%s missing Everson mapping\n" %
                            (e4u_symbol.id, proposed_uni))
         if _show_font_chars:
           font_str = utf.UTF.CodePointString(int(everson_uni, 16))
-          repr += (u"<br>" + _everson_doc +
-                   " <span class='everson_font'>%s</span>") % font_str
+          repr += (u"<br><span class='everson_font_doc'>" +
+                   _EversonDocAndChangeString(
+                       everson.id_to_glyph_change.get(e4u_symbol.id)) +
+                   u"</span>: <span class='everson_font'>%s</span>") % font_str
         if everson_uni != proposed_uni:
           repr += (u"<br><span class='everson_uni'>" +
-                   _everson_doc + " U+" + everson_uni + u"</span>")
+                   _everson_doc + u": U+" + everson_uni + u"</span>")
     else:
       repr += u"<br><span class='proposed_uni'>U+xxxxx</span>"
     return repr + u"<br><span class='status'>proposed</span>"
@@ -457,8 +608,10 @@ def _NameAnnotationHTML(e4u_symbol):
   if show_everson:
     everson_name = everson.GetName(proposed_uni)
     if everson_name != name:
-      lines.append(u"<span class='everson_name_anno'>" + _everson_doc +
-                  u" " + everson_name + "</span>")
+      lines.append(u"<span class='everson_name_anno'>" +
+                   _EversonDocAndChangeString(
+                       everson.id_to_name_change.get(e4u_symbol.id)) +
+                   u": " + everson_name + "</span>")
   arib = e4u_symbol.GetARIB()
   if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():
@@ -480,7 +633,7 @@ def _NameAnnotationHTML(e4u_symbol):
     for line in everson.GetAnnotations(proposed_uni):
       if line not in anno:
         lines.append(u"<span class='everson_name_anno'>" + _everson_doc +
-                    u" " + cgi.escape(line) + "</span>")
+                    u": " + cgi.escape(line) + "</span>")
   return "<br>".join(lines)
 
 
@@ -566,7 +719,7 @@ def _WriteSingleCelledRow(writer, style, contents):
 def main():
   global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
-  global _with_everson
+  global _with_everson, _eval_everson
   _proposed_by_unicode = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
@@ -584,12 +737,16 @@ def main():
       _no_codes = True
       _no_symbol_numbers = True
       _show_font_chars = True
-    if sys.argv[i] == "--everson":
+    if sys.argv[i] == "--everson": _with_everson = True
+    if sys.argv[i] == "--eval_everson":
+      _eval_everson = True
       _with_everson = True
-      everson.Load()
   emoji4unicode.Load()
+  if _with_everson: everson.Load()
   writer = codecs.getwriter("UTF-8")(sys.stdout)
-  if _proposed_by_unicode:
+  if _eval_everson:
+    _WriteEvalEversonHTML(writer)
+  elif _proposed_by_unicode:
     _WriteProposedEmojiHTML(writer)
   else:
     _WriteEmoji4UnicodeHTML(writer)

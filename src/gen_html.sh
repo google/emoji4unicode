@@ -33,3 +33,5 @@ mkdir -p ../generated
 
 # Similar to the previous one, but with comparison to WG2 document N3607.
 ./gen_html.py --only_in_proposal --show_only_font_chars --no_codes --everson > ../generated/n3607_all.html
+# Show where we think N3607 changes are good/neutral/bad.
+./gen_html.py --show_only_font_chars --no_codes --eval_everson > ../generated/n3607_compare.html

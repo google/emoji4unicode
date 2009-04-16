@@ -23,6 +23,7 @@ Attributes:
   carriers: List of lowercase names of carriers for which we have CarrierData.
   all_carrier_data: Map from lowercase carrier name to CarrierData object.
   arib_ucm: UCMFile with ARIB-Unicode mappings.
+  id_to_symbol: Map from symbol ID to Symbol object.
 """
 
 __author__ = "Markus Scherer"
@@ -41,7 +42,7 @@ all_carrier_data = {}
 def Load():
   """Parse emoji4unicode.xml and load related data."""
   # TODO(mscherer): Add argument for root data folder path.
-  global carriers, all_carrier_data, arib_ucm
+  global carriers, all_carrier_data, arib_ucm, id_to_symbol
   global _kddi_to_google, _doc, _root, _id_to_proposed_uni
   if all_carrier_data: return  # Already loaded.
   carriers = ["docomo", "kddi", "softbank", "google"]
@@ -58,11 +59,13 @@ def Load():
   _doc = xml.dom.minidom.parse(e4u_filename)
   _root = _doc.documentElement
   # Preprocess the full set of symbols.
+  id_to_symbol = {}
   high_uni = "%04X" % (_HIGH_UNI - 1)
   proposed_uni = high_uni
   _id_to_proposed_uni = {}
   _kddi_to_google = {}
   for symbol in GetSymbols():
+    id_to_symbol[symbol.id] = symbol
     # Read or enumerate proposed Unicode code points.
     if symbol.in_proposal:
       (proposed_uni, high_uni) = symbol._SetProposedUnicode(proposed_uni,
