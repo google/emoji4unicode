@@ -404,7 +404,7 @@
 407	E7F3	5	Activities/Work/Entertainment	Transportation symbols	AMBULANCE		
 408	E7F4	5	Activities/Work/Entertainment	Transportation symbols	POLICE CAR		
 409	E7F5	5	Activities/Work/Entertainment	Driving	FUEL PUMP		**Symbol no longer proposed for new encoding**
-410	E7F6	5	Activities/Work/Entertainment	Driving	WHITE ON BLACK SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
+410	E7F6	5	Activities/Work/Entertainment	Driving	NEGATIVE SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
 411	E7F7	5	Activities/Work/Entertainment	Traffic signs	TRAFFIC LIGHT		
 412	E7F8	5	Activities/Work/Entertainment	Traffic signs	CONSTRUCTION		
 413	E7F9	5	Activities/Work/Entertainment	Traffic signs	POLICE CARS REVOLVING LIGHT		

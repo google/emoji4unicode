@@ -1338,7 +1338,7 @@ a car with light sign on the roof
 </subcategory>
 <subcategory name="Driving">
 <e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="FUEL PUMP" softbank="E03A" unicode="*26FD"/>
-<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="WHITE ON BLACK SQUARED LATIN CAPITAL LETTER P" softbank="E14F" unicode="*1F17F">
+<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="NEGATIVE SQUARED LATIN CAPITAL LETTER P" softbank="E14F" unicode="*1F17F">
 <desc>
 &quot;P&quot; sign
 </desc>
@@ -1904,7 +1904,7 @@ used as a sign for a baby; Crawling Baby
 </desc>
 <ann>= baby on board, baby changing station</ann>
 </e>
-<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="*26E2">
+<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="*2B55">
 <desc>
 good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation
 </desc>
@@ -2038,14 +2038,14 @@ KATAKANA LETTERS KOKO; destination, here
 </e>
 </subcategory>
 <subcategory name="Squared ideographs">
-<e docomo="E738" glyphRefID="555" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]" unicode="+1F231">
+<e docomo="E738" glyphRefID="555" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]" unicode="+1F2FF">
 <desc>
 禁: IDEOGRAPH PROHIBITION
 </desc>
 <ann>= prohibited sign</ann>
 <ann># &lt;square&gt; 7981</ann>
 </e>
-<e docomo="E739" glyphRefID="556" google="FEB2F" id="B2F" img_from="docomo" kddi="EA8A" name="SQUARED CJK UNIFIED IDEOGRAPH-7A7A" softbank="E22B">
+<e docomo="E739" glyphRefID="556" google="FEB2F" id="B2F" img_from="docomo" kddi="EA8A" name="SQUARED CJK UNIFIED IDEOGRAPH-7A7A" softbank="E22B" unicode="+1F232">
 <desc>
 空: IDEOGRAPH EMPTY; Vacant, seats available
 </desc>
@@ -2074,7 +2074,7 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>x (circled ideograph have - 3292)</ann>
 <ann># &lt;square&gt; 6709</ann>
 </e>
-<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="*1F22A">
+<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="*1F21A">
 <desc>
 無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free
 </desc>
@@ -2103,7 +2103,7 @@ KATAKANA LETTERS KOKO; destination, here
 <ann>= discount sign</ann>
 <ann># &lt;square&gt; 5272</ann>
 </e>
-<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="*1F224">
+<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="*1F22F">
 <desc>
 指: IDEOGRAPH POINTING; reserved, designated 指定
 </desc>

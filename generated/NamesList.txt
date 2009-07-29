@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2009-02-10
+@@@+	2009-07-29
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -76,9 +76,6 @@
 	x (circled katakana sa - 32DA)
 	# <square> 30B5
 @		Squared ideographs
-1F231	SQUARED CJK UNIFIED IDEOGRAPH-7981
-	= prohibited sign
-	# <square> 7981
 1F232	SQUARED CJK UNIFIED IDEOGRAPH-7A7A
 	= empty sign
 	# <square> 7A7A
@@ -112,6 +109,10 @@
 1F251	CIRCLED IDEOGRAPH ACCEPT
 	= accept sign
 	# <circle> 53EF
+@		Squared ideographs
+1F2FF	SQUARED CJK UNIFIED IDEOGRAPH-7981
+	= prohibited sign
+	# <square> 7981
 
 @@	1F300	Miscellaneous Pictographic Symbols	1F5FF
 ;; UTC: 2009-02-06
