@@ -28,9 +28,8 @@ Attributes:
 
 __author__ = "Markus Scherer"
 
-import codecs
+import nameslist
 import os.path
-import re
 
 doc = "N3607"
 
@@ -214,50 +213,17 @@ def _ParseMapping(data_path):
     proposed_uni_to_everson[uni] = everson_uni
 
 
-# TODO(markus): Create a reusable NamesList.txt parsing library.
-# See nameslist_to_unicodedata.py.
 def _ParseNamesList(data_path):
-  # Match a NAME_LINE in the Unicode NamesList.txt file.
-  name_line_re = re.compile(r"^([0-9A-F]{4,6})\t(.+)$")
-
   global _symbol_data
   _symbol_data = {}
 
   # Read the NamesList.txt-format file.
   filename = os.path.join(data_path, "everson", "n3607-emoji.lst")
-  in_file = codecs.open(filename, "r", "ISO-8859-1")
-  uni = ""  # Unicode code point
-  ann = []  # annotations
-  for line in in_file:
-    comment_start = line.find(";")
-    if comment_start >= 0:
-      line = line[:comment_start].rstrip()  # Remove comment.
-    else:
-      line = line.rstrip()  # Remove line ending.
-    if not line:
-      # Skip EMPTY_LINE or FILE_COMMENT.
-      continue
-    if uni:
-      # Most CHAR_ENTRY data lines for a character start with a TAB.
-      if line.startswith("\t"):
-        ann.append(line[1:])
-        continue
-      elif line.startswith("@+\t"):
-        # A NOTICE_LINE which is part of the current CHAR_ENTRY.
-        continue
+  for record in nameslist.Read(filename):
+    if "uni" in record:
+      uni = record["uni"]
+      if "data" in record:
+        ann = record["data"]
       else:
-        # If a line does not start with a TAB and is not a NOTICE_LINE,
-        # then it indicates the end of a CHAR_ENTRY.
-        _symbol_data[uni] = (name, ann)
-        uni = ""
         ann = []
-    match = name_line_re.match(line)
-    if match:
-      # Begin a new CHAR_ENTRY.
-      uni = match.group(1)
-      name = match.group(2)
-      ann = []
-
-  if uni:
-    # Print data for the last CHAR_ENTRY.
-    _symbol_data[uni] = (name, ann)
+      _symbol_data[uni] = (record["name"], ann)
