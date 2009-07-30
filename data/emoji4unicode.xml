@@ -1912,7 +1912,7 @@ good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRC
 <ann>* also used to mean good, correct or approved</ann>
 <ann>x (white circle - 25CB)</ann>
 <ann>x (large circle - 25EF)</ann>
-<ann>x (heavy circle - 26E6)</ann>
+<ann>x (heavy circle - 2B58)</ann>
 </e>
 <e glyphRefID="539" google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]">
 <desc>
@@ -2248,7 +2248,7 @@ Small circle (blue)
 <e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="LARGE CIRCLE-1" softbank="E219">
 <desc>
 Large circle (red). Disunified from &#x25CB; U+25CB and &#x25EF; U+25EF due to source separation rule (Shift_JIS).
-Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics.
+Disunified from ARIB-9104=U+2B58 HEAVY CIRCLE because of different semantics.
 Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE CIRCLE is &#x25EF; LARGE CIRCLE.
 </desc>
 <ann>x (large circle - 25EF)</ann>
