@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2009-07-29
+@@@+	2009-07-30
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06

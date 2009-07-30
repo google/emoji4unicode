@@ -578,7 +578,7 @@
 579	EB5E	7	Abstract Concepts	Comic style symbols	FLEXED BICEP		
 580	EB5F	7	Abstract Concepts	Comic style symbols	DIZZY SYMBOL		
 581	EB60	7	Abstract Concepts	Miscellaneous symbols	SPARKLES	sparkling new	
-582	EB63	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-1	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+26E6 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+582	EB63	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-1	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+2B58 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
 623	EB64	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-2	Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
 583	EBA3	7	Abstract Concepts	Miscellaneous symbols	BLACK ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
 584	EB67	7	Abstract Concepts	Miscellaneous symbols	WHITE ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.

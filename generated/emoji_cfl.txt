@@ -1,5 +1,5 @@
 ; Emoji chart font list (CFL) file
-; Date: 2009-07-29
+; Date: 2009-07-30
 
 Apple Emoji, 24 /Q=23E9 /R=E02A-E02A
 Apple Emoji, 24 /Q=23EA /R=EAFE-EAFF

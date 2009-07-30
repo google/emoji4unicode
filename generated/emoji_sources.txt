@@ -1,6 +1,6 @@
 # Emoji sources
 # L2/09-078
-# Date: 2009-07-29
+# Date: 2009-07-30
 # Author: Markus Scherer
 #
 # Semicolon-delimited file with a fixed number of fields.
