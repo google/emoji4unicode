@@ -525,7 +525,7 @@ def _RepresentationHTML(e4u_symbol):
       repr += (u"<br><span class='proposed_uni'>U+" +
                proposed_uni.replace("+", " U+") + u"</span>")
       if _with_everson:
-        everson_uni = everson.GetUnicode(proposed_uni)
+        everson_uni = everson.GetUnicode(e4u_symbol.id)
         if not everson_uni:
           sys.stderr.write(u"e-%s proposed U+%s missing Everson mapping\n" %
                            (e4u_symbol.id, proposed_uni))
@@ -575,7 +575,7 @@ def _NameAnnotationHTML(e4u_symbol):
   name = e4u_symbol.GetName()
   lines = [name]
   if show_everson:
-    everson_name = everson.GetName(proposed_uni)
+    everson_name = everson.GetName(e4u_symbol.id)
     if everson_name != name:
       lines.append(u"<span class='everson_name_anno'>" +
                    _EversonDocAndChangeString(
@@ -599,7 +599,7 @@ def _NameAnnotationHTML(e4u_symbol):
     if design: lines.append(u"<span class='desc'>Design Note: " +
                             cgi.escape(design) + u"</span>")
   if show_everson:
-    for line in everson.GetAnnotations(proposed_uni):
+    for line in everson.GetAnnotations(e4u_symbol.id):
       if line not in anno:
         lines.append(u"<span class='everson_name_anno'>" + everson.doc +
                     u": " + cgi.escape(line) + "</span>")

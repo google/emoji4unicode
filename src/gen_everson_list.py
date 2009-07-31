@@ -90,7 +90,7 @@ def _WriteGlyphChanges(writer, symbols):
     proposed_uni = symbol.GetProposedUnicode()
     writer.write(u"e-%s\t%s\t%s\t%s\n" %
                  (symbol.id, proposed_uni,
-                  everson.GetUnicode(proposed_uni), symbol.GetName()))
+                  everson.GetUnicode(symbol.id), symbol.GetName()))
 
 
 def _WriteNameChanges(writer, symbols):
@@ -101,8 +101,8 @@ def _WriteNameChanges(writer, symbols):
     writer.write(u"e-%s\t%s\t%s\n" %
                  (symbol.id, proposed_uni, symbol.GetName()))
     writer.write(u"\t%s\t%s\n" %
-                 (everson.GetUnicode(proposed_uni),
-                  everson.GetName(proposed_uni)))
+                 (everson.GetUnicode(symbol.id),
+                  everson.GetName(symbol.id)))
 
 
 def main():

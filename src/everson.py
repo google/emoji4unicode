@@ -18,7 +18,7 @@
 
 Attributes:
   doc: WG2 document number string, e.g., "N3607".
-  proposed_uni_to_everson: Maps UTC-proposed Unicode code points to ones
+  id_to_everson_uni: Maps Emoji symbol IDs to Unicode code points
       proposed by Everson & Stoetzner.
   id_to_glyph_change: Maps Emoji symbol IDs to 1/0/-1/-2 for
       good/neutral/bad/really bad glyph changes.
@@ -33,7 +33,7 @@ import os.path
 
 doc = "N3607"
 
-proposed_uni_to_everson = {}
+id_to_everson_uni = {}
 
 id_to_glyph_change = {
     # *** improvements
@@ -116,49 +116,49 @@ id_to_name_change = {
 def Load():
   """Parse ../data/everson/ files."""
   # TODO(mscherer): Add argument for root data folder path.
-  global proposed_uni_to_everson
-  if proposed_uni_to_everson: return  # Already loaded.
+  global id_to_everson_uni
+  if id_to_everson_uni: return  # Already loaded.
   here = os.path.dirname(__file__)
   data_path = os.path.join(here, "..", "data")
   _ParseMapping(data_path)
   _ParseNamesList(data_path)
 
 
-def GetUnicode(uni):
+def GetUnicode(id):
   """Get the Everson/Stoetzner code point.
 
   Args:
-    uni: emoji4unicode-proposed code point
+    id: Emoji symbol ID
 
   Returns:
     The Everson/Stoetzner code point.
   """
-  return proposed_uni_to_everson.get(uni)
+  return id_to_everson_uni.get(id)
 
 
-def GetName(uni):
+def GetName(id):
   """Get the Everson/Stoetzner character name.
 
   Args:
-    uni: emoji4unicode-proposed code point
+    id: Emoji symbol ID
 
   Returns:
     The Everson/Stoetzner character name.
   """
-  everson_uni = proposed_uni_to_everson[uni]
+  everson_uni = id_to_everson_uni[id]
   return _symbol_data[everson_uni][0]
 
 
-def GetAnnotations(uni):
+def GetAnnotations(id):
   """Get the Everson/Stoetzner character annotations.
 
   Args:
-    uni: emoji4unicode-proposed code point
+    id: Emoji symbol ID
 
   Returns:
     The Everson/Stoetzner character annotations (list of strings).
   """
-  everson_uni = proposed_uni_to_everson[uni]
+  everson_uni = id_to_everson_uni[id]
   return _symbol_data[everson_uni][1]
 
 
@@ -200,17 +200,17 @@ def _FilterSymbols(id_to_symbol, id_to_change, filter_fn):
 
 
 def _ParseMapping(data_path):
-  global proposed_uni_to_everson
+  global id_to_everson_uni
   filename = os.path.join(data_path, "everson", "n3607-emoji-mapping.txt")
   file = open(filename, "r")
   for line in file:
-    line = line.strip()  # Remove trailing newlines etc.
+    line = line.rstrip()  # Remove trailing newlines etc.
     index = line.find("#")  # Remove comments.
     if index >= 0: line = line[:index].rstrip()
     if not line: continue  # Skip empty lines.
     if line.startswith("-"): continue  # Skip new characters.
-    uni, everson_uni = line.split()
-    proposed_uni_to_everson[uni] = everson_uni
+    id, everson_uni = line.split()
+    id_to_everson_uni[id] = everson_uni
 
 
 def _ParseNamesList(data_path):
