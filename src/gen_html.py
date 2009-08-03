@@ -201,9 +201,10 @@ Columns:<br>
 <li>Name &amp; Annotations: The proposed character name for new symbols, or the name of the
 existing or upcoming unified character. Optionally followed by further
 information, if applicable:</li>
-<ul><li>The ARIB code (4-decimal-digit row-cell code) of the corresponding <a href="http://sites.google.com/site/unicodesymbols/Home/japanese-tv-symbols">Japanese Broadcast Symbol</a>.</li>
-<li>Proposed Unicode character annotations.<br>
-</li>
+<ul>
+<li>The old name, which is the character name proposed in a previous version of the document.</li>
+<li>The ARIB code (4-decimal-digit row-cell code) of the corresponding <a href="http://sites.google.com/site/unicodesymbols/Home/japanese-tv-symbols">Japanese Broadcast Symbol</a>.</li>
+<li>Proposed Unicode character annotations.</li>
 <li>Free-form description text.</li>
 <li>Font design instructions.<br>
 </li></ul>

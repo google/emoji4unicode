@@ -40,7 +40,7 @@ import row_cell
 import ucm
 
 _HIGH_UNI = 0x1F300
-_MAX_HIGH_UNI = 0x1F5FF
+_MAX_HIGH_UNI = 0x1F7FF
 
 all_carrier_data = {}
 

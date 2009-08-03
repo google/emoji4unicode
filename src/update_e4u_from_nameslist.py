@@ -65,21 +65,19 @@ def main():
     symbol.setAttribute("unicode", u"+" + new_uni)
     # Update the proposed character name.
     # Keep the previous name in an oldname attribute.
-    if False:  # TODO: Turn on name changes.
-      if old_name == new_name:
-        if symbol.getAttribute("oldname"):
-          symbol.removeAttribute("oldname")
-      else:
-        symbol.setAttribute("oldname", old_name)
-        symbol.setAttribute("name", new_name)
+    if old_name == new_name:
+      if symbol.getAttribute("oldname"):
+        symbol.removeAttribute("oldname")
+    else:
+      symbol.setAttribute("oldname", old_name)
+      symbol.setAttribute("name", new_name)
     # Append new annotations.
-    if False:  # TODO: Turn on adding annotations.
-      for ann in new_annotations:
-        # Skip the Emoji symbol ID alias, and annotations that are not new.
-        if not ann.startswith(u"= e-") and ann not in old_annotations:
-          ann_element = doc.createElement("ann")
-          ann_element.appendChild(doc.createTextNode(ann))
-          symbol.appendChild(ann_element)
+    for ann in new_annotations:
+      # Skip the Emoji symbol ID alias, and annotations that are not new.
+      if not ann.startswith(u"= e-") and ann not in old_annotations:
+        ann_element = doc.createElement("ann")
+        ann_element.appendChild(doc.createTextNode(ann))
+        symbol.appendChild(ann_element)
   out_filename = os.path.join(here, "..", "generated", "emoji4unicode.xml")
   emoji4unicode.Write(doc, out_filename)
   doc.unlink()
