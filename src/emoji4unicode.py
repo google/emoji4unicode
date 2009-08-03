@@ -19,6 +19,9 @@
 Reads emoji4unicode.xml, the carrier data files and other files
 and makes the data available.
 
+Also provides a Write() function for writing an XML document in
+the style of emoji4unicode.xml (to minimize diffs).
+
 Attributes:
   carriers: List of lowercase names of carriers for which we have CarrierData.
   all_carrier_data: Map from lowercase carrier name to CarrierData object.
@@ -28,7 +31,9 @@ Attributes:
 
 __author__ = "Markus Scherer"
 
+import codecs
 import os.path
+import re
 import xml.dom.minidom
 import carrier_data
 import row_cell
@@ -185,6 +190,10 @@ class Symbol(object):
   def GetName(self):
     """Get the symbol's character name."""
     return self.__element.getAttribute("name")
+
+  def GetOldName(self):
+    """Get the symbol's previously proposed character name."""
+    return self.__element.getAttribute("oldname")
 
   def ImageHTML(self):
     """Get the symbol's image HTML.
@@ -427,3 +436,95 @@ def CarrierImageHTML(carrier, symbol):
       return ("<img src=http://mail.google.com/mail/e/ezweb_ne_jp/%s>" %
               google_uni[-3:])
   return symbol.ImageHTML()
+
+
+
+# The Writer class escapes characters that are neither Latin-1 nor Japanese.
+_escape_re = re.compile(u"[^\0-\u007E\u00A1-\u00FF" +
+                        u"\u3040-\u30FF\u4E00-\u9FFF\uFF01-\uFFEE]+")
+
+# The head of an element with text contents but no attributes,
+# like <ann>, <desc> or <design>.
+_simple_element_head_re = re.compile(u"<([a-zA-Z0-9_]+)>")
+
+def _EscapeChars(match):
+  s = match.group(0)
+  result = []
+  for c in s:
+    # TODO: Handle surrogate pairs for Python implementations with
+    # 16-bit Unicode strings, such as on Windows.
+    result.append(u"&#x%04X;" % ord(c))
+  return "".join(result)
+
+
+class _Writer(object):
+  """Minimizes emoji4unicode.xml changes when used in writexml()."""
+  def __init__(self, filename):
+    self.__out_file = codecs.open(filename, "w", "UTF-8")
+    self.__line = u""
+
+  def close(self):
+    self._WriteLine(self.__line)
+    self.__out_file.close()
+
+  def write(self, s):
+    # Append the new piece to the current line.
+    if self.__line: s = self.__line + s
+    # Keep a simple element with single-line text contents on one line.
+    if s.endswith(u"\n"):
+      head_match = _simple_element_head_re.match(s)
+      if head_match:
+        if len(s) == head_match.end() + 1:
+          # s == head + "\n"
+          s = head_match.group()  # Remove the trailing \n.
+        elif s[head_match.end()] == u"<":
+          # The element contains another element: Split the lines.
+          self._WriteLine(head_match.group())
+          s = s[head_match.end():]
+        else:
+          tail = u"</" + head_match.group(1) + u">\n"
+          if s.endswith(tail):
+            text = s[head_match.end():-len(tail)].strip()
+            if u"\n" in text:
+              # The element has multi-line contents: Split the lines.
+              self._WriteLine(head_match.group())
+              self._WriteLine(text)
+              self._WriteLine(tail[:-1])  # Remove the trailing \n.
+              s = u""
+          else:
+            text = s[head_match.end():].strip()
+            if u"\n" in text:
+              # The element has multi-line contents: Split the lines.
+              self._WriteLine(head_match.group())
+              self._WriteLine(text)
+              s = u""
+            else:
+              s = head_match.group() + text  # Strip the contents.
+    # Look for line ending.
+    # Look for only one, to not remove empty lines inside a multi-line value.
+    eol_index = s.rfind("\n")
+    if eol_index >= 0:
+      self.__line = s[eol_index + 1:]
+      self._WriteLine(s[:eol_index].strip())
+    else:
+      self.__line = s
+
+  def _WriteLine(self, line):
+    # Skip empty lines.
+    if line:
+      # Change escaping in elements other than <e>.
+      # (In particular, keep unescaped text in <e text_fallback="...">.)
+      if not line.startswith(u"<e "):
+        # Turn &quot; into real " for better readability.
+        line = line.replace(u"&quot;", u'"')
+        # Escape non-Latin-1, non-Japanese characters.
+        line = _escape_re.sub(_EscapeChars, line)
+      self.__out_file.write(line)
+      self.__out_file.write(u"\n")
+
+
+def Write(doc, filename):
+  """Writes an XML document in the style of emoji4unicode.xml."""
+  writer = _Writer(filename)
+  doc.writexml(writer, encoding="UTF-8", newl="\n")
+  writer.close()

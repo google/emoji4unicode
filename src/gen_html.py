@@ -106,6 +106,10 @@ body {
 .status {
   font-size: 60%;
 }
+.old_name {
+  font-weight: bold;
+  color: red
+}
 .everson_name_anno {
   color: magenta
 }
@@ -580,7 +584,10 @@ def _NameAnnotationHTML(e4u_symbol):
       lines.append(u"<span class='everson_name_anno'>" +
                    _EversonDocAndChangeString(
                        everson.id_to_name_change.get(e4u_symbol.id)) +
-                   u": " + everson_name + "</span>")
+                   u": " + everson_name + u"</span>")
+  old_name = e4u_symbol.GetOldName()
+  if old_name:
+      lines.append(u"<span class='old_name'>Old name: " + old_name + u"</span>")
   arib = e4u_symbol.GetARIB()
   if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():

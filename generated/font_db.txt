@@ -617,69 +617,69 @@
 618	EB9F	7	Abstract Concepts	Hand signal symbols	OK HAND SIGN	OK sign	
 619	EBA0	7	Abstract Concepts	Hand signal symbols	THUMBS DOWN SIGN	Thumbs down	
 620	EBA1	7	Abstract Concepts	Hand signal symbols	OPEN HANDS	Ohhaa! Good morning gesture. Open hands with the money sign	
-626	EE10	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-1	Original name: I-MODE	
-627	EE11	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-2	Original name: I-MODE WITH FRAME	
-628	EE12	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-3	Original name: PROVIDED BY DOCOMO	
-629	EE13	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-4	Original name: DOCOMO POINT	
-630	EE14	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-5	Original name: I-APPLI	
-631	EE15	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-6	Original name: I-APPLI WITH BORDER	
-632	EE16	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-7	Original name: PIAS PI	
-633	EE17	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-8	Original name: PIAS A	
-634	EE18	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-9	Original name: INVERSE TICKET	
-635	EE19	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-10	Original name: KATAKANA ABBREVIATION FOR TICKET	
-636	EE1A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-11	Original name: RESERVE BY PHONE	
-637	EE1B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-12	Original name: P CODE	
-638	EE1C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-13	Original name: MOVIES 2; movie projector, video camera	
-639	EE1D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-14	Original name: PIAS PI INVERSE	
-640	EE1E	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-15	Original name: PIAS PI CIRCLE	
-641	EE1F	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-16	Original name: PIAS PI SQUARE	
-642	EE20	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-17	Original name: CHECK	
-643	EE21	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-18	Original name: F	
-644	EE22	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-19	Original name: D	
-645	EE23	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-20	Original name: S	
-646	EE24	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-21	Original name: C	
-647	EE25	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-22	Original name: R	
-648	EE26	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-23	Original name: BLACK AND WHITE SQUARE	
-649	EE27	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-24	Original name: BLACK SQUARE 3	
-650	EE28	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-25	Original name: DOWNWARD TRIANGLE	
-651	EE29	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-26	Original name: FOUR DAGGERS	
-652	EE2A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-27	Original name: THREE DAGGERS	
-653	EE2B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-28	Original name: TWO DAGGERS	
-654	EE2C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-29	Original name: SINGLE DAGGER	
-655	EE2D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-30	Original name: I; "I" indicates "inexpensive"	
-656	EE2E	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-31	Original name: M; "M" indicates "moderate price"	
-657	EE2F	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-32	Original name: E; "E" indicates "expensive"	
-658	EE30	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-33	Original name: VE; "VE" indicates "very expensive"	
-659	EE31	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-34	Original name: SPHERE	
-660	EE32	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-35	Original name: CREDIT CARDS NOT ACCEPTED	
-661	EE33	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-36	Original name: CHECKBOX	
-662	EE40	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-37	Original name: EZ WEB	
-663	EE41	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-38	Original name: EZ PLUS	
-664	EE42	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-39	Original name: EZ NAVIGATION	
-665	EE43	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-40	Original name: EZ MOVIE	
-666	EE44	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-41	Original name: CMAIL; Cmail (Envelope with "C")	
-667	EE45	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-42	Original name: JAVA; JAVA (TM)	
-668	EE46	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-43	Original name: BREW; BREW (R)	
-669	EE47	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-44	Original name: EZ RING MUSIC	
-670	EE48	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-45	Original name: EZ NAVI	
-671	EE49	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-46	Original name: WIN	
-672	EE4A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-47	Original name: PREMIUM SIGN	
-673	EB89	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-48	Original name: OPENWAVE; Openwave	
-674	E83C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-49	Original name: PDC; Personal Digital Cellular Symbol/Logo?	
-675	EE70	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-50	Original name: J-SKY1	
-676	EE71	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-51	Original name: J-SKY2	
-677	EE72	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-52	Original name: VODAFONE1	
-678	EE73	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-53	Original name: VODAFONE2	
-679	EE74	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-54	Original name: VODAFONE3	
-680	EE75	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-55	Original name: VODAFONE4	
-681	EE76	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-56	Original name: VODAFONE5	
-682	EE77	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-57	Original name: J-PHONE SHOP	
-683	EE78	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-58	Original name: SKY WEB	
-684	EE79	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-59	Original name: SKY WALKER	
-685	EE7A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-60	Original name: SKY MELODY	
-686	EE7B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-61	Original name: J-PHONE 1	
-687	EE7C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-62	Original name: J-PHONE 2	
-688	EE7D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-63	Original name: J-PHONE 3	
-625	E4C5	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	
-461	E82B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-65	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
-463	E82D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-66	Original name: MOBILE Q. Mobile Q service	
+626	EE10	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-1	Original name: I-MODE	**Symbol no longer proposed for new encoding**
+627	EE11	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-2	Original name: I-MODE WITH FRAME	**Symbol no longer proposed for new encoding**
+628	EE12	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-3	Original name: PROVIDED BY DOCOMO	**Symbol no longer proposed for new encoding**
+629	EE13	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-4	Original name: DOCOMO POINT	**Symbol no longer proposed for new encoding**
+630	EE14	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-5	Original name: I-APPLI	**Symbol no longer proposed for new encoding**
+631	EE15	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-6	Original name: I-APPLI WITH BORDER	**Symbol no longer proposed for new encoding**
+632	EE16	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-7	Original name: PIAS PI	**Symbol no longer proposed for new encoding**
+633	EE17	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-8	Original name: PIAS A	**Symbol no longer proposed for new encoding**
+634	EE18	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-9	Original name: INVERSE TICKET	**Symbol no longer proposed for new encoding**
+635	EE19	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-10	Original name: KATAKANA ABBREVIATION FOR TICKET	**Symbol no longer proposed for new encoding**
+636	EE1A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-11	Original name: RESERVE BY PHONE	**Symbol no longer proposed for new encoding**
+637	EE1B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-12	Original name: P CODE	**Symbol no longer proposed for new encoding**
+638	EE1C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-13	Original name: MOVIES 2; movie projector, video camera	**Symbol no longer proposed for new encoding**
+639	EE1D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-14	Original name: PIAS PI INVERSE	**Symbol no longer proposed for new encoding**
+640	EE1E	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-15	Original name: PIAS PI CIRCLE	**Symbol no longer proposed for new encoding**
+641	EE1F	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-16	Original name: PIAS PI SQUARE	**Symbol no longer proposed for new encoding**
+642	EE20	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-17	Original name: CHECK	**Symbol no longer proposed for new encoding**
+643	EE21	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-18	Original name: F	**Symbol no longer proposed for new encoding**
+644	EE22	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-19	Original name: D	**Symbol no longer proposed for new encoding**
+645	EE23	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-20	Original name: S	**Symbol no longer proposed for new encoding**
+646	EE24	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-21	Original name: C	**Symbol no longer proposed for new encoding**
+647	EE25	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-22	Original name: R	**Symbol no longer proposed for new encoding**
+648	EE26	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-23	Original name: BLACK AND WHITE SQUARE	**Symbol no longer proposed for new encoding**
+649	EE27	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-24	Original name: BLACK SQUARE 3	**Symbol no longer proposed for new encoding**
+650	EE28	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-25	Original name: DOWNWARD TRIANGLE	**Symbol no longer proposed for new encoding**
+651	EE29	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-26	Original name: FOUR DAGGERS	**Symbol no longer proposed for new encoding**
+652	EE2A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-27	Original name: THREE DAGGERS	**Symbol no longer proposed for new encoding**
+653	EE2B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-28	Original name: TWO DAGGERS	**Symbol no longer proposed for new encoding**
+654	EE2C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-29	Original name: SINGLE DAGGER	**Symbol no longer proposed for new encoding**
+655	EE2D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-30	Original name: I; "I" indicates "inexpensive"	**Symbol no longer proposed for new encoding**
+656	EE2E	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-31	Original name: M; "M" indicates "moderate price"	**Symbol no longer proposed for new encoding**
+657	EE2F	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-32	Original name: E; "E" indicates "expensive"	**Symbol no longer proposed for new encoding**
+658	EE30	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-33	Original name: VE; "VE" indicates "very expensive"	**Symbol no longer proposed for new encoding**
+659	EE31	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-34	Original name: SPHERE	**Symbol no longer proposed for new encoding**
+660	EE32	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-35	Original name: CREDIT CARDS NOT ACCEPTED	**Symbol no longer proposed for new encoding**
+661	EE33	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-36	Original name: CHECKBOX	**Symbol no longer proposed for new encoding**
+662	EE40	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-37	Original name: EZ WEB	**Symbol no longer proposed for new encoding**
+663	EE41	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-38	Original name: EZ PLUS	**Symbol no longer proposed for new encoding**
+664	EE42	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-39	Original name: EZ NAVIGATION	**Symbol no longer proposed for new encoding**
+665	EE43	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-40	Original name: EZ MOVIE	**Symbol no longer proposed for new encoding**
+666	EE44	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-41	Original name: CMAIL; Cmail (Envelope with "C")	**Symbol no longer proposed for new encoding**
+667	EE45	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-42	Original name: JAVA; JAVA (TM)	**Symbol no longer proposed for new encoding**
+668	EE46	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-43	Original name: BREW; BREW (R)	**Symbol no longer proposed for new encoding**
+669	EE47	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-44	Original name: EZ RING MUSIC	**Symbol no longer proposed for new encoding**
+670	EE48	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-45	Original name: EZ NAVI	**Symbol no longer proposed for new encoding**
+671	EE49	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-46	Original name: WIN	**Symbol no longer proposed for new encoding**
+672	EE4A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-47	Original name: PREMIUM SIGN	**Symbol no longer proposed for new encoding**
+673	EB89	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-48	Original name: OPENWAVE; Openwave	**Symbol no longer proposed for new encoding**
+674	E83C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-49	Original name: PDC; Personal Digital Cellular Symbol/Logo?	**Symbol no longer proposed for new encoding**
+675	EE70	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-50	Original name: J-SKY1	**Symbol no longer proposed for new encoding**
+676	EE71	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-51	Original name: J-SKY2	**Symbol no longer proposed for new encoding**
+677	EE72	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-52	Original name: VODAFONE1	**Symbol no longer proposed for new encoding**
+678	EE73	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-53	Original name: VODAFONE2	**Symbol no longer proposed for new encoding**
+679	EE74	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-54	Original name: VODAFONE3	**Symbol no longer proposed for new encoding**
+680	EE75	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-55	Original name: VODAFONE4	**Symbol no longer proposed for new encoding**
+681	EE76	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-56	Original name: VODAFONE5	**Symbol no longer proposed for new encoding**
+682	EE77	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-57	Original name: J-PHONE SHOP	**Symbol no longer proposed for new encoding**
+683	EE78	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-58	Original name: SKY WEB	**Symbol no longer proposed for new encoding**
+684	EE79	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-59	Original name: SKY WALKER	**Symbol no longer proposed for new encoding**
+685	EE7A	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-60	Original name: SKY MELODY	**Symbol no longer proposed for new encoding**
+686	EE7B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-61	Original name: J-PHONE 1	**Symbol no longer proposed for new encoding**
+687	EE7C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-62	Original name: J-PHONE 2	**Symbol no longer proposed for new encoding**
+688	EE7D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-63	Original name: J-PHONE 3	**Symbol no longer proposed for new encoding**
+625	E4C5	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	**Symbol no longer proposed for new encoding**
+461	E82B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-65	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	**Symbol no longer proposed for new encoding**
+463	E82D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-66	Original name: MOBILE Q. Mobile Q service	**Symbol no longer proposed for new encoding**
