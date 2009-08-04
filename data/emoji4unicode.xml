@@ -1283,9 +1283,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e docomo="E672" glyphRefID="502" google="FE983" id="983" img_from="docomo" kddi="E4C3" name="BEER MUG" softbank="E047" unicode="+1F37A"/>
 <e docomo="E71E" glyphRefID="503" google="FE984" id="984" img_from="docomo" kddi="EAAE" name="TEACUP WITHOUT HANDLE" softbank="E338" unicode="+1F375">
-<ann>x (cup on a black square - 26FE)</ann>
-<design>Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea</design>
 <ann>x (cup on black square - 26FE)</ann>
+<design>Make it look like a hot tea cup without a handle used typically in China, Japan, and Korea</design>
 </e>
 <e docomo="E74B" glyphRefID="504" google="FE985" id="985" img_from="docomo" kddi="EA97" name="SAKE BOTTLE AND CUP" softbank="E30B" unicode="+1F376">
 <desc>sake</desc>
@@ -1451,12 +1450,12 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e docomo="E735" google="FEB2C" id="B2C" kddi="EB79" name="BLACK UNIVERSAL RECYCLING SYMBOL" text_fallback="↑↓" unicode="267B"/>
 <e glyphRefID="536" google="FEB33" id="B33" img_from="softbank" name="MENS SYMBOL" softbank="E138" text_fallback="[♂]" unicode="+1F6B9">
-<ann>= men's restroom</ann>
 <ann>= man symbol</ann>
+<ann>= men's restroom</ann>
 </e>
 <e glyphRefID="537" google="FEB34" id="B34" img_from="softbank" name="WOMENS SYMBOL" softbank="E139" text_fallback="[♀]" unicode="+1F6BA">
-<ann>= women's restroom</ann>
 <ann>= woman symbol</ann>
+<ann>= women's restroom</ann>
 </e>
 <e glyphRefID="538" google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY SYMBOL" softbank="E13A" text_fallback="[赤ちゃん]" unicode="+1F6BC">
 <desc>used as a sign for a baby; Crawling Baby</desc>
@@ -1832,8 +1831,8 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <desc>Bookmark list ("お気に入り")</desc>
 </e>
 <e docomo="&gt;E735" glyphRefID="606" google="FEB91" id="B91" img_from="kddi" kddi="EB0D" name="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" text_fallback="↑↓" unicode="+1F515">
-<ann>= reload</ann>
 <ann>= clockwise upwards and downwards open circle arrows</ann>
+<ann>= reload</ann>
 </e>
 <e docomo="&gt;E6D3" glyphRefID="607" google="FEB92" id="B92" img_from="kddi" kddi="EB71" name="E-MAIL SYMBOL" oldname="EMAIL SIGN" softbank="&gt;E103" unicode="+1F4E8">
 <desc>Email (Envelope with "E")</desc>

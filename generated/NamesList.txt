@@ -3,923 +3,1642 @@
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: Nxxxx, L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		UI symbols
 23E9	BLACK RIGHT-POINTING DOUBLE TRIANGLE
 	= fast forward
+	= e-AFE
 23EA	BLACK LEFT-POINTING DOUBLE TRIANGLE
 	= fast rewind
+	= e-AFF
 23EB	BLACK UP-POINTING DOUBLE TRIANGLE
+	= e-B03
 23EC	BLACK DOWN-POINTING DOUBLE TRIANGLE
+	= e-B02
+
 @		Miscellaneous technical
 23F0	ALARM CLOCK
+	= e-02A
+
 @		Time symbols
 23F3	HOURGLASS WITH FLOWING SAND
 	x (hourglass - 231B)
+	= e-01B
+
 @		Zodiacal symbol
 26CE	OPHIUCHUS
+	= e-037
 
 @@	2700	Dingbats	27BF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer, German NB
 ;; document: Nxxxx, L2/09-021
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		Miscellaneous symbols
 2705	WHITE HEAVY CHECK MARK
 	x (heavy check mark - 2714)
+	= e-B4A
 270A	RAISED FIST
 	= rock in Rock, Paper, Scissors game
 	x (raised hand - 270B)
 	x (victory hand - 270C)
+	= e-B93
 270B	RAISED HAND
 	= paper in Rock, Paper, Scissors game
 	x (raised fist - 270A)
 	x (victory hand - 270C)
+	= e-B95
 2728	SPARKLES
+	= e-B60
 274C	CROSS MARK
 	* forms a pair with 2B55 heavy large circle
+	= e-B45
 274E	NEGATIVE SQUARED CROSS MARK
+	= e-B46
+
 @		Punctuation
 2753	BLACK QUESTION MARK ORNAMENT
+	= e-B09
 2754	WHITE QUESTION MARK ORNAMENT
+	= e-B0A
 2755	WHITE EXCLAMATION MARK ORNAMENT
 	x (heavy exclamation mark ornament - 2762)
 	x (heavy exclamation mark symbol - 2757)
 	x (traffic warning - 26CE)
+	= e-B0B
+
 @		Arithmetic symbols
 2795	HEAVY PLUS SIGN
+	= e-B51
 2796	HEAVY MINUS SIGN
+	= e-B52
 2797	HEAVY DIVISION SIGN
+	= e-B54
 
 @@	2E00	Supplemental Punctuation	2E7F
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: Nxxxx, L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		Length mark
 2E32	LOOPED LENGTH MARK
+	= e-B08
+
+@@	1F0A0	Playing Cards	1F0FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
+
+
 @		Game symbols
 1F0CF	PLAYING CARD BLACK JOKER
+	= e-812
+
+@@	1F100	Enclosed Alphanumeric Supplement	1F1FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
+
+
 @		Negative squared Latin letters
 1F170	NEGATIVE SQUARED LATIN CAPITAL LETTER A
 	= blood type A
+	= e-50B
 1F171	NEGATIVE SQUARED LATIN CAPITAL LETTER B
 	= blood type B
+	= e-50C
 1F17E	NEGATIVE SQUARED LATIN CAPITAL LETTER O
 	= blood type O
+	= e-50E
 1F18E	NEGATIVE SQUARED AB
 	= blood type AB
+	= e-50D
 
 @@	1F200	Enclosed Ideographic Supplement	1F2FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		Square katakanas
 1F201	SQUARED KATAKANA KOKO
 	= here sign
 	# <square> 30B3 30B3
+	= e-B24
 1F202	SQUARED KATAKANA SA
 	= service sign
 	x (circled katakana sa - 32DA)
 	# <square> 30B5
+	= e-B3F
+
 @		Squared ideographs
 1F232	SQUARED CJK UNIFIED IDEOGRAPH-7981
 	= prohibited sign
 	# <square> 7981
+	= e-B2E
 1F233	SQUARED CJK UNIFIED IDEOGRAPH-7A7A
 	= empty sign
 	# <square> 7A7A
+	= e-B2F
 1F234	SQUARED CJK UNIFIED IDEOGRAPH-5408
 	= passed sign
 	# <square> 5408
+	= e-B30
 1F235	SQUARED CJK UNIFIED IDEOGRAPH-6E80
 	= full sign
 	# <square> 6E80
+	= e-B31
 1F236	SQUARED CJK UNIFIED IDEOGRAPH-6709
 	= existence sign
 	x (circled ideograph have - 3292)
 	# <square> 6709
+	= e-B39
 1F237	SQUARED CJK UNIFIED IDEOGRAPH-6708
 	= monthly sign
 	x (circled ideograph moon - 328A)
 	# <square> 6708
+	= e-B3B
 1F238	SQUARED CJK UNIFIED IDEOGRAPH-7533
 	= application sign
 	# <square> 7533
+	= e-B3C
 1F239	SQUARED CJK UNIFIED IDEOGRAPH-5272
 	= discount sign
 	# <square> 5272
+	= e-B3E
 1F23A	SQUARED CJK UNIFIED IDEOGRAPH-55B6
 	= in business sign
 	# <square> 55B6
+	= e-B41
+
 @		Circled ideographs
 1F250	CIRCLED IDEOGRAPH ADVANTAGE
 	= advantage sign
 	# <circle> 5F97
+	= e-B3D
 1F251	CIRCLED IDEOGRAPH ACCEPT
 	= accept sign
 	# <circle> 53EF
+	= e-B50
 
 @@	1F300	Miscellaneous Pictographic Symbols	1F5FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		Weather and landscape symbols
 1F300	CYCLONE
 	= typhoon, hurricane
+	= e-005
 1F301	FOGGY
+	= e-006
 1F302	CLOSED UMBRELLA
+	= e-007
 1F303	NIGHT WITH STARS
+	= e-008
 1F304	SUNRISE OVER MOUNTAINS
+	= e-009
 1F305	SUNRISE
+	= e-00A
 1F306	CITYSCAPE AT DUSK
+	= e-00B
 1F307	SUNSET OVER BUILDINGS
+	= e-00C
 1F308	RAINBOW
+	= e-00D
 1F309	BRIDGE AT NIGHT
+	= e-010
+
 @		Miscellaneous symbols
 1F30A	WATER WAVE
+	= e-038
 1F30B	VOLCANO
+	= e-03A
 1F30C	MILKY WAY
+	= e-03B
 1F30F	EARTH GLOBE ASIA-AUSTRALIA
+	= e-039
+
 @		Moon symbols
 1F311	NEW MOON SYMBOL
+	= e-011
 1F313	FIRST QUARTER MOON SYMBOL
 	= half moon
+	= e-013
 1F314	WAXING GIBBOUS MOON SYMBOL
 	= waxing moon
+	= e-012
 1F315	FULL MOON SYMBOL
+	= e-015
 1F319	CRESCENT MOON
 	* indicate either first or last quarter moon
 	x (first quarter moon - 263D)
 	x (last quarter moon - 263E)
+	= e-014
 1F31B	FIRST QUARTER MOON WITH FACE
 	= half moon with face
+	= e-016
+
 @		Miscellaneous symbols
 1F31F	GLOWING STAR
+	= e-B69
 1F320	SHOOTING STAR
+	= e-B6A
+
 @		Plant symbols
 1F330	CHESTNUT
+	= e-04C
 1F331	SEEDLING
+	= e-03E
 1F334	PALM TREE
+	= e-047
 1F335	CACTUS
+	= e-048
 1F337	TULIP
+	= e-03D
 1F338	CHERRY BLOSSOM
+	= e-040
 1F339	ROSE
+	= e-041
 1F33A	HIBISCUS
+	= e-045
 1F33B	SUNFLOWER
+	= e-046
 1F33C	BLOSSOM
 	= daisy
+	= e-04D
 1F33D	EAR OF MAIZE
+	= e-04A
 1F33E	EAR OF RICE
+	= e-049
 1F33F	HERB
+	= e-04E
 1F340	FOUR LEAF CLOVER
 	x (shamrock - 2618)
 	= four leafed clover
+	= e-03C
 1F341	MAPLE LEAF
+	= e-03F
 1F342	FALLEN LEAF
 	= leaf
+	= e-042
 1F343	LEAF FLUTTERING IN WIND
+	= e-043
 1F344	MUSHROOM
+	= e-04B
+
 @		Fruit symbols
 1F345	TOMATO
+	= e-055
 1F346	AUBERGINE
 	= eggplant
+	= e-056
 1F347	GRAPES
+	= e-059
 1F348	MELON
+	= e-057
 1F349	WATERMELON
+	= e-054
 1F34A	TANGERINE
+	= e-052
 1F34C	BANANA
+	= e-050
 1F34D	PINEAPPLE
+	= e-058
 1F34E	APPLE-1
+	= e-051
 1F34F	APPLE-2
+	= e-05B
 1F351	PEACH
+	= e-05A
 1F352	CHERRIES
+	= e-04F
 1F353	STRAWBERRY
+	= e-053
+
 @		Food symbols
 1F354	HAMBURGER
 	= fast food place
+	= e-960
 1F355	SLICE OF PIZZA
+	= e-975
 1F356	MEAT ON BONE
+	= e-972
 1F357	POULTRY LEG
+	= e-976
 1F358	RICE CRACKER
+	= e-969
 1F359	RICE BALL
+	= e-961
 1F35A	COOKED RICE
 	= bowl of rice
+	= e-96A
 1F35B	CURRY AND RICE
 	= Japanese style curry
+	= e-96C
 1F35C	STEAMING BOWL
 	= ramen noodles, rice donburi
+	= e-963
 1F35D	SPAGHETTI
+	= e-96B
 1F35E	BREAD
+	= e-964
 1F35F	FRENCH FRIES
+	= e-967
 1F360	ROASTED SWEET POTATO
+	= e-974
 1F361	DUMPLING
 	= mochi balls on skewer
+	= e-968
 1F362	SEAFOOD CASSEROLE
 	= seafood on skewer
+	= e-96D
 1F363	SUSHI
+	= e-96E
 1F364	FRIED SHRIMP
+	= e-97F
 1F365	FISH CAKE WITH SWIRL DESIGN
+	= e-973
 1F366	SOFT ICE CREAM
+	= e-966
 1F367	SHAVED ICE
+	= e-971
 1F368	ICE CREAM
+	= e-977
 1F369	DOUGHNUT
+	= e-978
 1F36A	COOKIE
 	= biscuit
+	= e-979
 1F36B	CHOCOLATE BAR
+	= e-97A
 1F36C	CANDY
+	= e-97B
 1F36D	LOLLIPOP
+	= e-97C
 1F36E	CUSTARD
+	= e-97D
 1F36F	HONEY POT
+	= e-97E
 1F370	SHORTCAKE
+	= e-962
 1F371	LUNCHBOX
+	= e-96F
 1F372	POT OF FOOD
+	= e-970
 1F373	COOKING
 	= frying pan, cooking utensil
+	= e-965
 1F374	FORK AND KNIFE
 	= restaurant, meal
 	* glyph may show a fork and spoon
 	* glyph may show a crossed fork and knife
 	* glyph may show a fork and knife with a plate
+	= e-980
+
 @		Beverage symbols
 1F375	TEACUP WITHOUT HANDLE
-	x (cup on a black square - 26FE)
 	x (cup on black square - 26FE)
+	= e-984
 1F376	SAKE BOTTLE AND CUP
+	= e-985
 1F377	WINE GLASS
+	= e-986
 1F378	COCKTAIL GLASS
+	= e-982
 1F379	TROPICAL DRINK
+	= e-988
 1F37A	BEER MUG
+	= e-983
 1F37B	CLINKING BEER MUGS
 	= cheers
+	= e-987
+
 @		Celebration symbols
 1F380	RIBBON
+	= e-50F
 1F381	WRAPPED PRESENT
+	= e-510
 1F382	BIRTHDAY CAKE
+	= e-511
 1F383	JACK O LANTERN
 	= hallowe'en
+	= e-51F
 1F384	CHRISTMAS TREE
+	= e-512
 1F385	SANTA CLAUS
+	= e-513
 1F386	FIREWORKS
+	= e-515
 1F387	FIREWORK SPARKLER
 	* long, stick-like firework that looks like a burning incense stick
+	= e-51D
 1F388	BALLOON
+	= e-516
 1F389	PARTY POPPER
+	= e-517
 1F38A	CONFETTI BALL
 	= congratulations
+	= e-520
 1F38B	TANABATA TREE
 	= tanabata tree with wishing papers
+	= e-521
 1F38C	CROSSED FLAGS
 	* Japanese national holiday
+	= e-514
 1F38D	PINE DECORATION
 	* Japanese new year's door decoration
+	= e-518
 1F38E	GIRLS DOLL FESTIVAL
+	= e-519
 1F38F	CARP STREAMER
+	= e-51C
 1F390	WIND CHIME
+	= e-51E
 1F391	MOON VIEWING CEREMONY
+	= e-017
 1F392	SCHOOL SATCHEL
 	* Japanese school entrance ceremony
+	= e-51B
 1F393	GRADUATION CAP
 	* graduation ceremony
+	= e-51A
+
 @		Entertainment symbols
 1F3A0	CAROUSEL HORSE
 	= amusement park
+	= e-7FC
 1F3A1	FERRIS WHEEL
 	= amusement park
+	= e-7FD
 1F3A2	ROLLER COASTER
+	= e-7FE
 1F3A3	FISHING
 	= fishing pole and fish
+	= e-7FF
 1F3A4	MICROPHONE
 	= karaoke
+	= e-800
 1F3A5	MOVIES
 	= film, movie projector
+	= e-801
 1F3A6	CINEMA
 	= movie theater, movie projector
+	= e-802
 1F3A7	HEADPHONE
 	= music
+	= e-803
 1F3A8	ART
 	= painter's pallet
+	= e-804
 1F3A9	TOP HAT
 	= drama, performing arts, theater
+	= e-805
 1F3AA	EVENT
 	= circus tent
+	= e-806
 1F3AB	TICKET
 	* indicate an event
+	= e-807
 1F3AC	MOVIE SHOOTING CLAPBOARD
+	= e-808
 1F3AD	PERFORMING ARTS
+	= e-809
+
 @		Game symbols
 1F3AE	VIDEO GAME
 	= video game controller
+	= e-80A
 1F3AF	DIRECT HIT
 	= archery target, hitting the target
 	x (bullseye - 25CE)
+	= e-80C
 1F3B0	SLOT MACHINE
+	= e-80D
 1F3B1	BILLIARDS
+	= e-80E
 1F3B2	GAME DIE
+	= e-80F
 1F3B3	BOWLING
+	= e-810
 1F3B4	FLOWER PLAYING CARDS
 	= flower cards
+	= e-811
+
 @		Music symbols
 1F3B5	MUSICAL NOTE
 	= music, being in good mood
 	x (eighth note - 266A)
+	= e-813
 1F3B6	MULTIPLE MUSICAL NOTES
 	= dancing notes, mood, melody
+	= e-814
 1F3B7	SAXOPHONE
+	= e-815
 1F3B8	GUITAR
+	= e-816
 1F3B9	MUSICAL KEYBOARD
+	= e-817
 1F3BA	TRUMPET
+	= e-818
 1F3BB	VIOLIN
+	= e-819
 1F3BC	MUSICAL SCORE
 	x (musical symbol g clef - 1D11E)
+	= e-81A
+
 @		Sport symbols
 1F3BD	RUNNING SHIRT WITH SASH
+	= e-7D0
 1F3BE	TENNIS
+	= e-7D3
 1F3BF	SKIING
 	x (skier - 26F7)
+	= e-7D5
 1F3C0	BASKETBALL
+	= e-7D6
 1F3C1	CHECKERED FLAG
 	= motor sports
+	= e-7D7
 1F3C2	SNOWBOARDER
+	= e-7D8
 1F3C3	RUNNER
 	= running, marathon, track and fields
+	= e-7D9
 1F3C4	SURFER
 	= surfing
+	= e-7DA
 1F3C6	TROPHY
+	= e-7DB
 1F3C7	HORSE RACING
+	= e-7DC
 1F3C8	AMERICAN FOOTBALL
+	= e-7DD
 1F3CA	SWIMMER
+	= e-7DE
+
 @		Building symbols
 1F3E0	HOUSE BUILDING
+	= e-4B0
 1F3E1	HOUSE WITH YARD
 	= house with garden
+	= e-4B1
 1F3E2	OFFICE BUILDING
+	= e-4B2
 1F3E3	JAPANESE POST OFFICE
 	x (postal mark - 3012)
+	= e-4B3
 1F3E5	HOSPITAL
+	= e-4B4
 1F3E6	BANK
+	= e-4B5
 1F3E7	ATM
+	= e-4B6
 1F3E8	HOTEL
+	= e-4B7
 1F3E9	LOVE HOTEL
+	= e-4B8
 1F3EA	CONVENIENCE STORE
+	= e-4B9
 1F3EB	SCHOOL
+	= e-4BA
 1F3EC	DEPARTMENT STORE
+	= e-4BD
 1F3ED	FACTORY
+	= e-4C0
 1F3EE	IZAKAYA LANTERN
 	= japanese izakaya restaurant
+	= e-4C2
 1F3EF	JAPANESE CASTLE
+	= e-4BE
 1F3F0	WESTERN CASTLE
+	= e-4BF
+
 @		Animal symbols
 1F400	DOG FACE
+	= e-1B7
 1F401	CAT FACE
+	= e-1B8
 1F402	SNAIL
 	* zodiac 5
+	= e-1B9
 1F403	BABY CHICK
+	= e-1BA
 1F404	FRONT-FACING BABY CHICK
+	= e-1BB
 1F405	HATCHING CHICK
+	= e-1DD
 1F406	PENGUIN
+	= e-1BC
 1F407	FISH
+	= e-1BD
 1F408	HORSE FACE
+	= e-1BE
 1F409	PIG FACE
+	= e-1BF
 1F40A	TIGER FACE
+	= e-1C0
 1F40B	BEAR FACE
+	= e-1C1
 1F40C	MOUSE FACE
+	= e-1C2
 1F40D	SPOUTING WHALE
+	= e-1C3
 1F40E	MONKEY FACE
+	= e-1C4
 1F40F	OCTOPUS
+	= e-1C5
 1F410	SPIRAL SHELL
+	= e-1C6
 1F411	DOLPHIN
+	= e-1C7
 1F412	BIRD
+	= e-1C8
 1F413	TROPICAL FISH
+	= e-1C9
 1F414	HAMSTER FACE
+	= e-1CA
 1F415	BUG
+	= e-1CB
 1F416	ELEPHANT
 	* zodiac 12 (Thailand)
+	= e-1CC
 1F417	KOALA
+	= e-1CD
 1F418	MONKEY
 	* zodiac 9
+	= e-1CE
 1F419	SHEEP
+	= e-1CF
 1F41A	WOLF FACE
+	= e-1D0
 1F41B	COW FACE
+	= e-1D1
 1F41C	RABBIT FACE
+	= e-1D2
 1F41D	SNAKE
+	= e-1D3
 1F41E	CHICKEN
+	= e-1D4
 1F41F	BOAR
+	= e-1D5
 1F420	CAMEL
+	= e-1D6
 1F421	FROG FACE
+	= e-1D7
 1F422	POODLE
+	= e-1D8
 1F423	BLOWFISH
+	= e-1D9
 1F424	ANT
+	= e-1DA
 1F425	PAW PRINTS
+	= e-1DB
 1F426	TURTLE
+	= e-1DC
 1F427	DRAGON FACE
+	= e-1DE
 1F428	PANDA FACE
+	= e-1DF
 1F429	PIG NOSE
+	= e-1E0
 1F42A	HONEYBEE
+	= e-1E1
 1F42B	LADYBUG
+	= e-1E2
+
 @		Facial parts symbols
 1F440	EYES
+	= e-190
 1F442	EAR
+	= e-191
 1F443	NOSE
+	= e-192
 1F444	MOUTH
+	= e-193
 1F445	TONGUE
+	= e-194
+
 @		Hand signal symbols
 1F446	FISTED HAND
 	= punch
+	= e-B96
 1F447	THUMBS UP SIGN
+	= e-B97
 1F448	WHITE UP POINTING BACKHAND INDEX
+	= e-B99
 1F449	WHITE DOWN POINTING BACKHAND INDEX
+	= e-B9A
 1F44A	WHITE LEFT POINTING BACKHAND INDEX
+	= e-B9B
 1F44B	WHITE RIGHT POINTING BACKHAND INDEX
+	= e-B9C
 1F44C	WAVING HAND
+	= e-B9D
 1F44D	CLAPPING HANDS
+	= e-B9E
 1F44E	OK HAND SIGN
+	= e-B9F
 1F44F	THUMBS DOWN SIGN
+	= e-BA0
 1F450	OPEN HANDS
+	= e-BA1
+
 @		Clothes and wearables
 1F451	CROWN
+	= e-4D1
 1F452	WOMANS HAT
+	= e-4D4
 1F453	EYEGLASSES
+	= e-4CE
 1F454	NECKTIE
+	= e-4D3
 1F455	T-SHIRT
+	= e-4CF
 1F456	JEANS
+	= e-4D0
 1F457	DRESS
+	= e-4D5
 1F458	KIMONO
+	= e-4D9
 1F459	BIKINI
+	= e-4DA
 1F45A	WOMANS CLOTHES
+	= e-4DB
 1F45B	PURSE
+	= e-4DC
+
 @		Miscellaneous symbols
 1F45C	HANDBAG
+	= e-4F0
 1F45D	POUCH
+	= e-4F1
+
 @		Clothes and wearables
 1F45E	MANS SHOE
+	= e-4CC
 1F45F	SNEAKER
 	= tennis shoe
+	= e-4CD
 1F460	HIGH-HEELED SHOE
+	= e-4D6
 1F461	WOMANS SANDAL
+	= e-4D7
 1F462	WOMANS BOOTS
+	= e-4D8
+
 @		Miscellaneous symbol
 1F463	FOOTPRINTS
+	= e-553
 1F464	BUST IN SILHOUETTE
 	= guest account
+	= e-19A
+
 @		Portrait and role symbols
 1F466	BOYS HEAD
+	= e-19B
 1F467	GIRLS HEAD
+	= e-19C
 1F468	MANS HEAD
+	= e-19D
 1F469	WOMANS HEAD
+	= e-19E
 1F46A	FAMILY
+	= e-19F
 1F46B	COUPLE
+	= e-1A0
 1F46C	POLICE OFFICER
+	= e-1A1
 1F46D	WOMAN WITH BUNNY EARS
+	= e-1A2
 1F46E	BRIDE WITH VEIL
+	= e-1A3
 1F46F	WESTERN PERSON
 	= woman with blond hair
+	= e-1A4
 1F471	MAN WITH GUA PI MAO
+	= e-1A5
 1F472	MAN WITH TURBAN
+	= e-1A6
 1F473	OLDER MAN
+	= e-1A7
 1F474	OLDER WOMAN
+	= e-1A8
 1F475	BABY
+	= e-1A9
 1F476	CONSTRUCTION WORKER
+	= e-1AA
+
 @		Fairy tale symbols
 1F477	PRINCESS
+	= e-1AB
 1F478	OGRE
+	= e-1AC
 1F479	GOBLIN
+	= e-1AD
 1F47A	GHOST
+	= e-1AE
 1F47B	CHERUB
+	= e-1AF
 1F47C	EXTRATERRESTRIAL ALIEN
+	= e-1B0
 1F47D	ALIEN MONSTER
+	= e-1B1
 1F47E	IMP
+	= e-1B2
 1F47F	SKULL
+	= e-1B3
+
 @		Role symbols
 1F480	INFORMATION DESK PERSON
+	= e-1B4
 1F481	GUARDSMAN
+	= e-1B5
 1F482	DANCER
+	= e-1B6
+
 @		Personal care symbols
 1F483	LIPSTICK
+	= e-195
 1F484	NAIL CARE
+	= e-196
 1F485	FACE MASSAGE
+	= e-197
 1F486	HAIRCUT
 	* usually indicates a beauty parlor
+	= e-198
 1F487	BARBER POLE
+	= e-199
+
 @		Medical symbols
 1F488	SYRINGE
+	= e-509
 1F489	PILL
+	= e-50A
+
 @		Romance symbols
 1F48A	KISS MARK
 	= lips
+	= e-823
 1F48B	LOVE LETTER
+	= e-824
 1F48C	RING
 	= jewelry
+	= e-825
 1F48D	GEM STONE
+	= e-826
 1F48E	KISS
 	= two people kissing
+	= e-827
 1F48F	BOUQUET
+	= e-828
 1F490	COUPLE WITH HEART
+	= e-829
 1F491	WEDDING
 	= wedding chapel
+	= e-82A
+
 @		Heart symbols
 1F492	BEATING HEART
+	= e-B0D
 1F493	BROKEN HEART
+	= e-B0E
 1F494	TWO HEARTS
+	= e-B0F
 1F495	SPARKLING HEART
+	= e-B10
 1F496	GROWING HEART
+	= e-B11
 1F497	HEART WITH ARROW
+	= e-B12
 1F498	HEART-1
+	= e-B13
 1F499	HEART-2
+	= e-B14
 1F49A	HEART-3
+	= e-B15
 1F49B	HEART-4
+	= e-B16
 1F49C	HEART WITH RIBBON
+	= e-B17
 1F49D	REVOLVING HEARTS
+	= e-B18
 1F49E	HEART DECORATION
+	= e-B19
+
 @		Comic style symbols
 1F4A0	DIAMOND SHAPE WITH A DOT INSIDE
+	= e-B55
 1F4A1	ELECTRIC LIGHT BULB
 	= idea
+	= e-B56
 1F4A2	ANGER SIGN
+	= e-B57
 1F4A3	BOMB
+	= e-B58
 1F4A4	SLEEPING SIGN
+	= e-B59
 1F4A5	COLLISION SYMBOL
+	= e-B5A
 1F4A6	SPLASHING SWEAT
+	= e-B5B
 1F4A7	DRIP
+	= e-B5C
 1F4A8	DASH SYMBOL
 	= running dash
+	= e-B5D
+
 @		Miscellaneous symbols
 1F4A9	DUNG
 	= dog dirt
+	= e-4F4
+
 @		Comic style symbols
 1F4AA	FLEXED BICEP
 	= strong, muscled
+	= e-B5E
 1F4AB	DIZZY SYMBOL
 	= circling stars
+	= e-B5F
+
 @		Communication symbols
 1F4AC	SPEECH BALLOON
 	= comic book conversation bubble
+	= e-532
+
 @		School grade symbols
 1F4AE	WHITE FLOWER
 	= brilliant homework
+	= e-B7A
 1F4AF	HUNDRED POINTS SYMBOL
 	= perfect score
+	= e-B7B
+
 @		Money symbols
 1F4B0	MONEY BAG
+	= e-4DD
 1F4B1	CURRENCY EXCHANGE
+	= e-4DE
 1F4B2	HEAVY DOLLAR SIGN
+	= e-4E0
 1F4B3	CREDIT CARD
+	= e-4E1
 1F4B4	BANKNOTE WITH YEN SIGN
+	= e-4E2
 1F4B5	BANKNOTE WITH DOLLAR SIGN
+	= e-4E3
 1F4B8	MONEY WITH WINGS
+	= e-4E4
 1F4B9	CHART WITH UPWARDS TREND AND YEN SYMBOL
+	= e-4DF
+
 @		Office symbols
 1F4BA	SEAT
+	= e-537
 1F4BB	COMPUTER
+	= e-538
 1F4BC	BRIEFCASE
+	= e-53B
 1F4BD	MINI DISC
+	= e-53C
 1F4BE	FLOPPY DISK
+	= e-53D
+
 @		Media symbols
 1F4BF	OPTICAL DISK
+	= e-81D
 1F4C0	DVD
+	= e-81E
+
 @		Office symbols
 1F4C1	FILE FOLDER
+	= e-543
 1F4C2	OPEN FILE FOLDER
+	= e-544
 1F4C3	PAGE WITH CURL
+	= e-540
 1F4C4	PAGE FACING UP
+	= e-541
 1F4C5	CALENDAR
+	= e-542
 1F4C6	TEAR OFF CALENDAR
+	= e-549
 1F4C7	CARD INDEX
+	= e-54D
 1F4C8	CHART WITH UPWARDS TREND
+	= e-54B
 1F4C9	CHART WITH DOWNWARDS TREND
+	= e-54C
 1F4CA	BAR CHART
+	= e-54A
 1F4CB	CLIPBOARD
+	= e-548
 1F4CC	PUSHPIN
+	= e-54E
 1F4CD	ROUND PUSHPIN
+	= e-53F
 1F4CE	PAPERCLIP
+	= e-53A
 1F4CF	STRAIGHT RULER
+	= e-550
 1F4D0	TRIANGULAR RULER
+	= e-551
 1F4D1	BOOKMARK TABS
+	= e-552
 1F4D2	LEDGER
+	= e-54F
 1F4D3	NOTEBOOK
+	= e-545
 1F4D4	NOTEBOOK WITH DECORATIVE COVER
+	= e-547
+
 @		Miscellaneous symbols
 1F4D5	VERTICAL CLOSED BOOK
+	= e-502
+
 @		Office symbols
 1F4D6	OPEN BOOK
+	= e-546
+
 @		Miscellaneous symbols
 1F4D7	BOOK-1
+	= e-4FF
 1F4D8	BOOK-2
+	= e-500
 1F4D9	BOOK-3
+	= e-501
 1F4DA	BOOKS
+	= e-503
 1F4DB	NAME BADGE
+	= e-504
 1F4DC	SCROLL
+	= e-4FD
+
 @		Communication symbols
 1F4DD	MEMO
+	= e-527
 1F4DE	TELEPHONE RECEIVER
+	= e-524
 1F4DF	PAGER
+	= e-522
 1F4E0	FAX
+	= e-528
 1F4E1	SATELLITE ANTENNA
 	= position indicator, news
+	= e-531
 1F4E3	PUBLIC ADDRESS LOUDSPEAKER
+	= e-52F
 1F4E4	CHEERING MEGAPHONE
+	= e-530
 1F4E5	OUTBOX TRAY
+	= e-533
 1F4E6	INBOX TRAY
+	= e-534
 1F4E7	PACKAGE
+	= e-535
+
 @		UI symbols
 1F4E8	E-MAIL SYMBOL
+	= e-B92
+
 @		Communication symbols
 1F4E9	INCOMING ENVELOPE
 	x (envelope - 2709)
+	= e-52A
 1F4EA	ENVELOPE WITH ARROW
 	* sending mail
+	= e-52B
 1F4EB	MAILBOX
 	= letter box, mail reception
+	= e-52C
 1F4EC	MAILBOX WITH RAISED FLAG
+	= e-52D
 1F4ED	POSTBOX
 	= mailbox for sending mail
+	= e-52E
+
 @		Media symbols
 1F4EF	NEWSPAPER
+	= e-822
+
 @		Communication symbols
 1F4F0	MOBILE PHONE
+	= e-525
 1F4F1	PHONE WITH ARROW
 	* making a phone call
+	= e-526
 1F4F2	VIBRATION MODE
+	= e-839
 1F4F3	MOBILE PHONE OFF
+	= e-83A
 1F4F5	ANTENNA WITH BARS
 	= cellular reception
+	= e-838
 1F4F6	KEYCAP TEN
+	= e-83B
+
 @		Miscellaneous symbols
 1F4F7	CAMERA
+	= e-4EF
 1F4F8	VIDEO CAMERA
+	= e-4F9
+
 @		Media symbols
 1F4F9	TELEVISION
+	= e-81C
 1F4FA	RADIO
+	= e-81F
 1F4FB	VIDEO CASSETTE TAPE
+	= e-820
 1F4FF	SPEAKER WITH THREE SOUND WAVES
 	= sound
+	= e-821
+
 @		Other symbols with letters and digits
 1F500	FREE SIGN
 	= free postage
+	= e-B21
 1F501	NO ONE UNDER EIGHTEEN SIGN
+	= e-B25
 1F502	OK SIGN
+	= e-B27
 1F503	NO GOOD SIGN
+	= e-B28
 1F504	VS SIGN
 	= versus
+	= e-B32
 1F505	NEW SIGN
+	= e-B36
 1F506	UP SIGN
 	= new information, update
+	= e-B37
 1F507	COOL SIGN
+	= e-B38
 1F508	TOP WITH UP-POINTING TRIANGLE SIGN
 	= top of page
+	= e-B42
 1F509	SOS SIGN
 	= search, hunt for missing person
+	= e-B4F
+
 @		Time symbols
 1F50A	SOON WITH RIGHT ARROW ABOVE
+	= e-018
 1F50B	ON WITH DOUBLE POINTING ARROW ABOVE
+	= e-019
 1F50C	END WITH LEFT ARROW ABOVE
+	= e-01A
+
 @		UI symbols
 1F50D	BACK WITH LEFT ARROW ABOVE
+	= e-B8E
+
 @		UI input status symbols
 1F50E	LATIN CAPITAL LETTERS INPUT SYMBOL
+	= e-B7C
 1F50F	LATIN SMALL LETTERS INPUT SYMBOL
+	= e-B7D
 1F510	NUMBERS INPUT SYMBOL
+	= e-B7E
 1F511	SYMBOLS INPUT SYMBOL
+	= e-B7F
 1F512	LATIN LETTERS INPUT SYMBOL
 	= english input (ABC)
+	= e-B80
+
 @		UI symbols
 1F513	IDENTIFICATION SIGN
+	= e-B81
 1F514	CLEAR SIGN
+	= e-B84
 1F515	DOUBLE CLOCKWISE OPEN CIRCLE ARROWS
-	= reload
 	= clockwise upwards and downwards open circle arrows
+	= reload
+	= e-B91
+
 @		Miscellaneous symbols
 1F51E	BATTERY
+	= e-4FC
 1F51F	ELECTRIC PLUG
+	= e-4FE
+
 @		UI symbols
 1F520	LEFT-POINTING MAGNIFYING GLASS
 	= search
+	= e-B85
 1F521	RIGHT-POINTING MAGNIFYING GLASS
 	= get more details
+	= e-B8D
 1F522	LOCK WITH INK PEN
 	= privacy
+	= e-B90
 1F523	CLOSED LOCK WITH KEY
 	= secure
+	= e-B8A
 1F524	KEY
+	= e-B82
 1F525	RADIO BUTTON
+	= e-B8C
 1F526	BOOKMARK
+	= e-B8F
+
 @		Miscellaneous symbols
 1F527	LINK SYMBOL
+	= e-B4B
 1F528	FIRE
+	= e-4F6
 1F52A	FLASHLIGHT
 	= electric torch
+	= e-4FB
+
 @		Hardware symbols
 1F52B	WRENCH
+	= e-4C9
 1F52C	HAMMER
+	= e-4CA
 1F52D	NUT AND BOLT
+	= e-4CB
+
 @		Miscellaneous symbols
 1F52E	KNIFE
+	= e-4FA
 1F52F	PISTOL
+	= e-4F5
 1F532	CRYSTAL BALL
+	= e-4F7
 1F533	SIX POINTED STAR WITH MIDDLE DOT
+	= e-4F8
 1F534	JAPANESE SYMBOL FOR BEGINNER
+	= e-044
 1F535	TRIDENT EMBLEM
+	= e-4D2
 1F536	BLACK ROUNDED SQUARE
+	= e-BA3
 1F537	WHITE ROUNDED SQUARE
+	= e-B67
 1F538	LARGE CIRCLE-1
 	x (large circle - 25EF)
 	x (black large circle - 2B24)
+	= e-B63
 1F539	LARGE CIRCLE-2
 	x (large circle - 25EF)
 	x (heavy large circle - 2B55)
+	= e-B64
 1F53A	LARGE DIAMOND-1
+	= e-B73
 1F53B	LARGE DIAMOND-2
+	= e-B74
 1F53C	SMALL DIAMOND-1
+	= e-B75
 1F53D	SMALL DIAMOND-2
+	= e-B76
+
 @		UI symbols
 1F540	UP-POINTING TRIANGLE-1
+	= e-B78
 1F541	DOWN-POINTING TRIANGLE-1
+	= e-B79
 1F542	UP-POINTING SMALL TRIANGLE-1
 	= play arrow up
+	= e-B01
 1F543	DOWN-POINTING SMALL TRIANGLE-1
 	= play arrow down
+	= e-B00
 1F54B	LOCK
 	= padlock in locked position
+	= e-B86
 1F54C	OPEN LOCK
+	= e-B87
+
 @		Miscellaneous symbols
 1F54D	BELL
+	= e-4F2
+
 @		Time symbols
 1F550	CLOCK FACE ONE OCLOCK
+	= e-01E
 1F551	CLOCK FACE TWO OCLOCK
+	= e-01F
 1F552	CLOCK FACE THREE OCLOCK
+	= e-020
 1F553	CLOCK FACE FOUR OCLOCK
+	= e-021
 1F554	CLOCK FACE FIVE OCLOCK
+	= e-022
 1F555	CLOCK FACE SIX OCLOCK
+	= e-023
 1F556	CLOCK FACE SEVEN OCLOCK
+	= e-024
 1F557	CLOCK FACE EIGHT OCLOCK
+	= e-025
 1F558	CLOCK FACE NINE OCLOCK
+	= e-026
 1F559	CLOCK FACE TEN OCLOCK
+	= e-027
 1F55A	CLOCK FACE ELEVEN OCLOCK
+	= e-028
 1F55B	CLOCK FACE TWELVE OCLOCK
+	= e-029
+
 @		Emoji Compatibility symbols
 1F560	EMOJI COMPATIBILITY SYMBOL-1
 	= mount fuji
+	= e-4C3
 1F561	EMOJI COMPATIBILITY SYMBOL-2
 	= tokyo tower
+	= e-4C4
 1F562	EMOJI COMPATIBILITY SYMBOL-3
 	= statue of liberty
+	= e-4C6
 1F563	EMOJI COMPATIBILITY SYMBOL-4
 	= sketch of Japan
+	= e-4C7
 1F564	EMOJI COMPATIBILITY SYMBOL-5
 	= moyai
 	* japanese stone statue like Moai on Easter Island
+	= e-4C8
 1F565	EMOJI COMPATIBILITY SYMBOL-6
+	= e-4ED
 1F566	EMOJI COMPATIBILITY SYMBOL-7
+	= e-4E8
 1F567	EMOJI COMPATIBILITY SYMBOL-8
+	= e-4EB
 1F568	EMOJI COMPATIBILITY SYMBOL-9
+	= e-4E7
 1F569	EMOJI COMPATIBILITY SYMBOL-10
+	= e-4EA
 1F56A	EMOJI COMPATIBILITY SYMBOL-11
+	= e-4E9
 1F56B	EMOJI COMPATIBILITY SYMBOL-12
+	= e-4E5
 1F56C	EMOJI COMPATIBILITY SYMBOL-13
+	= e-4EE
 1F56D	EMOJI COMPATIBILITY SYMBOL-14
+	= e-4EC
 1F56E	EMOJI COMPATIBILITY SYMBOL-15
+	= e-4E6
 
-@@	1F600	Emoji Compatibility Symbols	1F64F
+@@	1F600	Emoticons	1F64F
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
 
 @		Faces used as emoticons
 1F600	ANGRY FACE
+	= e-320
 1F601	ANGUISHED FACE
+	= e-321
 1F602	ASTONISHED FACE
+	= e-322
 1F603	DISAPPOINTED FACE
+	= e-323
 1F604	DIZZY FACE
+	= e-324
 1F605	EXASPERATED FACE
+	= e-325
 1F606	EXPRESSIONLESS FACE
+	= e-326
 1F607	FACE WITH HEART SHAPED EYES
+	= e-327
 1F608	FACE WITH LOOK OF TRIUMPH
+	= e-328
 1F609	WINKING FACE WITH STUCK OUT TONGUE
+	= e-329
 1F60A	FACE WITH STUCK OUT TONGUE
+	= e-32A
 1F60B	FACE SAVORING DELICIOUS FOOD
+	= e-32B
 1F60C	FACE THROWING A KISS
+	= e-32C
 1F60D	FACE KISSING
+	= e-32D
 1F60E	FACE WITH MASK
+	= e-32E
 1F60F	FLUSHED FACE
+	= e-32F
 1F610	HAPPY FACE WITH OPEN MOUTH
+	= e-330
 1F611	HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT
+	= e-331
 1F612	HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES
+	= e-332
 1F613	HAPPY FACE WITH GRIN
+	= e-333
 1F614	HAPPY AND CRYING FACE
+	= e-334
 1F615	HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS
+	= e-335
 1F616	HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS
+	= e-338
 1F617	CRYING FACE
+	= e-339
 1F618	LOUDLY CRYING FACE
+	= e-33A
 1F619	FEARFUL FACE
+	= e-33B
 1F61A	PERSEVERING FACE
+	= e-33C
 1F61B	POUTING FACE
+	= e-33D
 1F61C	RELIEVED FACE
+	= e-33E
 1F61D	CONFOUNDED FACE
+	= e-33F
 1F61E	PENSIVE FACE
+	= e-340
 1F61F	FACE SCREAMING IN FEAR
+	= e-341
 1F620	SLEEPY FACE
+	= e-342
 1F621	SMIRKING FACE
+	= e-343
 1F622	FACE WITH COLD SWEAT
+	= e-344
 1F623	DISAPPOINTED BUT RELIEVED FACE
+	= e-345
 1F624	TIRED FACE
+	= e-346
 1F625	WINKING FACE
+	= e-347
+
 @		Cat faces used as emoticons
 1F62A	CAT FACE WITH OPEN MOUTH
+	= e-348
 1F62B	HAPPY CAT FACE WITH GRIN
+	= e-349
 1F62C	HAPPY AND CRYING CAT FACE
+	= e-34A
 1F62D	CAT FACE KISSING
+	= e-34B
 1F62E	CAT FACE WITH HEART SHAPED EYES
+	= e-34C
 1F62F	CRYING CAT FACE
+	= e-34D
 1F630	POUTING CAT FACE
+	= e-34E
 1F631	CAT FACE WITH TIGHTLY CLOSED LIPS
+	= e-34F
 1F632	ANGUISHED CAT FACE
+	= e-350
+
 @		Gesture symbols
 1F633	FACE WITH NO GOOD GESTURE
+	= e-351
 1F634	FACE WITH OK GESTURE
+	= e-352
 1F635	PERSON BOWING DEEPLY
+	= e-353
 1F636	SEE NO EVIL MONKEY
+	= e-354
 1F637	SPEAK NO EVIL MONKEY
+	= e-355
 1F638	HEAR NO EVIL MONKEY
+	= e-356
 1F639	PERSON RAISING ONE HAND
+	= e-357
 1F63A	PERSON RAISING BOTH HANDS IN CHEERS
+	= e-358
 1F63B	PERSON FROWNING
+	= e-359
 1F63C	PERSON WITH POUTING FACE
+	= e-35A
 1F63D	PERSON WITH FOLDED HANDS
+	= e-35B
+
+@@	1F680	Transport and Map symbols	1F6FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
+
+
 @		Transportation symbols
 1F680	ROCKET
+	= e-7ED
 1F684	HIGH-SPEED TRAIN
+	= e-7E2
 1F685	HIGH-SPEED TRAIN WITH BULLET NOSE
+	= e-7E3
 1F686	TRAIN
 	= intercity train
+	= e-7DF
 1F687	SUBWAY
 	= underground train
+	= e-7E0
 1F689	STATION
 	= train, subway station
+	= e-7EC
 1F68D	BUS-2
+	= e-7E6
 1F68F	BUS STOP
+	= e-7E7
 1F691	AMBULANCE
+	= e-7F3
 1F692	FIRE ENGINE
+	= e-7F2
 1F693	POLICE CAR-1
+	= e-7F4
 1F695	TAXI-1
+	= e-7EF
 1F697	AUTOMOBILE-1
+	= e-7E4
 1F699	RECREATIONAL VEHICLE
+	= e-7E5
 1F69A	TRUCK
+	= e-7F1
 1F6A2	SHIP
 	x (ferry - 26F4)
+	= e-7E8
 1F6A4	SPEEDBOAT
+	= e-7EE
+
 @		Traffic signs
 1F6A5	HORIZONTAL TRAFFIC LIGHT
+	= e-7F7
 1F6A7	CONSTRUCTION SIGN
+	= e-7F8
 1F6A8	POLICE CARS REVOLVING LIGHT
 	= rotating beacon
+	= e-7F9
+
 @		Miscellaneous symbols
 1F6A9	TRIANGULAR FLAG ON POST
 	= location information
+	= e-B22
 1F6AA	DOOR
+	= e-4F3
 1F6AB	NO ENTRY SIGN
 	x (no entry - 26D4)
+	= e-B48
 1F6AC	SMOKING SYMBOL
+	= e-B1E
 1F6AD	NO SMOKING SYMBOL
+	= e-B1F
+
 @		Transportation symbols
 1F6B2	BICYCLE
+	= e-7EB
 1F6B6	PEDESTRIAN
 	= walking
+	= e-7F0
+
 @		Miscellaneous symbols
 1F6B9	MENS SYMBOL
-	= men's restroom
 	= man symbol
+	= men's restroom
+	= e-B33
 1F6BA	WOMENS SYMBOL
-	= women's restroom
 	= woman symbol
+	= women's restroom
+	= e-B34
+
 @		Bath symbols
 1F6BB	RESTROOM
 	= man and woman symbol with divider
+	= e-506
+
 @		Miscellaneous symbols
 1F6BC	BABY SYMBOL
 	= baby on board, baby changing station
+	= e-B35
+
 @		Bath symbols
 1F6BD	BATH
+	= e-505
 1F6BF	TOILET
+	= e-507
 1F6C0	WATER CLOSET
+	= e-508

@@ -33,61 +33,91 @@ _BLOCK_HEADINGS = {
   0x23E9: """
 @@\t2300\tMiscellaneous Technical\t23FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: Nxxxx, L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
 
 """,
   0x2705: """
 @@\t2700\tDingbats\t27BF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer, German NB
 ;; document: Nxxxx, L2/09-021
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
 
 """,
   0x2E32: """
 @@\t2E00\tSupplemental Punctuation\t2E7F
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: Nxxxx, L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
+""",
+  0x1F0CF: """
+@@\t1F0A0\tPlaying Cards\t1F0FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
+
+""",
+  0x1F170: """
+@@\t1F100\tEnclosed Alphanumeric Supplement\t1F1FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
 
 """,
   0x1F201: """
 @@\t1F200\tEnclosed Ideographic Supplement\t1F2FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
 
 """,
   0x1F300: """
 @@\t1F300\tMiscellaneous Pictographic Symbols\t1F5FF
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
 
 """,
   0x1F600: """
-@@\t1F600\tEmoji Compatibility Symbols\t1F64F
+@@\t1F600\tEmoticons\t1F64F
 ;; UTC: 2009-02-06
-;; WG2: --
+;; WG2: $$$$
 ;; contact: Markus Scherer
 ;; document: L2/09-026
-;; font: --
-;; target: Amd7
+;; font: Apple Emoji
+;; target: Amd8
+
+""",
+  0x1F680: """
+@@\t1F680\tTransport and Map symbols\t1F6FF
+;; UTC: 2009-02-06
+;; WG2: $$$$
+;; contact: Markus Scherer
+;; document: L2/09-026
+;; font: Apple Emoji
+;; target: Amd8
 
 """}
 
@@ -103,12 +133,13 @@ def _WriteNamesList(writer):
     if block_heading: writer.write(block_heading)
     subcategory_name = symbol.subcategory.name
     if prev_subcategory_name != subcategory_name:
-      writer.write("@\t\t%s\n" % subcategory_name)
+      writer.write("\n@\t\t%s\n" % subcategory_name)
       prev_subcategory_name = subcategory_name
     uni = symbol.GetProposedUnicode()
     writer.write("%s\t%s\n" % (uni, symbol.GetName()))
     for line in symbol.GetAnnotations():
       writer.write("\t%s\n" % line)
+    writer.write("\t= e-%s\n" % symbol.id)
   writer.close()
 
 
