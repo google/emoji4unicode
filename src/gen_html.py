@@ -579,14 +579,14 @@ def _NameAnnotationHTML(e4u_symbol):
       show_everson = True
   name = e4u_symbol.GetName()
   lines = [name]
+  old_name = e4u_symbol.GetOldName()
   if show_everson:
     everson_name = everson.GetName(e4u_symbol.id)
-    if everson_name != name:
+    if everson_name != name or (old_name and everson_name != old_name):
       lines.append(u"<span class='everson_name_anno'>" +
                    _EversonDocAndChangeString(
                        everson.id_to_name_change.get(e4u_symbol.id)) +
                    u": " + everson_name + u"</span>")
-  old_name = e4u_symbol.GetOldName()
   if old_name:
       lines.append(u"<span class='old_name'>Old name: " + old_name + u"</span>")
   arib = e4u_symbol.GetARIB()
