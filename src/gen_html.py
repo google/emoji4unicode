@@ -257,11 +257,6 @@ def _WriteEmoji4UnicodeHTML(writer):
                           "not part of the Emoji proposal.)")
     _WriteSingleCelledRow(writer, "category", category_string)
     for subcategory in category.GetSubcategories():
-      if not subcategory.in_proposal and _only_in_proposal:
-        continue  # Skip this subcategory.
-      _WriteSingleCelledRow(writer,
-                            "subcategory",
-                            "%s (%s)" % (subcategory.name, category.name))
       symbols = []
       for symbol in subcategory.GetSymbols():
         if not symbol.in_proposal and _only_in_proposal:
@@ -273,7 +268,11 @@ def _WriteEmoji4UnicodeHTML(writer):
           number_symbols_new += 1
         number_symbols_in_chart += 1
         symbols.append(symbol)
-      _WriteFullSymbolRowsHTML(writer, symbols)
+      if symbols:
+        _WriteSingleCelledRow(writer,
+                              "subcategory",
+                              "%s (%s)" % (subcategory.name, category.name))
+        _WriteFullSymbolRowsHTML(writer, symbols)
   writer.write("</table>\n")
   writer.write("<p class='report'>Number of symbols in this chart: %d</p>\n" %
                number_symbols_in_chart)
