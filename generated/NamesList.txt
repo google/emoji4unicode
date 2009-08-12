@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2009-08-03
+@@@+	2009-08-11
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -506,8 +506,8 @@
 1F3A4	MICROPHONE
 	= karaoke
 	= e-800
-1F3A5	MOVIES
-	= film, movie projector
+1F3A5	MOVIE CAMERA
+	= film, movies
 	= e-801
 1F3A6	CINEMA
 	= movie theater, movie projector
@@ -597,8 +597,6 @@
 	= e-7DA
 1F3C6	TROPHY
 	= e-7DB
-1F3C7	HORSE RACING
-	= e-7DC
 1F3C8	AMERICAN FOOTBALL
 	= e-7DD
 1F3CA	SWIMMER
@@ -733,6 +731,11 @@
 	= e-1E1
 1F42B	LADYBUG
 	= e-1E2
+
+@		Sport symbols
+1F438	HORSE
+	* zodiac 7
+	= e-7DC
 
 @		Facial parts symbols
 1F440	EYES
@@ -981,7 +984,7 @@
 	= e-4F4
 
 @		Comic style symbols
-1F4AA	FLEXED BICEP
+1F4AA	FLEXED BICEPS
 	= strong, muscled
 	= e-B5E
 1F4AB	DIZZY SYMBOL
@@ -1405,6 +1408,10 @@
 1F56E	EMOJI COMPATIBILITY SYMBOL-15
 	= e-4E6
 
+@		Emoji compatibility symbols
+1F56F	EMOJI COMPATIBILITY SYMBOL-16
+	= e-82B
+
 @@	1F600	Emoticons	1F64F
 ;; UTC: 2009-02-06
 ;; WG2: $$$$
@@ -1577,7 +1584,7 @@
 	= e-7E4
 1F699	RECREATIONAL VEHICLE
 	= e-7E5
-1F69A	TRUCK
+1F69A	DELIVERY TRUCK
 	= e-7F1
 1F6A2	SHIP
 	x (ferry - 26F4)

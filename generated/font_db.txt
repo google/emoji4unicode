@@ -380,7 +380,7 @@
 383	E7D9	5	Activities/Work/Entertainment	Sport symbols	RUNNER		
 384	E7DA	5	Activities/Work/Entertainment	Sport symbols	SURFER		
 385	E7DB	5	Activities/Work/Entertainment	Sport symbols	TROPHY	a gold cup	
-386	E7DC	5	Activities/Work/Entertainment	Sport symbols	HORSE RACING		
+386	E7DC	5	Activities/Work/Entertainment	Sport symbols	HORSE		
 387	E7DD	5	Activities/Work/Entertainment	Sport symbols	AMERICAN FOOTBALL		
 388	E7DE	5	Activities/Work/Entertainment	Sport symbols	SWIMMER	swimming	
 389	E7DF	5	Activities/Work/Entertainment	Transportation symbols	TRAIN		
@@ -399,7 +399,7 @@
 402	E7EE	5	Activities/Work/Entertainment	Transportation symbols	SPEEDBOAT	motorboat racing	
 403	E7EF	5	Activities/Work/Entertainment	Transportation symbols	TAXI-1	a car with light sign on the roof	
 404	E7F0	5	Activities/Work/Entertainment	Transportation symbols	PEDESTRIAN		
-405	E7F1	5	Activities/Work/Entertainment	Transportation symbols	TRUCK		
+405	E7F1	5	Activities/Work/Entertainment	Transportation symbols	DELIVERY TRUCK		
 406	E7F2	5	Activities/Work/Entertainment	Transportation symbols	FIRE ENGINE		
 407	E7F3	5	Activities/Work/Entertainment	Transportation symbols	AMBULANCE		
 408	E7F4	5	Activities/Work/Entertainment	Transportation symbols	POLICE CAR-1		
@@ -414,7 +414,7 @@
 417	E7FE	5	Activities/Work/Entertainment	Entertainment symbols	ROLLER COASTER		
 418	E7FF	5	Activities/Work/Entertainment	Entertainment symbols	FISHING		
 419	E800	5	Activities/Work/Entertainment	Entertainment symbols	MICROPHONE		
-420	E801	5	Activities/Work/Entertainment	Entertainment symbols	MOVIES	movie projector, video camera	
+420	E801	5	Activities/Work/Entertainment	Entertainment symbols	MOVIE CAMERA	movie projector, video camera	
 421	E802	5	Activities/Work/Entertainment	Entertainment symbols	CINEMA		
 422	E803	5	Activities/Work/Entertainment	Entertainment symbols	HEADPHONE		
 423	E804	5	Activities/Work/Entertainment	Entertainment symbols	ART		
@@ -575,7 +575,7 @@
 576	EB5B	7	Abstract Concepts	Comic style symbols	SPLASHING SWEAT	Sweat	
 577	EB5C	7	Abstract Concepts	Comic style symbols	DRIP	sweat drip; tear drop	
 578	EB5D	7	Abstract Concepts	Comic style symbols	DASH SYMBOL	Dash (running dash … the cloud of dust left behind)	
-579	EB5E	7	Abstract Concepts	Comic style symbols	FLEXED BICEP		
+579	EB5E	7	Abstract Concepts	Comic style symbols	FLEXED BICEPS		
 580	EB5F	7	Abstract Concepts	Comic style symbols	DIZZY SYMBOL		
 581	EB60	7	Abstract Concepts	Miscellaneous symbols	SPARKLES	sparkling new	
 582	EB63	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-1	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+2B58 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
@@ -681,5 +681,5 @@
 687	EE7C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-62	Original name: J-PHONE 2	**Symbol no longer proposed for new encoding**
 688	EE7D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-63	Original name: J-PHONE 3	**Symbol no longer proposed for new encoding**
 625	E4C5	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	**Symbol no longer proposed for new encoding**
-461	E82B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-65	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	**Symbol no longer proposed for new encoding**
+461	E82B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-16	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
 463	E82D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-66	Original name: MOBILE Q. Mobile Q service	**Symbol no longer proposed for new encoding**

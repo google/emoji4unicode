@@ -964,7 +964,9 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="385" google="FE7DB" id="7DB" img_from="kddi" kddi="E5D3" name="TROPHY" softbank="E131" text_fallback="[トロフィー]" unicode="+1F3C6">
 <desc>a gold cup</desc>
 </e>
-<e docomo="&gt;E754" glyphRefID="386" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE RACING" softbank="E134" unicode="+1F3C7"/>
+<e docomo="&gt;E754" glyphRefID="386" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE" softbank="E134" unicode="+1F438">
+<ann>* zodiac 7</ann>
+</e>
 <e glyphRefID="387" google="FE7DD" id="7DD" img_from="kddi" kddi="E4BB" name="AMERICAN FOOTBALL" softbank="E42B" text_fallback="[フットボール]" unicode="+1F3C8"/>
 <e glyphRefID="388" google="FE7DE" id="7DE" img_from="kddi" kddi="EADE" name="SWIMMER" softbank="E42D" text_fallback="[水泳]" unicode="+1F3CA">
 <desc>swimming</desc>
@@ -1018,7 +1020,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="&gt;E733" glyphRefID="404" google="FE7F0" id="7F0" img_from="kddi" kddi="EB72" name="PEDESTRIAN" oldname="WALKER" softbank="E201" unicode="+1F6B6">
 <ann>= walking</ann>
 </e>
-<e glyphRefID="405" google="FE7F1" id="7F1" img_from="kddi" kddi="E4B2" name="TRUCK" softbank="E42F" text_fallback="[トラック]" unicode="+1F69A"/>
+<e glyphRefID="405" google="FE7F1" id="7F1" img_from="kddi" kddi="E4B2" name="DELIVERY TRUCK" softbank="E42F" text_fallback="[トラック]" unicode="+1F69A"/>
 <e glyphRefID="406" google="FE7F2" id="7F2" img_from="kddi" kddi="EADF" name="FIRE ENGINE" softbank="E430" text_fallback="[消防車]" unicode="+1F692"/>
 <e glyphRefID="407" google="FE7F3" id="7F3" img_from="kddi" kddi="EAE0" name="AMBULANCE" softbank="E431" text_fallback="[救急車]" unicode="+1F691"/>
 <e glyphRefID="408" google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="POLICE CAR-1" oldname="POLICE CAR" softbank="E432" text_fallback="[パトカー]" unicode="+1F693"/>
@@ -1056,8 +1058,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="E676" glyphRefID="419" google="FE800" id="800" img_from="docomo" kddi="E503" name="MICROPHONE" softbank="E03C" unicode="+1F3A4">
 <ann>= karaoke</ann>
 </e>
-<e docomo="E677" glyphRefID="420" google="FE801" id="801" img_from="docomo" kddi="E517" name="MOVIES" softbank="E03D" unicode="+1F3A5">
-<ann>= film, movie projector</ann>
+<e docomo="E677" glyphRefID="420" google="FE801" id="801" img_from="docomo" kddi="E517" name="MOVIE CAMERA" softbank="E03D" unicode="+1F3A5">
+<ann>= film, movies</ann>
 <desc>movie projector, video camera</desc>
 </e>
 <e docomo="&gt;E677" glyphRefID="421" google="FE802" id="802" img_from="softbank" kddi="&gt;E517" name="CINEMA" oldname="MOVIE THEATER" softbank="E507" unicode="+1F3A6">
@@ -1675,7 +1677,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= running dash</ann>
 <desc>Dash (running dash &#x2026; the cloud of dust left behind)</desc>
 </e>
-<e glyphRefID="579" google="FEB5E" id="B5E" img_from="kddi" kddi="E4E9" name="FLEXED BICEP" softbank="E14C" text_fallback="[力こぶ]" unicode="+1F4AA">
+<e glyphRefID="579" google="FEB5E" id="B5E" img_from="kddi" kddi="E4E9" name="FLEXED BICEPS" softbank="E14C" text_fallback="[力こぶ]" unicode="+1F4AA">
 <ann>= strong, muscled</ann>
 </e>
 <e glyphRefID="580" google="FEB5F" id="B5F" img_from="kddi" kddi="EB5C" name="DIZZY SYMBOL" softbank="&gt;E407" text_fallback="[クラクラ]" unicode="+1F4AB">
@@ -2094,7 +2096,7 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <e glyphRefID="625" google="FE4C5" id="4C5" img_from="softbank" name="EMOJI COMPATIBILITY SYMBOL-64" softbank="E50A">
 <desc>Original name: SHIBUYA; department store by Tokyu Group for young girls/women</desc>
 </e>
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" name="EMOJI COMPATIBILITY SYMBOL-65" softbank="E211" text_fallback="[フリーダイヤル]">
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="yes" name="EMOJI COMPATIBILITY SYMBOL-16" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+1F56F">
 <desc>Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.</desc>
 </e>
 <e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="EMOJI COMPATIBILITY SYMBOL-66" text_fallback="[Q]">
