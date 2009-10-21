@@ -14,9 +14,9 @@
 17	E014	1	Nature	Moon symbols	CRESCENT MOON	Not unified with ☽ U+263D or ☾ U+263E. (Japanese carriers don't pay attention which quarter moon their symbols refer to.)	
 18	E015	1	Nature	Moon symbols	FULL MOON SYMBOL		
 19	E016	1	Nature	Moon symbols	FIRST QUARTER MOON WITH FACE	(KDDI's with face)	
-21	E018	1	Nature	Time symbols	SOON WITH RIGHT ARROW ABOVE	soon	
-22	E019	1	Nature	Time symbols	ON WITH DOUBLE POINTING ARROW ABOVE		
-23	E01A	1	Nature	Time symbols	END WITH LEFT ARROW ABOVE		
+21	E018	1	Nature	Time symbols	SOON WITH RIGHTWARDS ARROW ABOVE	soon	
+22	E019	1	Nature	Time symbols	ON WITH LEFT RIGHT ARROW ABOVE		
+23	E01A	1	Nature	Time symbols	END WITH LEFTWARDS ARROW ABOVE		
 24	E01B	1	Nature	Time symbols	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.	
 25	E01E	1	Nature	Time symbols	CLOCK FACE ONE OCLOCK		
 26	E01F	1	Nature	Time symbols	CLOCK FACE TWO OCLOCK		
@@ -56,7 +56,7 @@
 61	E04E	1	Nature	Plant symbols	HERB		
 62	E04F	1	Nature	Fruit symbols	CHERRIES		
 63	E050	1	Nature	Fruit symbols	BANANA		
-64	E051	1	Nature	Fruit symbols	APPLE-1	Usually in red color	
+64	E051	1	Nature	Fruit symbols	RED APPLE	Usually in red color	
 65	E052	1	Nature	Fruit symbols	TANGERINE	Mikan, Orange	
 66	E053	1	Nature	Fruit symbols	STRAWBERRY		
 67	E054	1	Nature	Fruit symbols	WATERMELON		
@@ -66,24 +66,24 @@
 71	E058	1	Nature	Fruit symbols	PINEAPPLE		
 72	E059	1	Nature	Fruit symbols	GRAPES		
 73	E05A	1	Nature	Fruit symbols	PEACH		
-74	E05B	1	Nature	Fruit symbols	APPLE-2	Usually in green color	
+74	E05B	1	Nature	Fruit symbols	GREEN APPLE	Usually in green color	
 75	E190	2	Human/Living Things	Facial parts symbols	EYES		
 76	E191	2	Human/Living Things	Facial parts symbols	EAR		
 77	E192	2	Human/Living Things	Facial parts symbols	NOSE		
 78	E193	2	Human/Living Things	Facial parts symbols	MOUTH		
 79	E194	2	Human/Living Things	Facial parts symbols	TONGUE		
 80	E195	2	Human/Living Things	Personal care symbols	LIPSTICK		
-81	E196	2	Human/Living Things	Personal care symbols	NAIL CARE		
+81	E196	2	Human/Living Things	Personal care symbols	NAIL POLISH		
 82	E197	2	Human/Living Things	Personal care symbols	FACE MASSAGE		
 83	E198	2	Human/Living Things	Personal care symbols	HAIRCUT		The glyph needs to represent a female as this Emoji refers to a beauty parlor.
 84	E199	2	Human/Living Things	Personal care symbols	BARBER POLE		
 85	E19A	2	Human/Living Things	Miscellaneous symbol	BUST IN SILHOUETTE		
-86	E19B	2	Human/Living Things	Portrait and role symbols	BOYS HEAD	? Need to examine cross mapping	
-87	E19C	2	Human/Living Things	Portrait and role symbols	GIRLS HEAD		
-88	E19D	2	Human/Living Things	Portrait and role symbols	MANS HEAD		
-89	E19E	2	Human/Living Things	Portrait and role symbols	WOMANS HEAD		
+86	E19B	2	Human/Living Things	Portrait and role symbols	BOY	? Need to examine cross mapping	
+87	E19C	2	Human/Living Things	Portrait and role symbols	GIRL		
+88	E19D	2	Human/Living Things	Portrait and role symbols	MAN		
+89	E19E	2	Human/Living Things	Portrait and role symbols	WOMAN		
 90	E19F	2	Human/Living Things	Portrait and role symbols	FAMILY		
-91	E1A0	2	Human/Living Things	Portrait and role symbols	COUPLE	A couple holding hands	
+91	E1A0	2	Human/Living Things	Portrait and role symbols	MAN AND WOMAN HOLDING HANDS	A couple holding hands	
 92	E1A1	2	Human/Living Things	Portrait and role symbols	POLICE OFFICER	represents the police (Note: there is also just a police cap icon by Softbank.)	
 93	E1A2	2	Human/Living Things	Portrait and role symbols	WOMAN WITH BUNNY EARS	a showgirl?	
 94	E1A3	2	Human/Living Things	Portrait and role symbols	BRIDE WITH VEIL		
@@ -95,10 +95,10 @@
 100	E1A9	2	Human/Living Things	Portrait and role symbols	BABY		
 101	E1AA	2	Human/Living Things	Portrait and role symbols	CONSTRUCTION WORKER	here this is male	
 102	E1AB	2	Human/Living Things	Fairy tale symbols	PRINCESS		
-103	E1AC	2	Human/Living Things	Fairy tale symbols	OGRE	In Japanese, "Oni" - could be a red or blue faced demon. Also refers to "Namahage" - a local year-end event in Akita.	
-104	E1AD	2	Human/Living Things	Fairy tale symbols	GOBLIN	In Japanese "Tengu" [天狗] (long-nosed goblin, braggart)	
+103	E1AC	2	Human/Living Things	Fairy tale symbols	JAPANESE OGRE	In Japanese, "Oni" - could be a red or blue faced demon. Also refers to "Namahage" - a local year-end event in Akita.	
+104	E1AD	2	Human/Living Things	Fairy tale symbols	JAPANESE GOBLIN	In Japanese "Tengu" [天狗] (long-nosed goblin, braggart)	
 105	E1AE	2	Human/Living Things	Fairy tale symbols	GHOST	Ghost (cute)	
-106	E1AF	2	Human/Living Things	Fairy tale symbols	CHERUB		
+106	E1AF	2	Human/Living Things	Fairy tale symbols	BABY ANGEL		
 107	E1B0	2	Human/Living Things	Fairy tale symbols	EXTRATERRESTRIAL ALIEN	Alien (big eyed type), or UFO	
 108	E1B1	2	Human/Living Things	Fairy tale symbols	ALIEN MONSTER	Alien (monster type)	
 109	E1B2	2	Human/Living Things	Fairy tale symbols	IMP	Devil (cute)	
@@ -149,7 +149,7 @@
 154	E1DF	2	Human/Living Things	Animal symbols	PANDA FACE		
 155	E1E0	2	Human/Living Things	Animal symbols	PIG NOSE		
 156	E1E1	2	Human/Living Things	Animal symbols	HONEYBEE		
-157	E1E2	2	Human/Living Things	Animal symbols	LADYBUG		
+157	E1E2	2	Human/Living Things	Animal symbols	LADY BEETLE		
 158	E320	3	Faces and Smiley's	Faces used as emoticons	ANGRY FACE		
 159	E321	3	Faces and Smiley's	Faces used as emoticons	ANGUISHED FACE	Forms a pair with e-350.	
 160	E322	3	Faces and Smiley's	Faces used as emoticons	ASTONISHED FACE	Surprise, astonishment	
@@ -157,11 +157,11 @@
 162	E324	3	Faces and Smiley's	Faces used as emoticons	DIZZY FACE		
 163	E325	3	Faces and Smiley's	Faces used as emoticons	EXASPERATED FACE	Exasperated, frustrated, impatient (sweating)	
 164	E326	3	Faces and Smiley's	Faces used as emoticons	EXPRESSIONLESS FACE	KDDI has side-look animation	
-165	E327	3	Faces and Smiley's	Faces used as emoticons	FACE WITH HEART SHAPED EYES	Forms a pair with e-34C. used to indicate the state of being in love	
+165	E327	3	Faces and Smiley's	Faces used as emoticons	FACE WITH HEART-SHAPED EYES	Forms a pair with e-34C. used to indicate the state of being in love	
 166	E328	3	Faces and Smiley's	Faces used as emoticons	FACE WITH LOOK OF TRIUMPH		
-167	E329	3	Faces and Smiley's	Faces used as emoticons	WINKING FACE WITH STUCK OUT TONGUE		
-168	E32A	3	Faces and Smiley's	Faces used as emoticons	FACE WITH STUCK OUT TONGUE	with eyelids pulled down for additional effect	
-169	E32B	3	Faces and Smiley's	Faces used as emoticons	FACE SAVORING DELICIOUS FOOD	tastes delicious	
+167	E329	3	Faces and Smiley's	Faces used as emoticons	WINKING FACE WITH STUCK-OUT TONGUE		
+168	E32A	3	Faces and Smiley's	Faces used as emoticons	FACE WITH STUCK-OUT TONGUE	with eyelids pulled down for additional effect	
+169	E32B	3	Faces and Smiley's	Faces used as emoticons	FACE SAVOURING DELICIOUS FOOD	tastes delicious	
 170	E32C	3	Faces and Smiley's	Faces used as emoticons	FACE THROWING A KISS	kiss	
 171	E32D	3	Faces and Smiley's	Faces used as emoticons	FACE KISSING	Forms a pair with e-34B. Puckered lips 2 (more forceful kiss, eyes squinting)	
 172	E32E	3	Faces and Smiley's	Faces used as emoticons	FACE WITH MASK	Under the weather (wearing a breathing mask)	
@@ -192,29 +192,29 @@
 197	E349	3	Faces and Smiley's	Cat faces used as emoticons	HAPPY CAT FACE WITH GRIN	Forms a pair with e-333. Hee hee hee	
 198	E34A	3	Faces and Smiley's	Cat faces used as emoticons	HAPPY AND CRYING CAT FACE	Forms a pair with e-334. Tears of joy	
 199	E34B	3	Faces and Smiley's	Cat faces used as emoticons	CAT FACE KISSING	Forms a pair with e-32D. Kissing action.	
-200	E34C	3	Faces and Smiley's	Cat faces used as emoticons	CAT FACE WITH HEART SHAPED EYES	Forms a pair with e-327. Heart shaped eyes (in love)	
+200	E34C	3	Faces and Smiley's	Cat faces used as emoticons	CAT FACE WITH HEART-SHAPED EYES	Forms a pair with e-327. Heart shaped eyes (in love)	
 201	E34D	3	Faces and Smiley's	Cat faces used as emoticons	CRYING CAT FACE	Forms a pair with e-339. Crying (one or two tears)	
 202	E34E	3	Faces and Smiley's	Cat faces used as emoticons	POUTING CAT FACE	Forms a pair with e-33D.	
-203	E34F	3	Faces and Smiley's	Cat faces used as emoticons	CAT FACE WITH TIGHTLY CLOSED LIPS	Smart confidence	
+203	E34F	3	Faces and Smiley's	Cat faces used as emoticons	CAT FACE WITH TIGHTLY-CLOSED LIPS	Smart confidence	
 204	E350	3	Faces and Smiley's	Cat faces used as emoticons	ANGUISHED CAT FACE	Forms a pair with e-321.	
 205	E351	3	Faces and Smiley's	Gesture symbols	FACE WITH NO GOOD GESTURE	No good	
 206	E352	3	Faces and Smiley's	Gesture symbols	FACE WITH OK GESTURE	OK (arms raised, making an "O") . A person or a cat	
 207	E353	3	Faces and Smiley's	Gesture symbols	PERSON BOWING DEEPLY	Very truly sorry, a cat or person	
-208	E354	3	Faces and Smiley's	Gesture symbols	SEE NO EVIL MONKEY		
-209	E355	3	Faces and Smiley's	Gesture symbols	SPEAK NO EVIL MONKEY		
-210	E356	3	Faces and Smiley's	Gesture symbols	HEAR NO EVIL MONKEY		
+208	E354	3	Faces and Smiley's	Gesture symbols	SEE-NO-EVIL MONKEY		
+209	E355	3	Faces and Smiley's	Gesture symbols	SPEAK-NO-EVIL MONKEY		
+210	E356	3	Faces and Smiley's	Gesture symbols	HEAR-NO-EVIL MONKEY		
 211	E357	3	Faces and Smiley's	Gesture symbols	PERSON RAISING ONE HAND	act of raising a hand	
-212	E358	3	Faces and Smiley's	Gesture symbols	PERSON RAISING BOTH HANDS IN CHEERS	banzai, raising both hands	
+212	E358	3	Faces and Smiley's	Gesture symbols	PERSON RAISING BOTH HANDS IN CELEBRATION	banzai, raising both hands	
 213	E359	3	Faces and Smiley's	Gesture symbols	PERSON FROWNING	dejected	
 214	E35A	3	Faces and Smiley's	Gesture symbols	PERSON WITH POUTING FACE	cute pouting face	
 215	E35B	3	Faces and Smiley's	Gesture symbols	PERSON WITH FOLDED HANDS	"Sorry" or "Please"	
 216	E4B0	4	Artifacts	Building symbols	HOUSE BUILDING	similar to English "house" = "building"	
-217	E4B1	4	Artifacts	Building symbols	HOUSE WITH YARD	similar to English "home" = "where one belongs to"	
+217	E4B1	4	Artifacts	Building symbols	HOUSE WITH GARDEN	similar to English "home" = "where one belongs to"	
 218	E4B2	4	Artifacts	Building symbols	OFFICE BUILDING		
 219	E4B3	4	Artifacts	Building symbols	JAPANESE POST OFFICE	* U+3012 POSTAL MARK = ARIB-9108	
 621	E4B4	4	Artifacts	Building symbols	HOSPITAL	disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers have a cross on a building while ARIB-9109 is a cross on a shield. (Note: may be controversial in Islamic and Jewish cultures)	
 220	E4B5	4	Artifacts	Building symbols	BANK	may contain "BK" or "Bank" letters; related to ⛻ U+26FB = ARIB-9144	
-221	E4B6	4	Artifacts	Building symbols	ATM		
+221	E4B6	4	Artifacts	Building symbols	AUTOMATED TELLER MACHINE		
 222	E4B7	4	Artifacts	Building symbols	HOTEL	a building with "H"; related to U+1F157 = ARIB-9129	
 223	E4B8	4	Artifacts	Building symbols	LOVE HOTEL	Note: usually Japanese love hotel	
 224	E4B9	4	Artifacts	Building symbols	CONVENIENCE STORE	Convenience Store (stylized "24" to indicate 24 hours)	
@@ -223,19 +223,19 @@
 227	E4BC	4	Artifacts	Building symbols	FOUNTAIN		**Symbol no longer proposed for new encoding**
 228	E4BD	4	Artifacts	Building symbols	DEPARTMENT STORE		
 229	E4BE	4	Artifacts	Building symbols	JAPANESE CASTLE		
-230	E4BF	4	Artifacts	Building symbols	WESTERN CASTLE		
+230	E4BF	4	Artifacts	Building symbols	EUROPEAN CASTLE		
 231	E4C0	4	Artifacts	Building symbols	FACTORY		
 232	E4C2	4	Artifacts	Building symbols	IZAKAYA LANTERN	Japanese izakaya restaurant for drinking, characteristic red lantern	
-233	E4C3	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-1		
-234	E4C4	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-2		
-235	E4C6	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-3		
-236	E4C7	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-4		
-237	E4C8	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-5	Japanese stone statue like Moai on Easter Island, famous one in Shibuya, Tokyo	
+233	E4C3	4	Artifacts	Emoji Compatibility symbols	MOUNT FUJI		
+234	E4C4	4	Artifacts	Emoji Compatibility symbols	TOKYO TOWER		
+235	E4C6	4	Artifacts	Emoji Compatibility symbols	STATUE OF LIBERTY		
+236	E4C7	4	Artifacts	Emoji Compatibility symbols	SILHOUETTE OF JAPAN		
+237	E4C8	4	Artifacts	Emoji Compatibility symbols	MOYAI	Japanese stone statue like Moai on Easter Island, famous one in Shibuya, Tokyo	
 238	E4C9	4	Artifacts	Hardware symbols	WRENCH		
 239	E4CA	4	Artifacts	Hardware symbols	HAMMER	mallet	
 240	E4CB	4	Artifacts	Hardware symbols	NUT AND BOLT		
 241	E4CC	4	Artifacts	Clothes and wearables	MANS SHOE		
-242	E4CD	4	Artifacts	Clothes and wearables	SNEAKER		
+242	E4CD	4	Artifacts	Clothes and wearables	ATHLETIC SHOE		
 251	E4D6	4	Artifacts	Clothes and wearables	HIGH-HEELED SHOE		
 252	E4D7	4	Artifacts	Clothes and wearables	WOMANS SANDAL	woman's sandal with open toe, slipper	
 253	E4D8	4	Artifacts	Clothes and wearables	WOMANS BOOTS	usually woman's boots	
@@ -252,7 +252,7 @@
 257	E4DC	4	Artifacts	Clothes and wearables	PURSE		
 258	E4DD	4	Artifacts	Money symbols	MONEY BAG	a bag with a dollar or yen sign	
 259	E4DE	4	Artifacts	Money symbols	CURRENCY EXCHANGE	$ and ¥ signs, exchange rate	
-260	E4DF	4	Artifacts	Money symbols	CHART WITH UPWARDS TREND AND YEN SYMBOL	stock market, stock prices	
+260	E4DF	4	Artifacts	Money symbols	CHART WITH UPWARDS TREND AND YEN SIGN	stock market, stock prices	
 261	E4E0	4	Artifacts	Money symbols	HEAVY DOLLAR SIGN	disunified from $ U+0024 DOLLAR SIGN	
 262	E4E1	4	Artifacts	Money symbols	CREDIT CARD		
 263	E4E2	4	Artifacts	Money symbols	BANKNOTE WITH YEN SIGN	a check, a sign indicating "not free"	
@@ -273,21 +273,21 @@
 278	E4F1	4	Artifacts	Miscellaneous symbols	POUCH		
 279	E4F2	4	Artifacts	Miscellaneous symbols	BELL		
 280	E4F3	4	Artifacts	Miscellaneous symbols	DOOR		
-281	E4F4	4	Artifacts	Miscellaneous symbols	DUNG		
+281	E4F4	4	Artifacts	Miscellaneous symbols	PILE OF POO		
 282	E4F5	4	Artifacts	Miscellaneous symbols	PISTOL	action genre	
 283	E4F6	4	Artifacts	Miscellaneous symbols	FIRE		
 284	E4F7	4	Artifacts	Miscellaneous symbols	CRYSTAL BALL	fortune telling, zodiacs	
 285	E4F8	4	Artifacts	Miscellaneous symbols	SIX POINTED STAR WITH MIDDLE DOT	zodiacs, fortune telling	
 286	E4F9	4	Artifacts	Miscellaneous symbols	VIDEO CAMERA	handycam, videocam	
-287	E4FA	4	Artifacts	Miscellaneous symbols	KNIFE		
-288	E4FB	4	Artifacts	Miscellaneous symbols	FLASHLIGHT		
+287	E4FA	4	Artifacts	Miscellaneous symbols	HOCHO		
+288	E4FB	4	Artifacts	Miscellaneous symbols	ELECTRIC TORCH		
 289	E4FC	4	Artifacts	Miscellaneous symbols	BATTERY		
 290	E4FD	4	Artifacts	Miscellaneous symbols	SCROLL	scroll a window on a computer	
 291	E4FE	4	Artifacts	Miscellaneous symbols	ELECTRIC PLUG	wall outlet	
-292	E4FF	4	Artifacts	Miscellaneous symbols	BOOK-1	green colored book (closed)	
-293	E500	4	Artifacts	Miscellaneous symbols	BOOK-2	blue colored book (closed)	
-294	E501	4	Artifacts	Miscellaneous symbols	BOOK-3	orange colored book (closed)	
-295	E502	4	Artifacts	Miscellaneous symbols	VERTICAL CLOSED BOOK	vertical closed book	
+292	E4FF	4	Artifacts	Miscellaneous symbols	GREEN BOOK	green colored book (closed)	
+293	E500	4	Artifacts	Miscellaneous symbols	BLUE BOOK	blue colored book (closed)	
+294	E501	4	Artifacts	Miscellaneous symbols	ORANGE BOOK	orange colored book (closed)	
+295	E502	4	Artifacts	Miscellaneous symbols	CLOSED BOOK	vertical closed book	
 296	E503	4	Artifacts	Miscellaneous symbols	BOOKS	multiple, a stack of books	
 297	E504	4	Artifacts	Miscellaneous symbols	NAME BADGE		
 298	E505	4	Artifacts	Bath symbols	BATH		
@@ -304,30 +304,30 @@
 309	E510	4	Artifacts	Celebration symbols	WRAPPED PRESENT		
 310	E511	4	Artifacts	Celebration symbols	BIRTHDAY CAKE	birthday	
 311	E512	4	Artifacts	Celebration symbols	CHRISTMAS TREE		
-312	E513	4	Artifacts	Celebration symbols	SANTA CLAUS		
+312	E513	4	Artifacts	Celebration symbols	FATHER CHRISTMAS		
 313	E514	4	Artifacts	Celebration symbols	CROSSED FLAGS		
 314	E515	4	Artifacts	Celebration symbols	FIREWORKS		
 315	E516	4	Artifacts	Celebration symbols	BALLOON		
 316	E517	4	Artifacts	Celebration symbols	PARTY POPPER		
 317	E518	4	Artifacts	Celebration symbols	PINE DECORATION	(門松)	
-318	E519	4	Artifacts	Celebration symbols	GIRLS DOLL FESTIVAL	雛祭り: Japanese Hinamatsuri	
+318	E519	4	Artifacts	Celebration symbols	JAPANESE DOLLS	雛祭り: Japanese Hinamatsuri	
 319	E51A	4	Artifacts	Celebration symbols	GRADUATION CAP		
 320	E51B	4	Artifacts	Celebration symbols	SCHOOL SATCHEL		
 321	E51C	4	Artifacts	Celebration symbols	CARP STREAMER		
 322	E51D	4	Artifacts	Celebration symbols	FIREWORK SPARKLER	"Senkoo Hanabi" in Japanese	
 323	E51E	4	Artifacts	Celebration symbols	WIND CHIME	Wind chime, wind bell (風鈴)	
-324	E51F	4	Artifacts	Celebration symbols	JACK O LANTERN		
+324	E51F	4	Artifacts	Celebration symbols	JACK-O-LANTERN		
 325	E520	4	Artifacts	Celebration symbols	CONFETTI BALL	Ornamental bag or decorative ball that opens up. Sometimes used to express "Congratulations!"	
 326	E521	4	Artifacts	Celebration symbols	TANABATA TREE	(七夕笹飾り)	
 20	E017	4	Artifacts	Celebration symbols	MOON VIEWING CEREMONY	Moon viewing (お月見)	
 327	E522	4	Artifacts	Communication symbols	PAGER		
 328	E524	4	Artifacts	Communication symbols	TELEPHONE RECEIVER		
 329	E525	4	Artifacts	Communication symbols	MOBILE PHONE		
-330	E526	4	Artifacts	Communication symbols	PHONE WITH ARROW		
+330	E526	4	Artifacts	Communication symbols	MOBILE PHONE WITH RIGHTWARDS ARROW LEFT		
 331	E527	4	Artifacts	Communication symbols	MEMO		
-332	E528	4	Artifacts	Communication symbols	FAX		
+332	E528	4	Artifacts	Communication symbols	FAX MACHINE		
 333	E52A	4	Artifacts	Communication symbols	INCOMING ENVELOPE	Mail (with cartoon movement marks). Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
-334	E52B	4	Artifacts	Communication symbols	ENVELOPE WITH ARROW	Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
+334	E52B	4	Artifacts	Communication symbols	ENVELOPE WITH DOWNWARDS ARROW ABOVE	Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
 335	E52C	4	Artifacts	Communication symbols	MAILBOX		
 336	E52D	4	Artifacts	Communication symbols	MAILBOX WITH RAISED FLAG		
 337	E52E	4	Artifacts	Communication symbols	POSTBOX		
@@ -338,16 +338,16 @@
 342	E533	4	Artifacts	Communication symbols	OUTBOX TRAY		
 343	E534	4	Artifacts	Communication symbols	INBOX TRAY		
 344	E535	4	Artifacts	Communication symbols	PACKAGE		
-345	EB7C	4	Artifacts	UI input status symbols	LATIN CAPITAL LETTERS INPUT SYMBOL	Letters (ABCD, uppercase)	
-346	EB7D	4	Artifacts	UI input status symbols	LATIN SMALL LETTERS INPUT SYMBOL	Letters (abcd, lowercase)	
-347	EB7E	4	Artifacts	UI input status symbols	NUMBERS INPUT SYMBOL	Numbers (1234)	
-348	EB7F	4	Artifacts	UI input status symbols	SYMBOLS INPUT SYMBOL	Symbols (〒, ♪, @, %)	
-349	EB80	4	Artifacts	UI input status symbols	LATIN LETTERS INPUT SYMBOL	English (ABC)	
+345	EB7C	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN CAPITAL LETTERS	Letters (ABCD, uppercase)	
+346	EB7D	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN SMALL LETTERS	Letters (abcd, lowercase)	
+347	EB7E	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR NUMBERS	Numbers (1234)	
+348	EB7F	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR SYMBOLS	Symbols (〒, ♪, @, %)	
+349	EB80	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN LETTERS	English (ABC)	
 350	E537	4	Artifacts	Office symbols	SEAT		the glyph should look more like SoftBank #264
 351	E538	4	Artifacts	Office symbols	COMPUTER		
 352	E53A	4	Artifacts	Office symbols	PAPERCLIP		
 353	E53B	4	Artifacts	Office symbols	BRIEFCASE		
-354	E53C	4	Artifacts	Office symbols	MINI DISC	MD mini disc	
+354	E53C	4	Artifacts	Office symbols	MINIDISC	MD mini disc	
 355	E53D	4	Artifacts	Office symbols	FLOPPY DISK		
 356	E53F	4	Artifacts	Office symbols	ROUND PUSHPIN		
 357	E540	4	Artifacts	Office symbols	PAGE WITH CURL		
@@ -359,7 +359,7 @@
 363	E546	4	Artifacts	Office symbols	OPEN BOOK	open book, open notebook	
 364	E547	4	Artifacts	Office symbols	NOTEBOOK WITH DECORATIVE COVER		
 365	E548	4	Artifacts	Office symbols	CLIPBOARD		
-366	E549	4	Artifacts	Office symbols	TEAR OFF CALENDAR		
+366	E549	4	Artifacts	Office symbols	TEAR-OFF CALENDAR		
 367	E54A	4	Artifacts	Office symbols	BAR CHART	bar graph	
 368	E54B	4	Artifacts	Office symbols	CHART WITH UPWARDS TREND		
 369	E54C	4	Artifacts	Office symbols	CHART WITH DOWNWARDS TREND		
@@ -372,10 +372,10 @@
 376	E553	4	Artifacts	Miscellaneous symbol	FOOTPRINTS	single or multiple footprints	
 377	E7D0	5	Activities/Work/Entertainment	Sport symbols	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
 378	E7D2	5	Activities/Work/Entertainment	Sport symbols	FLAG IN HOLE	Unified with U+26F3 = ARIB-9126; Amd 6 and Unicode 5.2. Golf (DoCoMo is golf club, others are the green and flag).	**Symbol no longer proposed for new encoding**
-379	E7D3	5	Activities/Work/Entertainment	Sport symbols	TENNIS	racket and ball, or player	
-622	E7D5	5	Activities/Work/Entertainment	Sport symbols	SKIING	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
-380	E7D6	5	Activities/Work/Entertainment	Sport symbols	BASKETBALL	ball and hoop	
-381	E7D7	5	Activities/Work/Entertainment	Sport symbols	CHECKERED FLAG	motor sports, goal	
+379	E7D3	5	Activities/Work/Entertainment	Sport symbols	TENNIS RACQUET AND BALL	racket and ball, or player	
+622	E7D5	5	Activities/Work/Entertainment	Sport symbols	SKI AND SKI BOOT	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
+380	E7D6	5	Activities/Work/Entertainment	Sport symbols	BASKETBALL AND HOOP	ball and hoop	
+381	E7D7	5	Activities/Work/Entertainment	Sport symbols	CHEQUERED FLAG	motor sports, goal	
 382	E7D8	5	Activities/Work/Entertainment	Sport symbols	SNOWBOARDER	snow boarding	
 383	E7D9	5	Activities/Work/Entertainment	Sport symbols	RUNNER		
 384	E7DA	5	Activities/Work/Entertainment	Sport symbols	SURFER		
@@ -388,21 +388,21 @@
 391	E7E1	5	Activities/Work/Entertainment	Transportation symbols	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Transportation symbols	HIGH-SPEED TRAIN		
 393	E7E3	5	Activities/Work/Entertainment	Transportation symbols	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
-394	E7E4	5	Activities/Work/Entertainment	Transportation symbols	AUTOMOBILE-1	sedan	
+394	E7E4	5	Activities/Work/Entertainment	Transportation symbols	AUTOMOBILE	sedan	
 395	E7E5	5	Activities/Work/Entertainment	Transportation symbols	RECREATIONAL VEHICLE	wagon	
-396	E7E6	5	Activities/Work/Entertainment	Transportation symbols	BUS-2		
+396	E7E6	5	Activities/Work/Entertainment	Transportation symbols	ONCOMING BUS		
 397	E7E7	5	Activities/Work/Entertainment	Transportation symbols	BUS STOP		
 398	E7E8	5	Activities/Work/Entertainment	Transportation symbols	SHIP		
 399	E7EB	5	Activities/Work/Entertainment	Transportation symbols	BICYCLE		
 400	E7EC	5	Activities/Work/Entertainment	Transportation symbols	STATION		
 401	E7ED	5	Activities/Work/Entertainment	Transportation symbols	ROCKET		
 402	E7EE	5	Activities/Work/Entertainment	Transportation symbols	SPEEDBOAT	motorboat racing	
-403	E7EF	5	Activities/Work/Entertainment	Transportation symbols	TAXI-1	a car with light sign on the roof	
+403	E7EF	5	Activities/Work/Entertainment	Transportation symbols	TAXI	a car with light sign on the roof	
 404	E7F0	5	Activities/Work/Entertainment	Transportation symbols	PEDESTRIAN		
 405	E7F1	5	Activities/Work/Entertainment	Transportation symbols	DELIVERY TRUCK		
 406	E7F2	5	Activities/Work/Entertainment	Transportation symbols	FIRE ENGINE		
 407	E7F3	5	Activities/Work/Entertainment	Transportation symbols	AMBULANCE		
-408	E7F4	5	Activities/Work/Entertainment	Transportation symbols	POLICE CAR-1		
+408	E7F4	5	Activities/Work/Entertainment	Transportation symbols	POLICE CAR		
 409	E7F5	5	Activities/Work/Entertainment	Driving	FUEL PUMP		**Symbol no longer proposed for new encoding**
 410	E7F6	5	Activities/Work/Entertainment	Driving	NEGATIVE SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
 411	E7F7	5	Activities/Work/Entertainment	Traffic signs	HORIZONTAL TRAFFIC LIGHT		
@@ -412,16 +412,16 @@
 415	E7FC	5	Activities/Work/Entertainment	Entertainment symbols	CAROUSEL HORSE		
 416	E7FD	5	Activities/Work/Entertainment	Entertainment symbols	FERRIS WHEEL		
 417	E7FE	5	Activities/Work/Entertainment	Entertainment symbols	ROLLER COASTER		
-418	E7FF	5	Activities/Work/Entertainment	Entertainment symbols	FISHING		
+418	E7FF	5	Activities/Work/Entertainment	Entertainment symbols	FISHING POLE AND FISH		
 419	E800	5	Activities/Work/Entertainment	Entertainment symbols	MICROPHONE		
 420	E801	5	Activities/Work/Entertainment	Entertainment symbols	MOVIE CAMERA	movie projector, video camera	
 421	E802	5	Activities/Work/Entertainment	Entertainment symbols	CINEMA		
 422	E803	5	Activities/Work/Entertainment	Entertainment symbols	HEADPHONE		
-423	E804	5	Activities/Work/Entertainment	Entertainment symbols	ART		
+423	E804	5	Activities/Work/Entertainment	Entertainment symbols	ARTIST PALETTE		
 424	E805	5	Activities/Work/Entertainment	Entertainment symbols	TOP HAT		
-425	E806	5	Activities/Work/Entertainment	Entertainment symbols	EVENT		
+425	E806	5	Activities/Work/Entertainment	Entertainment symbols	CIRCUS TENT		
 426	E807	5	Activities/Work/Entertainment	Entertainment symbols	TICKET		
-427	E808	5	Activities/Work/Entertainment	Entertainment symbols	MOVIE SHOOTING CLAPBOARD		
+427	E808	5	Activities/Work/Entertainment	Entertainment symbols	CLAPPER BOARD		
 428	E809	5	Activities/Work/Entertainment	Entertainment symbols	PERFORMING ARTS		
 429	E80A	5	Activities/Work/Entertainment	Game symbols	VIDEO GAME		
 430	E80C	5	Activities/Work/Entertainment	Game symbols	DIRECT HIT		
@@ -441,10 +441,10 @@
 444	E81A	5	Activities/Work/Entertainment	Music symbols	MUSICAL SCORE		
 445	E81B	5	Activities/Work/Entertainment	Music symbols	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
 446	E81C	5	Activities/Work/Entertainment	Media symbols	TELEVISION		
-447	E81D	5	Activities/Work/Entertainment	Media symbols	OPTICAL DISK		
+447	E81D	5	Activities/Work/Entertainment	Media symbols	OPTICAL DISC		
 448	E81E	5	Activities/Work/Entertainment	Media symbols	DVD		
 449	E81F	5	Activities/Work/Entertainment	Media symbols	RADIO		
-450	E820	5	Activities/Work/Entertainment	Media symbols	VIDEO CASSETTE TAPE		
+450	E820	5	Activities/Work/Entertainment	Media symbols	VIDEOCASSETTE		
 451	E821	5	Activities/Work/Entertainment	Media symbols	SPEAKER WITH THREE SOUND WAVES		
 452	E822	5	Activities/Work/Entertainment	Media symbols	NEWSPAPER		
 453	E823	5	Activities/Work/Entertainment	Romance symbols	KISS MARK		
@@ -468,14 +468,14 @@
 473	E965	6	Foods	Food symbols	COOKING		
 474	E966	6	Foods	Food symbols	SOFT ICE CREAM		
 475	E967	6	Foods	Food symbols	FRENCH FRIES		
-476	E968	6	Foods	Food symbols	DUMPLING		
+476	E968	6	Foods	Food symbols	DANGO		
 477	E969	6	Foods	Food symbols	RICE CRACKER	Japanese rice cracker (senbei)	
 478	E96A	6	Foods	Food symbols	COOKED RICE		
 479	E96B	6	Foods	Food symbols	SPAGHETTI		
 480	E96C	6	Foods	Food symbols	CURRY AND RICE		
-481	E96D	6	Foods	Food symbols	SEAFOOD CASSEROLE	seafood hotchpotch, oden	
+481	E96D	6	Foods	Food symbols	ODEN	seafood hotchpotch, oden	
 482	E96E	6	Foods	Food symbols	SUSHI	nigiri sushi	
-483	E96F	6	Foods	Food symbols	LUNCHBOX	obento	
+483	E96F	6	Foods	Food symbols	BENTO BOX	obento	
 484	E970	6	Foods	Food symbols	POT OF FOOD	hot pot, nabe	
 485	E971	6	Foods	Food symbols	SHAVED ICE		
 486	E972	6	Foods	Food symbols	MEAT ON BONE	food	
@@ -504,24 +504,24 @@
 509	EAFF	7	Abstract Concepts	UI symbols	BLACK LEFT-POINTING DOUBLE TRIANGLE		
 513	EB03	7	Abstract Concepts	UI symbols	BLACK UP-POINTING DOUBLE TRIANGLE	Fast forward (up)	
 512	EB02	7	Abstract Concepts	UI symbols	BLACK DOWN-POINTING DOUBLE TRIANGLE	Fast forward (down)	
-590	EB78	7	Abstract Concepts	UI symbols	UP-POINTING TRIANGLE-1	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
-591	EB79	7	Abstract Concepts	UI symbols	DOWN-POINTING TRIANGLE-1	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
-511	EB01	7	Abstract Concepts	UI symbols	UP-POINTING SMALL TRIANGLE-1	disunified from U+25B2 due to source separation rule (Shift_JIS).	
-510	EB00	7	Abstract Concepts	UI symbols	DOWN-POINTING SMALL TRIANGLE-1	disunified from U+25BC due to source separation rule (Shift_JIS).	
+590	EB78	7	Abstract Concepts	UI symbols	UP-POINTING RED TRIANGLE	Triangle (pointing up). disunified from U+25B2 due to source separation rule (Shift_JIS).	
+591	EB79	7	Abstract Concepts	UI symbols	DOWN-POINTING RED TRIANGLE	Triangle (pointing down). disunified from U+25BC due to source separation rule (Shift_JIS).	
+511	EB01	7	Abstract Concepts	UI symbols	UP-POINTING SMALL RED TRIANGLE	disunified from U+25B2 due to source separation rule (Shift_JIS).	
+510	EB00	7	Abstract Concepts	UI symbols	DOWN-POINTING SMALL RED TRIANGLE	disunified from U+25BC due to source separation rule (Shift_JIS).	
 515	EB09	7	Abstract Concepts	Punctuation	BLACK QUESTION MARK ORNAMENT		
 516	EB0A	7	Abstract Concepts	Punctuation	WHITE QUESTION MARK ORNAMENT	moving question mark	
 517	EB0B	7	Abstract Concepts	Punctuation	WHITE EXCLAMATION MARK ORNAMENT	moving exclamation mark	
-514	EB08	7	Abstract Concepts	Length mark	LOOPED LENGTH MARK	a line with a loop; new compatibility character, see e-B07=U+3030	
+514	EB08	7	Abstract Concepts	Length mark	CURLY LOOP	a line with a loop; new compatibility character, see e-B07=U+3030	
 518	EB0D	7	Abstract Concepts	Heart symbols	BEATING HEART	pulsating heart	
 519	EB0E	7	Abstract Concepts	Heart symbols	BROKEN HEART	breaking or broken heart	
 520	EB0F	7	Abstract Concepts	Heart symbols	TWO HEARTS	two hearts	
 521	EB10	7	Abstract Concepts	Heart symbols	SPARKLING HEART	sparkling heart	
 522	EB11	7	Abstract Concepts	Heart symbols	GROWING HEART	heart growing bigger	
 523	EB12	7	Abstract Concepts	Heart symbols	HEART WITH ARROW	heart with an arrow through it	
-524	EB13	7	Abstract Concepts	Heart symbols	HEART-1	Heart with blue color	
-525	EB14	7	Abstract Concepts	Heart symbols	HEART-2	Heart with green color	
-526	EB15	7	Abstract Concepts	Heart symbols	HEART-3	Heart with yellow color	
-527	EB16	7	Abstract Concepts	Heart symbols	HEART-4	Heart with purple color	
+524	EB13	7	Abstract Concepts	Heart symbols	BLUE HEART	Heart with blue color	
+525	EB14	7	Abstract Concepts	Heart symbols	GREEN HEART	Heart with green color	
+526	EB15	7	Abstract Concepts	Heart symbols	YELLOW HEART	Heart with yellow color	
+527	EB16	7	Abstract Concepts	Heart symbols	PURPLE HEART	Heart with purple color	
 528	EB17	7	Abstract Concepts	Heart symbols	HEART WITH RIBBON	Valentine's (heart with ribbon, or candy with heart)	
 529	EB18	7	Abstract Concepts	Heart symbols	REVOLVING HEARTS	cute	
 530	EB19	7	Abstract Concepts	Heart symbols	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
@@ -537,19 +537,19 @@
 538	EB35	7	Abstract Concepts	Miscellaneous symbols	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
 539	EB45	7	Abstract Concepts	Miscellaneous symbols	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. disunified from ✕ U+2715	
 540	EB46	7	Abstract Concepts	Miscellaneous symbols	NEGATIVE SQUARED CROSS MARK	Another X (orange background)	
-541	EB48	7	Abstract Concepts	Miscellaneous symbols	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
+541	EB48	7	Abstract Concepts	Miscellaneous symbols	SIGN INDICATING FORBIDDEN ACTIVITY	Prohibited (circle with diagonal slash); Do not enter	
 542	EB4A	7	Abstract Concepts	Miscellaneous symbols	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
 543	EB4B	7	Abstract Concepts	Miscellaneous symbols	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
-544	EB21	7	Abstract Concepts	Other symbols with letters and digits	FREE SIGN	a letter sign Free of Charge	
+544	EB21	7	Abstract Concepts	Other symbols with letters and digits	SQUARED FREE	a letter sign Free of Charge	
 545	EB25	7	Abstract Concepts	Other symbols with letters and digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
-546	EB27	7	Abstract Concepts	Other symbols with letters and digits	OK SIGN	a stamp, seal, button for approval	
-547	EB28	7	Abstract Concepts	Other symbols with letters and digits	NO GOOD SIGN	no good, NG	
-548	EB32	7	Abstract Concepts	Other symbols with letters and digits	VS SIGN		
-549	EB36	7	Abstract Concepts	Other symbols with letters and digits	NEW SIGN	a stamp, seal, sign	
-550	EB37	7	Abstract Concepts	Other symbols with letters and digits	UP SIGN	site renewed, updated, new information	
-551	EB38	7	Abstract Concepts	Other symbols with letters and digits	COOL SIGN	cool!; hip	
-552	EB42	7	Abstract Concepts	Other symbols with letters and digits	TOP WITH UP-POINTING TRIANGLE SIGN		
-553	EB4F	7	Abstract Concepts	Other symbols with letters and digits	SOS SIGN		
+546	EB27	7	Abstract Concepts	Other symbols with letters and digits	SQUARED OK	a stamp, seal, button for approval	
+547	EB28	7	Abstract Concepts	Other symbols with letters and digits	SQUARED NG	no good, NG	
+548	EB32	7	Abstract Concepts	Other symbols with letters and digits	SQUARED VS		
+549	EB36	7	Abstract Concepts	Other symbols with letters and digits	SQUARED NEW	a stamp, seal, sign	
+550	EB37	7	Abstract Concepts	Other symbols with letters and digits	SQUARED UP WITH EXCLAMATION MARK	site renewed, updated, new information	
+551	EB38	7	Abstract Concepts	Other symbols with letters and digits	SQUARED COOL	cool!; hip	
+552	EB42	7	Abstract Concepts	Other symbols with letters and digits	TOP WITH UPWARDS TRIANGLE SIGN		
+553	EB4F	7	Abstract Concepts	Other symbols with letters and digits	SQUARED SOS		
 554	EB24	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
 563	EB3F	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
 555	EB2E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
@@ -568,30 +568,30 @@
 569	EB54	7	Abstract Concepts	Arithmetic symbols	HEAVY DIVISION SIGN	disunified from ÷ U+00F7	
 570	EB55	7	Abstract Concepts	Comic style symbols	DIAMOND SHAPE WITH A DOT INSIDE	Cute (pink diamond shaped thing)	
 571	EB56	7	Abstract Concepts	Comic style symbols	ELECTRIC LIGHT BULB		
-572	EB57	7	Abstract Concepts	Comic style symbols	ANGER SIGN	Angry (comic book style symbol where a punch lands)	
+572	EB57	7	Abstract Concepts	Comic style symbols	ANGER SYMBOL	Angry (comic book style symbol where a punch lands)	
 573	EB58	7	Abstract Concepts	Comic style symbols	BOMB	Bomb (about to blow up)	
-574	EB59	7	Abstract Concepts	Comic style symbols	SLEEPING SIGN	Sleepy ("zzz")	
+574	EB59	7	Abstract Concepts	Comic style symbols	SLEEPING SYMBOL	Sleepy ("zzz")	
 575	EB5A	7	Abstract Concepts	Comic style symbols	COLLISION SYMBOL	Bump (collision)	
-576	EB5B	7	Abstract Concepts	Comic style symbols	SPLASHING SWEAT	Sweat	
-577	EB5C	7	Abstract Concepts	Comic style symbols	DRIP	sweat drip; tear drop	
+576	EB5B	7	Abstract Concepts	Comic style symbols	SPLASHING SWEAT SYMBOL	Sweat	
+577	EB5C	7	Abstract Concepts	Comic style symbols	DROP OF WATER	sweat drip; tear drop	
 578	EB5D	7	Abstract Concepts	Comic style symbols	DASH SYMBOL	Dash (running dash … the cloud of dust left behind)	
 579	EB5E	7	Abstract Concepts	Comic style symbols	FLEXED BICEPS		
 580	EB5F	7	Abstract Concepts	Comic style symbols	DIZZY SYMBOL		
 581	EB60	7	Abstract Concepts	Miscellaneous symbols	SPARKLES	sparkling new	
-582	EB63	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-1	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+2B58 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
-623	EB64	7	Abstract Concepts	Miscellaneous symbols	LARGE CIRCLE-2	Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
-583	EBA3	7	Abstract Concepts	Miscellaneous symbols	BLACK ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
-584	EB67	7	Abstract Concepts	Miscellaneous symbols	WHITE ROUNDED SQUARE		Same shapes for e-BA3 and e-B67.
+582	EB63	7	Abstract Concepts	Miscellaneous symbols	LARGE RED CIRCLE	Large circle (red). Disunified from ○ U+25CB and ◯ U+25EF due to source separation rule (Shift_JIS). Disunified from ARIB-9104=U+2B58 HEAVY CIRCLE because of different semantics. Not "WHITE LARGE CIRCLE" because the counterpart to ⬤ U+2B24 BLACK LARGE CIRCLE is ◯ LARGE CIRCLE.	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+623	EB64	7	Abstract Concepts	Miscellaneous symbols	LARGE BLUE CIRCLE	Large circle (blue). disunified from U+25CF due to source separation rule (Shift_JIS).	Same basic shape as for ⬤ U+2B24 BLACK LARGE CIRCLE.
+583	EBA3	7	Abstract Concepts	Miscellaneous symbols	BLACK SQUARE BUTTON		Same shapes for e-BA3 and e-B67.
+584	EB67	7	Abstract Concepts	Miscellaneous symbols	WHITE SQUARE BUTTON		Same shapes for e-BA3 and e-B67.
 585	EB69	7	Abstract Concepts	Miscellaneous symbols	GLOWING STAR	Animated pulsating star in orange color	
 586	EB6A	7	Abstract Concepts	Miscellaneous symbols	SHOOTING STAR	Animated glowing star in blue color	
-587	EB73	7	Abstract Concepts	Miscellaneous symbols	LARGE DIAMOND-1	Large diamond (orange). disunified from ◇ U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).	
-588	EB74	7	Abstract Concepts	Miscellaneous symbols	LARGE DIAMOND-2	Large diamond (blue). disunified from ◆ U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).	
-589	EB75	7	Abstract Concepts	Miscellaneous symbols	SMALL DIAMOND-1	Small diamond (orange).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
-624	EB76	7	Abstract Concepts	Miscellaneous symbols	SMALL DIAMOND-2	Small diamond (blue).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
+587	EB73	7	Abstract Concepts	Miscellaneous symbols	LARGE ORANGE DIAMOND	Large diamond (orange). disunified from ◇ U+25C7 WHITE DIAMOND due to source separation rule (Shift_JIS).	
+588	EB74	7	Abstract Concepts	Miscellaneous symbols	LARGE BLUE DIAMOND	Large diamond (blue). disunified from ◆ U+25C6 BLACK DIAMOND due to source separation rule (Shift_JIS).	
+589	EB75	7	Abstract Concepts	Miscellaneous symbols	SMALL ORANGE DIAMOND	Small diamond (orange).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
+624	EB76	7	Abstract Concepts	Miscellaneous symbols	SMALL BLUE DIAMOND	Small diamond (blue).	Same basic shape as ⬩ U+2B29 BLACK SMALL DIAMOND
 592	EB7A	7	Abstract Concepts	School grade symbols	WHITE FLOWER	❀ U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for "brilliant!" (花丸)	
 593	EB7B	7	Abstract Concepts	School grade symbols	HUNDRED POINTS SYMBOL	100 (perfect score), e.g. school exam	
-594	EB81	7	Abstract Concepts	UI symbols	IDENTIFICATION SIGN	ID ("ID" stamp)	
-596	EB84	7	Abstract Concepts	UI symbols	CLEAR SIGN	Clear ("CL" stamp)	
+594	EB81	7	Abstract Concepts	UI symbols	SQUARED ID	ID ("ID" stamp)	
+596	EB84	7	Abstract Concepts	UI symbols	SQUARED CL	Clear ("CL" stamp)	
 597	EB85	7	Abstract Concepts	UI symbols	LEFT-POINTING MAGNIFYING GLASS		
 598	EB8D	7	Abstract Concepts	UI symbols	RIGHT-POINTING MAGNIFYING GLASS		
 599	EB86	7	Abstract Concepts	UI symbols	LOCK	Lock (closed padlock)	
@@ -600,23 +600,23 @@
 601	EB8A	7	Abstract Concepts	UI symbols	CLOSED LOCK WITH KEY	(lock with certificate)	
 595	EB82	7	Abstract Concepts	UI symbols	KEY	Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.	
 602	EB8C	7	Abstract Concepts	UI symbols	RADIO BUTTON	Selected radio button	
-603	EB8E	7	Abstract Concepts	UI symbols	BACK WITH LEFT ARROW ABOVE	Back (left arrow with "BACK")	
+603	EB8E	7	Abstract Concepts	UI symbols	BACK WITH LEFTWARDS ARROW ABOVE	Back (left arrow with "BACK")	
 604	EB8F	7	Abstract Concepts	UI symbols	BOOKMARK	Bookmark list ("お気に入り")	
-606	EB91	7	Abstract Concepts	UI symbols	DOUBLE CLOCKWISE OPEN CIRCLE ARROWS		
+606	EB91	7	Abstract Concepts	UI symbols	CLOCKWISE UPWARDS AND DOWNWARDS OPEN CIRCLE ARROWS		
 607	EB92	7	Abstract Concepts	UI symbols	E-MAIL SYMBOL	Email (Envelope with "E")	
 608	EB93	7	Abstract Concepts	Miscellaneous symbols	RAISED FIST		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
 609	EB95	7	Abstract Concepts	Miscellaneous symbols	RAISED HAND		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
-610	EB96	7	Abstract Concepts	Hand signal symbols	FISTED HAND		
+610	EB96	7	Abstract Concepts	Hand signal symbols	FISTED HAND SIGN		
 611	EB97	7	Abstract Concepts	Hand signal symbols	THUMBS UP SIGN		
 612	EB99	7	Abstract Concepts	Hand signal symbols	WHITE UP POINTING BACKHAND INDEX	Up	Similar to ☝ U+261D WHITE UP POINTING INDEX but showing the back of the hand instead of the palm side.
 613	EB9A	7	Abstract Concepts	Hand signal symbols	WHITE DOWN POINTING BACKHAND INDEX	Down	Similar to ☟ U+261F WHITE DOWN POINTING INDEX but showing the back of the hand instead of the palm side.
 614	EB9B	7	Abstract Concepts	Hand signal symbols	WHITE LEFT POINTING BACKHAND INDEX	Left	Similar to ☜ U+261C WHITE LEFT POINTING INDEX but showing the back of the hand instead of the palm side.
 615	EB9C	7	Abstract Concepts	Hand signal symbols	WHITE RIGHT POINTING BACKHAND INDEX	Right	Similar to ☞ U+261E WHITE RIGHT POINTING INDEX but showing the back of the hand instead of the palm side.
-616	EB9D	7	Abstract Concepts	Hand signal symbols	WAVING HAND	Waving hello	
-617	EB9E	7	Abstract Concepts	Hand signal symbols	CLAPPING HANDS	Clapping	
+616	EB9D	7	Abstract Concepts	Hand signal symbols	WAVING HAND SIGN	Waving hello	
+617	EB9E	7	Abstract Concepts	Hand signal symbols	CLAPPING HANDS SIGN	Clapping	
 618	EB9F	7	Abstract Concepts	Hand signal symbols	OK HAND SIGN	OK sign	
 619	EBA0	7	Abstract Concepts	Hand signal symbols	THUMBS DOWN SIGN	Thumbs down	
-620	EBA1	7	Abstract Concepts	Hand signal symbols	OPEN HANDS	Ohhaa! Good morning gesture. Open hands with the money sign	
+620	EBA1	7	Abstract Concepts	Hand signal symbols	OPEN HANDS SIGN	Ohhaa! Good morning gesture. Open hands with the money sign	
 626	EE10	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-1	Original name: I-MODE	**Symbol no longer proposed for new encoding**
 627	EE11	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-2	Original name: I-MODE WITH FRAME	**Symbol no longer proposed for new encoding**
 628	EE12	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-3	Original name: PROVIDED BY DOCOMO	**Symbol no longer proposed for new encoding**
@@ -681,5 +681,5 @@
 687	EE7C	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-62	Original name: J-PHONE 2	**Symbol no longer proposed for new encoding**
 688	EE7D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-63	Original name: J-PHONE 3	**Symbol no longer proposed for new encoding**
 625	E4C5	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-64	Original name: SHIBUYA; department store by Tokyu Group for young girls/women	**Symbol no longer proposed for new encoding**
-461	E82B	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-16	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
+461	E82B	8	Business logos/symbols	Emoji compatibility symbols	DOUBLE CURLY LOOP	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
 463	E82D	8	Business logos/symbols	Emoji compatibility symbols	EMOJI COMPATIBILITY SYMBOL-66	Original name: MOBILE Q. Mobile Q service	**Symbol no longer proposed for new encoding**

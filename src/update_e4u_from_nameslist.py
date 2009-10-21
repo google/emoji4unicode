@@ -20,7 +20,7 @@ During the development of Unicode 6.0/ISO 10646 AMD8,
 Emoji symbols may change code points, names, and annotations.
 This script reads emoji4unicode.xml and a NamesList.txt file,
 updates the XML data according to the NamesList,
-and writes a modified XML file to stdout.
+and writes a modified XML file to ../generated/emoji4unicode.xml.
 """
 
 __author__ = "Markus Scherer"
@@ -39,7 +39,7 @@ def main():
   for symbol in root.getElementsByTagName("e"):
     id_to_symbol[symbol.getAttribute("id")] = symbol
   nameslist_filename = os.path.join(here, "..", "data",
-                                    "unicode", "uc60-a-PDAM8-Dublin.lst")
+                                    "unicode", "uc60-a-FPDAM8-Tokyo.lst")
   for record in nameslist.Read(nameslist_filename):
     if "uni" not in record:
       continue
