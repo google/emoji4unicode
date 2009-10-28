@@ -25,8 +25,9 @@ import emoji4unicode
 
 _date = datetime.date.today().strftime("%Y-%m-%d")
 
-_HEADER = """# Emoji sources
-# L2/09-078
+_HEADER = """# Emoji Sources
+# N37xx
+#
 # Date: """ + _date + """
 # Author: Markus Scherer
 #
@@ -34,13 +35,13 @@ _HEADER = """# Emoji sources
 # The number of fields may increase in the future.
 #
 # Fields:
-# 0: Unicode code point or sequence
+# 0: UCS code point or sequence
 # 1: DoCoMo Shift-JIS code
 # 2: KDDI Shift-JIS code
 # 3: SoftBank Shift-JIS code
 #
 # Each field 1..3 contains a code if and only if the vendor character set
-# has a symbol which is equivalent to the Unicode character or sequence.
+# has a symbol which is equivalent to the UCS character or sequence.
 
 """
 
@@ -70,7 +71,7 @@ def _WriteSourcesFile(writer):
 def main():
   emoji4unicode.Load()
   here = os.path.dirname(__file__)
-  filename = os.path.join(here, "..", "generated", "emoji_sources.txt")
+  filename = os.path.join(here, "..", "generated", "EmojiSrc.txt")
   _WriteSourcesFile(codecs.open(filename, "w", "UTF-8"))
 
 

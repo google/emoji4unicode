@@ -1,19 +1,20 @@
-# Emoji sources
-# L2/09-078
-# Date: 2009-10-20
+# Emoji Sources
+# N37xx
+#
+# Date: 2009-10-27
 # Author: Markus Scherer
 #
 # Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.
 #
 # Fields:
-# 0: Unicode code point or sequence
+# 0: UCS code point or sequence
 # 1: DoCoMo Shift-JIS code
 # 2: KDDI Shift-JIS code
 # 3: SoftBank Shift-JIS code
 #
 # Each field 1..3 contains a code if and only if the vendor character set
-# has a symbol which is equivalent to the Unicode character or sequence.
+# has a symbol which is equivalent to the UCS character or sequence.
 
 0023 20E3;F985;F489;F7B0
 0030 20E3;F990;F7C9;F7C5
