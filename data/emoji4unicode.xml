@@ -358,7 +358,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="E726" glyphRefID="165" google="FE327" id="327" img_from="docomo" kddi="E5C4" name="FACE WITH HEART-SHAPED EYES" oldname="FACE WITH HEART SHAPED EYES" softbank="E106" unicode="+1F607">
 <desc>Forms a pair with e-34C. used to indicate the state of being in love</desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="166" google="FE328" id="328" img_from="softbank" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="E404" unicode="+1F608"/>
+<e docomo="&gt;E753" glyphRefID="166" google="FE328" id="328" img_from="kddi" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="&gt;E404" unicode="+1F608"/>
 <e docomo="E728" glyphRefID="167" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="WINKING FACE WITH STUCK-OUT TONGUE" oldname="WINKING FACE WITH STUCK OUT TONGUE" softbank="E105" unicode="+1F609"/>
 <e docomo="&gt;E728" glyphRefID="168" google="FE32A" id="32A" img_from="softbank" kddi="&gt;E4E7" name="FACE WITH STUCK-OUT TONGUE" oldname="FACE WITH STUCK OUT TONGUE" softbank="E409" unicode="+1F60A">
 <desc>with eyelids pulled down for additional effect</desc>
@@ -387,7 +387,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="E72A" glyphRefID="176" google="FE332" id="332" img_from="docomo" kddi="&gt;EAC5" name="HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES" softbank="&gt;E40A" unicode="+1F612">
 <desc>Happy face 3 for DoCoMo</desc>
 </e>
-<e docomo="E753" glyphRefID="177" google="FE333" id="333" img_from="docomo" kddi="EB80" name="HAPPY FACE WITH GRIN" softbank="&gt;E404" unicode="+1F613">
+<e docomo="E753" glyphRefID="177" google="FE333" id="333" img_from="docomo" kddi="EB80" name="HAPPY FACE WITH GRIN" softbank="E404" unicode="+1F613">
 <desc>Forms a pair with e-349. loudly laughing face with bare teeth</desc>
 </e>
 <e docomo="&gt;E72A" glyphRefID="178" google="FE334" id="334" img_from="kddi" kddi="EB64" name="HAPPY AND CRYING FACE" softbank="E412" unicode="+1F614">
@@ -850,10 +850,10 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <ann>* sending mail</ann>
 <desc>Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.</desc>
 </e>
-<e docomo="&gt;E665" glyphRefID="335" google="FE52C" id="52C" img_from="softbank" kddi="E51B" name="MAILBOX" softbank="E101" unicode="+1F4EB">
+<e docomo="&gt;E665" glyphRefID="335" google="FE52C" id="52C" img_from="kddi" kddi="E51B" name="MAILBOX" softbank="&gt;E101" unicode="+1F4EB">
 <ann>= letter box, mail reception</ann>
 </e>
-<e docomo="&gt;E665" glyphRefID="336" google="FE52D" id="52D" img_from="kddi" kddi="EB0A" name="MAILBOX WITH RAISED FLAG" softbank="&gt;E101" unicode="+1F4EC"/>
+<e docomo="&gt;E665" glyphRefID="336" google="FE52D" id="52D" img_from="kddi" kddi="EB0A" name="MAILBOX WITH RAISED FLAG" softbank="E101" unicode="+1F4EC"/>
 <e docomo="&gt;E665" glyphRefID="337" google="FE52E" id="52E" img_from="softbank" kddi="&gt;E51B" name="POSTBOX" softbank="E102" unicode="+1F4ED">
 <ann>= mailbox for sending mail</ann>
 </e>

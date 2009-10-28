@@ -34,6 +34,7 @@ __author__ = "Markus Scherer"
 import codecs
 import os.path
 import re
+import sys
 import xml.dom.minidom
 import carrier_data
 import row_cell
@@ -207,8 +208,13 @@ class Symbol(object):
       global all_carrier_data
       from_carrier_data = all_carrier_data[img_from]
       carrier_uni = self.GetCarrierUnicode(img_from)
-      return CarrierImageHTML(img_from,
-                              from_carrier_data.SymbolFromUnicode(carrier_uni))
+      if carrier_uni.startswith(u'>'):
+        sys.stderr.write((u"e-%s img_from='%s' does not have a roundtrip " +
+                          u"with that carrier (mapping: %s)\n") %
+                         (self.id, img_from, carrier_uni))
+      else:
+        from_carrier_symbol = from_carrier_data.SymbolFromUnicode(carrier_uni)
+        return CarrierImageHTML(img_from, from_carrier_symbol)
     return ""
 
   def ImageFromWhichCarrier(self):
