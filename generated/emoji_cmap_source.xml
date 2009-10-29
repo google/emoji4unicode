@@ -317,16 +317,6 @@
     <map charValue="0xE4E2" glyphRefID="263"/>
     <map charValue="0xE4E3" glyphRefID="264"/>
     <map charValue="0xE4E4" glyphRefID="265"/>
-    <map charValue="0xE4E5" glyphRefID="266"/>
-    <map charValue="0xE4E6" glyphRefID="267"/>
-    <map charValue="0xE4E7" glyphRefID="268"/>
-    <map charValue="0xE4E8" glyphRefID="269"/>
-    <map charValue="0xE4E9" glyphRefID="270"/>
-    <map charValue="0xE4EA" glyphRefID="271"/>
-    <map charValue="0xE4EB" glyphRefID="272"/>
-    <map charValue="0xE4EC" glyphRefID="273"/>
-    <map charValue="0xE4ED" glyphRefID="274"/>
-    <map charValue="0xE4EE" glyphRefID="275"/>
     <map charValue="0xE4EF" glyphRefID="276"/>
     <map charValue="0xE4F0" glyphRefID="277"/>
     <map charValue="0xE4F1" glyphRefID="278"/>
@@ -423,6 +413,32 @@
     <map charValue="0xE551" glyphRefID="374"/>
     <map charValue="0xE552" glyphRefID="375"/>
     <map charValue="0xE553" glyphRefID="376"/>
+    <map charValue="0xE554" glyphRefID="689"/>
+    <map charValue="0xE555" glyphRefID="690"/>
+    <map charValue="0xE556" glyphRefID="691"/>
+    <map charValue="0xE557" glyphRefID="692"/>
+    <map charValue="0xE558" glyphRefID="693"/>
+    <map charValue="0xE559" glyphRefID="694"/>
+    <map charValue="0xE55A" glyphRefID="695"/>
+    <map charValue="0xE55B" glyphRefID="696"/>
+    <map charValue="0xE55C" glyphRefID="697"/>
+    <map charValue="0xE55D" glyphRefID="698"/>
+    <map charValue="0xE55E" glyphRefID="699"/>
+    <map charValue="0xE55F" glyphRefID="700"/>
+    <map charValue="0xE560" glyphRefID="701"/>
+    <map charValue="0xE561" glyphRefID="702"/>
+    <map charValue="0xE562" glyphRefID="703"/>
+    <map charValue="0xE563" glyphRefID="704"/>
+    <map charValue="0xE564" glyphRefID="705"/>
+    <map charValue="0xE565" glyphRefID="706"/>
+    <map charValue="0xE566" glyphRefID="707"/>
+    <map charValue="0xE567" glyphRefID="708"/>
+    <map charValue="0xE568" glyphRefID="709"/>
+    <map charValue="0xE569" glyphRefID="710"/>
+    <map charValue="0xE56A" glyphRefID="711"/>
+    <map charValue="0xE56B" glyphRefID="712"/>
+    <map charValue="0xE56C" glyphRefID="713"/>
+    <map charValue="0xE56D" glyphRefID="714"/>
     <map charValue="0xE7D0" glyphRefID="377"/>
     <map charValue="0xE7D3" glyphRefID="379"/>
     <map charValue="0xE7D5" glyphRefID="622"/>

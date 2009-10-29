@@ -295,16 +295,16 @@
   <PostScriptName glyphRefID="263" NameString="uniE4E2.banknote_with_yen_sign" />
   <PostScriptName glyphRefID="264" NameString="uniE4E3.banknote_with_dollar_sign" />
   <PostScriptName glyphRefID="265" NameString="uniE4E4.money_with_wings" />
-  <PostScriptName glyphRefID="266" NameString="uniE4E5.emoji_compatibility_symbol_12" />
-  <PostScriptName glyphRefID="267" NameString="uniE4E6.emoji_compatibility_symbol_15" />
-  <PostScriptName glyphRefID="268" NameString="uniE4E7.emoji_compatibility_symbol_9" />
-  <PostScriptName glyphRefID="269" NameString="uniE4E8.emoji_compatibility_symbol_7" />
-  <PostScriptName glyphRefID="270" NameString="uniE4E9.emoji_compatibility_symbol_11" />
-  <PostScriptName glyphRefID="271" NameString="uniE4EA.emoji_compatibility_symbol_10" />
-  <PostScriptName glyphRefID="272" NameString="uniE4EB.emoji_compatibility_symbol_8" />
-  <PostScriptName glyphRefID="273" NameString="uniE4EC.emoji_compatibility_symbol_14" />
-  <PostScriptName glyphRefID="274" NameString="uniE4ED.emoji_compatibility_symbol_6" />
-  <PostScriptName glyphRefID="275" NameString="uniE4EE.emoji_compatibility_symbol_13" />
+  <PostScriptName glyphRefID="266" NameString=".notdef" />
+  <PostScriptName glyphRefID="267" NameString=".notdef" />
+  <PostScriptName glyphRefID="268" NameString=".notdef" />
+  <PostScriptName glyphRefID="269" NameString=".notdef" />
+  <PostScriptName glyphRefID="270" NameString=".notdef" />
+  <PostScriptName glyphRefID="271" NameString=".notdef" />
+  <PostScriptName glyphRefID="272" NameString=".notdef" />
+  <PostScriptName glyphRefID="273" NameString=".notdef" />
+  <PostScriptName glyphRefID="274" NameString=".notdef" />
+  <PostScriptName glyphRefID="275" NameString=".notdef" />
   <PostScriptName glyphRefID="276" NameString="uniE4EF.camera" />
   <PostScriptName glyphRefID="277" NameString="uniE4F0.handbag" />
   <PostScriptName glyphRefID="278" NameString="uniE4F1.pouch" />
@@ -718,4 +718,30 @@
   <PostScriptName glyphRefID="686" NameString=".notdef" />
   <PostScriptName glyphRefID="687" NameString=".notdef" />
   <PostScriptName glyphRefID="688" NameString=".notdef" />
+  <PostScriptName glyphRefID="689" NameString="uniE554.regional_indicator_symbol_letter_a" />
+  <PostScriptName glyphRefID="690" NameString="uniE555.regional_indicator_symbol_letter_b" />
+  <PostScriptName glyphRefID="691" NameString="uniE556.regional_indicator_symbol_letter_c" />
+  <PostScriptName glyphRefID="692" NameString="uniE557.regional_indicator_symbol_letter_d" />
+  <PostScriptName glyphRefID="693" NameString="uniE558.regional_indicator_symbol_letter_e" />
+  <PostScriptName glyphRefID="694" NameString="uniE559.regional_indicator_symbol_letter_f" />
+  <PostScriptName glyphRefID="695" NameString="uniE55A.regional_indicator_symbol_letter_g" />
+  <PostScriptName glyphRefID="696" NameString="uniE55B.regional_indicator_symbol_letter_h" />
+  <PostScriptName glyphRefID="697" NameString="uniE55C.regional_indicator_symbol_letter_i" />
+  <PostScriptName glyphRefID="698" NameString="uniE55D.regional_indicator_symbol_letter_j" />
+  <PostScriptName glyphRefID="699" NameString="uniE55E.regional_indicator_symbol_letter_k" />
+  <PostScriptName glyphRefID="700" NameString="uniE55F.regional_indicator_symbol_letter_l" />
+  <PostScriptName glyphRefID="701" NameString="uniE560.regional_indicator_symbol_letter_m" />
+  <PostScriptName glyphRefID="702" NameString="uniE561.regional_indicator_symbol_letter_n" />
+  <PostScriptName glyphRefID="703" NameString="uniE562.regional_indicator_symbol_letter_o" />
+  <PostScriptName glyphRefID="704" NameString="uniE563.regional_indicator_symbol_letter_p" />
+  <PostScriptName glyphRefID="705" NameString="uniE564.regional_indicator_symbol_letter_q" />
+  <PostScriptName glyphRefID="706" NameString="uniE565.regional_indicator_symbol_letter_r" />
+  <PostScriptName glyphRefID="707" NameString="uniE566.regional_indicator_symbol_letter_s" />
+  <PostScriptName glyphRefID="708" NameString="uniE567.regional_indicator_symbol_letter_t" />
+  <PostScriptName glyphRefID="709" NameString="uniE568.regional_indicator_symbol_letter_u" />
+  <PostScriptName glyphRefID="710" NameString="uniE569.regional_indicator_symbol_letter_v" />
+  <PostScriptName glyphRefID="711" NameString="uniE56A.regional_indicator_symbol_letter_w" />
+  <PostScriptName glyphRefID="712" NameString="uniE56B.regional_indicator_symbol_letter_x" />
+  <PostScriptName glyphRefID="713" NameString="uniE56C.regional_indicator_symbol_letter_y" />
+  <PostScriptName glyphRefID="714" NameString="uniE56D.regional_indicator_symbol_letter_z" />
 </postTable>

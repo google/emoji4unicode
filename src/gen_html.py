@@ -531,17 +531,22 @@ def _RepresentationHTML(e4u_symbol):
       if _with_everson:
         everson_uni = everson.GetUnicode(e4u_symbol.id)
         if not everson_uni:
-          sys.stderr.write(u"e-%s proposed U+%s missing Everson mapping\n" %
-                           (e4u_symbol.id, proposed_uni))
-        if _show_font_chars:
-          font_str = utf.UTF.CodePointString(int(everson_uni, 16))
-          repr += (u"<br><span class='everson_font_doc'>" +
-                   _EversonDocAndChangeString(
-                       everson.id_to_glyph_change.get(e4u_symbol.id)) +
-                   u"</span>: <span class='everson_font'>%s</span>") % font_str
-        if everson_uni != proposed_uni:
-          repr += (u"<br><span class='everson_uni'>" +
-                   everson.doc + u": U+" + everson_uni + u"</span>")
+          numeric_id = int(e4u_symbol.id, 16)
+          if not 0x554 <= numeric_id <= 0x56d:
+            # Complain if a symbol proposed before WG2 N3607 does not
+            # have N3607 data.
+            sys.stderr.write(u"e-%s proposed U+%s missing Everson mapping\n" %
+                             (e4u_symbol.id, proposed_uni))
+        else:
+          if _show_font_chars:
+            font_str = utf.UTF.CodePointString(int(everson_uni, 16))
+            repr += (u"<br><span class='everson_font_doc'>" +
+                     _EversonDocAndChangeString(
+                         everson.id_to_glyph_change.get(e4u_symbol.id)) +
+                     u"</span>: <span class='everson_font'>%s</span>") % font_str
+          if everson_uni != proposed_uni:
+            repr += (u"<br><span class='everson_uni'>" +
+                     everson.doc + u": U+" + everson_uni + u"</span>")
     else:
       repr += u"<br><span class='proposed_uni'>U+xxxxx</span>"
     return repr + u"<br><span class='status'>proposed</span>"
@@ -579,7 +584,8 @@ def _NameAnnotationHTML(e4u_symbol):
   name = e4u_symbol.GetName()
   lines = [name]
   old_name = e4u_symbol.GetOldName()
-  if show_everson:
+  everson_uni = everson.GetUnicode(e4u_symbol.id)
+  if show_everson and everson_uni:
     everson_name = everson.GetName(e4u_symbol.id)
     if everson_name != name or (old_name and everson_name != old_name):
       lines.append(u"<span class='everson_name_anno'>" +
@@ -605,7 +611,7 @@ def _NameAnnotationHTML(e4u_symbol):
     design = e4u_symbol.GetDesign()
     if design: lines.append(u"<span class='desc'>Design Note: " +
                             cgi.escape(design) + u"</span>")
-  if show_everson:
+  if show_everson and everson_uni:
     for line in everson.GetAnnotations(e4u_symbol.id):
       if line not in anno:
         lines.append(u"<span class='everson_name_anno'>" + everson.doc +

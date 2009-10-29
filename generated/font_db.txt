@@ -258,16 +258,42 @@
 263	E4E2	4	Artifacts	Money symbols	BANKNOTE WITH YEN SIGN	a check, a sign indicating "not free"	
 264	E4E3	4	Artifacts	Money symbols	BANKNOTE WITH DOLLAR SIGN		
 265	E4E4	4	Artifacts	Money symbols	MONEY WITH WINGS		
-274	E4ED	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-6	China	"CN" in dashed box, similar to U+FFFC and U+1680
-269	E4E8	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-7	Germany	"DE" in dashed box, similar to U+FFFC and U+1680
-272	E4EB	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-8	Spain	"ES" in dashed box, similar to U+FFFC and U+1680
-268	E4E7	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-9	France	"FR" in dashed box, similar to U+FFFC and U+1680
-271	E4EA	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-10	U.K.	"GB" in dashed box, similar to U+FFFC and U+1680
-270	E4E9	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-11	Italy	"IT" in dashed box, similar to U+FFFC and U+1680
-266	E4E5	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-12	Japan, also a national holiday (in red)	"JP" in dashed box, similar to U+FFFC and U+1680
-275	E4EE	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-13	South Korea	"KR" in dashed box, similar to U+FFFC and U+1680
-273	E4EC	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-14	Russia	"RU" in dashed box, similar to U+FFFC and U+1680
-267	E4E6	4	Artifacts	Emoji Compatibility symbols	EMOJI COMPATIBILITY SYMBOL-15	U.S.A.	"US" in dashed box, similar to U+FFFC and U+1680
+689	E554	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER A		
+690	E555	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER B		
+691	E556	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER C		
+692	E557	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER D		
+693	E558	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER E		
+694	E559	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER F		
+695	E55A	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER G		
+696	E55B	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER H		
+697	E55C	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER I		
+698	E55D	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER J		
+699	E55E	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER K		
+700	E55F	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER L		
+701	E560	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER M		
+702	E561	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER N		
+703	E562	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER O		
+704	E563	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER P		
+705	E564	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER Q		
+706	E565	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER R		
+707	E566	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER S		
+708	E567	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER T		
+709	E568	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER U		
+710	E569	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER V		
+711	E56A	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER W		
+712	E56B	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER X		
+713	E56C	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER Y		
+714	E56D	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTER Z		
+274	E4ED	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS CN	China	**Symbol no longer proposed for new encoding**
+269	E4E8	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS DE	Germany	**Symbol no longer proposed for new encoding**
+272	E4EB	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS ES	Spain	**Symbol no longer proposed for new encoding**
+268	E4E7	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS FR	France	**Symbol no longer proposed for new encoding**
+271	E4EA	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS GB	U.K.	**Symbol no longer proposed for new encoding**
+270	E4E9	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS IT	Italy	**Symbol no longer proposed for new encoding**
+266	E4E5	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS JP	Japan, also a national holiday (in red)	**Symbol no longer proposed for new encoding**
+275	E4EE	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS KR	South Korea	**Symbol no longer proposed for new encoding**
+273	E4EC	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS RU	Russia	**Symbol no longer proposed for new encoding**
+267	E4E6	4	Artifacts	Regional indicator symbols	REGIONAL INDICATOR SYMBOL LETTERS US	U.S.A.	**Symbol no longer proposed for new encoding**
 276	E4EF	4	Artifacts	Miscellaneous symbols	CAMERA		
 277	E4F0	4	Artifacts	Miscellaneous symbols	HANDBAG		
 278	E4F1	4	Artifacts	Miscellaneous symbols	POUCH		

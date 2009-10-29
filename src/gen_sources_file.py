@@ -53,9 +53,11 @@ def _WriteSourcesFile(writer):
     uni = symbol.GetUnicode()
     if not uni: uni = symbol.GetProposedUnicode()
     fields = [uni.replace("+", " ")]
+    has_mappings = False
     for carrier in ("docomo", "kddi", "softbank"):
       code = symbol.GetCarrierUnicode(carrier)
       if code and not code.startswith(">"):
+        has_mappings = True
         one_carrier_data = emoji4unicode.all_carrier_data[carrier]
         carrier_symbol = one_carrier_data.SymbolFromUnicode(code)
         if carrier_symbol.shift_jis:
@@ -64,7 +66,7 @@ def _WriteSourcesFile(writer):
           fields.append("Missing Shift-JIS code")
       else:
         fields.append("")
-    writer.write(u";".join(fields) + u"\n")
+    if has_mappings: writer.write(u";".join(fields) + u"\n")
   writer.close()
 
 

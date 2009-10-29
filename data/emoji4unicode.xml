@@ -649,46 +649,62 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e docomo="&gt;E715" glyphRefID="264" google="FE4E3" id="4E3" img_from="kddi" kddi="E585" name="BANKNOTE WITH DOLLAR SIGN" softbank="&gt;E12F" unicode="+1F4B5"/>
 <e glyphRefID="265" google="FE4E4" id="4E4" img_from="kddi" kddi="EB5B" name="MONEY WITH WINGS" text_fallback="[飛んでいくお金]" unicode="+1F4B8"/>
 </subcategory>
-<subcategory name="Emoji Compatibility symbols">
-<e glyphRefID="274" google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="EMOJI COMPATIBILITY SYMBOL-6" softbank="E513" text_fallback="[中国]" unicode="+1F6F0">
+<subcategory name="Regional indicator symbols">
+<e glyphRefID="689" id="554" name="REGIONAL INDICATOR SYMBOL LETTER A" text_fallback="[A]" unicode="+1F1E6"/>
+<e glyphRefID="690" id="555" name="REGIONAL INDICATOR SYMBOL LETTER B" text_fallback="[B]"/>
+<e glyphRefID="691" id="556" name="REGIONAL INDICATOR SYMBOL LETTER C" text_fallback="[C]"/>
+<e glyphRefID="692" id="557" name="REGIONAL INDICATOR SYMBOL LETTER D" text_fallback="[D]"/>
+<e glyphRefID="693" id="558" name="REGIONAL INDICATOR SYMBOL LETTER E" text_fallback="[E]"/>
+<e glyphRefID="694" id="559" name="REGIONAL INDICATOR SYMBOL LETTER F" text_fallback="[F]"/>
+<e glyphRefID="695" id="55A" name="REGIONAL INDICATOR SYMBOL LETTER G" text_fallback="[G]"/>
+<e glyphRefID="696" id="55B" name="REGIONAL INDICATOR SYMBOL LETTER H" text_fallback="[H]"/>
+<e glyphRefID="697" id="55C" name="REGIONAL INDICATOR SYMBOL LETTER I" text_fallback="[I]"/>
+<e glyphRefID="698" id="55D" name="REGIONAL INDICATOR SYMBOL LETTER J" text_fallback="[J]"/>
+<e glyphRefID="699" id="55E" name="REGIONAL INDICATOR SYMBOL LETTER K" text_fallback="[K]"/>
+<e glyphRefID="700" id="55F" name="REGIONAL INDICATOR SYMBOL LETTER L" text_fallback="[L]"/>
+<e glyphRefID="701" id="560" name="REGIONAL INDICATOR SYMBOL LETTER M" text_fallback="[M]"/>
+<e glyphRefID="702" id="561" name="REGIONAL INDICATOR SYMBOL LETTER N" text_fallback="[N]"/>
+<e glyphRefID="703" id="562" name="REGIONAL INDICATOR SYMBOL LETTER O" text_fallback="[O]"/>
+<e glyphRefID="704" id="563" name="REGIONAL INDICATOR SYMBOL LETTER P" text_fallback="[P]"/>
+<e glyphRefID="705" id="564" name="REGIONAL INDICATOR SYMBOL LETTER Q" text_fallback="[Q]"/>
+<e glyphRefID="706" id="565" name="REGIONAL INDICATOR SYMBOL LETTER R" text_fallback="[R]"/>
+<e glyphRefID="707" id="566" name="REGIONAL INDICATOR SYMBOL LETTER S" text_fallback="[S]"/>
+<e glyphRefID="708" id="567" name="REGIONAL INDICATOR SYMBOL LETTER T" text_fallback="[T]"/>
+<e glyphRefID="709" id="568" name="REGIONAL INDICATOR SYMBOL LETTER U" text_fallback="[U]"/>
+<e glyphRefID="710" id="569" name="REGIONAL INDICATOR SYMBOL LETTER V" text_fallback="[V]"/>
+<e glyphRefID="711" id="56A" name="REGIONAL INDICATOR SYMBOL LETTER W" text_fallback="[W]"/>
+<e glyphRefID="712" id="56B" name="REGIONAL INDICATOR SYMBOL LETTER X" text_fallback="[X]"/>
+<e glyphRefID="713" id="56C" name="REGIONAL INDICATOR SYMBOL LETTER Y" text_fallback="[Y]"/>
+<e glyphRefID="714" id="56D" name="REGIONAL INDICATOR SYMBOL LETTER Z" text_fallback="[Z]"/>
+<e glyphRefID="274" google="FE4ED" id="4ED" img_from="kddi" kddi="EB11" name="REGIONAL INDICATOR SYMBOL LETTERS CN" softbank="E513" text_fallback="[中国]" unicode="1F1E8+1F1F3">
 <desc>China</desc>
-<design>"CN" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="269" google="FE4E8" id="4E8" img_from="kddi" kddi="EB0E" name="EMOJI COMPATIBILITY SYMBOL-7" softbank="E50E" text_fallback="[ドイツ]">
+<e glyphRefID="269" google="FE4E8" id="4E8" img_from="kddi" kddi="EB0E" name="REGIONAL INDICATOR SYMBOL LETTERS DE" softbank="E50E" text_fallback="[ドイツ]" unicode="1F1E9+1F1EA">
 <desc>Germany</desc>
-<design>"DE" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="272" google="FE4EB" id="4EB" img_from="kddi" kddi="E5D5" name="EMOJI COMPATIBILITY SYMBOL-8" softbank="E511" text_fallback="[スペイン]">
+<e glyphRefID="272" google="FE4EB" id="4EB" img_from="kddi" kddi="E5D5" name="REGIONAL INDICATOR SYMBOL LETTERS ES" softbank="E511" text_fallback="[スペイン]" unicode="1F1EA+1F1F8">
 <desc>Spain</desc>
-<design>"ES" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="268" google="FE4E7" id="4E7" img_from="kddi" kddi="EAFA" name="EMOJI COMPATIBILITY SYMBOL-9" softbank="E50D" text_fallback="[フランス]">
+<e glyphRefID="268" google="FE4E7" id="4E7" img_from="kddi" kddi="EAFA" name="REGIONAL INDICATOR SYMBOL LETTERS FR" softbank="E50D" text_fallback="[フランス]" unicode="1F1EB+1F1F7">
 <desc>France</desc>
-<design>"FR" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="271" google="FE4EA" id="4EA" img_from="kddi" kddi="EB10" name="EMOJI COMPATIBILITY SYMBOL-10" softbank="E510" text_fallback="[イギリス]">
+<e glyphRefID="271" google="FE4EA" id="4EA" img_from="kddi" kddi="EB10" name="REGIONAL INDICATOR SYMBOL LETTERS GB" softbank="E510" text_fallback="[イギリス]" unicode="1F1FA+1F1F0">
 <desc>U.K.</desc>
-<design>"GB" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="270" google="FE4E9" id="4E9" img_from="kddi" kddi="EB0F" name="EMOJI COMPATIBILITY SYMBOL-11" softbank="E50F" text_fallback="[イタリア]">
+<e glyphRefID="270" google="FE4E9" id="4E9" img_from="kddi" kddi="EB0F" name="REGIONAL INDICATOR SYMBOL LETTERS IT" softbank="E50F" text_fallback="[イタリア]" unicode="1F1EE+1F1F9">
 <desc>Italy</desc>
-<design>"IT" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="266" google="FE4E5" id="4E5" img_from="kddi" kddi="E4CC" name="EMOJI COMPATIBILITY SYMBOL-12" softbank="E50B" text_fallback="[日の丸]">
+<e glyphRefID="266" google="FE4E5" id="4E5" img_from="kddi" kddi="E4CC" name="REGIONAL INDICATOR SYMBOL LETTERS JP" softbank="E50B" text_fallback="[日の丸]" unicode="1F1EF+1F1F5">
 <desc>Japan, also a national holiday (in red)</desc>
-<design>"JP" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="275" google="FE4EE" id="4EE" img_from="kddi" kddi="EB12" name="EMOJI COMPATIBILITY SYMBOL-13" softbank="E514" text_fallback="[韓国]">
+<e glyphRefID="275" google="FE4EE" id="4EE" img_from="kddi" kddi="EB12" name="REGIONAL INDICATOR SYMBOL LETTERS KR" softbank="E514" text_fallback="[韓国]" unicode="1F1F0+1F1F7">
 <desc>South Korea</desc>
-<design>"KR" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="273" google="FE4EC" id="4EC" img_from="kddi" kddi="E5D6" name="EMOJI COMPATIBILITY SYMBOL-14" softbank="E512" text_fallback="[ロシア]">
+<e glyphRefID="273" google="FE4EC" id="4EC" img_from="kddi" kddi="E5D6" name="REGIONAL INDICATOR SYMBOL LETTERS RU" softbank="E512" text_fallback="[ロシア]" unicode="1F1F7+1F1FA">
 <desc>Russia</desc>
-<design>"RU" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
-<e glyphRefID="267" google="FE4E6" id="4E6" img_from="kddi" kddi="E573" name="EMOJI COMPATIBILITY SYMBOL-15" softbank="E50C" text_fallback="[USA]">
+<e glyphRefID="267" google="FE4E6" id="4E6" img_from="kddi" kddi="E573" name="REGIONAL INDICATOR SYMBOL LETTERS US" softbank="E50C" text_fallback="[USA]" unicode="1F1FA+1F1F8">
 <desc>U.S.A.</desc>
-<design>"US" in dashed box, similar to U+FFFC and U+1680</design>
 </e>
 </subcategory>
 <subcategory name="Miscellaneous symbols">
