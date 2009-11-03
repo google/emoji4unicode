@@ -24,6 +24,8 @@
 
 @		Miscellaneous technical
 23F0	ALARM CLOCK
+	x (watch - 231A)
+	x (clock face one oclock - 1F550)
 	= e-02A
 
 @		Time symbols
@@ -87,11 +89,12 @@
 
 @		Length mark
 27B0	CURLY LOOP
-	= kuturi
+	= kururi
 	= e-B08
 
 @		Emoji compatibility symbols
 27BF	DOUBLE CURLY LOOP
+	x (bamum letter phase-e nggurae - 16986)
 	= e-82B
 
 @@	1F0A0	Playing Cards	1F0FF
@@ -343,7 +346,7 @@
 1F315	FULL MOON SYMBOL
 	= e-015
 1F319	CRESCENT MOON
-	* may indicate either first or last quarter moon
+	* may indicate either the first or last quarter moon
 	x (first quarter moon - 263D)
 	x (last quarter moon - 263E)
 	= e-014
@@ -530,7 +533,7 @@
 1F380	RIBBON
 	= e-50F
 1F381	WRAPPED PRESENT
-	x (package - 1F4E7)
+	x (package - 1F4E6)
 	= e-510
 1F382	BIRTHDAY CAKE
 	= e-511
@@ -564,14 +567,14 @@
 	* Japanese new year's door decoration
 	= e-518
 1F38E	JAPANESE DOLLS
-	= Japanese Hinamatsuri girls' festival
+	* Japanese Hinamatsuri or girls' doll festival
 	= e-519
 1F38F	CARP STREAMER
 	= e-51C
 1F390	WIND CHIME
 	= e-51E
 1F391	MOON VIEWING CEREMONY
-	= Japanese Otsukimi harvest celebration
+	* Japanese Otsukimi harvest celebration
 	= e-017
 1F392	SCHOOL SATCHEL
 	* Japanese school entrance ceremony
@@ -808,8 +811,8 @@
 1F41F	BOAR
 	* twelfth of the signs of the Asian zodiac, used in Japan
 	= e-1D5
-1F420	CAMEL
-	= bactrian camel (two humps)
+1F420	BACTRIAN CAMEL
+	* has two humps
 	= e-1D6
 1F421	FROG FACE
 	= e-1D7
@@ -1111,7 +1114,7 @@
 
 @		Money symbols
 1F4B0	MONEY BAG
-	* Glyph may show any currency symbol instead of a dollar sign
+	* glyph may show any currency symbol instead of a dollar sign
 	= e-4DD
 1F4B1	CURRENCY EXCHANGE
 	= e-4DE
@@ -1131,13 +1134,14 @@
 @		Office symbols
 1F4BA	SEAT
 	= e-537
-1F4BB	COMPUTER
+1F4BB	PERSONAL COMPUTER
 	= e-538
 1F4BC	BRIEFCASE
 	= e-53B
 1F4BD	MINIDISC
 	= e-53C
 1F4BE	FLOPPY DISK
+	= floppy disc, floppy, diskette
 	= e-53D
 
 @		Media symbols
@@ -1239,7 +1243,7 @@
 
 @		UI symbols
 1F4E8	E-MAIL SYMBOL
-	* glyph may show a @-symbol instead of an E
+	* glyph may show an @-sign instead of an E
 	= e-B92
 
 @		Communication symbols
@@ -1249,10 +1253,12 @@
 1F4EA	ENVELOPE WITH DOWNWARDS ARROW ABOVE
 	* sending mail
 	= e-52B
-1F4EB	MAILBOX
+1F4EB	CLOSED MAILBOX WITH LOWERED FLAG
 	= letter box, mail reception
+	= empty mailbox
 	= e-52C
-1F4EC	MAILBOX WITH RAISED FLAG
+1F4EC	CLOSED MAILBOX WITH RAISED FLAG
+	= mailbox containing mail
 	= e-52D
 1F4ED	POSTBOX
 	= mailbox for sending mail
@@ -1265,7 +1271,7 @@
 @		Communication symbols
 1F4F0	MOBILE PHONE
 	= e-525
-1F4F1	MOBILE PHONE WITH RIGHTWARDS ARROW LEFT
+1F4F1	MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT
 	* making a phone call
 	= e-526
 1F4F2	VIBRATION MODE
@@ -1297,16 +1303,16 @@
 	= e-821
 
 @		Other symbols with letters and digits
-1F501	NO ONE UNDER EIGHTEEN SIGN
+1F501	NO ONE UNDER EIGHTEEN SYMBOL
 	= e-B25
-1F508	TOP WITH UPWARDS TRIANGLE SIGN
+1F508	TOP WITH UPWARDS ARROW ABOVE
 	= top of page
 	= e-B42
 
 @		Time symbols
 1F50A	SOON WITH RIGHTWARDS ARROW ABOVE
 	= e-018
-1F50B	ON WITH LEFT RIGHT ARROW ABOVE
+1F50B	ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE
 	= e-019
 1F50C	END WITH LEFTWARDS ARROW ABOVE
 	= e-01A
@@ -1329,7 +1335,7 @@
 	= e-B80
 
 @		UI symbols
-1F515	CLOCKWISE UPWARDS AND DOWNWARDS OPEN CIRCLE ARROWS
+1F515	CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS
 	= reload
 	= e-B91
 
@@ -1595,6 +1601,7 @@
 1F639	PERSON RAISING ONE HAND
 	= e-357
 1F63A	PERSON RAISING BOTH HANDS IN CELEBRATION
+	= banzai!
 	= e-358
 1F63B	PERSON FROWNING
 	= e-359
@@ -1622,8 +1629,8 @@
 1F686	TRAIN
 	= intercity train
 	= e-7DF
-1F687	SUBWAY
-	= underground train
+1F687	METRO
+	= subway, underground train
 	= e-7E0
 1F689	STATION
 	= train, subway station
@@ -1667,7 +1674,8 @@
 	= e-B22
 1F6AA	DOOR
 	= e-4F3
-1F6AB	SIGN INDICATING FORBIDDEN ACTIVITY
+1F6AB	NO ENTRY SIGN
+	x (combining enclosing circle backslash - 20E0)
 	x (no entry - 26D4)
 	= e-B48
 1F6AC	SMOKING SYMBOL

@@ -51,7 +51,7 @@
   <PostScriptName glyphRefID="19" NameString="uniE016.first_quarter_moon_with_face" />
   <PostScriptName glyphRefID="20" NameString="uniE017.moon_viewing_ceremony" />
   <PostScriptName glyphRefID="21" NameString="uniE018.soon_with_rightwards_arrow_above" />
-  <PostScriptName glyphRefID="22" NameString="uniE019.on_with_left_right_arrow_above" />
+  <PostScriptName glyphRefID="22" NameString="uniE019.on_with_exclamation_mark_with_left_right_arrow_above" />
   <PostScriptName glyphRefID="23" NameString="uniE01A.end_with_leftwards_arrow_above" />
   <PostScriptName glyphRefID="24" NameString="uniE01B.hourglass_with_flowing_sand" />
   <PostScriptName glyphRefID="25" NameString="uniE01E.clock_face_one_oclock" />
@@ -174,7 +174,7 @@
   <PostScriptName glyphRefID="142" NameString="uniE1D3.snake" />
   <PostScriptName glyphRefID="143" NameString="uniE1D4.chicken" />
   <PostScriptName glyphRefID="144" NameString="uniE1D5.boar" />
-  <PostScriptName glyphRefID="145" NameString="uniE1D6.camel" />
+  <PostScriptName glyphRefID="145" NameString="uniE1D6.bactrian_camel" />
   <PostScriptName glyphRefID="146" NameString="uniE1D7.frog_face" />
   <PostScriptName glyphRefID="147" NameString="uniE1D8.poodle" />
   <PostScriptName glyphRefID="148" NameString="uniE1D9.blowfish" />
@@ -359,13 +359,13 @@
   <PostScriptName glyphRefID="327" NameString="uniE522.pager" />
   <PostScriptName glyphRefID="328" NameString="uniE524.telephone_receiver" />
   <PostScriptName glyphRefID="329" NameString="uniE525.mobile_phone" />
-  <PostScriptName glyphRefID="330" NameString="uniE526.mobile_phone_with_rightwards_arrow_left" />
+  <PostScriptName glyphRefID="330" NameString="uniE526.mobile_phone_with_rightwards_arrow_at_left" />
   <PostScriptName glyphRefID="331" NameString="uniE527.memo" />
   <PostScriptName glyphRefID="332" NameString="uniE528.fax_machine" />
   <PostScriptName glyphRefID="333" NameString="uniE52A.incoming_envelope" />
   <PostScriptName glyphRefID="334" NameString="uniE52B.envelope_with_downwards_arrow_above" />
-  <PostScriptName glyphRefID="335" NameString="uniE52C.mailbox" />
-  <PostScriptName glyphRefID="336" NameString="uniE52D.mailbox_with_raised_flag" />
+  <PostScriptName glyphRefID="335" NameString="uniE52C.closed_mailbox_with_lowered_flag" />
+  <PostScriptName glyphRefID="336" NameString="uniE52D.closed_mailbox_with_raised_flag" />
   <PostScriptName glyphRefID="337" NameString="uniE52E.postbox" />
   <PostScriptName glyphRefID="338" NameString="uniE52F.public_address_loudspeaker" />
   <PostScriptName glyphRefID="339" NameString="uniE530.cheering_megaphone" />
@@ -380,7 +380,7 @@
   <PostScriptName glyphRefID="348" NameString="uniEB7F.input_symbol_for_symbols" />
   <PostScriptName glyphRefID="349" NameString="uniEB80.input_symbol_for_latin_letters" />
   <PostScriptName glyphRefID="350" NameString="uniE537.seat" />
-  <PostScriptName glyphRefID="351" NameString="uniE538.computer" />
+  <PostScriptName glyphRefID="351" NameString="uniE538.personal_computer" />
   <PostScriptName glyphRefID="352" NameString="uniE53A.paperclip" />
   <PostScriptName glyphRefID="353" NameString="uniE53B.briefcase" />
   <PostScriptName glyphRefID="354" NameString="uniE53C.minidisc" />
@@ -419,7 +419,7 @@
   <PostScriptName glyphRefID="387" NameString="uniE7DD.american_football" />
   <PostScriptName glyphRefID="388" NameString="uniE7DE.swimmer" />
   <PostScriptName glyphRefID="389" NameString="uniE7DF.train" />
-  <PostScriptName glyphRefID="390" NameString="uniE7E0.subway" />
+  <PostScriptName glyphRefID="390" NameString="uniE7E0.metro" />
   <PostScriptName glyphRefID="391" NameString=".notdef" />
   <PostScriptName glyphRefID="392" NameString="uniE7E2.high_speed_train" />
   <PostScriptName glyphRefID="393" NameString="uniE7E3.high_speed_train_with_bullet_nose" />
@@ -570,18 +570,18 @@
   <PostScriptName glyphRefID="538" NameString="uniEB35.baby_symbol" />
   <PostScriptName glyphRefID="539" NameString="uniEB45.cross_mark" />
   <PostScriptName glyphRefID="540" NameString="uniEB46.negative_squared_cross_mark" />
-  <PostScriptName glyphRefID="541" NameString="uniEB48.sign_indicating_forbidden_activity" />
+  <PostScriptName glyphRefID="541" NameString="uniEB48.no_entry_sign" />
   <PostScriptName glyphRefID="542" NameString="uniEB4A.white_heavy_check_mark" />
   <PostScriptName glyphRefID="543" NameString="uniEB4B.link_symbol" />
   <PostScriptName glyphRefID="544" NameString="uniEB21.squared_free" />
-  <PostScriptName glyphRefID="545" NameString="uniEB25.no_one_under_eighteen_sign" />
+  <PostScriptName glyphRefID="545" NameString="uniEB25.no_one_under_eighteen_symbol" />
   <PostScriptName glyphRefID="546" NameString="uniEB27.squared_ok" />
   <PostScriptName glyphRefID="547" NameString="uniEB28.squared_ng" />
   <PostScriptName glyphRefID="548" NameString="uniEB32.squared_vs" />
   <PostScriptName glyphRefID="549" NameString="uniEB36.squared_new" />
   <PostScriptName glyphRefID="550" NameString="uniEB37.squared_up_with_exclamation_mark" />
   <PostScriptName glyphRefID="551" NameString="uniEB38.squared_cool" />
-  <PostScriptName glyphRefID="552" NameString="uniEB42.top_with_upwards_triangle_sign" />
+  <PostScriptName glyphRefID="552" NameString="uniEB42.top_with_upwards_arrow_above" />
   <PostScriptName glyphRefID="553" NameString="uniEB4F.squared_sos" />
   <PostScriptName glyphRefID="554" NameString="uniEB24.squared_katakana_koko" />
   <PostScriptName glyphRefID="555" NameString="uniEB2E.squared_cjk_unified_ideograph_7981" />
@@ -635,7 +635,7 @@
   <PostScriptName glyphRefID="603" NameString="uniEB8E.back_with_leftwards_arrow_above" />
   <PostScriptName glyphRefID="604" NameString="uniEB8F.bookmark" />
   <PostScriptName glyphRefID="605" NameString="uniEB90.lock_with_ink_pen" />
-  <PostScriptName glyphRefID="606" NameString="uniEB91.clockwise_upwards_and_downwards_open_circle_arrows" />
+  <PostScriptName glyphRefID="606" NameString="uniEB91.clockwise_downwards_and_upwards_open_circle_arrows" />
   <PostScriptName glyphRefID="607" NameString="uniEB92.e_mail_symbol" />
   <PostScriptName glyphRefID="608" NameString="uniEB93.raised_fist" />
   <PostScriptName glyphRefID="609" NameString="uniEB95.raised_hand" />

@@ -15,7 +15,7 @@
 18	E015	1	Nature	Moon symbols	FULL MOON SYMBOL		
 19	E016	1	Nature	Moon symbols	FIRST QUARTER MOON WITH FACE	(KDDI's with face)	
 21	E018	1	Nature	Time symbols	SOON WITH RIGHTWARDS ARROW ABOVE	soon	
-22	E019	1	Nature	Time symbols	ON WITH LEFT RIGHT ARROW ABOVE		
+22	E019	1	Nature	Time symbols	ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE		
 23	E01A	1	Nature	Time symbols	END WITH LEFTWARDS ARROW ABOVE		
 24	E01B	1	Nature	Time symbols	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.	
 25	E01E	1	Nature	Time symbols	CLOCK FACE ONE OCLOCK		
@@ -138,7 +138,7 @@
 142	E1D3	2	Human/Living Things	Animal symbols	SNAKE		
 143	E1D4	2	Human/Living Things	Animal symbols	CHICKEN		
 144	E1D5	2	Human/Living Things	Animal symbols	BOAR		
-145	E1D6	2	Human/Living Things	Animal symbols	CAMEL		
+145	E1D6	2	Human/Living Things	Animal symbols	BACTRIAN CAMEL		
 146	E1D7	2	Human/Living Things	Animal symbols	FROG FACE		
 147	E1D8	2	Human/Living Things	Animal symbols	POODLE		
 148	E1D9	2	Human/Living Things	Animal symbols	BLOWFISH		
@@ -349,13 +349,13 @@
 327	E522	4	Artifacts	Communication symbols	PAGER		
 328	E524	4	Artifacts	Communication symbols	TELEPHONE RECEIVER		
 329	E525	4	Artifacts	Communication symbols	MOBILE PHONE		
-330	E526	4	Artifacts	Communication symbols	MOBILE PHONE WITH RIGHTWARDS ARROW LEFT		
+330	E526	4	Artifacts	Communication symbols	MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT		
 331	E527	4	Artifacts	Communication symbols	MEMO		
 332	E528	4	Artifacts	Communication symbols	FAX MACHINE		
 333	E52A	4	Artifacts	Communication symbols	INCOMING ENVELOPE	Mail (with cartoon movement marks). Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
 334	E52B	4	Artifacts	Communication symbols	ENVELOPE WITH DOWNWARDS ARROW ABOVE	Might be allocated in the U+27xx Dingbats block with U+2709 ENVELOPE.	
-335	E52C	4	Artifacts	Communication symbols	MAILBOX		
-336	E52D	4	Artifacts	Communication symbols	MAILBOX WITH RAISED FLAG		
+335	E52C	4	Artifacts	Communication symbols	CLOSED MAILBOX WITH LOWERED FLAG		
+336	E52D	4	Artifacts	Communication symbols	CLOSED MAILBOX WITH RAISED FLAG		
 337	E52E	4	Artifacts	Communication symbols	POSTBOX		
 338	E52F	4	Artifacts	Communication symbols	PUBLIC ADDRESS LOUDSPEAKER	used for sound volume, notification	
 339	E530	4	Artifacts	Communication symbols	CHEERING MEGAPHONE	also used for a general megaphone	
@@ -370,7 +370,7 @@
 348	EB7F	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR SYMBOLS	Symbols (〒, ♪, @, %)	
 349	EB80	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN LETTERS	English (ABC)	
 350	E537	4	Artifacts	Office symbols	SEAT		the glyph should look more like SoftBank #264
-351	E538	4	Artifacts	Office symbols	COMPUTER		
+351	E538	4	Artifacts	Office symbols	PERSONAL COMPUTER		
 352	E53A	4	Artifacts	Office symbols	PAPERCLIP		
 353	E53B	4	Artifacts	Office symbols	BRIEFCASE		
 354	E53C	4	Artifacts	Office symbols	MINIDISC	MD mini disc	
@@ -410,7 +410,7 @@
 387	E7DD	5	Activities/Work/Entertainment	Sport symbols	AMERICAN FOOTBALL		
 388	E7DE	5	Activities/Work/Entertainment	Sport symbols	SWIMMER	swimming	
 389	E7DF	5	Activities/Work/Entertainment	Transportation symbols	TRAIN		
-390	E7E0	5	Activities/Work/Entertainment	Transportation symbols	SUBWAY	(DoCoMo's is an "M" for metro)	
+390	E7E0	5	Activities/Work/Entertainment	Transportation symbols	METRO	(DoCoMo's is an "M" for metro)	
 391	E7E1	5	Activities/Work/Entertainment	Transportation symbols	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Transportation symbols	HIGH-SPEED TRAIN		
 393	E7E3	5	Activities/Work/Entertainment	Transportation symbols	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
@@ -563,18 +563,18 @@
 538	EB35	7	Abstract Concepts	Miscellaneous symbols	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
 539	EB45	7	Abstract Concepts	Miscellaneous symbols	CROSS MARK	bad; NO GOOD, not approved; X in tic tac toe. disunified from ✕ U+2715	
 540	EB46	7	Abstract Concepts	Miscellaneous symbols	NEGATIVE SQUARED CROSS MARK	Another X (orange background)	
-541	EB48	7	Abstract Concepts	Miscellaneous symbols	SIGN INDICATING FORBIDDEN ACTIVITY	Prohibited (circle with diagonal slash); Do not enter	
+541	EB48	7	Abstract Concepts	Miscellaneous symbols	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
 542	EB4A	7	Abstract Concepts	Miscellaneous symbols	WHITE HEAVY CHECK MARK	Check mark (red); not unified with ✓ U+2713	Should look like a hollow version (that is, without fill) of ✔ U+2714 HEAVY CHECK MARK.
 543	EB4B	7	Abstract Concepts	Miscellaneous symbols	LINK SYMBOL	Disunified from ♾ U+267E PERMANENT PAPER SIGN; Link with a twist	
 544	EB21	7	Abstract Concepts	Other symbols with letters and digits	SQUARED FREE	a letter sign Free of Charge	
-545	EB25	7	Abstract Concepts	Other symbols with letters and digits	NO ONE UNDER EIGHTEEN SIGN	under 18 not permitted	
+545	EB25	7	Abstract Concepts	Other symbols with letters and digits	NO ONE UNDER EIGHTEEN SYMBOL	under 18 not permitted	
 546	EB27	7	Abstract Concepts	Other symbols with letters and digits	SQUARED OK	a stamp, seal, button for approval	
 547	EB28	7	Abstract Concepts	Other symbols with letters and digits	SQUARED NG	no good, NG	
 548	EB32	7	Abstract Concepts	Other symbols with letters and digits	SQUARED VS		
 549	EB36	7	Abstract Concepts	Other symbols with letters and digits	SQUARED NEW	a stamp, seal, sign	
 550	EB37	7	Abstract Concepts	Other symbols with letters and digits	SQUARED UP WITH EXCLAMATION MARK	site renewed, updated, new information	
 551	EB38	7	Abstract Concepts	Other symbols with letters and digits	SQUARED COOL	cool!; hip	
-552	EB42	7	Abstract Concepts	Other symbols with letters and digits	TOP WITH UPWARDS TRIANGLE SIGN		
+552	EB42	7	Abstract Concepts	Other symbols with letters and digits	TOP WITH UPWARDS ARROW ABOVE		
 553	EB4F	7	Abstract Concepts	Other symbols with letters and digits	SQUARED SOS		
 554	EB24	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
 563	EB3F	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
@@ -628,7 +628,7 @@
 602	EB8C	7	Abstract Concepts	UI symbols	RADIO BUTTON	Selected radio button	
 603	EB8E	7	Abstract Concepts	UI symbols	BACK WITH LEFTWARDS ARROW ABOVE	Back (left arrow with "BACK")	
 604	EB8F	7	Abstract Concepts	UI symbols	BOOKMARK	Bookmark list ("お気に入り")	
-606	EB91	7	Abstract Concepts	UI symbols	CLOCKWISE UPWARDS AND DOWNWARDS OPEN CIRCLE ARROWS		
+606	EB91	7	Abstract Concepts	UI symbols	CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS		
 607	EB92	7	Abstract Concepts	UI symbols	E-MAIL SYMBOL	Email (Envelope with "E")	
 608	EB93	7	Abstract Concepts	Miscellaneous symbols	RAISED FIST		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
 609	EB95	7	Abstract Concepts	Miscellaneous symbols	RAISED HAND		Harmonize design with ✌ U+270C VICTORY HAND Dingbat.
