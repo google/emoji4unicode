@@ -132,14 +132,14 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <desc>autumn leaf</desc>
 <ann>= leaf</ann>
 </e>
-<e glyphRefID="50" google="FE043" id="043" img_from="softbank" kddi="&gt;E5CD" name="LEAF FLUTTERING IN WIND" softbank="E447" unicode="+1F343">
+<e glyphRefID="50" google="FE043" id="043" img_from="softbank" kddi="&gt;E5CD" name="LEAF FLUTTERING IN WIND" softbank="E447" text_fallback="[風に舞う葉]" unicode="+1F343">
 <desc>animated Softbank symbol</desc>
 </e>
 <e glyphRefID="52" google="FE045" id="045" img_from="kddi" kddi="EA94" name="HIBISCUS" softbank="E303" text_fallback="[ハイビスカス]" unicode="+1F33A"/>
 <e glyphRefID="53" google="FE046" id="046" img_from="softbank" kddi="E4E3" name="SUNFLOWER" softbank="E305" text_fallback="[ひまわり]" unicode="+1F33B"/>
-<e glyphRefID="54" google="FE047" id="047" img_from="softbank" kddi="E4E2" name="PALM TREE" softbank="E307" text_fallback="[ビーチ]" unicode="+1F334"/>
+<e glyphRefID="54" google="FE047" id="047" img_from="softbank" kddi="E4E2" name="PALM TREE" softbank="E307" text_fallback="[ヤシ]" unicode="+1F334"/>
 <e glyphRefID="55" google="FE048" id="048" img_from="kddi" kddi="EA96" name="CACTUS" softbank="E308" text_fallback="[サボテン]" unicode="+1F335"/>
-<e glyphRefID="56" google="FE049" id="049" img_from="softbank" name="EAR OF RICE" softbank="E444" unicode="+1F33E"/>
+<e glyphRefID="56" google="FE049" id="049" img_from="softbank" name="EAR OF RICE" softbank="E444" text_fallback="[稲穂]" unicode="+1F33E"/>
 <e glyphRefID="57" google="FE04A" id="04A" img_from="kddi" kddi="EB36" name="EAR OF MAIZE" text_fallback="[とうもろこし]" unicode="+1F33D"/>
 <e glyphRefID="58" google="FE04B" id="04B" img_from="kddi" kddi="EB37" name="MUSHROOM" text_fallback="[キノコ]" unicode="+1F344"/>
 <e glyphRefID="59" google="FE04C" id="04C" img_from="kddi" kddi="EB38" name="CHESTNUT" text_fallback="[栗]" unicode="+1F330"/>
@@ -207,7 +207,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="&gt;E6F0" glyphRefID="88" google="FE19D" id="19D" img_from="softbank" kddi="&gt;E4FC" name="MAN" oldname="MANS HEAD" softbank="E004" unicode="+1F468"/>
 <e docomo="&gt;E6F0" glyphRefID="89" google="FE19E" id="19E" img_from="softbank" kddi="&gt;E4FA" name="WOMAN" oldname="WOMANS HEAD" softbank="E005" unicode="+1F469"/>
 <e glyphRefID="90" google="FE19F" id="19F" img_from="kddi" kddi="E501" name="FAMILY" text_fallback="[家族]" unicode="+1F46A"/>
-<e glyphRefID="91" google="FE1A0" id="1A0" img_from="softbank" name="MAN AND WOMAN HOLDING HANDS" oldname="COUPLE" softbank="E428" unicode="+1F46B">
+<e glyphRefID="91" google="FE1A0" id="1A0" img_from="softbank" name="MAN AND WOMAN HOLDING HANDS" oldname="COUPLE" softbank="E428" text_fallback="[カップル]"  unicode="+1F46B">
 <desc>A couple holding hands</desc>
 </e>
 <e glyphRefID="92" google="FE1A1" id="1A1" img_from="kddi" kddi="E5DD" name="POLICE OFFICER" softbank="E152" text_fallback="[警官]" unicode="+1F46C">
@@ -224,7 +224,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="96" google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH GUA PI MAO" softbank="E516" text_fallback="[中国人]" unicode="+1F471">
 <design>The glyph should show a skullcap</design>
 </e>
-<e glyphRefID="97" google="FE1A6" id="1A6" img_from="kddi" kddi="EB15" name="MAN WITH TURBAN" softbank="E517" text_fallback="[インド]" unicode="+1F472"/>
+<e glyphRefID="97" google="FE1A6" id="1A6" img_from="kddi" kddi="EB15" name="MAN WITH TURBAN" softbank="E517" text_fallback="[インド人]" unicode="+1F472"/>
 <e glyphRefID="98" google="FE1A7" id="1A7" img_from="kddi" kddi="EB16" name="OLDER MAN" softbank="E518" text_fallback="[おじいさん]" unicode="+1F473"/>
 <e glyphRefID="99" google="FE1A8" id="1A8" img_from="kddi" kddi="EB17" name="OLDER WOMAN" softbank="E519" text_fallback="[おばあさん]" unicode="+1F474"/>
 <e glyphRefID="100" google="FE1A9" id="1A9" img_from="kddi" kddi="EB18" name="BABY" softbank="E51A" text_fallback="[赤ちゃん]" unicode="+1F475"/>
@@ -256,8 +256,8 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="110" google="FE1B3" id="1B3" img_from="softbank" kddi="E4F8" name="SKULL" softbank="E11C" text_fallback="[ドクロ]" unicode="+1F47F"/>
 </subcategory>
 <subcategory name="Role symbols">
-<e glyphRefID="111" google="FE1B4" id="1B4" img_from="softbank" name="INFORMATION DESK PERSON" softbank="E253" unicode="+1F480"/>
-<e glyphRefID="112" google="FE1B5" id="1B5" img_from="softbank" name="GUARDSMAN" softbank="E51E" unicode="+1F481"/>
+<e glyphRefID="111" google="FE1B4" id="1B4" img_from="softbank" name="INFORMATION DESK PERSON" softbank="E253" text_fallback="[案内]" unicode="+1F480"/>
+<e glyphRefID="112" google="FE1B5" id="1B5" img_from="softbank" name="GUARDSMAN" softbank="E51E" text_fallback="[衛兵]" unicode="+1F481"/>
 <e glyphRefID="113" google="FE1B6" id="1B6" img_from="kddi" kddi="EB1C" name="DANCER" softbank="E51F" text_fallback="[ダンス]" unicode="+1F482">
 <desc>Dancer (SoftBank = flamenco, KDDI = disco, oh well--it's their mapping)</desc>
 </e>
@@ -283,13 +283,13 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="124" google="FE1C1" id="1C1" img_from="kddi" kddi="E5C1" name="BEAR FACE" softbank="E051" text_fallback="[クマ]" unicode="+1F40B"/>
 <e glyphRefID="125" google="FE1C2" id="1C2" img_from="softbank" kddi="E5C2" name="MOUSE FACE" softbank="E053" text_fallback="[ネズミ]" unicode="+1F40C"/>
 <e glyphRefID="126" google="FE1C3" id="1C3" img_from="softbank" kddi="E470" name="SPOUTING WHALE" softbank="E054" text_fallback="[クジラ]" unicode="+1F40D"/>
-<e glyphRefID="127" google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109" unicode="+1F40E"/>
+<e glyphRefID="127" google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109" text_fallback="[サル]" unicode="+1F40E"/>
 <e glyphRefID="128" google="FE1C5" id="1C5" img_from="kddi" kddi="E5C7" name="OCTOPUS" softbank="E10A" text_fallback="[タコ]" unicode="+1F40F"/>
 <e glyphRefID="129" google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]" unicode="+1F410"/>
 <e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]" unicode="+1F411"/>
 <e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521" unicode="+1F412"/>
 <e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522" unicode="+1F413"/>
-<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER FACE" softbank="E524" unicode="+1F414"/>
+<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER FACE" softbank="E524" text_fallback="[ハムスター]" unicode="+1F414"/>
 <e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="BUG" softbank="E525" text_fallback="[ゲジゲジ]" unicode="+1F415">
 <desc>This Emoji may point to a centipede or hairy catepillar. It typically indicates something "distasteful".</desc>
 </e>
@@ -588,8 +588,8 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <subcategory name="Emoji Compatibility symbols">
 <e docomo="E740" glyphRefID="233" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" oldname="EMOJI COMPATIBILITY SYMBOL-1" softbank="E03B" unicode="+1F5FB"/>
 <e glyphRefID="234" google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" oldname="EMOJI COMPATIBILITY SYMBOL-2" softbank="E509" text_fallback="[東京タワー]" unicode="+1F5FC"/>
-<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" oldname="EMOJI COMPATIBILITY SYMBOL-3" softbank="E51D" unicode="+1F5FD"/>
-<e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="SILHOUETTE OF JAPAN" oldname="EMOJI COMPATIBILITY SYMBOL-4" text_fallback="[地図]" unicode="+1F5FE"/>
+<e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" oldname="EMOJI COMPATIBILITY SYMBOL-3" softbank="E51D" text_fallback="[自由の女神]" unicode="+1F5FD"/>
+<e glyphRefID="236" google="FE4C7" id="4C7" img_from="kddi" kddi="E572" name="SILHOUETTE OF JAPAN" oldname="EMOJI COMPATIBILITY SYMBOL-4" text_fallback="[日本地図]" unicode="+1F5FE"/>
 <e glyphRefID="237" google="FE4C8" id="4C8" img_from="kddi" kddi="EB6C" name="MOYAI" oldname="EMOJI COMPATIBILITY SYMBOL-5" text_fallback="[モアイ]" unicode="+1F5FF">
 <ann>* Japanese stone statue like Moai on Easter Island</ann>
 <desc>Japanese stone statue like Moai on Easter Island, famous one in Shibuya, Tokyo</desc>
@@ -876,7 +876,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="338" google="FE52F" id="52F" img_from="softbank" kddi="&gt;E511" name="PUBLIC ADDRESS LOUDSPEAKER" softbank="E142" text_fallback="[スピーカ]" unicode="+1F4E3">
 <desc>used for sound volume, notification</desc>
 </e>
-<e glyphRefID="339" google="FE530" id="530" img_from="softbank" kddi="&gt;E511" name="CHEERING MEGAPHONE" softbank="E317" text_fallback="[スピーカ]" unicode="+1F4E4">
+<e glyphRefID="339" google="FE530" id="530" img_from="softbank" kddi="&gt;E511" name="CHEERING MEGAPHONE" softbank="E317" text_fallback="[メガホン]" unicode="+1F4E4">
 <desc>also used for a general megaphone</desc>
 </e>
 <e glyphRefID="340" google="FE531" id="531" img_from="kddi" kddi="E4A8" name="SATELLITE ANTENNA" softbank="E14B" text_fallback="[アンテナ]" unicode="+1F4E1">
@@ -922,12 +922,12 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 </e>
 <e docomo="E730" glyphRefID="352" google="FE53A" id="53A" img_from="docomo" kddi="E4A0" name="PAPERCLIP" text_fallback="[クリップ]" unicode="+1F4CE"/>
 <e docomo="&gt;E682" glyphRefID="353" google="FE53B" id="53B" img_from="kddi" kddi="E5CE" name="BRIEFCASE" softbank="E11E" unicode="+1F4BC"/>
-<e glyphRefID="354" google="FE53C" id="53C" img_from="kddi" kddi="E582" name="MINIDISC" oldname="MINI DISC" softbank="E316" text_fallback="[フロッピー]" unicode="+1F4BD">
+<e glyphRefID="354" google="FE53C" id="53C" img_from="kddi" kddi="E582" name="MINIDISC" oldname="MINI DISC" softbank="E316" text_fallback="[MD]" unicode="+1F4BD">
 <desc>MD mini disc</desc>
 </e>
 <e glyphRefID="355" google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK" softbank="&gt;E316" text_fallback="[フロッピー]" unicode="+1F4BE"/>
 <e docomo="E675" google="FE53E" id="53E" kddi="E516" name="BLACK SCISSORS" softbank="E313" unicode="2702"/>
-<e glyphRefID="356" google="FE53F" id="53F" img_from="kddi" kddi="E560" name="ROUND PUSHPIN" text_fallback="φ" unicode="+1F4CD"/>
+<e glyphRefID="356" google="FE53F" id="53F" img_from="kddi" kddi="E560" name="ROUND PUSHPIN" text_fallback="[画びょう]" unicode="+1F4CD"/>
 <e docomo="&gt;E689" glyphRefID="357" google="FE540" id="540" img_from="kddi" kddi="E561" name="PAGE WITH CURL" softbank="&gt;E301" unicode="+1F4C3"/>
 <e docomo="&gt;E689" glyphRefID="358" google="FE541" id="541" img_from="kddi" kddi="E569" name="PAGE FACING UP" softbank="&gt;E301" unicode="+1F4C4"/>
 <e glyphRefID="359" google="FE542" id="542" img_from="kddi" kddi="E563" name="CALENDAR" text_fallback="[カレンダー]" unicode="+1F4C5"/>
@@ -1157,7 +1157,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= dancing notes, mood, melody</ann>
 <desc>disunified from &#x266B; U+266B</desc>
 </e>
-<e glyphRefID="439" google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040" unicode="+1F3B7"/>
+<e glyphRefID="439" google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040" text_fallback="[サックス]" unicode="+1F3B7"/>
 <e glyphRefID="440" google="FE816" id="816" img_from="kddi" kddi="E506" name="GUITAR" softbank="E041" text_fallback="[ギター]" unicode="+1F3B8"/>
 <e glyphRefID="441" google="FE817" id="817" img_from="kddi" kddi="EB40" name="MUSICAL KEYBOARD" text_fallback="[ピアノ]" unicode="+1F3B9"/>
 <e glyphRefID="442" google="FE818" id="818" img_from="kddi" kddi="EADC" name="TRUMPET" softbank="E042" text_fallback="[トランペット]" unicode="+1F3BA"/>
@@ -1165,7 +1165,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="&gt;E6FF" glyphRefID="444" google="FE81A" id="81A" img_from="kddi" kddi="EACC" name="MUSICAL SCORE" softbank="&gt;E326" unicode="+1F3BC">
 <ann>x (musical symbol g clef - 1D11E)</ann>
 </e>
-<e glyphRefID="445" google="FE81B" id="81B" img_from="softbank" name="PART ALTERNATION MARK" softbank="E12C" text_fallback="[グラフ]" unicode="303D">
+<e glyphRefID="445" google="FE81B" id="81B" img_from="softbank" name="PART ALTERNATION MARK" softbank="E12C" text_fallback="[歌記号]" unicode="303D">
 <desc>Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song</desc>
 </e>
 </subcategory>
@@ -1196,7 +1196,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e glyphRefID="458" google="FE828" id="828" img_from="kddi" kddi="EA95" name="BOUQUET" softbank="E306" text_fallback="[花束]" unicode="+1F48F"/>
 <e docomo="&gt;E6ED" glyphRefID="459" google="FE829" id="829" img_from="kddi" kddi="EADA" name="COUPLE WITH HEART" softbank="E425" unicode="+1F490"/>
-<e glyphRefID="460" google="FE82A" id="82A" img_from="softbank" kddi="&gt;E5BB" name="WEDDING" softbank="E43D" unicode="+1F491">
+<e glyphRefID="460" google="FE82A" id="82A" img_from="softbank" kddi="&gt;E5BB" name="WEDDING" softbank="E43D" text_fallback="[結婚式]" unicode="+1F491">
 <ann>= wedding chapel</ann>
 </e>
 </subcategory>
