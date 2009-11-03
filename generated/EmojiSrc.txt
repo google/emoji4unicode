@@ -1,7 +1,7 @@
 # Emoji Sources
 # N37xx
 #
-# Date: 2009-10-29
+# Date: 2009-11-03
 # Author: Markus Scherer
 #
 # Semicolon-delimited file with a fixed number of fields.
