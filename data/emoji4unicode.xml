@@ -39,8 +39,14 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e google="FE00E" id="00E" kddi="E48A" name="SNOWFLAKE" text_fallback="[雪結晶]" unicode="2744"/>
 <e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="SUN BEHIND CLOUD" softbank="&gt;E04A+E049" unicode="*26C5"/>
 <e docomo="&gt;E6B3" glyphRefID="13" google="FE010" id="010" img_from="kddi" kddi="E4BF" name="BRIDGE AT NIGHT" softbank="&gt;E44B" unicode="+1F309"/>
+<e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E" unicode="+1F30A"/>
+<e glyphRefID="41" google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]" unicode="+1F30B"/>
 </subcategory>
-<subcategory name="Moon symbols">
+<subcategory name="Astronomical symbols">
+<e docomo="&gt;E6B3" glyphRefID="42" google="FE03B" id="03B" img_from="kddi" kddi="EB5F" name="MILKY WAY" softbank="&gt;E44B" unicode="+1F30C"/>
+<e glyphRefID="40" google="FE039" id="039" img_from="kddi" kddi="E5B3" name="EARTH GLOBE ASIA-AUSTRALIA" text_fallback="[地球]" unicode="+1F30F"/>
+</subcategory>
+<subcategory name="Moon, sun, and star symbols">
 <e docomo="E69C" glyphRefID="14" google="FE011" id="011" img_from="docomo" kddi="E5A8" name="NEW MOON SYMBOL" text_fallback="●" unicode="+1F311"/>
 <e docomo="E69D" glyphRefID="15" google="FE012" id="012" img_from="docomo" kddi="E5A9" name="WAXING GIBBOUS MOON SYMBOL" softbank="&gt;E04C" unicode="+1F314">
 <ann>= waxing moon</ann>
@@ -59,19 +65,14 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <desc>(KDDI's with face)</desc>
 <ann>= half moon with face</ann>
 </e>
+<e glyphRefID="585" google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="GLOWING STAR" softbank="E335" text_fallback="[☆]" unicode="+1F31F">
+<desc>Animated pulsating star in orange color</desc>
+</e>
+<e glyphRefID="586" google="FEB6A" id="B6A" img_from="kddi" kddi="E468" name="SHOOTING STAR" text_fallback="☆彡" unicode="+1F320">
+<desc>Animated glowing star in blue color</desc>
+</e>
 </subcategory>
-<subcategory name="Time symbols">
-<e docomo="E6B7" glyphRefID="21" google="FE018" id="018" img_from="docomo" name="SOON WITH RIGHTWARDS ARROW ABOVE" oldname="SOON WITH RIGHT ARROW ABOVE" text_fallback="[SOON]" unicode="+1F51C">
-<desc>soon</desc>
-</e>
-<e docomo="E6B8" glyphRefID="22" google="FE019" id="019" img_from="docomo" name="ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE" oldname="ON WITH DOUBLE POINTING ARROW ABOVE" text_fallback="[ON]" unicode="+1F51B"/>
-<e docomo="E6B9" glyphRefID="23" google="FE01A" id="01A" img_from="docomo" name="END WITH LEFTWARDS ARROW ABOVE" oldname="END WITH LEFT ARROW ABOVE" text_fallback="[end]" unicode="+1F51A"/>
-<e docomo="E71C" glyphRefID="24" google="FE01B" id="01B" img_from="kddi" kddi="E47C" name="HOURGLASS WITH FLOWING SAND" text_fallback="[砂時計]" unicode="+23F3">
-<ann>x (hourglass - 231B)</ann>
-<desc>Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.</desc>
-</e>
-<e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
-<e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
+<subcategory name="User interface symbols">
 <e docomo="&gt;E6BA" glyphRefID="25" google="FE01E" id="01E" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ONE OCLOCK" softbank="E024" unicode="+1F550"/>
 <e docomo="&gt;E6BA" glyphRefID="26" google="FE01F" id="01F" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWO OCLOCK" softbank="E025" unicode="+1F551"/>
 <e docomo="&gt;E6BA" glyphRefID="27" google="FE020" id="020" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE THREE OCLOCK" softbank="E026" unicode="+1F552"/>
@@ -86,13 +87,17 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </e>
 <e docomo="&gt;E6BA" glyphRefID="35" google="FE028" id="028" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE ELEVEN OCLOCK" softbank="E02E" unicode="+1F55A"/>
 <e docomo="&gt;E6BA" glyphRefID="36" google="FE029" id="029" img_from="softbank" kddi="&gt;E594" name="CLOCK FACE TWELVE OCLOCK" softbank="E02F" unicode="+1F55B"/>
-</subcategory>
-<subcategory name="Miscellaneous technical">
+<e docomo="E71F" google="FE01D" id="01D" kddi="E57A" name="WATCH" text_fallback="[腕時計]" unicode="231A"/>
+<e docomo="&gt;E71C" google="FE01C" id="01C" kddi="E57B" name="HOURGLASS" text_fallback="[砂時計]" unicode="231B"/>
 <e docomo="E6BA" glyphRefID="37" google="FE02A" id="02A" img_from="docomo" kddi="E594" name="ALARM CLOCK" softbank="&gt;E02D" unicode="+23F0">
 <desc>a general clock symbol</desc>
 <design>Make the glyph look like an alarm clock.</design>
 <ann>x (watch - 231A)</ann>
 <ann>x (clock face one oclock - 1F550)</ann>
+</e>
+<e docomo="E71C" glyphRefID="24" google="FE01B" id="01B" img_from="kddi" kddi="E47C" name="HOURGLASS WITH FLOWING SAND" text_fallback="[砂時計]" unicode="+23F3">
+<ann>x (hourglass - 231B)</ann>
+<desc>Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.</desc>
 </e>
 </subcategory>
 <subcategory name="Zodiacal symbol">
@@ -111,12 +116,6 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="38" google="FE037" id="037" img_from="softbank" kddi="E49B" name="OPHIUCHUS" softbank="E24B" text_fallback="[蛇使座]" unicode="+26CE">
 <desc>letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)</desc>
 </e>
-</subcategory>
-<subcategory name="Miscellaneous symbols">
-<e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E" unicode="+1F30A"/>
-<e glyphRefID="40" google="FE039" id="039" img_from="kddi" kddi="E5B3" name="EARTH GLOBE ASIA-AUSTRALIA" text_fallback="[地球]" unicode="+1F30F"/>
-<e glyphRefID="41" google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]" unicode="+1F30B"/>
-<e docomo="&gt;E6B3" glyphRefID="42" google="FE03B" id="03B" img_from="kddi" kddi="EB5F" name="MILKY WAY" softbank="&gt;E44B" unicode="+1F30C"/>
 </subcategory>
 <subcategory name="Plant symbols">
 <e docomo="E741" glyphRefID="43" google="FE03C" id="03C" img_from="docomo" kddi="E513" name="FOUR LEAF CLOVER" softbank="E110" unicode="+1F340">
@@ -196,12 +195,10 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </e>
 <e glyphRefID="84" google="FE199" id="199" img_from="kddi" kddi="EAA2" name="BARBER POLE" softbank="E320" text_fallback="[床屋]" unicode="+1F488"/>
 </subcategory>
-<subcategory name="Miscellaneous symbol">
+<subcategory name="Portrait and role symbols">
 <e docomo="E6B1" glyphRefID="85" google="FE19A" id="19A" img_from="docomo" name="BUST IN SILHOUETTE" unicode="+1F464">
 <ann>= guest account</ann>
 </e>
-</subcategory>
-<subcategory name="Portrait and role symbols">
 <e docomo="&gt;E6F0" glyphRefID="86" google="FE19B" id="19B" img_from="softbank" kddi="E4FC" name="BOY" oldname="BOYS HEAD" softbank="E001" unicode="+1F466">
 <desc>? Need to examine cross mapping</desc>
 </e>
@@ -221,7 +218,6 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="94" google="FE1A3" id="1A3" img_from="kddi" kddi="EAE9" name="BRIDE WITH VEIL" text_fallback="[花嫁]" unicode="+1F470"/>
 <e glyphRefID="95" google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="WESTERN PERSON" softbank="E515" text_fallback="[白人]" unicode="+1F471">
 <desc>both male and female icons exist</desc>
-<ann>= woman with blond hair</ann>
 </e>
 <e glyphRefID="96" google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH GUA PI MAO" softbank="E516" text_fallback="[中国人]" unicode="+1F472">
 <design>The glyph should show a skullcap</design>
@@ -265,52 +261,14 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </e>
 </subcategory>
 <subcategory name="Animal symbols">
-<e docomo="E6A1" glyphRefID="114" google="FE1B7" id="1B7" img_from="kddi" kddi="E4E1" name="DOG FACE" softbank="E052" unicode="+1F436"/>
-<e docomo="E6A2" glyphRefID="115" google="FE1B8" id="1B8" img_from="kddi" kddi="E4DB" name="CAT FACE" softbank="E04F" unicode="+1F431"/>
 <e docomo="E74E" glyphRefID="116" google="FE1B9" id="1B9" img_from="kddi" kddi="EB7E" name="SNAIL" text_fallback="[カタツムリ]" unicode="+1F40C">
 <ann>* fifth of the signs of the Asian zodiac, used in Kazakhstan</ann>
 </e>
-<e docomo="E74F" glyphRefID="117" google="FE1BA" id="1BA" img_from="kddi" kddi="E4E0" name="BABY CHICK" softbank="E523" unicode="+1F424"/>
-<e docomo="&gt;E74F" glyphRefID="118" google="FE1BB" id="1BB" img_from="kddi" kddi="EB76" name="FRONT-FACING BABY CHICK" softbank="&gt;E523" unicode="+1F425">
-<desc>chick facing you</desc>
-</e>
-<e docomo="&gt;E74F" glyphRefID="152" google="FE1DD" id="1DD" img_from="kddi" kddi="E5DB" name="HATCHING CHICK" softbank="&gt;E523" unicode="+1F423">
-<desc>animated by KDDI</desc>
-</e>
-<e docomo="E750" glyphRefID="119" google="FE1BC" id="1BC" img_from="kddi" kddi="E4DC" name="PENGUIN" softbank="E055" unicode="+1F427"/>
-<e docomo="E751" glyphRefID="120" google="FE1BD" id="1BD" img_from="docomo" kddi="&gt;E49A" name="FISH" softbank="E019" unicode="+1F41F"/>
-<e docomo="E754" glyphRefID="121" google="FE1BE" id="1BE" img_from="kddi" kddi="E4D8" name="HORSE FACE" softbank="E01A" unicode="+1F434"/>
-<e docomo="E755" glyphRefID="122" google="FE1BF" id="1BF" img_from="softbank" kddi="E4DE" name="PIG FACE" softbank="E10B" unicode="+1F437"/>
-<e glyphRefID="123" google="FE1C0" id="1C0" img_from="kddi" kddi="E5C0" name="TIGER FACE" softbank="E050" text_fallback="[トラ]" unicode="+1F42F"/>
-<e glyphRefID="124" google="FE1C1" id="1C1" img_from="kddi" kddi="E5C1" name="BEAR FACE" softbank="E051" text_fallback="[クマ]" unicode="+1F43B"/>
-<e glyphRefID="125" google="FE1C2" id="1C2" img_from="softbank" kddi="E5C2" name="MOUSE FACE" softbank="E053" text_fallback="[ネズミ]" unicode="+1F42D"/>
-<e glyphRefID="126" google="FE1C3" id="1C3" img_from="softbank" kddi="E470" name="SPOUTING WHALE" softbank="E054" text_fallback="[クジラ]" unicode="+1F433"/>
-<e glyphRefID="127" google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109" text_fallback="[サル]" unicode="+1F435"/>
-<e glyphRefID="128" google="FE1C5" id="1C5" img_from="kddi" kddi="E5C7" name="OCTOPUS" softbank="E10A" text_fallback="[タコ]" unicode="+1F419"/>
-<e glyphRefID="129" google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]" unicode="+1F41A"/>
-<e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]" unicode="+1F42C"/>
-<e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521" unicode="+1F426"/>
-<e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522" unicode="+1F420"/>
-<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER FACE" softbank="E524" text_fallback="[ハムスター]" unicode="+1F439"/>
-<e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="BUG" softbank="E525" text_fallback="[ゲジゲジ]" unicode="+1F41B">
-<desc>This Emoji may point to a centipede or hairy catepillar. It typically indicates something "distasteful".</desc>
-</e>
-<e glyphRefID="135" google="FE1CC" id="1CC" img_from="kddi" kddi="EB1F" name="ELEPHANT" softbank="E526" text_fallback="[ゾウ]" unicode="+1F418">
-<ann>* twelfth of the signs of the Asian zodiac, used in Thailand</ann>
-</e>
-<e glyphRefID="136" google="FE1CD" id="1CD" img_from="kddi" kddi="EB20" name="KOALA" softbank="E527" text_fallback="[コアラ]" unicode="+1F428"/>
-<e glyphRefID="137" google="FE1CE" id="1CE" img_from="softbank" kddi="&gt;E4D9" name="MONKEY" softbank="E528" text_fallback="[サル]" unicode="+1F412">
-<ann>* ninth of the signs of the Asian zodiac</ann>
-</e>
-<e glyphRefID="138" google="FE1CF" id="1CF" img_from="softbank" kddi="&gt;E48F" name="SHEEP" softbank="E529" text_fallback="[ヒツジ]" unicode="+1F411">
-<desc>Note Aries (sheep) by KDDI. Zodiac</desc>
-<ann>* eighth of the signs of the Asian zodiac, used in Persia</ann>
-</e>
-<e docomo="&gt;E6A1" glyphRefID="139" google="FE1D0" id="1D0" img_from="softbank" kddi="&gt;E4E1" name="WOLF FACE" softbank="E52A" unicode="+1F43A"/>
-<e glyphRefID="140" google="FE1D1" id="1D1" img_from="kddi" kddi="EB21" name="COW FACE" softbank="E52B" text_fallback="[牛]" unicode="+1F42E"/>
-<e glyphRefID="141" google="FE1D2" id="1D2" img_from="kddi" kddi="E4D7" name="RABBIT FACE" softbank="E52C" text_fallback="[ウサギ]" unicode="+1F430"/>
 <e glyphRefID="142" google="FE1D3" id="1D3" img_from="softbank" kddi="EB22" name="SNAKE" softbank="E52D" text_fallback="[ヘビ]" unicode="+1F40D">
 <ann>* sixth of the signs of the Asian zodiac</ann>
+</e>
+<e docomo="&gt;E754" glyphRefID="386" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE" softbank="E134" unicode="+1F40E">
+<ann>* seventh of the signs of the Asian zodiac</ann>
 </e>
 <e glyphRefID="143" google="FE1D4" id="1D4" img_from="kddi" kddi="EB23" name="CHICKEN" softbank="E52E" text_fallback="[ニワトリ]" unicode="+1F414">
 <ann>* tenth of the signs of the Asian zodiac, used in Persia</ann>
@@ -323,24 +281,67 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e glyphRefID="145" google="FE1D6" id="1D6" img_from="kddi" kddi="EB25" name="BACTRIAN CAMEL" softbank="E530" text_fallback="[ラクダ]" unicode="+1F42B">
 <ann>* has two humps</ann>
 </e>
-<e glyphRefID="146" google="FE1D7" id="1D7" img_from="kddi" kddi="E4DA" name="FROG FACE" softbank="E531" text_fallback="[カエル]" unicode="+1F438"/>
-<e docomo="&gt;E6A1" glyphRefID="147" google="FE1D8" id="1D8" img_from="kddi" kddi="E4DF" name="POODLE" softbank="&gt;E052" unicode="+1F429"/>
-<e docomo="&gt;E751" glyphRefID="148" google="FE1D9" id="1D9" img_from="kddi" kddi="E4D3" name="BLOWFISH" softbank="&gt;E019" unicode="+1F421"/>
+<e glyphRefID="135" google="FE1CC" id="1CC" img_from="kddi" kddi="EB1F" name="ELEPHANT" softbank="E526" text_fallback="[ゾウ]" unicode="+1F418">
+<ann>* twelfth of the signs of the Asian zodiac, used in Thailand</ann>
+</e>
+<e glyphRefID="136" google="FE1CD" id="1CD" img_from="kddi" kddi="EB20" name="KOALA" softbank="E527" text_fallback="[コアラ]" unicode="+1F428"/>
+<e glyphRefID="137" google="FE1CE" id="1CE" img_from="softbank" kddi="&gt;E4D9" name="MONKEY" softbank="E528" text_fallback="[サル]" unicode="+1F412">
+<ann>* ninth of the signs of the Asian zodiac</ann>
+</e>
+<e glyphRefID="138" google="FE1CF" id="1CF" img_from="softbank" kddi="&gt;E48F" name="SHEEP" softbank="E529" text_fallback="[ヒツジ]" unicode="+1F411">
+<desc>Note Aries (sheep) by KDDI. Zodiac</desc>
+<ann>* eighth of the signs of the Asian zodiac, used in Persia</ann>
+</e>
+<e glyphRefID="128" google="FE1C5" id="1C5" img_from="kddi" kddi="E5C7" name="OCTOPUS" softbank="E10A" text_fallback="[タコ]" unicode="+1F419"/>
+<e glyphRefID="129" google="FE1C6" id="1C6" img_from="softbank" kddi="EAEC" name="SPIRAL SHELL" softbank="E441" text_fallback="[巻貝]" unicode="+1F41A"/>
+<e glyphRefID="134" google="FE1CB" id="1CB" img_from="softbank" kddi="EB1E" name="BUG" softbank="E525" text_fallback="[ゲジゲジ]" unicode="+1F41B">
+<desc>This Emoji may point to a centipede or hairy catepillar. It typically indicates something "distasteful".</desc>
+</e>
 <e glyphRefID="149" google="FE1DA" id="1DA" img_from="kddi" kddi="E4DD" name="ANT" text_fallback="[アリ]" unicode="+1F41C"/>
-<e docomo="&gt;E698" glyphRefID="150" google="FE1DB" id="1DB" img_from="kddi" kddi="E4EE" name="PAW PRINTS" softbank="&gt;E536" unicode="+1F43E"/>
-<e glyphRefID="151" google="FE1DC" id="1DC" img_from="kddi" kddi="E5D4" name="TURTLE" text_fallback="[カメ]" unicode="+1F422"/>
-<e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="DRAGON FACE" text_fallback="[辰]" unicode="+1F432"/>
-<e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA FACE" text_fallback="[パンダ]" unicode="+1F43C"/>
-<e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B" unicode="+1F43D"/>
 <e glyphRefID="156" google="FE1E1" id="1E1" img_from="kddi" kddi="EB57" name="HONEYBEE" text_fallback="[ミツバチ]" unicode="+1F41D"/>
 <e glyphRefID="157" google="FE1E2" id="1E2" img_from="kddi" kddi="EB58" name="LADY BEETLE" oldname="LADYBUG" text_fallback="[てんとう虫]" unicode="+1F41E">
 <ann>= ladybird, ladybug, coccinellids</ann>
 </e>
 <e google="FE1E3" id="1E3" img_from="google" in_proposal="no" kddi="&gt;E492" name="CRAB" text_fallback="[カニ]"/>
+<e docomo="&gt;E751" glyphRefID="132" google="FE1C9" id="1C9" img_from="kddi" kddi="EB1D" name="TROPICAL FISH" softbank="E522" unicode="+1F420"/>
+<e docomo="&gt;E751" glyphRefID="148" google="FE1D9" id="1D9" img_from="kddi" kddi="E4D3" name="BLOWFISH" softbank="&gt;E019" unicode="+1F421"/>
+<e glyphRefID="151" google="FE1DC" id="1DC" img_from="kddi" kddi="E5D4" name="TURTLE" text_fallback="[カメ]" unicode="+1F422"/>
+<e docomo="E74F" glyphRefID="117" google="FE1BA" id="1BA" img_from="kddi" kddi="E4E0" name="BABY CHICK" softbank="E523" unicode="+1F424"/>
+<e docomo="&gt;E74F" glyphRefID="118" google="FE1BB" id="1BB" img_from="kddi" kddi="EB76" name="FRONT-FACING BABY CHICK" softbank="&gt;E523" unicode="+1F425">
+<desc>chick facing you</desc>
+</e>
+<e docomo="&gt;E74F" glyphRefID="131" google="FE1C8" id="1C8" img_from="softbank" kddi="&gt;E4E0" name="BIRD" softbank="E521" unicode="+1F426"/>
+<e docomo="&gt;E74F" glyphRefID="152" google="FE1DD" id="1DD" img_from="kddi" kddi="E5DB" name="HATCHING CHICK" softbank="&gt;E523" unicode="+1F423">
+<desc>animated by KDDI</desc>
+</e>
+<e docomo="E750" glyphRefID="119" google="FE1BC" id="1BC" img_from="kddi" kddi="E4DC" name="PENGUIN" softbank="E055" unicode="+1F427"/>
+<e docomo="&gt;E6A1" glyphRefID="147" google="FE1D8" id="1D8" img_from="kddi" kddi="E4DF" name="POODLE" softbank="&gt;E052" unicode="+1F429"/>
+<e docomo="E751" glyphRefID="120" google="FE1BD" id="1BD" img_from="docomo" kddi="&gt;E49A" name="FISH" softbank="E019" unicode="+1F41F"/>
+<e glyphRefID="130" google="FE1C7" id="1C7" img_from="kddi" kddi="EB1B" name="DOLPHIN" softbank="E520" text_fallback="[イルカ]" unicode="+1F42C"/>
+</subcategory>
+<subcategory name="Animal faces">
+<e glyphRefID="125" google="FE1C2" id="1C2" img_from="softbank" kddi="E5C2" name="MOUSE FACE" softbank="E053" text_fallback="[ネズミ]" unicode="+1F42D"/>
+<e glyphRefID="123" google="FE1C0" id="1C0" img_from="kddi" kddi="E5C0" name="TIGER FACE" softbank="E050" text_fallback="[トラ]" unicode="+1F42F"/>
+<e docomo="E6A2" glyphRefID="115" google="FE1B8" id="1B8" img_from="kddi" kddi="E4DB" name="CAT FACE" softbank="E04F" unicode="+1F431"/>
+<e glyphRefID="126" google="FE1C3" id="1C3" img_from="softbank" kddi="E470" name="SPOUTING WHALE" softbank="E054" text_fallback="[クジラ]" unicode="+1F433"/>
+<e docomo="E754" glyphRefID="121" google="FE1BE" id="1BE" img_from="kddi" kddi="E4D8" name="HORSE FACE" softbank="E01A" unicode="+1F434"/>
+<e glyphRefID="127" google="FE1C4" id="1C4" img_from="kddi" kddi="E4D9" name="MONKEY FACE" softbank="E109" text_fallback="[サル]" unicode="+1F435"/>
+<e docomo="E6A1" glyphRefID="114" google="FE1B7" id="1B7" img_from="kddi" kddi="E4E1" name="DOG FACE" softbank="E052" unicode="+1F436"/>
+<e docomo="E755" glyphRefID="122" google="FE1BF" id="1BF" img_from="softbank" kddi="E4DE" name="PIG FACE" softbank="E10B" unicode="+1F437"/>
+<e glyphRefID="124" google="FE1C1" id="1C1" img_from="kddi" kddi="E5C1" name="BEAR FACE" softbank="E051" text_fallback="[クマ]" unicode="+1F43B"/>
+<e glyphRefID="133" google="FE1CA" id="1CA" img_from="softbank" name="HAMSTER FACE" softbank="E524" text_fallback="[ハムスター]" unicode="+1F439"/>
+<e docomo="&gt;E6A1" glyphRefID="139" google="FE1D0" id="1D0" img_from="softbank" kddi="&gt;E4E1" name="WOLF FACE" softbank="E52A" unicode="+1F43A"/>
+<e glyphRefID="140" google="FE1D1" id="1D1" img_from="kddi" kddi="EB21" name="COW FACE" softbank="E52B" text_fallback="[牛]" unicode="+1F42E"/>
+<e glyphRefID="141" google="FE1D2" id="1D2" img_from="kddi" kddi="E4D7" name="RABBIT FACE" softbank="E52C" text_fallback="[ウサギ]" unicode="+1F430"/>
+<e glyphRefID="146" google="FE1D7" id="1D7" img_from="kddi" kddi="E4DA" name="FROG FACE" softbank="E531" text_fallback="[カエル]" unicode="+1F438"/>
+<e docomo="&gt;E698" glyphRefID="150" google="FE1DB" id="1DB" img_from="kddi" kddi="E4EE" name="PAW PRINTS" softbank="&gt;E536" unicode="+1F43E"/>
+<e glyphRefID="153" google="FE1DE" id="1DE" img_from="kddi" kddi="EB3F" name="DRAGON FACE" text_fallback="[辰]" unicode="+1F432"/>
+<e glyphRefID="154" google="FE1DF" id="1DF" img_from="kddi" kddi="EB46" name="PANDA FACE" text_fallback="[パンダ]" unicode="+1F43C"/>
+<e docomo="&gt;E755" glyphRefID="155" google="FE1E0" id="1E0" img_from="kddi" kddi="EB48" name="PIG NOSE" softbank="&gt;E10B" unicode="+1F43D"/>
 </subcategory>
 </category>
 <category name="3. Faces and Smiley's">
-<subcategory name="Faces used as emoticons">
+<subcategory name="Emoticons">
 <e docomo="E6F1" glyphRefID="158" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059" unicode="+1F600"/>
 <e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403" unicode="+1F601">
 <desc>Forms a pair with e-350.</desc>
@@ -440,7 +441,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </e>
 <e docomo="E729" glyphRefID="195" google="FE347" id="347" img_from="docomo" kddi="E5C3" name="WINKING FACE" softbank="E405" unicode="+1F625"/>
 </subcategory>
-<subcategory name="Cat faces used as emoticons">
+<subcategory name="Emoticons with cat faces">
 <e docomo="&gt;E6F0" glyphRefID="196" google="FE348" id="348" img_from="kddi" kddi="EB61" name="CAT FACE WITH OPEN MOUTH" softbank="&gt;E057" unicode="+1F62B">
 <desc>Happy</desc>
 </e>
@@ -533,7 +534,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </subcategory>
 </category>
 <category name="4. Artifacts">
-<subcategory name="Building symbols">
+<subcategory name="Building and map symbols">
 <e docomo="E663" glyphRefID="216" google="FE4B0" id="4B0" img_from="docomo" kddi="E4AB" name="HOUSE BUILDING" softbank="E036" unicode="+1F3E0">
 <desc>similar to English "house" = "building"</desc>
 </e>
@@ -587,7 +588,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <desc>Japanese izakaya restaurant for drinking, characteristic red lantern</desc>
 </e>
 </subcategory>
-<subcategory name="Emoji Compatibility symbols">
+<subcategory name="Cultural symbols">
 <e docomo="E740" glyphRefID="233" google="FE4C3" id="4C3" img_from="docomo" kddi="E5BD" name="MOUNT FUJI" oldname="EMOJI COMPATIBILITY SYMBOL-1" softbank="E03B" unicode="+1F5FB"/>
 <e glyphRefID="234" google="FE4C4" id="4C4" img_from="softbank" kddi="E4C0" name="TOKYO TOWER" oldname="EMOJI COMPATIBILITY SYMBOL-2" softbank="E509" text_fallback="[東京タワー]" unicode="+1F5FC"/>
 <e glyphRefID="235" google="FE4C6" id="4C6" img_from="softbank" name="STATUE OF LIBERTY" oldname="EMOJI COMPATIBILITY SYMBOL-3" softbank="E51D" text_fallback="[自由の女神]" unicode="+1F5FD"/>
@@ -597,14 +598,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <desc>Japanese stone statue like Moai on Easter Island, famous one in Shibuya, Tokyo</desc>
 </e>
 </subcategory>
-<subcategory name="Hardware symbols">
-<e docomo="E718" glyphRefID="238" google="FE4C9" id="4C9" img_from="docomo" kddi="E587" name="WRENCH" text_fallback="[レンチ]" unicode="+1F527"/>
-<e glyphRefID="239" google="FE4CA" id="4CA" img_from="kddi" kddi="E5CB" name="HAMMER" softbank="E116" text_fallback="[ハンマー]" unicode="+1F528">
-<desc>mallet</desc>
-</e>
-<e glyphRefID="240" google="FE4CB" id="4CB" img_from="kddi" kddi="E581" name="NUT AND BOLT" text_fallback="[ネジ]" unicode="+1F529"/>
-</subcategory>
-<subcategory name="Clothes and wearables">
+<subcategory name="Clothing and accessories">
 <e docomo="&gt;E699" glyphRefID="241" google="FE4CC" id="4CC" img_from="kddi" kddi="E5B7" name="MANS SHOE" softbank="&gt;E007" unicode="+1F45E"/>
 <e docomo="E699" glyphRefID="242" google="FE4CD" id="4CD" img_from="kddi" kddi="EB2B" name="ATHLETIC SHOE" oldname="SNEAKER" softbank="E007" unicode="+1F45F">
 <ann>= runner, sneaker, tennis shoe</ann>
@@ -615,6 +609,9 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 </e>
 <e glyphRefID="253" google="FE4D8" id="4D8" img_from="kddi" kddi="EA9F" name="WOMANS BOOTS" softbank="E31B" text_fallback="[ブーツ]" unicode="+1F462">
 <desc>usually woman's boots</desc>
+</e>
+<e docomo="E698" glyphRefID="376" google="FE553" id="553" img_from="docomo" kddi="EB2A" name="FOOTPRINTS" softbank="E536" unicode="+1F463">
+<desc>single or multiple footprints</desc>
 </e>
 <e docomo="E69A" glyphRefID="243" google="FE4CE" id="4CE" img_from="docomo" kddi="E4FE" name="EYEGLASSES" text_fallback="[メガネ]" unicode="+1F453"/>
 <e docomo="E70E" glyphRefID="244" google="FE4CF" id="4CF" img_from="docomo" kddi="E5B6" name="T-SHIRT" softbank="E006" unicode="+1F455"/>
@@ -629,6 +626,8 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="255" google="FE4DA" id="4DA" img_from="kddi" kddi="EAA4" name="BIKINI" softbank="E322" text_fallback="[ビキニ]" unicode="+1F459"/>
 <e docomo="&gt;E70E" glyphRefID="256" google="FE4DB" id="4DB" img_from="kddi" kddi="E50D" name="WOMANS CLOTHES" softbank="&gt;E006" unicode="+1F45A"/>
 <e docomo="E70F" glyphRefID="257" google="FE4DC" id="4DC" img_from="docomo" kddi="E504" name="PURSE" text_fallback="[財布]" unicode="+1F45B"/>
+<e docomo="E682" glyphRefID="277" google="FE4F0" id="4F0" img_from="docomo" kddi="E49C" name="HANDBAG" softbank="E323" unicode="+1F45C"/>
+<e docomo="E6AD" glyphRefID="278" google="FE4F1" id="4F1" img_from="docomo" name="POUCH" text_fallback="[ふくろ]" unicode="+1F45D"/>
 </subcategory>
 <subcategory name="Money symbols">
 <e docomo="E715" glyphRefID="258" google="FE4DD" id="4DD" img_from="kddi" kddi="E4C7" name="MONEY BAG" softbank="E12F" unicode="+1F4B0">
@@ -709,65 +708,32 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <desc>U.S.A.</desc>
 </e>
 </subcategory>
-<subcategory name="Miscellaneous symbols">
-<e docomo="E681" glyphRefID="276" google="FE4EF" id="4EF" img_from="docomo" kddi="E515" name="CAMERA" softbank="E008" unicode="+1F4F7"/>
-<e docomo="E682" glyphRefID="277" google="FE4F0" id="4F0" img_from="docomo" kddi="E49C" name="HANDBAG" softbank="E323" unicode="+1F45C"/>
-<e docomo="E6AD" glyphRefID="278" google="FE4F1" id="4F1" img_from="docomo" name="POUCH" text_fallback="[ふくろ]" unicode="+1F45D"/>
-<e docomo="E713" glyphRefID="279" google="FE4F2" id="4F2" img_from="docomo" kddi="E512" name="BELL" softbank="E325" unicode="+1F514"/>
-<e docomo="E714" glyphRefID="280" google="FE4F3" id="4F3" img_from="docomo" name="DOOR" text_fallback="[ドア]" unicode="+1F6AA"/>
-<e glyphRefID="281" google="FE4F4" id="4F4" img_from="kddi" kddi="E4F5" name="PILE OF POO" oldname="DUNG" softbank="E05A" text_fallback="[ウンチ]" unicode="+1F4A9">
-<ann>= dog dirt</ann>
+<subcategory name="Tool symbols">
+<e glyphRefID="283" google="FE4F6" id="4F6" img_from="kddi" kddi="E47B" name="FIRE" softbank="E11D" text_fallback="[炎]" unicode="+1F525"/>
+<e docomo="&gt;E6FB" glyphRefID="288" google="FE4FB" id="4FB" img_from="kddi" kddi="E583" name="ELECTRIC TORCH" oldname="FLASHLIGHT" text_fallback="[懐中電灯]" unicode="+1F526">
+<ann>= flashlight</ann>
+</e>
+<e docomo="E718" glyphRefID="238" google="FE4C9" id="4C9" img_from="docomo" kddi="E587" name="WRENCH" text_fallback="[レンチ]" unicode="+1F527"/>
+<e glyphRefID="239" google="FE4CA" id="4CA" img_from="kddi" kddi="E5CB" name="HAMMER" softbank="E116" text_fallback="[ハンマー]" unicode="+1F528">
+<desc>mallet</desc>
+</e>
+<e glyphRefID="240" google="FE4CB" id="4CB" img_from="kddi" kddi="E581" name="NUT AND BOLT" text_fallback="[ネジ]" unicode="+1F529"/>
+<e glyphRefID="287" google="FE4FA" id="4FA" img_from="kddi" kddi="E57F" name="HOCHO" oldname="KNIFE" text_fallback="[包丁]" unicode="+1F52A">
+<ann>= Japanese kitchen knife</ann>
 </e>
 <e glyphRefID="282" google="FE4F5" id="4F5" img_from="kddi" kddi="E50A" name="PISTOL" softbank="E113" text_fallback="[ピストル]" unicode="+1F52B">
 <desc>action genre</desc>
 </e>
-<e glyphRefID="283" google="FE4F6" id="4F6" img_from="kddi" kddi="E47B" name="FIRE" softbank="E11D" text_fallback="[炎]" unicode="+1F525"/>
 <e glyphRefID="284" google="FE4F7" id="4F7" img_from="kddi" kddi="EA8F" name="CRYSTAL BALL" softbank="&gt;E23E" text_fallback="[占い]" unicode="+1F52E">
 <desc>fortune telling, zodiacs</desc>
 </e>
 <e glyphRefID="285" google="FE4F8" id="4F8" img_from="softbank" kddi="&gt;EA8F" name="SIX POINTED STAR WITH MIDDLE DOT" softbank="E23E" text_fallback="[占い]" unicode="+1F52F">
 <desc>zodiacs, fortune telling</desc>
 </e>
-<e docomo="&gt;E677" glyphRefID="286" google="FE4F9" id="4F9" img_from="kddi" kddi="E57E" name="VIDEO CAMERA" softbank="&gt;E03D" unicode="+1F4F9">
-<desc>handycam, videocam</desc>
+<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="JAPANESE SYMBOL FOR BEGINNER" softbank="E209" text_fallback="[若葉マーク]" unicode="+1F530">
+<desc>(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.</desc>
 </e>
-<e glyphRefID="287" google="FE4FA" id="4FA" img_from="kddi" kddi="E57F" name="HOCHO" oldname="KNIFE" text_fallback="[包丁]" unicode="+1F52A">
-<ann>= Japanese kitchen knife</ann>
-</e>
-<e docomo="&gt;E6FB" glyphRefID="288" google="FE4FB" id="4FB" img_from="kddi" kddi="E583" name="ELECTRIC TORCH" oldname="FLASHLIGHT" text_fallback="[懐中電灯]" unicode="+1F526">
-<ann>= flashlight</ann>
-</e>
-<e glyphRefID="289" google="FE4FC" id="4FC" img_from="kddi" kddi="E584" name="BATTERY" text_fallback="[電池]" unicode="+1F50B"/>
-<e docomo="&gt;E70A" glyphRefID="290" google="FE4FD" id="4FD" img_from="kddi" kddi="E55F" name="SCROLL" text_fallback="[スクロール]" unicode="+1F4DC">
-<desc>scroll a window on a computer</desc>
-</e>
-<e glyphRefID="291" google="FE4FE" id="4FE" img_from="kddi" kddi="E589" name="ELECTRIC PLUG" text_fallback="[コンセント]" unicode="+1F50C">
-<desc>wall outlet</desc>
-</e>
-<e docomo="&gt;E683" glyphRefID="292" google="FE4FF" id="4FF" img_from="kddi" kddi="E565" name="GREEN BOOK" oldname="BOOK-1" softbank="&gt;E148" unicode="+1F4D7">
-<desc>green colored book (closed)</desc>
-</e>
-<e docomo="&gt;E683" glyphRefID="293" google="FE500" id="500" img_from="kddi" kddi="E566" name="BLUE BOOK" oldname="BOOK-2" softbank="&gt;E148" unicode="+1F4D8">
-<desc>blue colored book (closed)</desc>
-</e>
-<e docomo="&gt;E683" glyphRefID="294" google="FE501" id="501" img_from="kddi" kddi="E567" name="ORANGE BOOK" oldname="BOOK-3" softbank="&gt;E148" unicode="+1F4D9">
-<desc>orange colored book (closed)</desc>
-</e>
-<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="CLOSED BOOK" oldname="VERTICAL CLOSED BOOK" softbank="&gt;E148" unicode="+1F4D5">
-<desc>vertical closed book</desc>
-</e>
-<e docomo="&gt;E683" glyphRefID="296" google="FE503" id="503" img_from="kddi" kddi="E56F" name="BOOKS" softbank="&gt;E148" unicode="+1F4DA">
-<desc>multiple, a stack of books</desc>
-</e>
-<e glyphRefID="297" google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME BADGE" text_fallback="[名札]" unicode="+1F4DB"/>
-</subcategory>
-<subcategory name="Bath symbols">
-<e docomo="&gt;E6F7" glyphRefID="298" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F" unicode="+1F6C0"/>
-<e docomo="E66E" glyphRefID="299" google="FE506" id="506" img_from="docomo" kddi="E4A5" name="RESTROOM" softbank="E151" unicode="+1F6BB">
-<ann>= man and woman symbol with divider</ann>
-</e>
-<e docomo="&gt;E66E" glyphRefID="300" google="FE507" id="507" img_from="softbank" kddi="&gt;E4A5" name="TOILET" softbank="E140" unicode="+1F6BD"/>
-<e docomo="&gt;E66E" glyphRefID="301" google="FE508" id="508" img_from="softbank" kddi="&gt;E4A5" name="WATER CLOSET" softbank="E309" unicode="+1F6BE"/>
+<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="TRIDENT EMBLEM" softbank="E031" unicode="+1F531"/>
 </subcategory>
 <subcategory name="Medical symbols">
 <e glyphRefID="302" google="FE509" id="509" img_from="kddi" kddi="E510" name="SYRINGE" softbank="E13B" text_fallback="[注射]" unicode="+1F489">
@@ -777,7 +743,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <desc>The carrier Emoji shows a capsule but the name is simply "medicine". So a more generic name is given.  Also used for cold medicine.</desc>
 </e>
 </subcategory>
-<subcategory name="Negative squared Latin letters">
+<subcategory name="White on black squared Latin letters">
 <e glyphRefID="304" google="FE50B" id="50B" img_from="kddi" kddi="EB26" name="NEGATIVE SQUARED LATIN CAPITAL LETTER A" softbank="E532" text_fallback="[A]" unicode="+1F170">
 <ann>= blood type A</ann>
 </e>
@@ -878,6 +844,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e docomo="&gt;E665" glyphRefID="337" google="FE52E" id="52E" img_from="softbank" kddi="&gt;E51B" name="POSTBOX" softbank="E102" unicode="+1F4EE">
 <ann>= mailbox for sending mail</ann>
 </e>
+<e glyphRefID="452" google="FE822" id="822" img_from="kddi" kddi="E58B" name="NEWSPAPER" text_fallback="[新聞]" unicode="+1F4F0"/>
 <e glyphRefID="338" google="FE52F" id="52F" img_from="softbank" kddi="&gt;E511" name="PUBLIC ADDRESS LOUDSPEAKER" softbank="E142" text_fallback="[スピーカ]" unicode="+1F4E2">
 <desc>used for sound volume, notification</desc>
 </e>
@@ -887,13 +854,14 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="340" google="FE531" id="531" img_from="kddi" kddi="E4A8" name="SATELLITE ANTENNA" softbank="E14B" text_fallback="[アンテナ]" unicode="+1F4E1">
 <ann>= position indicator, news</ann>
 </e>
-<e glyphRefID="341" google="FE532" id="532" img_from="kddi" kddi="E4FD" name="SPEECH BALLOON" text_fallback="[フキダシ]" unicode="+1F4AC">
-<ann>= comic book conversation bubble</ann>
-</e>
 <e glyphRefID="342" google="FE533" id="533" img_from="kddi" kddi="E592" name="OUTBOX TRAY" text_fallback="[送信BOX]" unicode="+1F4E4"/>
 <e glyphRefID="343" google="FE534" id="534" img_from="kddi" kddi="E593" name="INBOX TRAY" text_fallback="[受信BOX]" unicode="+1F4E5"/>
 <e docomo="&gt;E685" glyphRefID="344" google="FE535" id="535" img_from="kddi" kddi="E51F" name="PACKAGE" softbank="&gt;E112" unicode="+1F4E6">
 <ann>x (wrapped present - 1F381)</ann>
+</e>
+<e docomo="&gt;E6D3" glyphRefID="607" google="FEB92" id="B92" img_from="kddi" kddi="EB71" name="E-MAIL SYMBOL" softbank="&gt;E103" unicode="+1F4E7">
+<desc>Email (Envelope with "E")</desc>
+<ann>* glyph may show an @-sign instead of an E</ann>
 </e>
 </subcategory>
 <subcategory name="UI input status symbols">
@@ -933,6 +901,10 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="355" google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK" softbank="&gt;E316" text_fallback="[フロッピー]" unicode="+1F4BE">
 <ann>= floppy disc, floppy, diskette</ann>
 </e>
+<e docomo="E68C" glyphRefID="447" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="OPTICAL DISC" oldname="OPTICAL DISK" softbank="E126" unicode="+1F4BF"/>
+<e docomo="&gt;E68C" glyphRefID="448" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127" unicode="+1F4C0">
+<ann>= digital video/versatile disc</ann>
+</e>
 <e docomo="E675" google="FE53E" id="53E" kddi="E516" name="BLACK SCISSORS" softbank="E313" unicode="2702"/>
 <e glyphRefID="356" google="FE53F" id="53F" img_from="kddi" kddi="E560" name="ROUND PUSHPIN" text_fallback="[画びょう]" unicode="+1F4CD"/>
 <e docomo="&gt;E689" glyphRefID="357" google="FE540" id="540" img_from="kddi" kddi="E561" name="PAGE WITH CURL" softbank="&gt;E301" unicode="+1F4C3"/>
@@ -951,6 +923,25 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <ann>* similar to ISO/IEC 7000-0790 "Read operator's manual"</ann>
 </e>
 <e docomo="&gt;E683" glyphRefID="364" google="FE547" id="547" img_from="kddi" kddi="E49D" name="NOTEBOOK WITH DECORATIVE COVER" softbank="&gt;E148" unicode="+1F4D4"/>
+<e docomo="&gt;E683" glyphRefID="295" google="FE502" id="502" img_from="kddi" kddi="E568" name="CLOSED BOOK" oldname="VERTICAL CLOSED BOOK" softbank="&gt;E148" unicode="+1F4D5">
+<desc>vertical closed book</desc>
+</e>
+<e docomo="&gt;E683" glyphRefID="292" google="FE4FF" id="4FF" img_from="kddi" kddi="E565" name="GREEN BOOK" oldname="BOOK-1" softbank="&gt;E148" unicode="+1F4D7">
+<desc>green colored book (closed)</desc>
+</e>
+<e docomo="&gt;E683" glyphRefID="293" google="FE500" id="500" img_from="kddi" kddi="E566" name="BLUE BOOK" oldname="BOOK-2" softbank="&gt;E148" unicode="+1F4D8">
+<desc>blue colored book (closed)</desc>
+</e>
+<e docomo="&gt;E683" glyphRefID="294" google="FE501" id="501" img_from="kddi" kddi="E567" name="ORANGE BOOK" oldname="BOOK-3" softbank="&gt;E148" unicode="+1F4D9">
+<desc>orange colored book (closed)</desc>
+</e>
+<e docomo="&gt;E683" glyphRefID="296" google="FE503" id="503" img_from="kddi" kddi="E56F" name="BOOKS" softbank="&gt;E148" unicode="+1F4DA">
+<desc>multiple, a stack of books</desc>
+</e>
+<e glyphRefID="297" google="FE504" id="504" img_from="kddi" kddi="E51D" name="NAME BADGE" text_fallback="[名札]" unicode="+1F4DB"/>
+<e docomo="&gt;E70A" glyphRefID="290" google="FE4FD" id="4FD" img_from="kddi" kddi="E55F" name="SCROLL" text_fallback="[スクロール]" unicode="+1F4DC">
+<desc>scroll a window on a computer</desc>
+</e>
 <e docomo="&gt;E689" glyphRefID="365" google="FE548" id="548" img_from="kddi" kddi="E564" name="CLIPBOARD" softbank="&gt;E301" unicode="+1F4CB"/>
 <e glyphRefID="366" google="FE549" id="549" img_from="kddi" kddi="E56A" name="TEAR-OFF CALENDAR" oldname="TEAR OFF CALENDAR" text_fallback="[カレンダー]" unicode="+1F4C6"/>
 <e glyphRefID="367" google="FE54A" id="54A" img_from="kddi" kddi="E574" name="BAR CHART" softbank="&gt;E14A" text_fallback="[グラフ]" unicode="+1F4CA">
@@ -966,11 +957,6 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="373" google="FE550" id="550" img_from="kddi" kddi="E570" name="STRAIGHT RULER" text_fallback="[定規]" unicode="+1F4CF"/>
 <e glyphRefID="374" google="FE551" id="551" img_from="kddi" kddi="E4A2" name="TRIANGULAR RULER" text_fallback="[三角定規]" unicode="+1F4D0"/>
 <e docomo="&gt;E689" glyphRefID="375" google="FE552" id="552" img_from="kddi" kddi="EB0B" name="BOOKMARK TABS" softbank="&gt;E301" unicode="+1F4D1"/>
-</subcategory>
-<subcategory name="Miscellaneous symbol">
-<e docomo="E698" glyphRefID="376" google="FE553" id="553" img_from="docomo" kddi="EB2A" name="FOOTPRINTS" softbank="E536" unicode="+1F463">
-<desc>single or multiple footprints</desc>
-</e>
 </subcategory>
 </category>
 <category name="5. Activities/Work/Entertainment">
@@ -1014,15 +1000,12 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="385" google="FE7DB" id="7DB" img_from="kddi" kddi="E5D3" name="TROPHY" softbank="E131" text_fallback="[トロフィー]" unicode="+1F3C6">
 <desc>a gold cup</desc>
 </e>
-<e docomo="&gt;E754" glyphRefID="386" google="FE7DC" id="7DC" img_from="softbank" kddi="&gt;E4D8" name="HORSE" softbank="E134" unicode="+1F40E">
-<ann>* seventh of the signs of the Asian zodiac</ann>
-</e>
 <e glyphRefID="387" google="FE7DD" id="7DD" img_from="kddi" kddi="E4BB" name="AMERICAN FOOTBALL" softbank="E42B" text_fallback="[フットボール]" unicode="+1F3C8"/>
 <e glyphRefID="388" google="FE7DE" id="7DE" img_from="kddi" kddi="EADE" name="SWIMMER" softbank="E42D" text_fallback="[水泳]" unicode="+1F3CA">
 <desc>swimming</desc>
 </e>
 </subcategory>
-<subcategory name="Transportation symbols">
+<subcategory name="Vehicles">
 <e docomo="E65B" glyphRefID="389" google="FE7DF" id="7DF" img_from="docomo" kddi="E4B5" name="TRAIN" softbank="E01E" unicode="+1F686">
 <ann>= intercity train</ann>
 </e>
@@ -1056,7 +1039,6 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e docomo="E662" google="FE7E9" id="7E9" kddi="E4B3" name="AIRPLANE" softbank="E01D" unicode="2708"/>
 <e docomo="E6A3" google="FE7EA" id="7EA" img_from="docomo" kddi="E4B4" name="SAILBOAT" softbank="E01C" unicode="*26F5"/>
-<e docomo="E71D" glyphRefID="399" google="FE7EB" id="7EB" img_from="docomo" kddi="E4AE" name="BICYCLE" softbank="E136" unicode="+1F6B2"/>
 <e glyphRefID="400" google="FE7EC" id="7EC" img_from="kddi" kddi="EB6D" name="STATION" softbank="E039" text_fallback="[駅]" unicode="+1F689">
 <ann>= train, subway station</ann>
 </e>
@@ -1066,9 +1048,6 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e docomo="&gt;E65E" glyphRefID="403" google="FE7EF" id="7EF" img_from="softbank" kddi="&gt;E4B1" name="TAXI" oldname="TAXI-1" softbank="E15A" unicode="+1F695">
 <desc>a car with light sign on the roof</desc>
-</e>
-<e docomo="&gt;E733" glyphRefID="404" google="FE7F0" id="7F0" img_from="kddi" kddi="EB72" name="PEDESTRIAN" softbank="E201" unicode="+1F6B6">
-<ann>= walking</ann>
 </e>
 <e glyphRefID="405" google="FE7F1" id="7F1" img_from="kddi" kddi="E4B2" name="DELIVERY TRUCK" softbank="E42F" text_fallback="[トラック]" unicode="+1F69A"/>
 <e glyphRefID="406" google="FE7F2" id="7F2" img_from="kddi" kddi="EADF" name="FIRE ENGINE" softbank="E430" text_fallback="[消防車]" unicode="+1F692"/>
@@ -1176,18 +1155,14 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <desc>Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song</desc>
 </e>
 </subcategory>
-<subcategory name="Media symbols">
-<e docomo="E68A" glyphRefID="446" google="FE81C" id="81C" img_from="docomo" kddi="E502" name="TELEVISION" softbank="E12A" unicode="+1F4FA"/>
-<e docomo="E68C" glyphRefID="447" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="OPTICAL DISC" oldname="OPTICAL DISK" softbank="E126" unicode="+1F4BF"/>
-<e docomo="&gt;E68C" glyphRefID="448" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127" unicode="+1F4C0">
-<ann>= digital video/versatile disc</ann>
+<subcategory name="Audio and video">
+<e docomo="E681" glyphRefID="276" google="FE4EF" id="4EF" img_from="docomo" kddi="E515" name="CAMERA" softbank="E008" unicode="+1F4F7"/>
+<e docomo="&gt;E677" glyphRefID="286" google="FE4F9" id="4F9" img_from="kddi" kddi="E57E" name="VIDEO CAMERA" softbank="&gt;E03D" unicode="+1F4F9">
+<desc>handycam, videocam</desc>
 </e>
+<e docomo="E68A" glyphRefID="446" google="FE81C" id="81C" img_from="docomo" kddi="E502" name="TELEVISION" softbank="E12A" unicode="+1F4FA"/>
 <e glyphRefID="449" google="FE81F" id="81F" img_from="kddi" kddi="E5B9" name="RADIO" softbank="E128" text_fallback="[ラジオ]" unicode="+1F4FB"/>
 <e glyphRefID="450" google="FE820" id="820" img_from="kddi" kddi="E580" name="VIDEOCASSETTE" oldname="VIDEO CASSETTE TAPE" softbank="E129" text_fallback="[ビデオ]" unicode="+1F4FC"/>
-<e glyphRefID="451" google="FE821" id="821" img_from="softbank" kddi="E511" name="SPEAKER WITH THREE SOUND WAVES" softbank="E141" text_fallback="[スピーカ]" unicode="+1F50A">
-<ann>= sound</ann>
-</e>
-<e glyphRefID="452" google="FE822" id="822" img_from="kddi" kddi="E58B" name="NEWSPAPER" text_fallback="[新聞]" unicode="+1F4F0"/>
 </subcategory>
 <subcategory name="Romance symbols">
 <e docomo="E6F9" glyphRefID="453" google="FE823" id="823" img_from="docomo" kddi="E4EB" name="KISS MARK" softbank="E003" unicode="+1F48B">
@@ -1207,7 +1182,16 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= wedding chapel</ann>
 </e>
 </subcategory>
-<subcategory name="Communication symbols">
+<subcategory name="Enclosed alphanumeric symbols">
+<e glyphRefID="545" google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="NO ONE UNDER EIGHTEEN SYMBOL" softbank="E207" text_fallback="[18禁]" unicode="+1F51E">
+<desc>under 18 not permitted</desc>
+</e>
+<e docomo="E731" google="FEB29" id="B29" kddi="E558" name="COPYRIGHT SIGN" softbank="E24E" unicode="00A9"/>
+<e docomo="E736" google="FEB2D" id="B2D" kddi="E559" name="REGISTERED SIGN" softbank="E24F" unicode="00AE"/>
+<e docomo="E732" google="FEB2A" id="B2A" kddi="E54E" name="TRADE MARK SIGN" softbank="E537" unicode="2122"/>
+<e google="FEB47" id="B47" kddi="E533" name="INFORMATION SOURCE" text_fallback="[ｉ]" unicode="2139">
+<desc>"i" = information</desc>
+</e>
 <e docomo="E6E0" glyphRefID="462" google="FE82C" id="82C" img_from="docomo" kddi="EB84" name="HASH KEY" softbank="E210" unicode="0023+20E3">
 <desc>pound key, number sign. Unify with ASCII # (U+0023) + (U+20E3)</desc>
 </e>
@@ -1245,6 +1229,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <design>Should look like digits 10 enclosed by a keycap like &#x00A0;&#x20E3; U+20E3 COMBINING ENCLOSING KEYCAP.</design>
 <ann>x (combining enclosing keycap - 20E3)</ann>
 </e>
+</subcategory>
+<subcategory name="Communication symbols">
 <e glyphRefID="464" google="FE838" id="838" img_from="kddi" kddi="EA84" name="ANTENNA WITH BARS" softbank="E20B" text_fallback="[バリ3]" unicode="+1F4F6">
 <ann>= cellular reception</ann>
 <desc>(good reception)</desc>
@@ -1381,7 +1367,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <desc>disunified from U+2190 due to source separation rule (Shift_JIS).</desc>
 </e>
 </subcategory>
-<subcategory name="UI symbols">
+<subcategory name="User interface symbols">
 <e google="FEAFC" id="AFC" kddi="E52E" name="BLACK RIGHT-POINTING TRIANGLE" softbank="E23A" text_fallback="[&gt;]" unicode="25B6">
 <desc>Play</desc>
 </e>
@@ -1415,7 +1401,22 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <desc>disunified from U+25BC due to source separation rule (Shift_JIS).</desc>
 </e>
 </subcategory>
-<subcategory name="Punctuation">
+<subcategory name="Miscellaneous">
+<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="*2B55">
+<desc>good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation</desc>
+<ann>* forms a pair with CROSS MARK</ann>
+<ann>* also used to mean good, correct or approved</ann>
+<ann>x (white circle - 25CB)</ann>
+<ann>x (large circle - 25EF)</ann>
+<ann>x (heavy circle - 2B58)</ann>
+</e>
+<e glyphRefID="539" google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]" unicode="+274C">
+<desc>bad; NO GOOD, not approved; X in tic tac toe. disunified from &#x2715; U+2715</desc>
+<ann>* forms a pair with 2B55 heavy large circle</ann>
+</e>
+<e glyphRefID="540" google="FEB46" id="B46" img_from="kddi" kddi="E551" name="NEGATIVE SQUARED CROSS MARK" softbank="&gt;E333" text_fallback="[×]" unicode="+274E">
+<desc>Another X (orange background)</desc>
+</e>
 <e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK ORNAMENT" softbank="E021" unicode="2762"/>
 <e docomo="E703" google="FEB05" id="B05" kddi="EB2F" name="EXCLAMATION QUESTION MARK" text_fallback="！？" unicode="2049"/>
 <e docomo="E704" google="FEB06" id="B06" kddi="EB30" name="DOUBLE EXCLAMATION MARK" text_fallback="！！" unicode="203C"/>
@@ -1429,14 +1430,18 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>x (heavy exclamation mark symbol - 2757)</ann>
 <ann>x (traffic warning - 26CE)</ann>
 </e>
-</subcategory>
-<subcategory name="Length mark">
 <e docomo="E709" google="FEB07" id="B07" name="WAVY DASH" unicode="3030">
 <desc>a wavy line, used as a wavy length mark</desc>
 </e>
-<e docomo="E70A" glyphRefID="514" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="CURLY LOOP" oldname="LOOPED LENGTH MARK" prop="gc=Pd" text_fallback="～" unicode="+27B0">
+</subcategory>
+<subcategory name="Curly loop">
+<e docomo="E70A" glyphRefID="514" google="FEB08" id="B08" img_from="docomo" kddi="EB31" name="CURLY LOOP" oldname="LOOPED LENGTH MARK" text_fallback="～" unicode="+27B0">
 <desc>a line with a loop; new compatibility character, see e-B07=U+3030</desc>
 <ann>= kururi</ann>
+</e>
+<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="yes" name="DOUBLE CURLY LOOP" oldname="EMOJI COMPATIBILITY SYMBOL-16" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+27BF">
+<desc>Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.</desc>
+<ann>x (bamum letter phase-e nggurae - 16986)</ann>
 </e>
 </subcategory>
 <subcategory name="Heart symbols">
@@ -1487,14 +1492,10 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="E68F" google="FEB1C" id="B1C" kddi="E5A2" name="BLACK DIAMOND SUIT" softbank="E20D" unicode="2666"/>
 <e docomo="E690" google="FEB1D" id="B1D" kddi="E5A3" name="BLACK CLUB SUIT" softbank="E20F" unicode="2663"/>
 </subcategory>
-<subcategory name="Miscellaneous symbols">
+<subcategory name="Signage and other symbols">
 <e docomo="E67F" glyphRefID="531" google="FEB1E" id="B1E" img_from="docomo" kddi="E47D" name="SMOKING SYMBOL" softbank="E30E" unicode="+1F6AC"/>
 <e docomo="E680" glyphRefID="532" google="FEB1F" id="B1F" img_from="docomo" kddi="E47E" name="NO SMOKING SYMBOL" softbank="E208" unicode="+1F6AD"/>
 <e docomo="E69B" google="FEB20" id="B20" kddi="E47F" name="WHEELCHAIR SYMBOL" softbank="E20A" unicode="267F"/>
-<e glyphRefID="51" google="FE044" id="044" img_from="kddi" kddi="E480" name="JAPANESE SYMBOL FOR BEGINNER" softbank="E209" text_fallback="[若葉マーク]" unicode="+1F530">
-<desc>(In Japan) Known as the "wakaba" mark - young/green-yellow leaf. Originally referred to a newly licensed driver. Now it refers to any neophyte.</desc>
-</e>
-<e docomo="&gt;E71A" glyphRefID="247" google="FE4D2" id="4D2" img_from="softbank" kddi="&gt;E5C9" name="TRIDENT EMBLEM" softbank="E031" unicode="+1F531"/>
 <e docomo="E6DE" glyphRefID="533" google="FEB22" id="B22" img_from="docomo" kddi="EB2C" name="TRIANGULAR FLAG ON POST" text_fallback="[旗]" unicode="+1F6A9">
 <ann>= location information</ann>
 <desc>Location information, a flag</desc>
@@ -1506,6 +1507,10 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <desc>No entrance, no trespassing</desc>
 </e>
 <e docomo="E735" google="FEB2C" id="B2C" kddi="EB79" name="BLACK UNIVERSAL RECYCLING SYMBOL" text_fallback="↑↓" unicode="267B"/>
+<e docomo="E71D" glyphRefID="399" google="FE7EB" id="7EB" img_from="docomo" kddi="E4AE" name="BICYCLE" softbank="E136" unicode="+1F6B2"/>
+<e docomo="&gt;E733" glyphRefID="404" google="FE7F0" id="7F0" img_from="kddi" kddi="EB72" name="PEDESTRIAN" softbank="E201" unicode="+1F6B6">
+<ann>= walking</ann>
+</e>
 <e glyphRefID="536" google="FEB33" id="B33" img_from="softbank" name="MENS SYMBOL" softbank="E138" text_fallback="[♂]" unicode="+1F6B9">
 <ann>= man symbol</ann>
 <ann>= men's restroom</ann>
@@ -1514,25 +1519,17 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= woman symbol</ann>
 <ann>= women's restroom</ann>
 </e>
+<e docomo="&gt;E6F7" glyphRefID="298" google="FE505" id="505" img_from="kddi" kddi="E5D8" name="BATH" softbank="E13F" unicode="+1F6C0"/>
+<e docomo="E66E" glyphRefID="299" google="FE506" id="506" img_from="docomo" kddi="E4A5" name="RESTROOM" softbank="E151" unicode="+1F6BB">
+<ann>= man and woman symbol with divider</ann>
+</e>
+<e docomo="&gt;E66E" glyphRefID="300" google="FE507" id="507" img_from="softbank" kddi="&gt;E4A5" name="TOILET" softbank="E140" unicode="+1F6BD"/>
+<e docomo="&gt;E66E" glyphRefID="301" google="FE508" id="508" img_from="softbank" kddi="&gt;E4A5" name="WATER CLOSET" softbank="E309" unicode="+1F6BE"/>
 <e glyphRefID="538" google="FEB35" id="B35" img_from="softbank" kddi="&gt;EB18" name="BABY SYMBOL" softbank="E13A" text_fallback="[赤ちゃん]" unicode="+1F6BC">
 <desc>used as a sign for a baby; Crawling Baby</desc>
 <ann>= baby on board, baby changing station</ann>
 </e>
-<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="*2B55">
-<desc>good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation</desc>
-<ann>* forms a pair with CROSS MARK</ann>
-<ann>* also used to mean good, correct or approved</ann>
-<ann>x (white circle - 25CB)</ann>
-<ann>x (large circle - 25EF)</ann>
-<ann>x (heavy circle - 2B58)</ann>
-</e>
-<e glyphRefID="539" google="FEB45" id="B45" img_from="kddi" kddi="E550" name="CROSS MARK" softbank="E333" text_fallback="[×]" unicode="+274C">
-<desc>bad; NO GOOD, not approved; X in tic tac toe. disunified from &#x2715; U+2715</desc>
-<ann>* forms a pair with 2B55 heavy large circle</ann>
-</e>
-<e glyphRefID="540" google="FEB46" id="B46" img_from="kddi" kddi="E551" name="NEGATIVE SQUARED CROSS MARK" softbank="&gt;E333" text_fallback="[×]" unicode="+274E">
-<desc>Another X (orange background)</desc>
-</e>
+<e docomo="E714" glyphRefID="280" google="FE4F3" id="4F3" img_from="docomo" name="DOOR" text_fallback="[ドア]" unicode="+1F6AA"/>
 <e docomo="&gt;E738" glyphRefID="541" google="FEB48" id="B48" img_from="kddi" kddi="E541" name="NO ENTRY SIGN" oldname="NO ENTRY SIGN" text_fallback="[禁止]" unicode="+1F6AB">
 <ann>x (combining enclosing circle backslash - 20E0)</ann>
 <ann>x (no entry - 26D4)</ann>
@@ -1541,63 +1538,42 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e google="FEB49" id="B49" kddi="E557" name="HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="2714">
 <desc>Check mark (blue)</desc>
 </e>
-<e glyphRefID="542" google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="+2705">
-<ann>x (heavy check mark - 2714)</ann>
-<desc>Check mark (red); not unified with &#x2713; U+2713</desc>
-<design>Should look like a hollow version (that is, without fill) of &#x2714; U+2714 HEAVY CHECK MARK.</design>
-</e>
-<e glyphRefID="543" google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]" unicode="+1F517">
-<desc>Disunified from &#x267E; U+267E PERMANENT PAPER SIGN; Link with a twist</desc>
-</e>
-<e google="FEB4C" id="B4C" kddi="E58C" name="EM SPACE" unicode="2003">
-<desc>Note: KDDI's Full blank (mapped to EM SPACE)</desc>
-</e>
-<e google="FEB4D" id="B4D" kddi="E58D" name="EN SPACE" unicode="2002">
-<desc>Note: KDDI's Half blank (mapped to EN SPACE)</desc>
-</e>
-<e google="FEB4E" id="B4E" kddi="E58E" name="FOUR-PER-EM SPACE" unicode="2005">
-<desc>Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)</desc>
-</e>
 </subcategory>
-<subcategory name="Other symbols with letters and digits">
+<subcategory name="Square Latin letters">
+<e docomo="E6DB" glyphRefID="596" google="FEB84" id="B84" img_from="docomo" kddi="E5AB" name="SQUARED CL" oldname="CLEAR SIGN" text_fallback="[CL]" unicode="+1F191">
+<desc>Clear ("CL" stamp)</desc>
+<ann>= clear</ann>
+</e>
+<e glyphRefID="551" google="FEB38" id="B38" img_from="kddi" kddi="EA85" name="SQUARED COOL" oldname="COOL SIGN" softbank="E214" text_fallback="[COOL]" unicode="+1F192">
+<desc>cool!; hip</desc>
+</e>
 <e docomo="E6D7" glyphRefID="544" google="FEB21" id="B21" img_from="docomo" kddi="E578" name="SQUARED FREE" oldname="FREE SIGN" text_fallback="[FREE]" unicode="+1F193">
 <ann>= free postage</ann>
 <desc>a letter sign Free of Charge</desc>
 </e>
-<e glyphRefID="545" google="FEB25" id="B25" img_from="kddi" kddi="EA83" name="NO ONE UNDER EIGHTEEN SYMBOL" softbank="E207" text_fallback="[18禁]" unicode="+1F51E">
-<desc>under 18 not permitted</desc>
+<e docomo="E6D8" glyphRefID="594" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="SQUARED ID" oldname="IDENTIFICATION SIGN" softbank="E229" unicode="+1F194">
+<desc>ID ("ID" stamp)</desc>
+<ann>= identification, ID</ann>
 </e>
-<e docomo="E70B" glyphRefID="546" google="FEB27" id="B27" img_from="docomo" kddi="E5AD" name="SQUARED OK" oldname="OK SIGN" softbank="E24D" unicode="+1F197">
-<desc>a stamp, seal, button for approval</desc>
+<e docomo="E6DD" glyphRefID="549" google="FEB36" id="B36" img_from="docomo" kddi="E5B5" name="SQUARED NEW" oldname="NEW SIGN" softbank="E212" unicode="+1F195">
+<desc>a stamp, seal, sign</desc>
 </e>
 <e docomo="E72F" glyphRefID="547" google="FEB28" id="B28" img_from="docomo" name="SQUARED NG" oldname="NO GOOD SIGN" text_fallback="[NG]" unicode="+1F196">
 <desc>no good, NG</desc>
 <ann>= no good</ann>
 </e>
-<e docomo="E731" google="FEB29" id="B29" kddi="E558" name="COPYRIGHT SIGN" softbank="E24E" unicode="00A9"/>
-<e docomo="E736" google="FEB2D" id="B2D" kddi="E559" name="REGISTERED SIGN" softbank="E24F" unicode="00AE"/>
-<e docomo="E732" google="FEB2A" id="B2A" kddi="E54E" name="TRADE MARK SIGN" softbank="E537" unicode="2122"/>
-<e glyphRefID="548" google="FEB32" id="B32" img_from="kddi" kddi="E5D2" name="SQUARED VS" oldname="VS SIGN" softbank="E12E" text_fallback="[VS]" unicode="+1F19A">
-<ann>= versus</ann>
+<e docomo="E70B" glyphRefID="546" google="FEB27" id="B27" img_from="docomo" kddi="E5AD" name="SQUARED OK" oldname="OK SIGN" softbank="E24D" unicode="+1F197">
+<desc>a stamp, seal, button for approval</desc>
 </e>
-<e docomo="E6DD" glyphRefID="549" google="FEB36" id="B36" img_from="docomo" kddi="E5B5" name="SQUARED NEW" oldname="NEW SIGN" softbank="E212" unicode="+1F195">
-<desc>a stamp, seal, sign</desc>
+<e glyphRefID="553" google="FEB4F" id="B4F" img_from="kddi" kddi="E4E8" name="SQUARED SOS" oldname="SOS SIGN" text_fallback="[SOS]" unicode="+1F198">
+<ann>= search, hunt for missing person</ann>
 </e>
 <e glyphRefID="550" google="FEB37" id="B37" img_from="kddi" kddi="E50F" name="SQUARED UP WITH EXCLAMATION MARK" oldname="UP SIGN" softbank="E213" text_fallback="[UP!]" unicode="+1F199">
 <ann>= new information, update</ann>
 <desc>site renewed, updated, new information</desc>
 </e>
-<e glyphRefID="551" google="FEB38" id="B38" img_from="kddi" kddi="EA85" name="SQUARED COOL" oldname="COOL SIGN" softbank="E214" text_fallback="[COOL]" unicode="+1F192">
-<desc>cool!; hip</desc>
-</e>
-<e glyphRefID="552" google="FEB42" id="B42" img_from="softbank" name="TOP WITH UPWARDS ARROW ABOVE" oldname="TOP WITH UP-POINTING TRIANGLE SIGN" softbank="E24C" text_fallback="[TOP]" unicode="+1F51D">
-<ann>= top of page</ann>
-</e>
-<e google="FEB47" id="B47" kddi="E533" name="INFORMATION SOURCE" text_fallback="[ｉ]" unicode="2139">
-<desc>"i" = information</desc>
-</e>
-<e glyphRefID="553" google="FEB4F" id="B4F" img_from="kddi" kddi="E4E8" name="SQUARED SOS" oldname="SOS SIGN" text_fallback="[SOS]" unicode="+1F198">
-<ann>= search, hunt for missing person</ann>
+<e glyphRefID="548" google="FEB32" id="B32" img_from="kddi" kddi="E5D2" name="SQUARED VS" oldname="VS SIGN" softbank="E12E" text_fallback="[VS]" unicode="+1F19A">
+<ann>= versus</ann>
 </e>
 </subcategory>
 <subcategory name="Square katakanas">
@@ -1735,14 +1711,20 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= running dash</ann>
 <desc>Dash (running dash &#x2026; the cloud of dust left behind)</desc>
 </e>
+<e glyphRefID="281" google="FE4F4" id="4F4" img_from="kddi" kddi="E4F5" name="PILE OF POO" oldname="DUNG" softbank="E05A" text_fallback="[ウンチ]" unicode="+1F4A9">
+<ann>= dog dirt</ann>
+</e>
 <e glyphRefID="579" google="FEB5E" id="B5E" img_from="kddi" kddi="E4E9" name="FLEXED BICEPS" softbank="E14C" text_fallback="[力こぶ]" unicode="+1F4AA">
 <ann>= strong, muscled</ann>
 </e>
 <e glyphRefID="580" google="FEB5F" id="B5F" img_from="kddi" kddi="EB5C" name="DIZZY SYMBOL" softbank="&gt;E407" text_fallback="[クラクラ]" unicode="+1F4AB">
 <ann>= circling stars</ann>
 </e>
+<e glyphRefID="341" google="FE532" id="532" img_from="kddi" kddi="E4FD" name="SPEECH BALLOON" text_fallback="[フキダシ]" unicode="+1F4AC">
+<ann>= comic book conversation bubble</ann>
+</e>
 </subcategory>
-<subcategory name="Miscellaneous symbols">
+<subcategory name="Stars, asterisks and snowflakes">
 <e docomo="E6FA" glyphRefID="581" google="FEB60" id="B60" img_from="docomo" kddi="EAAB" name="SPARKLES" softbank="E32E" unicode="+2728">
 <desc>sparkling new</desc>
 </e>
@@ -1758,6 +1740,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="&gt;E69C" google="FEB66" id="B66" kddi="E53B" name="MEDIUM BLACK CIRCLE" softbank="&gt;E219" unicode="26AB">
 <desc>Small circle (blue)</desc>
 </e>
+</subcategory>
+<subcategory name="Geometric shapes">
 <e docomo="&gt;E69C" glyphRefID="582" google="FEB63" id="B63" img_from="kddi" kddi="E54A" name="LARGE RED CIRCLE" oldname="LARGE CIRCLE-1" softbank="E219" unicode="+1F534">
 <desc>
 Large circle (red). Disunified from &#x25CB; U+25CB and &#x25EF; U+25EF due to source separation rule (Shift_JIS).
@@ -1782,12 +1766,6 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 </e>
 <e google="FEB68" id="B68" kddi="E48B" name="WHITE MEDIUM STAR" softbank="E32F" text_fallback="[☆]" unicode="2B50">
 <desc>disunified from &#x2605; U+2605 BLACK STAR and &#x2606; U+2606 WHITE STAR due to source separation rule (Shift_JIS).</desc>
-</e>
-<e glyphRefID="585" google="FEB69" id="B69" img_from="softbank" kddi="&gt;E48B" name="GLOWING STAR" softbank="E335" text_fallback="[☆]" unicode="+1F31F">
-<desc>Animated pulsating star in orange color</desc>
-</e>
-<e glyphRefID="586" google="FEB6A" id="B6A" img_from="kddi" kddi="E468" name="SHOOTING STAR" text_fallback="☆彡" unicode="+1F320">
-<desc>Animated glowing star in blue color</desc>
 </e>
 <e google="FEB6B" id="B6B" kddi="E548" name="WHITE LARGE SQUARE" softbank="&gt;E21B" text_fallback="■" unicode="2B1C">
 <desc>Extra large square (orange). disunified from U+25A1 due to source separation rule (Shift_JIS).</desc>
@@ -1831,7 +1809,7 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <desc>Spark</desc>
 </e>
 </subcategory>
-<subcategory name="School grade symbols">
+<subcategory name="Japanese school grade symbols">
 <e glyphRefID="592" google="FEB7A" id="B7A" img_from="kddi" kddi="E4F0" name="WHITE FLOWER" text_fallback="[花丸]" unicode="+1F4AE">
 <ann>= brilliant homework</ann>
 <desc>&#x2740; U+2740 WHITE FLORETTE?; Symbol that a teacher writes on homework for "brilliant!" (花丸)</desc>
@@ -1841,20 +1819,22 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <desc>100 (perfect score), e.g. school exam</desc>
 </e>
 </subcategory>
-<subcategory name="UI symbols">
-<e docomo="E6D8" glyphRefID="594" google="FEB81" id="B81" img_from="docomo" kddi="EA88" name="SQUARED ID" oldname="IDENTIFICATION SIGN" softbank="E229" unicode="+1F194">
-<desc>ID ("ID" stamp)</desc>
-<ann>= identification, ID</ann>
-</e>
-<e docomo="E6DB" glyphRefID="596" google="FEB84" id="B84" img_from="docomo" kddi="E5AB" name="SQUARED CL" oldname="CLEAR SIGN" text_fallback="[CL]" unicode="+1F191">
-<desc>Clear ("CL" stamp)</desc>
-<ann>= clear</ann>
-</e>
+<subcategory name="User interface symbols">
 <e docomo="E6DA" google="FEB83" id="B83" kddi="E55D" name="LEFTWARDS ARROW WITH HOOK" text_fallback="←┘" unicode="21A9">
 <desc>Continue (the [enter] key arrow)</desc>
 </e>
 <e google="FEB88" id="B88" kddi="E55C" name="RIGHTWARDS ARROW WITH HOOK" text_fallback="└→" unicode="21AA">
 <desc>Enter arrow (backwards)</desc>
+</e>
+<e docomo="&gt;E735" glyphRefID="606" google="FEB91" id="B91" img_from="kddi" kddi="EB0D" name="CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS" oldname="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" text_fallback="↑↓" unicode="+1F503">
+<ann>= reload</ann>
+</e>
+<e glyphRefID="451" google="FE821" id="821" img_from="softbank" kddi="E511" name="SPEAKER WITH THREE SOUND WAVES" softbank="E141" text_fallback="[スピーカ]" unicode="+1F50A">
+<ann>= sound</ann>
+</e>
+<e glyphRefID="289" google="FE4FC" id="4FC" img_from="kddi" kddi="E584" name="BATTERY" text_fallback="[電池]" unicode="+1F50B"/>
+<e glyphRefID="291" google="FE4FE" id="4FE" img_from="kddi" kddi="E589" name="ELECTRIC PLUG" text_fallback="[コンセント]" unicode="+1F50C">
+<desc>wall outlet</desc>
 </e>
 <e docomo="E6DC" glyphRefID="597" google="FEB85" id="B85" img_from="docomo" kddi="E518" name="LEFT-POINTING MAGNIFYING GLASS" softbank="E114" unicode="+1F50D">
 <ann>= search</ann>
@@ -1880,27 +1860,48 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <e docomo="E6D9" glyphRefID="595" google="FEB82" id="B82" img_from="docomo" kddi="E519" name="KEY" softbank="E03F" unicode="+1F511">
 <desc>Password (key). Not unified with ARIB-9071=U+26BF SQUARED KEY because no carrier shows this key in an enclosing square.</desc>
 </e>
+<e docomo="E713" glyphRefID="279" google="FE4F2" id="4F2" img_from="docomo" kddi="E512" name="BELL" softbank="E325" unicode="+1F514"/>
 <e google="FEB8B" id="B8B" kddi="EB02" name="BALLOT BOX WITH CHECK" text_fallback="[チェックマーク]" unicode="2611">
 <desc>Checked checkbox</desc>
 </e>
 <e glyphRefID="602" google="FEB8C" id="B8C" img_from="kddi" kddi="EB04" name="RADIO BUTTON" text_fallback="[ラジオボタン]" unicode="+1F518">
 <desc>Selected radio button</desc>
 </e>
-<e glyphRefID="603" google="FEB8E" id="B8E" img_from="kddi" kddi="EB06" name="BACK WITH LEFTWARDS ARROW ABOVE" oldname="BACK WITH LEFT ARROW ABOVE" softbank="&gt;E235" text_fallback="[←BACK]" unicode="+1F519">
-<desc>Back (left arrow with "BACK")</desc>
-</e>
 <e glyphRefID="604" google="FEB8F" id="B8F" img_from="kddi" kddi="EB07" name="BOOKMARK" text_fallback="[ブックマーク]" unicode="+1F516">
 <desc>Bookmark list ("お気に入り")</desc>
 </e>
-<e docomo="&gt;E735" glyphRefID="606" google="FEB91" id="B91" img_from="kddi" kddi="EB0D" name="CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS" oldname="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" text_fallback="↑↓" unicode="+1F503">
-<ann>= reload</ann>
-</e>
-<e docomo="&gt;E6D3" glyphRefID="607" google="FEB92" id="B92" img_from="kddi" kddi="EB71" name="E-MAIL SYMBOL" softbank="&gt;E103" unicode="+1F4E7">
-<desc>Email (Envelope with "E")</desc>
-<ann>* glyph may show an @-sign instead of an E</ann>
+<e glyphRefID="543" google="FEB4B" id="B4B" img_from="kddi" kddi="E58A" name="LINK SYMBOL" text_fallback="[リンク]" unicode="+1F517">
+<desc>Disunified from &#x267E; U+267E PERMANENT PAPER SIGN; Link with a twist</desc>
 </e>
 </subcategory>
-<subcategory name="Miscellaneous symbols">
+<subcategory name="Words with arrows">
+<e glyphRefID="603" google="FEB8E" id="B8E" img_from="kddi" kddi="EB06" name="BACK WITH LEFTWARDS ARROW ABOVE" oldname="BACK WITH LEFT ARROW ABOVE" softbank="&gt;E235" text_fallback="[←BACK]" unicode="+1F519">
+<desc>Back (left arrow with "BACK")</desc>
+</e>
+<e docomo="E6B9" glyphRefID="23" google="FE01A" id="01A" img_from="docomo" name="END WITH LEFTWARDS ARROW ABOVE" oldname="END WITH LEFT ARROW ABOVE" text_fallback="[end]" unicode="+1F51A"/>
+<e docomo="E6B8" glyphRefID="22" google="FE019" id="019" img_from="docomo" name="ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE" oldname="ON WITH DOUBLE POINTING ARROW ABOVE" text_fallback="[ON]" unicode="+1F51B"/>
+<e docomo="E6B7" glyphRefID="21" google="FE018" id="018" img_from="docomo" name="SOON WITH RIGHTWARDS ARROW ABOVE" oldname="SOON WITH RIGHT ARROW ABOVE" text_fallback="[SOON]" unicode="+1F51C">
+<desc>soon</desc>
+</e>
+<e glyphRefID="552" google="FEB42" id="B42" img_from="softbank" name="TOP WITH UPWARDS ARROW ABOVE" oldname="TOP WITH UP-POINTING TRIANGLE SIGN" softbank="E24C" text_fallback="[TOP]" unicode="+1F51D">
+<ann>= top of page</ann>
+</e>
+</subcategory>
+<subcategory name="Miscellaneous">
+<e google="FEB4C" id="B4C" kddi="E58C" name="EM SPACE" unicode="2003">
+<desc>Note: KDDI's Full blank (mapped to EM SPACE)</desc>
+</e>
+<e google="FEB4D" id="B4D" kddi="E58D" name="EN SPACE" unicode="2002">
+<desc>Note: KDDI's Half blank (mapped to EN SPACE)</desc>
+</e>
+<e google="FEB4E" id="B4E" kddi="E58E" name="FOUR-PER-EM SPACE" unicode="2005">
+<desc>Note: KDDI's Quarter blank (mapped to FOUR-PER-EM SQUARE)</desc>
+</e>
+<e glyphRefID="542" google="FEB4A" id="B4A" img_from="kddi" kddi="E55E" name="WHITE HEAVY CHECK MARK" text_fallback="[チェックマーク]" unicode="+2705">
+<ann>x (heavy check mark - 2714)</ann>
+<desc>Check mark (red); not unified with &#x2713; U+2713</desc>
+<design>Should look like a hollow version (that is, without fill) of &#x2714; U+2714 HEAVY CHECK MARK.</design>
+</e>
 <e docomo="E693" glyphRefID="608" google="FEB93" id="B93" img_from="kddi" kddi="EB83" name="RAISED FIST" softbank="E010" unicode="+270A">
 <ann>= rock in Rock, Paper, Scissors game</ann>
 <ann>x (raised hand - 270B)</ann>
@@ -1920,7 +1921,7 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 <ann>x (raised hand - 270B)</ann>
 </e>
 </subcategory>
-<subcategory name="Hand signal symbols">
+<subcategory name="Hand symbols">
 <e docomo="E6FD" glyphRefID="610" google="FEB96" id="B96" img_from="docomo" kddi="E4F3" name="FISTED HAND SIGN" oldname="FISTED HAND" softbank="E00D" unicode="+1F44A">
 <ann>= punch</ann>
 </e>
@@ -2155,10 +2156,6 @@ Not "WHITE LARGE CIRCLE" because the counterpart to &#x2B24; U+2B24 BLACK LARGE 
 </e>
 <e glyphRefID="625" google="FE4C5" id="4C5" img_from="softbank" name="EMOJI COMPATIBILITY SYMBOL-64" softbank="E50A">
 <desc>Original name: SHIBUYA; department store by Tokyu Group for young girls/women</desc>
-</e>
-<e docomo="E6DF" glyphRefID="461" google="FE82B" id="82B" img_from="docomo" in_proposal="yes" name="DOUBLE CURLY LOOP" oldname="EMOJI COMPATIBILITY SYMBOL-16" softbank="E211" text_fallback="[フリーダイヤル]" unicode="+27BF">
-<desc>Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.</desc>
-<ann>x (bamum letter phase-e nggurae - 16986)</ann>
 </e>
 <e docomo="E6E1" glyphRefID="463" google="FE82D" id="82D" img_from="docomo" kddi="E52C" name="EMOJI COMPATIBILITY SYMBOL-66" text_fallback="[Q]">
 <desc>Original name: MOBILE Q. Mobile Q service</desc>

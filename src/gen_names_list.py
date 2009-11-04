@@ -33,20 +33,35 @@ _BLOCK_HEADINGS = {
   0x23E9: """
 @@\t2300\tMiscellaneous Technical\t23FF
 ;; UTC: 2009-02-06
-;; WG2: $$$$
-;; contact: Markus Scherer
-;; document: Nxxxx, L2/09-026
-;; font: Apple Emoji
+;; UTC: 2009-05-15 sync with Wg2 content
+;; WG2: 2009-04-24
+;; contact: Markus Scherer, German NB
+;; document: N3582, N3583, L2/09-026, L2/09-021
+;; font: Uni2300Mistechnical
+;; target: Amd8
+
+""",
+  0x26CE: """
+@@\t2600\tMiscellaneous Symbols\t26FF
+;; UTC: 2009-02-06
+;; UTC: 2009-05-15 sync with Wg2 content, added Pentagrams
+;; WG2: 2009-04-24
+;; WG2: $$$$ add 26E7
+;; contact: Markus Scherer, German NB, Azzeddine Lazrek
+;; document: N3582, N3583, L2/09-026, L2/09-021, L2/09-185R2
+;; font: Uni2600Miscsymbols
 ;; target: Amd8
 
 """,
   0x2705: """
 @@\t2700\tDingbats\t27BF
 ;; UTC: 2009-02-06
-;; WG2: $$$$
+;; UTC: 2009-05-15 sync with Wg2 content
+;; WG2: 2009-04-24
+;; WG2: $$$$ add 27B0 (from 2E32) 27BF
 ;; contact: Markus Scherer, German NB
-;; document: Nxxxx, L2/09-021
-;; font: Apple Emoji
+;; document: N3582, N3583, L2/09-026, L2/09-021
+;; font: Uni2600Miscsymbols
 ;; target: Amd8
 
 """,
@@ -62,61 +77,67 @@ _BLOCK_HEADINGS = {
 """,
   0x1F0CF: """
 @@\t1F0A0\tPlaying Cards\t1F0FF
-;; UTC: 2009-02-06
-;; WG2: $$$$
-;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; UTC: 2009-05-15
+;; WG2: 2009-04-23
+;; contact: Michael Everson
+;; document: N3607
+;; font: Uni1F0A0Playingcards
 ;; target: Amd8
 
 """,
   0x1F170: """
 @@\t1F100\tEnclosed Alphanumeric Supplement\t1F1FF
-;; UTC: 2009-02-06
-;; WG2: $$$$
+;; UTC: 2009-02-06 (original Emoji)
+;; UTC: 2009-05-15 (sync with WG2)
+;; WG2: 2009-04-24
+;; WG2: $$$$ Irish ballot
 ;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; document: N3582, N3583, L2/09-026, N3626, L2/09-173
+;; font: Uni1F100Enclosedsupplement
 ;; target: Amd8
 
 """,
   0x1F201: """
 @@\t1F200\tEnclosed Ideographic Supplement\t1F2FF
-;; UTC: 2009-02-06
-;; WG2: $$$$
+;; UTC: 2009-02-06 (original Emoji)
+;; UTC: 2009-05-15 (sync with WG2)
+;; WG2: 2009-04-24
 ;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; document: N3582, N3583, L2/09-026, N3626, L2/09-173
+;; font: Uni1F100Enclosedsupplement
 ;; target: Amd8
 
 """,
   0x1F300: """
 @@\t1F300\tMiscellaneous Pictographic Symbols\t1F5FF
-;; UTC: 2009-02-06
-;; WG2: $$$$
-;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; UTC: 2009-02-06 (original Emoji)
+;; UTC: 2009-05-15 (Sync with WG2)
+;; WG2: 2009-04-24
+;; contact: Markus Scherer, Michael Everson
+;; document: N3582, N3583, L2/09-026, N3626
+;; font: Uni1F300Mispictographics, Apple Emoji
 ;; target: Amd8
 
 """,
   0x1F600: """
 @@\t1F600\tEmoticons\t1F64F
-;; UTC: 2009-02-06
-;; WG2: $$$$
-;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; UTC: 2009-02-06 (original Emoji)
+;; UTC: 2009-05-15 sync with WG2
+;; WG2:2009-04-24
+;; contact: Markus Scherer, Michael Everson
+;; document: N3582, N3583, L2/09-026
+;; font: Uni1F600Emoticons
 ;; target: Amd8
 
 """,
   0x1F680: """
 @@\t1F680\tTransport and Map symbols\t1F6FF
-;; UTC: 2009-02-06
-;; WG2: $$$$
-;; contact: Markus Scherer
-;; document: L2/09-026
-;; font: Apple Emoji
+;; UTC: 2009-02-06 (original Emoji)
+;; UTC: 2009-05-15 sync with Wg2 content
+;; WG2: 2099-04-24
+;; contact: Markus Scherer, Michael Everson
+;; document: N3582, N3583, L2/09-026
+;; font: Uni1F680Transport
 ;; target: Amd8
 
 """}
