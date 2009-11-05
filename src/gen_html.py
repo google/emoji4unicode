@@ -23,7 +23,6 @@ __author__ = "Markus Scherer"
 import cgi
 import codecs
 import datetime
-import everson
 import sys
 import emoji4unicode
 import translit
@@ -38,8 +37,6 @@ _no_codes = False
 _no_symbol_numbers = False
 _show_font_chars = False
 _show_only_font_chars = False
-_with_everson = False
-_eval_everson = False
 
 _date = datetime.date.today().strftime("%Y-%b-%d")
 
@@ -84,9 +81,6 @@ body {
 .proposed_uni {
   color: red
 }
-.everson_uni {
-  color: magenta
-}
 .fontimg {
   height: 40;
   width: 40;
@@ -95,23 +89,12 @@ body {
   font-family: Apple Emoji;
   font-size: 36pt;
 }
-.everson_font_doc {
-  color: magenta
-}
-.everson_font {
-  font-family: Andreasmichael;
-  font-size: 36pt;
-  color: magenta
-}
 .status {
   font-size: 60%;
 }
 .old_name {
   font-weight: bold;
   color: red
-}
-.everson_name_anno {
-  color: magenta
 }
 .name_anno {
   font-size: 80%;
@@ -392,109 +375,11 @@ def _WriteProposedEmojiHTML(writer):
   writer.write(_PROPOSED_EMOJI_FOOTER)
 
 
-_EVAL_EVERSON_HEADER = (u"""<html>
-<title>Comments on specific changes suggested by """ + everson.doc +
-u"""</title>
-<head>
-<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
-""" +
-_CSS +
-u"""
-</head>
-<body>
-<h1>Comments on specific changes suggested by """ + everson.doc + u"""</h1>
-<p align='right'>
-  <span style='font-size:x-large'>N36xx</span><br>
-  <span style='font-size:x-large'>L2/09-xxx</span><br>
-  Date: """ + _date + u"""<br>
-  Authors:<br>
-  Markus Scherer, Mark Davis, Kat Momoi</p>
-<p>In the HTML version of this document,
-  each symbol row has an anchor to allow direct linking by appending
-  <a href="#e-4B0">#e-4B0</a> (for example) to this page's URL in the
-  address bar.</p>
-""")
-
-_EVAL_EVERSON_FOOTER = u"""
-<h2 id='legend'>Chart Legend</h2>
-<p>Changes in """ + everson.doc + u""" compared with the US/UTC proposal
-  are prefixed with \"""" + everson.doc + u""":\" and written in magenta.
-  Each proposed symbol is shown with two glyphs,
-  first the US/UTC (N3583) glyph,
-  second the IE/DE (""" + everson.doc + u""") glyph.</p>
-<p>The overall chart legend is available in
-  <a href="http://www.unicode.org/L2/L2009/09026r-emoji-proposed.pdf">L2/09-026R</a>
-  Emoji Symbols Proposed for New Encoding
-  (=<a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3583.pdf">N3583</a>)
-  and in <a href="http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend">http://sites.google.com/site/unicodesymbols/Home/emoji-symbols/chart-legend</a>.</p>
-</body></html>"""
-
-def _WriteEvalEversonHTML(writer):
-  writer.write(_EVAL_EVERSON_HEADER)
-  # Glyph changes.
-  writer.write(u"""<h2>Glyph changes proposed in """ +
-everson.doc + u"""</h2>
-<p>We have reviewed the substantive glyph changes proposed in """ +
-everson.doc + u""" for the following characters and
-made a preliminary assessment.
-The glyph changes for other characters are more difficult to evaluate
-and are still being reviewed.</p>
-""")
-  symbols = everson.GetGoodGlyphChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Good glyph changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  symbols = everson.GetNeutralGlyphChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Neutral glyph changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  symbols = everson.GetSomewhatBadGlyphChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Somewhat bad glyph changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  symbols = everson.GetBadGlyphChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Really bad glyph changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  # Name changes.
-  writer.write(u"""<h2>Name changes proposed in """ +
-everson.doc + u"""</h2>
-<p>We have reviewed the name changes proposed in """ +
-everson.doc + u""" for the following characters and
-made a preliminary assessment.
-The name changes for other characters are more difficult to evaluate
-and are still being reviewed.</p>
-""")
-  symbols = everson.GetGoodNameChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Good name changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  symbols = everson.GetNeutralNameChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Neutral name changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  symbols = everson.GetBadNameChanges(emoji4unicode.id_to_symbol)
-  if symbols:
-    writer.write(u"<h3>Bad name changes</h3>\n")
-    _WriteFullSymbolTableHTML(writer, symbols)
-  # Done.
-  writer.write(_EVAL_EVERSON_FOOTER)
-
-
 def _WriteFullSymbolTableHTML(writer, symbols):
   writer.write(u"<p>Number of changes: %d</p>\n" % len(symbols))
   writer.write(_FULL_TABLE_HEADER)
   _WriteFullSymbolRowsHTML(writer, symbols)
   writer.write("</table>\n")
-
-
-_change_string = { 1: "good", 0: "neutral", -1: "bad", -2: "v.bad" }
-
-def _EversonDocAndChangeString(change):
-  if change == None:
-    return everson.doc
-  else:
-    return everson.doc + u"(" + _change_string[change] + u")"
 
 
 def _RepresentationHTML(e4u_symbol):
@@ -528,25 +413,6 @@ def _RepresentationHTML(e4u_symbol):
     if proposed_uni:
       repr += (u"<br><span class='proposed_uni'>U+" +
                proposed_uni.replace("+", " U+") + u"</span>")
-      if _with_everson:
-        everson_uni = everson.GetUnicode(e4u_symbol.id)
-        if not everson_uni:
-          numeric_id = int(e4u_symbol.id, 16)
-          if not 0x554 <= numeric_id <= 0x56d:
-            # Complain if a symbol proposed before WG2 N3607 does not
-            # have N3607 data.
-            sys.stderr.write(u"e-%s proposed U+%s missing Everson mapping\n" %
-                             (e4u_symbol.id, proposed_uni))
-        else:
-          if _show_font_chars:
-            font_str = utf.UTF.CodePointString(int(everson_uni, 16))
-            repr += (u"<br><span class='everson_font_doc'>" +
-                     _EversonDocAndChangeString(
-                         everson.id_to_glyph_change.get(e4u_symbol.id)) +
-                     u"</span>: <span class='everson_font'>%s</span>") % font_str
-          if everson_uni != proposed_uni:
-            repr += (u"<br><span class='everson_uni'>" +
-                     everson.doc + u": U+" + everson_uni + u"</span>")
     else:
       repr += u"<br><span class='proposed_uni'>U+xxxxx</span>"
     return repr + u"<br><span class='status'>proposed</span>"
@@ -576,24 +442,11 @@ def _UnicodeHTML(uni):
 
 def _NameAnnotationHTML(e4u_symbol):
   """Return HTML with the symbol name, annotations, etc."""
-  show_everson = False
-  if _with_everson and e4u_symbol.in_proposal:
-    proposed_uni = e4u_symbol.GetProposedUnicode()
-    if proposed_uni:
-      show_everson = True
   name = e4u_symbol.GetName()
   lines = [name]
   old_name = e4u_symbol.GetOldName()
-  everson_uni = everson.GetUnicode(e4u_symbol.id)
-  if show_everson and everson_uni:
-    everson_name = everson.GetName(e4u_symbol.id)
-    if everson_name != name or (old_name and everson_name != old_name):
-      lines.append(u"<span class='everson_name_anno'>" +
-                   _EversonDocAndChangeString(
-                       everson.id_to_name_change.get(e4u_symbol.id)) +
-                   u": " + everson_name + u"</span>")
   if old_name:
-      lines.append(u"<span class='old_name'>Old name: " + old_name + u"</span>")
+    lines.append(u"<span class='old_name'>Old name: " + old_name + u"</span>")
   arib = e4u_symbol.GetARIB()
   if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
   if e4u_symbol.IsUnifiedWithUpcomingCharacter():
@@ -611,11 +464,6 @@ def _NameAnnotationHTML(e4u_symbol):
     design = e4u_symbol.GetDesign()
     if design: lines.append(u"<span class='desc'>Design Note: " +
                             cgi.escape(design) + u"</span>")
-  if show_everson and everson_uni:
-    for line in everson.GetAnnotations(e4u_symbol.id):
-      if line not in anno:
-        lines.append(u"<span class='everson_name_anno'>" + everson.doc +
-                    u": " + cgi.escape(line) + "</span>")
   return "<br>".join(lines)
 
 
@@ -701,7 +549,6 @@ def _WriteSingleCelledRow(writer, style, contents):
 def main():
   global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
-  global _with_everson, _eval_everson
   _proposed_by_unicode = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
@@ -719,16 +566,9 @@ def main():
       _no_codes = True
       _no_symbol_numbers = True
       _show_font_chars = True
-    if sys.argv[i] == "--everson": _with_everson = True
-    if sys.argv[i] == "--eval_everson":
-      _eval_everson = True
-      _with_everson = True
   emoji4unicode.Load()
-  if _with_everson: everson.Load()
   writer = codecs.getwriter("UTF-8")(sys.stdout)
-  if _eval_everson:
-    _WriteEvalEversonHTML(writer)
-  elif _proposed_by_unicode:
+  if _proposed_by_unicode:
     _WriteProposedEmojiHTML(writer)
   else:
     _WriteEmoji4UnicodeHTML(writer)
