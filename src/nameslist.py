@@ -48,7 +48,12 @@ def Read(filename):
   for line in in_file:
     comment_start = line.find(";")
     if comment_start >= 0:
-      line = line[:comment_start].rstrip()  # Remove comment.
+      if line.startswith(";\t= e-"):
+        # Starting 2009-nov-04 the NamesList has commented-out Emoji ID lines
+        # so that the Emoji ID do not show up in UniBook chart production.
+        line = line[1:].rstrip()  # Remove the ; and the line ending.
+      else:
+        line = line[:comment_start].rstrip()  # Remove comment.
     else:
       line = line.rstrip()  # Remove line ending.
     if not line:

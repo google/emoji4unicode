@@ -46,7 +46,7 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-02-06
 ;; UTC: 2009-05-15 sync with Wg2 content, added Pentagrams
 ;; WG2: 2009-04-24
-;; WG2: $$$$ add 26E7
+;; WG2: 2009-10-28 add 26E7
 ;; contact: Markus Scherer, German NB, Azzeddine Lazrek
 ;; document: N3582, N3583, L2/09-026, L2/09-021, L2/09-185R2
 ;; font: Uni2600Miscsymbols
@@ -58,7 +58,7 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-02-06
 ;; UTC: 2009-05-15 sync with Wg2 content
 ;; WG2: 2009-04-24
-;; WG2: $$$$ add 27B0 (from 2E32) 27BF
+;; WG2: 2009-10-28 add 27B0 (from 2E32) 27BF
 ;; contact: Markus Scherer, German NB
 ;; document: N3582, N3583, L2/09-026, L2/09-021
 ;; font: Uni2600Miscsymbols
@@ -90,8 +90,8 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 (sync with WG2)
 ;; WG2: 2009-04-24
-;; WG2: $$$$ Irish ballot
-;; contact: Markus Scherer
+;; WG2: 2009-10-29 Irish pdam8 ballot additions + regional indicators
+;; contact: Markus Scherer, Michael Everson
 ;; document: N3582, N3583, L2/09-026, N3626, L2/09-173
 ;; font: Uni1F100Enclosedsupplement
 ;; target: Amd8
@@ -113,9 +113,10 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 (Sync with WG2)
 ;; WG2: 2009-04-24
+;; WG2: 2009-10-28
 ;; contact: Markus Scherer, Michael Everson
 ;; document: N3582, N3583, L2/09-026, N3626
-;; font: Uni1F300Mispictographics, Apple Emoji
+;; font: Uni1F300Mispictographics
 ;; target: Amd8
 
 """,
@@ -123,7 +124,8 @@ _BLOCK_HEADINGS = {
 @@\t1F600\tEmoticons\t1F64F
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 sync with WG2
-;; WG2:2009-04-24
+;; WG2: 2009-04-24
+;; WG2: 2009-10-28 after ballot
 ;; contact: Markus Scherer, Michael Everson
 ;; document: N3582, N3583, L2/09-026
 ;; font: Uni1F600Emoticons
@@ -135,6 +137,7 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 sync with Wg2 content
 ;; WG2: 2099-04-24
+;; WG2: 2009-10-28 after ballot
 ;; contact: Markus Scherer, Michael Everson
 ;; document: N3582, N3583, L2/09-026
 ;; font: Uni1F680Transport
@@ -160,7 +163,7 @@ def _WriteNamesList(writer):
     writer.write("%s\t%s\n" % (uni, symbol.GetName()))
     for line in symbol.GetAnnotations():
       writer.write("\t%s\n" % line)
-    writer.write("\t= e-%s\n" % symbol.id)
+    writer.write(";\t= e-%s\n" % symbol.id)
   writer.close()
 
 

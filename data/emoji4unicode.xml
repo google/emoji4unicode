@@ -1131,6 +1131,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= flower cards</ann>
 <desc>(花札)</desc>
 </e>
+</subcategory>
+<subcategory name="Diamonds or Pentacles">
 <e glyphRefID="436" google="FE812" id="812" img_from="kddi" kddi="EB6F" name="PLAYING CARD BLACK JOKER" text_fallback="[ジョーカー]" unicode="+1F0CF"/>
 </subcategory>
 <subcategory name="Music symbols">
