@@ -26,7 +26,11 @@ import emoji4unicode
 _date = datetime.date.today().strftime("%Y-%m-%d")
 
 _HEADER = """# Emoji Sources
-# N37xx
+# N3728R
+#
+# This is an updated version of N3712 and N3585, updated to reflect FPDAM8
+# which includes the disposition of PDAM8 ballot comments and
+# changes agreed during the Tokyo WG2 meeting.
 #
 # Date: """ + _date + """
 # Author: Markus Scherer
