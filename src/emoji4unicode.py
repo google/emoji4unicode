@@ -95,6 +95,33 @@ def GetSymbols():
       for symbol in subcategory.GetSymbols():
         yield symbol
 
+def _UnicodeSequenceToList(uni):
+  """Turns the Unicode code point sequence string into an integer list."""
+  code_points = uni.split("+")
+  for i in range(len(code_points)):
+    code_points[i] = int(code_points[i], 16)
+  return code_points
+
+def GetSymbolsSortedByUnicode():
+  """Return all symbols sorted by Unicode.
+
+  Returns:
+    A list of pairs where the first one is the list of code point integers
+    for the Unicode code point or sequence, and the second is the symbol object.
+  """
+  proposed_symbols = []
+  for symbol in GetSymbols():
+    uni = symbol.GetUnicode()
+    if not uni:
+      if symbol.in_proposal:
+        uni = symbol.GetProposedUnicode()
+      else:
+        uni = symbol.GetCarrierUnicode("google")
+        if uni.startswith(">"): uni = uni[1:]
+    proposed_symbols.append((_UnicodeSequenceToList(uni), symbol))
+  proposed_symbols.sort()
+  return proposed_symbols
+
 def GetSymbolsInProposalSortedByUnicode():
   """Return the symbols with in_proposal=True sorted by Unicode.
 
@@ -107,11 +134,7 @@ def GetSymbolsInProposalSortedByUnicode():
     if not symbol.in_proposal: continue
     uni = symbol.GetUnicode()
     if not uni: uni = symbol.GetProposedUnicode()
-    # Turn the sequence string into a list of integers.
-    code_points = uni.split("+")
-    for i in range(len(code_points)):
-      code_points[i] = int(code_points[i], 16)
-    proposed_symbols.append((code_points, symbol))
+    proposed_symbols.append((_UnicodeSequenceToList(uni), symbol))
   proposed_symbols.sort()
   return proposed_symbols
 

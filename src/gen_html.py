@@ -157,10 +157,13 @@ u"""
 <h1>Emoji Symbols: Background Data</h1>
 <h2>Background data for Proposal for Encoding Emoji Symbols</h2>
 <p align='right'>
-  <span style='font-size:x-large'>L2/09-xxx</span><br>
+  <span style='font-size:x-large'>N3xxx</span><br>
   Date: """ + _date + u"<br>" +
 _AUTHORS +
 u"""</p>
+<p>This document reflects proposed Emoji symbols data as shown in FPDAM8
+  which includes the disposition of PDAM8 ballot comments and
+  changes agreed during the Tokyo WG2 meeting.</p>
 <p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
 <p>See the <a href="#legend">chart legend</a>
@@ -270,6 +273,54 @@ def _WriteEmoji4UnicodeHTML(writer):
                number_symbols_new)
   writer.write(_FOOTER)
 
+def _WriteEmojiDataHTML(writer):
+  number_symbols_in_chart = 0
+  number_symbols_unified = 0
+  number_symbols_new = 0
+  writer.write(_HEADER)
+  prev_subcategory_name = ""
+  subcategory_symbols = []
+  all_symbols = emoji4unicode.GetSymbolsSortedByUnicode()
+  for symbol in all_symbols:
+    symbol = symbol[1]  # Discard the Unicode code point list.
+    if not symbol.in_proposal and _only_in_proposal:
+      continue  # Skip this symbol.
+    if symbol.GetUnicode():
+      if _no_unified: continue  # Skip this symbol.
+      number_symbols_unified += 1
+    elif symbol.in_proposal:
+      number_symbols_new += 1
+    subcategory_name = symbol.subcategory.name
+    if prev_subcategory_name != subcategory_name:
+      if subcategory_symbols:
+        _WriteSingleCelledRow(writer,
+                              "subcategory",
+                              "%s" % prev_subcategory_name)
+        _WriteFullSymbolRowsHTML(writer, subcategory_symbols)
+      prev_subcategory_name = subcategory_name
+      subcategory_symbols = []
+    number_symbols_in_chart += 1
+    subcategory_symbols.append(symbol)
+  if subcategory_symbols:
+    _WriteSingleCelledRow(writer,
+                          "subcategory",
+                          "%s" % prev_subcategory_name)
+    _WriteFullSymbolRowsHTML(writer, subcategory_symbols)
+  writer.write("</table>\n")
+  writer.write("<p class='report'>Number of symbols in this chart: %d</p>\n" %
+               number_symbols_in_chart)
+  if _no_unified:
+    writer.write("<p class='report'>Number of symbols unified with existing "
+                 "Unicode characters: None shown in this chart.</p>\n")
+  elif number_symbols_unified != number_symbols_in_chart:
+    writer.write("<p class='report'>Number of symbols unified with existing "
+                 "Unicode characters: %d</p>\n" %
+                 number_symbols_unified)
+  if number_symbols_new:
+    writer.write("<p class='report'>Number of proposed new symbols: %d</p>\n" %
+                number_symbols_new)
+  writer.write(_FOOTER)
+
 def _WriteFullSymbolRowsHTML(writer, symbols):
   for symbol in symbols:
     if symbol.in_proposal:
@@ -346,7 +397,7 @@ def _WriteProposedEmojiHTML(writer):
   writer.write(_PROPOSED_EMOJI_HEADER)
   prev_subcategory_name = ""
   for proposed_symbol in proposed_symbols:
-    symbol = proposed_symbol[1]
+    symbol = proposed_symbol[1]  # Discard the Unicode code point list.
     if symbol.GetUnicode(): continue  # Filter out unified symbols.
     number_symbols_new += 1
     subcategory_name = symbol.subcategory.name
@@ -445,11 +496,11 @@ def _NameAnnotationHTML(e4u_symbol):
   name = e4u_symbol.GetName()
   lines = [name]
   old_name = e4u_symbol.GetOldName()
-  if old_name:
+  if old_name and not _no_temp_notes:
     lines.append(u"<span class='old_name'>Old name: " + old_name + u"</span>")
   arib = e4u_symbol.GetARIB()
   if arib: lines.append(u"<span class='arib'>= ARIB-%s</span>" % arib)
-  if e4u_symbol.IsUnifiedWithUpcomingCharacter():
+  if e4u_symbol.IsUnifiedWithUpcomingCharacter() and not _no_temp_notes:
     lines.append(u"<span class='desc'>Temporary Note: "
                   "Unified with an upcoming Unicode 5.2/AMD6 character; "
                   "code point and name are preliminary.</span>")
@@ -550,12 +601,18 @@ def main():
   global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
   _proposed_by_unicode = False
+  _emoji_data = False
   for i in range(1, len(sys.argv)):
     if sys.argv[i] == "--only_in_proposal": _only_in_proposal = True
     if sys.argv[i] == "--no_codes": _no_codes = True
     if sys.argv[i] == "--proposed_by_unicode":
       _no_temp_notes = True
       _proposed_by_unicode = True
+    if sys.argv[i] == "--emoji_data":
+      _no_temp_notes = True
+      _emoji_data = True
+    if sys.argv[i] == "--show_font_chars":
+      _show_font_chars = True
     if sys.argv[i] == "--show_only_font_chars":
       _show_font_chars = True
       _show_only_font_chars = True
@@ -568,7 +625,9 @@ def main():
       _show_font_chars = True
   emoji4unicode.Load()
   writer = codecs.getwriter("UTF-8")(sys.stdout)
-  if _proposed_by_unicode:
+  if _emoji_data:
+    _WriteEmojiDataHTML(writer)
+  elif _proposed_by_unicode:
     _WriteProposedEmojiHTML(writer)
   else:
     _WriteEmoji4UnicodeHTML(writer)
