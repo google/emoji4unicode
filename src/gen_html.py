@@ -37,6 +37,7 @@ _no_codes = False
 _no_symbol_numbers = False
 _show_font_chars = False
 _show_only_font_chars = False
+_show_real_chars = False
 
 _date = datetime.date.today().strftime("%Y-%b-%d")
 
@@ -87,6 +88,12 @@ body {
 }
 .efont {
   font-family: Apple Emoji;
+  font-size: 36pt;
+}
+.chartfonts {
+  font-family: Uni2300Mistechnical,Uni2600Miscsymbols,Uni1F0A0Playingcards,
+               Uni1F100Enclosedsupplement,Uni1F300Mispictographics,
+               Uni1F600Emoticons,Uni1F680Transport;
   font-size: 36pt;
 }
 .status {
@@ -437,7 +444,9 @@ def _RepresentationHTML(e4u_symbol):
   """Return HTML with the symbol representation."""
   uni = e4u_symbol.GetUnicode()
   if uni:
-    if e4u_symbol.IsUnifiedWithUpcomingCharacter() and not _show_font_chars:
+    if _show_real_chars:
+      repr = _UnicodeHTML(uni, u"chartfonts")
+    elif e4u_symbol.IsUnifiedWithUpcomingCharacter() and not _show_font_chars:
       # Print only code points, not also characters,
       # because no one will have a font for these.
       # return (u"<span class='upcoming'>U5.2</span><br>"
@@ -445,13 +454,17 @@ def _RepresentationHTML(e4u_symbol):
       font_img = u"<img src='../uni52img/U+%s.jpg' class='fontimg'>" % uni
       repr = font_img + u"<br>U+" + uni.replace("+", " U+")
     else:
-      repr = _UnicodeHTML(uni)
+      repr = _UnicodeHTML(uni, u"unified")
     return repr + u"<br><span class='status'>unified</span>"
   img = e4u_symbol.ImageHTML()
   font_uni = e4u_symbol.GetFontUnicode()
   font_img = u"<img src='../fontimg/AEmoji_%s.png' class='fontimg'>" % font_uni
   if e4u_symbol.in_proposal:
-    if _show_font_chars:
+    proposed_uni = e4u_symbol.GetProposedUnicode()
+    if _show_real_chars and proposed_uni:
+      font_str = utf.UTF.CodePointString(int(proposed_uni, 16))
+      repr = u"<span class='chartfonts'>%s</span>" % font_str
+    elif _show_font_chars:
       font_str = utf.UTF.CodePointString(int(font_uni, 16))
       if _show_only_font_chars:
         repr = u"<span class='efont'>%s</span>" % font_str
@@ -460,7 +473,6 @@ def _RepresentationHTML(e4u_symbol):
         if img: repr += u"\u2248" + img
     else:
       repr = font_img
-    proposed_uni = e4u_symbol.GetProposedUnicode()
     if proposed_uni:
       repr += (u"<br><span class='proposed_uni'>U+" +
                proposed_uni.replace("+", " U+") + u"</span>")
@@ -473,7 +485,7 @@ def _RepresentationHTML(e4u_symbol):
   return "?repr?"
 
 
-def _UnicodeHTML(uni):
+def _UnicodeHTML(uni, style):
   """Turn '0041+005A' into pretty HTML.
 
   Args:
@@ -488,7 +500,8 @@ def _UnicodeHTML(uni):
   for code in uni.split("+"):
     chars += utf.UTF.CodePointString(int(code, 16))
     code_points += " U+" + code
-  return u"<span class='unified'>" + chars + u"</span><br>" + code_points[1:]
+  return (u"<span class='" + style + u"'>" + chars +
+          u"</span><br>" + code_points[1:])
 
 
 def _NameAnnotationHTML(e4u_symbol):
@@ -600,6 +613,7 @@ def _WriteSingleCelledRow(writer, style, contents):
 def main():
   global _only_in_proposal, _no_unified, _no_temp_notes, _no_fallbacks
   global _no_codes, _no_symbol_numbers, _show_font_chars, _show_only_font_chars
+  global _show_real_chars
   _proposed_by_unicode = False
   _emoji_data = False
   for i in range(1, len(sys.argv)):
@@ -609,6 +623,7 @@ def main():
       _no_temp_notes = True
       _proposed_by_unicode = True
     if sys.argv[i] == "--emoji_data":
+      _show_real_chars = True
       _no_temp_notes = True
       _emoji_data = True
     if sys.argv[i] == "--show_font_chars":

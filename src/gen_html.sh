@@ -32,4 +32,4 @@ mkdir -p ../generated
 ./gen_html.py --only_in_proposal --show_only_font_chars > ../generated/utc_pdf.html
 # All information, except category names, temporary and design notes;
 # sorted by Unicode code points.
-./gen_html.py --emoji_data --show_only_font_chars > ../generated/emojidata.html
+./gen_html.py --emoji_data > ../generated/emojidata.html
