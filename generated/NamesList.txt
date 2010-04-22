@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2009-11-05
+@@@+	2010-04-22
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -1600,7 +1600,7 @@
 1F689	STATION
 	= train, subway station
 ;	= e-7EC
-1F68D	ONCOMING BUS
+1F68C	BUS
 ;	= e-7E6
 1F68F	BUS STOP
 ;	= e-7E7

@@ -77,7 +77,7 @@
 83	E198	2	Human/Living Things	Personal care symbols	HAIRCUT		The glyph needs to represent a female as this Emoji refers to a beauty parlor.
 84	E199	2	Human/Living Things	Personal care symbols	BARBER POLE		
 85	E19A	2	Human/Living Things	Portrait and role symbols	BUST IN SILHOUETTE		
-86	E19B	2	Human/Living Things	Portrait and role symbols	BOY	? Need to examine cross mapping	
+86	E19B	2	Human/Living Things	Portrait and role symbols	BOY		
 87	E19C	2	Human/Living Things	Portrait and role symbols	GIRL		
 88	E19D	2	Human/Living Things	Portrait and role symbols	MAN		
 89	E19E	2	Human/Living Things	Portrait and role symbols	WOMAN		
@@ -409,7 +409,7 @@
 393	E7E3	5	Activities/Work/Entertainment	Vehicles	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
 394	E7E4	5	Activities/Work/Entertainment	Vehicles	AUTOMOBILE	sedan	
 395	E7E5	5	Activities/Work/Entertainment	Vehicles	RECREATIONAL VEHICLE	wagon	
-396	E7E6	5	Activities/Work/Entertainment	Vehicles	ONCOMING BUS		
+396	E7E6	5	Activities/Work/Entertainment	Vehicles	BUS		
 397	E7E7	5	Activities/Work/Entertainment	Vehicles	BUS STOP		
 398	E7E8	5	Activities/Work/Entertainment	Vehicles	SHIP		
 400	E7EC	5	Activities/Work/Entertainment	Vehicles	STATION		

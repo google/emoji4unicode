@@ -1,11 +1,11 @@
 # Emoji Sources
-# N3728R
+# N3835
 #
-# This is an updated version of N3712 and N3585, updated to reflect FPDAM8
-# which includes the disposition of PDAM8 ballot comments and
-# changes agreed during the Tokyo WG2 meeting.
+# This is an updated version of N3728R, updated to reflect FDAM8
+# which includes the disposition of FPDAM8 ballot comments and
+# changes agreed during the San Jose WG2 meeting 56.
 #
-# Date: 2009-11-05
+# Date: 2010-04-22
 # Author: Markus Scherer
 #
 # Semicolon-delimited file with a fixed number of fields.
@@ -130,14 +130,13 @@
 2753;;F65B;F960
 2754;;;F9D6
 2755;;;F9D7
-2762;F9A7;F65A;F961
+2757;F9A7;F65A;F961
 2764;F991;F7B2;F962
 2795;;F758;
 2796;;F759;
 2797;;F770;
 27A1;;F76E;F7D4
 27B0;F9AF;F3F2;
-27BF;F984;;F7B1
 2934;F99A;F3EE;
 2935;F9A5;F3EF;
 2B05;;F76F;F7D5
@@ -443,10 +442,10 @@
 1F462;;F372;F9BB
 1F463;F8F9;F3EB;FBD6
 1F464;F955;;
-1F466;;F6D5;F941
-1F467;;F6D3;F942
-1F468;;;F944
-1F469;;;F945
+1F466;;;F941
+1F467;;;F942
+1F468;;F6D5;F944
+1F469;;F6D3;F945
 1F46A;;F6DA;
 1F46B;;;FB68
 1F46E;;F350;F793
@@ -715,7 +714,7 @@
 1F686;F8BC;F68E;F95E
 1F687;;F7EC;FB74
 1F689;;F471;F979
-1F68D;F8C1;F688;F79A
+1F68C;F8C1;F688;F79A
 1F68F;;F680;F791
 1F691;;F3B4;FB71
 1F692;;F3B3;FB70

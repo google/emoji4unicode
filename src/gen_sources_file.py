@@ -26,11 +26,11 @@ import emoji4unicode
 _date = datetime.date.today().strftime("%Y-%m-%d")
 
 _HEADER = """# Emoji Sources
-# N3728R
+# N3835
 #
-# This is an updated version of N3712 and N3585, updated to reflect FPDAM8
-# which includes the disposition of PDAM8 ballot comments and
-# changes agreed during the Tokyo WG2 meeting.
+# This is an updated version of N3728R, updated to reflect FDAM8
+# which includes the disposition of FPDAM8 ballot comments and
+# changes agreed during the San Jose WG2 meeting 56.
 #
 # Date: """ + _date + """
 # Author: Markus Scherer
@@ -56,6 +56,7 @@ def _WriteSourcesFile(writer):
     symbol = symbol[1]
     uni = symbol.GetUnicode()
     if not uni: uni = symbol.GetProposedUnicode()
+    if uni == "27BF": continue  # Omit DOUBLE CURLY LOOP from sources file.
     fields = [uni.replace("+", " ")]
     has_mappings = False
     for carrier in ("docomo", "kddi", "softbank"):

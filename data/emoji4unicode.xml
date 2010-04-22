@@ -199,12 +199,10 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="E6B1" glyphRefID="85" google="FE19A" id="19A" img_from="docomo" name="BUST IN SILHOUETTE" unicode="+1F464">
 <ann>= guest account</ann>
 </e>
-<e docomo="&gt;E6F0" glyphRefID="86" google="FE19B" id="19B" img_from="softbank" kddi="E4FC" name="BOY" oldname="BOYS HEAD" softbank="E001" unicode="+1F466">
-<desc>? Need to examine cross mapping</desc>
-</e>
-<e docomo="&gt;E6F0" glyphRefID="87" google="FE19C" id="19C" img_from="softbank" kddi="E4FA" name="GIRL" oldname="GIRLS HEAD" softbank="E002" unicode="+1F467"/>
-<e docomo="&gt;E6F0" glyphRefID="88" google="FE19D" id="19D" img_from="softbank" kddi="&gt;E4FC" name="MAN" oldname="MANS HEAD" softbank="E004" unicode="+1F468"/>
-<e docomo="&gt;E6F0" glyphRefID="89" google="FE19E" id="19E" img_from="softbank" kddi="&gt;E4FA" name="WOMAN" oldname="WOMANS HEAD" softbank="E005" unicode="+1F469"/>
+<e docomo="&gt;E6F0" glyphRefID="86" google="FE19B" id="19B" img_from="softbank" kddi="&gt;E4FC" name="BOY" oldname="BOYS HEAD" softbank="E001" unicode="+1F466"/>
+<e docomo="&gt;E6F0" glyphRefID="87" google="FE19C" id="19C" img_from="softbank" kddi="&gt;E4FA" name="GIRL" oldname="GIRLS HEAD" softbank="E002" unicode="+1F467"/>
+<e docomo="&gt;E6F0" glyphRefID="88" google="FE19D" id="19D" img_from="softbank" kddi="E4FC" name="MAN" oldname="MANS HEAD" softbank="E004" unicode="+1F468"/>
+<e docomo="&gt;E6F0" glyphRefID="89" google="FE19E" id="19E" img_from="softbank" kddi="E4FA" name="WOMAN" oldname="WOMANS HEAD" softbank="E005" unicode="+1F469"/>
 <e glyphRefID="90" google="FE19F" id="19F" img_from="kddi" kddi="E501" name="FAMILY" text_fallback="[家族]" unicode="+1F46A"/>
 <e glyphRefID="91" google="FE1A0" id="1A0" img_from="softbank" name="MAN AND WOMAN HOLDING HANDS" oldname="COUPLE" softbank="E428" text_fallback="[カップル]" unicode="+1F46B">
 <desc>A couple holding hands</desc>
@@ -1032,7 +1030,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="E65F" glyphRefID="395" google="FE7E5" id="7E5" img_from="softbank" kddi="&gt;E4B1" name="RECREATIONAL VEHICLE" softbank="E42E" unicode="+1F699">
 <desc>wagon</desc>
 </e>
-<e docomo="E660" glyphRefID="396" google="FE7E6" id="7E6" img_from="docomo" kddi="E4AF" name="ONCOMING BUS" oldname="BUS-2" softbank="E159" unicode="+1F68D"/>
+<e docomo="E660" glyphRefID="396" google="FE7E6" id="7E6" img_from="docomo" kddi="E4AF" name="BUS" oldname="BUS-2" softbank="E159" unicode="+1F68C"/>
 <e glyphRefID="397" google="FE7E7" id="7E7" img_from="kddi" kddi="E4A7" name="BUS STOP" softbank="E150" text_fallback="[バス停]" unicode="+1F68F"/>
 <e docomo="E661" glyphRefID="398" google="FE7E8" id="7E8" img_from="docomo" kddi="EA82" name="SHIP" softbank="E202" unicode="+1F6A2">
 <ann>x (ferry - 26F4)</ann>
@@ -1419,7 +1417,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e glyphRefID="540" google="FEB46" id="B46" img_from="kddi" kddi="E551" name="NEGATIVE SQUARED CROSS MARK" softbank="&gt;E333" text_fallback="[×]" unicode="+274E">
 <desc>Another X (orange background)</desc>
 </e>
-<e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK ORNAMENT" softbank="E021" unicode="2762"/>
+<e docomo="E702" google="FEB04" id="B04" kddi="E482" name="HEAVY EXCLAMATION MARK SYMBOL" softbank="E021" unicode="2757"/>
 <e docomo="E703" google="FEB05" id="B05" kddi="EB2F" name="EXCLAMATION QUESTION MARK" text_fallback="！？" unicode="2049"/>
 <e docomo="E704" google="FEB06" id="B06" kddi="EB30" name="DOUBLE EXCLAMATION MARK" text_fallback="！！" unicode="203C"/>
 <e glyphRefID="515" google="FEB09" id="B09" img_from="kddi" kddi="E483" name="BLACK QUESTION MARK ORNAMENT" softbank="E020" text_fallback="[？]" unicode="+2753"/>
