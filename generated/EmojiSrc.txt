@@ -5,8 +5,17 @@
 # which includes the disposition of FPDAM8 ballot comments and
 # changes agreed during the San Jose WG2 meeting 56.
 #
-# Date: 2010-04-22
+# Date: 2010-04-23
 # Author: Markus Scherer
+#
+# This file provides mappings between UCS code points and sequences on one hand
+# and Shift-JIS codes for cell phone carrier symbols on the other hand.
+# Each mapping is symmetric ("round trip"), for equivalent UCS and carrier
+# symbols or sequences. This file does not include best-fit ("fallback")
+# mappings to similar but not equivalent symbols in either mapping direction.
+#
+# Note: It is possible that future versions of this file will include
+# additional data columns providing mappings for additional vendors.
 #
 # Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.
@@ -171,11 +180,11 @@
 1F1E9 1F1EA;;F3CF;FBAE
 1F1EA 1F1F8;;F348;FBB1
 1F1EB 1F1F7;;F3CE;FBAD
+1F1EC 1F1E7;;F3D1;FBB0
 1F1EE 1F1F9;;F3D0;FBAF
 1F1EF 1F1F5;;F6A5;FBAB
 1F1F0 1F1F7;;F3D3;FBB4
 1F1F7 1F1FA;;F349;FBB2
-1F1FA 1F1F0;;F3D1;FBB0
 1F1FA 1F1F8;;F790;FBAC
 1F201;;;F7A3
 1F202;;F35A;F7C8
@@ -709,9 +718,10 @@
 1F63D;;F48D;
 1F63E;;F3A6;FB5D
 1F680;;F7F8;F74D
+1F683;;F68E;
 1F684;F8BE;;FB75
 1F685;;F689;F95F
-1F686;F8BC;F68E;F95E
+1F686;F8BC;;F95E
 1F687;;F7EC;FB74
 1F689;;F471;F979
 1F68C;F8C1;F688;F79A

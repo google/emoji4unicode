@@ -35,6 +35,15 @@ _HEADER = """# Emoji Sources
 # Date: """ + _date + """
 # Author: Markus Scherer
 #
+# This file provides mappings between UCS code points and sequences on one hand
+# and Shift-JIS codes for cell phone carrier symbols on the other hand.
+# Each mapping is symmetric ("round trip"), for equivalent UCS and carrier
+# symbols or sequences. This file does not include best-fit ("fallback")
+# mappings to similar but not equivalent symbols in either mapping direction.
+#
+# Note: It is possible that future versions of this file will include
+# additional data columns providing mappings for additional vendors.
+#
 # Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.
 #

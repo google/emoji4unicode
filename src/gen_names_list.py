@@ -109,7 +109,7 @@ _BLOCK_HEADINGS = {
 
 """,
   0x1F300: """
-@@\t1F300\tMiscellaneous Pictographic Symbols\t1F5FF
+@@\t1F300\tMiscellaneous Symbols and Pictographs\t1F5FF
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 (Sync with WG2)
 ;; WG2: 2009-04-24

@@ -124,7 +124,7 @@
   <PostScriptName glyphRefID="92" NameString="uniE1A1.police_officer" />
   <PostScriptName glyphRefID="93" NameString="uniE1A2.woman_with_bunny_ears" />
   <PostScriptName glyphRefID="94" NameString="uniE1A3.bride_with_veil" />
-  <PostScriptName glyphRefID="95" NameString="uniE1A4.western_person" />
+  <PostScriptName glyphRefID="95" NameString="uniE1A4.person_with_blond_hair" />
   <PostScriptName glyphRefID="96" NameString="uniE1A5.man_with_gua_pi_mao" />
   <PostScriptName glyphRefID="97" NameString="uniE1A6.man_with_turban" />
   <PostScriptName glyphRefID="98" NameString="uniE1A7.older_man" />
@@ -606,7 +606,7 @@
   <PostScriptName glyphRefID="574" NameString="uniEB59.sleeping_symbol" />
   <PostScriptName glyphRefID="575" NameString="uniEB5A.collision_symbol" />
   <PostScriptName glyphRefID="576" NameString="uniEB5B.splashing_sweat_symbol" />
-  <PostScriptName glyphRefID="577" NameString="uniEB5C.drop_of_water" />
+  <PostScriptName glyphRefID="577" NameString="uniEB5C.droplet" />
   <PostScriptName glyphRefID="578" NameString="uniEB5D.dash_symbol" />
   <PostScriptName glyphRefID="579" NameString="uniEB5E.flexed_biceps" />
   <PostScriptName glyphRefID="580" NameString="uniEB5F.dizzy_symbol" />
@@ -744,4 +744,5 @@
   <PostScriptName glyphRefID="712" NameString="uniE56B.regional_indicator_symbol_letter_x" />
   <PostScriptName glyphRefID="713" NameString="uniE56C.regional_indicator_symbol_letter_y" />
   <PostScriptName glyphRefID="714" NameString="uniE56D.regional_indicator_symbol_letter_z" />
+  <PostScriptName glyphRefID="715" NameString="uniE83D.railway_car" />
 </postTable>

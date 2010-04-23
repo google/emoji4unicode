@@ -214,7 +214,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <desc>a showgirl?</desc>
 </e>
 <e glyphRefID="94" google="FE1A3" id="1A3" img_from="kddi" kddi="EAE9" name="BRIDE WITH VEIL" text_fallback="[花嫁]" unicode="+1F470"/>
-<e glyphRefID="95" google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="WESTERN PERSON" softbank="E515" text_fallback="[白人]" unicode="+1F471">
+<e glyphRefID="95" google="FE1A4" id="1A4" img_from="kddi" kddi="EB13" name="PERSON WITH BLOND HAIR" oldname="WESTERN PERSON" softbank="E515" text_fallback="[白人]" unicode="+1F471">
 <desc>both male and female icons exist</desc>
 </e>
 <e glyphRefID="96" google="FE1A5" id="1A5" img_from="kddi" kddi="EB14" name="MAN WITH GUA PI MAO" softbank="E516" text_fallback="[中国人]" unicode="+1F472">
@@ -687,7 +687,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e glyphRefID="268" google="FE4E7" id="4E7" img_from="kddi" kddi="EAFA" name="REGIONAL INDICATOR SYMBOL LETTERS FR" softbank="E50D" text_fallback="[フランス]" unicode="1F1EB+1F1F7">
 <desc>France</desc>
 </e>
-<e glyphRefID="271" google="FE4EA" id="4EA" img_from="kddi" kddi="EB10" name="REGIONAL INDICATOR SYMBOL LETTERS GB" softbank="E510" text_fallback="[イギリス]" unicode="1F1FA+1F1F0">
+<e glyphRefID="271" google="FE4EA" id="4EA" img_from="kddi" kddi="EB10" name="REGIONAL INDICATOR SYMBOL LETTERS GB" softbank="E510" text_fallback="[イギリス]" unicode="1F1EC+1F1E7">
 <desc>U.K.</desc>
 </e>
 <e glyphRefID="270" google="FE4E9" id="4E9" img_from="kddi" kddi="EB0F" name="REGIONAL INDICATOR SYMBOL LETTERS IT" softbank="E50F" text_fallback="[イタリア]" unicode="1F1EE+1F1F9">
@@ -897,7 +897,7 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <desc>MD mini disc</desc>
 </e>
 <e glyphRefID="355" google="FE53D" id="53D" img_from="kddi" kddi="E562" name="FLOPPY DISK" softbank="&gt;E316" text_fallback="[フロッピー]" unicode="+1F4BE">
-<ann>= floppy disc, floppy, diskette</ann>
+<ann>= flexible disk cartridge, floppy disc, floppy, diskette</ann>
 </e>
 <e docomo="E68C" glyphRefID="447" google="FE81D" id="81D" img_from="docomo" kddi="E50C" name="OPTICAL DISC" oldname="OPTICAL DISK" softbank="E126" unicode="+1F4BF"/>
 <e docomo="&gt;E68C" glyphRefID="448" google="FE81E" id="81E" img_from="softbank" kddi="&gt;E50C" name="DVD" softbank="E127" unicode="+1F4C0">
@@ -1004,7 +1004,8 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 </e>
 </subcategory>
 <subcategory name="Vehicles">
-<e docomo="E65B" glyphRefID="389" google="FE7DF" id="7DF" img_from="docomo" kddi="E4B5" name="TRAIN" softbank="E01E" unicode="+1F686">
+<e docomo="&gt;E65B" glyphRefID="715" id="83D" img_from="kddi" kddi="E4B5" name="RAILWAY CAR" softbank="&gt;E01E" unicode="+1F683"/>
+<e docomo="E65B" glyphRefID="389" google="FE7DF" id="7DF" img_from="docomo" kddi="&gt;E4B5" name="TRAIN" softbank="E01E" unicode="+1F686">
 <ann>= intercity train</ann>
 </e>
 <e docomo="&gt;E65C" glyphRefID="390" google="FE7E0" id="7E0" img_from="kddi" kddi="E5BC" name="METRO" softbank="E434" unicode="+1F687">
@@ -1141,6 +1142,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 <e docomo="E6FF" glyphRefID="438" google="FE814" id="814" img_from="docomo" kddi="E505" name="MULTIPLE MUSICAL NOTES" softbank="E326" unicode="+1F3B6">
 <ann>= dancing notes, mood, melody</ann>
+<ann>x (beamed eighth notes - 266B)</ann>
 <desc>disunified from &#x266B; U+266B</desc>
 </e>
 <e glyphRefID="439" google="FE815" id="815" img_from="softbank" name="SAXOPHONE" softbank="E040" text_fallback="[サックス]" unicode="+1F3B7"/>
@@ -1704,7 +1706,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="E706" glyphRefID="576" google="FEB5B" id="B5B" img_from="docomo" kddi="E5B1" name="SPLASHING SWEAT SYMBOL" oldname="SPLASHING SWEAT" softbank="E331" unicode="+1F4A6">
 <desc>Sweat</desc>
 </e>
-<e docomo="E707" glyphRefID="577" google="FEB5C" id="B5C" img_from="docomo" kddi="E4E6" name="DROP OF WATER" oldname="DRIP" softbank="&gt;E331" unicode="+1F4A7">
+<e docomo="E707" glyphRefID="577" google="FEB5C" id="B5C" img_from="docomo" kddi="E4E6" name="DROPLET" oldname="DROP OF WATER, DRIP" softbank="&gt;E331" unicode="+1F4A7">
+<ann>* represents a drop of sweat or drop of water</ann>
 <desc>sweat drip; tear drop</desc>
 </e>
 <e docomo="E708" glyphRefID="578" google="FEB5D" id="B5D" img_from="docomo" kddi="E4F4" name="DASH SYMBOL" softbank="E330" unicode="+1F4A8">

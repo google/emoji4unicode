@@ -458,7 +458,7 @@ def CarrierImageHTML(carrier, symbol):
     An HTML string for the symbol's image, or an empty string if
     there is none.
   """
-  if carrier == "kddi":
+  if carrier == "kddi" and symbol.uni in _kddi_to_google:
     # Use images hosted by Google rather than another non-KDDI site.
     google_uni = _kddi_to_google[symbol.uni]
     if google_uni and not google_uni.startswith(">"):

@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-04-22
+@@@+	2010-04-23
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -299,7 +299,7 @@
 	# <circle> 53EF
 ;	= e-B50
 
-@@	1F300	Miscellaneous Pictographic Symbols	1F5FF
+@@	1F300	Miscellaneous Symbols and Pictographs	1F5FF
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 (Sync with WG2)
 ;; WG2: 2009-04-24
@@ -658,6 +658,7 @@
 ;	= e-813
 1F3B6	MULTIPLE MUSICAL NOTES
 	= dancing notes, mood, melody
+	x (beamed eighth notes - 266B)
 ;	= e-814
 1F3B7	SAXOPHONE
 ;	= e-815
@@ -950,7 +951,7 @@
 ;	= e-1A2
 1F470	BRIDE WITH VEIL
 ;	= e-1A3
-1F471	WESTERN PERSON
+1F471	PERSON WITH BLOND HAIR
 ;	= e-1A4
 1F472	MAN WITH GUA PI MAO
 ;	= e-1A5
@@ -1080,7 +1081,8 @@
 ;	= e-B5A
 1F4A6	SPLASHING SWEAT SYMBOL
 ;	= e-B5B
-1F4A7	DROP OF WATER
+1F4A7	DROPLET
+	* represents a drop of sweat or drop of water
 ;	= e-B5C
 1F4A8	DASH SYMBOL
 	= running dash
@@ -1135,7 +1137,7 @@
 1F4BD	MINIDISC
 ;	= e-53C
 1F4BE	FLOPPY DISK
-	= floppy disc, floppy, diskette
+	= flexible disk cartridge, floppy disc, floppy, diskette
 ;	= e-53D
 1F4BF	OPTICAL DISC
 ;	= e-81D
@@ -1587,6 +1589,8 @@
 @		Vehicles
 1F680	ROCKET
 ;	= e-7ED
+1F683	RAILWAY CAR
+;	= e-83D
 1F684	HIGH-SPEED TRAIN
 ;	= e-7E2
 1F685	HIGH-SPEED TRAIN WITH BULLET NOSE
