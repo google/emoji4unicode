@@ -402,8 +402,7 @@
 385	E7DB	5	Activities/Work/Entertainment	Sport symbols	TROPHY	a gold cup	
 387	E7DD	5	Activities/Work/Entertainment	Sport symbols	AMERICAN FOOTBALL		
 388	E7DE	5	Activities/Work/Entertainment	Sport symbols	SWIMMER	swimming	
-715	E83D	5	Activities/Work/Entertainment	Vehicles	RAILWAY CAR		
-389	E7DF	5	Activities/Work/Entertainment	Vehicles	TRAIN		
+389	E7DF	5	Activities/Work/Entertainment	Vehicles	RAILWAY CAR		
 390	E7E0	5	Activities/Work/Entertainment	Vehicles	METRO	(DoCoMo's is an "M" for metro)	
 391	E7E1	5	Activities/Work/Entertainment	Vehicles	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Vehicles	HIGH-SPEED TRAIN		

@@ -418,7 +418,7 @@
   <PostScriptName glyphRefID="386" NameString="uniE7DC.horse" />
   <PostScriptName glyphRefID="387" NameString="uniE7DD.american_football" />
   <PostScriptName glyphRefID="388" NameString="uniE7DE.swimmer" />
-  <PostScriptName glyphRefID="389" NameString="uniE7DF.train" />
+  <PostScriptName glyphRefID="389" NameString="uniE7DF.railway_car" />
   <PostScriptName glyphRefID="390" NameString="uniE7E0.metro" />
   <PostScriptName glyphRefID="391" NameString=".notdef" />
   <PostScriptName glyphRefID="392" NameString="uniE7E2.high_speed_train" />
@@ -744,5 +744,4 @@
   <PostScriptName glyphRefID="712" NameString="uniE56B.regional_indicator_symbol_letter_x" />
   <PostScriptName glyphRefID="713" NameString="uniE56C.regional_indicator_symbol_letter_y" />
   <PostScriptName glyphRefID="714" NameString="uniE56D.regional_indicator_symbol_letter_z" />
-  <PostScriptName glyphRefID="715" NameString="uniE83D.railway_car" />
 </postTable>

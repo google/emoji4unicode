@@ -1004,10 +1004,11 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 </e>
 </subcategory>
 <subcategory name="Vehicles">
-<e docomo="&gt;E65B" glyphRefID="715" id="83D" img_from="kddi" kddi="E4B5" name="RAILWAY CAR" softbank="&gt;E01E" unicode="+1F683"/>
+<!-- try better implementation below of JP G11f e docomo="&gt;E65B" glyphRefID="715" id="83D" img_from="kddi" kddi="E4B5" name="RAILWAY CAR" softbank="&gt;E01E" unicode="+1F683"/>
 <e docomo="E65B" glyphRefID="389" google="FE7DF" id="7DF" img_from="docomo" kddi="&gt;E4B5" name="TRAIN" softbank="E01E" unicode="+1F686">
 <ann>= intercity train</ann>
-</e>
+</e-->
+<e docomo="E65B" glyphRefID="389" google="FE7DF" id="7DF" img_from="docomo" kddi="E4B5" name="RAILWAY CAR" softbank="E01E" unicode="+1F683"/>
 <e docomo="&gt;E65C" glyphRefID="390" google="FE7E0" id="7E0" img_from="kddi" kddi="E5BC" name="METRO" softbank="E434" unicode="+1F687">
 <desc>(DoCoMo's is an "M" for metro)</desc>
 <ann>= subway, underground train</ann>

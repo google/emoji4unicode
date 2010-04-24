@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-04-23
+@@@+	2010-04-24
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -1590,14 +1590,11 @@
 1F680	ROCKET
 ;	= e-7ED
 1F683	RAILWAY CAR
-;	= e-83D
+;	= e-7DF
 1F684	HIGH-SPEED TRAIN
 ;	= e-7E2
 1F685	HIGH-SPEED TRAIN WITH BULLET NOSE
 ;	= e-7E3
-1F686	TRAIN
-	= intercity train
-;	= e-7DF
 1F687	METRO
 	= subway, underground train
 ;	= e-7E0
