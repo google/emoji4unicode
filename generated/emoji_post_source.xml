@@ -188,28 +188,28 @@
   <PostScriptName glyphRefID="156" NameString="uniE1E1.honeybee" />
   <PostScriptName glyphRefID="157" NameString="uniE1E2.lady_beetle" />
   <PostScriptName glyphRefID="158" NameString="uniE320.angry_face" />
-  <PostScriptName glyphRefID="159" NameString="uniE321.anguished_face" />
+  <PostScriptName glyphRefID="159" NameString="uniE321.weary_face" />
   <PostScriptName glyphRefID="160" NameString="uniE322.astonished_face" />
   <PostScriptName glyphRefID="161" NameString="uniE323.disappointed_face" />
   <PostScriptName glyphRefID="162" NameString="uniE324.dizzy_face" />
-  <PostScriptName glyphRefID="163" NameString="uniE325.exasperated_face" />
-  <PostScriptName glyphRefID="164" NameString="uniE326.expressionless_face" />
-  <PostScriptName glyphRefID="165" NameString="uniE327.face_with_heart_shaped_eyes" />
+  <PostScriptName glyphRefID="163" NameString="uniE325.face_with_open_mouth_and_cold_sweat" />
+  <PostScriptName glyphRefID="164" NameString="uniE326.unamused_face" />
+  <PostScriptName glyphRefID="165" NameString="uniE327.smiling_face_with_heart_shaped_eyes" />
   <PostScriptName glyphRefID="166" NameString="uniE328.face_with_look_of_triumph" />
-  <PostScriptName glyphRefID="167" NameString="uniE329.winking_face_with_stuck_out_tongue" />
-  <PostScriptName glyphRefID="168" NameString="uniE32A.face_with_stuck_out_tongue" />
+  <PostScriptName glyphRefID="167" NameString="uniE329.face_with_stuck_out_tongue_and_winking_eye" />
+  <PostScriptName glyphRefID="168" NameString="uniE32A.face_with_stuck_out_tongue_and_tightly_closed_eyes" />
   <PostScriptName glyphRefID="169" NameString="uniE32B.face_savouring_delicious_food" />
   <PostScriptName glyphRefID="170" NameString="uniE32C.face_throwing_a_kiss" />
-  <PostScriptName glyphRefID="171" NameString="uniE32D.face_kissing" />
-  <PostScriptName glyphRefID="172" NameString="uniE32E.face_with_mask" />
+  <PostScriptName glyphRefID="171" NameString="uniE32D.kissing_face_with_closed_eyes" />
+  <PostScriptName glyphRefID="172" NameString="uniE32E.face_with_medical_mask" />
   <PostScriptName glyphRefID="173" NameString="uniE32F.flushed_face" />
-  <PostScriptName glyphRefID="174" NameString="uniE330.happy_face_with_open_mouth" />
-  <PostScriptName glyphRefID="175" NameString="uniE331.happy_face_with_open_mouth_and_cold_sweat" />
-  <PostScriptName glyphRefID="176" NameString="uniE332.happy_face_with_open_mouth_and_closed_eyes" />
-  <PostScriptName glyphRefID="177" NameString="uniE333.happy_face_with_grin" />
-  <PostScriptName glyphRefID="178" NameString="uniE334.happy_and_crying_face" />
-  <PostScriptName glyphRefID="179" NameString="uniE335.happy_face_with_wide_mouth_and_raised_eyebrows" />
-  <PostScriptName glyphRefID="180" NameString="uniE338.happy_face_with_open_mouth_and_raised_eyebrows" />
+  <PostScriptName glyphRefID="174" NameString="uniE330.smiling_face_with_open_mouth" />
+  <PostScriptName glyphRefID="175" NameString="uniE331.smiling_face_with_open_mouth_and_cold_sweat" />
+  <PostScriptName glyphRefID="176" NameString="uniE332.smiling_face_with_open_mouth_and_tightly_closed_eyes" />
+  <PostScriptName glyphRefID="177" NameString="uniE333.grinning_face_with_smiling_eyes" />
+  <PostScriptName glyphRefID="178" NameString="uniE334.face_with_tears_of_joy" />
+  <PostScriptName glyphRefID="179" NameString="uniE335.smiling_face_with_smiling_eyes" />
+  <PostScriptName glyphRefID="180" NameString="uniE338.smiling_face_with_open_mouth_and_smiling_eyes" />
   <PostScriptName glyphRefID="181" NameString="uniE339.crying_face" />
   <PostScriptName glyphRefID="182" NameString="uniE33A.loudly_crying_face" />
   <PostScriptName glyphRefID="183" NameString="uniE33B.fearful_face" />
@@ -225,22 +225,22 @@
   <PostScriptName glyphRefID="193" NameString="uniE345.disappointed_but_relieved_face" />
   <PostScriptName glyphRefID="194" NameString="uniE346.tired_face" />
   <PostScriptName glyphRefID="195" NameString="uniE347.winking_face" />
-  <PostScriptName glyphRefID="196" NameString="uniE348.cat_face_with_open_mouth" />
-  <PostScriptName glyphRefID="197" NameString="uniE349.happy_cat_face_with_grin" />
-  <PostScriptName glyphRefID="198" NameString="uniE34A.happy_and_crying_cat_face" />
-  <PostScriptName glyphRefID="199" NameString="uniE34B.cat_face_kissing" />
-  <PostScriptName glyphRefID="200" NameString="uniE34C.cat_face_with_heart_shaped_eyes" />
+  <PostScriptName glyphRefID="196" NameString="uniE348.smiling_cat_face_with_open_mouth" />
+  <PostScriptName glyphRefID="197" NameString="uniE349.grinning_cat_face_with_smiling_eyes" />
+  <PostScriptName glyphRefID="198" NameString="uniE34A.cat_face_with_tears_of_joy" />
+  <PostScriptName glyphRefID="199" NameString="uniE34B.kissing_cat_face_with_closed_eyes" />
+  <PostScriptName glyphRefID="200" NameString="uniE34C.smiling_cat_face_with_heart_shaped_eyes" />
   <PostScriptName glyphRefID="201" NameString="uniE34D.crying_cat_face" />
   <PostScriptName glyphRefID="202" NameString="uniE34E.pouting_cat_face" />
-  <PostScriptName glyphRefID="203" NameString="uniE34F.cat_face_with_tightly_closed_lips" />
-  <PostScriptName glyphRefID="204" NameString="uniE350.anguished_cat_face" />
+  <PostScriptName glyphRefID="203" NameString="uniE34F.cat_face_with_wry_smile" />
+  <PostScriptName glyphRefID="204" NameString="uniE350.weary_cat_face" />
   <PostScriptName glyphRefID="205" NameString="uniE351.face_with_no_good_gesture" />
   <PostScriptName glyphRefID="206" NameString="uniE352.face_with_ok_gesture" />
   <PostScriptName glyphRefID="207" NameString="uniE353.person_bowing_deeply" />
   <PostScriptName glyphRefID="208" NameString="uniE354.see_no_evil_monkey" />
   <PostScriptName glyphRefID="209" NameString="uniE355.speak_no_evil_monkey" />
   <PostScriptName glyphRefID="210" NameString="uniE356.hear_no_evil_monkey" />
-  <PostScriptName glyphRefID="211" NameString="uniE357.person_raising_one_hand" />
+  <PostScriptName glyphRefID="211" NameString="uniE357.happy_person_raising_one_hand" />
   <PostScriptName glyphRefID="212" NameString="uniE358.person_raising_both_hands_in_celebration" />
   <PostScriptName glyphRefID="213" NameString="uniE359.person_frowning" />
   <PostScriptName glyphRefID="214" NameString="uniE35A.person_with_pouting_face" />

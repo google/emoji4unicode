@@ -39,7 +39,7 @@ def main():
   for symbol in root.getElementsByTagName("e"):
     id_to_symbol[symbol.getAttribute("id")] = symbol
   nameslist_filename = os.path.join(here, "..", "data",
-                                    "unicode", "uc60-a-FPDAM8-Tokyo.lst")
+                                    "unicode", "uc60-a-FDAM8-SanJose.lst")
   for record in nameslist.Read(nameslist_filename):
     if "uni" not in record:
       continue

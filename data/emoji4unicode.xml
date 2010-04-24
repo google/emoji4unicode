@@ -33,7 +33,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="&gt;E63E" glyphRefID="9" google="FE00A" id="00A" img_from="softbank" kddi="EAF4" name="SUNRISE" softbank="E449" unicode="+1F305">
 <desc>Sunrise over horizon (Softbank sunrise 2)</desc>
 </e>
-<e glyphRefID="10" google="FE00B" id="00B" img_from="kddi" kddi="E5DA" name="CITYSCAPE AT DUSK" softbank="E146" text_fallback="[夕焼け]"/>
+<e glyphRefID="10" google="FE00B" id="00B" img_from="kddi" kddi="E5DA" name="CITYSCAPE AT DUSK" softbank="E146" text_fallback="[夕焼け]" unicode="+1F306"/>
 <e docomo="&gt;E63E" glyphRefID="11" google="FE00C" id="00C" img_from="softbank" kddi="&gt;E5DA" name="SUNSET OVER BUILDINGS" softbank="E44A" unicode="+1F307"/>
 <e glyphRefID="12" google="FE00D" id="00D" img_from="kddi" kddi="EAF2" name="RAINBOW" softbank="E44C" text_fallback="[虹]" unicode="+1F308"/>
 <e google="FE00E" id="00E" kddi="E48A" name="SNOWFLAKE" text_fallback="[雪結晶]" unicode="2744"/>
@@ -339,61 +339,64 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 </subcategory>
 </category>
 <category name="3. Faces and Smiley's">
-<subcategory name="Emoticons">
-<e docomo="E6F1" glyphRefID="158" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059" unicode="+1F600"/>
-<e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="ANGUISHED FACE" softbank="&gt;E403" unicode="+1F601">
+<subcategory name="Faces">
+<e docomo="E6F1" glyphRefID="158" google="FE320" id="320" img_from="softbank" kddi="E472" name="ANGRY FACE" softbank="E059" unicode="+1F620"/>
+<e docomo="&gt;E6F3" glyphRefID="159" google="FE321" id="321" img_from="kddi" kddi="EB67" name="WEARY FACE" oldname="ANGUISHED FACE" softbank="&gt;E403" unicode="+1F629">
 <desc>Forms a pair with e-350.</desc>
 </e>
-<e docomo="&gt;E6F4" glyphRefID="160" google="FE322" id="322" img_from="softbank" kddi="EACA" name="ASTONISHED FACE" softbank="E410" unicode="+1F602">
+<e docomo="&gt;E6F4" glyphRefID="160" google="FE322" id="322" img_from="softbank" kddi="EACA" name="ASTONISHED FACE" softbank="E410" unicode="+1F632">
 <desc>Surprise, astonishment</desc>
 </e>
-<e docomo="E6F2" glyphRefID="161" google="FE323" id="323" img_from="softbank" kddi="&gt;EAC0" name="DISAPPOINTED FACE" softbank="E058" unicode="+1F603"/>
-<e docomo="E6F4" glyphRefID="162" google="FE324" id="324" img_from="kddi" kddi="E5AE" name="DIZZY FACE" softbank="&gt;E406" unicode="+1F604"/>
-<e docomo="&gt;E723" glyphRefID="163" google="FE325" id="325" img_from="softbank" kddi="EACB" name="EXASPERATED FACE" softbank="E40F" unicode="+1F605">
+<e docomo="E6F2" glyphRefID="161" google="FE323" id="323" img_from="softbank" kddi="&gt;EAC0" name="DISAPPOINTED FACE" softbank="E058" unicode="+1F61E"/>
+<e docomo="E6F4" glyphRefID="162" google="FE324" id="324" img_from="kddi" kddi="E5AE" name="DIZZY FACE" softbank="&gt;E406" unicode="+1F635"/>
+<e docomo="&gt;E723" glyphRefID="163" google="FE325" id="325" img_from="softbank" kddi="EACB" name="FACE WITH OPEN MOUTH AND COLD SWEAT" oldname="EXASPERATED FACE" softbank="E40F" unicode="+1F630">
 <desc>Exasperated, frustrated, impatient (sweating)</desc>
 </e>
-<e docomo="E725" glyphRefID="164" google="FE326" id="326" img_from="docomo" kddi="EAC9" name="EXPRESSIONLESS FACE" softbank="E40E" unicode="+1F606">
+<e docomo="E725" glyphRefID="164" google="FE326" id="326" img_from="docomo" kddi="EAC9" name="UNAMUSED FACE" oldname="EXPRESSIONLESS FACE" softbank="E40E" unicode="+1F612">
 <desc>KDDI has side-look animation</desc>
 </e>
-<e docomo="E726" glyphRefID="165" google="FE327" id="327" img_from="docomo" kddi="E5C4" name="FACE WITH HEART-SHAPED EYES" oldname="FACE WITH HEART SHAPED EYES" softbank="E106" unicode="+1F607">
+<e docomo="E726" glyphRefID="165" google="FE327" id="327" img_from="docomo" kddi="E5C4" name="SMILING FACE WITH HEART-SHAPED EYES" oldname="FACE WITH HEART-SHAPED EYES" softbank="E106" unicode="+1F60D">
 <desc>Forms a pair with e-34C. used to indicate the state of being in love</desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="166" google="FE328" id="328" img_from="kddi" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="&gt;E404" unicode="+1F608"/>
-<e docomo="E728" glyphRefID="167" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="WINKING FACE WITH STUCK-OUT TONGUE" oldname="WINKING FACE WITH STUCK OUT TONGUE" softbank="E105" unicode="+1F609"/>
-<e docomo="&gt;E728" glyphRefID="168" google="FE32A" id="32A" img_from="softbank" kddi="&gt;E4E7" name="FACE WITH STUCK-OUT TONGUE" oldname="FACE WITH STUCK OUT TONGUE" softbank="E409" unicode="+1F60A">
+<e docomo="&gt;E753" glyphRefID="166" google="FE328" id="328" img_from="kddi" kddi="EAC1" name="FACE WITH LOOK OF TRIUMPH" softbank="&gt;E404" unicode="+1F624"/>
+<e docomo="E728" glyphRefID="167" google="FE329" id="329" img_from="docomo" kddi="E4E7" name="FACE WITH STUCK-OUT TONGUE AND WINKING EYE" oldname="WINKING FACE WITH STUCK-OUT TONGUE" softbank="E105" unicode="+1F61C">
+<ann>* kidding, not serious</ann>
+</e>
+<e docomo="&gt;E728" glyphRefID="168" google="FE32A" id="32A" img_from="softbank" kddi="&gt;E4E7" name="FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES" oldname="FACE WITH STUCK-OUT TONGUE" softbank="E409" unicode="+1F61D">
 <desc>with eyelids pulled down for additional effect</desc>
+<ann>* kidding, not serious</ann>
 </e>
 <e docomo="E752" glyphRefID="169" google="FE32B" id="32B" img_from="docomo" kddi="&gt;EACD" name="FACE SAVOURING DELICIOUS FOOD" oldname="FACE SAVORING DELICIOUS FOOD" softbank="&gt;E056" unicode="+1F60B">
 <desc>tastes delicious</desc>
 </e>
-<e docomo="&gt;E726" glyphRefID="170" google="FE32C" id="32C" img_from="softbank" kddi="EACF" name="FACE THROWING A KISS" softbank="E418" unicode="+1F60C">
+<e docomo="&gt;E726" glyphRefID="170" google="FE32C" id="32C" img_from="softbank" kddi="EACF" name="FACE THROWING A KISS" softbank="E418" unicode="+1F618">
 <desc>kiss</desc>
 </e>
-<e docomo="&gt;E726" glyphRefID="171" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="FACE KISSING" softbank="E417" unicode="+1F60D">
+<e docomo="&gt;E726" glyphRefID="171" google="FE32D" id="32D" img_from="softbank" kddi="EACE" name="KISSING FACE WITH CLOSED EYES" oldname="FACE KISSING" softbank="E417" unicode="+1F61A">
 <desc>Forms a pair with e-34B. Puckered lips 2 (more forceful kiss, eyes squinting)</desc>
 </e>
-<e glyphRefID="172" google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH MASK" softbank="E40C" text_fallback="[風邪ひき]" unicode="+1F60E">
+<e glyphRefID="172" google="FE32E" id="32E" img_from="softbank" kddi="EAC7" name="FACE WITH MEDICAL MASK" oldname="FACE WITH MASK" softbank="E40C" text_fallback="[風邪ひき]" unicode="+1F637">
 <desc>Under the weather (wearing a breathing mask)</desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="173" google="FE32F" id="32F" img_from="softbank" kddi="EAC8" name="FLUSHED FACE" softbank="E40D" unicode="+1F60F">
+<e docomo="&gt;E72A" glyphRefID="173" google="FE32F" id="32F" img_from="softbank" kddi="EAC8" name="FLUSHED FACE" softbank="E40D" unicode="+1F633">
 <desc>red tinge around eyes</desc>
 </e>
-<e docomo="E6F0" glyphRefID="174" google="FE330" id="330" img_from="softbank" kddi="E471" name="HAPPY FACE WITH OPEN MOUTH" softbank="E057" unicode="+1F610">
+<e docomo="E6F0" glyphRefID="174" google="FE330" id="330" img_from="softbank" kddi="E471" name="SMILING FACE WITH OPEN MOUTH" oldname="HAPPY FACE WITH OPEN MOUTH" softbank="E057" unicode="+1F603">
 <desc>May unify with &#x263A; U+263A WHITE SMILING FACE</desc>
 </e>
-<e docomo="E722" glyphRefID="175" google="FE331" id="331" img_from="docomo" kddi="&gt;E471+E5B1" name="HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT" softbank="&gt;E415+E331" unicode="+1F611">
+<e docomo="E722" glyphRefID="175" google="FE331" id="331" img_from="docomo" kddi="&gt;E471+E5B1" name="SMILING FACE WITH OPEN MOUTH AND COLD SWEAT" oldname="HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT" softbank="&gt;E415+E331" unicode="+1F605">
 <desc>with cold sweat (made it!)</desc>
 </e>
-<e docomo="E72A" glyphRefID="176" google="FE332" id="332" img_from="docomo" kddi="&gt;EAC5" name="HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES" softbank="&gt;E40A" unicode="+1F612">
+<e docomo="E72A" glyphRefID="176" google="FE332" id="332" img_from="docomo" kddi="&gt;EAC5" name="SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES" oldname="HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES" softbank="&gt;E40A" unicode="+1F606">
 <desc>Happy face 3 for DoCoMo</desc>
 </e>
-<e docomo="E753" glyphRefID="177" google="FE333" id="333" img_from="docomo" kddi="EB80" name="HAPPY FACE WITH GRIN" softbank="E404" unicode="+1F613">
+<e docomo="E753" glyphRefID="177" google="FE333" id="333" img_from="docomo" kddi="EB80" name="GRINNING FACE WITH SMILING EYES" oldname="HAPPY FACE WITH GRIN" softbank="E404" unicode="+1F601">
 <desc>Forms a pair with e-349. loudly laughing face with bare teeth</desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="178" google="FE334" id="334" img_from="kddi" kddi="EB64" name="HAPPY AND CRYING FACE" softbank="E412" unicode="+1F614">
+<e docomo="&gt;E72A" glyphRefID="178" google="FE334" id="334" img_from="kddi" kddi="EB64" name="FACE WITH TEARS OF JOY" oldname="HAPPY AND CRYING FACE" softbank="E412" unicode="+1F602">
 <desc>Forms a pair with e-34A. with tears of joy</desc>
 </e>
-<e docomo="&gt;E6F0" glyphRefID="179" google="FE335" id="335" img_from="kddi" kddi="EACD" name="HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS" softbank="E056" unicode="+1F615">
+<e docomo="&gt;E6F0" glyphRefID="179" google="FE335" id="335" img_from="kddi" kddi="EACD" name="SMILING FACE WITH SMILING EYES" oldname="HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS" softbank="E056" unicode="+1F60A">
 <desc>smiling face</desc>
 </e>
 <e docomo="&gt;E6F0" google="FE336" id="336" kddi="E4FB" name="WHITE SMILING FACE" softbank="E414" unicode="263A">
@@ -402,100 +405,102 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="&gt;E6F0" google="FE337" id="337" in_proposal="no" kddi="&gt;EACD" name="HAPPY FACE" softbank="&gt;E056" text_repr="☺">
 <desc>Possibly unify with U+263A WHITE SMILING FACE</desc>
 </e>
-<e docomo="&gt;E6F0" glyphRefID="180" google="FE338" id="338" img_from="softbank" kddi="&gt;E471" name="HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS" softbank="E415" unicode="+1F616">
+<e docomo="&gt;E6F0" glyphRefID="180" google="FE338" id="338" img_from="softbank" kddi="&gt;E471" name="SMILING FACE WITH OPEN MOUTH AND SMILING EYES" oldname="HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS" softbank="E415" unicode="+1F604">
 <desc>with open mouth</desc>
 </e>
-<e docomo="E72E" glyphRefID="181" google="FE339" id="339" img_from="docomo" kddi="EB69" name="CRYING FACE" softbank="E413" unicode="+1F617">
+<e docomo="E72E" glyphRefID="181" google="FE339" id="339" img_from="docomo" kddi="EB69" name="CRYING FACE" softbank="E413" unicode="+1F622">
 <desc>Forms a pair with e-34D. 1 or 2 tear drops</desc>
 </e>
-<e docomo="E72D" glyphRefID="182" google="FE33A" id="33A" img_from="docomo" kddi="E473" name="LOUDLY CRYING FACE" softbank="E411" unicode="+1F618">
+<e docomo="E72D" glyphRefID="182" google="FE33A" id="33A" img_from="docomo" kddi="E473" name="LOUDLY CRYING FACE" softbank="E411" unicode="+1F62D">
 <desc>lots of tears</desc>
 </e>
-<e docomo="&gt;E757" glyphRefID="183" google="FE33B" id="33B" img_from="softbank" kddi="EAC6" name="FEARFUL FACE" softbank="E40B" unicode="+1F619">
+<e docomo="&gt;E757" glyphRefID="183" google="FE33B" id="33B" img_from="softbank" kddi="EAC6" name="FEARFUL FACE" softbank="E40B" unicode="+1F628">
 <desc>Pale in fear</desc>
 </e>
-<e docomo="E72B" glyphRefID="184" google="FE33C" id="33C" img_from="docomo" kddi="EAC2" name="PERSEVERING FACE" softbank="E406" unicode="+1F61A">
+<e docomo="E72B" glyphRefID="184" google="FE33C" id="33C" img_from="docomo" kddi="EAC2" name="PERSEVERING FACE" softbank="E406" unicode="+1F623">
 <desc>failure, disappointment</desc>
 </e>
-<e docomo="E724" glyphRefID="185" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416" unicode="+1F61B">
+<e docomo="E724" glyphRefID="185" google="FE33D" id="33D" img_from="kddi" kddi="EB5D" name="POUTING FACE" softbank="E416" unicode="+1F621">
 <desc>Forms a pair with e-34E.</desc>
 </e>
-<e docomo="E721" glyphRefID="186" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A" unicode="+1F61C"/>
-<e docomo="E6F3" glyphRefID="187" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="CONFOUNDED FACE" softbank="E407" unicode="+1F61D"/>
-<e docomo="E720" glyphRefID="188" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="PENSIVE FACE" softbank="E403" unicode="+1F61E"/>
-<e docomo="E757" glyphRefID="189" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="FACE SCREAMING IN FEAR" softbank="E107" unicode="+1F61F">
+<e docomo="E721" glyphRefID="186" google="FE33E" id="33E" img_from="softbank" kddi="EAC5" name="RELIEVED FACE" softbank="E40A" unicode="+1F60C"/>
+<e docomo="E6F3" glyphRefID="187" google="FE33F" id="33F" img_from="softbank" kddi="EAC3" name="CONFOUNDED FACE" softbank="E407" unicode="+1F616"/>
+<e docomo="E720" glyphRefID="188" google="FE340" id="340" img_from="softbank" kddi="EAC0" name="PENSIVE FACE" softbank="E403" unicode="+1F614"/>
+<e docomo="E757" glyphRefID="189" google="FE341" id="341" img_from="docomo" kddi="E5C5" name="FACE SCREAMING IN FEAR" softbank="E107" unicode="+1F631">
 <desc>Shocking (like Edvard Munch's "The Scream")</desc>
 </e>
-<e docomo="&gt;E701" glyphRefID="190" google="FE342" id="342" img_from="softbank" kddi="EAC4" name="SLEEPY FACE" softbank="E408" unicode="+1F620"/>
-<e docomo="E72C" glyphRefID="191" google="FE343" id="343" img_from="docomo" kddi="EABF" name="SMIRKING FACE" softbank="E402" unicode="+1F621">
+<e docomo="&gt;E701" glyphRefID="190" google="FE342" id="342" img_from="softbank" kddi="EAC4" name="SLEEPY FACE" softbank="E408" unicode="+1F62A"/>
+<e docomo="E72C" glyphRefID="191" google="FE343" id="343" img_from="docomo" kddi="EABF" name="SMIRKING FACE" softbank="E402" unicode="+1F60F">
 <desc>half smile in some cases</desc>
 </e>
-<e docomo="E723" glyphRefID="192" google="FE344" id="344" img_from="kddi" kddi="E5C6" name="FACE WITH COLD SWEAT" softbank="E108" unicode="+1F622">
+<e docomo="E723" glyphRefID="192" google="FE344" id="344" img_from="kddi" kddi="E5C6" name="FACE WITH COLD SWEAT" softbank="E108" unicode="+1F613">
 <desc>with troubled look</desc>
 </e>
-<e docomo="&gt;E723" glyphRefID="193" google="FE345" id="345" img_from="softbank" kddi="&gt;E5C6" name="DISAPPOINTED BUT RELIEVED FACE" softbank="E401" unicode="+1F623"/>
-<e docomo="&gt;E72B" glyphRefID="194" google="FE346" id="346" img_from="kddi" kddi="E474" name="TIRED FACE" softbank="&gt;E406" unicode="+1F624">
+<e docomo="&gt;E723" glyphRefID="193" google="FE345" id="345" img_from="softbank" kddi="&gt;E5C6" name="DISAPPOINTED BUT RELIEVED FACE" softbank="E401" unicode="+1F625"/>
+<e docomo="&gt;E72B" glyphRefID="194" google="FE346" id="346" img_from="kddi" kddi="E474" name="TIRED FACE" softbank="&gt;E406" unicode="+1F62B">
 <desc>Enduring (exhausted) face</desc>
 </e>
-<e docomo="E729" glyphRefID="195" google="FE347" id="347" img_from="docomo" kddi="E5C3" name="WINKING FACE" softbank="E405" unicode="+1F625"/>
+<e docomo="E729" glyphRefID="195" google="FE347" id="347" img_from="docomo" kddi="E5C3" name="WINKING FACE" softbank="E405" unicode="+1F609"/>
 </subcategory>
-<subcategory name="Emoticons with cat faces">
-<e docomo="&gt;E6F0" glyphRefID="196" google="FE348" id="348" img_from="kddi" kddi="EB61" name="CAT FACE WITH OPEN MOUTH" softbank="&gt;E057" unicode="+1F62B">
+<subcategory name="Cat faces">
+<e docomo="&gt;E6F0" glyphRefID="196" google="FE348" id="348" img_from="kddi" kddi="EB61" name="SMILING CAT FACE WITH OPEN MOUTH" oldname="CAT FACE WITH OPEN MOUTH" softbank="&gt;E057" unicode="+1F63A">
 <desc>Happy</desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="197" google="FE349" id="349" img_from="kddi" kddi="EB7F" name="HAPPY CAT FACE WITH GRIN" softbank="&gt;E404" unicode="+1F62C">
+<e docomo="&gt;E753" glyphRefID="197" google="FE349" id="349" img_from="kddi" kddi="EB7F" name="GRINNING CAT FACE WITH SMILING EYES" oldname="HAPPY CAT FACE WITH GRIN" softbank="&gt;E404" unicode="+1F638">
 <desc>Forms a pair with e-333. Hee hee hee</desc>
 </e>
-<e docomo="&gt;E72A" glyphRefID="198" google="FE34A" id="34A" img_from="kddi" kddi="EB63" name="HAPPY AND CRYING CAT FACE" softbank="&gt;E412" unicode="+1F62D">
+<e docomo="&gt;E72A" glyphRefID="198" google="FE34A" id="34A" img_from="kddi" kddi="EB63" name="CAT FACE WITH TEARS OF JOY" oldname="HAPPY AND CRYING CAT FACE" softbank="&gt;E412" unicode="+1F639">
 <desc>Forms a pair with e-334. Tears of joy</desc>
 </e>
-<e docomo="&gt;E726" glyphRefID="199" google="FE34B" id="34B" img_from="kddi" kddi="EB60" name="CAT FACE KISSING" softbank="&gt;E418" unicode="+1F62E">
+<e docomo="&gt;E726" glyphRefID="199" google="FE34B" id="34B" img_from="kddi" kddi="EB60" name="KISSING CAT FACE WITH CLOSED EYES" oldname="CAT FACE KISSING" softbank="&gt;E418" unicode="+1F63D">
 <desc>Forms a pair with e-32D. Kissing action.</desc>
 </e>
-<e docomo="&gt;E726" glyphRefID="200" google="FE34C" id="34C" img_from="kddi" kddi="EB65" name="CAT FACE WITH HEART-SHAPED EYES" oldname="CAT FACE WITH HEART SHAPED EYES" softbank="&gt;E106" unicode="+1F62F">
+<e docomo="&gt;E726" glyphRefID="200" google="FE34C" id="34C" img_from="kddi" kddi="EB65" name="SMILING CAT FACE WITH HEART-SHAPED EYES" oldname="CAT FACE WITH HEART-SHAPED EYES" softbank="&gt;E106" unicode="+1F63B">
 <desc>Forms a pair with e-327. Heart shaped eyes (in love)</desc>
 </e>
-<e docomo="&gt;E72E" glyphRefID="201" google="FE34D" id="34D" img_from="kddi" kddi="EB68" name="CRYING CAT FACE" softbank="&gt;E413" unicode="+1F630">
+<e docomo="&gt;E72E" glyphRefID="201" google="FE34D" id="34D" img_from="kddi" kddi="EB68" name="CRYING CAT FACE" softbank="&gt;E413" unicode="+1F63F">
 <desc>Forms a pair with e-339. Crying (one or two tears)</desc>
 </e>
-<e docomo="&gt;E724" glyphRefID="202" google="FE34E" id="34E" img_from="kddi" kddi="EB5E" name="POUTING CAT FACE" softbank="&gt;E416" unicode="+1F631">
+<e docomo="&gt;E724" glyphRefID="202" google="FE34E" id="34E" img_from="kddi" kddi="EB5E" name="POUTING CAT FACE" softbank="&gt;E416" unicode="+1F63E">
 <desc>Forms a pair with e-33D.</desc>
 </e>
-<e docomo="&gt;E753" glyphRefID="203" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH TIGHTLY-CLOSED LIPS" oldname="CAT FACE WITH TIGHTLY CLOSED LIPS" softbank="&gt;E404" unicode="+1F632">
+<e docomo="&gt;E753" glyphRefID="203" google="FE34F" id="34F" img_from="kddi" kddi="EB6A" name="CAT FACE WITH WRY SMILE" oldname="CAT FACE WITH TIGHTLY-CLOSED LIPS" softbank="&gt;E404" unicode="+1F63C">
 <desc>Smart confidence</desc>
 </e>
-<e docomo="&gt;E6F3" glyphRefID="204" google="FE350" id="350" img_from="kddi" kddi="EB66" name="ANGUISHED CAT FACE" softbank="&gt;E403" unicode="+1F633">
+<e docomo="&gt;E6F3" glyphRefID="204" google="FE350" id="350" img_from="kddi" kddi="EB66" name="WEARY CAT FACE" oldname="ANGUISHED CAT FACE" softbank="&gt;E403" unicode="+1F640">
 <desc>Forms a pair with e-321.</desc>
 </e>
 </subcategory>
 <subcategory name="Gesture symbols">
-<e docomo="&gt;E72F" glyphRefID="205" google="FE351" id="351" img_from="kddi" kddi="EAD7" name="FACE WITH NO GOOD GESTURE" softbank="E423" unicode="+1F634">
+<e docomo="&gt;E72F" glyphRefID="205" google="FE351" id="351" img_from="kddi" kddi="EAD7" name="FACE WITH NO GOOD GESTURE" softbank="E423" unicode="+1F645">
 <desc>No good</desc>
 </e>
-<e docomo="&gt;E70B" glyphRefID="206" google="FE352" id="352" img_from="softbank" kddi="EAD8" name="FACE WITH OK GESTURE" softbank="E424" unicode="+1F635">
+<e docomo="&gt;E70B" glyphRefID="206" google="FE352" id="352" img_from="softbank" kddi="EAD8" name="FACE WITH OK GESTURE" softbank="E424" unicode="+1F646">
 <desc>OK (arms raised, making an "O") . A person or a cat</desc>
 </e>
-<e glyphRefID="207" google="FE353" id="353" img_from="softbank" kddi="EAD9" name="PERSON BOWING DEEPLY" softbank="E426" text_fallback="m(_ _)m" unicode="+1F636">
+<e glyphRefID="207" google="FE353" id="353" img_from="softbank" kddi="EAD9" name="PERSON BOWING DEEPLY" softbank="E426" text_fallback="m(_ _)m" unicode="+1F647">
 <desc>Very truly sorry, a cat or person</desc>
 </e>
-<e glyphRefID="208" google="FE354" id="354" img_from="kddi" kddi="EB50" name="SEE-NO-EVIL MONKEY" oldname="SEE NO EVIL MONKEY" text_fallback="(/_＼)" unicode="+1F637"/>
-<e glyphRefID="209" google="FE355" id="355" img_from="kddi" kddi="EB51" name="SPEAK-NO-EVIL MONKEY" oldname="SPEAK NO EVIL MONKEY" text_fallback="(・×・)" unicode="+1F639"/>
-<e glyphRefID="210" google="FE356" id="356" img_from="kddi" kddi="EB52" name="HEAR-NO-EVIL MONKEY" oldname="HEAR NO EVIL MONKEY" text_fallback="|(・×・)|" unicode="+1F638"/>
-<e glyphRefID="211" google="FE357" id="357" img_from="kddi" kddi="EB85" name="PERSON RAISING ONE HAND" softbank="&gt;E012" text_fallback="(^-^)/" unicode="+1F63A">
+<e glyphRefID="208" google="FE354" id="354" img_from="kddi" kddi="EB50" name="SEE-NO-EVIL MONKEY" oldname="SEE NO EVIL MONKEY" text_fallback="(/_＼)" unicode="+1F648"/>
+<e glyphRefID="209" google="FE355" id="355" img_from="kddi" kddi="EB51" name="SPEAK-NO-EVIL MONKEY" oldname="SPEAK NO EVIL MONKEY" text_fallback="(・×・)" unicode="+1F64A"/>
+<e glyphRefID="210" google="FE356" id="356" img_from="kddi" kddi="EB52" name="HEAR-NO-EVIL MONKEY" oldname="HEAR NO EVIL MONKEY" text_fallback="|(・×・)|" unicode="+1F649"/>
+<e glyphRefID="211" google="FE357" id="357" img_from="kddi" kddi="EB85" name="HAPPY PERSON RAISING ONE HAND" oldname="PERSON RAISING ONE HAND" softbank="&gt;E012" text_fallback="(^-^)/" unicode="+1F64B">
 <desc>act of raising a hand</desc>
 </e>
-<e glyphRefID="212" google="FE358" id="358" img_from="kddi" kddi="EB86" name="PERSON RAISING BOTH HANDS IN CELEBRATION" oldname="PERSON RAISING BOTH HANDS IN CHEERS" softbank="E427" text_fallback="＼(^o^)／" unicode="+1F63B">
+<e glyphRefID="212" google="FE358" id="358" img_from="kddi" kddi="EB86" name="PERSON RAISING BOTH HANDS IN CELEBRATION" oldname="PERSON RAISING BOTH HANDS IN CHEERS" softbank="E427" text_fallback="＼(^o^)／" unicode="+1F64C">
 <desc>banzai, raising both hands</desc>
 <ann>= banzai!</ann>
 </e>
-<e docomo="&gt;E6F3" glyphRefID="213" google="FE359" id="359" img_from="kddi" kddi="EB87" name="PERSON FROWNING" softbank="&gt;E403" unicode="+1F63C">
+<e docomo="&gt;E6F3" glyphRefID="213" google="FE359" id="359" img_from="kddi" kddi="EB87" name="PERSON FROWNING" softbank="&gt;E403" unicode="+1F64D">
 <desc>dejected</desc>
 </e>
-<e docomo="&gt;E6F1" glyphRefID="214" google="FE35A" id="35A" img_from="kddi" kddi="EB88" name="PERSON WITH POUTING FACE" softbank="&gt;E416" unicode="+1F63D">
+<e docomo="&gt;E6F1" glyphRefID="214" google="FE35A" id="35A" img_from="kddi" kddi="EB88" name="PERSON WITH POUTING FACE" softbank="&gt;E416" unicode="+1F64E">
 <desc>cute pouting face</desc>
 </e>
-<e glyphRefID="215" google="FE35B" id="35B" img_from="kddi" kddi="EAD2" name="PERSON WITH FOLDED HANDS" softbank="E41D" text_fallback="(&gt;人&lt;)" unicode="+1F63E">
+<e glyphRefID="215" google="FE35B" id="35B" img_from="kddi" kddi="EAD2" name="PERSON WITH FOLDED HANDS" softbank="E41D" text_fallback="(&gt;人&lt;)" unicode="+1F64F">
 <desc>"Sorry" or "Please"</desc>
+<ann>* can indicate sorrow or regret</ann>
+<ann>* can indicate pleading</ann>
 </e>
 <e google="FE35C" id="35C" img_from="google" in_proposal="no" name="COOL FACE" text_fallback="B-)">
 <desc>"smiley" with sun glasses</desc>

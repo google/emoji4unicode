@@ -150,60 +150,60 @@
 153	E1DE	2	Human/Living Things	Animal faces	DRAGON FACE		
 154	E1DF	2	Human/Living Things	Animal faces	PANDA FACE		
 155	E1E0	2	Human/Living Things	Animal faces	PIG NOSE		
-158	E320	3	Faces and Smiley's	Emoticons	ANGRY FACE		
-159	E321	3	Faces and Smiley's	Emoticons	ANGUISHED FACE	Forms a pair with e-350.	
-160	E322	3	Faces and Smiley's	Emoticons	ASTONISHED FACE	Surprise, astonishment	
-161	E323	3	Faces and Smiley's	Emoticons	DISAPPOINTED FACE		
-162	E324	3	Faces and Smiley's	Emoticons	DIZZY FACE		
-163	E325	3	Faces and Smiley's	Emoticons	EXASPERATED FACE	Exasperated, frustrated, impatient (sweating)	
-164	E326	3	Faces and Smiley's	Emoticons	EXPRESSIONLESS FACE	KDDI has side-look animation	
-165	E327	3	Faces and Smiley's	Emoticons	FACE WITH HEART-SHAPED EYES	Forms a pair with e-34C. used to indicate the state of being in love	
-166	E328	3	Faces and Smiley's	Emoticons	FACE WITH LOOK OF TRIUMPH		
-167	E329	3	Faces and Smiley's	Emoticons	WINKING FACE WITH STUCK-OUT TONGUE		
-168	E32A	3	Faces and Smiley's	Emoticons	FACE WITH STUCK-OUT TONGUE	with eyelids pulled down for additional effect	
-169	E32B	3	Faces and Smiley's	Emoticons	FACE SAVOURING DELICIOUS FOOD	tastes delicious	
-170	E32C	3	Faces and Smiley's	Emoticons	FACE THROWING A KISS	kiss	
-171	E32D	3	Faces and Smiley's	Emoticons	FACE KISSING	Forms a pair with e-34B. Puckered lips 2 (more forceful kiss, eyes squinting)	
-172	E32E	3	Faces and Smiley's	Emoticons	FACE WITH MASK	Under the weather (wearing a breathing mask)	
-173	E32F	3	Faces and Smiley's	Emoticons	FLUSHED FACE	red tinge around eyes	
-174	E330	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH OPEN MOUTH	May unify with ☺ U+263A WHITE SMILING FACE	
-175	E331	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT	with cold sweat (made it!)	
-176	E332	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES	Happy face 3 for DoCoMo	
-177	E333	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH GRIN	Forms a pair with e-349. loudly laughing face with bare teeth	
-178	E334	3	Faces and Smiley's	Emoticons	HAPPY AND CRYING FACE	Forms a pair with e-34A. with tears of joy	
-179	E335	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS	smiling face	
-180	E338	3	Faces and Smiley's	Emoticons	HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS	with open mouth	
-181	E339	3	Faces and Smiley's	Emoticons	CRYING FACE	Forms a pair with e-34D. 1 or 2 tear drops	
-182	E33A	3	Faces and Smiley's	Emoticons	LOUDLY CRYING FACE	lots of tears	
-183	E33B	3	Faces and Smiley's	Emoticons	FEARFUL FACE	Pale in fear	
-184	E33C	3	Faces and Smiley's	Emoticons	PERSEVERING FACE	failure, disappointment	
-185	E33D	3	Faces and Smiley's	Emoticons	POUTING FACE	Forms a pair with e-34E.	
-186	E33E	3	Faces and Smiley's	Emoticons	RELIEVED FACE		
-187	E33F	3	Faces and Smiley's	Emoticons	CONFOUNDED FACE		
-188	E340	3	Faces and Smiley's	Emoticons	PENSIVE FACE		
-189	E341	3	Faces and Smiley's	Emoticons	FACE SCREAMING IN FEAR	Shocking (like Edvard Munch's "The Scream")	
-190	E342	3	Faces and Smiley's	Emoticons	SLEEPY FACE		
-191	E343	3	Faces and Smiley's	Emoticons	SMIRKING FACE	half smile in some cases	
-192	E344	3	Faces and Smiley's	Emoticons	FACE WITH COLD SWEAT	with troubled look	
-193	E345	3	Faces and Smiley's	Emoticons	DISAPPOINTED BUT RELIEVED FACE		
-194	E346	3	Faces and Smiley's	Emoticons	TIRED FACE	Enduring (exhausted) face	
-195	E347	3	Faces and Smiley's	Emoticons	WINKING FACE		
-196	E348	3	Faces and Smiley's	Emoticons with cat faces	CAT FACE WITH OPEN MOUTH	Happy	
-197	E349	3	Faces and Smiley's	Emoticons with cat faces	HAPPY CAT FACE WITH GRIN	Forms a pair with e-333. Hee hee hee	
-198	E34A	3	Faces and Smiley's	Emoticons with cat faces	HAPPY AND CRYING CAT FACE	Forms a pair with e-334. Tears of joy	
-199	E34B	3	Faces and Smiley's	Emoticons with cat faces	CAT FACE KISSING	Forms a pair with e-32D. Kissing action.	
-200	E34C	3	Faces and Smiley's	Emoticons with cat faces	CAT FACE WITH HEART-SHAPED EYES	Forms a pair with e-327. Heart shaped eyes (in love)	
-201	E34D	3	Faces and Smiley's	Emoticons with cat faces	CRYING CAT FACE	Forms a pair with e-339. Crying (one or two tears)	
-202	E34E	3	Faces and Smiley's	Emoticons with cat faces	POUTING CAT FACE	Forms a pair with e-33D.	
-203	E34F	3	Faces and Smiley's	Emoticons with cat faces	CAT FACE WITH TIGHTLY-CLOSED LIPS	Smart confidence	
-204	E350	3	Faces and Smiley's	Emoticons with cat faces	ANGUISHED CAT FACE	Forms a pair with e-321.	
+158	E320	3	Faces and Smiley's	Faces	ANGRY FACE		
+159	E321	3	Faces and Smiley's	Faces	WEARY FACE	Forms a pair with e-350.	
+160	E322	3	Faces and Smiley's	Faces	ASTONISHED FACE	Surprise, astonishment	
+161	E323	3	Faces and Smiley's	Faces	DISAPPOINTED FACE		
+162	E324	3	Faces and Smiley's	Faces	DIZZY FACE		
+163	E325	3	Faces and Smiley's	Faces	FACE WITH OPEN MOUTH AND COLD SWEAT	Exasperated, frustrated, impatient (sweating)	
+164	E326	3	Faces and Smiley's	Faces	UNAMUSED FACE	KDDI has side-look animation	
+165	E327	3	Faces and Smiley's	Faces	SMILING FACE WITH HEART-SHAPED EYES	Forms a pair with e-34C. used to indicate the state of being in love	
+166	E328	3	Faces and Smiley's	Faces	FACE WITH LOOK OF TRIUMPH		
+167	E329	3	Faces and Smiley's	Faces	FACE WITH STUCK-OUT TONGUE AND WINKING EYE		
+168	E32A	3	Faces and Smiley's	Faces	FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES	with eyelids pulled down for additional effect	
+169	E32B	3	Faces and Smiley's	Faces	FACE SAVOURING DELICIOUS FOOD	tastes delicious	
+170	E32C	3	Faces and Smiley's	Faces	FACE THROWING A KISS	kiss	
+171	E32D	3	Faces and Smiley's	Faces	KISSING FACE WITH CLOSED EYES	Forms a pair with e-34B. Puckered lips 2 (more forceful kiss, eyes squinting)	
+172	E32E	3	Faces and Smiley's	Faces	FACE WITH MEDICAL MASK	Under the weather (wearing a breathing mask)	
+173	E32F	3	Faces and Smiley's	Faces	FLUSHED FACE	red tinge around eyes	
+174	E330	3	Faces and Smiley's	Faces	SMILING FACE WITH OPEN MOUTH	May unify with ☺ U+263A WHITE SMILING FACE	
+175	E331	3	Faces and Smiley's	Faces	SMILING FACE WITH OPEN MOUTH AND COLD SWEAT	with cold sweat (made it!)	
+176	E332	3	Faces and Smiley's	Faces	SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES	Happy face 3 for DoCoMo	
+177	E333	3	Faces and Smiley's	Faces	GRINNING FACE WITH SMILING EYES	Forms a pair with e-349. loudly laughing face with bare teeth	
+178	E334	3	Faces and Smiley's	Faces	FACE WITH TEARS OF JOY	Forms a pair with e-34A. with tears of joy	
+179	E335	3	Faces and Smiley's	Faces	SMILING FACE WITH SMILING EYES	smiling face	
+180	E338	3	Faces and Smiley's	Faces	SMILING FACE WITH OPEN MOUTH AND SMILING EYES	with open mouth	
+181	E339	3	Faces and Smiley's	Faces	CRYING FACE	Forms a pair with e-34D. 1 or 2 tear drops	
+182	E33A	3	Faces and Smiley's	Faces	LOUDLY CRYING FACE	lots of tears	
+183	E33B	3	Faces and Smiley's	Faces	FEARFUL FACE	Pale in fear	
+184	E33C	3	Faces and Smiley's	Faces	PERSEVERING FACE	failure, disappointment	
+185	E33D	3	Faces and Smiley's	Faces	POUTING FACE	Forms a pair with e-34E.	
+186	E33E	3	Faces and Smiley's	Faces	RELIEVED FACE		
+187	E33F	3	Faces and Smiley's	Faces	CONFOUNDED FACE		
+188	E340	3	Faces and Smiley's	Faces	PENSIVE FACE		
+189	E341	3	Faces and Smiley's	Faces	FACE SCREAMING IN FEAR	Shocking (like Edvard Munch's "The Scream")	
+190	E342	3	Faces and Smiley's	Faces	SLEEPY FACE		
+191	E343	3	Faces and Smiley's	Faces	SMIRKING FACE	half smile in some cases	
+192	E344	3	Faces and Smiley's	Faces	FACE WITH COLD SWEAT	with troubled look	
+193	E345	3	Faces and Smiley's	Faces	DISAPPOINTED BUT RELIEVED FACE		
+194	E346	3	Faces and Smiley's	Faces	TIRED FACE	Enduring (exhausted) face	
+195	E347	3	Faces and Smiley's	Faces	WINKING FACE		
+196	E348	3	Faces and Smiley's	Cat faces	SMILING CAT FACE WITH OPEN MOUTH	Happy	
+197	E349	3	Faces and Smiley's	Cat faces	GRINNING CAT FACE WITH SMILING EYES	Forms a pair with e-333. Hee hee hee	
+198	E34A	3	Faces and Smiley's	Cat faces	CAT FACE WITH TEARS OF JOY	Forms a pair with e-334. Tears of joy	
+199	E34B	3	Faces and Smiley's	Cat faces	KISSING CAT FACE WITH CLOSED EYES	Forms a pair with e-32D. Kissing action.	
+200	E34C	3	Faces and Smiley's	Cat faces	SMILING CAT FACE WITH HEART-SHAPED EYES	Forms a pair with e-327. Heart shaped eyes (in love)	
+201	E34D	3	Faces and Smiley's	Cat faces	CRYING CAT FACE	Forms a pair with e-339. Crying (one or two tears)	
+202	E34E	3	Faces and Smiley's	Cat faces	POUTING CAT FACE	Forms a pair with e-33D.	
+203	E34F	3	Faces and Smiley's	Cat faces	CAT FACE WITH WRY SMILE	Smart confidence	
+204	E350	3	Faces and Smiley's	Cat faces	WEARY CAT FACE	Forms a pair with e-321.	
 205	E351	3	Faces and Smiley's	Gesture symbols	FACE WITH NO GOOD GESTURE	No good	
 206	E352	3	Faces and Smiley's	Gesture symbols	FACE WITH OK GESTURE	OK (arms raised, making an "O") . A person or a cat	
 207	E353	3	Faces and Smiley's	Gesture symbols	PERSON BOWING DEEPLY	Very truly sorry, a cat or person	
 208	E354	3	Faces and Smiley's	Gesture symbols	SEE-NO-EVIL MONKEY		
 209	E355	3	Faces and Smiley's	Gesture symbols	SPEAK-NO-EVIL MONKEY		
 210	E356	3	Faces and Smiley's	Gesture symbols	HEAR-NO-EVIL MONKEY		
-211	E357	3	Faces and Smiley's	Gesture symbols	PERSON RAISING ONE HAND	act of raising a hand	
+211	E357	3	Faces and Smiley's	Gesture symbols	HAPPY PERSON RAISING ONE HAND	act of raising a hand	
 212	E358	3	Faces and Smiley's	Gesture symbols	PERSON RAISING BOTH HANDS IN CELEBRATION	banzai, raising both hands	
 213	E359	3	Faces and Smiley's	Gesture symbols	PERSON FROWNING	dejected	
 214	E35A	3	Faces and Smiley's	Gesture symbols	PERSON WITH POUTING FACE	cute pouting face	

@@ -168,9 +168,9 @@ u"""
   Date: """ + _date + u"<br>" +
 _AUTHORS +
 u"""</p>
-<p>This document reflects proposed Emoji symbols data as shown in FPDAM8
-  which includes the disposition of PDAM8 ballot comments and
-  changes agreed during the Tokyo WG2 meeting.</p>
+<p>This document reflects proposed Emoji symbols data as shown in FDAM8
+  which includes the disposition of FPDAM8 ballot comments and
+  changes agreed during the San Jos&eacute; WG2 meeting 56.</p>
 <p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
 <p>See the <a href="#legend">chart legend</a>

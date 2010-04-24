@@ -47,6 +47,7 @@ _BLOCK_HEADINGS = {
 ;; UTC: 2009-05-15 sync with Wg2 content, added Pentagrams
 ;; WG2: 2009-04-24
 ;; WG2: 2009-10-28 add 26E7
+;; WG2: 2010-04-22 remove A78F
 ;; contact: Markus Scherer, German NB, Azzeddine Lazrek
 ;; document: N3582, N3583, L2/09-026, L2/09-021, L2/09-185R2
 ;; font: Uni2600Miscsymbols
@@ -120,12 +121,13 @@ _BLOCK_HEADINGS = {
 ;; target: Amd8
 
 """,
-  0x1F600: """
+  0x1F601: """
 @@\t1F600\tEmoticons\t1F64F
 ;; UTC: 2009-02-06 (original Emoji)
 ;; UTC: 2009-05-15 sync with WG2
 ;; WG2: 2009-04-24
 ;; WG2: 2009-10-28 after ballot
+;; WG2: 2009-04-22 rearranged, 1F610 added
 ;; contact: Markus Scherer, Michael Everson
 ;; document: N3582, N3583, L2/09-026
 ;; font: Uni1F600Emoticons
