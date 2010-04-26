@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-04-24
+@@@+	2010-04-26
 
 @@	2300	Miscellaneous Technical	23FF
 ;; UTC: 2009-02-06
@@ -89,7 +89,6 @@
 2755	WHITE EXCLAMATION MARK ORNAMENT
 	x (heavy exclamation mark ornament - 2762)
 	x (heavy exclamation mark symbol - 2757)
-	x (traffic warning - 26CE)
 ;	= e-B0B
 
 @		Arithmetic symbols
