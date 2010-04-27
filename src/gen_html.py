@@ -26,6 +26,7 @@ import datetime
 import sys
 import emoji4unicode
 import translit
+import unicode_age
 import utf
 
 # Flags from command-line options.
@@ -455,7 +456,12 @@ def _RepresentationHTML(e4u_symbol):
       repr = font_img + u"<br>U+" + uni.replace("+", " U+")
     else:
       repr = _UnicodeHTML(uni, u"unified")
-    return repr + u"<br><span class='status'>unified</span>"
+    age = unicode_age.GetAge(uni)
+    if age:
+      return (repr + u"<br><span class='status'>unified (Unicode&nbsp;" + age +
+                     u")</span>")
+    else:
+      return repr + u"<br><span class='status'>unified</span>"
   img = e4u_symbol.ImageHTML()
   font_uni = e4u_symbol.GetFontUnicode()
   font_img = u"<img src='../fontimg/AEmoji_%s.png' class='fontimg'>" % font_uni
@@ -639,6 +645,7 @@ def main():
       _no_symbol_numbers = True
       _show_font_chars = True
   emoji4unicode.Load()
+  unicode_age.Load()
   writer = codecs.getwriter("UTF-8")(sys.stdout)
   if _emoji_data:
     _WriteEmojiDataHTML(writer)
