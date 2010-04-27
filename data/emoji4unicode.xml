@@ -12,7 +12,7 @@ Both of them are the work of the people listed above. -->
 </e>
 <e docomo="E63F" google="FE001" id="001" kddi="E48D" name="CLOUD" softbank="E049" unicode="2601"/>
 <e docomo="E640" google="FE002" id="002" kddi="E48C" name="UMBRELLA WITH RAIN DROPS" softbank="E04B" unicode="2614"/>
-<e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN WITHOUT SNOW" softbank="E048" unicode="*26C4"/>
+<e docomo="E641" google="FE003" id="003" kddi="E485" name="SNOWMAN WITHOUT SNOW" softbank="E048" unicode="26C4"/>
 <e docomo="E642" google="FE004" id="004" kddi="E487" name="HIGH VOLTAGE SIGN" softbank="E13D" unicode="26A1">
 <desc>
 Unified with ARIB-9385=&#x26A1; U+26A1 HIGH VOLTAGE SIGN following the pattern established by ARIB-9385
@@ -37,7 +37,7 @@ where the proposal says "different meaning but similar glyph"; see also &#x2607;
 <e docomo="&gt;E63E" glyphRefID="11" google="FE00C" id="00C" img_from="softbank" kddi="&gt;E5DA" name="SUNSET OVER BUILDINGS" softbank="E44A" unicode="+1F307"/>
 <e glyphRefID="12" google="FE00D" id="00D" img_from="kddi" kddi="EAF2" name="RAINBOW" softbank="E44C" text_fallback="[虹]" unicode="+1F308"/>
 <e google="FE00E" id="00E" kddi="E48A" name="SNOWFLAKE" text_fallback="[雪結晶]" unicode="2744"/>
-<e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="SUN BEHIND CLOUD" softbank="&gt;E04A+E049" unicode="*26C5"/>
+<e docomo="&gt;E63E+E63F" google="FE00F" id="00F" img_from="kddi" kddi="E48E" name="SUN BEHIND CLOUD" softbank="&gt;E04A+E049" unicode="26C5"/>
 <e docomo="&gt;E6B3" glyphRefID="13" google="FE010" id="010" img_from="kddi" kddi="E4BF" name="BRIDGE AT NIGHT" softbank="&gt;E44B" unicode="+1F309"/>
 <e docomo="E73F" glyphRefID="39" google="FE038" id="038" img_from="kddi" kddi="EB7C" name="WATER WAVE" softbank="E43E" unicode="+1F30A"/>
 <e glyphRefID="41" google="FE03A" id="03A" img_from="kddi" kddi="EB53" name="VOLCANO" text_fallback="[火山]" unicode="+1F30B"/>
@@ -574,8 +574,8 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e docomo="E73E" glyphRefID="225" google="FE4BA" id="4BA" img_from="docomo" kddi="EA80" name="SCHOOL" softbank="E157" unicode="+1F3EB">
 <desc>related to U+3246 = ARIB-9110</desc>
 </e>
-<e glyphRefID="226" google="FE4BB" id="4BB" img_from="softbank" kddi="E5BB" name="CHURCH" softbank="E037" text_fallback="[教会]" unicode="*26EA"/>
-<e glyphRefID="227" google="FE4BC" id="4BC" kddi="E5CF" name="FOUNTAIN" softbank="E121" text_fallback="[噴水]" unicode="*26F2"/>
+<e glyphRefID="226" google="FE4BB" id="4BB" img_from="softbank" kddi="E5BB" name="CHURCH" softbank="E037" text_fallback="[教会]" unicode="26EA"/>
+<e glyphRefID="227" google="FE4BC" id="4BC" kddi="E5CF" name="FOUNTAIN" softbank="E121" text_fallback="[噴水]" unicode="26F2"/>
 <e glyphRefID="228" google="FE4BD" id="4BD" img_from="kddi" kddi="EAF6" name="DEPARTMENT STORE" softbank="E504" text_fallback="[デパート]" unicode="+1F3EC"/>
 <e glyphRefID="229" google="FE4BE" id="4BE" img_from="kddi" kddi="EAF7" name="JAPANESE CASTLE" softbank="E505" text_fallback="[城]" unicode="+1F3EF"/>
 <e glyphRefID="230" google="FE4BF" id="4BF" img_from="kddi" kddi="EAF8" name="EUROPEAN CASTLE" oldname="WESTERN CASTLE" softbank="E506" text_fallback="[城]" unicode="+1F3F0"/>
@@ -967,15 +967,15 @@ disunified from U+26E8 (ARIB-9109: BLACK CROSS ON SHIELD) because all 3 carriers
 <e docomo="E652" glyphRefID="377" google="FE7D0" id="7D0" img_from="docomo" name="RUNNING SHIRT WITH SASH" unicode="+1F3BD">
 <desc>any sports; a sash across a running shirt to identify runner's number and team</desc>
 </e>
-<e docomo="E653" google="FE7D1" id="7D1" img_from="docomo" kddi="E4BA" name="BASEBALL" softbank="E016" unicode="*26BE"/>
-<e docomo="E654" glyphRefID="378" google="FE7D2" id="7D2" img_from="kddi" kddi="E599" name="FLAG IN HOLE" softbank="E014" unicode="*26F3">
-<desc>Unified with U+26F3 = ARIB-9126; Amd 6 and Unicode 5.2. Golf (DoCoMo is golf club, others are the green and flag).</desc>
+<e docomo="E653" google="FE7D1" id="7D1" img_from="docomo" kddi="E4BA" name="BASEBALL" softbank="E016" unicode="26BE"/>
+<e docomo="E654" glyphRefID="378" google="FE7D2" id="7D2" img_from="kddi" kddi="E599" name="FLAG IN HOLE" softbank="E014" unicode="26F3">
+<desc>Unified with U+26F3 = ARIB-9126. Golf (DoCoMo is golf club, others are the green and flag).</desc>
 </e>
 <e docomo="E655" glyphRefID="379" google="FE7D3" id="7D3" img_from="docomo" kddi="E4B7" name="TENNIS RACQUET AND BALL" oldname="TENNIS" softbank="E015" unicode="+1F3BE">
 <desc>racket and ball, or player</desc>
 <ann>= tennis</ann>
 </e>
-<e docomo="E656" google="FE7D4" id="7D4" img_from="docomo" kddi="E4B6" name="SOCCER BALL" softbank="E018" unicode="*26BD">
+<e docomo="E656" google="FE7D4" id="7D4" img_from="docomo" kddi="E4B6" name="SOCCER BALL" softbank="E018" unicode="26BD">
 <desc>soccer ball, or player</desc>
 </e>
 <e docomo="E657" glyphRefID="622" google="FE7D5" id="7D5" img_from="kddi" kddi="EAAC" name="SKI AND SKI BOOT" oldname="SKIING" softbank="E013" unicode="+1F3BF">
@@ -1043,7 +1043,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>x (ferry - 26F4)</ann>
 </e>
 <e docomo="E662" google="FE7E9" id="7E9" kddi="E4B3" name="AIRPLANE" softbank="E01D" unicode="2708"/>
-<e docomo="E6A3" google="FE7EA" id="7EA" img_from="docomo" kddi="E4B4" name="SAILBOAT" softbank="E01C" unicode="*26F5"/>
+<e docomo="E6A3" google="FE7EA" id="7EA" img_from="docomo" kddi="E4B4" name="SAILBOAT" softbank="E01C" unicode="26F5"/>
 <e glyphRefID="400" google="FE7EC" id="7EC" img_from="kddi" kddi="EB6D" name="STATION" softbank="E039" text_fallback="[駅]" unicode="+1F689">
 <ann>= train, subway station</ann>
 </e>
@@ -1060,8 +1060,8 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e glyphRefID="408" google="FE7F4" id="7F4" img_from="kddi" kddi="EAE1" name="POLICE CAR" oldname="POLICE CAR-1" softbank="E432" text_fallback="[パトカー]" unicode="+1F693"/>
 </subcategory>
 <subcategory name="Driving">
-<e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="FUEL PUMP" softbank="E03A" unicode="*26FD"/>
-<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="NEGATIVE SQUARED LATIN CAPITAL LETTER P" softbank="E14F" unicode="*1F17F">
+<e docomo="E66B" glyphRefID="409" google="FE7F5" id="7F5" img_from="kddi" kddi="E571" name="FUEL PUMP" softbank="E03A" unicode="26FD"/>
+<e docomo="E66C" glyphRefID="410" google="FE7F6" id="7F6" img_from="kddi" kddi="E4A6" name="NEGATIVE SQUARED LATIN CAPITAL LETTER P" softbank="E14F" unicode="1F17F">
 <desc>"P" sign</desc>
 </e>
 </subcategory>
@@ -1076,7 +1076,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <e docomo="E6F7" google="FE7FA" id="7FA" kddi="E4BC" name="HOT SPRINGS" softbank="E123" unicode="2668">
 <desc>onsen</desc>
 </e>
-<e glyphRefID="414" google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="TENT" softbank="E122" text_fallback="[キャンプ]" unicode="*26FA">
+<e glyphRefID="414" google="FE7FB" id="7FB" img_from="kddi" kddi="E5D0" name="TENT" softbank="E122" text_fallback="[キャンプ]" unicode="26FA">
 <desc>camp</desc>
 </e>
 <e docomo="E679" glyphRefID="415" google="FE7FC" id="7FC" img_from="docomo" name="CAROUSEL HORSE" unicode="+1F3A0">
@@ -1410,7 +1410,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 </subcategory>
 <subcategory name="Miscellaneous">
-<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="*2B55">
+<e docomo="&gt;E6A0" google="FEB44" id="B44" kddi="EAAD" name="HEAVY LARGE CIRCLE" softbank="E332" unicode="2B55">
 <desc>good; OK, approved; O in tic tac toe; disunified from &#x25CB; U+25CB WHITE CIRCLE because of Shift-JIS source separation</desc>
 <ann>* forms a pair with CROSS MARK</ann>
 <ann>* also used to mean good, correct or approved</ann>
@@ -1623,7 +1623,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>x (circled ideograph have - 3292)</ann>
 <ann># &lt;square&gt; 6709</ann>
 </e>
-<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="*1F21A">
+<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="1F21A">
 <desc>無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free</desc>
 <ann>= non-existence sign</ann>
 <ann># &lt;square&gt; 7121</ann>
@@ -1644,7 +1644,7 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>= discount sign</ann>
 <ann># &lt;square&gt; 5272</ann>
 </e>
-<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="*1F22F">
+<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="1F22F">
 <desc>指: IDEOGRAPH POINTING; reserved, designated 指定</desc>
 <ann>= reserved sign</ann>
 <ann>"reserved" in trains, theaters, etc.</ann>
