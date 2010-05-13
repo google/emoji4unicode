@@ -5,7 +5,7 @@
 # which includes the disposition of FPDAM8 ballot comments and
 # changes agreed during the San Jose WG2 meeting 56.
 #
-# Date: 2010-04-24
+# Date: 2010-05-13
 # Author: Markus Scherer
 #
 # This file provides mappings between UCS code points and sequences on one hand

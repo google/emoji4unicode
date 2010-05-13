@@ -1,17 +1,17 @@
-4	E005	1	Nature	Weather and landscape symbols	CYCLONE		
-5	E006	1	Nature	Weather and landscape symbols	FOGGY		
-6	E007	1	Nature	Weather and landscape symbols	CLOSED UMBRELLA		
-7	E008	1	Nature	Weather and landscape symbols	NIGHT WITH STARS		
-8	E009	1	Nature	Weather and landscape symbols	SUNRISE OVER MOUNTAINS	Softbank sunrise 1	
-9	E00A	1	Nature	Weather and landscape symbols	SUNRISE	Sunrise over horizon (Softbank sunrise 2)	
-10	E00B	1	Nature	Weather and landscape symbols	CITYSCAPE AT DUSK		
-11	E00C	1	Nature	Weather and landscape symbols	SUNSET OVER BUILDINGS		
-12	E00D	1	Nature	Weather and landscape symbols	RAINBOW		
-13	E010	1	Nature	Weather and landscape symbols	BRIDGE AT NIGHT		
-39	E038	1	Nature	Weather and landscape symbols	WATER WAVE		
-41	E03A	1	Nature	Weather and landscape symbols	VOLCANO		
-42	E03B	1	Nature	Astronomical symbols	MILKY WAY		
-40	E039	1	Nature	Astronomical symbols	EARTH GLOBE ASIA-AUSTRALIA		
+4	E005	1	Nature	Weather, landscape, and sky symbols	CYCLONE		
+5	E006	1	Nature	Weather, landscape, and sky symbols	FOGGY		
+6	E007	1	Nature	Weather, landscape, and sky symbols	CLOSED UMBRELLA		
+7	E008	1	Nature	Weather, landscape, and sky symbols	NIGHT WITH STARS		
+8	E009	1	Nature	Weather, landscape, and sky symbols	SUNRISE OVER MOUNTAINS	Softbank sunrise 1	
+9	E00A	1	Nature	Weather, landscape, and sky symbols	SUNRISE	Sunrise over horizon (Softbank sunrise 2)	
+10	E00B	1	Nature	Weather, landscape, and sky symbols	CITYSCAPE AT DUSK		
+11	E00C	1	Nature	Weather, landscape, and sky symbols	SUNSET OVER BUILDINGS		
+12	E00D	1	Nature	Weather, landscape, and sky symbols	RAINBOW		
+13	E010	1	Nature	Weather, landscape, and sky symbols	BRIDGE AT NIGHT		
+39	E038	1	Nature	Weather, landscape, and sky symbols	WATER WAVE		
+41	E03A	1	Nature	Weather, landscape, and sky symbols	VOLCANO		
+42	E03B	1	Nature	Weather, landscape, and sky symbols	MILKY WAY		
+40	E039	1	Nature	Globe symbols	EARTH GLOBE ASIA-AUSTRALIA		
 14	E011	1	Nature	Moon, sun, and star symbols	NEW MOON SYMBOL		
 15	E012	1	Nature	Moon, sun, and star symbols	WAXING GIBBOUS MOON SYMBOL		
 16	E013	1	Nature	Moon, sun, and star symbols	FIRST QUARTER MOON SYMBOL		
@@ -20,18 +20,18 @@
 19	E016	1	Nature	Moon, sun, and star symbols	FIRST QUARTER MOON WITH FACE	(KDDI's with face)	
 585	EB69	1	Nature	Moon, sun, and star symbols	GLOWING STAR	Animated pulsating star in orange color	
 586	EB6A	1	Nature	Moon, sun, and star symbols	SHOOTING STAR	Animated glowing star in blue color	
-25	E01E	1	Nature	User interface symbols	CLOCK FACE ONE OCLOCK		
-26	E01F	1	Nature	User interface symbols	CLOCK FACE TWO OCLOCK		
-27	E020	1	Nature	User interface symbols	CLOCK FACE THREE OCLOCK		
-28	E021	1	Nature	User interface symbols	CLOCK FACE FOUR OCLOCK		
-29	E022	1	Nature	User interface symbols	CLOCK FACE FIVE OCLOCK		
-30	E023	1	Nature	User interface symbols	CLOCK FACE SIX OCLOCK		
-31	E024	1	Nature	User interface symbols	CLOCK FACE SEVEN OCLOCK		
-32	E025	1	Nature	User interface symbols	CLOCK FACE EIGHT OCLOCK		
-33	E026	1	Nature	User interface symbols	CLOCK FACE NINE OCLOCK		
-34	E027	1	Nature	User interface symbols	CLOCK FACE TEN OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
-35	E028	1	Nature	User interface symbols	CLOCK FACE ELEVEN OCLOCK		
-36	E029	1	Nature	User interface symbols	CLOCK FACE TWELVE OCLOCK		
+25	E01E	1	Nature	Clock face symbols	CLOCK FACE ONE OCLOCK		
+26	E01F	1	Nature	Clock face symbols	CLOCK FACE TWO OCLOCK		
+27	E020	1	Nature	Clock face symbols	CLOCK FACE THREE OCLOCK		
+28	E021	1	Nature	Clock face symbols	CLOCK FACE FOUR OCLOCK		
+29	E022	1	Nature	Clock face symbols	CLOCK FACE FIVE OCLOCK		
+30	E023	1	Nature	Clock face symbols	CLOCK FACE SIX OCLOCK		
+31	E024	1	Nature	Clock face symbols	CLOCK FACE SEVEN OCLOCK		
+32	E025	1	Nature	Clock face symbols	CLOCK FACE EIGHT OCLOCK		
+33	E026	1	Nature	Clock face symbols	CLOCK FACE NINE OCLOCK		
+34	E027	1	Nature	Clock face symbols	CLOCK FACE TEN OCLOCK		For the representative font, make it look like the rest of the SB clock series rather than making it look like the new alarm clock Emoji.
+35	E028	1	Nature	Clock face symbols	CLOCK FACE ELEVEN OCLOCK		
+36	E029	1	Nature	Clock face symbols	CLOCK FACE TWELVE OCLOCK		
 37	E02A	1	Nature	User interface symbols	ALARM CLOCK	a general clock symbol	Make the glyph look like an alarm clock.
 24	E01B	1	Nature	User interface symbols	HOURGLASS WITH FLOWING SAND	Sometimes animated as by KDDI/AU. Might be allocated in the U+23xx Miscellaneous Technical block with U+231B HOURGLASS=e-01C.	
 38	E037	1	Nature	Zodiacal symbol	OPHIUCHUS	letter symbol /Serpentarius (13th zodiacal symbol, not counted as astrological sign)	
@@ -53,19 +53,19 @@
 59	E04C	1	Nature	Plant symbols	CHESTNUT		
 60	E04D	1	Nature	Plant symbols	BLOSSOM		
 61	E04E	1	Nature	Plant symbols	HERB		
-62	E04F	1	Nature	Fruit symbols	CHERRIES		
-63	E050	1	Nature	Fruit symbols	BANANA		
-64	E051	1	Nature	Fruit symbols	RED APPLE	Usually in red color	
-65	E052	1	Nature	Fruit symbols	TANGERINE	Mikan, Orange	
-66	E053	1	Nature	Fruit symbols	STRAWBERRY		
-67	E054	1	Nature	Fruit symbols	WATERMELON		
-68	E055	1	Nature	Fruit symbols	TOMATO		
-69	E056	1	Nature	Fruit symbols	AUBERGINE		
-70	E057	1	Nature	Fruit symbols	MELON	also honeydew melon	
-71	E058	1	Nature	Fruit symbols	PINEAPPLE		
-72	E059	1	Nature	Fruit symbols	GRAPES		
-73	E05A	1	Nature	Fruit symbols	PEACH		
-74	E05B	1	Nature	Fruit symbols	GREEN APPLE	Usually in green color	
+62	E04F	1	Nature	Fruit and vegetable symbols	CHERRIES		
+63	E050	1	Nature	Fruit and vegetable symbols	BANANA		
+64	E051	1	Nature	Fruit and vegetable symbols	RED APPLE	Usually in red color	
+65	E052	1	Nature	Fruit and vegetable symbols	TANGERINE	Mikan, Orange	
+66	E053	1	Nature	Fruit and vegetable symbols	STRAWBERRY		
+67	E054	1	Nature	Fruit and vegetable symbols	WATERMELON		
+68	E055	1	Nature	Fruit and vegetable symbols	TOMATO		
+69	E056	1	Nature	Fruit and vegetable symbols	AUBERGINE		
+70	E057	1	Nature	Fruit and vegetable symbols	MELON	also honeydew melon	
+71	E058	1	Nature	Fruit and vegetable symbols	PINEAPPLE		
+72	E059	1	Nature	Fruit and vegetable symbols	GRAPES		
+73	E05A	1	Nature	Fruit and vegetable symbols	PEACH		
+74	E05B	1	Nature	Fruit and vegetable symbols	GREEN APPLE	Usually in green color	
 75	E190	2	Human/Living Things	Facial parts symbols	EYES		
 76	E191	2	Human/Living Things	Facial parts symbols	EAR		
 77	E192	2	Human/Living Things	Facial parts symbols	NOSE		
@@ -219,13 +219,13 @@
 223	E4B8	4	Artifacts	Building and map symbols	LOVE HOTEL	Note: usually Japanese love hotel	
 224	E4B9	4	Artifacts	Building and map symbols	CONVENIENCE STORE	Convenience Store (stylized "24" to indicate 24 hours)	
 225	E4BA	4	Artifacts	Building and map symbols	SCHOOL	related to U+3246 = ARIB-9110	
-226	E4BB	4	Artifacts	Building and map symbols	CHURCH		**Symbol no longer proposed for new encoding**
-227	E4BC	4	Artifacts	Building and map symbols	FOUNTAIN		**Symbol no longer proposed for new encoding**
 228	E4BD	4	Artifacts	Building and map symbols	DEPARTMENT STORE		
 229	E4BE	4	Artifacts	Building and map symbols	JAPANESE CASTLE		
 230	E4BF	4	Artifacts	Building and map symbols	EUROPEAN CASTLE		
 231	E4C0	4	Artifacts	Building and map symbols	FACTORY		
 232	E4C2	4	Artifacts	Building and map symbols	IZAKAYA LANTERN	Japanese izakaya restaurant for drinking, characteristic red lantern	
+226	E4BB	4	Artifacts	Map symbols from ARIB STD B24	CHURCH		**Symbol no longer proposed for new encoding**
+227	E4BC	4	Artifacts	Map symbols from ARIB STD B24	FOUNTAIN		**Symbol no longer proposed for new encoding**
 233	E4C3	4	Artifacts	Cultural symbols	MOUNT FUJI		
 234	E4C4	4	Artifacts	Cultural symbols	TOKYO TOWER		
 235	E4C6	4	Artifacts	Cultural symbols	STATUE OF LIBERTY		
@@ -311,6 +311,7 @@
 305	E50C	4	Artifacts	White on black squared Latin letters	NEGATIVE SQUARED LATIN CAPITAL LETTER B		
 306	E50D	4	Artifacts	White on black squared Latin letters	NEGATIVE SQUARED AB		
 307	E50E	4	Artifacts	White on black squared Latin letters	NEGATIVE SQUARED LATIN CAPITAL LETTER O		
+410	E7F6	4	Artifacts	White on black squared Latin letters	NEGATIVE SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
 308	E50F	4	Artifacts	Celebration symbols	RIBBON		
 309	E510	4	Artifacts	Celebration symbols	WRAPPED PRESENT		
 310	E511	4	Artifacts	Celebration symbols	BIRTHDAY CAKE	birthday	
@@ -350,11 +351,11 @@
 343	E534	4	Artifacts	Communication symbols	INBOX TRAY		
 344	E535	4	Artifacts	Communication symbols	PACKAGE		
 607	EB92	4	Artifacts	Communication symbols	E-MAIL SYMBOL	Email (Envelope with "E")	
-345	EB7C	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN CAPITAL LETTERS	Letters (ABCD, uppercase)	
-346	EB7D	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN SMALL LETTERS	Letters (abcd, lowercase)	
-347	EB7E	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR NUMBERS	Numbers (1234)	
-348	EB7F	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR SYMBOLS	Symbols (〒, ♪, @, %)	
-349	EB80	4	Artifacts	UI input status symbols	INPUT SYMBOL FOR LATIN LETTERS	English (ABC)	
+345	EB7C	4	Artifacts	User interface input status symbols	INPUT SYMBOL FOR LATIN CAPITAL LETTERS	Letters (ABCD, uppercase)	
+346	EB7D	4	Artifacts	User interface input status symbols	INPUT SYMBOL FOR LATIN SMALL LETTERS	Letters (abcd, lowercase)	
+347	EB7E	4	Artifacts	User interface input status symbols	INPUT SYMBOL FOR NUMBERS	Numbers (1234)	
+348	EB7F	4	Artifacts	User interface input status symbols	INPUT SYMBOL FOR SYMBOLS	Symbols (〒, ♪, @, %)	
+349	EB80	4	Artifacts	User interface input status symbols	INPUT SYMBOL FOR LATIN LETTERS	English (ABC)	
 350	E537	4	Artifacts	Office symbols	SEAT		the glyph should look more like SoftBank #264
 351	E538	4	Artifacts	Office symbols	PERSONAL COMPUTER		
 352	E53A	4	Artifacts	Office symbols	PAPERCLIP		
@@ -390,8 +391,10 @@
 373	E550	4	Artifacts	Office symbols	STRAIGHT RULER		
 374	E551	4	Artifacts	Office symbols	TRIANGULAR RULER		
 375	E552	4	Artifacts	Office symbols	BOOKMARK TABS		
+378	E7D2	5	Activities/Work/Entertainment	Map symbols from ARIB STD B24	FLAG IN HOLE	Unified with U+26F3 = ARIB-9126. Golf (DoCoMo is golf club, others are the green and flag).	**Symbol no longer proposed for new encoding**
+414	E7FB	5	Activities/Work/Entertainment	Map symbols from ARIB STD B24	TENT	camp	**Symbol no longer proposed for new encoding**
+409	E7F5	5	Activities/Work/Entertainment	Map symbols from ARIB STD B24	FUEL PUMP		**Symbol no longer proposed for new encoding**
 377	E7D0	5	Activities/Work/Entertainment	Sport symbols	RUNNING SHIRT WITH SASH	any sports; a sash across a running shirt to identify runner's number and team	
-378	E7D2	5	Activities/Work/Entertainment	Sport symbols	FLAG IN HOLE	Unified with U+26F3 = ARIB-9126. Golf (DoCoMo is golf club, others are the green and flag).	**Symbol no longer proposed for new encoding**
 379	E7D3	5	Activities/Work/Entertainment	Sport symbols	TENNIS RACQUET AND BALL	racket and ball, or player	
 622	E7D5	5	Activities/Work/Entertainment	Sport symbols	SKI AND SKI BOOT	ski and boots, or ski and poles. disunified from U+26F7 (ARIB-9138: SKIER) because U+26F7 is a person on a ski while all 3 carriers have a boot on a ski.	
 380	E7D6	5	Activities/Work/Entertainment	Sport symbols	BASKETBALL AND HOOP	ball and hoop	
@@ -402,9 +405,9 @@
 385	E7DB	5	Activities/Work/Entertainment	Sport symbols	TROPHY	a gold cup	
 387	E7DD	5	Activities/Work/Entertainment	Sport symbols	AMERICAN FOOTBALL		
 388	E7DE	5	Activities/Work/Entertainment	Sport symbols	SWIMMER	swimming	
+391	E7E1	5	Activities/Work/Entertainment	Circled Latin letters	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 389	E7DF	5	Activities/Work/Entertainment	Vehicles	RAILWAY CAR		
 390	E7E0	5	Activities/Work/Entertainment	Vehicles	METRO	(DoCoMo's is an "M" for metro)	
-391	E7E1	5	Activities/Work/Entertainment	Vehicles	CIRCLED LATIN CAPITAL LETTER M	Disunified from SUBWAY symbols from KDDI and Softbank. Was originally proposed as a new "METRO SIGN" symbol but then unified with Ⓜ U+24C2 CIRCLED LATIN CAPITAL LETTER M because several variants of a stylized "M" are found for different Metro systems, including a circled M. (Project issue 92.)	**Symbol no longer proposed for new encoding**
 392	E7E2	5	Activities/Work/Entertainment	Vehicles	HIGH-SPEED TRAIN		
 393	E7E3	5	Activities/Work/Entertainment	Vehicles	HIGH-SPEED TRAIN WITH BULLET NOSE	front facing for SoftBank, used in different phone sets; old-style Japanese high-speed train; Wikipedia/Shinkansen: "The first Shinkansen trains, the 0 series [...]. The last of these trains, with their classic bullet-nosed appearance, were retired on 30 November 2008."	
 394	E7E4	5	Activities/Work/Entertainment	Vehicles	AUTOMOBILE	sedan	
@@ -420,12 +423,9 @@
 406	E7F2	5	Activities/Work/Entertainment	Vehicles	FIRE ENGINE		
 407	E7F3	5	Activities/Work/Entertainment	Vehicles	AMBULANCE		
 408	E7F4	5	Activities/Work/Entertainment	Vehicles	POLICE CAR		
-409	E7F5	5	Activities/Work/Entertainment	Driving	FUEL PUMP		**Symbol no longer proposed for new encoding**
-410	E7F6	5	Activities/Work/Entertainment	Driving	NEGATIVE SQUARED LATIN CAPITAL LETTER P	"P" sign	**Symbol no longer proposed for new encoding**
 411	E7F7	5	Activities/Work/Entertainment	Traffic signs	HORIZONTAL TRAFFIC LIGHT		
 412	E7F8	5	Activities/Work/Entertainment	Traffic signs	CONSTRUCTION SIGN		
 413	E7F9	5	Activities/Work/Entertainment	Traffic signs	POLICE CARS REVOLVING LIGHT		
-414	E7FB	5	Activities/Work/Entertainment	Entertainment symbols	TENT	camp	**Symbol no longer proposed for new encoding**
 415	E7FC	5	Activities/Work/Entertainment	Entertainment symbols	CAROUSEL HORSE		
 416	E7FD	5	Activities/Work/Entertainment	Entertainment symbols	FERRIS WHEEL		
 417	E7FE	5	Activities/Work/Entertainment	Entertainment symbols	ROLLER COASTER		
@@ -447,7 +447,7 @@
 433	E80F	5	Activities/Work/Entertainment	Game symbols	GAME DIE		
 434	E810	5	Activities/Work/Entertainment	Game symbols	BOWLING		
 435	E811	5	Activities/Work/Entertainment	Game symbols	FLOWER PLAYING CARDS	(花札)	
-436	E812	5	Activities/Work/Entertainment	Diamonds or Pentacles	PLAYING CARD BLACK JOKER		
+436	E812	5	Activities/Work/Entertainment	Diamonds or pentacles	PLAYING CARD BLACK JOKER		
 437	E813	5	Activities/Work/Entertainment	Music symbols	MUSICAL NOTE	Disunified from U+266A due to source separation rule (Shift_JIS).	
 438	E814	5	Activities/Work/Entertainment	Music symbols	MULTIPLE MUSICAL NOTES	disunified from ♫ U+266B	
 439	E815	5	Activities/Work/Entertainment	Music symbols	SAXOPHONE		
@@ -456,12 +456,12 @@
 442	E818	5	Activities/Work/Entertainment	Music symbols	TRUMPET		
 443	E819	5	Activities/Work/Entertainment	Music symbols	VIOLIN		
 444	E81A	5	Activities/Work/Entertainment	Music symbols	MUSICAL SCORE		
-445	E81B	5	Activities/Work/Entertainment	Music symbols	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
-276	E4EF	5	Activities/Work/Entertainment	Audio and video	CAMERA		
-286	E4F9	5	Activities/Work/Entertainment	Audio and video	VIDEO CAMERA	handycam, videocam	
-446	E81C	5	Activities/Work/Entertainment	Audio and video	TELEVISION		
-449	E81F	5	Activities/Work/Entertainment	Audio and video	RADIO		
-450	E820	5	Activities/Work/Entertainment	Audio and video	VIDEOCASSETTE		
+445	E81B	5	Activities/Work/Entertainment	Other CJK punctuation	PART ALTERNATION MARK	Unified with U+303D. Part of JIS X 0213 set. indicator for the 1st vocal part of a song	**Symbol no longer proposed for new encoding**
+276	E4EF	5	Activities/Work/Entertainment	Audio and video symbols	CAMERA		
+286	E4F9	5	Activities/Work/Entertainment	Audio and video symbols	VIDEO CAMERA	handycam, videocam	
+446	E81C	5	Activities/Work/Entertainment	Audio and video symbols	TELEVISION		
+449	E81F	5	Activities/Work/Entertainment	Audio and video symbols	RADIO		
+450	E820	5	Activities/Work/Entertainment	Audio and video symbols	VIDEOCASSETTE		
 453	E823	5	Activities/Work/Entertainment	Romance symbols	KISS MARK		
 454	E824	5	Activities/Work/Entertainment	Romance symbols	LOVE LETTER		
 455	E825	5	Activities/Work/Entertainment	Romance symbols	RING		
@@ -529,8 +529,8 @@
 515	EB09	7	Abstract Concepts	Miscellaneous	BLACK QUESTION MARK ORNAMENT		
 516	EB0A	7	Abstract Concepts	Miscellaneous	WHITE QUESTION MARK ORNAMENT	moving question mark	
 517	EB0B	7	Abstract Concepts	Miscellaneous	WHITE EXCLAMATION MARK ORNAMENT	moving exclamation mark	
-514	EB08	7	Abstract Concepts	Curly loop	CURLY LOOP	a line with a loop; new compatibility character, see e-B07=U+3030	
-461	E82B	7	Abstract Concepts	Curly loop	DOUBLE CURLY LOOP	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
+514	EB08	7	Abstract Concepts	Miscellaneous	CURLY LOOP	a line with a loop; new compatibility character, see e-B07=U+3030	
+461	E82B	7	Abstract Concepts	Miscellaneous	DOUBLE CURLY LOOP	Original name: FREE DIAL. Two loops. Occurs widely in print in Japan. Originally proposed for U+23xx.	
 518	EB0D	7	Abstract Concepts	Heart symbols	BEATING HEART	pulsating heart	
 519	EB0E	7	Abstract Concepts	Heart symbols	BROKEN HEART	breaking or broken heart	
 520	EB0F	7	Abstract Concepts	Heart symbols	TWO HEARTS	two hearts	
@@ -544,11 +544,11 @@
 528	EB17	7	Abstract Concepts	Heart symbols	HEART WITH RIBBON	Valentine's (heart with ribbon, or candy with heart)	
 529	EB18	7	Abstract Concepts	Heart symbols	REVOLVING HEARTS	cute	
 530	EB19	7	Abstract Concepts	Heart symbols	HEART DECORATION	Note: Softbank ruled lines, sometimes mapped to cute heart mark in other carriers	
+534	EB23	7	Abstract Concepts	Miscellaneous symbols	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
+535	EB26	7	Abstract Concepts	Traffic signs from ARIB STD B24	NO ENTRY	No entrance, no trespassing	**Symbol no longer proposed for new encoding**
 531	EB1E	7	Abstract Concepts	Signage and other symbols	SMOKING SYMBOL		
 532	EB1F	7	Abstract Concepts	Signage and other symbols	NO SMOKING SYMBOL		
 533	EB22	7	Abstract Concepts	Signage and other symbols	TRIANGULAR FLAG ON POST	Location information, a flag	
-534	EB23	7	Abstract Concepts	Signage and other symbols	WARNING SIGN	Unified with U+26A0. Danger / Caution / Warning	**Symbol no longer proposed for new encoding**
-535	EB26	7	Abstract Concepts	Signage and other symbols	NO ENTRY	No entrance, no trespassing	**Symbol no longer proposed for new encoding**
 399	E7EB	7	Abstract Concepts	Signage and other symbols	BICYCLE		
 404	E7F0	7	Abstract Concepts	Signage and other symbols	PEDESTRIAN		
 536	EB33	7	Abstract Concepts	Signage and other symbols	MENS SYMBOL		
@@ -560,32 +560,32 @@
 538	EB35	7	Abstract Concepts	Signage and other symbols	BABY SYMBOL	used as a sign for a baby; Crawling Baby	
 280	E4F3	7	Abstract Concepts	Signage and other symbols	DOOR		
 541	EB48	7	Abstract Concepts	Signage and other symbols	NO ENTRY SIGN	Prohibited (circle with diagonal slash); Do not enter	
-596	EB84	7	Abstract Concepts	Square Latin letters	SQUARED CL	Clear ("CL" stamp)	
-551	EB38	7	Abstract Concepts	Square Latin letters	SQUARED COOL	cool!; hip	
-544	EB21	7	Abstract Concepts	Square Latin letters	SQUARED FREE	a letter sign Free of Charge	
-594	EB81	7	Abstract Concepts	Square Latin letters	SQUARED ID	ID ("ID" stamp)	
-549	EB36	7	Abstract Concepts	Square Latin letters	SQUARED NEW	a stamp, seal, sign	
-547	EB28	7	Abstract Concepts	Square Latin letters	SQUARED NG	no good, NG	
-546	EB27	7	Abstract Concepts	Square Latin letters	SQUARED OK	a stamp, seal, button for approval	
-553	EB4F	7	Abstract Concepts	Square Latin letters	SQUARED SOS		
-550	EB37	7	Abstract Concepts	Square Latin letters	SQUARED UP WITH EXCLAMATION MARK	site renewed, updated, new information	
-548	EB32	7	Abstract Concepts	Square Latin letters	SQUARED VS		
-554	EB24	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
-563	EB3F	7	Abstract Concepts	Square katakanas	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
-555	EB2E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
-556	EB2F	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7A7A	空: IDEOGRAPH EMPTY; Vacant, seats available	
-557	EB30	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-5408	合: IDEOGRAPH MATCH; approved, passed as in an examination	
-558	EB31	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6E80	満: IDEOGRAPH FULL; fully occupied, full tank, etc.	
-559	EB39	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6709	有: IDEOGRAPH EXISTENCE; available, in stock; charges apply	
-560	EB3B	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6708	月: IDEOGRAPH MOON; monthly charge, monthly rate; month	
-561	EB3C	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7533	申: IDEOGRAPH SAYING "application needed, apply here"	
-562	EB3E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-5272	割: IDEOGRAPH DIVIDE;	
-564	EB41	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-55B6	営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所	
+596	EB84	7	Abstract Concepts	Squared Latin letter sequences	SQUARED CL	Clear ("CL" stamp)	
+551	EB38	7	Abstract Concepts	Squared Latin letter sequences	SQUARED COOL	cool!; hip	
+544	EB21	7	Abstract Concepts	Squared Latin letter sequences	SQUARED FREE	a letter sign Free of Charge	
+594	EB81	7	Abstract Concepts	Squared Latin letter sequences	SQUARED ID	ID ("ID" stamp)	
+549	EB36	7	Abstract Concepts	Squared Latin letter sequences	SQUARED NEW	a stamp, seal, sign	
+547	EB28	7	Abstract Concepts	Squared Latin letter sequences	SQUARED NG	no good, NG	
+546	EB27	7	Abstract Concepts	Squared Latin letter sequences	SQUARED OK	a stamp, seal, button for approval	
+553	EB4F	7	Abstract Concepts	Squared Latin letter sequences	SQUARED SOS		
+550	EB37	7	Abstract Concepts	Squared Latin letter sequences	SQUARED UP WITH EXCLAMATION MARK	site renewed, updated, new information	
+548	EB32	7	Abstract Concepts	Squared Latin letter sequences	SQUARED VS		
+554	EB24	7	Abstract Concepts	Squared katakana	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
+563	EB3F	7	Abstract Concepts	Squared katakana	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
+555	EB2E	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
+556	EB2F	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7A7A	空: IDEOGRAPH EMPTY; Vacant, seats available	
+557	EB30	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-5408	合: IDEOGRAPH MATCH; approved, passed as in an examination	
+558	EB31	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6E80	満: IDEOGRAPH FULL; fully occupied, full tank, etc.	
+559	EB39	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6709	有: IDEOGRAPH EXISTENCE; available, in stock; charges apply	
+560	EB3B	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6708	月: IDEOGRAPH MOON; monthly charge, monthly rate; month	
+561	EB3C	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7533	申: IDEOGRAPH SAYING "application needed, apply here"	
+562	EB3E	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-5272	割: IDEOGRAPH DIVIDE;	
+564	EB41	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-55B6	営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所	
 565	EB3D	7	Abstract Concepts	Circled ideographs	CIRCLED IDEOGRAPH ADVANTAGE	得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds	
 566	EB50	7	Abstract Concepts	Circled ideographs	CIRCLED IDEOGRAPH ACCEPT	Han character 可; accepted, acceptable	
-567	EB51	7	Abstract Concepts	Arithmetic symbols	HEAVY PLUS SIGN	Not unified with CIRCLED PLUS	
-568	EB52	7	Abstract Concepts	Arithmetic symbols	HEAVY MINUS SIGN	Not unified with CIRCLED MINUS	
-569	EB54	7	Abstract Concepts	Arithmetic symbols	HEAVY DIVISION SIGN	disunified from ÷ U+00F7	
+567	EB51	7	Abstract Concepts	Heavy variants of arithmetic symbols	HEAVY PLUS SIGN	Not unified with CIRCLED PLUS	
+568	EB52	7	Abstract Concepts	Heavy variants of arithmetic symbols	HEAVY MINUS SIGN	Not unified with CIRCLED MINUS	
+569	EB54	7	Abstract Concepts	Heavy variants of arithmetic symbols	HEAVY DIVISION SIGN	disunified from ÷ U+00F7	
 570	EB55	7	Abstract Concepts	Comic style symbols	DIAMOND SHAPE WITH A DOT INSIDE	Cute (pink diamond shaped thing)	
 571	EB56	7	Abstract Concepts	Comic style symbols	ELECTRIC LIGHT BULB		
 572	EB57	7	Abstract Concepts	Comic style symbols	ANGER SYMBOL	Angry (comic book style symbol where a punch lands)	
