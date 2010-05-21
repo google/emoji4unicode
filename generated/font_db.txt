@@ -572,15 +572,15 @@
 548	EB32	7	Abstract Concepts	Squared Latin letter sequences	SQUARED VS		
 554	EB24	7	Abstract Concepts	Squared katakana	SQUARED KATAKANA KOKO	KATAKANA LETTERS KOKO; destination, here	
 563	EB3F	7	Abstract Concepts	Squared katakana	SQUARED KATAKANA SA	サ: KATAKANA LETTER SA; service charge; for free, on the house;	
-555	EB2E	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
-556	EB2F	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7A7A	空: IDEOGRAPH EMPTY; Vacant, seats available	
-557	EB30	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-5408	合: IDEOGRAPH MATCH; approved, passed as in an examination	
-558	EB31	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6E80	満: IDEOGRAPH FULL; fully occupied, full tank, etc.	
-559	EB39	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6709	有: IDEOGRAPH EXISTENCE; available, in stock; charges apply	
-560	EB3B	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-6708	月: IDEOGRAPH MOON; monthly charge, monthly rate; month	
-561	EB3C	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-7533	申: IDEOGRAPH SAYING "application needed, apply here"	
-562	EB3E	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-5272	割: IDEOGRAPH DIVIDE;	
-564	EB41	7	Abstract Concepts	Squared ideographs and kana from ARIB STD B24	SQUARED CJK UNIFIED IDEOGRAPH-55B6	営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所	
+555	EB2E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7981	禁: IDEOGRAPH PROHIBITION	
+556	EB2F	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7A7A	空: IDEOGRAPH EMPTY; Vacant, seats available	
+557	EB30	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-5408	合: IDEOGRAPH MATCH; approved, passed as in an examination	
+558	EB31	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6E80	満: IDEOGRAPH FULL; fully occupied, full tank, etc.	
+559	EB39	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6709	有: IDEOGRAPH EXISTENCE; available, in stock; charges apply	
+560	EB3B	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-6708	月: IDEOGRAPH MOON; monthly charge, monthly rate; month	
+561	EB3C	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-7533	申: IDEOGRAPH SAYING "application needed, apply here"	
+562	EB3E	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-5272	割: IDEOGRAPH DIVIDE;	
+564	EB41	7	Abstract Concepts	Squared ideographs	SQUARED CJK UNIFIED IDEOGRAPH-55B6	営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所	
 565	EB3D	7	Abstract Concepts	Circled ideographs	CIRCLED IDEOGRAPH ADVANTAGE	得: IDEOGRAPH ADVANTAGE; good bargain; special tax break on public bonds	
 566	EB50	7	Abstract Concepts	Circled ideographs	CIRCLED IDEOGRAPH ACCEPT	Han character 可; accepted, acceptable	
 567	EB51	7	Abstract Concepts	Heavy variants of arithmetic symbols	HEAVY PLUS SIGN	Not unified with CIRCLED PLUS	

@@ -1665,6 +1665,21 @@ several variants of a stylized "M" are found for different Metro systems, includ
 </e>
 </subcategory>
 <subcategory name="Squared ideographs and kana from ARIB STD B24">
+<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="1F21A">
+<desc>無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free</desc>
+<ann>= free broadcasting service</ann>
+<ann>= non-existence sign</ann>
+<ann># &lt;square&gt; 7121</ann>
+</e>
+<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="1F22F">
+<desc>指: IDEOGRAPH POINTING; reserved, designated 指定</desc>
+<desc>"reserved" in trains, theaters, etc.</desc>
+<ann>= designated hitter</ann>
+<ann>= reserved sign</ann>
+<ann># &lt;square&gt; 6307</ann>
+</e>
+</subcategory>
+<subcategory name="Squared ideographs">
 <e docomo="E738" glyphRefID="555" google="FEB2E" id="B2E" img_from="docomo" name="SQUARED CJK UNIFIED IDEOGRAPH-7981" text_fallback="[禁]" unicode="+1F232">
 <desc>禁: IDEOGRAPH PROHIBITION</desc>
 <ann>= prohibited sign</ann>
@@ -1691,12 +1706,6 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <ann>x (circled ideograph have - 3292)</ann>
 <ann># &lt;square&gt; 6709</ann>
 </e>
-<e google="FEB3A" id="B3A" name="SQUARED CJK UNIFIED IDEOGRAPH-7121" softbank="E216" text_fallback="[無]" unicode="1F21A">
-<desc>無: IDEOGRAPH NON-EXISTENCE; out of stock, unavailable; free</desc>
-<ann>= free broadcasting service</ann>
-<ann>= non-existence sign</ann>
-<ann># &lt;square&gt; 7121</ann>
-</e>
 <e glyphRefID="560" google="FEB3B" id="B3B" img_from="softbank" name="SQUARED CJK UNIFIED IDEOGRAPH-6708" softbank="E217" text_fallback="[月]" unicode="+1F237">
 <desc>月: IDEOGRAPH MOON; monthly charge, monthly rate; month</desc>
 <ann>= monthly sign</ann>
@@ -1712,13 +1721,6 @@ several variants of a stylized "M" are found for different Metro systems, includ
 <desc>割: IDEOGRAPH DIVIDE;</desc>
 <ann>= discount sign</ann>
 <ann># &lt;square&gt; 5272</ann>
-</e>
-<e google="FEB40" id="B40" kddi="EA8B" name="SQUARED CJK UNIFIED IDEOGRAPH-6307" softbank="E22C" text_fallback="[指]" unicode="1F22F">
-<desc>指: IDEOGRAPH POINTING; reserved, designated 指定</desc>
-<desc>"reserved" in trains, theaters, etc.</desc>
-<ann>= designated hitter</ann>
-<ann>= reserved sign</ann>
-<ann># &lt;square&gt; 6307</ann>
 </e>
 <e glyphRefID="564" google="FEB41" id="B41" img_from="kddi" kddi="EA8C" name="SQUARED CJK UNIFIED IDEOGRAPH-55B6" softbank="E22D" text_fallback="[営]" unicode="+1F23A">
 <desc>営: IDEOGRAPH BUSINESS; open for business 営業中; business hours 営業時間; branch office 営業所</desc>

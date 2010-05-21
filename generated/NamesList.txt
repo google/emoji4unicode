@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-05-13
+@@@+	2010-05-21
 @		Latin-1 punctuation and symbols
 00A9	COPYRIGHT SIGN
 00AE	REGISTERED SIGN
@@ -276,6 +276,7 @@
 	= designated hitter
 	= reserved sign
 	# <square> 6307
+@		Squared ideographs
 1F232	SQUARED CJK UNIFIED IDEOGRAPH-7981
 	= prohibited sign
 	# <square> 7981
