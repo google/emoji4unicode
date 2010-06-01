@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-05-21
+@@@+	2010-06-01
 @		Latin-1 punctuation and symbols
 00A9	COPYRIGHT SIGN
 00AE	REGISTERED SIGN
@@ -98,8 +98,8 @@
 @		Miscellaneous symbols
 26A0	WARNING SIGN
 26A1	HIGH VOLTAGE SIGN
-	= lightning symbol
 	= thunder
+	= lightning symbol
 @		Circles
 26AA	MEDIUM WHITE CIRCLE
 26AB	MEDIUM BLACK CIRCLE
