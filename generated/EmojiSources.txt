@@ -1,33 +1,31 @@
-# Emoji Sources
-# N3835
+# EmojiSources.txt
+# Date: 2010-06-02 [MS]
 #
-# This is an updated version of N3728R, updated to reflect FDAM8
-# which includes the disposition of FPDAM8 ballot comments and
-# changes agreed during the San Jose WG2 meeting 56.
+# Unicode Character Database
+# Copyright (c) 1991-2010 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+# For documentation, see http://www.unicode.org/reports/tr44/
 #
-# Date: 2010-05-13
-# Author: Markus Scherer
-#
-# This file provides mappings between UCS code points and sequences on one hand
+# This file provides mappings between Unicode code points and sequences on one hand
 # and Shift-JIS codes for cell phone carrier symbols on the other hand.
-# Each mapping is symmetric ("round trip"), for equivalent UCS and carrier
+# Each mapping is symmetric ("round trip"), for equivalent Unicode and carrier
 # symbols or sequences. This file does not include best-fit ("fallback")
 # mappings to similar but not equivalent symbols in either mapping direction.
 #
 # Note: It is possible that future versions of this file will include
 # additional data columns providing mappings for additional vendors.
 #
-# Semicolon-delimited file with a fixed number of fields.
+# Format: Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.
 #
 # Fields:
-# 0: UCS code point or sequence
+# 0: Unicode code point or sequence
 # 1: DoCoMo Shift-JIS code
 # 2: KDDI Shift-JIS code
 # 3: SoftBank Shift-JIS code
 #
 # Each field 1..3 contains a code if and only if the vendor character set
-# has a symbol which is equivalent to the UCS character or sequence.
+# has a symbol which is equivalent to the Unicode character or sequence.
 
 0023 20E3;F985;F489;F7B0
 0030 20E3;F990;F7C9;F7C5
@@ -751,3 +749,5 @@
 1F6BD;;;F781
 1F6BE;;;F9A9
 1F6C0;;F34B;F780
+
+# EOF

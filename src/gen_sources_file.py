@@ -25,37 +25,39 @@ import emoji4unicode
 
 _date = datetime.date.today().strftime("%Y-%m-%d")
 
-_HEADER = """# Emoji Sources
-# N3835
+_HEADER = """# EmojiSources.txt
+# Date: """ + _date + """ [MS]
 #
-# This is an updated version of N3728R, updated to reflect FDAM8
-# which includes the disposition of FPDAM8 ballot comments and
-# changes agreed during the San Jose WG2 meeting 56.
+# Unicode Character Database
+# Copyright (c) 1991-2010 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+# For documentation, see http://www.unicode.org/reports/tr44/
 #
-# Date: """ + _date + """
-# Author: Markus Scherer
-#
-# This file provides mappings between UCS code points and sequences on one hand
+# This file provides mappings between Unicode code points and sequences on one hand
 # and Shift-JIS codes for cell phone carrier symbols on the other hand.
-# Each mapping is symmetric ("round trip"), for equivalent UCS and carrier
+# Each mapping is symmetric ("round trip"), for equivalent Unicode and carrier
 # symbols or sequences. This file does not include best-fit ("fallback")
 # mappings to similar but not equivalent symbols in either mapping direction.
 #
 # Note: It is possible that future versions of this file will include
 # additional data columns providing mappings for additional vendors.
 #
-# Semicolon-delimited file with a fixed number of fields.
+# Format: Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.
 #
 # Fields:
-# 0: UCS code point or sequence
+# 0: Unicode code point or sequence
 # 1: DoCoMo Shift-JIS code
 # 2: KDDI Shift-JIS code
 # 3: SoftBank Shift-JIS code
 #
 # Each field 1..3 contains a code if and only if the vendor character set
-# has a symbol which is equivalent to the UCS character or sequence.
+# has a symbol which is equivalent to the Unicode character or sequence.
 
+"""
+
+_FOOTER = """
+# EOF
 """
 
 def _WriteSourcesFile(writer):
@@ -81,13 +83,14 @@ def _WriteSourcesFile(writer):
       else:
         fields.append("")
     if has_mappings: writer.write(u";".join(fields) + u"\n")
+  writer.write(_FOOTER)
   writer.close()
 
 
 def main():
   emoji4unicode.Load()
   here = os.path.dirname(__file__)
-  filename = os.path.join(here, "..", "generated", "EmojiSrc.txt")
+  filename = os.path.join(here, "..", "generated", "EmojiSources.txt")
   _WriteSourcesFile(codecs.open(filename, "w", "UTF-8"))
 
 
