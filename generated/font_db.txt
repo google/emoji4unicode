@@ -447,7 +447,7 @@
 433	E80F	5	Activities/Work/Entertainment	Game symbols	GAME DIE		
 434	E810	5	Activities/Work/Entertainment	Game symbols	BOWLING		
 435	E811	5	Activities/Work/Entertainment	Game symbols	FLOWER PLAYING CARDS	(花札)	
-436	E812	5	Activities/Work/Entertainment	Diamonds or pentacles	PLAYING CARD BLACK JOKER		
+436	E812	5	Activities/Work/Entertainment	Joker	PLAYING CARD BLACK JOKER		
 437	E813	5	Activities/Work/Entertainment	Music symbols	MUSICAL NOTE	Disunified from U+266A due to source separation rule (Shift_JIS).	
 438	E814	5	Activities/Work/Entertainment	Music symbols	MULTIPLE MUSICAL NOTES	disunified from ♫ U+266B	
 439	E815	5	Activities/Work/Entertainment	Music symbols	SAXOPHONE		

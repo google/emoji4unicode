@@ -29,7 +29,7 @@ _HEADER = """# EmojiSources.txt
 # Date: """ + _date + """ [MS]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2010 Unicode, Inc.
+# Copyright (c) 1991-2011 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -41,6 +41,8 @@ _HEADER = """# EmojiSources.txt
 #
 # Note: It is possible that future versions of this file will include
 # additional data columns providing mappings for additional vendors.
+#
+# Created for Unicode 6.0 by Markus Scherer.
 #
 # Format: Semicolon-delimited file with a fixed number of fields.
 # The number of fields may increase in the future.

@@ -16,8 +16,8 @@
 # Author: Markus Scherer
 
 mkdir -p ../generated
-./gen_font_data.py
+# (was only used for proposal process) ./gen_font_data.py
 ./gen_html.sh
 ./gen_sources_file.py
 ./gen_names_list.py
-./gen_chart_font_list.py
+# (was only used for proposal process) ./gen_chart_font_list.py

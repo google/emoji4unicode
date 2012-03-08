@@ -1,5 +1,5 @@
 @@@	Emoji Symbols
-@@@+	2010-06-01
+@@@+	2012-03-08
 @		Latin-1 punctuation and symbols
 00A9	COPYRIGHT SIGN
 00AE	REGISTERED SIGN
@@ -200,7 +200,7 @@
 @		Dragon tiles
 1F004	MAHJONG TILE RED DRAGON
 @@	1F0A0	Playing Cards	1F0FF
-@		Diamonds or pentacles
+@		Joker
 1F0CF	PLAYING CARD BLACK JOKER
 @@	1F100	Enclosed Alphanumeric Supplement	1F1FF
 @		White on black squared Latin letters
