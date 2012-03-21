@@ -1,4 +1,4 @@
-#!/usr/bin/python2.4
+#!/usr/bin/python2.6
 # encoding: UTF-8
 #
 # Copyright 2008 Google Inc.
@@ -163,16 +163,22 @@ u"""
 </head>
 <body>
 <h1>Emoji Symbols: Background Data</h1>
-<h2>Background data for Proposal for Encoding Emoji Symbols</h2>
-<p align='right'>
-  <span style='font-size:x-large'>N3xxx</span><br>
-  Date: """ + _date + u"<br>" +
-_AUTHORS +
+""" +
+# u"""<h2>Background data for Proposal for Encoding Emoji Symbols</h2>
+# """ +
+"""<p align='right'>
+""" +
+# """  <span style='font-size:x-large'>N3xxx</span><br>
+# """ +
+"""  Date: """ + _date +
+# u"<br>" + _AUTHORS +
 u"""</p>
-<p>This document reflects proposed Emoji symbols data as shown in FDAM8
-  which includes the disposition of FPDAM8 ballot comments and
-  changes agreed during the San Jos&eacute; WG2 meeting 56.</p>
-<p>The carrier symbol images in this file point to images on other sites.
+""" +
+# """<p>This document reflects proposed Emoji symbols data as shown in FDAM8
+#   which includes the disposition of FPDAM8 ballot comments and
+#   changes agreed during the San Jos&eacute; WG2 meeting 56.</p>
+# """ +
+"""<p>The carrier symbol images in this file point to images on other sites.
   The images are only for comparison and may change.</p>
 <p>See the <a href="#legend">chart legend</a>
   for an explanation of the data presentation in this chart.</p>
@@ -444,6 +450,13 @@ def _WriteFullSymbolTableHTML(writer, symbols):
 def _RepresentationHTML(e4u_symbol):
   """Return HTML with the symbol representation."""
   uni = e4u_symbol.GetUnicode()
+  # Begin "proposal was accepted into Unicode 6.0"
+  # The proposal was accepted, the Emoji symbols were added to Unicode 6.0.
+  # These are minor changes to show Emoji symbols
+  # as "unified" rather than "proposed",
+  # so that we need not modify the .xml data file.
+  if not uni and e4u_symbol.in_proposal: uni = e4u_symbol.GetProposedUnicode()
+  # End "proposal was accepted into Unicode 6.0"
   if uni:
     if _show_real_chars:
       repr = _UnicodeHTML(uni, u"chartfonts")
@@ -458,8 +471,9 @@ def _RepresentationHTML(e4u_symbol):
       repr = _UnicodeHTML(uni, u"unified")
     age = unicode_age.GetAge(uni)
     if age:
-      return (repr + u"<br><span class='status'>unified (Unicode&nbsp;" + age +
-                     u")</span>")
+      s = u"encoded" if age >= "6.0" else u"unified"
+      return (repr + u"<br><span class='status'>" + s +
+                     u" (Unicode&nbsp;" + age + u")</span>")
     else:
       return repr + u"<br><span class='status'>unified</span>"
   img = e4u_symbol.ImageHTML()
