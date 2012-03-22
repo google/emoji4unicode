@@ -134,6 +134,31 @@ class CarrierData(object):
     Called only from Symbol.ImageHTML()."""
     return ""
 
+  def GetShiftJISLeadBytes(self):
+    """Returns a frozenset of Shift-JIS lead bytes for Emoji symbols."""
+    lead_bytes = set()
+    if self._uni_to_shift_jis_ranges:
+      for sj_range in self._uni_to_shift_jis_ranges:
+        lead_bytes |= set(range(sj_range[2] >> 8, (sj_range[3] >> 8) + 1))
+    else:
+      for element in self._uni_to_elements.itervalues():
+        shift_jis = element.getAttribute("shift_jis")
+        if shift_jis: lead_bytes.add(int(shift_jis[0:2], 16))
+    return frozenset(lead_bytes)
+
+  def GetJISLeadBytesAsShiftJIS(self):
+    """Returns a frozenset of JIS lead bytes in Shift-JIS format."""
+    lead_bytes = set()
+    if self._uni_to_jis_ranges:
+      for jis_range in self._uni_to_jis_ranges:
+        sjis_start = row_cell.From2022Integer(jis_range[2]).ToShiftJis()
+        sjis_end = row_cell.From2022Integer(jis_range[3]).ToShiftJis()
+        lead_bytes |= set(range(sjis_start[0], sjis_end[0] + 1))
+    else:
+      for element in self._uni_to_elements.itervalues():
+        jis = element.getAttribute("jis")
+        if jis: lead_bytes.add(row_cell.From2022String(jis).ToShiftJis()[0])
+    return frozenset(lead_bytes)
 
 def _RangeFromUnicode(ranges, uni):
   """Select from a list the range containing the Unicode code point.

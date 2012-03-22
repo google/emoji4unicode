@@ -41,6 +41,12 @@ class DocomoDataTest(unittest.TestCase):
     self.assert_("E757" in all_uni)
     self.failIf("E758" in all_uni)
 
+  def testLeadBytes(self):
+    self.assertEqual(self.__data.GetShiftJISLeadBytes(),
+                     frozenset((0xf8, 0xf9)))
+    self.assertEqual(self.__data.GetJISLeadBytesAsShiftJIS(),
+                     frozenset((0xeb, 0xec, 0xed, 0xee, 0xef)))
+
 
 class KddiDataTest(unittest.TestCase):
   def setUp(self):
@@ -77,6 +83,12 @@ class KddiDataTest(unittest.TestCase):
     self.assert_("EA88" in all_uni)
     self.assert_("EB8E" in all_uni)
 
+  def testLeadBytes(self):
+    self.assertEqual(self.__data.GetShiftJISLeadBytes(),
+                     frozenset((0xf3, 0xf4, 0xf6, 0xf7)))
+    self.assertEqual(self.__data.GetJISLeadBytesAsShiftJIS(),
+                     frozenset((0xeb, 0xec, 0xed, 0xee)))
+
 
 class SoftbankDataTest(unittest.TestCase):
   def setUp(self):
@@ -105,6 +117,12 @@ class SoftbankDataTest(unittest.TestCase):
     self.assert_("E15A" in all_uni)
     self.failIf("E15B" in all_uni)
     self.assert_("E53E" in all_uni)
+
+  def testLeadBytes(self):
+    self.assertEqual(self.__data.GetShiftJISLeadBytes(),
+                     frozenset((0xf7, 0xf9, 0xfb)))
+    self.assertEqual(self.__data.GetJISLeadBytesAsShiftJIS(),
+                     frozenset())
 
 
 class GoogleDataTest(unittest.TestCase):

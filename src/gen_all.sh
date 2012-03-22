@@ -19,5 +19,6 @@ mkdir -p ../generated
 # (was only used for proposal process) ./gen_font_data.py
 ./gen_html.sh
 ./gen_sources_file.py
-./gen_names_list.py
+./gen_conversion_files.py
+# (was only used for proposal process) ./gen_names_list.py
 # (was only used for proposal process) ./gen_chart_font_list.py

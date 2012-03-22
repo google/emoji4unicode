@@ -217,6 +217,37 @@ def From2022(b1, b2):
   return RowCell(b1 - 0x20, b2 - 0x20)
 
 
+def From2022Integer(jis):
+  """Create a RowCell instance from a 16-bit ISO-2022 "GL" integer.
+
+  Returns:
+    A RowCell instance with the row-cell value pair.
+
+  Raises:
+    ValueError: One or both integer bytes are not 0x21..0x7e.
+  """
+  return From2022(jis >> 8, jis & 0xff)
+
+
+def From2022String(s):
+  """Create a RowCell instance from a 4-hex-digit ISO-2022 byte pair string.
+
+  Parses the 4-hex-digit ISO-2022 string into a pair of bytes and instantiates
+  a RowCell.
+  >>> str(From2022String('2121'))
+  '0101'
+
+  Returns:
+    A RowCell instance with the row-cell value pair.
+
+  Raises:
+    ValueError: The string does not contain exactly 4 hex digits or
+      does not contain an ISO-2022 (JIS X 0208) code.
+  """
+  if len(s) != 4: raise ValueError("the string must contain 4 hex digits")
+  return From2022(int(s[0:2], 16), int(s[2:4], 16))
+
+
 def FromShiftJis(b1, b2):
   """Create a RowCell instance from a Shift-JIS byte pair.
 
@@ -250,7 +281,7 @@ def FromShiftJisString(s):
 
   Parses the 4-hex-digit Shift-JIS string into a pair of bytes and instantiates
   a RowCell.
-  >>> str(FromHexString('8140'))
+  >>> str(FromShiftJisString('8140'))
   '0101'
 
   Returns:

@@ -104,46 +104,46 @@
 <e jis="756D" name_en="Resort" name_ja="リゾート" unicode="E6A3"/>
 <e jis="7624" name_en="Christmas" name_ja="クリスマス" unicode="E6A4"/>
 <e jis="7753" name_en="Diagonally downward toward left" name_ja="左斜め下" unicode="E6A5"/>
-<e jis="222E" unicode="E6A6"/>
-<e jis="222E" unicode="E6A7"/>
-<e jis="222E" unicode="E6A8"/>
-<e jis="222E" unicode="E6A9"/>
-<e jis="222E" unicode="E6AA"/>
-<e jis="222E" unicode="E6AB"/>
+<e unicode="E6A6"/>
+<e unicode="E6A7"/>
+<e unicode="E6A8"/>
+<e unicode="E6A9"/>
+<e unicode="E6AA"/>
+<e unicode="E6AB"/>
 <e jis="7577" name_en="Clapboard" name_ja="カチンコ" unicode="E6AC"/>
 <e jis="7E2B" name_en="Pouch" name_ja="ふくろ" unicode="E6AD"/>
 <e jis="785C" name_en="Pen" name_ja="ペン" unicode="E6AE"/>
-<e jis="222E" unicode="E6AF"/>
-<e jis="222E" unicode="E6B0"/>
+<e unicode="E6AF"/>
+<e unicode="E6B0"/>
 <e jis="7E2C" name_en="Silhouette" name_ja="人影" unicode="E6B1"/>
 <e jis="7D57" name_en="Chair" name_ja="いす" unicode="E6B2"/>
 <e jis="7A47" name_en="Night" name_ja="夜" unicode="E6B3"/>
-<e jis="222E" unicode="E6B4"/>
-<e jis="222E" unicode="E6B5"/>
-<e jis="222E" unicode="E6B6"/>
+<e unicode="E6B4"/>
+<e unicode="E6B5"/>
+<e unicode="E6B6"/>
 <e jis="7E2D" name_en="Soon" name_ja="soon" unicode="E6B7"/>
 <e jis="7E2E" name_en="on" name_ja="on" unicode="E6B8"/>
 <e jis="7E2F" name_en="end" name_ja="end" unicode="E6B9"/>
 <e jis="7833" name_en="Clock" name_ja="時計" unicode="E6BA"/>
-<e jis="222E" unicode="E6BB"/>
-<e jis="222E" unicode="E6BC"/>
-<e jis="222E" unicode="E6BD"/>
-<e jis="222E" unicode="E6BE"/>
-<e jis="222E" unicode="E6BF"/>
-<e jis="222E" unicode="E6C0"/>
-<e jis="222E" unicode="E6C1"/>
-<e jis="222E" unicode="E6C2"/>
-<e jis="222E" unicode="E6C3"/>
-<e jis="222E" unicode="E6C4"/>
-<e jis="222E" unicode="E6C5"/>
-<e jis="222E" unicode="E6C6"/>
-<e jis="222E" unicode="E6C7"/>
-<e jis="222E" unicode="E6C8"/>
-<e jis="222E" unicode="E6C9"/>
-<e jis="222E" unicode="E6CA"/>
-<e jis="222E" unicode="E6CB"/>
-<e jis="222E" unicode="E6CC"/>
-<e jis="222E" unicode="E6CD"/>
+<e unicode="E6BB"/>
+<e unicode="E6BC"/>
+<e unicode="E6BD"/>
+<e unicode="E6BE"/>
+<e unicode="E6BF"/>
+<e unicode="E6C0"/>
+<e unicode="E6C1"/>
+<e unicode="E6C2"/>
+<e unicode="E6C3"/>
+<e unicode="E6C4"/>
+<e unicode="E6C5"/>
+<e unicode="E6C6"/>
+<e unicode="E6C7"/>
+<e unicode="E6C8"/>
+<e unicode="E6C9"/>
+<e unicode="E6CA"/>
+<e unicode="E6CB"/>
+<e unicode="E6CC"/>
+<e unicode="E6CD"/>
 <e jis="7861" name_en="Phone to" name_ja="phone to" unicode="E6CE"/>
 <e jis="7B47" name_en="mail to" name_ja="mail to" unicode="E6CF"/>
 <e jis="767B" name_en="fax to" name_ja="fax to" unicode="E6D0"/>

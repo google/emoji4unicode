@@ -85,12 +85,27 @@ class RowCellTest(unittest.TestCase):
   def testFrom2022(self):
     rc = row_cell.From2022(0x21, 0x7e)
     self.assertEqual(rc, row_cell.RowCell(1, 94))
-    self.assertRaises(ValueError, row_cell.From2022, 0, 94)
-    self.assertRaises(ValueError, row_cell.From2022, 1, 95)
+    self.assertRaises(ValueError, row_cell.From2022, 0x20, 0x7e)
+    self.assertRaises(ValueError, row_cell.From2022, 0x21, 0x7f)
 
   def testTo2022(self):
     self.assertEqual(row_cell.RowCell(1, 1).To2022(), (0x21, 0x21))
     self.assertEqual(row_cell.RowCell(93, 94).To2022(), (0x7d, 0x7e))
+
+  def testFrom2022Integer(self):
+    rc = row_cell.From2022Integer(0x217e)
+    self.assertEqual(rc, row_cell.RowCell(1, 94))
+    self.assertRaises(ValueError, row_cell.From2022Integer, 0x207e)
+    self.assertRaises(ValueError, row_cell.From2022Integer, 0x217f)
+
+  def testFrom2022String(self):
+    rc = row_cell.From2022String("217E")
+    self.assertEqual(rc, row_cell.RowCell(1, 94))
+    self.assertRaises(ValueError, row_cell.From2022String, "")
+    self.assertRaises(ValueError, row_cell.From2022String, "21")
+    self.assertRaises(ValueError, row_cell.From2022String, "217E.")
+    self.assertRaises(ValueError, row_cell.From2022String, "207E")
+    self.assertRaises(ValueError, row_cell.From2022String, "217F")
 
   def testFromShiftJis(self):
     rc = row_cell.FromShiftJis(0x81, 0x40)
@@ -113,11 +128,11 @@ class RowCellTest(unittest.TestCase):
   def testFromShiftJisString(self):
     rc = row_cell.FromShiftJisString("819E")
     self.assertEqual(rc, row_cell.RowCell(1, 94))
-    self.assertRaises(ValueError, row_cell.FromDecimalString, "")
-    self.assertRaises(ValueError, row_cell.FromDecimalString, "81")
-    self.assertRaises(ValueError, row_cell.FromDecimalString, "819E.")
-    self.assertRaises(ValueError, row_cell.FromDecimalString, "809E")
-    self.assertRaises(ValueError, row_cell.FromDecimalString, "817F")
+    self.assertRaises(ValueError, row_cell.FromShiftJisString, "")
+    self.assertRaises(ValueError, row_cell.FromShiftJisString, "81")
+    self.assertRaises(ValueError, row_cell.FromShiftJisString, "819E.")
+    self.assertRaises(ValueError, row_cell.FromShiftJisString, "809E")
+    self.assertRaises(ValueError, row_cell.FromShiftJisString, "817F")
 
 
 if __name__ == "__main__":
