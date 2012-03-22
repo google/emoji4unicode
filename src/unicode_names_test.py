@@ -27,6 +27,7 @@ __author__ = "Markus Scherer"
 import re
 import unittest
 import emoji4unicode
+import unicode_age
 import unicode_names
 
 _INITIAL_DIGIT_RE = re.compile("(^[0-9])|( [0-9])")
@@ -51,6 +52,14 @@ class UnicodeNamesTest(unittest.TestCase):
       if not symbol.in_proposal: continue
       name = symbol.GetName()
       uni = symbol.GetUnicode()
+      if not uni:
+        # The proposal was accepted, the Emoji symbols were added to Unicode 6.0.
+        # These are minor changes to deal with Emoji symbols
+        # that are now encoded (not just proposed any more),
+        # so that we need not modify the .xml data file.
+        proposed_uni = symbol.GetProposedUnicode()
+        if proposed_uni and unicode_age.GetAge(proposed_uni) >= "6.0":
+          uni = proposed_uni
       if uni:
         unicode_name = cp2n.get(uni)
         if unicode_name and (name != unicode_name):
@@ -85,7 +94,7 @@ class UnicodeNamesTest(unittest.TestCase):
     all_proposed_uni = set()
     for symbol in emoji4unicode.GetSymbols():
       proposed_uni = symbol.GetProposedUnicode()
-      if not proposed_uni: continue
+      if not proposed_uni or unicode_age.GetAge(proposed_uni) >= "6.0": continue
       self.failIf(proposed_uni in cp2n,
                   "e-%s proposed U+%s already taken" %
                   (symbol.id, proposed_uni))
@@ -96,4 +105,5 @@ class UnicodeNamesTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
+  unicode_age.Load()
   unittest.main()
