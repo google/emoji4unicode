@@ -41,7 +41,9 @@ def Read(filename):
   """
   # Match a NAME_LINE in the Unicode NamesList.txt file.
   name_line_re = re.compile(r"^([0-9A-F]{4,6})\t(.+)$")
-  in_file = codecs.open(filename, "r", "ISO-8859-1")
+  # NamesList.txt is in "ISO-8859-1" up to Unicode 6.1,
+  # and in "UTF-8" starting with Unicode 6.2.
+  in_file = codecs.open(filename, "r", "UTF-8")
   # A record is a unit of data we yield to the caller.
   # Normally, it contains the data for one character.
   record = {}
