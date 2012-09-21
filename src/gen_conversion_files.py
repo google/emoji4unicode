@@ -21,6 +21,7 @@ __author__ = "Markus Scherer"
 import codecs
 import os.path
 import re
+import sys
 import emoji4unicode
 import row_cell
 
@@ -129,8 +130,14 @@ def main():
   _WritePartialMappingFile(path, "kddi", False)
   _WritePartialMappingFile(path, "softbank", True)
   # We do not have JIS mapping data for SoftBank.
-  sjis_filename = os.path.join(here, "..",
-                               "data", "icu", "windows-932-2000.ucm")
+
+  if len(sys.argv) >= 2:
+    # Use a custom Shift-JIS table as the base.
+    sjis_filename = sys.argv[1]
+  else:
+    # Use the Windows Shift-JIS table as the base.
+    sjis_filename = os.path.join(here, "..",
+                                 "data", "icu", "windows-932-2000.ucm")
   with codecs.open(sjis_filename, "r") as sjis_reader:
     _WriteCompleteMappingFile(sjis_reader, path, "docomo", True)
     _WriteCompleteMappingFile(sjis_reader, path, "docomo", False)
