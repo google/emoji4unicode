@@ -27,7 +27,7 @@ import row_cell
 
 def _CarrierSymbolToBytes(carrier_symbol, for_sjis):
   """Takes a single carrier private use Unicode code point and returns
-  the Shift-JIS-format bytes for it, each byte prefixed with \\x."""
+  the carrier charset bytes for it, each byte prefixed with \\x."""
   if for_sjis:
     if not carrier_symbol.shift_jis: return ""
     carrier_bytes = carrier_symbol.shift_jis.replace("+", "")
@@ -73,6 +73,20 @@ def _WriteMappings(writer, carrier, for_sjis):
     if not complete: continue
     uni = "+".join([u"<U%04X>" % cp for cp in cp_list])
     writer.write(u"%s %s %s\n" % (uni, b, precision))
+    if symbol.UnicodeHasVariationSequence():
+      # Add fallback mappings from "text style" and "emoji style"
+      # Variation Selector sequences.
+      vs_list = cp_list
+      # Insert the variation selector before a combining mark,
+      # in particular before the U+20E3 Combining Enclosing Keycap.
+      # Given the current mappings, the variation selector is always
+      # the second code point.
+      vs_list.insert(1, 0xfe0e)  # VS15 for text style
+      uni = "+".join([u"<U%04X>" % cp for cp in vs_list])
+      writer.write(u"%s %s |1\n" % (uni, b))
+      vs_list[1] = 0xfe0f  # VS16 for emoji style
+      uni = "+".join([u"<U%04X>" % cp for cp in vs_list])
+      writer.write(u"%s %s |1\n" % (uni, b))
     if cp_list[0] < 0xF0000:
       google_uni = symbol.GetCarrierUnicode("google")
       if google_uni:

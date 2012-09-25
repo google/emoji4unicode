@@ -25,6 +25,7 @@ _emoji_vs_code_points = set()
 
 def Load():
   """Loads Unicode Standardized Variants data."""
+  if _emoji_vs_code_points: return  # Already loaded.
   # TODO(mscherer): Add argument for root data folder path.
   filename = os.path.join(os.path.dirname(__file__),
                           "..", "data", "unicode", "StandardizedVariants.txt")

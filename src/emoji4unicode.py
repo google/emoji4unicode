@@ -38,6 +38,7 @@ import sys
 import xml.dom.minidom
 import carrier_data
 import row_cell
+import standardized_variants
 import ucm
 
 _HIGH_UNI = 0x1F300
@@ -81,6 +82,7 @@ def Load():
     if kddi_uni and not kddi_uni.startswith(">"):
       google_uni = symbol.GetCarrierUnicode("google")
       if google_uni: _kddi_to_google[kddi_uni] = google_uni
+  standardized_variants.Load()
 
 def GetCategories():
   """Generator of Category objects."""
@@ -319,6 +321,14 @@ class Symbol(object):
     if uni.startswith("+"): return u""
     if uni.startswith("*"): uni = uni[1:]
     return uni
+
+  def UnicodeHasVariationSequence(self):
+    """Does the Unicode representation have a variation selector sequence?"""
+    # Get the standard Unicode code point or sequence.
+    uni = self.GetUnicode()
+    if not uni: return False
+    first = int(uni.split("+")[0], 16)  # The first Unicode code point.
+    return first in standardized_variants.GetSetOfUnicodeWithEmojiVS()
 
   def IsUnifiedWithUpcomingCharacter(self):
     """Is this symbol unified with an upcoming character?

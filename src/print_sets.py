@@ -91,16 +91,12 @@ def main():
   emoji4unicode.Load()
   pua_vs_code_points = set()
   for symbol in emoji4unicode.GetSymbols():
-    # Get the symbol's standard Unicode code point or sequence.
-    uni = symbol.GetUnicode()
-    if not uni: continue
-    first = int(uni.split("+")[0], 16)  # The symbol's first Unicode code point.
-    if first not in emoji_vs_code_points: continue
-    # Get the Google Private Use Area code point.
-    pua = symbol.GetCarrierUnicode("google")
-    if not pua.startswith("<"):
-      # Round-trip, must be a single code point.
-      pua_vs_code_points.add(int(pua, 16))
+    if symbol.UnicodeHasVariationSequence():
+      # Get the Google Private Use Area code point.
+      pua = symbol.GetCarrierUnicode("google")
+      if not pua.startswith("<"):
+        # Round-trip, must be a single code point.
+        pua_vs_code_points.add(int(pua, 16))
   print
   print ("Google PUA code points corresponding to Unicode Standard " +
       "code points with emoji-style Variation Selector sequences:")
