@@ -73,7 +73,22 @@ def _WriteMappings(writer, carrier, for_sjis):
     if not complete: continue
     uni = "+".join([u"<U%04X>" % cp for cp in cp_list])
     writer.write(u"%s %s %s\n" % (uni, b, precision))
-    if symbol.UnicodeHasVariationSequence():
+    # Variation Selector sequences:
+    # It is easiest to have the conversion code ignore/drop
+    # Variation Selectors and other Default_Ignorable_Code_Point,
+    # rather than adding them to the mapping table.
+    #
+    # However, we do need to add explicit sequences with Variation Selectors
+    # if the VS goes into the middle of the sequence because otherwise
+    # the converter's longest-match algorithm fails to find the sequence.
+    #
+    # The conversion code is expected to use fallback mappings with
+    # Variation Selectors even if normal fallbacks are turned off.
+    # This is problematic if the symbol without VS has only a fallback mapping,
+    # that is, precision == "|0":
+    # The converter might not have enough logic to determine that such a
+    # fallback-sequence-with-VS should not be used.
+    if symbol.UnicodeHasVariationSequence() and len(cp_list) >= 2:
       # Add fallback mappings from "text style" and "emoji style"
       # Variation Selector sequences.
       vs_list = cp_list
