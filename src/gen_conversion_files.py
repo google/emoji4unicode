@@ -123,9 +123,8 @@ def _WriteMappings(writer, carrier, for_sjis):
 def _WritePartialMappingFile(path, carrier, for_sjis):
   type = "shift_jis" if for_sjis else "jisx_208"
   filename = os.path.join(path, "%s-%s-partial.ucm" % (carrier, type))
-  writer = codecs.open(filename, "w", "UTF-8")
-  _WriteMappings(writer, carrier, for_sjis)
-  writer.close()
+  with codecs.open(filename, "w", "UTF-8") as writer:
+    _WriteMappings(writer, carrier, for_sjis)
 
 
 _lead_byte_re = re.compile(u"^<U.+> +\\\\x([0-9A-Fa-f]{2})")
@@ -147,6 +146,128 @@ def _WriteCompleteMappingFile(sjis_reader, path, carrier, for_sjis):
       match = _lead_byte_re.match(line)
       if not match or int(match.group(1), 16) not in lead_bytes:
         writer.write(line)
+
+
+def _WriteGooglePUATransformFile(writer):
+  """Writes data for transforming Google PUA to Unicode 6.1 Emoji."""
+  gpua_map = {}
+  gpua_per16 = [False] * 256  # Boolean per 16 code points <= FEFFF
+  gpua_index = [0xff] * 64  # 0xff = none of 64 gpua's has a mapping
+  max_gpua = 0
+  writer.write(u"""// Mapping from Google PUA to Unicode 6.1 Emoji.
+// Folded array maps code points U+FE000..U+FEFFF to
+// 32-bit values as follows (0 = no mapping):
+// Bits 20.. 0: first code point
+// Bits 28..24: second code point
+//                   0: none
+//                   1: U+20E3 COMBINING ENCLOSING KEYCAP
+//              06..1f: U+1F1E6 REGIONAL INDICATOR SYMBOL LETTER A..
+//                      U+1F1FF REGIONAL INDICATOR SYMBOL LETTER Z
+// Bit      30: set if the symbol has variation selector sequences, see
+//              http://www.unicode.org/Public/UNIDATA/StandardizedVariants.html
+""")
+  symbols = emoji4unicode.GetSymbolsSortedByUnicode()
+  for (cp_list, symbol) in symbols:
+    google_uni = symbol.GetCarrierUnicode("google")
+    # Ignore symbols that have no Google PUA mapping,
+    # or only a fallback to one.
+    if not google_uni or google_uni.startswith(">"): continue
+    # Ignore symbols that have only a Google PUA mapping (not standard Unicode).
+    if cp_list[0] >= 0xf0000: continue
+    gpua = int(google_uni, 16)
+    if len(cp_list) > 2:
+      uni = "+".join([u"<U%04X>" % cp for cp in cp_list])
+      raise ValueError("Google PUA U+%s mapping to %s too long" %
+          (google_uni, uni))
+    value = cp_list[0]
+    if len(cp_list) == 2:
+      second = cp_list[1]
+      if second == 0x20e3:
+        value |= (1 << 24)
+      elif 0x1f1e6 <= second <= 0x1f1ff:
+        value |= ((second - 0x1f1e0) << 24)
+      else:
+        uni = "+".join([u"<U%04X>" % cp for cp in cp_list])
+        raise ValueError(
+            "Google PUA U+%s mapping to %s " +
+            "contains an unencodable second code point" %
+            (google_uni, uni))
+    if symbol.UnicodeHasVariationSequence():
+      value |= (1<<30)
+    if gpua in gpua_map:
+      raise ValueError("Google PUA U+%s maps to multiple symbols" % google_uni)
+    gpua_map[gpua] = value
+    gpua_per16[(gpua - 0xfe000) >> 4] = True
+    gpua_index[(gpua - 0xfe000) >> 6] = 0
+    if gpua > max_gpua: max_gpua = gpua
+  writer.write(u"// Google PUA mappings for U+FE000..U+%04X\n" % (max_gpua))
+  if not gpua_map:
+    raise ValueError("no Google PUA code points found with " +
+                     "mappings to standard Unicode")
+  # Find blocks of Google PUA code points with mappings.
+  # Build a dense index.
+  # 4 row indexes per block. row = 16 code points, block = 64.
+  index = 0
+  prev_block_per16 = 3  # last used row of the previous used block
+  for i in xrange(len(gpua_index)):
+    # Skip an empty block of 64 PUA code points.
+    if gpua_index[i] == 0xff: continue
+    last_map_gpua = 0xfe000 + (i << 6) + 0x3f
+    # Overlap rows of 16 zeros between the previous used block and this one.
+    j = 3
+    k = 0
+    while j > prev_block_per16 and not gpua_per16[(i << 2) + k]:
+      j -= 1
+      k += 1
+    # Set the block index, minus the overlap.
+    index -= k
+    gpua_index[i] = index
+    # Next block index is after this one.
+    index += 4
+    # Remember the last used row of this block.
+    prev_block_per16 = 3
+    while not gpua_per16[(i << 2) + prev_block_per16]: prev_block_per16 -= 1
+  writer.write(u"\n// One index into the map per block of 64 code points. " +
+               "0xff = no data.\n")
+  writer.write(u"// Multiply indexes by 16 for data access.\n")
+  for i in xrange(0, len(gpua_index), 8):
+    gpua = 0xfe000 + (i << 6)
+    writer.write(u"// U+%04X\n" % gpua)
+    for j in xrange(8):
+      writer.write(u"0x%02x" % gpua_index[i + j])
+      if j < 7:
+        writer.write(u", ")
+      elif (i + j) < (len(gpua_index) - 1):
+        writer.write(u",\n")
+      else:
+        writer.write(u"\n")
+  writer.write(u"\n// Data for blocks that have mappings.\n")
+  last_index = 0  # for skipping overlapped rows
+  for i in xrange(len(gpua_index)):
+    # Skip an empty block of 64 PUA code points.
+    index = gpua_index[i]
+    if index == 0xff: continue
+    gpua = 0xfe000 + (i << 6)
+    # Skip overlapped empty rows.
+    while index < last_index:
+      index += 1
+      gpua += 16
+    # Write the remaining rows of this block.
+    last_index = gpua_index[i] + 4
+    while index < last_index:
+      writer.write(u"// U+%04X\n" % gpua)
+      gpua_limit = gpua + 16
+      while gpua < gpua_limit:
+        value = (u"0x%x" % gpua_map[gpua]) if gpua in gpua_map else u"0"
+        if gpua == last_map_gpua:
+          suffix = u"\n"
+        elif (gpua & 3) < 3 :
+          suffix = u", "
+        else:
+          suffix = u",\n"
+        writer.write(value + suffix)
+        gpua += 1
+      index += 1
 
 
 def main():
@@ -174,6 +295,9 @@ def main():
     _WriteCompleteMappingFile(sjis_reader, path, "kddi", False)
     _WriteCompleteMappingFile(sjis_reader, path, "softbank", True)
     # We do not have JIS mapping data for SoftBank.
+  filename = os.path.join(path, "transform_gpua.txt")
+  with codecs.open(filename, "w", "UTF-8") as writer:
+    _WriteGooglePUATransformFile(writer)
 
 
 if __name__ == "__main__":
