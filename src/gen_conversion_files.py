@@ -1,4 +1,4 @@
-#!/usr/bin/python2.6
+#!/usr/bin/python
 #
 # Copyright 2012 Google Inc.
 #
@@ -72,23 +72,22 @@ def _WriteMappings(writer, carrier, for_sjis):
         complete = False
     if not complete: continue
     uni = "+".join([u"<U%04X>" % cp for cp in cp_list])
-    writer.write(u"%s %s %s\n" % (uni, b, precision))
     # Variation Selector sequences:
     # It is easiest to have the conversion code ignore/drop
     # Variation Selectors and other Default_Ignorable_Code_Point,
     # rather than adding them to the mapping table.
     #
-    # However, we do need to add explicit sequences with Variation Selectors
-    # if the VS goes into the middle of the sequence because otherwise
-    # the converter's longest-match algorithm fails to find the sequence.
-    #
-    # The conversion code is expected to use fallback mappings with
-    # Variation Selectors even if normal fallbacks are turned off.
-    # This is problematic if the symbol without VS has only a fallback mapping,
-    # that is, precision == "|0":
-    # The converter might not have enough logic to determine that such a
-    # fallback-sequence-with-VS should not be used.
+    # However, we do need to add explicit sequences with
+    # Variation Selectors if the VS goes into the middle of the sequence
+    # because otherwise the converter's longest-match algorithm
+    # fails to find the sequence.
     if symbol.UnicodeHasVariationSequence() and len(cp_list) >= 2:
+      # Give the mapping with the emoji style VS the roundtrip precision,
+      # and the others the "good one-way" precision.
+      # A |4 "good one-way" mapping is a one-way mapping, like a fallback,
+      # but it is always taken, regardless of the use-fallback flag.
+      non_emoji_style_precision = "|4" if precision == "|0" else precision
+      writer.write(u"%s %s %s\n" % (uni, b, non_emoji_style_precision))
       # Add fallback mappings from "text style" and "emoji style"
       # Variation Selector sequences.
       vs_list = cp_list
@@ -98,10 +97,12 @@ def _WriteMappings(writer, carrier, for_sjis):
       # the second code point.
       vs_list.insert(1, 0xfe0e)  # VS15 for text style
       uni = "+".join([u"<U%04X>" % cp for cp in vs_list])
-      writer.write(u"%s %s |1\n" % (uni, b))
+      writer.write(u"%s %s %s\n" % (uni, b, non_emoji_style_precision))
       vs_list[1] = 0xfe0f  # VS16 for emoji style
       uni = "+".join([u"<U%04X>" % cp for cp in vs_list])
-      writer.write(u"%s %s |1\n" % (uni, b))
+      writer.write(u"%s %s %s\n" % (uni, b, precision))
+    else:
+      writer.write(u"%s %s %s\n" % (uni, b, precision))
     if cp_list[0] < 0xF0000:
       google_uni = symbol.GetCarrierUnicode("google")
       if google_uni:
