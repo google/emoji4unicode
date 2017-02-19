@@ -321,7 +321,7 @@ class _DocomoData(CarrierData):
     """Get HTML for the symbol image, or an empty string.
 
     Called only from Symbol.ImageHTML()."""
-    path = "http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/"
+    path = "http://www.nttdocomo.co.jp/service/developer/make/content/pictograph/"
     if number < 300:
       return ("<img src=%sbasic/images/%d.gif width=16 height=16>" %
               (path, number))
@@ -406,9 +406,9 @@ class _SoftbankData(CarrierData):
     """Get HTML for the symbol image, or an empty string.
 
     Called only from Symbol.ImageHTML()."""
-    return ("<img src=http://creation.mb.softbank.jp/web/img/"
-            "%s01/%s_20%s.gif>" %
-            (uni[0:2], uni,
+    return ("<img src=http://creation.mb.softbank.jp/mc/tech/tech_pic/img/"
+            "%s_20%s.gif>" %
+            (uni,
              {False: "", True: "_ani"}[uni in self.__animated_img]))
 
 
